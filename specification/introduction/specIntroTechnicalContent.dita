@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="SpecIntroTechnicalContent" xml:lang="en-us">
+  <title>Introduction to DITA technical content</title>
+  <shortdesc>The techncial content part of DITA models the semantics of information types for
+    technical communications.</shortdesc>
+  <conbody>
+    <p>The technical content part of DITA adds the semantics of technical-communication
+      information-types to base DITA. This is done through several specializations:</p>
+    <ul>
+      <li>Topic specializations:<sl>
+          <sli>Concept</sli>
+          <sli>Glossary entry</sli>
+          <sli>Reference</sli>
+          <sli>Task</sli>
+          <sli>Troubleshooting</sli>
+        </sl></li>
+      <li>Domain specializations:<sl>
+        <sli>Abbreviated form</sli>
+        <sli>Equation</sli>
+        <sli>Hazard statement</sli>
+        <sli>Highlight</sli>
+        <sli>Indexing</sli>
+        <sli>Markup</sli>
+        <sli>MathML</sli>
+        <sli>Programming</sli>
+        <sli>Release management</sli>
+        <sli>Software</sli>
+        <sli>SVG</sli>
+        <sli>User interface</sli>
+        <sli>Utilities</sli>
+        <sli>XML mention</sli>
+        </sl></li>
+      <li>Bookmap map specialization</li>
+    </ul>
+  </conbody>
+</concept>

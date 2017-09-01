@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "concept.dtd">
+<concept id="conformance" xml:lang="en-us">
+  <title>Conformance</title>
+  <shortdesc><draft-comment author="BobThomas">Conformance statements to technical content will go
+      in this topic.</draft-comment></shortdesc>
+</concept>
