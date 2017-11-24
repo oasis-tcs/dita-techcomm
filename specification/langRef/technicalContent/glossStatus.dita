@@ -13,22 +13,24 @@ term and an alternate term provides an allowed term.</shortdesc>
                   elements<indexterm><xmlelement>glossStatus</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossStatus</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="section-1">
-                  <p>If validation is required for status values, <ph >use a
-                              subject scheme</ph> to set up controlled values for the
-                              <xmlatt>value</xmlatt> attribute. Alternatively, processing rules can
-                        be used to validate the values.</p></section>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossStatus/contains" id="contains" otherprops="contains"></section>
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/data concept/data glossentry/glossStatus </p></section>
-<example id="example" otherprops="examples">
-<title>Example</title>
-<p>See the example in <xref href="glossentry.dita#glossentry/example"
-><xmlelement>glossentry</xmlelement>.</xref></p></example>
-<section id="attributes"><title>Attributes</title>
+            <section id="usage-information">
+                  <title>Usage information</title>
+                  <p>If validation is required for status values, <ph>use a subject scheme</ph> to
+                        set up controlled values for the <xmlatt>value</xmlatt> attribute.
+                        Alternatively, processing rules can be used to validate the values.</p>
+            </section>
+            <section id="formatting-expectations">
+                  <title>Formatting expectations</title>
+            </section>
+            <section id="processing-expectations">
+                  <title>Processing expectations</title>
+            </section>
+            <section id="specialization-hierarchy">
+                  <title>Specialization hierarchy</title>
+                  <p>- topic/data concept/data glossentry/glossStatus </p>
+            </section>
+            <section id="attributes">
+                  <title>Attributes</title>
                   <p>The following attributes are available on this element: <xref
                               href="../attributes/dataElementAttributes.dita"/> (with a narrowed
                         definition of <xmlatt>value</xmlatt>, given below), <xref
@@ -42,7 +44,13 @@ topic/data concept/data glossentry/glossStatus </p></section>
                               <dd>The usage status of the term or alternate term.</dd>
                         </dlentry>
                   </dl>
-   </section>
+            </section>
+            <example id="example" otherprops="examples">
+                  <title>Example</title>
+                  <p>See the example in <xref href="glossentry.dita#glossentry/example"
+                                    ><xmlelement>glossentry</xmlelement>.</xref></p>
+            </example>
+<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossStatus/contains" id="contains" otherprops="contains"></section>
 </refbody>
 </reference>
 

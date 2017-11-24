@@ -13,20 +13,36 @@
           elements<indexterm><xmlelement>glossProperty</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossProperty</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossProperty/contains" otherprops="contains"></section>
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/data concept/data glossentry/glossProperty </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;glossentry id="algorithm" xml:lang="es-es">
+    <section id="usage-information">
+      <title>Usage information</title>
+    </section>
+    <section id="formatting-expectations">
+      <title>Formatting expectations</title>
+    </section>
+    <section id="processing-expectations">
+      <title>Processing expectations</title>
+    </section>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/data concept/data glossentry/glossProperty </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p
+        conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"
+      />
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;glossentry id="algorithm" xml:lang="es-es">
   &lt;glossterm>El algoritmo&lt;/glossterm>
   &lt;glossdef>Un algoritmo define un método de calcular un resultado.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
     &lt;glossProperty name="gender" value="masculine"/>
   &lt;/glossBody>
-&lt;/glossentry></codeblock></example>
-<section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"/>
-      </section>
+&lt;/glossentry></codeblock>
+    </example>
+<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossProperty/contains" otherprops="contains"></section>
 </refbody>
 </reference>

@@ -11,13 +11,26 @@
             elements<indexterm><xmlelement>glossgroup</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossgroup/contains" id="contains" otherprops="contains"></section>
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/topic concept/concept glossgroup/glossgroup </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;glossgroup id="things" xml:lang="en">
+    <section id="usage-information">
+      <title>Usage information</title>
+    </section>
+    <section id="formatting-expectations">
+      <title>Formatting expectations</title>
+    </section>
+    <section id="processing-expectations">
+      <title>Processing expectations</title>
+    </section>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/topic concept/concept glossgroup/glossgroup </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;glossgroup id="things" xml:lang="en">
   &lt;title>Some terms&lt;/title>
   &lt;glossentry id="bicycle">
     &lt;glossterm>bicycle&lt;/glossterm>
@@ -28,9 +41,9 @@ topic/topic concept/concept glossgroup/glossgroup </p></section>
     &lt;glossterm>Fruit bat&lt;/glossterm>
     &lt;glossdef>A bat which likes fruit&lt;/glossdef>
   &lt;/glossentry>
-&lt;/glossgroup></codeblock></example>
-<section id="attributes"><title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/></section>
+&lt;/glossgroup></codeblock>
+    </example>
+<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossgroup/contains" id="contains" otherprops="contains"></section>
 </refbody>
 </reference>
 
