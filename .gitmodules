@@ -1,0 +1,3 @@
+[submodule "dita-spec"]
+	path = dita-spec
+	url = https://github.com/oasis-tcs/dita.git
