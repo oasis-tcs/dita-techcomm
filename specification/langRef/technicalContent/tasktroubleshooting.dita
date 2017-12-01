@@ -3,12 +3,8 @@
  "reference.dtd">
 <reference id="tasktroubleshooting" xml:lang="en-us" >
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
-  <shortdesc>The <xmlelement>tasktroubleshooting</xmlelement> element provides information designed
-    to help users remedy the situation when a task does not complete as expected. In particular,
-    this element can be used to explain how users can recover when the results of a task do not
-    match those listed in the <xmlelement>result</xmlelement> element. The troubleshooting remedy
-    typically contains one or more actions for solving a problem. For complex remedies, link to
-    another task.</shortdesc>
+  <shortdesc>Task troubleshooting information is information that is designed to help users remedy
+    the situation when a task does not complete as expected. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,16 +15,24 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section-1">
-      <note type="tip">Do not use <codeph >&lt;note type="trouble"></codeph>
-        inside of <xmlelement>tasktroubleshooting</xmlelement> because its meaning there would be
-        ambiguous.</note>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>In particular, the <xmlelement>tasktroubleshooting</xmlelement> element can be used to
+        explain how users can recover when the results of a task do not match those listed in the
+          <xmlelement>result</xmlelement> element. The troubleshooting remedy typically contains one
+        or more actions for solving a problem. For complex remedies, link to another task.</p>
     </section>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-tasktroubleshooting/contains" otherprops="contains"></section>
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
-      <p>- topic/section task/tasktroubleshooting </p>
+    <section id="formatting-expectations">
+      <title>Formatting expectations</title>
+    </section>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>tasktroubleshooting</xmlelement> element is specialized from the
+          <xmlelement>section</xmlelement> element in the topic module.</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
@@ -60,12 +64,11 @@
   </postreq>
 ]]>
 </codeblock>
-      
     </example>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
-      
+    <section id="section-1">
+      <note type="tip">Do not use <codeph >&lt;note type="trouble"></codeph>
+        inside of <xmlelement>tasktroubleshooting</xmlelement> because its meaning there would be
+        ambiguous.</note>
     </section>
   </refbody>
 </reference>
