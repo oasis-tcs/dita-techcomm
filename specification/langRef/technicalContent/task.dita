@@ -15,25 +15,24 @@ topics, with a title, short description and body.</shortdesc>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="section-1"><note
-conref="taskbody.dita#taskbody/constrained-taskbody-xpl"></note><p>See the <xref href="taskbody.dita">taskbody</xref> description
-for additional details about the two models and for a description
-of impacts to DITA 1.1 documents.</p></section>
-<!--<section>In the document types provided by OASIS with DITA
-1.0 and 1.1, the task only allowed a single set of steps. In DITA
-1.2 this restriction is relaxed so that a task may define more than
-one set of steps. However, OASIS will continue to distribute a sample
-document type that only allows a single set (using the new constraints
-mechanism available with DITA 1.2), for use by those that prefer the
-more restrictive model.</section>-->
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-task/contains" id="contains" otherprops="contains"></section>
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/topic task/task </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock
-xml:space="preserve">&lt;task id="sqlj"&gt;
+  <section id="usage-information">
+   <title>Usage information</title>
+   <note conref="taskbody.dita#taskbody/constrained-taskbody-xpl"/>
+   <p>See the <xref href="taskbody.dita">taskbody</xref> description for additional details about
+    the two models and for a description of impacts to DITA 1.1 documents.</p>
+  </section>
+  <section id="specialization-hierarchy">
+   <title>Specialization hierarchy</title>
+   <p>The <xmlelement>task</xmlelement> element is specialized from the
+     <xmlelement>topic</xmlelement> element in the topic module.</p>
+  </section>
+  <section id="attributes">
+   <title>Attributes</title>
+   <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/>
+  </section>
+  <example id="example" otherprops="examples">
+   <title>Example</title>
+   <codeblock>&lt;task id="sqlj"&gt;
  &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
  &lt;taskbody&gt;
   &lt;context&gt;Once you have set up SQLJ, you need to create a new SQLJ file.
@@ -42,10 +41,8 @@ xml:space="preserve">&lt;task id="sqlj"&gt;
    &lt;step&gt;&lt;cmd&gt;Open...&lt;/cmd&gt;&lt;/step&gt;
   &lt;/steps&gt;
  &lt;/taskbody&gt;
-&lt;/task&gt; </codeblock></example>
-<section id="attributes"><title>Attributes</title><sectiondiv
-    conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"
-   /></section>
+&lt;/task&gt; </codeblock>
+  </example>
 </refbody>
 </reference>
 

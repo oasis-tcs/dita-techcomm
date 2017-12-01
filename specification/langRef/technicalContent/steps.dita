@@ -14,20 +14,26 @@ element is required inside the <xmlelement>steps</xmlelement> element.</shortdes
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="section-1"><p>Steps with only a single step <ph >might</ph> be rendered as a paragraph
-    rather than as a list. Two or more steps should typically be rendered as an ordered list. If all
-    of the contained steps are simple (that is, have no more than a <xmlelement>cmd</xmlelement>
-    element each) then the step list should default to compact. Otherwise it should be rendered as
-    expanded (with blank lines between each step).</p>
-   <!--<note id="multiple-steps">Beginning with DITA 1.2, the general task model allows multiple <xmlelement>steps</xmlelement> and <xmlelement>steps-unordered</xmlelement> elements. However, the default task model in the OASIS distribution (known as strict task) continues to allow only one <xmlelement>steps</xmlelement> or one <xmlelement>steps-unordered</xmlelement> element.</note>--></section>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-steps/contains" id="contains" otherprops="contains"></section>
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/ol task/steps </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock
-xml:space="preserve">&lt;task id="sqlj"&gt;
+  <section id="formatting-expectations">
+   <title>Formatting expectations</title>
+   <p>Steps with only a single step might be rendered as a paragraph rather than as a list. Two or
+    more steps should typically be rendered as an ordered list. If all of the contained steps are
+    simple (that is, have no more than a <xmlelement>cmd</xmlelement> element each) then the step
+    list should default to compact. Otherwise it should be rendered as expanded (with blank lines
+    between each step).</p>
+  </section>
+  <section id="specialization-hierarchy">
+   <title>Specialization hierarchy</title>
+   <p>The <xmlelement>steps</xmlelement> element is specialized from the <xmlelement>ol</xmlelement>
+    element in the topic module.</p>
+  </section>
+  <section id="attributes">
+   <title>Attributes</title>
+   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+  </section>
+  <example id="example" otherprops="examples">
+   <title>Example</title>
+   <codeblock>&lt;task id="sqlj"&gt;
 &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
  &lt;taskbody&gt;
  &lt;context&gt;Once you have set up SQLJ, you need to create a new SQLJ file.&lt;/context&gt;
@@ -40,9 +46,8 @@ xml:space="preserve">&lt;task id="sqlj"&gt;
    &lt;/step&gt;
   &lt;/steps&gt;
  &lt;/taskbody&gt;
-&lt;/task&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/></section>
+&lt;/task&gt;</codeblock>
+  </example>
 </refbody>
 </reference>
 
