@@ -41,7 +41,6 @@ new elements.</p>
 <p>The <xmlelement>taskbody</xmlelement> element is specialized from the
 <xmlelement>topic</xmlelement> element in the topic module.</p>
 </section>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-taskbody/contains" id="contains" otherprops="contains"></section>
 <section id="attributes"><title>Attributes</title>
       <p conref="../../common/conref-attribute.dita#conref-attribute/topic-body"/>
    </section>
