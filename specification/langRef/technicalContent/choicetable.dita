@@ -8,11 +8,11 @@ available within a step of a task.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>choice
-            tables<indexterm><xmlatt>keycol</xmlatt></indexterm><indexterm>overview</indexterm><indexterm>rendering
+            tables<indexterm><xmlatt>keycol</xmlatt></indexterm><indexterm>overview</indexterm><indexterm>formatting
             expectations</indexterm></indexterm><indexterm><xmlelement>choicetable</xmlelement></indexterm>
         <indexterm><xmlatt>keycol</xmlatt></indexterm>
-        <indexterm>rendering
-          expectations<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
+        <indexterm>formatting
+            expectations<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
         <indexterm>tables<indexterm>choice tables</indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>

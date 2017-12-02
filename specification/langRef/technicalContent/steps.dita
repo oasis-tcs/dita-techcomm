@@ -3,14 +3,16 @@
  "reference.dtd">
 <reference id="steps" xml:lang="en-us">
 <title><xmlelement>steps</xmlelement></title>
-<shortdesc>The <xmlelement>steps</xmlelement> element provides the
-main content of a task topic. The task is described as a series of
-steps that the user must follow to accomplish the task. At least one <xmlelement>step</xmlelement>
-element is required inside the <xmlelement>steps</xmlelement> element.</shortdesc>
+<shortdesc><draft-comment author="Kristen J Eberlein" time="1 December 2017">Here is the original
+   content: "The <xmlelement>steps</xmlelement> element provides the main content of a task topic.
+   The task is described as a series of steps that the user must follow to accomplish the task. At
+   least one <xmlelement>step</xmlelement> element is required inside the
+    <xmlelement>steps</xmlelement> element."</draft-comment>Steps are a series of actions that are
+  conducted in a specific order and manner.</shortdesc>
 <prolog><metadata>
 <keywords>
-    <indexterm>rendering
-     expectations<indexterm><xmlelement>steps</xmlelement></indexterm></indexterm><indexterm><xmlelement>steps</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>steps</xmlelement></indexterm></indexterm>
+    <indexterm>formatting
+          expectations<indexterm><xmlelement>steps</xmlelement></indexterm></indexterm><indexterm><xmlelement>steps</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>steps</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>

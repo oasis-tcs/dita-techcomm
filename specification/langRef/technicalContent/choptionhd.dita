@@ -4,16 +4,20 @@
 <reference id="choptionhd" xml:lang="en-us">
 <title><xmlelement>choptionhd</xmlelement></title>
 <shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a specific label for the list of
-      options from which a user chooses in order to accomplish a step. <ph >The default
-         label for the list of options could be a localized translation of <b>Option</b>.
-         <!--RDA 25 February 2014: original text from DITA 1.2 seems inappropriate:
-"The default label for options is a localized translation of Option."--></ph></shortdesc>
+      options from which a user chooses in order to accomplish a step. </shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>choptionhd</xmlelement></indexterm>
+            <indexterm>processing
+                  expectations<indexterm><xmlelement>choptionhd</xmlelement></indexterm></indexterm>
 <indexterm>task elements<indexterm><xmlelement>choptionhd</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
+      <section id="processing-expectations">
+         <title>Processing expectations</title>
+         <p>The default label for the list of options could be a localized translation of
+               <b>Option</b>.</p>
+      </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>choptionhd</xmlelement> element is specialized from the

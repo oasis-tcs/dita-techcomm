@@ -3,10 +3,12 @@
  "reference.dtd">
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
-<shortdesc>Prerequisites are things that users must know or tasks that users must perform before
-  starting the current task. </shortdesc>
+<shortdesc>Prerequisites are things that users must know or preliminary tasks that users must
+    perform before starting the current task. </shortdesc>
 <prolog><metadata>
-<keywords><indexterm><xmlelement>prereq</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm>
+<keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
+        <indexterm>formatting
+          expectations<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm>
     <indexterm>processing
      expectations<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm>
 </keywords>
@@ -15,7 +17,8 @@
   <section id="formatting-expectations">
    <title>Formatting expectations</title>
    <p>Implementations <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
-    related-links section together with the <xmlelement>prereq</xmlelement> content.</p>
+        related-links section together with the content of the <xmlelement>prereq</xmlelement>
+        element.</p>
    <!--Replaced the following sentence based on review comments:
 "Prerequisite links will be placed in a list after the related-links
 section; on output the &lt;prereq&gt; links from the related-links
@@ -23,8 +26,8 @@ section are added to the &lt;prereq&gt; section."-->
   </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
-   <p>The prereq<xmlelement/> element is specialized from the section element in the topic
-    module.</p>
+   <p>The <xmlelement>prereq</xmlelement> element is specialized from the section element in the
+        topic module.</p>
   </section>
   <section id="attributes">
    <title>Attributes</title>
