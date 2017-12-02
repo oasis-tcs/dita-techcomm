@@ -8,7 +8,9 @@ shortdesc, and any mention of overriding is moved to the processing section. <ph
 default headings for the <xmlelement>choicetable</xmlelement> (such as "Option" and "Description").
 The <xmlelement>chhead</xmlelement> element contains both a <xmlelement>choptionhd</xmlelement> and
 <xmlelement>chdeschd</xmlelement> element as a pair.</ph></draft-comment></shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
-        <indexterm>choice tables<indexterm>alternate header text</indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+        <indexterm>choice tables<indexterm>alternate header text</indexterm></indexterm>
+        <indexterm>processing
+          expectations<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="processing-expectations">
 <title>Processing expectations</title>
 <p>The heading in <xmlelement>chhead</xmlelement> overrides any default headings for the

@@ -9,7 +9,9 @@
   least one <xmlelement>step</xmlelement> element is required inside the
    <xmlelement>steps-unordered</xmlelement> element.</shortdesc>
 <prolog><metadata>
-<keywords><indexterm><xmlelement>steps-unordered</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm>
+<keywords><indexterm><xmlelement>steps-unordered</xmlelement></indexterm>
+        <indexterm>formatting
+            expectations<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>

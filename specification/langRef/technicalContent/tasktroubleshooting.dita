@@ -22,9 +22,6 @@
           <xmlelement>result</xmlelement> element. The troubleshooting remedy typically contains one
         or more actions for solving a problem. For complex remedies, link to another task.</p>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>tasktroubleshooting</xmlelement> element is specialized from the

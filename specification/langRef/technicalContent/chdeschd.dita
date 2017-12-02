@@ -9,7 +9,8 @@ think "complete" a step is more appropriate than "accomplish" a step?</draft-com
 </shortdesc>
 <prolog><metadata>
 <keywords>
-        <indexterm><xmlelement>chdeschd</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>chdeschd</xmlelement></indexterm></indexterm>
+        <indexterm><xmlelement>chdeschd</xmlelement><indexterm>processing
+                expectations<indexterm><xmlelement>chdeschd</xmlelement></indexterm></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chdeschd</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>

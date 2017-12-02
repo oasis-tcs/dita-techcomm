@@ -8,6 +8,8 @@
 same content model as a list item, it is not intended to represent a step in a task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepsection</xmlelement></indexterm>
+        <indexterm>formatting
+            expectations<indexterm><xmlelement>stepsection</xmlelement></indexterm></indexterm>
         <indexterm>task elements</indexterm>
         <indexterm><xmlelement>stepsection</xmlelement></indexterm></keywords>
 </metadata></prolog>
