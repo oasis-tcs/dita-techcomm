@@ -4,10 +4,7 @@
 <reference id="abbreviated-form" xml:lang="en-us">
 <title><xmlelement>abbreviated-form</xmlelement></title>
 <shortdesc>The <xmlelement>abbreviated-form</xmlelement> element represents a reference to a term
-    that might appear in an abbreviated form (often an acronym). The long and short forms of the
-    term are generally defined in a <xmlelement>glossentry</xmlelement> topic. Processors display
-    the referenced term when rendering an <xmlelement>abbreviated-form</xmlelement>
-    element.</shortdesc>
+    that might appear in an abbreviated form (often an acronym).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,11 +17,12 @@
     </metadata>
   </prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
+    <section id="usage-information"><title>Usage information</title>The long and short forms of the
+      term are generally defined in a <xmlelement>glossentry</xmlelement> topic.</section>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
+      <p>Processors display the referenced term when rendering an
+          <xmlelement>abbreviated-form</xmlelement> element.</p>
       <p>The <xmlelement>abbreviated-form</xmlelement> element is intended to reference a
           <xmlelement>glossentry</xmlelement> topic that contains both a term and an abbreviated
         form of that term. The topic <ph>might</ph> also provide a surface form that differs from
@@ -79,7 +77,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/term abbrev-d/abbreviated-form </p>
+      <p>+ topic/term abbrev-d/abbreviated-form</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -126,7 +124,7 @@ driver to stop. For this reason many find an
           Anti-lock Braking System (ABS) helps a driver to stop. For this reason many find an ABS
           useful.</lq></p>
     </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-abbreviated-form/contains" otherprops="contains"></section>
+    <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-abbreviated-form/contains" otherprops="contains"/>-->
 </refbody>
 </reference>
 

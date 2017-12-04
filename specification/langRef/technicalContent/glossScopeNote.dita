@@ -5,9 +5,7 @@
 <title><xmlelement>glossScopeNote</xmlelement></title>
 <shortdesc>The <xmlelement>glossScopeNote</xmlelement> element contains a clarification of the
     subject that is designated by the <xmlelement>glossterm</xmlelement>, such as examples of
-    included or excluded companies or products. For instance, a scope note for "Linux" might explain
-    that the term doe not apply to UNIX products;  it might give examples of Linux products that are
-    included as well as UNIX products that are excluded. </shortdesc>
+    included or excluded companies or products. </shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>scope notes</indexterm></indexterm>
@@ -15,9 +13,9 @@
           elements<indexterm><xmlelement>glossScopeNote</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossScopeNote</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
+    <section id="usage-information"><title>Usage information</title>For instance, a scope note for
+      "Linux" might explain that the term doe not apply to UNIX products; it might give examples of
+      Linux products that are included as well as UNIX products that are excluded.</section>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
     </section>
@@ -26,7 +24,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/note concept/note glossentry/glossScopeNote </p>
+      <p>- topic/note concept/note glossentry/glossScopeNote</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -46,7 +44,7 @@ themselves.  Examples include RedHat, SuSE, and Ubuntu. &lt;/glossScopeNote>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossScopeNote/contains" id="contains" otherprops="contains"></section>
+    <!--<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossScopeNote/contains" id="contains" otherprops="contains"/>-->
 </refbody>
 </reference>
 

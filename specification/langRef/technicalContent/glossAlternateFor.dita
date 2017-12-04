@@ -28,7 +28,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/xref concept/xref glossentry/glossAlternateFor </p>
+      <p>- topic/xref concept/xref glossentry/glossAlternateFor</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -55,6 +55,6 @@
       <p>See the example in <xref href="glossentry.dita#glossentry/example"
             ><xmlelement>glossentry</xmlelement>.</xref></p>
     </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossAlternateFor/contains" otherprops="contains"></section>
+    <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossAlternateFor/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

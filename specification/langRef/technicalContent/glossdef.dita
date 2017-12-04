@@ -3,19 +3,17 @@
  "reference.dtd">
 <reference id="glossdef" xml:lang="en-us">
 <title><xmlelement>glossdef</xmlelement></title>
-<shortdesc>The <xmlelement>glossdef</xmlelement> element specifies
-the definition of one sense of a term. If a term has multiple senses,
-create a separate <xmlelement>glossentry</xmlelement> topic to define
-each sense.</shortdesc>
+<shortdesc>The <xmlelement>glossdef</xmlelement> element specifies the definition of one sense of a
+      term.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>definitions</indexterm></indexterm><indexterm><xmlelement>glossdef</xmlelement></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossdef</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-      </section>
+      <section id="usage-information"><title>Usage information</title> If a term has multiple
+         senses, create a separate <xmlelement>glossentry</xmlelement> topic to define each
+         sense.</section>
       <section id="formatting-expectations">
          <title>Formatting expectations</title>
       </section>
@@ -24,7 +22,7 @@ each sense.</shortdesc>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/abstract concept/abstract glossentry/glossdef </p>
+         <p>- topic/abstract concept/abstract glossentry/glossdef</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>
@@ -35,6 +33,6 @@ each sense.</shortdesc>
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossdef/contains" otherprops="contains"></section>
+      <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossdef/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

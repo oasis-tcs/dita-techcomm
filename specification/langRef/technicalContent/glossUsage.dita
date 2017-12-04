@@ -23,7 +23,7 @@ the correct use of a term, such as where or how it can be used.</shortdesc>
         </section>
         <section id="specialization-hierarchy">
             <title>Specialization hierarchy</title>
-            <p>- topic/note concept/note glossentry/glossUsage </p>
+            <p>- topic/note concept/note glossentry/glossUsage</p>
         </section>
         <section id="attributes">
             <title>Attributes</title>
@@ -35,6 +35,6 @@ the correct use of a term, such as where or how it can be used.</shortdesc>
             <p>See the example in <xref href="glossentry.dita#glossentry/example"
                         ><xmlelement>glossentry</xmlelement>.</xref></p>
         </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossUsage/contains" otherprops="contains"></section>
+        <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossUsage/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

@@ -28,7 +28,7 @@
       hover or click.</section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic concept/concept glossentry/glossentry </p>
+      <p>- topic/topic concept/concept glossentry/glossentry</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -68,6 +68,6 @@
           &lt;/glossentry></codeblock>
       </fig>
     </example>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossentry/contains" id="contains" otherprops="contains"></section>
+    <!--<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossentry/contains" id="contains" otherprops="contains"></section>-->
   </refbody>
 </reference>

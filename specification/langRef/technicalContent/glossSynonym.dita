@@ -26,7 +26,7 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/title concept/title glossentry/glossSynonym </p>
+         <p>- topic/title concept/title glossentry/glossSynonym</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>
@@ -37,6 +37,6 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossSynonym/contains" otherprops="contains"></section>
+      <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossSynonym/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

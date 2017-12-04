@@ -4,8 +4,7 @@
 <reference id="glossterm" xml:lang="en-us">
 <title><xmlelement>glossterm</xmlelement></title>
 <shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the preferred term that is
-      associated with a definition of a sense. If the same term has multiple senses, create a
-      separate <xmlelement>glossentry</xmlelement> topic for each sense.</shortdesc>
+      associated with a definition of a sense.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>terms</indexterm></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossterm</xmlelement></indexterm></indexterm>
@@ -13,9 +12,9 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-      </section>
+      <section id="usage-information"><title>Usage information</title>If the same term has multiple
+         senses, create a separate <xmlelement>glossentry</xmlelement> topic for each
+         sense.</section>
       <section id="formatting-expectations">
          <title>Formatting expectations</title>
       </section>
@@ -24,7 +23,7 @@
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/title concept/title glossentry/glossterm </p>
+         <p>- topic/title concept/title glossentry/glossterm</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>
@@ -35,6 +34,6 @@
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossterm/contains" otherprops="contains"></section>
+      <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossterm/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

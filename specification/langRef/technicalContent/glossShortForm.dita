@@ -27,7 +27,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/title concept/title glossentry/glossShortForm </p>
+      <p>- topic/title concept/title glossentry/glossShortForm</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -46,6 +46,6 @@
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossShortForm/contains" otherprops="contains"></section>
+    <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossShortForm/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

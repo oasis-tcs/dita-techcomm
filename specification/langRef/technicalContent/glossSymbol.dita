@@ -23,7 +23,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/image concept/image glossentry/glossSymbol </p>
+      <p>- topic/image concept/image glossentry/glossSymbol</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -84,6 +84,6 @@
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossSymbol/contains" otherprops="contains"></section>
+    <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossSymbol/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

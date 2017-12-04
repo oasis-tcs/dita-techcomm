@@ -4,7 +4,7 @@
 <reference id="glossAcronym" xml:lang="en-us">
 <title><xmlelement>glossAcronym</xmlelement></title>
 <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an acronym for the term that is
-      defined in the <xmlelement>glossterm</xmlelement> element. </shortdesc>
+      defined in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossAcronym</xmlelement></indexterm>
             <indexterm>glossaries<indexterm>acronyms</indexterm></indexterm>
@@ -41,7 +41,7 @@
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/title concept/title glossentry/glossAcronym </p>
+         <p>- topic/title concept/title glossentry/glossAcronym</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>
@@ -52,6 +52,6 @@
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossAcronym/contains" otherprops="contains"></section>
+      <!--<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossAcronym/contains" otherprops="contains"/>-->
 </refbody>
 </reference>

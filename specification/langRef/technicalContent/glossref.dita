@@ -4,23 +4,26 @@
 <reference id="glossref" xml:lang="en-us">
 <title><xmlelement>glossref</xmlelement></title>
 <shortdesc>The <xmlelement>glossref</xmlelement> element is a convenience element in maps for
-creating a reference to a glossary topic. It has a required <xmlatt>keys</xmlatt> attribute, which
-forces the author to create a key by which inline terms can reference their definition. For example,
-when <xmlelement>glossentry</xmlelement> topics are used to define acronyms, this reminds authors to
-create a key which <xmlelement>abbreviated-form</xmlelement> elements can use to reference the short
-and expanded versions of that acronym.</shortdesc>
+    creating a reference to a glossary topic. It has a required <xmlatt>keys</xmlatt> attribute,
+    which forces the author to create a key by which inline terms can reference their
+    definition.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossref</xmlelement></indexterm>
         <indexterm>glossary-related
           elements<indexterm><xmlelement>glossref</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information"><title>Usage information</title>Note that the key value does not
-      need to match the target term or acronym. In fact, using a more qualified value for the
-        <xmlatt>keyref</xmlatt> will reduce conflicts in situations where the same term or acronym
-        <ph>might</ph> resolve in many ways. For example, an information set could use
-        <q>cars.abs</q> as the key for the term Anti-lock Braking System, and <q>ship.abs</q> to
-      refer to the term American Bureau of Shipping.</section>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>For example, when <xmlelement>glossentry</xmlelement> topics are used to define acronyms,
+        this reminds authors to create a key which <xmlelement>abbreviated-form</xmlelement>
+        elements can use to reference the short and expanded versions of that acronym.</p>
+      <p>Note that the key value does not need to match the target term or acronym. In fact, using a
+        more qualified value for the <xmlatt>keyref</xmlatt> will reduce conflicts in situations
+        where the same term or acronym <ph>might</ph> resolve in many ways. For example, an
+        information set could use <q>cars.abs</q> as the key for the term Anti-lock Braking System,
+        and <q>ship.abs</q> to refer to the term American Bureau of Shipping.</p>
+    </section>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
     </section>
@@ -29,7 +32,7 @@ and expanded versions of that acronym.</shortdesc>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ map/topicref glossref-d/glossref </p>
+      <p>+ map/topicref glossref-d/glossref</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -74,21 +77,21 @@ and expanded versions of that acronym.</shortdesc>
               individual glossary entries from creating links based on their location in the map.
               Allowable values are:<dl>
                 <dlentry>
-                  <dt>targetonly </dt>
-                  <dd>A topic can only be linked to and cannot link to other topics. </dd>
+                  <dt>targetonly</dt>
+                  <dd>A topic can only be linked to and cannot link to other topics.</dd>
                 </dlentry>
                 <dlentry>
-                  <dt>sourceonly </dt>
-                  <dd>A topic cannot be linked to but can link to other topics. </dd>
+                  <dt>sourceonly</dt>
+                  <dd>A topic cannot be linked to but can link to other topics.</dd>
                 </dlentry>
                 <dlentry>
-                  <dt>normal </dt>
+                  <dt>normal</dt>
                   <dd>A topic can be linked to and can link to other topics. Use this to override
-                    the linking value of a parent topic. </dd>
+                    the linking value of a parent topic.</dd>
                 </dlentry>
                 <dlentry>
-                  <dt>none </dt>
-                  <dd>A topic cannot be linked to or link to other topics. </dd>
+                  <dt>none</dt>
+                  <dd>A topic cannot be linked to or link to other topics.</dd>
                 </dlentry>
                 <dlentry conref="../../common/conref-attribute.dita#conref-attribute/ditauseconref">
                   <dt/>
@@ -108,7 +111,7 @@ and expanded versions of that acronym.</shortdesc>
   &lt;!-- ... key declarations for other referenced acronyms ... -->
 &lt;/map></codeblock>
     </example>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossref/contains" id="contains" otherprops="contains"></section>
+    <!--<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossref/contains" id="contains" otherprops="contains"/>-->
 </refbody>
 </reference>
 
