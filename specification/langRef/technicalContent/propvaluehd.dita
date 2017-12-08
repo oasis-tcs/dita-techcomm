@@ -12,14 +12,20 @@ value column of a properties table.</shortdesc>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-propvaluehd/contains" otherprops="contains"></section>
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/stentry     reference/propvaluehd </p></section>
-<example id="example" otherprops="examples"><title>Example</title><p>See the example
-in <xref href="properties.dita"></xref>.</p></example>
-<section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-specentry"/>
-   </section>
+      <section id="specialization-hierarchy">
+         <title>Specialization hierarchy</title>
+         <p>The <xmlelement>propvaluehd</xmlelement> element is specialized from the
+               <xmlelement>stentry</xmlelement> element in the topic module.</p>
+      </section>
+      <section id="attributes">
+         <title>Attributes</title>
+         <p
+            conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-specentry"
+         />
+      </section>
+      <example id="example" otherprops="examples">
+         <title>Example</title>
+         <p>See the example in <xref href="properties.dita"/>.</p>
+      </example>
 </refbody>
 </reference>
