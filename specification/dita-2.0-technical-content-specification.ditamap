@@ -69,13 +69,8 @@
     </booklists>
   </frontmatter>
   <chapter format="ditamap" href="introduction/introduction.ditamap"/>
-  <chapter href="archSpec/archSpec-technicalContent.dita">
-    <mapref href="archSpec/archSpec-technicalContent.ditamap"/>
-  </chapter>
-  <chapter href="langRef/langRef-technicalContent.dita">
-    <topicref href="langRef/quick-reference/technicalContent-elements-a-to-z.dita"/>
-    <mapref href="langRef/technicalContent-elements.ditamap"/>
-  </chapter>
+  <chapter href="archSpec/archSpec-technicalContent.ditamap"/>
+  <chapter href="langRef/technicalContent-elements.ditamap"/>
   <chapter href="conformance/conformance.dita"/>
   <appendix href="acknowledgments/acknowledgments.dita"/>
   <appendix format="ditamap" href="langRef/attributes/ditaref-attributes.ditamap"/>
