@@ -3,7 +3,8 @@
  "map.dtd">
 <map id="technicalContent_elements" xml:lang="en-us" collection-type="sequence">
  <title>Technical content elements</title>
- <topicref href="containers/technical-content-elements.dita">
+ <topicref href="langRef-technicalContent.dita">
+  <topicref href="quick-reference/technicalContent-elements-a-to-z.dita"/>
   <mapref href="concept-elements.ditamap"/>
   <mapref href="task-elements.ditamap"/>
   <mapref href="reference-elements.ditamap"/>
@@ -192,4 +193,5 @@
    </topicref>
   </topicref>
  </topicref>
+ <topicref href="containers/technical-content-elements.dita"/>
 </map>
