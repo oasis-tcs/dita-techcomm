@@ -13,15 +13,22 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-refsyn/contains" id="contains" otherprops="contains"></section>
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/section     reference/refsyn </p></section>
-<example id="example" otherprops="examples"><title>Example</title><fig><title>Reference
-topic for software material</title>
-<codeblock>&lt;reference id="MyAPI">
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>refsyn</xmlelement> element is specialized from the
+          <xmlelement>section</xmlelement> element in the topic module.</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p
+        conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"
+      />
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <fig id="fig_spq_dk2_dcb">
+        <title>Reference topic for software material</title>
+        <codeblock>&lt;reference id="MyAPI">
   &lt;title>MyAPI&lt;/title>
   &lt;refbody>
     &lt;refsyn>Describe the MyAPI syntax here, possibly
@@ -29,10 +36,8 @@ using synph or syntax elements markup for explicit
 definition of syntax or prototype construction.&lt;/refsyn>
   &lt;/refbody>
 &lt;/reference></codeblock>
-</fig></example>
-<section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"/>
-      </section>
+      </fig>
+    </example>
 </refbody>
 </reference>
 

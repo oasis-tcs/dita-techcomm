@@ -15,7 +15,8 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-    <section id="section-1">
+    <section id="usage-information">
+      <title>Usage information</title>
       <p>Reference topics have the same high-level structure as any other topic type, with a title,
         short description, and body. Within the body, reference topics are typically organized into
         one or more sections, property lists, and tables. The reference topic type provides general
@@ -23,15 +24,20 @@
           <xmlelement>refsyn</xmlelement> for syntax or signatures, and
           <xmlelement>properties</xmlelement> for lists of properties and values</p>
     </section>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-reference/contains" id="contains" otherprops="contains"></section>
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/topic       reference/reference </p></section>
-<example id="example" otherprops="examples"><title>Example</title><fig><title>Reference
-topic for software material</title>
-<codeblock>&lt;reference id="refexample"&gt;
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>reference</xmlelement> element is specialized from the
+          <xmlelement>topic</xmlelement> element in the topic module.</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <fig id="fig_vx5_bj2_dcb">
+        <title>Reference topic for software material</title>
+        <codeblock>&lt;reference id="refexample"&gt;
   &lt;title&gt;A reference topic&lt;/title&gt;
   &lt;refbody&gt;
     &lt;refsyn&gt;Describe command or api syntax here, possibly
@@ -47,10 +53,12 @@ definition of syntax or prototype construction.&lt;/refsyn&gt;
     &lt;/properties&gt;
   &lt;/refbody&gt;
 &lt;/reference&gt;</codeblock>
-</fig><fig><title>Reference topic for hardware maintenance</title>
-<p>The following information could apply to an entire set of maintenance
-procedures, each of which would link to this topic.</p>
-<codeblock>&lt;reference id="requiredTools">
+      </fig>
+      <fig id="fig_wx5_bj2_dcb">
+        <title>Reference topic for hardware maintenance</title>
+        <p>The following information could apply to an entire set of maintenance procedures, each of
+          which would link to this topic.</p>
+        <codeblock>&lt;reference id="requiredTools">
   &lt;title>Tools required to maintain a big machine&lt;/title>
   &lt;refbody>
     &lt;section>
@@ -69,10 +77,8 @@ procedures, each of which would link to this topic.</p>
     &lt;/section>
   &lt;/refbody>
 &lt;/reference></codeblock>
-</fig></example>
-<section id="attributes"><title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"
-      /></section>
+      </fig>
+    </example>
 </refbody>
 </reference>
 
