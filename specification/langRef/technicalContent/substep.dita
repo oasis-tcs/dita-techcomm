@@ -5,8 +5,8 @@
     within it, in order to prevent unlimited nesting of steps.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>substep</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>substep</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The substep<xmlelement/> element is specialized from the <xmlelement>li</xmlelement>
-        element in the topic module.</p>
+      <p>The <xmlelement>substep</xmlelement> element is specialized from the
+          <xmlelement>li</xmlelement> element in the topic module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

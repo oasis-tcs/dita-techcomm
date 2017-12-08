@@ -3,7 +3,9 @@
  "concept.dtd">
 <concept id="langRef-technicalContent" xml:lang="en-us">
 <title>Technical content language reference</title>
- <shortdesc>Technical content language reference contains topics for each element defined in the <ph
-    rev="errata-01">technical</ph> content specializations.</shortdesc>
+ <shortdesc>The technical content language reference contains topics for each element defined in the
+  technical content specializations. These elements include the original Concept, Task, and
+  Reference specializations, as well as specializations added in later releases . It also includes
+  domains designed primarily for technical content.</shortdesc>
 </concept>
 
