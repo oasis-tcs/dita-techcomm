@@ -19,7 +19,7 @@ topic/keyword sw-d/cmdname </p></section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;p>Use the &lt;cmdname>rm&lt;/cmdname> command when
 you wish to remove something forever.&lt;/p></codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 </refbody>
 </reference>

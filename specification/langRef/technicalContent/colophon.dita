@@ -31,7 +31,7 @@ map/topicref bookmap/colophon </p></section>
   &lt;/backmatter>
 &lt;/bookmap></codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+conkeyref="conref-attribute/bookmap-topicrefs"
 /></section>
 </refbody>
 </reference>

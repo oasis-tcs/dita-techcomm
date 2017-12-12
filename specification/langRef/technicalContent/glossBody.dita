@@ -26,7 +26,7 @@ glossary term (such as part of speech or additional forms of the term).</shortde
       </section>
       <section id="attributes">
          <title>Attributes</title>
-         <p conref="../../common/conref-attribute.dita#conref-attribute/topic-body"/>
+         <p conkeyref="conref-attribute/topic-body"/>
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>

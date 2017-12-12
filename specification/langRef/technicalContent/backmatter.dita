@@ -27,7 +27,7 @@
    <p>See the example in <xref href="bookmap.dita"></xref>.</p>
   </example>
   <section id="attributes"><title>Attributes</title><sectiondiv
-    conref="../../common/conref-attribute.dita#conref-attribute/bookmap-frontbackmatter"
+    conkeyref="conref-attribute/bookmap-frontbackmatter"
    /></section>
  </refbody>
 </reference>

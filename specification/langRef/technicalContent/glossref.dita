@@ -34,36 +34,36 @@ and expanded versions of that acronym.</shortdesc>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          href="../attributes/universalAttributes.dita"/>, <xref
-          href="../attributes/topicrefElementAttributes.dita"/>, <xref
-          href="../attributes/linkRelationshipAttributes.dita"/> (with a narrowed definition of
+          keyref="universalAttributes"/>, <xref
+            keyref="topicrefElementAttributes"/>, <xref
+          keyref="linkRelationshipAttributes"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, <xref
-          href="../attributes/thekeyrefattribute.dita"><xmlatt>keyref</xmlatt></xref>, and the
+          keyref="commonAttributes/outputclass"/>, <xref
+          keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
           <xmlatt>collection-type</xmlatt>, <xmlatt>locktitle</xmlatt>, <xmlatt>chunk</xmlatt>, and
-          <xmlatt>search</xmlatt> from <xref href="../attributes/commonMapAttributes.dita"/>; this
+          <xmlatt>search</xmlatt> from <xref keyref="commonMapAttributes"/>; this
         element also uses narrowed definitions of <xmlatt>linking</xmlatt>, <xmlatt>toc</xmlatt>,
-        and <xmlatt>print</xmlatt> from <xref href="../attributes/commonMapAttributes.dita"/>, given below.<dl>
+        and <xmlatt>print</xmlatt> from <xref keyref="commonMapAttributes"/>, given below.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
             <dd>A pointer to a glossary definition, typically a <xmlelement>glossentry</xmlelement>
-              topic. See <xref href="../attributes/thehrefattribute.dita"/> for detailed information
+              topic. See <xref keyref="thehrefattribute"/> for detailed information
               on supported values and processing implications. <ph
-                conref="../../common/conref-attribute.dita#conref-attribute/non-dita-href"/></dd>
+                conkeyref="conref-attribute/non-dita-href"/></dd>
           </dlentry>
           <dlentry>
             <dt><xmlatt>keys</xmlatt>
-              <ph conref="../../common/conref-attribute.dita#conref-attribute/required-attr"/></dt>
+              <ph conkeyref="conref-attribute/required-attr"/></dt>
             <dd>Associates one or more space-delimited keys with the target of the glossary
-              reference. See <xref href="../attributes/thekeysattribute.dita"/> for information on
+              reference. See <xref keyref="thekeysattribute"/> for information on
               using the attribute.</dd>
           </dlentry>
-          <dlentry conref="../../common/conref-attribute.dita#conref-attribute/toc-default-no">
+          <dlentry conkeyref="conref-attribute/toc-default-no">
             <dt/>
             <dd/>
           </dlentry>
-          <dlentry conref="../../common/conref-attribute.dita#conref-attribute/print-default-no">
+          <dlentry conkeyref="conref-attribute/print-default-no">
             <dt/>
             <dd/>
           </dlentry>
@@ -90,7 +90,7 @@ and expanded versions of that acronym.</shortdesc>
                   <dt>none </dt>
                   <dd>A topic cannot be linked to or link to other topics. </dd>
                 </dlentry>
-                <dlentry conref="../../common/conref-attribute.dita#conref-attribute/ditauseconref">
+                <dlentry conkeyref="conref-attribute/ditauseconref">
                   <dt/>
                   <dd/>
                 </dlentry>

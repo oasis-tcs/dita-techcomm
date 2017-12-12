@@ -33,7 +33,7 @@ topic/figgroup pr-d/fragment </p></section>
  <b>&lt;/fragment&gt;</b>
 &lt;/syntaxdiagram&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+   <p conkeyref="conref-attribute/universal-outputclass"/>
    </section>
 </refbody>
 </reference>

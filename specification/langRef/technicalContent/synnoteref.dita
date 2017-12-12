@@ -24,15 +24,15 @@ topic/xref pr-d/synnoteref </p></section>
 </codeblock> </example>
 <section id="attributes">       <title>Attributes</title>
 <p>The following attributes are available on this element: <xref
-href="../attributes/universalAttributes.dita"/>, <xref
-href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, and the attribute defined
+keyref="universalAttributes"/>, <xref
+keyref="commonAttributes/outputclass"/>, and the attribute defined
 below.</p>
 <dl>
 <dlentry>
 <dt><xmlatt>href</xmlatt></dt>
 <dd>A reference to the target syntax note (<xmlelement>synnote</xmlelement>) element. The referenced
       syntax note must be in the same syntax diagram as the <xmlelement>synnoteref</xmlelement>
-      element. See <xref href="../attributes/thehrefattribute.dita"/> for detailed information on
+      element. See <xref keyref="thehrefattribute"/> for detailed information on
       supported values and processing implications.
       <!--For this element, processors should assume the equivalent of <codeph>scope="local"</codeph> and <codeph>format="dita"</codeph>.--></dd>
 </dlentry>

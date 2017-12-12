@@ -32,7 +32,7 @@ topic/data xnal-d/urls </p></section>
  <b>&lt;urls&gt;&lt;url&gt;www.wizardworks.example.org&lt;/url&gt;&lt;/urls&gt;</b>
 &lt;/organizationinfo&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"/>
+   <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
    </section>
 </refbody>
 </reference>

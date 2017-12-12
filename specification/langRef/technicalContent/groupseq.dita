@@ -32,7 +32,7 @@ topic/figgroup pr-d/groupseq </p></section>
  &lt;groupchoice&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/syntaxelement-update-importance"
+conkeyref="conref-attribute/syntaxelement-update-importance"
 /></section>
 </refbody>
 </reference>

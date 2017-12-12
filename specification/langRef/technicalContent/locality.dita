@@ -26,7 +26,7 @@ topic/ph xnal-d/locality </p></section>
 &lt;/addressdetails&gt;
 </codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 </refbody>
 </reference>

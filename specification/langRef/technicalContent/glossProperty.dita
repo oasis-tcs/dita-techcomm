@@ -29,7 +29,7 @@
     <section id="attributes">
       <title>Attributes</title>
       <p
-        conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"
+        conkeyref="conref-attribute/data-link-universal-outputclass"
       />
     </section>
     <example id="example" otherprops="examples">

@@ -48,7 +48,7 @@ xml:space="preserve">returnType methodName(pList1, pList2) {</codeblock>where<pa
 </plentry></parml></p></dd>
 </dlentry></dl></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle-compact"/>
+   <p conkeyref="conref-attribute/universal-outputclass-spectitle-compact"/>
    </section>
 </refbody>
 </reference>

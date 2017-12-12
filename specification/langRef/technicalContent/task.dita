@@ -28,7 +28,7 @@ topics, with a title, short description and body.</shortdesc>
   </section>
   <section id="attributes">
    <title>Attributes</title>
-   <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/>
+   <sectiondiv conkeyref="conref-attribute/topic-attributes"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>

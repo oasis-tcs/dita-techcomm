@@ -62,7 +62,7 @@ be displayed.</p>
 </pre>
 </example>
 <section id="attributes"><title>Attributes</title>
-<p conref="../../common/conref-attribute.dita#conref-attribute/pre-attributes"/>
+<p conkeyref="conref-attribute/pre-attributes"/>
 </section>
 </refbody>
 </reference>

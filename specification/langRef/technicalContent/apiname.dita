@@ -26,7 +26,7 @@ topic/keyword pr-d/apiname </p></section>
 xml:space="preserve">&lt;p&gt;Use the &lt;apiname&gt;document.write&lt;/apiname&gt; method to create text 
 output in the dynamically constructed view.&lt;/p&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 </refbody>
 </reference>

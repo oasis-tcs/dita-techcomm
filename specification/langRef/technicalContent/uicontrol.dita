@@ -29,7 +29,7 @@ topic/ph ui-d/uicontrol </p></section>
 <codeblock>&lt;p>Press the <b>&lt;uicontrol&gt;</b>OK<b>&lt;/uicontrol&gt;</b> button.&lt;/p></codeblock>
 </example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 </refbody>
 </reference>

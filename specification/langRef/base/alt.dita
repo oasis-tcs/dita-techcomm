@@ -22,6 +22,6 @@ topic/alt </p></section>
 <section id="attributes"><title>Attributes</title>
       <p >The following attributes are available on this element: <xref
           href="../attributes/universalAttributes.dita"/> and <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>.</p></section>
+          keyref="commonAttributes/outputclass"/>.</p></section>
 </refbody>
 </reference>

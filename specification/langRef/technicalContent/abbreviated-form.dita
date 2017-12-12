@@ -83,7 +83,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

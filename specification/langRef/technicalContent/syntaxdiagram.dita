@@ -34,8 +34,8 @@ topic/fig pr-d/syntaxdiagram </p></section>
 </codeblock></example>
 <section id="attributes"><title>Attributes</title>
 <p id="syntax-attributes">The following attributes are available on this element: <xref
-href="../attributes/universalAttributes.dita"/>, <xref href="../attributes/displayAttributes.dita"
-/>, and <xref href="../attributes/commonAttributes.dita#common-atts/outputclass"/>.</p>
+        keyref="universalAttributes"/>, <xref keyref="displayAttributes"
+/>, and <xref keyref="commonAttributes/outputclass"/>.</p>
 </section>
 </refbody>
 </reference>

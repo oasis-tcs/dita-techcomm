@@ -25,7 +25,7 @@ information about the steps.</p>
 </section>
 <section id="attributes">
 <title>Attributes</title>
-<p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+<p conkeyref="conref-attribute/universal-outputclass"/>
 </section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;steps-informal>
  &lt;p>Put the soil in the container any old way. It doesn't really matter how

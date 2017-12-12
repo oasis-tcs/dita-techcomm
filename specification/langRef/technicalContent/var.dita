@@ -34,7 +34,7 @@ topic/ph pr-d/var </p></section>
  &lt;groupchoice&gt;<b>&lt;var&gt;</b>output-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/syntaxelement-update-importance"
+conkeyref="conref-attribute/syntaxelement-update-importance"
 /></section>
 </refbody>
 </reference>

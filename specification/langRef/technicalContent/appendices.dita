@@ -24,7 +24,7 @@ map/topicref bookmap/appendices </p></section>
   &lt;appendix href="extra-info.dita"/>
 &lt;/appendices></codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+conkeyref="conref-attribute/bookmap-topicrefs"
 /></section>
 </refbody>
 </reference>

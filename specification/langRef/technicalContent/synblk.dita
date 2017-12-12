@@ -25,7 +25,7 @@ topic/figgroup pr-d/synblk </p></section>
 &lt;sep&gt;-&lt;/sep&gt;&lt;var&gt;test&lt;/var&gt;&lt;/groupseq&gt;
 <b>&lt;/synblk&gt;</b>        </codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+   <p conkeyref="conref-attribute/universal-outputclass"/>
    </section>
 </refbody>
 </reference>

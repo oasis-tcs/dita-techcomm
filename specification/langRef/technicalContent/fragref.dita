@@ -51,9 +51,9 @@ Overlay
 </pre></example>
 <section id="attributes">       <title>Attributes</title>
 <p>The following attributes are available on this element: <xref
-href="../attributes/universalAttributes.dita"/> (with a narrowed definition of
+keyref="universalAttributes"/> (with a narrowed definition of
 <xmlatt>importance</xmlatt>, given below), <xref
-href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, and the attributes
+keyref="commonAttributes/outputclass"/>, and the attributes
 defined below.</p>
 <dl>
 <dlentry>
@@ -61,11 +61,11 @@ defined below.</p>
 <dd>A reference to a syntax diagram <xmlelement>fragment</xmlelement> element. The referenced
                      <xmlelement>fragment</xmlelement> must be in the same diagram as the
                      <xmlelement>fragref</xmlelement> element. See <xref
-                     href="../attributes/thehrefattribute.dita"/> for detailed information on
+                     keyref="thehrefattribute"/> for detailed information on
                   supported values and processing
                   implications.<!--For this element, processors <ph rev="public-review-1">can</ph> assume the equivalent of <codeph>scope="local"</codeph> and <codeph>format="dita"</codeph>.--></dd>
 </dlentry>
-<dlentry conref="../../common/conref-attribute.dita#conref-attribute/importance-optreq">
+<dlentry conkeyref="conref-attribute/importance-optreq">
 <dt/>
 <dd/>
 </dlentry>

@@ -18,7 +18,7 @@ map/topicref bookmap/amendments </p></section>
 <example id="example" otherprops="examples"><title>Example</title><p>See the example
 for <xref href="bookmap.dita"></xref>.</p></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+conkeyref="conref-attribute/bookmap-topicrefs"
 /></section>
 </refbody>
 </reference>

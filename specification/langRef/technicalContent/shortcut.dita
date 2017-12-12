@@ -38,7 +38,7 @@ topic/keyword ui-d/shortcut </p></section>
 </menucascade></p>
 </example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 </refbody>
 </reference>

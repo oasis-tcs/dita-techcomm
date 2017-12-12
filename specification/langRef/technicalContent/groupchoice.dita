@@ -30,7 +30,7 @@ topic/figgroup pr-d/groupchoice </p></section>
  <b>&lt;groupchoice&gt;</b>&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;<b>&lt;/groupchoice&gt;</b>
 &lt;/syntaxdiagram&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/syntaxelement-update-importance"
+conkeyref="conref-attribute/syntaxelement-update-importance"
 /></section>
 </refbody>
 </reference>

@@ -25,7 +25,7 @@
     <example conref="../../common/conref-examples.dita#conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-name"/>
+      <p conkeyref="conref-attribute/universal-outputclass-name"/>
     </section>
   </refbody>
 </reference>

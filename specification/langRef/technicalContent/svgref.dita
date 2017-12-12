@@ -152,10 +152,10 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          href="../attributes/universalAttributes.dita"/>, <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, and <xref
-          href="../attributes/thekeyrefattribute.dita"><xmlatt>keyref</xmlatt></xref>. This element
-        also uses <xref href="../attributes/linkRelationshipAttributes.dita"/>, with narrowed
+          keyref="universalAttributes"/>, <xref
+          keyref="commonAttributes/outputclass"/>, and <xref
+          keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>. This element
+        also uses <xref keyref="linkRelationshipAttributes"/>, with narrowed
         definitions of <xmlatt>href</xmlatt> and <xmlatt>format</xmlatt> (given below).</p>
       <dl>
         <dlentry>
@@ -166,7 +166,7 @@
             specified, where the fragment identifier is the XML ID of the
               <xmlelement>svg</xmlelement> element to be used. This attribute is not required, but
             must be specified if <xmlatt>keyref</xmlatt> is not specified. See <xref
-              href="../attributes/thehrefattribute.dita"/> for detailed information on supported
+              keyref="thehrefattribute"/> for detailed information on supported
             values and processing implications.</dd>
         </dlentry>
         <dlentry>

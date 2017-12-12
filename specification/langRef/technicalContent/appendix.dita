@@ -11,5 +11,5 @@
  &lt;topicref href="download.dita"/&gt;
 &lt;/appendix&gt; </codeblock></p><p>Appendix that references a ditamap of content:<codeblock xml:space="preserve">&lt;appendix href="intro.ditamap" format="ditamap"/&gt;
 </codeblock></p></example><section id="attributes"><title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+        conkeyref="conref-attribute/bookmap-topicrefs"
       /></section></refbody></reference>

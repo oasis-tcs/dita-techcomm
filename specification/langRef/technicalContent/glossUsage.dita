@@ -27,7 +27,7 @@ the correct use of a term, such as where or how it can be used.</shortdesc>
         </section>
         <section id="attributes">
             <title>Attributes</title>
-            <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/note-attributes"
+            <sectiondiv conkeyref="conref-attribute/note-attributes"
             />
         </section>
         <example id="example" otherprops="examples">

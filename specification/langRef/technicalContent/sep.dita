@@ -27,7 +27,7 @@ topic/ph pr-d/sep </p></section>
 &lt;/syntaxdiagram&gt; 
 </codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/syntaxelement-update-importance"
+conkeyref="conref-attribute/syntaxelement-update-importance"
 /></section>
 </refbody>
 </reference>

@@ -102,7 +102,7 @@ is greater than 1.&lt;/p>
     </example>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/fig-attributes"/>
+      <p conkeyref="conref-attribute/fig-attributes"/>
       
     </section>
   </refbody>

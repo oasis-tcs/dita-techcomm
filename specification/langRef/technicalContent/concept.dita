@@ -41,7 +41,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/></section>
+        conkeyref="conref-attribute/topic-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title><draft-comment author="BobThomas">This ought to be an example of a
         concept topic and not of a codeblock. It would be appropriate to reuse this example in the

@@ -29,7 +29,7 @@ list of authors of topics in this document.</p><codeblock>&lt;booklists>
   <b>&lt;booklist href="authors.dita" navtitle="List of authors"/></b>
 &lt;/booklists></codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-booklist-attributes"
+conkeyref="conref-attribute/bookmap-booklist-attributes"
 /></section>
 </refbody>
 </reference>

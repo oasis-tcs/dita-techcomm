@@ -23,7 +23,7 @@ like a configuration).
 topic/keyword pr-d/option </p></section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock>something &lt;option&gt;/modifier&lt;/option&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 </refbody>
 </reference>

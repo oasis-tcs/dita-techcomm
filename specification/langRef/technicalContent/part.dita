@@ -44,7 +44,7 @@ xml:space="preserve">&lt;part href="intro.ditamap" format="ditamap"/&gt;
 &lt;part href="guide.ditamap" format="ditamap"/&gt;
 </codeblock></p></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+conkeyref="conref-attribute/bookmap-topicrefs"
 /></section>
 </refbody>
 </reference>

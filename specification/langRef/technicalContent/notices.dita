@@ -25,7 +25,7 @@ references a notices topic that contains legal content.</p><codeblock>&lt;backma
   &lt;/booklists>
 &lt;/backmatter></codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+conkeyref="conref-attribute/bookmap-topicrefs"
 /></section>
 </refbody>
 </reference>

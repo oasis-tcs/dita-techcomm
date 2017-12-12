@@ -129,12 +129,12 @@ content:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          href="../attributes/universalAttributes.dita"/>, <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, and <xref
-          href="../attributes/thekeyrefattribute.dita"><xmlatt>keyref</xmlatt></xref>. This element
+          keyref="universalAttributes"/>, <xref
+          keyref="commonAttributes/outputclass"/>, and <xref
+          keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>. This element
         also uses <xmlatt>href</xmlatt>, <xmlatt>scope</xmlatt>, and a narrowed definition of
           <xmlatt>format</xmlatt> (given below) from <xref
-          href="../attributes/linkRelationshipAttributes.dita"/>.</p>
+          keyref="linkRelationshipAttributes"/>.</p>
       <dl>
         <dlentry>
           <dt><xmlatt>format</xmlatt></dt>

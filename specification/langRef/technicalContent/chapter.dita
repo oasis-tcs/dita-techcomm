@@ -28,7 +28,7 @@ include subtopics:<codeblock xml:space="preserve">&lt;chapter href="intro.dita"&
 of content:<codeblock xml:space="preserve">&lt;chapter href="intro.ditamap" format="ditamap"/&gt;
 </codeblock></p></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
+conkeyref="conref-attribute/bookmap-topicrefs"
 /></section>
 </refbody>
 </reference>

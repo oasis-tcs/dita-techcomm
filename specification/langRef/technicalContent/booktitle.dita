@@ -20,8 +20,8 @@ topic/title bookmap/booktitle </p></section>
 in <xref href="bookmap.dita"></xref>.</p></example>
 <section id="attributes"><title>Attributes</title>
 <p>The following attributes are available on this element: <xref
-href="../attributes/universalAttributes.dita"/> (without the Metadata attribute group) and <xref
-href="../attributes/commonAttributes.dita#common-atts/outputclass"/>.</p>
+keyref="universalAttributes"/> (without the Metadata attribute group) and <xref
+keyref="commonAttributes/outputclass"/>.</p>
 </section>
 </refbody>
 </reference>

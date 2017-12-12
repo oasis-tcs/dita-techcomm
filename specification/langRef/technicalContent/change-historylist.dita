@@ -53,9 +53,9 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          href="../attributes/universalAttributes.dita#univ-atts"/>, <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, and <xref
-          href="../attributes/commonAttributes.dita#common-atts/mapkeyref"/>.</p>
+        keyref="universalAttributes"/>, <xref
+          keyref="commonAttributes/outputclass"/>, and <xref
+          keyref="commonAttributes/mapkeyref"/>.</p>
     </section>
   </refbody>
 </reference>

@@ -31,7 +31,7 @@ topic/keyword pr-d/kwd </p></section>
  &lt;groupchoice&gt;&lt;var&gt;output-filename&lt;/var&gt;<b>&lt;kwd&gt;</b>*OUTFILE<b>&lt;/kwd&gt;</b>&lt;/groupchoice&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/syntaxelement-update-importance-plus-keyref"
+conkeyref="conref-attribute/syntaxelement-update-importance-plus-keyref"
 /></section>
 </refbody>
 </reference>

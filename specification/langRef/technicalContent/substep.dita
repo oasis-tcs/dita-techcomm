@@ -10,7 +10,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/step-and-substep"/>
+      <sectiondiv conkeyref="conref-attribute/step-and-substep"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

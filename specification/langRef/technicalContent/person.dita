@@ -24,7 +24,7 @@ topic/data bookmap/person </p></section>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
 <section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"/>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
       </section>
 </refbody>
 </reference>

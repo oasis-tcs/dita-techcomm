@@ -19,7 +19,7 @@
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/bookmap-booklist-attributes"/>
+        conkeyref="conref-attribute/bookmap-booklist-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

@@ -11,5 +11,5 @@
 will print a &lt;systemoutput&gt;For what day?&lt;/systemoutput&gt; message.
 Reply by typing the day of the week for which you want a meal plan,
 for example, &lt;userinput&gt;Thursday&lt;/userinput&gt;.&lt;/p&gt;</codeblock></example><section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
       </section></refbody></reference>

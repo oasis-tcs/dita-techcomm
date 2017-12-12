@@ -30,7 +30,7 @@ the allowed attributes for the &lt;xmlelement>p&lt;/xmlelement> element.</codebl
     </example>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
       
     </section>
   </refbody>

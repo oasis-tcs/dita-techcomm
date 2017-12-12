@@ -30,7 +30,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/note-attributes"/>
+      <sectiondiv conkeyref="conref-attribute/note-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

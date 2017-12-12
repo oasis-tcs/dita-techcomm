@@ -34,11 +34,11 @@
             <section id="attributes">
                   <title>Attributes</title>
                   <p>The following attributes are available on this element: <xref
-                              href="../attributes/dataElementAttributes.dita"/> (with a narrowed
+                        keyref="dataElementAttributes"/> (with a narrowed
                         definition of <xmlatt>value</xmlatt>, given below), <xref
-                              href="../attributes/linkRelationshipAttributes.dita"/>, <xref
-                              href="../attributes/universalAttributes.dita"/>, and <xref
-                              href="../attributes/commonAttributes.dita#common-atts/outputclass"
+                              keyref="linkRelationshipAttributes"/>, <xref
+                              keyref="universalAttributes"/>, and <xref
+                              keyref="commonAttributes/outputclass"
                         />.</p>
                   <dl>
                         <dlentry>

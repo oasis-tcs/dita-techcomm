@@ -18,7 +18,7 @@ topic/data bookmap/bookeventtype </p></section>
 <example id="example" otherprops="examples"><title>Example</title><p>See the example
 in <xref href="bookchangehistory.dita"></xref>.</p></example>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"/>
+   <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
    </section>
 </refbody>
 </reference>

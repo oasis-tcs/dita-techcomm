@@ -34,7 +34,7 @@ topic/author xnal-d/authorinformation </p></section>
  &lt;/personinfo&gt;
 &lt;/authorinformation&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/author-attributes"
+conkeyref="conref-attribute/author-attributes"
 /></section>
 </refbody>
 </reference>

@@ -35,7 +35,7 @@
       <p>- topic/bodydiv concept/conbodydiv </p></section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

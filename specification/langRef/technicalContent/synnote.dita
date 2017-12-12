@@ -27,7 +27,7 @@ topic/fn pr-d/synnote </p></section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;groupcomp&gt;&lt;var&gt;one&lt;/var&gt;&lt;var&gt;two&lt;/var&gt;&lt;var&gt;three&lt;/var&gt;&lt;/groupcomp&gt;
 <b>&lt;synnote&gt;</b>My first syntax note.<b>&lt;/synnote&gt;</b>         </codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/fn-attributes"
+conkeyref="conref-attribute/fn-attributes"
 /></section>
 </refbody>
 </reference>

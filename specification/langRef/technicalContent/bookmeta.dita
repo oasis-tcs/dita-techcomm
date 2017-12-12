@@ -70,7 +70,7 @@ map/topicmeta bookmap/bookmeta </p></section>
   &lt;/bookrights&gt;
 &lt;/bookmeta&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/standard-topicmeta-attributes"
+        conkeyref="conref-attribute/standard-topicmeta-attributes"
       /></section>
 </refbody>
 </reference>

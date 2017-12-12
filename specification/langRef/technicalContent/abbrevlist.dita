@@ -19,7 +19,7 @@ map/topicref bookmap/abbrevlist </p></section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock
 xml:space="preserve">&lt;abbrevlist href="abbrev.dita"/&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-booklist-attributes"
+conkeyref="conref-attribute/bookmap-booklist-attributes"
 /></section>
 </refbody>
 </reference>

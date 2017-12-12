@@ -28,7 +28,7 @@ topic/ph pr-d/delim </p></section>
 &lt;/groupseq&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/syntaxelement-optreq"
+conkeyref="conref-attribute/syntaxelement-optreq"
 /></section>
 </refbody>
 </reference>

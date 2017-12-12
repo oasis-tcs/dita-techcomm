@@ -31,7 +31,7 @@ topic/ph bookmap/revisionid </p></section>
   &lt;/edited>
 &lt;/bookchangehistory></codeblock></example>
 <section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
       </section>
 </refbody>
 </reference>

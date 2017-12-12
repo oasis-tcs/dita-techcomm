@@ -25,7 +25,7 @@ topic/keyword ui-d/wintitle </p></section>
   opens with your last set of selections highlighted.&lt;/stepresult&gt;
 &lt;/step&gt;</codeblock></example>
 <section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
       </section>
 </refbody>
 </reference>

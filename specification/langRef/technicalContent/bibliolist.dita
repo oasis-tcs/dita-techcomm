@@ -33,7 +33,7 @@ map/topicref bookmap/bibliolist </p></section>
   &lt;/backmatter>
 &lt;/bookmap></codeblock></example>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-booklist-attributes"
+conkeyref="conref-attribute/bookmap-booklist-attributes"
 /></section>
 </refbody>
 </reference>

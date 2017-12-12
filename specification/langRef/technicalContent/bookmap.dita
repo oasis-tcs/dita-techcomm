@@ -62,14 +62,14 @@ map/map bookmap/bookmap </p></section>
   &lt;/backmatter>
 &lt;/bookmap></codeblock></example>
 <section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/map-attributes-common"/>
+      <p conkeyref="conref-attribute/map-attributes-common"/>
       <dl>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/map-attribute-id">
+        <dlentry conkeyref="conref-attribute/map-attribute-id">
           <dt/>
           <dd/>
         </dlentry>
         <dlentry
-          conref="../../common/conref-attribute.dita#conref-attribute/map-attribute-anchorref">
+          conkeyref="conref-attribute/map-attribute-anchorref">
           <dt/>
           <dd/>
         </dlentry>
