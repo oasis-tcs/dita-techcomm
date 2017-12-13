@@ -17,6 +17,7 @@
   href="dita-spec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
  <keydef keys="linkRelationshipAttributes"
   href="dita-spec/specification/langRef/attributes/linkRelationshipAttributes.dita"/>
+ <keydef keys="metadataAttributes" href="dita-spec/specification/langRef/attributes/metadataAttributes.dita"></keydef>
  <keydef keys="simpletableAttributes"
   href="dita-spec/specification/langRef/attributes/simpletableAttributes.dita"/>
  <keydef keys="specializationAttributes"

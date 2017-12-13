@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="screen" xml:lang="en-us">
-<title><xmlelement>screen</xmlelement></title>
-<shortdesc>The <xmlelement>screen</xmlelement> element contains or refers to a textual
-representation of a computer screen or user interface panel (window). </shortdesc>
+   <title><xmlelement>screen</xmlelement></title>
+   <shortdesc>The <xmlelement>screen</xmlelement> element contains or refers to a textual
+      representation of a computer screen or user interface panel (window). </shortdesc>
    <prolog>
       <metadata>
          <keywords>
@@ -15,8 +15,8 @@ representation of a computer screen or user interface panel (window). </shortdes
          </keywords>
       </metadata>
    </prolog>
-<refbody>
-<section id="section-1">
+   <refbody>
+      <section id="section-1">
          <p>Use <xmlelement>screen</xmlelement> to contain representations of text-based online
             panels, text consoles ("term" or "curses" windows, for example), or other text-based
             user interface components. The default print representation is to enclose the screen
@@ -26,19 +26,18 @@ representation of a computer screen or user interface panel (window). </shortdes
                place in the techcomm PDF structure <xref href="../base/image.dita"><xmlelement>image</xmlelement></xref>-->
             element description <required-cleanup>Need to add language pointing to the base
                spec</required-cleanup>), this element specifically supports constructions for which
-            text is the primary content.</p><p>This element is part of the
-DITA user interface domain, a special set of DITA elements designed
-to document user interface tasks, concepts and reference
-information.</p></section>
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/pre ui-d/screen </p></section>
-<example id="example" otherprops="examples">
-<title>Example</title>
-<fig id="screen-source">
-<title>Using the <xmlelement>screen</xmlelement> element to represent a DOS edit session</title>
-<codeblock>&lt;p&gt;Type "edit" after the command line prompt and press Enter.  The following
+            text is the primary content.</p>
+         <p>This element is part of the DITA user interface domain, a special set of DITA elements
+            designed to document user interface tasks, concepts and reference
+         information.</p></section>
+      <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+ topic/pre
+            ui-d/screen </p></section>
+      <example id="example" otherprops="examples">
+         <title>Example</title>
+         <fig id="screen-source">
+            <title>Using the <xmlelement>screen</xmlelement> element to represent a DOS edit
+               session</title>
+            <codeblock>&lt;p&gt;Type "edit" after the command line prompt and press Enter.  The following
 editing interface will be displayed.&lt;/p&gt;
 &lt;screen&gt;
    File  Edit  Search  View  Options  Help
@@ -50,13 +49,13 @@ editing interface will be displayed.&lt;/p&gt;
 ¦  Line:1    Col:1  F1=Help                                                    ¦
 +------------------------------------------------------------------------------+
 &lt;/screen&gt;</codeblock>
-</fig>
-<fig id="screen-output">
-<title>Potential result from an rendering process</title>
-</fig>
-<p>Type "edit" after the command line prompt and press Enter. The following editing interface will
-be displayed.</p>
-<pre xml:space="preserve">   File  Edit  Search  View  Options  Help
+         </fig>
+         <fig id="screen-output">
+            <title>Potential result from an rendering process</title>
+         </fig>
+         <p>Type "edit" after the command line prompt and press Enter. The following editing
+            interface will be displayed.</p>
+         <pre xml:space="preserve">   File  Edit  Search  View  Options  Help
 +--------------------------------- UNTITLED1 ----------------------------------+
 ¦                                                                              ¦
 ¦                                                                              ¦
@@ -65,9 +64,9 @@ be displayed.</p>
 ¦  Line:1    Col:1  F1=Help                                                    ¦
 +------------------------------------------------------------------------------+
 </pre>
-</example>
-<section id="attributes"><title>Attributes</title>
-<p conkeyref="conref-attribute/pre-attributes"/>
-</section>
-</refbody>
+      </example>
+      <section id="attributes"><title>Attributes</title>
+         <p conkeyref="conref-attribute/pre-attributes"/>
+      </section>
+   </refbody>
 </reference>

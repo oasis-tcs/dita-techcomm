@@ -2,21 +2,26 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="choicetable" xml:lang="en-us">
-<title><xmlelement>choicetable</xmlelement></title>
-<shortdesc>The <xmlelement>choicetable</xmlelement> element contains a series of optional choices
-available within a step of a task.</shortdesc>
-<prolog><metadata>
-<keywords>
+  <title><xmlelement>choicetable</xmlelement></title>
+  <shortdesc>The <xmlelement>choicetable</xmlelement> element contains a series of optional choices
+    available within a step of a task.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
         <indexterm>choice
             tables<indexterm><xmlatt>keycol</xmlatt></indexterm><indexterm>overview</indexterm><indexterm>formatting
-            expectations</indexterm></indexterm><indexterm><xmlelement>choicetable</xmlelement></indexterm>
+            expectations</indexterm></indexterm>
+        <indexterm><xmlelement>choicetable</xmlelement></indexterm>
         <indexterm><xmlatt>keycol</xmlatt></indexterm>
         <indexterm>formatting
             expectations<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
-        <indexterm>tables<indexterm>choice tables</indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
+        <indexterm>tables<indexterm>choice tables</indexterm></indexterm>
+        <indexterm>task
+          elements<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
       <p>By default, processors highlight the choice column using bold. To change the highlighting,
@@ -30,18 +35,15 @@ available within a step of a task.</shortdesc>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref
-          keyref="universalAttributes"/>, <xref
-            keyref="displayAttributes"/>, <xref
-              keyref="simpletableAttributes"/> (with a narrowed definition of
-          <xmlatt>keycol</xmlatt>, given below), <xref
+      <p>The following attributes are available on this element: <xref keyref="universalAttributes"
+        />, <xref keyref="displayAttributes"/>, <xref keyref="simpletableAttributes"/> (with a
+        narrowed definition of <xmlatt>keycol</xmlatt>, given below), <xref
           keyref="commonAttributes/outputclass"/>, and <xref
           keyref="specializationAttributes/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
             <dd>On this element, the default value for <xmlatt>keycol</xmlatt> is "1". Otherwise,
-              the attribute is the same as defined in <xref
-                keyref="simpletableAttributes"/>.</dd>
+              the attribute is the same as defined in <xref keyref="simpletableAttributes"/>.</dd>
           </dlentry>
         </dl></p>
     </section>
@@ -64,6 +66,5 @@ available within a step of a task.</shortdesc>
   <b>&lt;/choicetable&gt;</b>
 &lt;/step&gt;</codeblock>
     </example>
-</refbody>
+  </refbody>
 </reference>
-
