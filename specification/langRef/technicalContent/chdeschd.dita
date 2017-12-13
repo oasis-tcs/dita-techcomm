@@ -5,8 +5,7 @@
 <title><xmlelement>chdeschd</xmlelement></title>
 <shortdesc>A choice description heading provides a specific label for the list of descriptions of
 options from which a user chooses in order to accomplish a step.<draft-comment author="robander">I
-think "complete" a step is more appropriate than "accomplish" a step?</draft-comment>
-</shortdesc>
+think "complete" a step is more appropriate than "accomplish" a step?</draft-comment></shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm><xmlelement>chdeschd</xmlelement><indexterm>processing

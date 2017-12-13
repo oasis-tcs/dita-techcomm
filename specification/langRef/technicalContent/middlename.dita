@@ -4,7 +4,7 @@
 <reference id="middlename" xml:lang="en-us">
   <title><xmlelement>middlename</xmlelement></title>
   <shortdesc>The <xmlelement>middlename</xmlelement> element contains the person's middle name or
-    initial. </shortdesc>
+    initial.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/middlename </p>
+      <p>+ topic/data xnal-d/middlename</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

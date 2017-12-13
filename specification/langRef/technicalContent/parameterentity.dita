@@ -16,7 +16,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> This element enables more precise semantic searching of the DITA source; it also enables
+      <p>This element enables more precise semantic searching of the DITA source; it also enables
         distinct formatting, such as adding the percentage sign (%) or trailing semi-colon (;)
         delimiters to the parameter entity name. The content of the
           <xmlelement>parameterentity</xmlelement> element should be the entity name without the
@@ -25,7 +25,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/parameterentity </p>
+      <p>+ topic/keyword markup-d/markupname xml-d/parameterentity</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

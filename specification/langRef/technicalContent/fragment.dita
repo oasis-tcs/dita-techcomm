@@ -17,13 +17,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> The <xmlelement>fragment</xmlelement> element allows breaking out logical chunks of a
+      <p>The <xmlelement>fragment</xmlelement> element allows breaking out logical chunks of a
         large syntax diagram into named fragments. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/fragment </p>
+      <p>+ topic/figgroup pr-d/fragment</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

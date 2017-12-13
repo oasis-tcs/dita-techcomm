@@ -19,14 +19,14 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> A group is a logical set of pieces of syntax that go together. The group composite means
+      <p>A group is a logical set of pieces of syntax that go together. The group composite means
         that the items that make up the syntax diagram will be formatted close together rather than
         being separated by a horizontal or vertical line, which is the usual formatting method. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/groupcomp </p>
+      <p>+ topic/figgroup pr-d/groupcomp</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

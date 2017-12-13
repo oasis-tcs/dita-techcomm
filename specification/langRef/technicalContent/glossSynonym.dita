@@ -20,7 +20,7 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/title concept/title glossentry/glossSynonym </p>
+         <p>- topic/title concept/title glossentry/glossSynonym</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>

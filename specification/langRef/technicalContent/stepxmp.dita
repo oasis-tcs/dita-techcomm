@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
-<shortdesc>A step example illustrates a step of a task. </shortdesc>
+<shortdesc>A step example illustrates a step of a task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
 </keywords>

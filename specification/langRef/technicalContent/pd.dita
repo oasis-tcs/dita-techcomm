@@ -4,7 +4,7 @@
 <reference id="pd" xml:lang="en-us">
   <title><xmlelement>pd</xmlelement></title>
   <shortdesc>The <xmlelement>pd</xmlelement> element specifies a parameter definition within a
-    parameter list entry. </shortdesc>
+    parameter list entry.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +21,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/dd pr-d/pd </p>
+      <p>+ topic/dd pr-d/pd</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

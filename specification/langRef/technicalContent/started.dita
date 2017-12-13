@@ -4,7 +4,7 @@
 <reference id="started" xml:lang="en-us">
   <title><xmlelement>started</xmlelement></title>
   <shortdesc>The <xmlelement>started</xmlelement> element indicates a start date for some type of
-    book event, such as a review, editing, or testing. </shortdesc>
+    book event, such as a review, editing, or testing.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/ph bookmap/started </p>
+      <p>- topic/ph bookmap/started</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

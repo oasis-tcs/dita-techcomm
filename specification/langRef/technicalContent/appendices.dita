@@ -4,7 +4,7 @@
 <reference id="appendices" xml:lang="en-us">
   <title><xmlelement>appendices</xmlelement></title>
   <shortdesc>The <xmlelement>appendices</xmlelement> element is an optional wrapper for
-      <xmlelement>appendix</xmlelement> elements within a bookmap. </shortdesc>
+      <xmlelement>appendix</xmlelement> elements within a bookmap.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +17,7 @@
   </prolog>
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>- map/topicref bookmap/appendices </p></section>
+        ><title>Specialization hierarchy</title><p>- map/topicref bookmap/appendices</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
         conkeyref="conref-attribute/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples"

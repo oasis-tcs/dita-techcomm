@@ -4,7 +4,7 @@
 <reference id="contactnumbers" xml:lang="en-us">
   <title><xmlelement>contactnumbers</xmlelement></title>
   <shortdesc>The <xmlelement>contactnumbers</xmlelement> element contains a list of telephone and
-    fax numbers. </shortdesc>
+    fax numbers.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/contactnumbers </p>
+      <p>+ topic/data xnal-d/contactnumbers</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -29,7 +29,7 @@
         allowed.</p></section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/bodydiv concept/conbodydiv </p></section>
+      <p>- topic/bodydiv concept/conbodydiv</p></section>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass"/>

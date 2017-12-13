@@ -4,7 +4,7 @@
 <reference id="completed" xml:lang="en-us">
   <title><xmlelement>completed</xmlelement></title>
   <shortdesc>The <xmlelement>completed</xmlelement> element indicates a completion date for some
-    type of book event, such as a review, editing, or testing. </shortdesc>
+    type of book event, such as a review, editing, or testing.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/ph bookmap/completed </p>
+      <p>- topic/ph bookmap/completed</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

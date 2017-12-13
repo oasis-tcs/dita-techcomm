@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="emailaddress" xml:lang="en-us">
   <title><xmlelement>emailaddress</xmlelement></title>
-  <shortdesc>The <xmlelement>emailaddress</xmlelement> element contains an e-mail address. </shortdesc>
+  <shortdesc>The <xmlelement>emailaddress</xmlelement> element contains an e-mail address.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,7 +15,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/emailaddress </p>
+      <p>+ topic/data xnal-d/emailaddress</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -5,7 +5,7 @@
   <title><xmlelement>publisherinformation</xmlelement></title>
   <shortdesc>The <xmlelement>publisherinformation</xmlelement> contains information about what group
     or person published the book, where it was published, and certain details about its publication
-    history. </shortdesc>
+    history.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,7 +22,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/publisher bookmap/publisherinformation </p>
+      <p>- topic/publisher bookmap/publisherinformation</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

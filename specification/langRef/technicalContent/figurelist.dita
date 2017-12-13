@@ -16,14 +16,14 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> It indicates to the processing software that the author wants a list of figures generated
+      <p>It indicates to the processing software that the author wants a list of figures generated
         at the particular location. If no <xmlatt>href</xmlatt> attribute is specified on the
           <xmlelement>figurelist</xmlelement> element, an external processor<ph>might</ph> generate
         a list of figures at this location.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicref bookmap/figurelist </p>
+      <p>- map/topicref bookmap/figurelist</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

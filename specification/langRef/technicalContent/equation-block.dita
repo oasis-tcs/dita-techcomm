@@ -3,7 +3,7 @@
 <reference xml:lang="en-us" id="equation-block">
   <title><xmlelement>equation-block</xmlelement></title>
   <shortdesc>Use the <xmlelement>equation-block</xmlelement> element to represent an equation that
-    is presented as a separate block within a text flow. </shortdesc>
+    is presented as a separate block within a text flow.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -29,7 +29,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/divequation-d/equation-block </p>
+      <p>+ topic/divequation-d/equation-block</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

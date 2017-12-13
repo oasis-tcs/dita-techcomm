@@ -20,8 +20,7 @@
                 documents to which the book belongs.</p>
         </section>
         <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
-                ><title>Specialization hierarchy</title><p>- topic/ph bookmap/booklibrary
-            </p></section>
+                ><title>Specialization hierarchy</title><p>- topic/ph bookmap/booklibrary</p></section>
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
         </section>

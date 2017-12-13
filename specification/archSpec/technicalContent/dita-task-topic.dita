@@ -6,7 +6,7 @@
 		completion of a procedure. The strict-task document type is built using the general-task
 		information type combined with the strict taskbody constraint. See the reference below to
 		ensure that you have the correct task document type when you update to DITA 1.3 from DITA
-		1.0 or DITA 1.1 </shortdesc>
+		1.0 or DITA 1.1</shortdesc>
 	<conbody>
 		<section id="section_60F00B0ECB0B4D69AA641E9710B1AA60">
 			<title>The purpose of the standard task information type</title>
@@ -16,7 +16,7 @@
 				that must be fulfilled, the actions that must be performed, and the order in which
 				the actions must be performed. The <xmlelement>task</xmlelement> topic includes
 				sections for describing the context, prerequisites, expected results, and other
-				aspects of a task. </p>
+				aspects of a task.</p>
 		</section>
 		<section id="section_709331EA92CE484FBEC8274342823932">
 			<title>The structure of the <xmlelement>task</xmlelement> topic</title>
@@ -25,10 +25,10 @@
 				contains a <xmlelement>title</xmlelement> and a <xmlelement>taskbody</xmlelement>
 				with optional alternative titles (<xmlelement>titlealts</xmlelement>), a short
 				description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>,
-				and <xmlelement>related-links</xmlelement>. </p>
+				and <xmlelement>related-links</xmlelement>.</p>
 			<p id="p_9286DB98E2CD47D0A53B40DFB0049E0C">The <xmlelement>taskbody</xmlelement> element
 				is the main body element inside a strict task document type. The strict task body
-				has a constrained structure, with these optional elements in the following order: </p>
+				has a constrained structure, with these optional elements in the following order:</p>
 			<dl>
 				<dlentry>
 					<dt><xmlelement>prereq</xmlelement>
@@ -68,7 +68,7 @@
 								<xmlelement>choices</xmlelement>, a step result
 								<xmlelement>stepresult</xmlelement><ph>, or troubleshooting
 									<xmlelement>steptroubleshooting</xmlelement></ph>, although
-							these are optional. </p>
+							these are optional.</p>
 					</dd>
 				</dlentry>
 				<dlentry>
@@ -134,8 +134,8 @@
 			<p id="p_E1DCE778C2C643D2881255B33FCD9055">Organizations that have created
 				specializations based on the DITA 1.0 and 1.1 strict task model <ph>can</ph> review
 				the recommendations in <xref href="../../non-normative/migration-1.1-to-1.2.dita"/>
-				<ph>for information about how</ph> to maintain their specializations. </p>
+				<ph>for information about how</ph> to maintain their specializations.</p>
 		</section>
-		<!--<section id="section_A5353AF30F324A64AB125FFF88B7E3D4"><title>Modules</title><p id="p_F14827B364F5411DB2F33DAF5278DE0A">The following DITA modules are provided for the task topic. </p><sl><sli><filepath>task.mod</filepath>, <filepath>task.ent</filepath>, <filepath>strictTaskbodyConstraint.mod</filepath> (DTD) </sli><sli><filepath>taskMod.xsd</filepath>, <filepath>taskGrp.xsd</filepath>, <filepath>strictTaskbodyConstraintMod.xsd</filepath> (Schema) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rng</filepath>, <filepath>strictTaskbodyConstraint.rng</filepath> (RELAX NG XML syntax) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rnc</filepath>, <filepath>strictTaskbodyConstraint.rnc</filepath> (RELAX NG compact syntax) </sli></sl></section>-->
+		<!--<section id="section_A5353AF30F324A64AB125FFF88B7E3D4"><title>Modules</title><p id="p_F14827B364F5411DB2F33DAF5278DE0A">The following DITA modules are provided for the task topic.</p><sl><sli><filepath>task.mod</filepath>, <filepath>task.ent</filepath>, <filepath>strictTaskbodyConstraint.mod</filepath> (DTD) </sli><sli><filepath>taskMod.xsd</filepath>, <filepath>taskGrp.xsd</filepath>, <filepath>strictTaskbodyConstraintMod.xsd</filepath> (Schema) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rng</filepath>, <filepath>strictTaskbodyConstraint.rng</filepath> (RELAX NG XML syntax) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rnc</filepath>, <filepath>strictTaskbodyConstraint.rnc</filepath> (RELAX NG compact syntax) </sli></sl></section>-->
 	</conbody>
 </concept>

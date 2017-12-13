@@ -16,12 +16,12 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> The processing implementation determines how the level is displayed. Common methods
+      <p>The processing implementation determines how the level is displayed. Common methods
         include using a dash, for example "-01", or a period, such as ".01".</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/ph bookmap/revisionid </p>
+      <p>- topic/ph bookmap/revisionid</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

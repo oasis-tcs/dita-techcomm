@@ -5,18 +5,15 @@
   <shortdesc>The release management domain provides markup that enables content
 	 developers to log information about changes that have been made to a DITA topic
 	 or map. This information can be used to generate release notes, which can help
-	 users locate significant changes in revisions of large documents. 
-  </shortdesc> 
+	 users locate significant changes in revisions of large documents.</shortdesc> 
   <conbody> 
 	 <section id="details"> 
 		<p>Processors can gather the information and assemble it into an appendix
 		  or separate document, thus eliminating the need for separate release-note
 		  topics or external tracking mechanisms such as spread sheets or databases.
 		  Regulated industries can use the release management domain to provide the
-		  records that are required by regulatory agencies. 
-		</p> 
-		<p>This figure shows the structure of the release management elements. 
-		</p> 
+		  records that are required by regulatory agencies.</p> 
+		<p>This figure shows the structure of the release management elements.</p> 
 		<fig id="rmg-elements"> 
 		  <title>Release management elements</title> 
 		  <image scale="80" href="../../images/ReleaseManagementElements.png"
@@ -33,8 +30,7 @@
 			 </alt> 
 		  </image> 
 		</fig> 
-		<p>The following list provides a brief description of the element: 
-		</p> 
+		<p>The following list provides a brief description of the element:</p> 
 		<dl> 
 		  <dlentry> 
 			 <dt><xmlelement>change-historylist</xmlelement> 
@@ -113,8 +109,7 @@
 	 </section> 
 	 <example id="example" otherprops="examples"> 
 		<p>This figure shows three simple change-items added to a single topic.
-		  This topic is used in documentation for two products, A and B. 
-		</p> 
+		  This topic is used in documentation for two products, A and B.</p> 
 		<fig id="fig_9A43380492DE4B42931EB89288A21DDA"> 
 		  <title>Excerpt from topic prolog</title> 
 		  <codeblock>

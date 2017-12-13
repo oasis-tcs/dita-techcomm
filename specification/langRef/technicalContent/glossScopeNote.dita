@@ -7,7 +7,7 @@
     subject that is designated by the <xmlelement>glossterm</xmlelement>, such as examples of
     included or excluded companies or products. For instance, a scope note for "Linux" might explain
     that the term doe not apply to UNIX products; it might give examples of Linux products that are
-    included as well as UNIX products that are excluded. </shortdesc>
+    included as well as UNIX products that are excluded.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,7 +24,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/note concept/note glossentry/glossScopeNote </p>
+      <p>- topic/note concept/note glossentry/glossScopeNote</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

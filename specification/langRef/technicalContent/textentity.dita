@@ -16,7 +16,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> This element enables more precise semantic searching of the DITA source; it also enables
+      <p>This element enables more precise semantic searching of the DITA source; it also enables
         distinct formatting, such as adding an ampersand (&amp;) as a leading character and a
         semi-colon (;) as a trailing character. The content of the
           <xmlelement>textentity</xmlelement> element should be the entity name without the

@@ -26,11 +26,11 @@
       <p>When evaluated, the <xmlelement>coderef</xmlelement> element <ph>causes</ph> the target
         code to be displayed inline. If the target contains non-XML characters such as '&lt;' or
         '&amp;', those will need to be handled in a way that they <ph>can</ph> be displayed
-        correctly by the final rendering engine. </p>
+        correctly by the final rendering engine.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p><ph>+</ph> topic/xref pr-d/coderef </p>
+      <p><ph>+</ph> topic/xref pr-d/coderef</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

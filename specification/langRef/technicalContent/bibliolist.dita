@@ -23,7 +23,7 @@
         processor <ph>might</ph> generate a list of bibliographic entries at this location.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>- map/topicref bookmap/bibliolist </p></section>
+        ><title>Specialization hierarchy</title><p>- map/topicref bookmap/bibliolist</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
         conkeyref="conref-attribute/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples"

@@ -4,7 +4,7 @@
 <reference id="option" xml:lang="en-us">
   <title><xmlelement>option</xmlelement></title>
   <shortdesc>The <xmlelement>option</xmlelement> element describes an option that can be used to
-    modify a command (or something else, like a configuration). </shortdesc>
+    modify a command (or something else, like a configuration).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,7 +22,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword pr-d/option </p>
+      <p>+ topic/keyword pr-d/option</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

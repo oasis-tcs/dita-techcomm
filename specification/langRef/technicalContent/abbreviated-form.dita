@@ -67,11 +67,11 @@
         </ol></p>
       <p>For instance, if an <xmlelement>abbreviated-form</xmlelement> element with the attribute
           <codeph>keyref="abs"</codeph> provided the first occurrence of the ABS term within a book,
-        the sentence could be rendered as follows: </p>
+        the sentence could be rendered as follows:</p>
       <lq>"The Anti-lock Brake System (ABS) will prevent the car from skidding in adverse weather
         conditions."</lq>
       <p>If the ABS term had appeared previously within the book, the same sentence could instead be
-        rendered as follows: </p>
+        rendered as follows:</p>
       <lq>"The ABS will prevent the car from skidding in adverse weather conditions."</lq>
     </section>
     <section id="processing-expectations">
@@ -79,7 +79,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/term abbrev-d/abbreviated-form </p>
+      <p>+ topic/term abbrev-d/abbreviated-form</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

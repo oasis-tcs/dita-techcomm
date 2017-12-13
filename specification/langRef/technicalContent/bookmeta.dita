@@ -17,7 +17,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicmeta bookmap/bookmeta </p>
+      <p>- map/topicmeta bookmap/bookmeta</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -16,14 +16,14 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> Note that unlike the <xmlelement>personname</xmlelement> element, the
+      <p>Note that unlike the <xmlelement>personname</xmlelement> element, the
           <xmlelement>person</xmlelement> element is not restricted to describing the names of
-        authors. </p>
+        authors.</p>
     </section>
 
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/data bookmap/person </p>
+      <p>- topic/data bookmap/person</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

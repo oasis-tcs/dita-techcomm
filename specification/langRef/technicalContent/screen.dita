@@ -4,7 +4,7 @@
 <reference id="screen" xml:lang="en-us">
   <title><xmlelement>screen</xmlelement></title>
   <shortdesc>The <xmlelement>screen</xmlelement> element contains or refers to a textual
-    representation of a computer screen or user interface panel (window). </shortdesc>
+    representation of a computer screen or user interface panel (window).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -33,7 +33,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/pre ui-d/screen </p>
+      <p>+ topic/pre ui-d/screen</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

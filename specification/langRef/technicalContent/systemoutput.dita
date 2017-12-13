@@ -17,7 +17,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> A generalized element, it represents any kind of output from the computer, so the author
+      <p>A generalized element, it represents any kind of output from the computer, so the author
           <ph>might want</ph> to choose more specific markup, such as <xmlelement>msgph</xmlelement>
         for messages from the application. The system output element is part of the DITA software
         domain, a special set of DITA elements designed to document software tasks, concepts and
@@ -25,7 +25,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph sw-d/systemoutput </p>
+      <p>+ topic/ph sw-d/systemoutput</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

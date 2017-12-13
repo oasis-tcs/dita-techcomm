@@ -5,7 +5,7 @@
 <title><xmlelement>property</xmlelement></title>
 <shortdesc>The <xmlelement>property</xmlelement> element represents a single property of the current
       topic's subject. For example, if the current reference topic describes a programming class,
-      the property might show that the class is protected rather than public. </shortdesc>
+      the property might show that the class is protected rather than public.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>property</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>property</xmlelement></indexterm></indexterm>
 </keywords>

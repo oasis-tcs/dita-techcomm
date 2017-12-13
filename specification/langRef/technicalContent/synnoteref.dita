@@ -5,7 +5,7 @@
   <title><xmlelement>synnoteref</xmlelement></title>
   <shortdesc>The <xmlelement>synnoteref</xmlelement> element references a syntax note element
       (<xmlelement>synnote</xmlelement>) that has already been defined elsewhere in the syntax
-    diagram. </shortdesc>
+    diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,7 +23,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/xref pr-d/synnoteref </p>
+      <p>+ topic/xref pr-d/synnoteref</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

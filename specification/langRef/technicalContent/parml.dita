@@ -17,12 +17,12 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> This is a special kind of definition list that is designed for documenting programming
+      <p>This is a special kind of definition list that is designed for documenting programming
         parameters. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/dl pr-d/parml </p>
+      <p>+ topic/dl pr-d/parml</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

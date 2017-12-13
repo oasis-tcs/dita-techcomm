@@ -22,7 +22,7 @@
     reader quickly evaluate the book's purpose.</p>
   </section>
   <section id="specialization-hierarchy" otherprops="specialization-hierarchy"><title>Specialization
-    hierarchy</title><p>- map/topicref bookmap/bookabstract </p></section>
+    hierarchy</title><p>- map/topicref bookmap/bookabstract</p></section>
   <section id="attributes"><title>Attributes</title><sectiondiv
     conkeyref="conref-attribute/bookmap-topicrefs"/></section>
   <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref

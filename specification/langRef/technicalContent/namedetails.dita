@@ -4,7 +4,7 @@
 <reference id="namedetails" xml:lang="en-us">
   <title><xmlelement>namedetails</xmlelement></title>
   <shortdesc>The <xmlelement>namedetails</xmlelement> element contains information about the name of
-    the author or the authoring organization. </shortdesc>
+    the author or the authoring organization.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/namedetails </p>
+      <p>+ topic/data xnal-d/namedetails</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

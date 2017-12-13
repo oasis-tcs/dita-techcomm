@@ -5,7 +5,7 @@
   <title><xmlelement>fragref</xmlelement></title>
   <shortdesc>The <xmlelement>fragref</xmlelement> element provides a logical reference to a
       <xmlelement>fragment</xmlelement> element within a syntax diagram, so that you can reference a
-    syntax fragment multiple times or pull a large section of syntax out of line for easier reading. </shortdesc>
+    syntax fragment multiple times or pull a large section of syntax out of line for easier reading.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,7 +22,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/xref pr-d/fragref </p>
+      <p>+ topic/xref pr-d/fragref</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

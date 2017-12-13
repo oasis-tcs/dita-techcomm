@@ -4,7 +4,7 @@
 <reference id="parmname" xml:lang="en-us">
   <title><xmlelement>parmname</xmlelement></title>
   <shortdesc>The <xmlelement>parmname</xmlelement> element is used to reference the name of an
-    application programming interface parameter within the text flow of a topic. </shortdesc>
+    application programming interface parameter within the text flow of a topic.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +21,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword pr-d/parmname </p>
+      <p>+ topic/keyword pr-d/parmname</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

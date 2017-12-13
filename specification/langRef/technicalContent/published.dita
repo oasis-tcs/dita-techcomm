@@ -5,7 +5,7 @@
   <title><xmlelement>published</xmlelement></title>
   <shortdesc>The <xmlelement>published</xmlelement> element contains information about the person or
     organization publishing the book, the dates when it was started and completed, and any special
-    restrictions associated with it. </shortdesc>
+    restrictions associated with it.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +17,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/data bookmap/published </p>
+      <p>- topic/data bookmap/published</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -3,7 +3,7 @@
 <concept xml:lang="en-us" id="concept_dr5_htt_hj" >
   <title>Troubleshooting information</title>
   <shortdesc>Troubleshooting information is invaluable to technical content users because it
-    provides advice to correct problems with task performance. </shortdesc>
+    provides advice to correct problems with task performance.</shortdesc>
   <conbody>
     <p>User studies show that users find troubleshooting information invaluable because they
       frequently access technical information only when they have encountered a problem in
@@ -13,7 +13,7 @@
       troubleshooting information appropriately. Minimalism research indicates that users are most
       likely to read troubleshooting information if it is visibly labeled. We recommend that
       implementations use style sheets that add symbols or text to draw attention to the
-      troubleshooting elements in the topics. </p>
+      troubleshooting elements in the topics.</p>
     <p>Troubleshooting information can be added to an individual step in a DITA task; it also can be
       added after the steps are completed. Troubleshooting information can be added in any topic
       type in a <xmlelement>note</xmlelement> element with the <xmlatt>type</xmlatt> attribute set
@@ -25,7 +25,7 @@
     <section id="step-troubleshooting">
       <title>Step troubleshooting</title>
       <p>Troubleshooting information can be added following a step in a procedure if it is likely
-        that the user will encounter a problem in performing the step. </p>
+        that the user will encounter a problem in performing the step.</p>
       <p>The <xmlelement>steptroubleshooting</xmlelement> element can occur following the
           <xmlelement>cmd</xmlelement> element in the <xmlelement>step</xmlelement> or
           <xmlelement>substep</xmlelement> element. The

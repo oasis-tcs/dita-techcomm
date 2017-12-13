@@ -5,7 +5,7 @@
   <title><xmlelement>summary</xmlelement></title>
   <shortdesc>The <xmlelement>summary</xmlelement> element contains a text summary associated with a
     book event (such as <xmlelement>approved</xmlelement> or <xmlelement>reviewed</xmlelement>) or
-    with the list of copyrights for the book. </shortdesc>
+    with the list of copyrights for the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +17,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/ph bookmap/summary </p>
+      <p>- topic/ph bookmap/summary</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

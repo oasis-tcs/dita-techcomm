@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="firstname" xml:lang="en-us">
   <title><xmlelement>firstname</xmlelement></title>
-  <shortdesc>The <xmlelement>firstname</xmlelement> element contains the person's first name. </shortdesc>
+  <shortdesc>The <xmlelement>firstname</xmlelement> element contains the person's first name.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,7 +15,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/firstname </p>
+      <p>+ topic/data xnal-d/firstname</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

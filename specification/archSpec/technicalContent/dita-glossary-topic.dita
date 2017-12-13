@@ -14,7 +14,7 @@
       <p>Defining terminology in a glossary ensures that a team of writers uses the same term for
         the same concept. A glossary added to a book or available online in conjunction with other
         subject matter provides the reader with definitions of unfamiliar terms and expands
-        acronyms. </p>
+        acronyms.</p>
       <!-- 1. from
  jeff ogden: Say a little more. Say that collections of glossary
  entries are assembled into collections of terms when they are    
@@ -33,14 +33,14 @@
       <title>The structure of the glossentry topic</title>
       <p>The top-level element for a DITA glossentry topic is the <xmlelement>glossentry</xmlelement>
         element. Every glossentry topic contains a <xmlelement>glossterm</xmlelement> and a <xmlelement>glossdef</xmlelement> element and
-        optional <xmlelement>related-links</xmlelement>. </p>
+        optional <xmlelement>related-links</xmlelement>.</p>
       <p>Where a term has multiple definitions, <ph >best practices call for
           the writer to</ph> create multiple glossentry topics with the same term in the
           <xmlelement>glossterm</xmlelement> element but different definitions in the
           <xmlelement>glossdef</xmlelement> element. A process can collate and group glossentry
         topics by term when generating formatted output. Note that definitions with the same term in
         one language can have different terms in other languages, so translations can result in
-        different collation and grouping of the same set of glossentry topics. </p>
+        different collation and grouping of the same set of glossentry topics.</p>
       <p>Here is an example of a simple glossentry topic:</p>
       <codeblock>&lt;glossentry id="ddl">
     &lt;glossterm>Data Definition Language&lt;/glossterm>
@@ -54,7 +54,7 @@
           <li>using an automated process</li>
         </ul>For example, an automated process <ph >might</ph> assemble
         glossentry topics from a repository based on the <xmlelement>term</xmlelement> markup in a
-        particular collection of topics. </p>
+        particular collection of topics.</p>
       <!--  Jeff Ogden 2007/01/22: made authoring option using ditabase explicit; made automated processing
       option clearer with an example -->
     </section>
@@ -90,10 +90,10 @@
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
       <p>Note that because no acronym exists for the term in Spanish, the <xmlelement>glossSurfaceForm</xmlelement> and
-        <xmlelement>glossAcronym</xmlelement> elements are left blank. </p>
+        <xmlelement>glossAcronym</xmlelement> elements are left blank.</p>
       <p>In some languages, the surface form that expands the acronym in its first use handles the
         formatting differently than in English. For example, in Polish, the acronym precedes the
-        expansion. </p>
+        expansion.</p>
       <codeblock>&lt;glossentry id="eu" xml:lang="pl">
   &lt;glossterm>Unia Europejska&lt;/glossterm>
   &lt;glossBody>

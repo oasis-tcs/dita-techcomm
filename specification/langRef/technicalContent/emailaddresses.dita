@@ -4,7 +4,7 @@
 <reference id="emailaddresses" xml:lang="en-us">
   <title><xmlelement>emailaddresses</xmlelement></title>
   <shortdesc>The <xmlelement>emailaddresses</xmlelement> element contains a list of e-mail
-    addresses. </shortdesc>
+    addresses.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/emailaddresses </p>
+      <p>+ topic/data xnal-d/emailaddresses</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

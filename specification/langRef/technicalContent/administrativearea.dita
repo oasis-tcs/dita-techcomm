@@ -4,7 +4,7 @@
 <reference id="administrativearea" xml:lang="en-us">
    <title><xmlelement>administrativearea</xmlelement></title>
    <shortdesc>The <xmlelement>administrativearea</xmlelement> element contains information about a
-      county, state, or province. </shortdesc>
+      county, state, or province.</shortdesc>
    <prolog>
       <metadata>
          <keywords>
@@ -15,8 +15,7 @@
    </prolog>
    <refbody>
       <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
-            ><title>Specialization hierarchy</title><p>+ topic/ph xnal-d/administrativearea
-         </p></section>
+            ><title>Specialization hierarchy</title><p>+ topic/ph xnal-d/administrativearea</p></section>
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
       </section>

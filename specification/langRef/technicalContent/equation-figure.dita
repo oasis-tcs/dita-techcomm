@@ -21,7 +21,7 @@
           <xmlelement>equation-figure</xmlelement> can be the equation content itself (for example,
           <xmlelement>mathml</xmlelement> or an image reference), or it can be one or more
           <xmlelement>equation-block</xmlelement> elements, along with other elements allowed within
-          <xmlelement>fig</xmlelement>, such as paragraphs. </p>
+          <xmlelement>fig</xmlelement>, such as paragraphs.</p>
       <p>When an <xmlelement>equation-figure</xmlelement> element has multiple direct child
           <xmlelement>mathml</xmlelement>, <xmlelement>image</xmlelement>, or
           <xmlelement>pre</xmlelement> elements, each child represents an alternative form of the
@@ -42,7 +42,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/fig equation-d/equation-figure </p>
+      <p>+ topic/fig equation-d/equation-figure</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -15,11 +15,11 @@
   </prolog>
   <refbody><section id="usage-information">
          <title>Usage information</title>
-         <p> Customarily, the content is restricted to the name of the country. </p>
+         <p>Customarily, the content is restricted to the name of the country.</p>
       </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/data bookmap/printlocation </p>
+      <p>- topic/data bookmap/printlocation</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

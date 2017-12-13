@@ -4,7 +4,7 @@
 <reference id="choptionhd" xml:lang="en-us">
 <title><xmlelement>choptionhd</xmlelement></title>
 <shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a specific label for the list of
-      options from which a user chooses in order to accomplish a step. </shortdesc>
+      options from which a user chooses in order to accomplish a step.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>choptionhd</xmlelement></indexterm>
             <indexterm>processing

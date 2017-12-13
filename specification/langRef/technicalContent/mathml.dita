@@ -17,17 +17,17 @@
       <title>Usage information</title>
       <p>Mathml element content includes MathML elements, references to MathML elements held in separate,
         non-DITA documents, <xmlelement>data</xmlelement>, or <xmlelement>data-about</xmlelement>
-        elements. </p>
+        elements.</p>
       <p>The <xmlelement>mathml</xmlelement> element is not intended to represent a semantic
         equation, only content that contributes to a semantic equation. Use the equation domain
         elements or their equivalent to represent equations semantically, for example, to enable
-        numbering of equations. </p>
+        numbering of equations.</p>
       <p>The MathML markup must have a root element of <xmlelement>math</xmlelement> within the
         MathML namespace: "http://www.w3.org/1998/Math/MathML".</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/foreign mathml-d/mathml </p>
+      <p>+ topic/foreign mathml-d/mathml</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

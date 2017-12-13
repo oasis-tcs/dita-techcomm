@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="country" xml:lang="en-us">
   <title><xmlelement>country</xmlelement></title>
-  <shortdesc>The <xmlelement>country</xmlelement> element contains the name of a country. </shortdesc>
+  <shortdesc>The <xmlelement>country</xmlelement> element contains the name of a country.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,7 +15,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph xnal-d/country </p>
+      <p>+ topic/ph xnal-d/country</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

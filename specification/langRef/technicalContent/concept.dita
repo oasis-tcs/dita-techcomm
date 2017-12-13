@@ -11,7 +11,7 @@
     background information that users must know before they can successfully work with a product or
     interface. Often, a concept is an extended definition of a major abstraction such as a process
     or function. It might also have an example or a graphic, but generally the structure of a
-    concept is fairly simple. </shortdesc>
+    concept is fairly simple.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -33,7 +33,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic concept/concept </p>
+      <p>- topic/topic concept/concept</p>
     </section>
     <section id="attributes">
       <title>Attributes</title><sectiondiv

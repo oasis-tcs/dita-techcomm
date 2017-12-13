@@ -4,7 +4,7 @@
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
 <shortdesc>Prerequisites are things that users must know or preliminary tasks that users must
-    perform before starting the current task. </shortdesc>
+    perform before starting the current task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
         <indexterm>formatting

@@ -22,11 +22,11 @@
       <title>Usage information</title>
       <p>The syntax note explains aspects of the syntax that cannot be expressed in the markup
         itself. The note will appear at the bottom of the syntax diagram instead of at the bottom of
-        the page. </p>
+        the page.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/fn pr-d/synnote </p>
+      <p>+ topic/fn pr-d/synnote</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -4,7 +4,7 @@
   <title><xmlelement>markupname</xmlelement></title>
   <shortdesc>Use the <xmlelement>markupname</xmlelement> element to identify mentions of named
     markup tokens, such as elements or attributes in XML or SGML, named groups in XSD schemas, or
-    named patterns in RELAX NG schemas. </shortdesc>
+    named patterns in RELAX NG schemas.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,7 +24,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname </p>
+      <p>+ topic/keyword markup-d/markupname</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

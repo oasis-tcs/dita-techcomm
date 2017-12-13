@@ -4,7 +4,7 @@
 <reference id="synblk" xml:lang="en-us">
   <title><xmlelement>synblk</xmlelement></title>
   <shortdesc>The <xmlelement>synblk</xmlelement> (syntax block) element organizes small pieces of a
-    syntax definition into a larger piece. </shortdesc>
+    syntax definition into a larger piece.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,7 +22,7 @@
       </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/synblk </p>
+      <p>+ topic/figgroup pr-d/synblk</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

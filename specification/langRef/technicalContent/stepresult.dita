@@ -4,7 +4,7 @@
 <reference id="stepresult" xml:lang="en-us">
 <title><xmlelement>stepresult</xmlelement></title>
 <shortdesc>The <xmlelement>stepresult</xmlelement> element provides information on the expected
-  outcome of a step. </shortdesc>
+  outcome of a step.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepresult</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepresult</xmlelement></indexterm></indexterm>
 </keywords>

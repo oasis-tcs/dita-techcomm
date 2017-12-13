@@ -17,14 +17,14 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> A group is a logical set of pieces of syntax that go together. Within the syntax
+      <p>A group is a logical set of pieces of syntax that go together. Within the syntax
         definition, groups of keywords, delimiters and other syntax units act as a combined unit,
         and they occur in a specific sequence, as delimited by the <xmlelement>groupseq</xmlelement>
         element. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/groupseq </p>
+      <p>+ topic/figgroup pr-d/groupseq</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

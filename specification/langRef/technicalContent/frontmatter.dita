@@ -16,13 +16,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> It <ph>might</ph> include items such as an abstract, a preface, and various types of book
+      <p>It <ph>might</ph> include items such as an abstract, a preface, and various types of book
         lists such as a <xmlelement>toc</xmlelement>, <xmlelement>tablelist</xmlelement>, or
-          <xmlelement>figurelist</xmlelement>. </p>
+          <xmlelement>figurelist</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicref bookmap/frontmatter </p>
+      <p>- map/topicref bookmap/frontmatter</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

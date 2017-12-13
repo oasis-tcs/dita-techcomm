@@ -15,7 +15,7 @@
   </prolog>
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>+ topic/ph xnal-d/addressdetails </p></section>
+        ><title>Specialization hierarchy</title><p>+ topic/ph xnal-d/addressdetails</p></section>
     <section id="attributes"><title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
     </section>

@@ -4,7 +4,7 @@
 <reference id="booktitle" xml:lang="en-us">
   <title><xmlelement>booktitle</xmlelement></title>
   <shortdesc>The <xmlelement>booktitle</xmlelement> element contains the title information for a
-    book, including the library title, main title, subtitle, and other titles (as required). </shortdesc>
+    book, including the library title, main title, subtitle, and other titles (as required).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/title bookmap/booktitle </p>
+      <p>- topic/title bookmap/booktitle</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

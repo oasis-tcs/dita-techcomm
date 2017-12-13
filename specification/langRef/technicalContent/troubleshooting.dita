@@ -27,7 +27,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic troubleshooting/troubleshooting </p>
+      <p>- topic/topic troubleshooting/troubleshooting</p>
     </section>
     <section id="attributes">
       <title>Attributes</title><sectiondiv
@@ -37,8 +37,7 @@
       <codeblock xml:space="preserve">
 <![CDATA[<troubleshooting id="resolve" xml:lang="en-us" >
   <title>E247 - Memory fault has occured</title>
-  <shortdesc>The system has detected a problem in memory.
-  </shortdesc>
+  <shortdesc>The system has detected a problem in memory.</shortdesc>
   <troublebody>
     <condition>
       <p>The fault indicator flashes on the front panel, and

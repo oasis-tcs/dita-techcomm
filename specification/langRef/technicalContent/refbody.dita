@@ -7,7 +7,7 @@
 for the main content of the reference topic. Reference topics limit
 the body structure to tables (both simple and standard), property
 lists, syntax sections, and generic sections and examples, in any
-sequence or number. </shortdesc>
+sequence or number.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refbody</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>refbody</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
@@ -17,7 +17,7 @@ sequence or number. </shortdesc>
          <p>Reference topics represent the kind of information that users typically consult to
             understand programming objects, <!--statements, commands, -->configuration file options,
             recipes, terminological descriptions, product or other specifications, equipment or
-            parts lists, or any other set of factual information. </p>
+            parts lists, or any other set of factual information.</p>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>

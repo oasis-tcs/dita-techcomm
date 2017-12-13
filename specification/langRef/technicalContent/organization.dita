@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="organization" xml:lang="en-us">
   <title><xmlelement>organization</xmlelement></title>
-  <shortdesc>The <xmlelement>organization</xmlelement> element contains the name of an organization. </shortdesc>
+  <shortdesc>The <xmlelement>organization</xmlelement> element contains the name of an organization.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,11 +18,11 @@
       <p>Note that unlike <xmlelement>organizationname</xmlelement>, the
           <xmlelement>organization</xmlelement> element is not restricted to use within
           <xmlelement>authorinformation</xmlelement>; it does not have to contain the name of an
-        authoring organization. </p>
+        authoring organization.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/data bookmap/organization </p>
+      <p>- topic/data bookmap/organization</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

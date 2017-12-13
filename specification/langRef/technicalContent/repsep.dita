@@ -18,13 +18,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> If the <xmlelement>repsep</xmlelement> element contains a separator character such as a
+      <p>If the <xmlelement>repsep</xmlelement> element contains a separator character such as a
         plus (+), this indicates that the character must be used between repetitions of the syntax
         elements. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph pr-d/repsep </p>
+      <p>+ topic/ph pr-d/repsep</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

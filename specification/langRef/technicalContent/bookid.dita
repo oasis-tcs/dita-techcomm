@@ -15,7 +15,7 @@
     <refbody>
         <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
             <title>Specialization hierarchy</title>
-            <p>- topic/data bookmap/bookid </p></section>
+            <p>- topic/data bookmap/bookid</p></section>
 
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="conref-attribute/data-link-universal-outputclass"/>

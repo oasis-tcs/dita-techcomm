@@ -4,7 +4,7 @@
 <reference id="plentry" xml:lang="en-us">
   <title><xmlelement>plentry</xmlelement></title>
   <shortdesc>The <xmlelement>plentry</xmlelement> element contains one or more parameter terms and
-    definitions (<xmlelement>pt</xmlelement> and <xmlelement>pd</xmlelement>). </shortdesc>
+    definitions (<xmlelement>pt</xmlelement> and <xmlelement>pd</xmlelement>).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +21,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/dlentry pr-d/plentry </p>
+      <p>+ topic/dlentry pr-d/plentry</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

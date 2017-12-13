@@ -4,7 +4,7 @@
 <reference id="authorinformation" xml:lang="en-us">
   <title><xmlelement>authorinformation</xmlelement></title>
   <shortdesc>The <xmlelement>authorinformation</xmlelement> element contains detailed information
-    about the author or authoring organization. </shortdesc>
+    about the author or authoring organization.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,8 +15,7 @@
   </prolog>
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>+ topic/author xnal-d/authorinformation
-      </p></section>
+        ><title>Specialization hierarchy</title><p>+ topic/author xnal-d/authorinformation</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
         conkeyref="conref-attribute/author-attributes"/></section>
     <example id="example" otherprops="examples"

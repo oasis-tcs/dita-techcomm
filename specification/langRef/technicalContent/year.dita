@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="year" xml:lang="en-us">
   <title><xmlelement>year</xmlelement></title>
-  <shortdesc>The <xmlelement>year</xmlelement> element denotes a year. </shortdesc>
+  <shortdesc>The <xmlelement>year</xmlelement> element denotes a year.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,7 +15,7 @@
   <refbody>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/ph bookmap/year </p>
+      <p>- topic/ph bookmap/year</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

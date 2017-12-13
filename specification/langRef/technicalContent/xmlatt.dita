@@ -16,7 +16,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p> This element enables more precise semantic searching of the DITA source; it also enables
+      <p>This element enables more precise semantic searching of the DITA source; it also enables
         distinct formatting, such as preceding the name of the attribute with a commercial at (@)
         sign. The content of the <xmlelement>xmlatt</xmlelement> element should be the attribute
         name without commercial at or equals (=) characters. <ph
@@ -24,7 +24,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/xmlatt </p>
+      <p>+ topic/keyword markup-d/markupname xml-d/xmlatt</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

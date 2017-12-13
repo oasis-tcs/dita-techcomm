@@ -22,7 +22,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/metadata relmgmt-d/change-historylist </p>
+      <p>- topic/metadata relmgmt-d/change-historylist</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,7 +32,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p> This example shows three simple release notes added to a single topic. This topic is used
+      <p>This example shows three simple release notes added to a single topic. This topic is used
         in documentation for two products, A and B.</p>
       <codeblock>&lt;prolog>
         &lt;!-- ... -->

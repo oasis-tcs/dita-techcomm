@@ -4,7 +4,7 @@
 <reference id="cmdname" xml:lang="en-us">
   <title><xmlelement>cmdname</xmlelement></title>
   <shortdesc>The <xmlelement>cmdname</xmlelement> element specifies the name of a command when it is
-    part of a software discussion. </shortdesc>
+    part of a software discussion.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,7 +23,7 @@
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword sw-d/cmdname </p>
+      <p>+ topic/keyword sw-d/cmdname</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
