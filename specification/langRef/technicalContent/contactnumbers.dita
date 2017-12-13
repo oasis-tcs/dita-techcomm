@@ -2,19 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="contactnumbers" xml:lang="en-us">
-<title><xmlelement>contactnumbers</xmlelement></title>
-<shortdesc>The <xmlelement>contactnumbers</xmlelement> element contains a list of telephone
-and fax numbers. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>contactnumbers<indexterm>xNAL elements<indexterm>contactnumbers</indexterm></indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-contactnumbers/contains" otherprops="contains"></section>
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/data xnal-d/contactnumbers </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;personinfo&gt;
+  <title><xmlelement>contactnumbers</xmlelement></title>
+  <shortdesc>The <xmlelement>contactnumbers</xmlelement> element contains a list of telephone and
+    fax numbers.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>contactnumbers<indexterm>xNAL
+            elements<indexterm>contactnumbers</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/data xnal-d/contactnumbers</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;personinfo&gt;
  &lt;namedetails&gt;&lt;personname&gt;
    &lt;firstname&gt;Derek&lt;/firstname&gt;
    &lt;middlename&gt;L.&lt;/middlename&gt;
@@ -31,8 +41,5 @@ topic/data xnal-d/contactnumbers </p></section>
  &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
  &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
 &lt;/personinfo&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"/>
-      </section>
-</refbody>
+  </refbody>
 </reference>

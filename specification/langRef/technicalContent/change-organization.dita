@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="change-organization" xml:lang="en-us" >
+<reference id="change-organization" xml:lang="en-us">
   <title><xmlelement>change-organization</xmlelement></title>
   <shortdesc>Use the <xmlelement>change-organization</xmlelement> element to specify the name of an
     organization that required the change.</shortdesc>
@@ -14,15 +14,14 @@
     </metadata>
   </prolog>
   <refbody>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-change-organization/contains" id="contains" otherprops="contains"></section>
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
-      <p>- topic/data relmgmt-d/change-organization </p>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/data relmgmt-d/change-organization</p>
     </section>
-    <example conref="../../common/conref-examples.dita#conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-name"/>
+      <p conkeyref="conref-attribute/universal-outputclass-name"/>
     </section>
+    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

@@ -22,16 +22,13 @@
       <title>Usage information</title>
       <!-- Content to come from shortdesc. -->
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section conref="../../common/commonNavLibraryTable.dita#contentmodel-troubleSolution/contains"
-      id="contains" otherprops="contains"/>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/section troubleshooting/troubleSolution </p>
+      <p>- topic/section troubleshooting/troubleSolution</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

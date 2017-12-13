@@ -19,16 +19,13 @@
       <title>Usage information</title>
       <!-- Content to come from the DITA 1.3 feature proposal. -->
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section conref="../../common/commonNavLibraryTable.dita#contentmodel-responsibleParty/contains"
-      id="contains" otherprops="contains"/>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/p troubleshooting/responsibleParty </p>
+      <p>- topic/p troubleshooting/responsibleParty</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

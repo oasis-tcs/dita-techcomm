@@ -18,25 +18,19 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
                <xmlelement>glossentry</xmlelement> topic might result in an empty
                <xmlelement>glossSynonym</xmlelement> element.</note>
       </section>
-      <section id="formatting-expectations">
-         <title>Formatting expectations</title>
-      </section>
-      <section id="processing-expectations">
-         <title>Processing expectations</title>
-      </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/title concept/title glossentry/glossSynonym </p>
+         <p>- topic/title concept/title glossentry/glossSynonym</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>
-         <p conref="../../common/conref-attribute.dita#conref-attribute/topic-body"/>
+         <p conkeyref="conref-attribute/topic-body"/>
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossSynonym/contains" otherprops="contains"></section>
+
 </refbody>
 </reference>

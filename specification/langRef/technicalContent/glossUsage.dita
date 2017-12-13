@@ -2,39 +2,32 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="glossUsage" xml:lang="en-us">
-<title><xmlelement>glossUsage</xmlelement></title>
-<shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about
-the correct use of a term, such as where or how it can be used.</shortdesc>
-<prolog><metadata>
-<keywords>
-                <indexterm>glossaries<indexterm>usage information</indexterm></indexterm>
-                <indexterm>glossentry
-                        elements<indexterm><xmlelement>glossUsage</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossUsage</xmlelement></indexterm></keywords>
-</metadata></prolog>
-<refbody>
-        <section id="usage-information">
-            <title>Usage information</title>
-        </section>
-        <section id="formatting-expectations">
-            <title>Formatting expectations</title>
-        </section>
-        <section id="processing-expectations">
-            <title>Processing expectations</title>
-        </section>
-        <section id="specialization-hierarchy">
-            <title>Specialization hierarchy</title>
-            <p>- topic/note concept/note glossentry/glossUsage </p>
-        </section>
-        <section id="attributes">
-            <title>Attributes</title>
-            <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/note-attributes"
-            />
-        </section>
-        <example id="example" otherprops="examples">
-            <title>Example</title>
-            <p>See the example in <xref href="glossentry.dita#glossentry/example"
-                        ><xmlelement>glossentry</xmlelement>.</xref></p>
-        </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossUsage/contains" otherprops="contains"></section>
-</refbody>
+  <title><xmlelement>glossUsage</xmlelement></title>
+  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about the correct
+    use of a term, such as where or how it can be used.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>glossaries<indexterm>usage information</indexterm></indexterm>
+        <indexterm>glossentry
+          elements<indexterm><xmlelement>glossUsage</xmlelement></indexterm></indexterm>
+        <indexterm><xmlelement>glossUsage</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/note concept/note glossentry/glossUsage</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <sectiondiv conkeyref="conref-attribute/note-attributes"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>See the example in <xref href="glossentry.dita#glossentry/example"
+            ><xmlelement>glossentry</xmlelement>.</xref></p>
+    </example>
+  </refbody>
 </reference>

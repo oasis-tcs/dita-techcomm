@@ -20,25 +20,19 @@
       "stick" is a variant of the primary term (USB flash drive). The
         <xmlelement>glossAlternateFor</xmlelement> element indicates that "stick" is also a variant
       of the synonym "memory stick".</section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/xref concept/xref glossentry/glossAlternateFor </p>
+      <p>- topic/xref concept/xref glossentry/glossAlternateFor</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          href="../attributes/universalAttributes.dita"/>, <xref
-          href="../attributes/linkRelationshipAttributes.dita"/> (with a narrowed definition of
+          keyref="universalAttributes"/>, <xref
+          keyref="linkRelationshipAttributes"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), <xref
-          href="../attributes/thekeyrefattribute.dita#thekeyrefattribute"
+            keyref="thekeyrefattribute"
           ><xmlatt>keyref</xmlatt></xref>, and <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>.<dl>
+          keyref="commonAttributes/outputclass"/>.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
             <dd>References a term for which the current variant is an alternate (in addition to the
@@ -46,7 +40,7 @@
               often be to another <xmlelement>glossAlt</xmlelement> element within the same
                 <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
               alternate for both the primary term and the referenced alternate term. See <xref
-                href="../attributes/thehrefattribute.dita"/> for details on syntax.</dd>
+                keyref="thehrefattribute"/> for details on syntax.</dd>
           </dlentry>
         </dl></p>
     </section>
@@ -55,6 +49,6 @@
       <p>See the example in <xref href="glossentry.dita#glossentry/example"
             ><xmlelement>glossentry</xmlelement>.</xref></p>
     </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossAlternateFor/contains" otherprops="contains"></section>
+
 </refbody>
 </reference>

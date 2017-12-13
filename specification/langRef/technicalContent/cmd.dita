@@ -4,8 +4,7 @@
 <reference id="cmd" xml:lang="en-us">
 <title><xmlelement>cmd</xmlelement></title>
 <shortdesc>A command provides an instruction for completing a
-step.<!--The <xmlelement>cmd</xmlelement> element specifies a command, which is a required element inside the <xmlelement>step</xmlelement> element.-->
-</shortdesc>
+step.<!--The <xmlelement>cmd</xmlelement> element specifies a command, which is a required element inside the <xmlelement>step</xmlelement> element.--></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>cmd</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>cmd</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
@@ -14,7 +13,7 @@ step.<!--The <xmlelement>cmd</xmlelement> element specifies a command, which is 
 <title>Usage information</title>
 <p>A command provides the active voice instruction to the user for completing the step, and should
 not be more than one sentence. If the step needs additional explanation, place the explanation in an
-<xmlelement>info</xmlelement> element following the <xmlelement>cmd</xmlelement>. </p>
+<xmlelement>info</xmlelement> element following the <xmlelement>cmd</xmlelement>.</p>
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
@@ -22,7 +21,7 @@ not be more than one sentence. If the step needs additional explanation, place t
 element in the topic module.</p>
 </section>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-keyref"/>
+   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

@@ -28,7 +28,7 @@ same content model as a list item, it is not intended to represent a step in a t
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

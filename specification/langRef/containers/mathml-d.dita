@@ -4,7 +4,7 @@
   <title>MathML domain elements</title>
   <shortdesc>The MathML domain elements enable direct use of MathML markup within DITA documents, as
     well as use-by-reference of MathML markup that is stored separate, non-DITA documents. MathML is
-    a W3C standard. </shortdesc>
+    a W3C standard.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

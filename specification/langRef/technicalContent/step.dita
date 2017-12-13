@@ -34,7 +34,7 @@ step, such as sub-steps, a list of choices, or result information.</ph></p>
 element in the topic module.</p>
 </section>
 <section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/step-and-substep"
+conkeyref="conref-attribute/step-and-substep"
 /></section>
 <example id="example" otherprops="examples">
 <title>Example</title>

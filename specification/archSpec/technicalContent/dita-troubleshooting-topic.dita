@@ -4,11 +4,11 @@
  > 
   <title>Troubleshooting topic</title> 
   <shortdesc>The troubleshooting topic type provides markup for corrective action information such
-		as troubleshooting and alarm clearing. </shortdesc> 
+		as troubleshooting and alarm clearing.</shortdesc> 
   <conbody> 
 	 <section id="infotype">
 			<title>The troubleshooting information type</title>
-			<p>In its simplest form, troubleshooting information follows this pattern: </p>
+			<p>In its simplest form, troubleshooting information follows this pattern:</p>
 			<ol>
 				<li>A condition or symptom. Usually the condition or symptom is an undesirable state
 					in a system, a product, or a service that a reader wants to correct. </li>
@@ -16,13 +16,13 @@
 				<li>A remedy for the condition or symptom. </li>
 			</ol>
 			<p>The troubleshooting topic provides sections for describing the condition, causes, and
-				remedies needed to restore a system, a product, or a service to normal. </p>
+				remedies needed to restore a system, a product, or a service to normal.</p>
 			<p>For some conditions there could be more than one cause-remedy pair. The
 				troubleshooting topic accommodates this. Typically, a cause is immediately followed
 				by its remedy. Multiple cause-remedy pairs can provide a series of successive
-				fall-backs for resolving a condition. </p>
+				fall-backs for resolving a condition.</p>
 			<p>Cause and remedy might occur in combinations other than pairs. It is possible to
-				have: </p>
+				have:</p>
 			<ul>
 				<li>Multiple causes with the same remedy </li>
 				<li>A single cause with more than one remedy </li>
@@ -30,7 +30,7 @@
 				<li>A cause with no known remedy </li>
 			</ul>
 			<p>The troubleshooting information type also can be used to document alarm clearing
-				strategies. </p>
+				strategies.</p>
 		</section> 
 	 <section id="structure">
 			<title>The structure of the troubleshooting topic</title>
@@ -41,10 +41,10 @@
 					(<xmlelement>titlealts</xmlelement>), a short description or
 					<xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, a
 					<xmlelement>troublebody</xmlelement>, and
-				<xmlelement>related-links</xmlelement>. </p>
+				<xmlelement>related-links</xmlelement>.</p>
 			<p><xmlelement>troublebody</xmlelement> is the main body element in a troubleshooting
 				topic. The <xmlelement>troublebody</xmlelement> element contains the following
-				elements: </p>
+				elements:</p>
 			<dl>
 				<dlentry>
 					<dt><xmlelement>condition</xmlelement>
@@ -65,7 +65,7 @@
 						of which are a cause-remedy pair. </dd>
 				</dlentry>
 			</dl>
-			<p>The <xmlelement>troubleSolution</xmlelement> element contains the following elements: </p>
+			<p>The <xmlelement>troubleSolution</xmlelement> element contains the following elements:</p>
 			<dl>
 				<dlentry>
 					<dt><xmlelement>cause</xmlelement>
@@ -80,7 +80,7 @@
 					<dd>
 						<p>This optional, repeatable, last-child of
 								<xmlelement>troubleSolution</xmlelement> describes a possible remedy
-							for the condition. </p>
+							for the condition.</p>
 						<p>The <xmlelement>remedy</xmlelement> element begins with an optional
 								<xmlelement>title</xmlelement> element followed by an optional
 								<xmlelement>responsibleParty</xmlelement> element followed by either
@@ -91,7 +91,7 @@
 								<xmlelement>steps-unordered</xmlelement>, and
 								<xmlelement>steps-informal</xmlelement> are borrowed from
 								<xmlelement>task</xmlelement>. This allows remedy to reuse steps
-							from tasks. </p>
+							from tasks.</p>
 					</dd>
 				</dlentry>
 				<dlentry>
@@ -103,7 +103,7 @@
 			</dl>
 		</section> 
 	 <example id="example" otherprops="examples">
-			<p>Here is an example of a troubleshooting topic: </p>
+			<p>Here is an example of a troubleshooting topic:</p>
 			<codeblock>
 <![CDATA[<troubleshooting id="nologon">
   <title>Cannot log on</title>
@@ -167,6 +167,6 @@
 </troubleshooting>]]>
 </codeblock>
 		</example>
-		<!--<section id="section_A1E4E0CE15B94E0C89740B633491C1DA"><title>Modules</title><p>The following DITA modules are provided for the troubleshooting topic. </p><dl><dlentry><dt>DTD </dt><dd><sl><sli><filepath>troubleshooting.mod</filepath> </sli><sli><filepath>troubleshooting.ent</filepath> </sli></sl></dd></dlentry><dlentry><dt>RelaxNG </dt><dd><draft-comment author="Kristen Eberlein" time="7 March 2014">Content needed here </draft-comment></dd></dlentry><dlentry><dt>XSD </dt><dd><sl><sli><filepath>troubleshootingMod.xsd</filepath> </sli><sli><filepath>troubleshootingGrp.xsd</filepath> </sli></sl></dd></dlentry></dl></section>--> 
+		<!--<section id="section_A1E4E0CE15B94E0C89740B633491C1DA"><title>Modules</title><p>The following DITA modules are provided for the troubleshooting topic.</p><dl><dlentry><dt>DTD </dt><dd><sl><sli><filepath>troubleshooting.mod</filepath> </sli><sli><filepath>troubleshooting.ent</filepath> </sli></sl></dd></dlentry><dlentry><dt>RelaxNG </dt><dd><draft-comment author="Kristen Eberlein" time="7 March 2014">Content needed here </draft-comment></dd></dlentry><dlentry><dt>XSD </dt><dd><sl><sli><filepath>troubleshootingMod.xsd</filepath> </sli><sli><filepath>troubleshootingGrp.xsd</filepath> </sli></sl></dd></dlentry></dl></section>--> 
   </conbody> 
 </concept>

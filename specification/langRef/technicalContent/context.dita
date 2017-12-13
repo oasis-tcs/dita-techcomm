@@ -21,7 +21,7 @@ subject, although the context section might include some conceptual information.
 <xmlelement>section</xmlelement> element in the topic module.</p>
 </section>
 <section id="attributes">       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
         </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "concept.dtd">
 <concept id="archspec-technicalcontent" xml:lang="en-us">
- <title> Technical content architectural specification</title>
+ <title>Technical content architectural specification</title>
  <shortdesc>The technical content architectural specification contains information about the techical-content document
    types and domains, as well as a topic that provides an overview of the DITA elements that support
    documenting troubleshooting information.</shortdesc> 

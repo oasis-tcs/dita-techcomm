@@ -11,7 +11,7 @@
     background information that users must know before they can successfully work with a product or
     interface. Often, a concept is an extended definition of a major abstraction such as a process
     or function. It might also have an example or a graphic, but generally the structure of a
-    concept is fairly simple. </shortdesc>
+    concept is fairly simple.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -31,21 +31,17 @@
         process or function. It might also have an example or a graphic, but generally the structure
         of a concept is fairly simple.</draft-comment>
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section id="contains"
-                  conref="../../common/commonNavLibraryTable.dita#contentmodel-concept/contains"
-                  otherprops="contains"/>-->
-    <section id="specialization-hierarchy" otherprops="inheritance">
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic concept/concept </p>
+      <p>- topic/topic concept/concept</p>
     </section>
     <section id="attributes">
       <title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/></section>
+        conkeyref="conref-attribute/topic-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title><draft-comment author="BobThomas">This ought to be an example of a
         concept topic and not of a codeblock. It would be appropriate to reuse this example in the
         conbody topic, but that's about it for reuse. </draft-comment>
-      <codeblock conref="../../common/conref-file.dita#reuse_file/concept-codeblock"/></example>
+      <codeblock conkeyref="conref-file/concept-codeblock"/></example>
   </refbody>
 </reference>

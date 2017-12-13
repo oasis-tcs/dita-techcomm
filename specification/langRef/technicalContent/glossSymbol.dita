@@ -12,61 +12,52 @@
           elements<indexterm><xmlelement>glossSymbol</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossSymbol</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/image concept/image glossentry/glossSymbol </p>
+      <p>- topic/image concept/image glossentry/glossSymbol</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <!--RDA: Note that this is an exact copy of the attribute list for image, EXCEPT that this element dropped the deprecated alt and makes @href required, which makes it harder to reuse that full list. It is an exact copy of hazardsymbol.-->
       <p>The following attributes are available on this element: <xref
-          href="../attributes/universalAttributes.dita"/>, <xref
-          href="../attributes/commonAttributes.dita#common-atts/outputclass"/>, <xref
-          href="../attributes/thekeyrefattribute.dita"><xmlatt>keyref</xmlatt></xref>, and the
+          keyref="universalAttributes"/>, <xref
+          keyref="commonAttributes/outputclass"/>, <xref
+          keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below.</p>
       <dl>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-href">
+        <dlentry conkeyref="conref-attribute/image-href">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-scope">
+        <dlentry conkeyref="conref-attribute/image-scope">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-height">
+        <dlentry conkeyref="conref-attribute/image-height">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-width">
+        <dlentry conkeyref="conref-attribute/image-width">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-align">
+        <dlentry conkeyref="conref-attribute/image-align">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-scale">
+        <dlentry conkeyref="conref-attribute/image-scale">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-scalefit">
+        <dlentry conkeyref="conref-attribute/image-scalefit">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-placement">
+        <dlentry conkeyref="conref-attribute/image-placement">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conref="../../common/conref-attribute.dita#conref-attribute/image-longdescref">
+        <dlentry conkeyref="conref-attribute/image-longdescref">
           <dt/>
           <dd/>
         </dlentry>
@@ -84,6 +75,6 @@
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossSymbol/contains" otherprops="contains"></section>
+
 </refbody>
 </reference>

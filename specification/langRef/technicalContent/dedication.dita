@@ -2,24 +2,30 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="dedication" xml:lang="en-us">
-<title><xmlelement>dedication</xmlelement></title>
-<shortdesc>The <xmlelement>dedication</xmlelement> element references a topic containing a
-dedication for the book, such as to a person or group.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm>Bookmap elements<indexterm>dedication</indexterm></indexterm>
-<indexterm>dedication</indexterm></keywords>
-</metadata></prolog>
-<refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-dedication/contains" otherprops="contains"></section>
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-map/topicref bookmap/dedication </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;frontmatter>
+  <title><xmlelement>dedication</xmlelement></title>
+  <shortdesc>The <xmlelement>dedication</xmlelement> element references a topic containing a
+    dedication for the book, such as to a person or group.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Bookmap elements<indexterm>dedication</indexterm></indexterm>
+        <indexterm>dedication</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- map/topicref bookmap/dedication</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <sectiondiv conkeyref="conref-attribute/bookmap-topicrefs"/></section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;frontmatter>
   &lt;d<?Pub Caret1?>edication href="dtm.dita"
                   navtitle="Dedicated to Mother"/>
 &lt;/frontmatter></codeblock></example>
-<section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/bookmap-topicrefs"
-/></section>
-</refbody>
+  </refbody>
 </reference>

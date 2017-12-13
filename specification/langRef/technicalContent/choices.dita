@@ -8,7 +8,7 @@ while performing the steps of a task.
 <p>The <xmlelement>choices</xmlelement> element is specialized from the <xmlelement>ul</xmlelement>
 element in the topic module.</p>
 </section><section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
       </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

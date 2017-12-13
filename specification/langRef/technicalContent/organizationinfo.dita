@@ -2,19 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="organizationinfo" xml:lang="en-us">
-<title><xmlelement>organizationinfo</xmlelement></title>
-<shortdesc>The <xmlelement>organizationinfo</xmlelement> element contains detailed
-information about an authoring organization. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>organizationinfo<indexterm>xNAL elements<indexterm>organizationinfo</indexterm></indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-organizationinfo/contains" otherprops="contains"></section>
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/data xnal-d/organizationinfo </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;organizationinfo&gt;
+  <title><xmlelement>organizationinfo</xmlelement></title>
+  <shortdesc>The <xmlelement>organizationinfo</xmlelement> element contains detailed information
+    about an authoring organization.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>organizationinfo<indexterm>xNAL
+            elements<indexterm>organizationinfo</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/data xnal-d/organizationinfo</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;organizationinfo&gt;
  &lt;namedetails&gt;
   &lt;organizationnamedetails&gt;
    &lt;organizationname&gt;WizardWorks, Inc.&lt;/organizationname&gt;
@@ -31,8 +41,5 @@ topic/data xnal-d/organizationinfo </p></section>
  &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
  &lt;urls&gt;&lt;url&gt;www.wizardworks.example.org&lt;/url&gt;&lt;/urls&gt;
 &lt;/organizationinfo&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/data-link-universal-outputclass"/>
-   </section>
-</refbody>
+  </refbody>
 </reference>

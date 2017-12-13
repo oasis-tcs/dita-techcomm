@@ -5,7 +5,7 @@
 <title><xmlelement>property</xmlelement></title>
 <shortdesc>The <xmlelement>property</xmlelement> element represents a single property of the current
       topic's subject. For example, if the current reference topic describes a programming class,
-      the property might show that the class is protected rather than public. </shortdesc>
+      the property might show that the class is protected rather than public.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>property</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>property</xmlelement></indexterm></indexterm>
 </keywords>
@@ -24,7 +24,7 @@
       </section>
       <section id="attributes">
          <title>Attributes</title>
-         <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+         <p conkeyref="conref-attribute/universal-outputclass"/>
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>

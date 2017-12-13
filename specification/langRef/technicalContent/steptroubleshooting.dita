@@ -29,7 +29,7 @@ step do not match those listed in the <xmlelement>stepresult</xmlelement> elemen
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
       
     </section>
 <example id="example" otherprops="examples">
@@ -67,8 +67,7 @@ with several actions:</p>
           <li>Verify that the password was entered correctly</li>
           <li>Confirm that the maintenance contract is still
             active</li>
-        </ul>
-      </p>
+        </ul></p>
     </steptroubleshooting>
   </step>]]>
 </codeblock>

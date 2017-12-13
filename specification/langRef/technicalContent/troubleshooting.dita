@@ -25,23 +25,19 @@
       <p>Troubleshooting topics represent the kind of information that users typically consult to
         fix a problem.</p>
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section conref="../../common/commonNavLibraryTable.dita#contentmodel-troubleshooting/contains" \
-      id="contains" otherprops="contains"></section>-->
-    <section id="specialization-hierarchy" otherprops="inheritance">
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic troubleshooting/troubleshooting </p>
+      <p>- topic/topic troubleshooting/troubleshooting</p>
     </section>
     <section id="attributes">
       <title>Attributes</title><sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/topic-attributes"/></section>
+        conkeyref="conref-attribute/topic-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock xml:space="preserve">
 <![CDATA[<troubleshooting id="resolve" xml:lang="en-us" >
   <title>E247 - Memory fault has occured</title>
-  <shortdesc>The system has detected a problem in memory.
-  </shortdesc>
+  <shortdesc>The system has detected a problem in memory.</shortdesc>
   <troublebody>
     <condition>
       <p>The fault indicator flashes on the front panel, and

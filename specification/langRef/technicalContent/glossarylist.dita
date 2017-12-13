@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="glossarylist" xml:lang="en-us"><title><xmlelement>glossarylist</xmlelement></title><shortdesc>The <xmlelement>glossarylist</xmlelement> element references a list of glossary entries
+<reference id="glossarylist" xml:lang="en-us">
+  <title><xmlelement>glossarylist</xmlelement></title>
+  <shortdesc>The <xmlelement>glossarylist</xmlelement> element references a list of glossary entries
     within the book. It indicates to the processing software that the author wants a glossary list
-    generated at the particular location. </shortdesc><prolog><metadata><keywords><indexterm>glossarylist</indexterm><indexterm>Bookmap elements<indexterm>glossarylist</indexterm></indexterm></keywords></metadata></prolog><refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
+    generated at the particular location.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>glossarylist</indexterm>
+        <indexterm>Bookmap elements<indexterm>glossarylist</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicref bookmap/glossarylist </p>
+      <p>- map/topicref bookmap/glossarylist</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv
-        conref="../../common/conref-attribute.dita#conref-attribute/bookmap-booklist-attributes"/>
+      <sectiondiv conkeyref="conref-attribute/bookmap-booklist-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>See <xref href="backmatter.dita"/>.</p>
-    </example><section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossarylist/contains" otherprops="contains"></section></refbody></reference>
+    </example>
+  </refbody>
+</reference>

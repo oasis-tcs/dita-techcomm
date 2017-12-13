@@ -4,7 +4,7 @@
 <reference id="stepresult" xml:lang="en-us">
 <title><xmlelement>stepresult</xmlelement></title>
 <shortdesc>The <xmlelement>stepresult</xmlelement> element provides information on the expected
-  outcome of a step. </shortdesc>
+  outcome of a step.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepresult</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepresult</xmlelement></indexterm></indexterm>
 </keywords>
@@ -23,7 +23,7 @@
   </section>
   <section id="attributes">
    <title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+   <p conkeyref="conref-attribute/universal-outputclass"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>

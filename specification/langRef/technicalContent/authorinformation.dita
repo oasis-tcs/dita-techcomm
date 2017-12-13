@@ -2,19 +2,24 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="authorinformation" xml:lang="en-us">
-<title><xmlelement>authorinformation</xmlelement></title>
-<shortdesc>The <xmlelement>authorinformation</xmlelement> element contains detailed information
-about the author or authoring organization. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>authorinformation</indexterm><indexterm>xNAL
-elements<indexterm>authorinformation</indexterm></indexterm></keywords>
-</metadata></prolog>
-<refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-authorinformation/contains" otherprops="contains"></section>
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/author xnal-d/authorinformation </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;authorinformation&gt;
+  <title><xmlelement>authorinformation</xmlelement></title>
+  <shortdesc>The <xmlelement>authorinformation</xmlelement> element contains detailed information
+    about the author or authoring organization.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>authorinformation</indexterm>
+        <indexterm>xNAL elements<indexterm>authorinformation</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+        ><title>Specialization hierarchy</title><p>+ topic/author xnal-d/authorinformation</p></section>
+    <section id="attributes"><title>Attributes</title><sectiondiv
+        conkeyref="conref-attribute/author-attributes"/></section>
+    <example id="example" otherprops="examples"
+      ><title>Example</title><codeblock>&lt;authorinformation&gt;
  &lt;personinfo&gt;
   &lt;namedetails&gt;&lt;personname&gt;
     &lt;firstname&gt;Derek&lt;/firstname&gt;
@@ -33,8 +38,5 @@ topic/author xnal-d/authorinformation </p></section>
   &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
  &lt;/personinfo&gt;
 &lt;/authorinformation&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title><sectiondiv
-conref="../../common/conref-attribute.dita#conref-attribute/author-attributes"
-/></section>
-</refbody>
+  </refbody>
 </reference>

@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="result" xml:lang="en-us">
 <title><xmlelement>result</xmlelement></title>
-<shortdesc>A result describes the expected outcome for the task as a whole. </shortdesc>
+<shortdesc>A result describes the expected outcome for the task as a whole.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>result</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>result</xmlelement></indexterm></indexterm>
 </keywords>
@@ -20,7 +20,7 @@ element instead.</note>
 <xmlelement>section</xmlelement> element in the topic module.</p>
 </section>
 <section id="attributes"><title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+   <p conkeyref="conref-attribute/universal-outputclass"/>
    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

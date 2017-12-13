@@ -4,16 +4,14 @@
   <title>xNAL usage guidelines</title> 
   <shortdesc>Extended information and usage examples for DITA bookmap metadata
 	 elements associated with OASIS xNAL Standard (extensible Name and Address
-	 Language).
-  </shortdesc> 
+	 Language).</shortdesc> 
   <conbody> 
 	 <p id="p_B29FA4D529414071B5C45D2715DB7FCC">DITA bookmaps use a set of
 		elements associated with a subset of the 
 		<xref format="html"
 		 href="http://www.oasis-open.org/committees/ciq/ciq.html#4">OASIS extensible
 		  Name and Address Language (xNAL)</xref> specification (Version 2) to denote
-		name and address information related to persons and organizations. 
-	 </p> 
+		name and address information related to persons and organizations.</p> 
 	 <p id="p_3DC44EF4DA42415EAF62DFA4B425CEAA">While the elements share element names, and the
 			expectation is that content written using this type of metadata <ph
 				>is</ph> be straightforward to transform, the element name
@@ -21,20 +19,17 @@
 			different purposes of the two standards. The purpose of the name and address elements in
 			DITA is to identify persons or organizations associated with the creation of a document;
 			the purpose of the name and address elements in xNAL is to support customer resource
-			management. </p> 
+			management.</p> 
 	 <p id="p_2310CD60E1304A739D80B033BCF55A9F">The examples shown after the
 		table provide sample tagging methods for name and address information, using
-		the DITA elements associated with xNAL.
-	 </p> 
+		the DITA elements associated with xNAL.</p> 
 	 <section id="section_6A5636FF23794D3E991B8C3406A6A784"> 
 		<title>DITA elements associated with xNAL elements</title> 
 		<p id="p_667A2CE5B0A748A3B511F7C652E0767F">The set of bookmap elements
 		  associated with elements from the 
 		  <xref format="html"
 			href="http://www.oasis-open.org/committees/ciq/ciq.html#4">OASIS extensible
-			 Name and Address Language (xNAL)</xref> standard are listed in the table below.
-		  
-		</p> 
+			 Name and Address Language (xNAL)</xref> standard are listed in the table below.</p> 
 		<table colsep="0" frame="none" rowsep="0"
 		 id="table_21DE0DDF9261488DB735C53ABD5CE5E2">
 		<title>DITA elements associated with xNAL elements</title> 
@@ -128,8 +123,7 @@
 	 <example id="example_5F30E23EACBE4DEBAA4D616C02297AA8" otherprops="examples"> 
 		<title>Example 1: Tagging personal information in DITA</title> 
 		<p id="p_40E40573E285471A8581DFEE4192F1DD">This example shows a way to
-		  tag the following personal name and description. 
-		</p> 
+		  tag the following personal name and description.</p> 
 		<lines>Mr. Ram V. Kumar Jr.
 Chief Technologist
 MSI Business Solutions</lines> 
@@ -158,8 +152,7 @@ MSI Business Solutions</lines>
 	 <example id="example_33E552FE3AEE4193AD31A36E9BF5B7E0" otherprops="examples"> 
 		<title>Example 2: Tagging address information in DITA</title> 
 		<p id="p_5CE68C3776AA4714AA38C6D5826DC7E7">This example shows a way to
-		  tag the following address. 
-		</p> 
+		  tag the following address.</p> 
 		<lines>23 Archer St.
 Chatsworth
 NSW 2067
@@ -180,8 +173,7 @@ Australia</lines>
 		  DITA</title> 
 		<p id="p_9F22BCC7477E47B5A75C5495E12EE773">This example shows two ways to
 		  tag a fairly complex collection of personal, organizational, and address
-		  information. 
-		</p> 
+		  information.</p> 
 		<lines>Mr. Samuel L. Johnson Jr.
 Chief Technologist
 c/o XYZ Corporation
@@ -190,8 +182,7 @@ Carrboro,  NC  27510  USA
 email: johnson@example.com
 phone: 919-555-7987</lines> 
 		<p id="p_6BC147F1530A40709A1AA182108CA716">This method tags all the
-		  organizational information as associated with the identified person.
-		</p> 
+		  organizational information as associated with the identified person.</p> 
 		<codeblock>&lt;personinfo&gt;
    &lt;namedetails&gt;
       &lt;personname&gt;
@@ -221,8 +212,7 @@ phone: 919-555-7987</lines>
 &lt;/personinfo&gt;  </codeblock> 
 		<p id="p_2025803872EA4F4BB1A98332AE416C9C">The following method separates
 		  the person and organization information. It might be used if it were necessary
-		  to associate address information with organizations rather than persons. 
-		</p> 
+		  to associate address information with organizations rather than persons.</p> 
 		<codeblock>&lt;authorinformation&gt;
   &lt;personinfo&gt;
     &lt;namedetails&gt;

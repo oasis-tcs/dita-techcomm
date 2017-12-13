@@ -13,7 +13,7 @@ the steps of a task in a single level of steps. If you need to use more than one
 <p>The <xmlelement>substeps</xmlelement> element is specialized from the <xmlelement>ol</xmlelement>
 element in the topic module.</p>
 </section><section id="attributes"><title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
       </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

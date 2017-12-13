@@ -4,7 +4,7 @@
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
 <shortdesc>Prerequisites are things that users must know or preliminary tasks that users must
-    perform before starting the current task. </shortdesc>
+    perform before starting the current task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
         <indexterm>formatting
@@ -31,7 +31,7 @@ section are added to the &lt;prereq&gt; section."-->
   </section>
   <section id="attributes">
    <title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+   <p conkeyref="conref-attribute/universal-outputclass"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
