@@ -10,7 +10,7 @@ and fax numbers. </shortdesc>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-contactnumbers/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/data xnal-d/contactnumbers </p></section>

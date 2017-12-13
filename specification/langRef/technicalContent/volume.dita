@@ -10,7 +10,7 @@
 <indexterm>volume</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-volume/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/volume </p></section>

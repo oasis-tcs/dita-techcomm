@@ -42,7 +42,7 @@
   &lt;svgref keyref="svg-fragment-0002"/>
 &lt;/svg-container></codeblock></p>
     </section>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-svgref/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

@@ -10,7 +10,7 @@ for a book.</shortdesc>
 <indexterm>mainbooktitle</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-mainbooktitle/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/ph bookmap/mainbooktitle </p></section>

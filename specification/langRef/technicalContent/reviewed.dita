@@ -10,7 +10,7 @@ when and by whom the book was reviewed during its publication history.</shortdes
 <indexterm>reviewed</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-reviewed/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/reviewed </p></section>

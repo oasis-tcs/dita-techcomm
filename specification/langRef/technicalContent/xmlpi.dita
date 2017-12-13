@@ -5,7 +5,7 @@
   <shortdesc>Use the <xmlelement>xmlpi</xmlelement> element to identify mentions of processing
     instruction names, such as <codeph>&lt;?<i>piname</i> pi value?></codeph>. This element enables
     more precise semantic searching of the DITA source; it also enables distinct formatting. <ph
-      conref="../../common/conref-file.dita#reuse_file/xml-mention-domain"/></shortdesc>
+      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-xmlpi/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

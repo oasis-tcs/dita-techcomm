@@ -10,7 +10,7 @@ when and by whom the book was approved during its publication history.</shortdes
 <indexterm>approved</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-approved/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/approved </p></section>

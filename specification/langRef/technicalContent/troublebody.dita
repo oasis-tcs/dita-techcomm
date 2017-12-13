@@ -16,7 +16,6 @@
   </metadata>
  </prolog>
  <refbody>
-  <section conref="../../common/commonNavLibraryTable.dita#contentmodel-troublebody/contains" id="contains" otherprops="contains"></section>
   <section id="inheritance" otherprops="inheritance">
    <title>Inheritance</title>
    <p>- topic/body troubleshooting/troublebody </p>

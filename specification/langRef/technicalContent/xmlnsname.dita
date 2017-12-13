@@ -5,7 +5,7 @@
   <shortdesc>Use the <xmlelement>xmlnsname</xmlelement> element to identify mentions of namespace
     names, for example, "http://dita.oasis-open.org/architecture/2005/". This element enables more
     precise semantic searching of the DITA source; it also enables distinct formatting. <ph
-      conref="../../common/conref-file.dita#reuse_file/xml-mention-domain"/></shortdesc>
+      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-xmlnsname/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

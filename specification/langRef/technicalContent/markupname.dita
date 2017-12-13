@@ -17,7 +17,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-markupname/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

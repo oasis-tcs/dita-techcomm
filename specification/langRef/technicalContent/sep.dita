@@ -14,7 +14,7 @@ a syntax definition. <ph conref="apiname.dita#apiname/progdomainelement"/></shor
     <indexterm>syntax phrases<indexterm>separators</indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-sep/contains" id="contains" otherprops="contains"></section>
+
 
 
 

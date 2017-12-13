@@ -20,7 +20,7 @@ elements designed to document user interface tasks, concepts and reference infor
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-uicontrol/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/ph ui-d/uicontrol </p></section>

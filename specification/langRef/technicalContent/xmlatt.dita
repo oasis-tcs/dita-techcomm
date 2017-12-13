@@ -7,7 +7,7 @@
     the DITA source; it also enables distinct formatting, such as preceding the name of the
     attribute with a commercial at (@) sign. The content of the <xmlelement>xmlatt</xmlelement>
     element should be the attribute name without commercial at or equals (=) characters. <ph
-      conref="../../common/conref-file.dita#reuse_file/xml-mention-domain"/></shortdesc>
+      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,7 +18,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-xmlatt/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

@@ -11,7 +11,7 @@ list entry. <ph conref="apiname.dita#apiname/progdomainelement"/></shortdesc>
                      domain<indexterm><xmlelement>pt</xmlelement></indexterm></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-pt/contains" id="contains" otherprops="contains"></section>
+
 
 
 

@@ -31,10 +31,6 @@
         process or function. It might also have an example or a graphic, but generally the structure
         of a concept is fairly simple.</draft-comment>
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section id="contains"
-                  conref="../../common/commonNavLibraryTable.dita#contentmodel-concept/contains"
-                  otherprops="contains"/>-->
     <section id="specialization-hierarchy" otherprops="inheritance">
       <title>Specialization hierarchy</title>
       <p>- topic/topic concept/concept </p>
@@ -46,6 +42,6 @@
       <title>Example</title><draft-comment author="BobThomas">This ought to be an example of a
         concept topic and not of a codeblock. It would be appropriate to reuse this example in the
         conbody topic, but that's about it for reuse. </draft-comment>
-      <codeblock conref="../../common/conref-file.dita#reuse_file/concept-codeblock"/></example>
+      <codeblock conkeyref="conref-file/concept-codeblock"/></example>
   </refbody>
 </reference>

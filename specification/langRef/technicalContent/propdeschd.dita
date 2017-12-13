@@ -12,7 +12,7 @@ description column of a properties table.</shortdesc>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-propdeschd/contains" otherprops="contains"></section>
+
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>propdeschd</xmlelement> element is specialized from the

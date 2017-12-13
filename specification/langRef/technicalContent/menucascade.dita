@@ -20,7 +20,7 @@
         <indexterm>user interfaces<indexterm>menu choices</indexterm></indexterm>
       </keywords>
     </metadata>
-  </prolog><refbody><section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-menucascade/contains" otherprops="contains"></section><section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+ topic/ph ui-d/menucascade </p></section><example id="example" otherprops="examples">
+  </prolog><refbody><section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+ topic/ph ui-d/menucascade </p></section><example id="example" otherprops="examples">
       <title>Example</title>
       <p>This example:</p>
       <codeblock>&lt;menucascade&gt;

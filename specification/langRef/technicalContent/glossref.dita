@@ -108,7 +108,7 @@ and expanded versions of that acronym.</shortdesc>
   &lt;!-- ... key declarations for other referenced acronyms ... -->
 &lt;/map></codeblock>
     </example>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossref/contains" id="contains" otherprops="contains"></section>
+
 </refbody>
 </reference>
 

@@ -35,6 +35,6 @@ each sense.</shortdesc>
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossdef/contains" otherprops="contains"></section>
+
 </refbody>
 </reference>

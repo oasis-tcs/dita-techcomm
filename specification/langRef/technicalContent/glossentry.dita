@@ -68,6 +68,6 @@
           &lt;/glossentry></codeblock>
       </fig>
     </example>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossentry/contains" id="contains" otherprops="contains"></section>
+    
   </refbody>
 </reference>

@@ -36,7 +36,7 @@
           <xmlelement>equation-block</xmlelement> elements to contain the equations and clearly
         distinguish them from the commentary.</p>
     </section>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-equation-figure/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

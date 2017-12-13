@@ -10,7 +10,7 @@ about a county, state, or province. </shortdesc>
 <indexterm>administrativearea</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-administrativearea/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/ph xnal-d/administrativearea </p></section>

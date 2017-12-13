@@ -12,7 +12,7 @@
 <indexterm>frontmatter</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-frontmatter/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 map/topicref bookmap/frontmatter </p></section>

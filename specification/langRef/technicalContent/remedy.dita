@@ -22,9 +22,6 @@
     <section id="usage-information">
       <title>Usage information</title>
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section conref="../../common/commonNavLibraryTable.dita#contentmodel-remedy/contains"
-      id="contains" otherprops="contains"/>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/section troubleshooting/remedy </p>

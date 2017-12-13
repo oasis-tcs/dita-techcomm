@@ -7,7 +7,7 @@
     of the DITA source; it also enables distinct formatting, such as adding an ampersand (&amp;) as
     a leading character and a semi-colon (;) as a trailing character. The content of the
     <xmlelement>textentity</xmlelement> element should be the entity name without the ampersand and semi-colon
-    delimiters. <ph conref="../../common/conref-file.dita#reuse_file/xml-mention-domain"
+    delimiters. <ph conkeyref="conref-file/xml-mention-domain"
     /></shortdesc>
   <prolog>
     <metadata>
@@ -19,7 +19,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-textentity/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

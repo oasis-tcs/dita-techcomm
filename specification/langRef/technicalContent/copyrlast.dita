@@ -10,7 +10,7 @@ copyright statement.</shortdesc>
 <indexterm>copyrlast</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-copyrlast/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/copyrlast </p></section>

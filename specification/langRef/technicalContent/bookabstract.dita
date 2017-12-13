@@ -13,7 +13,7 @@ is used to help the reader quickly evaluate the book's purpose.</shortdesc>
 </metadata></prolog>
 <refbody>
 <section id="section-1"></section>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-bookabstract/contains" id="contains" otherprops="contains"></section>
+
 
 
 

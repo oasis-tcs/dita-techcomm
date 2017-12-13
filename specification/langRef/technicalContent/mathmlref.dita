@@ -43,7 +43,7 @@
   &lt;mathmlref keyref="mathml-equation-02"/>
 &lt;/mathml></codeblock></p>
     </section>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-mathmlref/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

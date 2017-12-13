@@ -50,7 +50,7 @@ term and an alternate term provides an allowed term.</shortdesc>
                   <p>See the example in <xref href="glossentry.dita#glossentry/example"
                                     ><xmlelement>glossentry</xmlelement>.</xref></p>
             </example>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossStatus/contains" id="contains" otherprops="contains"></section>
+
 </refbody>
 </reference>
 

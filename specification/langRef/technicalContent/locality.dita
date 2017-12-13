@@ -11,7 +11,7 @@ or by acting as a wrapper for <xmlelement>localityname</xmlelement> and <xmlelem
 <indexterm>locality</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-locality/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/ph xnal-d/locality </p></section>

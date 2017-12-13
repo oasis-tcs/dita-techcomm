@@ -14,7 +14,7 @@
 </metadata></prolog>
 <refbody>
     <!--<section><draft-comment author="robander" rev="DITA1.3">Deleted this entire paragraph. First sentence is wrong: we do not define @title, and we define much more than conref/anchorref. Second sentence repeats/rewords info from shortdesc. Third sentence is true of nearly every grouping element in map, and is covered by cascade rules.</draft-comment><p>The containing element for a bookmap is the &lt;bookmap> element, which can take title, id, conref, and anchorref attributes. Within the bookmap, use the various book components and subcomponents to add and organize references to the topics comprising the book. You can use the bookmap element to set default attribute values for all topic references in the map. </p></section>-->
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-bookmap/contains" id="contains" otherprops="contains"></section>
+
 
 
 

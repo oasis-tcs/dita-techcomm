@@ -10,7 +10,7 @@ about the author or authoring organization. </shortdesc>
 elements<indexterm>authorinformation</indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-authorinformation/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/author xnal-d/authorinformation </p></section>

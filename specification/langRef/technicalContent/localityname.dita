@@ -10,7 +10,7 @@ locality or city.</shortdesc>
 <indexterm>localityname</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-localityname/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/ph xnal-d/localityname </p></section>

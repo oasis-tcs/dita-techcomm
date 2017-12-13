@@ -10,12 +10,11 @@ about the author or authoring organization. </shortdesc>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-otherinfo/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/data xnal-d/otherinfo </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;organization<?Pub
-Caret?>info&gt;
+<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;organization<?Pub Caret?>info&gt;
  &lt;namedetails&gt;
   &lt;organizationnamedetails&gt;
    &lt;organizationname&gt;WizardWorks, Inc.&lt;/organizationname&gt;

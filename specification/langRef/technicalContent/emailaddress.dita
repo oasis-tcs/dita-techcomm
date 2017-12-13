@@ -9,8 +9,6 @@
 <indexterm>emailaddress</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-emailaddress/contains" otherprops="contains"></section>
-
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/data xnal-d/emailaddress </p></section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;personinfo&gt;

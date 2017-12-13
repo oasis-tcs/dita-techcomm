@@ -12,7 +12,7 @@ list</indexterm><indexterm>Bookmap elements<indexterm>abbrevlist</indexterm></in
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-abbrevlist/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 map/topicref bookmap/abbrevlist </p></section>

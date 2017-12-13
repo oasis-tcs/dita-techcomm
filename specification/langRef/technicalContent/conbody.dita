@@ -23,10 +23,6 @@
           <xmlelement>section</xmlelement> or an <xmlelement>example</xmlelement> can be followed
         only by other sections, examples, or <xmlelement>conbodydiv</xmlelement> elements that group
         sections and examples.</p></section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section id="contains"
-      conref="../../common/commonNavLibraryTable.dita#contentmodel-conbody/contains"
-      otherprops="contains"/>-->
     <section id="specialization-hierarchy" otherprops="inheritance">
       <title>Specialization hierarchy</title>
       <p>- topic/body concept/conbody </p></section>

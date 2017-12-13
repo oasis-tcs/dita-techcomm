@@ -11,7 +11,7 @@ on which an address is located.</shortdesc>
 <indexterm>thoroughfare</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-thoroughfare/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/ph xnal-d/thoroughfare </p></section>

@@ -43,7 +43,7 @@
          <p>See the example in <xref href="glossentry.dita#glossentry/example"
                   ><xmlelement>glossentry</xmlelement>.</xref></p>
       </example>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossAlt/contains" id="contains" otherprops="contains"></section>
+
 </refbody>
 </reference>
 

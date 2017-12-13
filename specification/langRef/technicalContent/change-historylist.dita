@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us" >
   <title><xmlelement>change-historylist</xmlelement></title>
@@ -15,7 +15,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-change-historylist/contains" id="contains" otherprops="contains"></section>
+    
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>
       <p>- topic/metadata relmgmt-d/change-historylist </p>

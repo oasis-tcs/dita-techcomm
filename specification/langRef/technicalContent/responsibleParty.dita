@@ -19,9 +19,6 @@
       <title>Usage information</title>
       <!-- Content to come from the DITA 1.3 feature proposal. -->
     </section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section conref="../../common/commonNavLibraryTable.dita#contentmodel-responsibleParty/contains"
-      id="contains" otherprops="contains"/>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/p troubleshooting/responsibleParty </p>

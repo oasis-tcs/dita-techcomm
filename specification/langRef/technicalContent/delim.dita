@@ -15,7 +15,7 @@ tab, vertical bar or other special characters. <ph conref="apiname.dita#apiname/
     <indexterm>syntax phrases<indexterm>delimiters</indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-delim/contains" id="contains" otherprops="contains"></section>
+
 
 
 

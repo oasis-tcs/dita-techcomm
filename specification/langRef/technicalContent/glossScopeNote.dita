@@ -46,7 +46,7 @@ themselves.  Examples include RedHat, SuSE, and Ubuntu. &lt;/glossScopeNote>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-glossScopeNote/contains" id="contains" otherprops="contains"></section>
+
 </refbody>
 </reference>
 

@@ -10,7 +10,7 @@ including the library title, main title, subtitle, and other titles (as required
 <indexterm>booktitle</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-booktitle/contains" id="contains" otherprops="contains"></section>
+
 
 
 

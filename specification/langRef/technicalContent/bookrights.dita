@@ -11,7 +11,7 @@ dates and owners.</shortdesc>
 <indexterm>bookrights</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-bookrights/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/bookrights </p></section>

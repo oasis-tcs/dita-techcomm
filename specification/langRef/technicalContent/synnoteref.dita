@@ -14,7 +14,7 @@ conref="apiname.dita#apiname/progdomainelement"/></shortdesc>
             <indexterm>syntax diagrams<indexterm>note references</indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-synnoteref/contains" id="contains" otherprops="contains"></section>
+
 
 
 

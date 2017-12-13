@@ -24,4 +24,4 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>See <xref href="backmatter.dita"/>.</p>
-    </example><section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-glossarylist/contains" otherprops="contains"></section></refbody></reference>
+    </example></refbody></reference>

@@ -10,7 +10,7 @@ such as: Dr., Mr., Ms., or HRH.</shortdesc>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-honorific/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/data xnal-d/honorific </p></section>

@@ -9,12 +9,11 @@
 <indexterm>day</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-day/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/ph bookmap/day </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock><?Pub
-Caret?>&lt;bookchangehistory>
+<example id="example" otherprops="examples"><title>Example</title><codeblock><?Pub Caret?>&lt;bookchangehistory>
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
     &lt;completed>&lt;year>2008&lt;/year>&lt;month>10&lt;/month><b>&lt;day>13&lt;/day></b>&lt;/completed>

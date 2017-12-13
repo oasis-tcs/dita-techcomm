@@ -15,7 +15,7 @@ the lists generated at the <xmlelement>booklists</xmlelement> location. </shortd
 <indexterm>booklists</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-booklists/contains" id="contains" otherprops="contains"></section>
+
 
 
 

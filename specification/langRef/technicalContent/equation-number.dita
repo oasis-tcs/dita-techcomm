@@ -24,7 +24,7 @@
         common practice is to present the equation number to the right of the equation, centered
         vertically within the vertical extent of the block equation.</p>
     </section>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-equation-number/contains" otherprops="contains"/>
+    
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>
       <p>+ topic/ph equation-d/equation-number </p>

@@ -15,7 +15,7 @@ Groups are often nested. <ph conref="apiname.dita#apiname/progdomainelement"/></
 </keywords>
 </metadata></prolog>
 <refbody>
-<section conref="../../common/commonNavLibraryTable.dita#contentmodel-groupchoice/contains" id="contains" otherprops="contains"></section>
+
 
 
 

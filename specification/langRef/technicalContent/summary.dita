@@ -11,7 +11,7 @@ or with the list of copyrights for the book. </shortdesc>
 <indexterm>summary</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-summary/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/ph bookmap/summary </p></section>

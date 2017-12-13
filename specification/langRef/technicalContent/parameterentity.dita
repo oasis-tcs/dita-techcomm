@@ -8,7 +8,7 @@
     sign (%) or trailing semi-colon (;) delimiters to the parameter entity name. The content of the
       <xmlelement>parameterentity</xmlelement> element should be the entity name without the leading
     percentage sign or trailing semi-colon. <ph
-      conref="../../common/conref-file.dita#reuse_file/xml-mention-domain"/></shortdesc>
+      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,7 +19,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-parameterentity/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

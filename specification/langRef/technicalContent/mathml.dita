@@ -23,7 +23,7 @@
       <p>The MathML markup must have a root element of <xmlelement>math</xmlelement> within the
         MathML namespace:  "http://www.w3.org/1998/Math/MathML".</p>
     </section>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-mathml/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

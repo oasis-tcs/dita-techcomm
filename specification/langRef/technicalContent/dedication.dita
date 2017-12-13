@@ -10,7 +10,7 @@ dedication for the book, such as to a person or group.</shortdesc>
 <indexterm>dedication</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-dedication/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 map/topicref bookmap/dedication </p></section>

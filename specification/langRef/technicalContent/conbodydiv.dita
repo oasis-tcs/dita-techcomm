@@ -27,9 +27,6 @@
         which allows groupings of sections and examples, keeps the same restriction in place; once
         used, only sections, examples, or other <xmlelement>conbodydiv</xmlelement> groups are
         allowed.</p></section>
-    <!--Thomas: Content model is no longer part of the template. 24nov17
-      <section conref="../../common/commonNavLibraryTable.dita#contentmodel-conbodydiv/contains"
-      id="contains" otherprops="contains"/>-->
     <section id="specialization-hierarchy" otherprops="inheritance">
       <title>Specialization hierarchy</title>
       <p>- topic/bodydiv concept/conbodydiv </p></section>

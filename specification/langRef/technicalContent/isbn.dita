@@ -10,7 +10,7 @@ Standard Book Number (ISBN).</shortdesc>
 <indexterm>isbn</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-isbn/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/isbn </p></section>

@@ -7,6 +7,8 @@
  <keydef keys="commonMapAttributes"
   href="dita-spec/specification/langRef/attributes/commonMapAttributes.dita"/>
  <keydef keys="conref-attribute" href="dita-spec/specification/common/conref-attribute.dita"/>
+ <keydef keys="conref-examples" href="dita-spec/specification/common/conref-examples.dita"/>
+ <keydef keys="conref-file" href="dita-spec/specification/common/conref-file.dita"/>
  <keydef keys="dataElementAttributes"
   href="dita-spec/specification/langRef/attributes/dataElementAttributes.dita"/>
  <keydef keys="displayAttributes"
@@ -17,6 +19,8 @@
   href="dita-spec/specification/langRef/attributes/linkRelationshipAttributes.dita"/>
  <keydef keys="simpletableAttributes"
   href="dita-spec/specification/langRef/attributes/simpletableAttributes.dita"/>
+ <keydef keys="specializationAttributes"
+  href="dita-spec/specification/langRef/attributes/specializationAttributes.dita"/>
  <keydef keys="thehrefattribute"
   href="dita-spec/specification/langRef/attributes/thehrefattribute.dita"/>
  <keydef keys="thekeyrefattribute"

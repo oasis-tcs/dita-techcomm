@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-summary" xml:lang="en-us" >
   <title><xmlelement>change-summary</xmlelement></title>
@@ -14,12 +14,12 @@
     </metadata>
   </prolog>
   <refbody>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-change-summary/contains" id="contains" otherprops="contains"></section>
+    
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>
       <p>- topic/data relmgmt-d/change-summary </p>
     </section>
-    <example conref="../../common/conref-examples.dita#conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass-name"/>

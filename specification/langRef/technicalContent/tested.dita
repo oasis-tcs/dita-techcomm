@@ -10,7 +10,7 @@ and by whom the book was tested during its publication history.</shortdesc>
 <indexterm>tested</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-tested/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/tested </p></section>

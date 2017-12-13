@@ -16,16 +16,21 @@ representation of a computer screen or user interface panel (window). </shortdes
       </metadata>
    </prolog>
 <refbody>
-<section id="section-1"><p>Use <xmlelement>screen</xmlelement> to contain representations of text-based online panels, text
-consoles ("term" or "curses" windows, for example), or other text-based user interface components.
-The default print representation is to enclose the screen within a box, suggesting a computer
-display screen. In contrast to graphical screen captures normally used to represent GUI parts (see
-the <xref href="../base/image.dita"><xmlelement>image</xmlelement></xref> element description), this
-element specifically supports constructions for which text is the primary content.</p><p>This element is part of the
+<section id="section-1">
+         <p>Use <xmlelement>screen</xmlelement> to contain representations of text-based online
+            panels, text consoles ("term" or "curses" windows, for example), or other text-based
+            user interface components. The default print representation is to enclose the screen
+            within a box, suggesting a computer display screen. In contrast to graphical screen
+            captures normally used to represent GUI parts (see the
+            <xmlelement>image</xmlelement><!--Removing <xref> because the target topic has no
+               place in the techcomm PDF structure <xref href="../base/image.dita"><xmlelement>image</xmlelement></xref>-->
+            element description <required-cleanup>Need to add language pointing to the base
+               spec</required-cleanup>), this element specifically supports constructions for which
+            text is the primary content.</p><p>This element is part of the
 DITA user interface domain, a special set of DITA elements designed
 to document user interface tasks, concepts and reference
 information.</p></section>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-screen/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/pre ui-d/screen </p></section>

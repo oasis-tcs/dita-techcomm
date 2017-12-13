@@ -9,15 +9,14 @@
 <indexterm>month</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-month/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/ph bookmap/month </p></section>
 <example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;bookchangehistory>
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
-    &lt;completed>&lt;year>2008&lt;/year><b>&lt;month>10&lt;/month></b><?Pub
-Caret?>&lt;day>13&lt;/day>&lt;/completed>
+    &lt;completed>&lt;year>2008&lt;/year><b>&lt;month>10&lt;/month></b><?Pub Caret?>&lt;day>13&lt;/day>&lt;/completed>
   &lt;/edited>
 &lt;/bookchangehistory></codeblock></example>
 <section id="attributes"><title>Attributes</title>

@@ -15,7 +15,7 @@ information.</shortdesc>
         <indexterm><xmlelement>wintitle</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-wintitle/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
 topic/keyword ui-d/wintitle </p></section>

@@ -7,7 +7,7 @@
     precise semantic searching of the DITA source; it also enables distinct output formatting. The
     content of the <xmlelement>numcharref</xmlelement> element should be the numeric value without
     any leading or trailing characters added as style, for example, "10" or "x0a". <ph
-      conref="../../common/conref-file.dita#reuse_file/xml-mention-domain"/></shortdesc>
+      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,7 +18,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-numcharref/contains" otherprops="contains"></section>
+    
     
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-started" xml:lang="en-us" >
   <title><xmlelement>change-started</xmlelement></title>
@@ -15,14 +15,14 @@
   </prolog>
   <refbody>
     <section id="section-1">
-      <p conref="../../common/conref-file.dita#reuse_file/release-domain-best-practices"/>
+      <p conkeyref="conref-file/release-domain-best-practices"/>
     </section>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-change-started/contains" id="contains" otherprops="contains"></section>
+    
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>
       <p>- topic/data relmgmt-d/change-started </p>
     </section>
-    <example conref="../../common/conref-examples.dita#conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass-name"/>

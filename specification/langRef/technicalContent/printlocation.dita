@@ -11,7 +11,7 @@ to the name of the country. </shortdesc>
 <indexterm>printlocation</indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="contains" conref="../../common/commonNavLibraryTable.dita#contentmodel-printlocation/contains" otherprops="contains"></section>
+
 
 <section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
 topic/data bookmap/printlocation </p></section>
