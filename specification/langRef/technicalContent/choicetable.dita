@@ -36,7 +36,7 @@ available within a step of a task.</shortdesc>
               keyref="simpletableAttributes"/> (with a narrowed definition of
           <xmlatt>keycol</xmlatt>, given below), <xref
           keyref="commonAttributes/outputclass"/>, and <xref
-          href="../attributes/specializationAttributes.dita#specialization-atts/spectitle"/>.<dl>
+            keyref="specializationAttributes/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
             <dd>On this element, the default value for <xmlatt>keycol</xmlatt> is "1". Otherwise,

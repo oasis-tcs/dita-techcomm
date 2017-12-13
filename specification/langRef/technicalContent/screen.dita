@@ -19,8 +19,8 @@ representation of a computer screen or user interface panel (window). </shortdes
 <section id="section-1"><p>Use <xmlelement>screen</xmlelement> to contain representations of text-based online panels, text
 consoles ("term" or "curses" windows, for example), or other text-based user interface components.
 The default print representation is to enclose the screen within a box, suggesting a computer
-display screen. In contrast to graphical screen captures normally used to represent GUI parts (see
-the <xref href="../base/image.dita"><xmlelement>image</xmlelement></xref> element description), this
+display screen. In contrast to graphical screen captures normally used to represent GUI parts<!-- There is no home for the <image> element in the Tech Comm Spec 
+   (see the <xref href="../base/image.dita"><xmlelement>image</xmlelement></xref> element description)-->, this
 element specifically supports constructions for which text is the primary content.</p><p>This element is part of the
 DITA user interface domain, a special set of DITA elements designed
 to document user interface tasks, concepts and reference
