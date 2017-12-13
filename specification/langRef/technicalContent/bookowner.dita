@@ -2,18 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="bookowner" xml:lang="en-us">
-<title><xmlelement>bookowner</xmlelement></title>
-<shortdesc>The <xmlelement>bookowner</xmlelement> element specifies the owner of the book's copyright.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm>bookmap elements<indexterm>bookowner</indexterm></indexterm>
-<indexterm>bookowner</indexterm></keywords>
-</metadata></prolog>
-<refbody>
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/data bookmap/bookowner </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;bookmeta>
+  <title><xmlelement>bookowner</xmlelement></title>
+  <shortdesc>The <xmlelement>bookowner</xmlelement> element specifies the owner of the book's
+    copyright.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>bookmap elements<indexterm>bookowner</indexterm></indexterm>
+        <indexterm>bookowner</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/data bookmap/bookowner </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;bookmeta>
   &lt;bookrights>
     &lt;copyrfirst>&lt;year>1994&lt;/year>&lt;/copyrfirst>
     &lt;copyrlast>&lt;year>2006&lt;/year>&lt;/copyrlast>
@@ -22,8 +33,5 @@ topic/data bookmap/bookowner </p></section>
     &lt;/bookowner>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
-<section id="attributes"><title>Attributes</title>
-      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
-      </section>
-</refbody>
+  </refbody>
 </reference>

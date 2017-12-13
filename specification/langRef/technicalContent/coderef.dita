@@ -2,13 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="coderef" xml:lang="en-us">
-<title><xmlelement>coderef</xmlelement></title>
-<shortdesc>The <xmlelement>coderef</xmlelement> element references an external file that contains
-    literal code. When evaluated, the <xmlelement>coderef</xmlelement> element <ph
-      >causes</ph> the target code to be displayed inline. If the target
-    contains non-XML characters such as '&lt;' or '&amp;', those will need to be handled in a way
-    that they <ph >can</ph> be displayed correctly by the final rendering
-    engine. <ph conref="apiname.dita#apiname/progdomainelement"/></shortdesc>
+  <title><xmlelement>coderef</xmlelement></title>
+  <shortdesc>The <xmlelement>coderef</xmlelement> element references an external file that contains
+    literal code.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,20 +16,32 @@
       </keywords>
     </metadata>
   </prolog>
-<refbody>
-
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p><ph >+</ph> topic/xref pr-d/coderef </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;example>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
+    </section>
+    <section id="formatting-expectations">
+      <title>Formatting expectations</title>
+      <p>When evaluated, the <xmlelement>coderef</xmlelement> element <ph>causes</ph> the target
+        code to be displayed inline. If the target contains non-XML characters such as '&lt;' or
+        '&amp;', those will need to be handled in a way that they <ph>can</ph> be displayed
+        correctly by the final rendering engine. </p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p><ph>+</ph> topic/xref pr-d/coderef </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/xref-attributes"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;example>
   &lt;title>Processing DITA&lt;/title>
   &lt;p>This code is an example of how to process DITA.&lt;/p>
   &lt;codeblock>&lt;coderef href="process-dita.xsl"/>&lt;/codeblock>
 &lt;/example></codeblock></example>
-<section id="attributes"><title>Attributes</title>
-<p conkeyref="conref-attribute/xref-attributes"/>
-</section>
-</refbody>
+  </refbody>
 </reference>
-

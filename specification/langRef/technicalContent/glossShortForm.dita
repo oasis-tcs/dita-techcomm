@@ -19,12 +19,6 @@
           <xmlelement>glossShortForm</xmlelement> element if there is no equivalent in the target
         language.</note>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/title concept/title glossentry/glossShortForm </p>
@@ -46,6 +40,5 @@
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-
 </refbody>
 </reference>

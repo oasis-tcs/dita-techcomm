@@ -2,19 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="organizationname" xml:lang="en-us">
-<title><xmlelement>organizationname</xmlelement></title>
-<shortdesc>The <xmlelement>organizationname</xmlelement> element contains name information
-about the authoring organization. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>organizationname<indexterm>xNAL elements<indexterm>organizationname</indexterm></indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/ph xnal-d/organizationname </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;organizationinfo&gt;
+  <title><xmlelement>organizationname</xmlelement></title>
+  <shortdesc>The <xmlelement>organizationname</xmlelement> element contains name information about
+    the authoring organization. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>organizationname<indexterm>xNAL
+            elements<indexterm>organizationname</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/ph xnal-d/organizationname </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;organizationinfo&gt;
  &lt;namedetails&gt;
   &lt;organizationnamedetails&gt;
    <b>&lt;organizationname&gt;WizardWorks, Inc.&lt;/organizationname&gt;</b>
@@ -31,8 +41,5 @@ topic/ph xnal-d/organizationname </p></section>
  &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
  &lt;urls&gt;&lt;url&gt;www.wizardworks.example.org&lt;/url&gt;&lt;/urls&gt;
 &lt;/organizationinfo&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
-   </section>
-</refbody>
+  </refbody>
 </reference>

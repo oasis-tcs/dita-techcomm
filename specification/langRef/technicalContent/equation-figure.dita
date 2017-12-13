@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="en-us" id="equation-figure" >
+<reference xml:lang="en-us" id="equation-figure">
   <title><xmlelement>equation-figure</xmlelement></title>
   <shortdesc>Use the <xmlelement>equation-figure</xmlelement> element to represent an equation that
-    functions as form of figure or display. Display equations are intended to be numbered when
-    numbering is desired.</shortdesc>
+    functions as a form of figure or display.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,7 +13,8 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section-1">
+    <section id="usage-information">
+      <title>Usage information</title>
       <p>Since the <xmlelement>equation-figure</xmlelement> element is specialized from
           <xmlelement>fig</xmlelement>, display equations can have titles, descriptions, figure
         groups, and all other figure components. The direct children of
@@ -36,74 +36,75 @@
           <xmlelement>equation-block</xmlelement> elements to contain the equations and clearly
         distinguish them from the commentary.</p>
     </section>
-    
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="formatting-expectations">
+      <title>Formatting expectations</title>
+      <p>Display equations are intended to be numbered when numbering is desired.</p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>+ topic/fig equation-d/equation-figure </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/fig-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following example, the <xmlelement>equation-figure</xmlelement> element contains a
         title and
         MathML:<codeblock>&lt;equation-figure>
-  &lt;title>Display equation with a MathML container&lt;/title>
-  &lt;mathml>
-    &lt;m:math display='block'>
-      &lt;m:semantics>
-        &lt;m:mrow>
+          &lt;title>Display equation with a MathML container&lt;/title>
+          &lt;mathml>
+          &lt;m:math display='block'>
+          &lt;m:semantics>
+          &lt;m:mrow>
           &lt;m:mfrac>
-            &lt;m:mrow>
-              &lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
-            &lt;/m:mrow>
-            &lt;m:mrow>
-              &lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;m:mrow>&lt;m:mo>(&lt;/m:mo>
-                &lt;m:mrow>
-                  &lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>
-                &lt;/m:mrow>
-                &lt;m:mo>)&lt;/m:mo>&lt;/m:mrow>&lt;m:mo>!&lt;/m:mo>
-            &lt;/m:mrow>
+          &lt;m:mrow>
+          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
+          &lt;/m:mrow>
+          &lt;m:mrow>
+          &lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;m:mrow>&lt;m:mo>(&lt;/m:mo>
+          &lt;m:mrow>
+          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>
+          &lt;/m:mrow>
+          &lt;m:mo>)&lt;/m:mo>&lt;/m:mrow>&lt;m:mo>!&lt;/m:mo>
+          &lt;/m:mrow>
           &lt;/m:mfrac>         
-        &lt;/m:mrow>
-      &lt;/m:semantics>
-    &lt;/m:math>
-  &lt;/mathml>
-&lt;/equation-figure></codeblock></p>
+          &lt;/m:mrow>
+          &lt;/m:semantics>
+          &lt;/m:math>
+          &lt;/mathml>
+          &lt;/equation-figure></codeblock></p>
       <p>In the following example, the <xmlelement>equation-figure</xmlelement> element contains a
         title and an <xmlelement>equation-block</xmlelement> element that contains MathML and
         commentary:<codeblock>&lt;equation-figure>
-  &lt;title>Display equation with a MathML container&lt;/title>
-  &lt;equation-block>
-    &lt;mathml>
-      &lt;m:math display='block'>
-        &lt;m:semantics>
+          &lt;title>Display equation with a MathML container&lt;/title>
+          &lt;equation-block>
+          &lt;mathml>
+          &lt;m:math display='block'>
+          &lt;m:semantics>
           &lt;m:mrow>
-            &lt;m:mfrac>
-              &lt;m:mrow>
-                &lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
-              &lt;/m:mrow>
-              &lt;m:mrow>
-                &lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;m:mrow>&lt;m:mo>(&lt;/m:mo>
-                  &lt;m:mrow>
-                    &lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>
-                  &lt;/m:mrow>
-                  &lt;m:mo>)&lt;/m:mo>&lt;/m:mrow>&lt;m:mo>!&lt;/m:mo>
-              &lt;/m:mrow>
-            &lt;/m:mfrac>            
+          &lt;m:mfrac>
+          &lt;m:mrow>
+          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
           &lt;/m:mrow>
-        &lt;/m:semantics>
-      &lt;/m:math>
-    &lt;/mathml>
-  &lt;/equation-block>
-  &lt;p>Where 
-&lt;equation-inline>&lt;mathml>&lt;m:math>&lt;m:mi>r&lt;/m:mi>&lt;/m:math>&lt;/mathml>&lt;/equation-inline>
-is greater than 1.&lt;/p>
-&lt;/equation-figure></codeblock></p>
+          &lt;m:mrow>
+          &lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;m:mrow>&lt;m:mo>(&lt;/m:mo>
+          &lt;m:mrow>
+          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>
+          &lt;/m:mrow>
+          &lt;m:mo>)&lt;/m:mo>&lt;/m:mrow>&lt;m:mo>!&lt;/m:mo>
+          &lt;/m:mrow>
+          &lt;/m:mfrac>            
+          &lt;/m:mrow>
+          &lt;/m:semantics>
+          &lt;/m:math>
+          &lt;/mathml>
+          &lt;/equation-block>
+          &lt;p>Where 
+          &lt;equation-inline>&lt;mathml>&lt;m:math>&lt;m:mi>r&lt;/m:mi>&lt;/m:math>&lt;/mathml>&lt;/equation-inline>
+          is greater than 1.&lt;/p>
+          &lt;/equation-figure></codeblock></p>
     </example>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="conref-attribute/fig-attributes"/>
-      
-    </section>
   </refbody>
 </reference>

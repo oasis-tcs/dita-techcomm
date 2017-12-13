@@ -21,12 +21,6 @@ and expanded versions of that acronym.</shortdesc>
         <ph>might</ph> resolve in many ways. For example, an information set could use
         <q>cars.abs</q> as the key for the term Anti-lock Braking System, and <q>ship.abs</q> to
       refer to the term American Bureau of Shipping.</section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ map/topicref glossref-d/glossref </p>
@@ -108,7 +102,6 @@ and expanded versions of that acronym.</shortdesc>
   &lt;!-- ... key declarations for other referenced acronyms ... -->
 &lt;/map></codeblock>
     </example>
-
 </refbody>
 </reference>
 

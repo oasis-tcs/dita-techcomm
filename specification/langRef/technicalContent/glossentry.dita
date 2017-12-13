@@ -6,26 +6,26 @@
   <shortdesc>The <xmlelement>glossentry</xmlelement> element defines a single sense of a glossary
     term. Glossary entries for different term senses can be reused independently of one
     another.</shortdesc>
-  <prolog><metadata>
-    <keywords>
-      <indexterm>glossaries<indexterm>entries</indexterm></indexterm><indexterm><xmlelement>glossentry</xmlelement></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossentry</xmlelement></indexterm></indexterm>
-    </keywords>
-  </metadata></prolog>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>glossaries<indexterm>entries</indexterm></indexterm>
+        <indexterm><xmlelement>glossentry</xmlelement></indexterm>
+        <indexterm>glossentry
+          elements<indexterm><xmlelement>glossentry</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations"><title>Processing expectations</title>The recommended (but
-      not required) book processing is to sort and group glossary entries based on the localized
-      term so a back-of-the-book glossary can contain a collated list of terms with the definitions
-      of the individual senses of each term indented under the term. The glossary can have a
-      different organization in different languages depending on the translation of the terms. One
-      possible implementation of a glossary in online processing is to associate a hotspot for
-      mentions of terms in <xmlelement>term</xmlelement> elements and display the definition on
-      hover or click.</section>
+    <section id="processing-expectations">
+      <title>Processing expectations</title>
+      The recommended (but not required) book processing is to sort and group glossary entries based
+      on the localized term so a back-of-the-book glossary can contain a collated list of terms with
+      the definitions of the individual senses of each term indented under the term. The glossary
+      can have a different organization in different languages depending on the translation of the
+      terms. One possible implementation of a glossary in online processing is to associate a
+      hotspot for mentions of terms in <xmlelement>term</xmlelement> elements and display the
+      definition on hover or click.</section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/topic concept/concept glossentry/glossentry </p>
@@ -68,6 +68,5 @@
           &lt;/glossentry></codeblock>
       </fig>
     </example>
-    
   </refbody>
 </reference>

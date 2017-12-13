@@ -2,22 +2,32 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="bookchangehistory" xml:lang="en-us">
-<title><xmlelement>bookchangehistory</xmlelement></title>
-<shortdesc>The <xmlelement>bookchangehistory</xmlelement> element contains information about the
-    history of the book's creation and publishing lifecycle, including who wrote, reviewed, edited,
-    and tested the book. It also specifies when these events took place. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>bookmap elements<indexterm>bookchangehistory</indexterm></indexterm>
-<indexterm>bookchangehistory</indexterm></keywords>
-</metadata></prolog>
-<refbody>
-
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/data bookmap/bookchangehistory </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;bookmeta>
+  <title><xmlelement>bookchangehistory</xmlelement></title>
+  <shortdesc>The <xmlelement>bookchangehistory</xmlelement> element contains information about a
+    book's publishing lifecycle</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>bookmap elements<indexterm>bookchangehistory</indexterm></indexterm>
+        <indexterm>bookchangehistory</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>This element contains information about the history of the book's creation and publishing
+        lifecycle, including who wrote, reviewed, edited, and tested the book. It also specifies
+        when these events took place.</p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+        ><title>Specialization hierarchy</title><p>- topic/data bookmap/bookchangehistory
+      </p></section>
+    <section id="attributes"><title>Attributes</title>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples"
+      ><title>Example</title><codeblock>&lt;bookmeta>
   &lt;bookchangehistory>
     &lt;reviewed>
       &lt;started>&lt;year>2007&lt;/year>&lt;month>10&lt;/month>&lt;/started>
@@ -41,9 +51,5 @@ topic/data bookmap/bookchangehistory </p></section>
     &lt;/bookevent>
   &lt;/bookchangehistory>
 &lt;/bookmeta></codeblock></example>
-<section id="attributes"><title>Attributes</title>
-      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
-      </section>
-</refbody>
+  </refbody>
 </reference>
-

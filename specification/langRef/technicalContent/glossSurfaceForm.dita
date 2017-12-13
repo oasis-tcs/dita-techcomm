@@ -2,18 +2,21 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="glossSurfaceForm" xml:lang="en-us">
-<title><xmlelement>glossSurfaceForm</xmlelement></title>
-<shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element specifies an unambiguous
-    presentation of the <xmlelement>glossterm</xmlelement> that <ph >might</ph>
-    combine multiple forms. The surface form is suitable to introduce the term in new
-    contexts.</shortdesc>
-<prolog><metadata>
-<keywords>
+  <title><xmlelement>glossSurfaceForm</xmlelement></title>
+  <shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element specifies an unambiguous
+    presentation of the <xmlelement>glossterm</xmlelement> that <ph>might</ph> combine multiple
+    forms. The surface form is suitable to introduce the term in new contexts.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
         <indexterm>glossaries<indexterm>surface forms</indexterm></indexterm>
         <indexterm>glossentry
-            elements<indexterm><xmlelement>glossSurfaceForm</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossSurfaceForm</xmlelement></indexterm></keywords>
-</metadata></prolog>
-<refbody>
+            elements<indexterm><xmlelement>glossSurfaceForm</xmlelement></indexterm></indexterm>
+        <indexterm><xmlelement>glossSurfaceForm</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
     <section id="usage-information">
       <title>Usage information</title>
       <p>The <xmlelement>glossSurfaceForm</xmlelement> element is most often used for terms that
@@ -23,12 +26,6 @@
         replaced with the acronym alone. See the <xref href="abbreviated-form.dita"
             ><xmlelement>abbreviated-form</xmlelement></xref> element for a full description of how
         the surface form is used together with acronyms.</p>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -55,6 +52,5 @@
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-
-</refbody>
+  </refbody>
 </reference>

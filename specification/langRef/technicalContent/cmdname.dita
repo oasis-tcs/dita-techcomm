@@ -2,24 +2,36 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="cmdname" xml:lang="en-us">
-<title><xmlelement>cmdname</xmlelement></title>
-<shortdesc>The <xmlelement>cmdname</xmlelement> element specifies the name of a command when it is part of a software
-discussion. This element is part of the DITA software domain, a special set of DITA elements
-designed to document software tasks, concepts and reference information.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm><xmlelement>cmdname</xmlelement></indexterm><indexterm>commands<indexterm>names</indexterm></indexterm><indexterm>software domain
-               elements<indexterm><xmlelement>cmdname</xmlelement></indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/keyword sw-d/cmdname </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;p>Use the &lt;cmdname>rm&lt;/cmdname> command when
+  <title><xmlelement>cmdname</xmlelement></title>
+  <shortdesc>The <xmlelement>cmdname</xmlelement> element specifies the name of a command when it is
+    part of a software discussion. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm><xmlelement>cmdname</xmlelement></indexterm>
+        <indexterm>commands<indexterm>names</indexterm></indexterm>
+        <indexterm>software domain
+          elements<indexterm><xmlelement>cmdname</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>This element is part of the DITA software domain, a special set of DITA elements designed
+        to document software tasks, concepts and reference information.</p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/keyword sw-d/cmdname </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;p>Use the &lt;cmdname>rm&lt;/cmdname> command when
 you wish to remove something forever.&lt;/p></codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
-   </section>
-</refbody>
+  </refbody>
 </reference>

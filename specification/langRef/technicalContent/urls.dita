@@ -2,19 +2,28 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="urls" xml:lang="en-us">
-<title><xmlelement>urls</xmlelement></title>
-<shortdesc>The <xmlelement>urls</xmlelement> element contains a list of Uniform Resource
-Locators (URLs). </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>urls<indexterm>xNAL elements<indexterm>urls</indexterm></indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/data xnal-d/urls </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;organizationinfo&gt;
+  <title><xmlelement>urls</xmlelement></title>
+  <shortdesc>The <xmlelement>urls</xmlelement> element contains a list of Uniform Resource Locators
+    (URLs). </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>urls<indexterm>xNAL elements<indexterm>urls</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/data xnal-d/urls </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;organizationinfo&gt;
  &lt;namedetails&gt;
   &lt;organizationnamedetails&gt;
    &lt;organizationname&gt;WizardWorks, Inc.&lt;/organizationname&gt;
@@ -31,8 +40,5 @@ topic/data xnal-d/urls </p></section>
  &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
  <b>&lt;urls&gt;&lt;url&gt;www.wizardworks.example.org&lt;/url&gt;&lt;/urls&gt;</b>
 &lt;/organizationinfo&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
-   </section>
-</refbody>
+  </refbody>
 </reference>

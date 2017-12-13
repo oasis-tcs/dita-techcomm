@@ -2,25 +2,31 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="bookpartno" xml:lang="en-us">
-<title><xmlelement>bookpartno</xmlelement></title>
-<shortdesc>The <xmlelement>bookpartno</xmlelement> element contains the book's part number, such as
-      99F1234. A publisher <ph >might</ph> use a number like this one to
-      identify a book for tracking purposes.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm>bookmap elements<indexterm>bookpartno</indexterm></indexterm>
-<indexterm>bookpartno</indexterm></keywords>
-</metadata></prolog>
-<refbody>
-
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-topic/data bookmap/bookpartno </p></section>
-<example conref="booknumber.dita#booknumber/example" id="example" otherprops="examples"></example>
-<section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
-   </section>
-</refbody>
+  <title><xmlelement>bookpartno</xmlelement></title>
+  <shortdesc>The <xmlelement>bookpartno</xmlelement> element contains the book's part number, such
+    as 99F1234.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>bookmap elements<indexterm>bookpartno</indexterm></indexterm>
+        <indexterm>bookpartno</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>A publisher <ph>might</ph> use a number like this one to identify a book for tracking
+        purposes.</p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/data bookmap/bookpartno </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+    </section>
+    <example conref="booknumber.dita#booknumber/example" id="example" otherprops="examples"/>
+  </refbody>
 </reference>
-

@@ -18,12 +18,6 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
                <xmlelement>glossentry</xmlelement> topic might result in an empty
                <xmlelement>glossSynonym</xmlelement> element.</note>
       </section>
-      <section id="formatting-expectations">
-         <title>Formatting expectations</title>
-      </section>
-      <section id="processing-expectations">
-         <title>Processing expectations</title>
-      </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>- topic/title concept/title glossentry/glossSynonym </p>

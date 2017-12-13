@@ -12,15 +12,6 @@
           elements<indexterm><xmlelement>glossSymbol</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossSymbol</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/image concept/image glossentry/glossSymbol </p>

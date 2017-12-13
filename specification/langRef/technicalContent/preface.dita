@@ -2,25 +2,28 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="preface" xml:lang="en-us">
-<title><xmlelement>preface</xmlelement></title>
-<shortdesc>The <xmlelement>preface</xmlelement> element references a topic or map containing
-introductory information about a book, such as the purpose and structure of the document. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>Bookmap elements<indexterm>preface</indexterm></indexterm>
-<indexterm>preface</indexterm></keywords>
-</metadata></prolog>
-<refbody>
-
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>-
-map/topicref bookmap/preface </p></section>
-<example id="example" otherprops="examples"><title>Example</title><p>See the example
-in <xref href="bookmap.dita"></xref>.</p></example>
-<section id="attributes"><title>Attributes</title><sectiondiv
-conkeyref="conref-attribute/bookmap-topicrefs"
-/></section>
-</refbody>
+  <title><xmlelement>preface</xmlelement></title>
+  <shortdesc>The <xmlelement>preface</xmlelement> element references a topic or map containing
+    introductory information about a book, such as the purpose and structure of the document. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Bookmap elements<indexterm>preface</indexterm></indexterm>
+        <indexterm>preface</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- map/topicref bookmap/preface </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <sectiondiv conkeyref="conref-attribute/bookmap-topicrefs"/></section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>See the example in <xref href="bookmap.dita"/>.</p>
+    </example>
+  </refbody>
 </reference>
-

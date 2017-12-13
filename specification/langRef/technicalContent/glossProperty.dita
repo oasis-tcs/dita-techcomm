@@ -13,15 +13,6 @@
           elements<indexterm><xmlelement>glossProperty</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossProperty</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/data concept/data glossentry/glossProperty </p>

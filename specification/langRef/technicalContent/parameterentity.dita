@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="en-us" id=" parameterentity" >
+<reference xml:lang="en-us" id=" parameterentity">
   <title><xmlelement>parameterentity</xmlelement></title>
   <shortdesc>Use the <xmlelement>parameterentity</xmlelement> element to identify mentions of
-    parameter entities, for example, "%keyword.content;". This element enables more precise semantic
-    searching of the DITA source; it also enables distinct formatting, such as adding the percentage
-    sign (%) or trailing semi-colon (;) delimiters to the parameter entity name. The content of the
-      <xmlelement>parameterentity</xmlelement> element should be the entity name without the leading
-    percentage sign or trailing semi-colon. <ph
-      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
+    parameter entities, for example, "%keyword.content;".</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,11 +14,22 @@
     </metadata>
   </prolog>
   <refbody>
-    
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p> This element enables more precise semantic searching of the DITA source; it also enables
+        distinct formatting, such as adding the percentage sign (%) or trailing semi-colon (;)
+        delimiters to the parameter entity name. The content of the
+          <xmlelement>parameterentity</xmlelement> element should be the entity name without the
+        leading percentage sign or trailing semi-colon. <ph
+          conkeyref="conref-file/xml-mention-domain"/></p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>+ topic/keyword markup-d/markupname xml-d/parameterentity </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Examples</title>
@@ -32,10 +38,5 @@ defines the content model for the &lt;xmlelement>p&lt;/xmlelement> element.&lt;/
       <codeblock>&lt;p>To include the XML-mention domain in a DTD document-type shell, you must 
 declare the <b>&lt;parameterentity>xml-d-dec&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
     </example>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
-      
-    </section>
   </refbody>
 </reference>

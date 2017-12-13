@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="change-started" xml:lang="en-us" >
+<reference id="change-started" xml:lang="en-us">
   <title><xmlelement>change-started</xmlelement></title>
   <shortdesc>Use the <xmlelement>change-started</xmlelement> element to specify the date on which
     the change was initiated.</shortdesc>
@@ -14,18 +14,18 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section-1">
+    <section id="usage-information">
+      <title>Usage information</title>
       <p conkeyref="conref-file/release-domain-best-practices"/>
     </section>
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>- topic/data relmgmt-d/change-started </p>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass-name"/>
     </section>
+    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

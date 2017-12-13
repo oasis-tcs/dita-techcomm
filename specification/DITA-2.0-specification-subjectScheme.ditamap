@@ -42,7 +42,7 @@
         <subjectdef keys="contains"/>
         <subjectdef keys="containedby"/>
         <subjectdef keys="examples"/>
-        <subjectdef keys="inheritance"/>
+        <subjectdef keys="specialization-hierarchy"/>
     </subjectdef>
     <enumerationdef>
         <attributedef name="rev"/>

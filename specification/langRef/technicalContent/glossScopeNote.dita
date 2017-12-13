@@ -2,27 +2,25 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="glossScopeNote" xml:lang="en-us">
-<title><xmlelement>glossScopeNote</xmlelement></title>
-<shortdesc>The <xmlelement>glossScopeNote</xmlelement> element contains a clarification of the
+  <title><xmlelement>glossScopeNote</xmlelement></title>
+  <shortdesc>The <xmlelement>glossScopeNote</xmlelement> element contains a clarification of the
     subject that is designated by the <xmlelement>glossterm</xmlelement>, such as examples of
     included or excluded companies or products. For instance, a scope note for "Linux" might explain
-    that the term doe not apply to UNIX products;  it might give examples of Linux products that are
+    that the term doe not apply to UNIX products; it might give examples of Linux products that are
     included as well as UNIX products that are excluded. </shortdesc>
-<prolog><metadata>
-<keywords>
+  <prolog>
+    <metadata>
+      <keywords>
         <indexterm>glossaries<indexterm>scope notes</indexterm></indexterm>
         <indexterm>glossentry
-          elements<indexterm><xmlelement>glossScopeNote</xmlelement></indexterm></indexterm><indexterm><xmlelement>glossScopeNote</xmlelement></indexterm></keywords>
-</metadata></prolog>
-<refbody>
+          elements<indexterm><xmlelement>glossScopeNote</xmlelement></indexterm></indexterm>
+        <indexterm><xmlelement>glossScopeNote</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -46,7 +44,5 @@ themselves.  Examples include RedHat, SuSE, and Ubuntu. &lt;/glossScopeNote>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
-
-</refbody>
+  </refbody>
 </reference>
-

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="change-request-reference" xml:lang="en-us" >
+<reference id="change-request-reference" xml:lang="en-us">
   <title><xmlelement>change-request-reference</xmlelement></title>
   <shortdesc>Use the <xmlelement>change-request-reference</xmlelement> element to provide
     information that links the change to an external tracking system.</shortdesc>
@@ -14,15 +14,14 @@
     </metadata>
   </prolog>
   <refbody>
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>- topic/metadata relmgmt-d/change-request-reference </p>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass-name"/>
     </section>
+    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

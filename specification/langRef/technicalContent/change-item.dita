@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="change-item" xml:lang="en-us" >
+<reference id="change-item" xml:lang="en-us">
   <title><xmlelement>change-item</xmlelement></title>
   <shortdesc>Use the <xmlelement>change-item</xmlelement> element to represent a record of a single
     change to a DITA topic or map.</shortdesc>
@@ -13,15 +13,15 @@
       </keywords>
     </metadata>
   </prolog>
-  <refbody>    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+  <refbody>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>- topic/data relmgmt-d/change-item </p>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass-name"/>
     </section>
+    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

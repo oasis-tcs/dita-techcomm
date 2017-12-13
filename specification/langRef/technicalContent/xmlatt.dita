@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="en-us" id="xmlatt" >
+<reference xml:lang="en-us" id="xmlatt">
   <title><xmlelement>xmlatt</xmlelement></title>
   <shortdesc>Use the <xmlelement>xmlatt</xmlelement> element to identify mentions of XML attributes,
-    for example, <xmlatt>audience</xmlatt>. This element enables more precise semantic searching of
-    the DITA source; it also enables distinct formatting, such as preceding the name of the
-    attribute with a commercial at (@) sign. The content of the <xmlelement>xmlatt</xmlelement>
-    element should be the attribute name without commercial at or equals (=) characters. <ph
-      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
+    for example, <xmlatt>audience</xmlatt>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,11 +14,21 @@
     </metadata>
   </prolog>
   <refbody>
-    
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p> This element enables more precise semantic searching of the DITA source; it also enables
+        distinct formatting, such as preceding the name of the attribute with a commercial at (@)
+        sign. The content of the <xmlelement>xmlatt</xmlelement> element should be the attribute
+        name without commercial at or equals (=) characters. <ph
+          conkeyref="conref-file/xml-mention-domain"/></p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>+ topic/keyword markup-d/markupname xml-d/xmlatt </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
@@ -30,10 +36,5 @@
 attributes affect how related links are generated for topics that are 
 referenced in the DITA map.</codeblock>
     </example>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
-      
-    </section>
   </refbody>
 </reference>

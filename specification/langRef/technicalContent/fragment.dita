@@ -2,26 +2,36 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="fragment" xml:lang="en-us">
-<title><xmlelement>fragment</xmlelement></title>
-<shortdesc>The <xmlelement>fragment</xmlelement> element contains a labeled subpart of the syntax
-within a <xmlelement>syntaxdiagram</xmlelement>. The <xmlelement>fragment</xmlelement> element
-allows breaking out logical chunks of a large syntax diagram into named fragments. <ph
-conref="apiname.dita#apiname/progdomainelement"/></shortdesc>
-<prolog><metadata>
-<keywords>
-    <indexterm>elements<indexterm>programming
-       domain<indexterm><xmlelement>fragment</xmlelement></indexterm></indexterm></indexterm>
-    <indexterm>syntax diagrams<indexterm>fragments</indexterm></indexterm>
-</keywords>
-</metadata></prolog>
-<refbody>
-
-
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/figgroup pr-d/fragment </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;syntaxdiagram frame="none"&gt;
+  <title><xmlelement>fragment</xmlelement></title>
+  <shortdesc>The <xmlelement>fragment</xmlelement> element contains a labeled subpart of the syntax
+    within a <xmlelement>syntaxdiagram</xmlelement>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>elements<indexterm>programming
+              domain<indexterm><xmlelement>fragment</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>syntax diagrams<indexterm>fragments</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p> The <xmlelement>fragment</xmlelement> element allows breaking out logical chunks of a
+        large syntax diagram into named fragments. <ph
+          conref="apiname.dita#apiname/progdomainelement"/></p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/figgroup pr-d/fragment </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;syntaxdiagram frame="none"&gt;
  &lt;title&gt;CopyFile&lt;/title&gt;
  &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
  &lt;groupcomp&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
@@ -32,9 +42,5 @@ topic/figgroup pr-d/fragment </p></section>
   &lt;groupchoice&gt;&lt;kwd&gt;*OVERLAP&lt;/kwd&gt;&lt;kwd&gt;*Prompt&lt;/kwd&gt;&lt;/groupchoice&gt;
  <b>&lt;/fragment&gt;</b>
 &lt;/syntaxdiagram&gt;</codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/universal-outputclass"/>
-   </section>
-</refbody>
+  </refbody>
 </reference>
-

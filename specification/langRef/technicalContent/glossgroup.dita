@@ -2,24 +2,19 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="glossgroup" xml:lang="en-us">
-<title><xmlelement>glossgroup</xmlelement></title>
-<shortdesc>The <xmlelement>glossgroup</xmlelement> is a specialized topic that can contain multiple
-      <xmlelement>glossentry</xmlelement> topics within a single document.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm><xmlelement>glossgroup</xmlelement></indexterm>
+  <title><xmlelement>glossgroup</xmlelement></title>
+  <shortdesc>The <xmlelement>glossgroup</xmlelement> is a specialized topic that can contain
+    multiple <xmlelement>glossentry</xmlelement> topics within a single document.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm><xmlelement>glossgroup</xmlelement></indexterm>
         <indexterm>glossary-related
-            elements<indexterm><xmlelement>glossgroup</xmlelement></indexterm></indexterm></keywords>
-</metadata></prolog>
-<refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
+            elements<indexterm><xmlelement>glossgroup</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/topic concept/concept glossgroup/glossgroup </p>
@@ -43,7 +38,5 @@
   &lt;/glossentry>
 &lt;/glossgroup></codeblock>
     </example>
-
-</refbody>
+  </refbody>
 </reference>
-

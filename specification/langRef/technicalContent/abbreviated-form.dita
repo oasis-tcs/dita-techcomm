@@ -4,10 +4,7 @@
 <reference id="abbreviated-form" xml:lang="en-us">
 <title><xmlelement>abbreviated-form</xmlelement></title>
 <shortdesc>The <xmlelement>abbreviated-form</xmlelement> element represents a reference to a term
-    that might appear in an abbreviated form (often an acronym). The long and short forms of the
-    term are generally defined in a <xmlelement>glossentry</xmlelement> topic. Processors display
-    the referenced term when rendering an <xmlelement>abbreviated-form</xmlelement>
-    element.</shortdesc>
+    that might appear in an abbreviated form (often an acronym).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,6 +19,9 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
+      <p>The long and short forms of the term are generally defined in a
+          <xmlelement>glossentry</xmlelement> topic. Processors display the referenced term when
+        rendering an <xmlelement>abbreviated-form</xmlelement> element.</p>
     </section>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
@@ -126,7 +126,6 @@ driver to stop. For this reason many find an
           Anti-lock Braking System (ABS) helps a driver to stop. For this reason many find an ABS
           useful.</lq></p>
     </example>
-
 </refbody>
 </reference>
 

@@ -16,17 +16,17 @@
   </metadata>
  </prolog>
  <refbody>
-  <section id="inheritance" otherprops="inheritance">
-   <title>Inheritance</title>
+  <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+   <title>Specialization hierarchy</title>
    <p>- topic/body troubleshooting/troublebody </p>
+  </section>
+  <section id="attributes">
+   <title>Attributes</title>
+   <p conkeyref="conref-attribute/universal-outputclass"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
    <p>See <xref href="troubleshooting.dita"/>.</p>
   </example>
-  <section id="attributes">
-   <title>Attributes</title>
-   <p conkeyref="conref-attribute/universal-outputclass"/>
-  </section>
  </refbody>
 </reference>

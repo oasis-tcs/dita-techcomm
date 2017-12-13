@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
-<reference id="tasktroubleshooting" xml:lang="en-us" >
+<reference id="tasktroubleshooting" xml:lang="en-us">
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
   <shortdesc>Task troubleshooting information is information that is designed to help users remedy
     the situation when a task does not complete as expected. </shortdesc>
@@ -30,6 +30,11 @@
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass"/>
+    </section>
+    <section id="section-1">
+      <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph> inside of
+          <xmlelement>tasktroubleshooting</xmlelement> because its meaning there would be
+        ambiguous.</note>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
@@ -60,13 +65,7 @@
     <p>Once completed, you need to consider abc.</p>
   </postreq>
 ]]>
-</codeblock>
+      </codeblock>
     </example>
-    <section id="section-1">
-      <note type="tip">Do not use <codeph >&lt;note type="trouble"></codeph>
-        inside of <xmlelement>tasktroubleshooting</xmlelement> because its meaning there would be
-        ambiguous.</note>
-    </section>
   </refbody>
 </reference>
-

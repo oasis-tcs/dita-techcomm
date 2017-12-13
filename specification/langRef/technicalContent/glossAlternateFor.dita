@@ -20,12 +20,6 @@
       "stick" is a variant of the primary term (USB flash drive). The
         <xmlelement>glossAlternateFor</xmlelement> element indicates that "stick" is also a variant
       of the synonym "memory stick".</section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-    </section>
-    <section id="processing-expectations">
-      <title>Processing expectations</title>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/xref concept/xref glossentry/glossAlternateFor </p>

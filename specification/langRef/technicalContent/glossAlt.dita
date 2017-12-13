@@ -2,48 +2,43 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="glossAlt" xml:lang="en-us">
-<title><xmlelement>glossAlt</xmlelement></title>
-<shortdesc>The <xmlelement>glossAlt</xmlelement> element contains a variant term for the preferred
-      term. The variant should have the same meaning as the term in the
-         <xmlelement>glossterm</xmlelement> element; the variant is simply another way to refer to
-      the same term. There <ph >might</ph> be many ways to refer to a term;
-      each variant is placed in its own <xmlelement>glossAlt</xmlelement> element. The
-         <xmlelement>glossUsage</xmlelement> element <ph >can</ph> be used
-      within <xmlelement>glossAlt</xmlelement> to indicate when use of the alternate term is
-      appropriate.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm><xmlelement>glossAlt</xmlelement></indexterm>
-            <indexterm>glossaries<indexterm>variant terms</indexterm></indexterm>
-            <indexterm>glossentry
-               elements<indexterm><xmlelement>glossAlt</xmlelement></indexterm></indexterm></keywords>
-</metadata></prolog>
-<refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-         <note id="translation">A list of alternative terms is specific to the language, so the
-            translation of a <xmlelement>glossentry</xmlelement> topic might result in empty
-            elements within a <xmlelement>glossAlt</xmlelement> container.</note>
-      </section>
-      <section id="formatting-expectations">
-         <title>Formatting expectations</title>
-      </section>
-      <section id="processing-expectations">
-         <title>Processing expectations</title>
-      </section>
-      <section id="specialization-hierarchy">
-         <title>Specialization hierarchy</title>
-         <p>- topic/section concept/section glossentry/glossAlt </p>
-      </section>
-      <section id="attributes">
-         <title>Attributes</title>
-         <p conkeyref="conref-attribute/universal-outputclass"/>
-      </section>
-      <example id="example" otherprops="examples">
-         <title>Example</title>
-         <p>See the example in <xref href="glossentry.dita#glossentry/example"
-                  ><xmlelement>glossentry</xmlelement>.</xref></p>
-      </example>
-
-</refbody>
+  <title><xmlelement>glossAlt</xmlelement></title>
+  <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains a variant term for the preferred
+    term. The variant should have the same meaning as the term in the
+      <xmlelement>glossterm</xmlelement> element; the variant is simply another way to refer to the
+    same term. There <ph>might</ph> be many ways to refer to a term; each variant is placed in its
+    own <xmlelement>glossAlt</xmlelement> element. The <xmlelement>glossUsage</xmlelement> element
+      <ph>can</ph> be used within <xmlelement>glossAlt</xmlelement> to indicate when use of the
+    alternate term is appropriate.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm><xmlelement>glossAlt</xmlelement></indexterm>
+        <indexterm>glossaries<indexterm>variant terms</indexterm></indexterm>
+        <indexterm>glossentry
+          elements<indexterm><xmlelement>glossAlt</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <note id="translation">A list of alternative terms is specific to the language, so the
+        translation of a <xmlelement>glossentry</xmlelement> topic might result in empty elements
+        within a <xmlelement>glossAlt</xmlelement> container.</note>
+    </section>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>- topic/section concept/section glossentry/glossAlt </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>See the example in <xref href="glossentry.dita#glossentry/example"
+            ><xmlelement>glossentry</xmlelement>.</xref></p>
+    </example>
+  </refbody>
 </reference>
-

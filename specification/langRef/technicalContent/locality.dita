@@ -2,20 +2,34 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="locality" xml:lang="en-us">
-<title><xmlelement>locality</xmlelement></title>
-<shortdesc>The <xmlelement>locality</xmlelement> element contains information about
-the city and postal or ZIP code. It can contain the information directly,
-or by acting as a wrapper for <xmlelement>localityname</xmlelement> and <xmlelement>postalcode</xmlelement>. </shortdesc>
-<prolog><metadata>
-<keywords><indexterm>xNAL elements<indexterm>locality</indexterm></indexterm>
-<indexterm>locality</indexterm></keywords>
-</metadata></prolog>
-<refbody>
-
-
-<section id="inheritance" otherprops="inheritance"><title>Inheritance</title><p>+
-topic/ph xnal-d/locality </p></section>
-<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;addressdetails&gt;
+  <title><xmlelement>locality</xmlelement></title>
+  <shortdesc>The <xmlelement>locality</xmlelement> element contains information about the city and
+    postal or ZIP code.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>xNAL elements<indexterm>locality</indexterm></indexterm>
+        <indexterm>locality</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>This element can contain the information directly, or by acting as a wrapper for
+          <xmlelement>localityname</xmlelement> and <xmlelement>postalcode</xmlelement>. </p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>+ topic/ph xnal-d/locality </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <codeblock>&lt;addressdetails&gt;
 &lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
 &lt;locality&gt;
 &lt;localityname&gt;Emerald City&lt;/localityname&gt;
@@ -25,8 +39,5 @@ topic/ph xnal-d/locality </p></section>
 &lt;country&gt;USA&lt;/country&gt;
 &lt;/addressdetails&gt;
 </codeblock></example>
-<section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
-   </section>
-</refbody>
+  </refbody>
 </reference>

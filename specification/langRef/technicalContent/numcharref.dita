@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="en-us" id="numcharref" >
+<reference xml:lang="en-us" id="numcharref">
   <title><xmlelement>numcharref</xmlelement></title>
   <shortdesc>Use the <xmlelement>numcharref</xmlelement> element to identify mentions of XML numeric
-    character references, for example, "&amp;#10;" or "&amp;#x0a;". This element enables more
-    precise semantic searching of the DITA source; it also enables distinct output formatting. The
-    content of the <xmlelement>numcharref</xmlelement> element should be the numeric value without
-    any leading or trailing characters added as style, for example, "10" or "x0a". <ph
-      conkeyref="conref-file/xml-mention-domain"/></shortdesc>
+    character references, for example, "&amp;#10;" or "&amp;#x0a;".</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,11 +14,20 @@
     </metadata>
   </prolog>
   <refbody>
-    
-    
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p> This element enables more precise semantic searching of the DITA source; it also enables
+        distinct output formatting. The content of the <xmlelement>numcharref</xmlelement> element
+        should be the numeric value without any leading or trailing characters added as style, for
+        example, "10" or "x0a". <ph conkeyref="conref-file/xml-mention-domain"/></p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>+ topic/keyword markup-d/markupname xml-d/numcharref </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
@@ -33,10 +38,5 @@ symbol. When a markup-aware processor encounters a numeric  character
 reference, for example, &lt;numcharref>225&lt;/numcharref>, it renders the 
 reference as the Unicode character that it represents: a-acute.&lt;/p></codeblock>
     </example>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
-      
-    </section>
   </refbody>
 </reference>
