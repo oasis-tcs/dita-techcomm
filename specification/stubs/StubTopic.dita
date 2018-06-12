@@ -4,6 +4,12 @@
   <title>STUB CONTENT</title>
   <body>
     <section>
+      <dl id="editions-description">
+        <dlentry>
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+      </dl>
       <dl>
         <dlentry id="ditauseconref">
           <dt>STUB CONTENT</dt>
@@ -124,7 +130,9 @@
         <p>STUB CONTENT</p>
       </sectiondiv>
     </section>
+    <section id="dita-written-specification"><title>STUB CONTENT</title></section>
     <section id="stub-section"><title>STUB CONTENT</title></section>
+    <section id="xml-grammar-files"><title>STUB CONTENT</title></section>
     <example id="release-management">
       <p>STUB CONTENT</p>
     </example>

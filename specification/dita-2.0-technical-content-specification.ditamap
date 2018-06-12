@@ -50,6 +50,8 @@
     </keywords>
    </topicmeta>
   </keydef>-->
+    
+    <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-common-metadata.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-part2-metadata.ditamap" processing-role="resource-only"/>
     <mapref href="DITA-2.0-specification-subjectScheme.ditamap" type="subjectScheme"/>
