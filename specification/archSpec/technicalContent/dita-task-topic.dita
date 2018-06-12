@@ -131,6 +131,7 @@
 		</example>
 		<section id="section_5D9B27D18233424697CB9520A79126D0">
 			<title>Maintaining specializations using the strict task model</title>
+		  <draft-comment author="BobThomas">Should migration-1.1-to-1.2.dita be carried forward?</draft-comment>
 			<p id="p_E1DCE778C2C643D2881255B33FCD9055">Organizations that have created
 				specializations based on the DITA 1.0 and 1.1 strict task model <ph>can</ph> review
 				the recommendations in <xref href="../../non-normative/migration-1.1-to-1.2.dita"/>

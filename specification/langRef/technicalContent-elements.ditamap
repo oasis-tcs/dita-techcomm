@@ -3,6 +3,7 @@
  "map.dtd">
 <map id="technicalContent_elements" xml:lang="en-us" collection-type="sequence">
  <title>Technical content elements</title>
+ <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
  <topicref href="langRef-technicalContent.dita">
   <topicref href="quick-reference/technicalContent-elements-a-to-z.dita"/>
   <mapref href="concept-elements.ditamap"/>
