@@ -134,7 +134,7 @@
 		  <draft-comment author="BobThomas">Should migration-1.1-to-1.2.dita be carried forward?</draft-comment>
 			<p id="p_E1DCE778C2C643D2881255B33FCD9055">Organizations that have created
 				specializations based on the DITA 1.0 and 1.1 strict task model <ph>can</ph> review
-				the recommendations in <xref href="../../non-normative/migration-1.1-to-1.2.dita"/>
+				the recommendations in <xref keyref="migration-1.1-to-1.2"/>
 				<ph>for information about how</ph> to maintain their specializations.</p>
 		</section>
 		<!--<section id="section_A5353AF30F324A64AB125FFF88B7E3D4"><title>Modules</title><p id="p_F14827B364F5411DB2F33DAF5278DE0A">The following DITA modules are provided for the task topic.</p><sl><sli><filepath>task.mod</filepath>, <filepath>task.ent</filepath>, <filepath>strictTaskbodyConstraint.mod</filepath> (DTD) </sli><sli><filepath>taskMod.xsd</filepath>, <filepath>taskGrp.xsd</filepath>, <filepath>strictTaskbodyConstraintMod.xsd</filepath> (Schema) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rng</filepath>, <filepath>strictTaskbodyConstraint.rng</filepath> (RELAX NG XML syntax) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rnc</filepath>, <filepath>strictTaskbodyConstraint.rnc</filepath> (RELAX NG compact syntax) </sli></sl></section>-->

@@ -11,6 +11,7 @@
   <keydef keys="esttime" href="StubTopic.dita"/>
   <keydef keys="linkRelationshipAttributes" href="StubTopic.dita"/>
   <keydef keys="noconds" href="StubTopic.dita"/>
+  <keydef keys="migration-1.1-to-1.2" href="StubTopic.dita"/>
   <keydef keys="nosafety" href="StubTopic.dita"/>
   <keydef keys="nospares" href="StubTopic.dita"/>
   <keydef keys="nosupeq" href="StubTopic.dita"/>
