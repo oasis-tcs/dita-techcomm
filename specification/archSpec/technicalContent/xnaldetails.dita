@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="xnaldetails" xml:lang="en-us"> 
   <title>xNAL usage guidelines</title> 
@@ -9,7 +9,7 @@
 	 <p id="p_B29FA4D529414071B5C45D2715DB7FCC">DITA bookmaps use a set of
 		elements associated with a subset of the 
 		<xref format="html"
-		 href="http://www.oasis-open.org/committees/ciq/ciq.html#4">OASIS extensible
+		 href="http://www.oasis-open.org/committees/ciq/ciq.html#4" scope="external">OASIS extensible
 		  Name and Address Language (xNAL)</xref> specification (Version 2) to denote
 		name and address information related to persons and organizations.</p> 
 	 <p id="p_3DC44EF4DA42415EAF62DFA4B425CEAA">While the elements share element names, and the
@@ -28,7 +28,7 @@
 		<p id="p_667A2CE5B0A748A3B511F7C652E0767F">The set of bookmap elements
 		  associated with elements from the 
 		  <xref format="html"
-			href="http://www.oasis-open.org/committees/ciq/ciq.html#4">OASIS extensible
+		    href="http://www.oasis-open.org/committees/ciq/ciq.html#4" scope="external">OASIS extensible
 			 Name and Address Language (xNAL)</xref> standard are listed in the table below.</p> 
 		<table colsep="0" frame="none" rowsep="0"
 		 id="table_21DE0DDF9261488DB735C53ABD5CE5E2">
@@ -105,7 +105,8 @@
 				<entry colname="col1"><xmlelement>firstname</xmlelement>
 				</entry> 
 				<entry colname="col2"><xmlelement>organizationname</xmlelement>
-				</entry> 
+				</entry>
+			   <entry/>
 			 </row> 
 			 <row> 
 				<entry colname="col1"><xmlelement>generationidentifier</xmlelement>
@@ -113,8 +114,7 @@
 				<entry
 				 colname="col2"><xmlelement>organizationnamedetails</xmlelement>
 				</entry> 
-				<entry>
-				</entry> 
+				<entry/>				 
 			 </row> 
 		  </tbody> 
 		</tgroup> 

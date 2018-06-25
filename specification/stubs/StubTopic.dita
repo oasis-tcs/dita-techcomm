@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_m1s_s5j_c2b">
+  <title>STUB CONTENT</title>
+  <body>
+    <section>
+      <dl id="editions-description">
+        <dlentry>
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+      </dl>
+      <dl>
+        <dlentry id="ditauseconref">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-align">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-height">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-href">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-longdescref">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-placement">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-scale">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-scalefit">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-scope">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="image-width">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="importance-optreq">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="map-attribute-anchorref">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="map-attribute-id">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="print-default-no">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+        <dlentry id="toc-default-no">
+          <dt>STUB CONTENT</dt>
+          <dd>STUB CONTENT</dd>
+        </dlentry>
+      </dl>
+      <p id="data-link-universal-outputclass">STUB CONTENT</p>
+      <p id="fig-attributes">STUB CONTENT</p>
+      <p id="map-attributes-common">STUB CONTENT</p>
+      <p id="pre-attributes">STUB CONTENT</p>
+      <p id="simpletable-attributes">STUB CONTENT</p>
+      <p id="topic-body">STUB CONTENT</p>
+      <p id="universal-outputclass-keyref">STUB CONTENT</p>
+      <p id="universal-outputclass-name">STUB CONTENT</p>
+      <p id="universal-outputclass-specentry">STUB CONTENT</p>
+      <p id="universal-outputclass-spectitle-compact">STUB CONTENT</p>
+      <p id="universal-outputclass">STUB CONTENT</p>
+      <p id="xref-attributes">STUB CONTENT</p>      
+      <p id="release-domain-best-practices">STUB CONTENT</p>
+      <p><ph id="xml-mention-domain">STUB CONTENT</ph></p>
+      <p><ph id="non-dita-href">STUB CONTENT</ph></p>
+      <p><ph id="required-attr">STUB CONTENT</ph></p>
+      <p><xref id="mapkeyref" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
+      <p><xref id="outputclass" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
+      <p><xref id="spectitle" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
+      <p id="universal-outputclass-spectitle">STUB CONTENT</p>
+      <codeblock id="concept-codeblock">STUB CONTENT</codeblock>
+      <sectiondiv id="author-attributes">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="bookmap-booklist-attributes">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="bookmap-frontbackmatter">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="bookmap-topicrefs">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="fn-attributes">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="note-attributes">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="standard-topicmeta-attributes">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="step-and-substep">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="syntaxelement-optreq">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="syntaxelement-update-importance-plus-keyref">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="syntaxelement-update-importance">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+      <sectiondiv id="topic-attributes">
+        <p>STUB CONTENT</p>
+      </sectiondiv>
+    </section>
+    <section id="dita-written-specification"><title>STUB CONTENT</title></section>
+    <section id="stub-section"><title>STUB CONTENT</title></section>
+    <section id="xml-grammar-files"><title>STUB CONTENT</title></section>
+    <example id="release-management">
+      <p>STUB CONTENT</p>
+    </example>
+  </body>
+</topic>

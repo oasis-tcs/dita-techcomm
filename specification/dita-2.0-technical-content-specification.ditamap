@@ -50,8 +50,9 @@
     </keywords>
    </topicmeta>
   </keydef>-->
+    
+    <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-common-metadata.ditamap" processing-role="resource-only"/>
-    <mapref href="dita-2.0-key-definitions-base-spec.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-part2-metadata.ditamap" processing-role="resource-only"/>
     <mapref href="DITA-2.0-specification-subjectScheme.ditamap" type="subjectScheme"/>
     <mapref href="dita-20-key-definitions-cover-pages.ditamap" processing-role="resource-only"/>
@@ -74,7 +75,6 @@
   <chapter format="ditamap" href="langRef/technicalContent-elements.ditamap"/>
   <chapter href="conformance/conformance.dita"/>
   <appendix href="acknowledgments/acknowledgments.dita"/>
-  <appendix format="ditamap" keyref="ditaref-attributes"/>
   <backmatter>
     <booklists><!--<indexlist/>--></booklists>
   </backmatter>
