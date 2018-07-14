@@ -4,7 +4,7 @@
 <reference id="oper" xml:lang="en-us">
   <title><xmlelement>oper</xmlelement></title>
   <shortdesc>The <xmlelement>oper</xmlelement> element defines an operator within a syntax
-    definition. Typical operators are equals (=), plus (+) or multiply (*).</shortdesc>
+    definition.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,7 +18,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
+      <p>Typical operators are equals (=), plus (+) or multiply (*). <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>

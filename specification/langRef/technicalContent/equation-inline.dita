@@ -17,12 +17,16 @@
       <title>Usage information</title>
       <p>Inline equations are not intended to be numbered.</p>
       <p>When an <xmlelement>equation-inline</xmlelement> element has multiple direct child
-        elements, each child represents an alternative form of the equation. Processors are free to
-        choose the form or forms that they use in deliverables. For example, if there is both an
-        image and MathML markup, an HTML-generating processor could output both the image reference
-        and the MathML with appropriate HTML <xmlatt>class</xmlatt> or <xmlatt>id</xmlatt> values to
-        enable dynamic showing or hiding of one form or the other based on browser capability.</p>
+        elements, each child represents an alternative form of the equation.</p>
     </section>
+      <section id="processing-expectations">
+         <title>Processing expectations</title>
+      <p>Processors are free to choose the form or forms that they use in deliverables. For example,
+        if there is both an image and MathML markup, an HTML-generating processor could output both
+        the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
+          <xmlatt>id</xmlatt> values to enable dynamic showing or hiding of one form or the other
+        based on browser capability.</p>
+      </section>    
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph equation-d/equation-inline</p>

@@ -16,7 +16,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element enables more precise semantic searching of the DITA source; it also enables
+      <p>The <xmlelement>numcharref</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
         distinct output formatting. The content of the <xmlelement>numcharref</xmlelement> element
         should be the numeric value without any leading or trailing characters added as style, for
         example, "10" or "x0a". <ph conkeyref="conref-file/xml-mention-domain"/></p>

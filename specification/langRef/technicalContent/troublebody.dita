@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="troublebody" xml:lang="en-us" >
  <title><xmlelement>troublebody</xmlelement></title>
  <shortdesc>The <xmlelement>troublebody</xmlelement> element is a container for the main content of
-  the troubleshooting topic.
-  <!--Troubleshooting topics limit the body structure to an optional, single condition followed by one or more trouble solution combinations.--></shortdesc>
+  the troubleshooting topic.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
