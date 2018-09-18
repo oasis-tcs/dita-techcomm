@@ -3,11 +3,7 @@
  "reference.dtd">
 <reference id="cause" xml:lang="en-us" >
  <title><xmlelement>cause</xmlelement></title>
- <shortdesc>The <xmlelement>cause</xmlelement> element describes a potential source of the problem
-  that is described in the <xmlelement>condition</xmlelement> element, the topic
-   <xmlelement>title</xmlelement> element, or the <xmlelement>shortdesc</xmlelement> element. This
-  information should be brief; if it is not possible to make the information brief, this might be a
-  sign that a full troubleshooting topic is needed</shortdesc>
+ <shortdesc>The <xmlelement>cause</xmlelement> element describes a possible source of a problem that is described in a troubleshooting <xmlelement>condition</xmlelement> element, topic <xmlelement>title</xmlelement> element, or <xmlelement>shortdesc</xmlelement> element.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
@@ -18,6 +14,9 @@
   </metadata>
  </prolog>
  <refbody>
+        <section id="section_u1s_mbj_2fb">
+            <p>This information should be brief. If it is not possible describe a cause concisely, a full troubleshooting topic may be needed.</p>
+        </section>
   <section conref="../../common/commonNavLibraryTable.dita#contentmodel-cause/contains" id="contains" otherprops="contains"></section>
   <section id="inheritance" otherprops="inheritance">
    <title>Inheritance</title>

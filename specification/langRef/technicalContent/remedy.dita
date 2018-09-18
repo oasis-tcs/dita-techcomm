@@ -3,11 +3,7 @@
  "reference.dtd">
 <reference id="remedy" xml:lang="en-us" >
  <title><xmlelement>remedy</xmlelement></title>
- <shortdesc>The <xmlelement>remedy</xmlelement> element contains steps that are a potential solution
-  for the problem described in the <xmlelement>condition</xmlelement> element, the topic
-   <xmlelement>title</xmlelement> element, or the <xmlelement>shortdesc</xmlelement> element.
-  Typically, a <xmlelement>remedy</xmlelement> is preceded by a
-  <xmlelement>cause</xmlelement>.</shortdesc>
+ <shortdesc>The <xmlelement>remedy</xmlelement> element contains steps that are a possible solution for the problem described in a troubleshooting <xmlelement>condition</xmlelement> element, topic <xmlelement>title</xmlelement> element, or <xmlelement>shortdesc</xmlelement> element. Typically, a <xmlelement>remedy</xmlelement> is preceded by a <xmlelement>cause</xmlelement>.</shortdesc>
  <prolog>
   <metadata>
    <keywords>

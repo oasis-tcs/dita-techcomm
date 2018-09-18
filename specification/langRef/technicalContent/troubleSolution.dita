@@ -3,10 +3,7 @@
  "reference.dtd">
 <reference id="troubleSolution" xml:lang="en-us" >
   <title><xmlelement>troubleSolution</xmlelement></title>
-  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element is a container element for cause
-    and remedy information. The cause might be omitted if it is implicit or if the remedy is not
-    associated with a cause. The remedy might be omitted if there is no known remedy for the
-    cause.</shortdesc>
+  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element is a container element for cause and remedy information. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,6 +14,9 @@
     </metadata>
   </prolog>
   <refbody>
+        <section id="section_ncz_m53_2fb">
+            <p>If the cause is implied or if the remedy is not associated with a cause, the cause might be omitted. If there is no known remedy for the cause, the remedy might be omitted.</p>
+        </section>
     <section conref="../../common/commonNavLibraryTable.dita#contentmodel-troubleSolution/contains" id="contains" otherprops="contains"></section>
     <section id="inheritance" otherprops="inheritance">
       <title>Inheritance</title>

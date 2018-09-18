@@ -3,9 +3,7 @@
  "reference.dtd">
 <reference id="troublebody" xml:lang="en-us" >
  <title><xmlelement>troublebody</xmlelement></title>
- <shortdesc>The <xmlelement>troublebody</xmlelement> element is a container for the main content of
-  the troubleshooting topic.
-  <!--Troubleshooting topics limit the body structure to an optional, single condition followed by one or more trouble solution combinations.--></shortdesc>
+ <shortdesc>The <xmlelement>troublebody</xmlelement> element is a container for the main content of a troubleshooting topic. </shortdesc>
  <prolog>
   <metadata>
    <keywords>
@@ -16,6 +14,9 @@
   </metadata>
  </prolog>
  <refbody>
+        <section id="section_i24_353_2fb">
+            <p>Troubleshooting topics limit the body structure to a single optional condition followed by one or more solutions.</p>
+        </section>
   <section conref="../../common/commonNavLibraryTable.dita#contentmodel-troublebody/contains" id="contains" otherprops="contains"></section>
   <section id="inheritance" otherprops="inheritance">
    <title>Inheritance</title>
