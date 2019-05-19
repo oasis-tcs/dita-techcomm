@@ -22,7 +22,7 @@
       <p>This element is part of the DITA user interface domain, a special set of DITA elements
         designed to document user interface tasks, concepts and reference information.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/keyword ui-d/wintitle</p>
     </section>

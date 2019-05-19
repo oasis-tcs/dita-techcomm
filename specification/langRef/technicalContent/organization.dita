@@ -20,7 +20,7 @@
           <xmlelement>authorinformation</xmlelement>; it does not have to contain the name of an
         authoring organization.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/data bookmap/organization</p>
     </section>

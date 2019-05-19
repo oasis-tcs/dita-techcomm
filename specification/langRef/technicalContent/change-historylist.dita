@@ -20,7 +20,7 @@
       <p>This element appears in the topic prolog or the map <xmlelement>topicmeta</xmlelement>
         element.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/metadata relmgmt-d/change-historylist</p>
     </section>

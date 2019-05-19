@@ -22,7 +22,7 @@
         plus (+), this indicates that the character must be used between repetitions of the syntax
         elements. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/repsep</p>
     </section>

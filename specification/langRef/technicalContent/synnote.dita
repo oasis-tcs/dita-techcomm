@@ -23,7 +23,7 @@
         itself. The note will appear at the bottom of the syntax diagram instead of at the bottom of
         the page. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/fn pr-d/synnote</p>
     </section>

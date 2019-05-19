@@ -83,7 +83,7 @@
 					</dt>
 					<dd>Describes the expected outcome for the task as a whole. </dd>
 				</dlentry>
-				<dlentry rev="errata-01">
+				<dlentry>
 					<dt><xmlelement>tasktroubleshooting</xmlelement></dt>
 					<dd>Describes actions that a user might take if the task does not produce the
 						expected results.</dd>

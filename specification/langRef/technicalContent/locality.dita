@@ -19,7 +19,7 @@
       <p>This element can contain the information directly, or by acting as a wrapper for
           <xmlelement>localityname</xmlelement> and <xmlelement>postalcode</xmlelement>.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph xnal-d/locality</p>
     </section>

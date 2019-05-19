@@ -19,7 +19,7 @@
       <p>A publisher <ph>might</ph> use a number like this one to identify a book for tracking
         purposes.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/data bookmap/bookpartno</p>
     </section>

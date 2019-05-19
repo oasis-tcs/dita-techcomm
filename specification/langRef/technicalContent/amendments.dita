@@ -19,7 +19,7 @@
     indicates to the processing software that the author wants an amendments list generated at the
     particular location.</p>
   </section>
-  <section id="specialization-hierarchy" otherprops="specialization-hierarchy"><title>Specialization
+  <section id="specialization-hierarchy"><title>Specialization
     hierarchy</title><p>- map/topicref bookmap/amendments</p></section>
   <section id="attributes"><title>Attributes</title><sectiondiv
     conkeyref="conref-attribute/bookmap-topicrefs"/></section>

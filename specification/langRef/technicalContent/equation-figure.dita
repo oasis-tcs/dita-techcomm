@@ -44,7 +44,7 @@
         based on browser capability. All other direct-child elements of
           <xmlelement>equation-figure</xmlelement> are treated normally.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/fig equation-d/equation-figure</p>
     </section>

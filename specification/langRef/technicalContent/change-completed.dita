@@ -18,7 +18,7 @@
       <title>Usage information</title>
       <p conkeyref="conref-file/release-domain-best-practices"/>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/data relmgmt-d/change-completed</p>
     </section>

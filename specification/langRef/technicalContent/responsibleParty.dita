@@ -28,7 +28,7 @@
     </example>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+      <!--<p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>-->
     </section>
   </refbody>
 </reference>

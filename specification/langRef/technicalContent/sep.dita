@@ -21,7 +21,7 @@
       <p>The separator occurs between keywords, operators or groups in a syntax definition. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/sep</p>
     </section>

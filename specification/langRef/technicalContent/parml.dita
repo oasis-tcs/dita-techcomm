@@ -20,7 +20,7 @@
       <p>This is a special kind of definition list that is designed for documenting programming
         parameters. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/dl pr-d/parml</p>
     </section>

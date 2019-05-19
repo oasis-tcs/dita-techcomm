@@ -18,7 +18,7 @@
    <p>Backmatter <ph>might</ph> include items such as a colophon, legal notices, and various types
     of book lists such as a glossary or an index.</p>
   </section>
-  <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+  <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
    <p>- map/topicref bookmap/backmatter</p>
   </section>

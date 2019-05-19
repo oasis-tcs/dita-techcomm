@@ -23,7 +23,7 @@
         presentation might differ depending on the output media. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/fig pr-d/syntaxdiagram</p>
     </section>

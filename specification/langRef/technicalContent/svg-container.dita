@@ -21,7 +21,7 @@
       <p>The SVG markup must have a root element of <xmlelement>svg</xmlelement> with the SVG
         namespace: "http://www.w3.org/2000/svg".</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/foreign svg-d/svg-container</p>
     </section>

@@ -23,7 +23,7 @@
         part of the DITA software domain, a special set of DITA elements designed to document
         software tasks, concepts and reference information.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/keyword sw-d/varname</p>
     </section>

@@ -31,7 +31,7 @@
           <xmlatt>id</xmlatt> values to enable dynamic showing or hiding of one form or the other
         based on browser capability.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/divequation-d/equation-block</p>
     </section>

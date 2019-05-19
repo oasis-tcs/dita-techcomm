@@ -24,7 +24,7 @@
         <ph>can</ph> appear in the <xmlelement>frontmatter</xmlelement> or
           <xmlelement>backmatter</xmlelement>.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicref bookmap/colophon</p>
     </section>

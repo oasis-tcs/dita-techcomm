@@ -20,7 +20,7 @@
       <p>Booktitlealt <ph>can</ph> be specialized into a specific element for those or other
         purposes.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/ph bookmap/booktitlealt</p>
     </section>

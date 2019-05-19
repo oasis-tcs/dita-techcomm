@@ -22,7 +22,7 @@
         and they occur in a specific sequence, as delimited by the <xmlelement>groupseq</xmlelement>
         element. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/figgroup pr-d/groupseq</p>
     </section>

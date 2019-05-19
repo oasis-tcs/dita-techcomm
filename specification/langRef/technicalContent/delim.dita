@@ -21,7 +21,7 @@
       <p>Typical delimiter characters are the parenthesis, comma, tab, vertical bar or other
         special characters. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/delim</p>
     </section>

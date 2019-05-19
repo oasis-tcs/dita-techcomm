@@ -20,7 +20,7 @@
       <title>Usage information</title>
       <p>Typical operators are equals (=), plus (+) or multiply (*). <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/oper</p>
     </section>

@@ -14,7 +14,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+    <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title><p>+ topic/author xnal-d/authorinformation</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
         conkeyref="conref-attribute/author-attributes"/></section>

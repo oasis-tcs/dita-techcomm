@@ -21,7 +21,7 @@
       <p>This section should add to or clarify information that is in the tile or short description
         of the troubleshooting topic.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/section troubleshooting/condition</p>
     </section>
@@ -31,7 +31,7 @@
     </example>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"/>
+      <!--<p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"/>-->
     </section>
   </refbody>
 </reference>

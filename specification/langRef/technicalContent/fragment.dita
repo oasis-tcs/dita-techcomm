@@ -21,7 +21,7 @@
         large syntax diagram into named fragments. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/figgroup pr-d/fragment</p>
     </section>

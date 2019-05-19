@@ -22,7 +22,7 @@
           <xmlelement>textentity</xmlelement> element should be the entity name without the
         ampersand and semi-colon delimiters. <ph conkeyref="conref-file/xml-mention-domain"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/keyword markup-d/markupname xml-d/textentity p</p>
     </section>

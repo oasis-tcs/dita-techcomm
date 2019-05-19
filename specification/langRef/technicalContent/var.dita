@@ -28,7 +28,7 @@
       <p>Processors typically represent the <xmlelement>var</xmlelement> element in output in an
         italic font, but are not required to do so.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/var</p>
     </section>

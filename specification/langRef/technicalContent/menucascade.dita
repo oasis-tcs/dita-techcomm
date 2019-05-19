@@ -30,7 +30,7 @@
       <p>If there is more than one <xmlelement>uicontrol</xmlelement> element, a formatter might
         show connecting characters between the menu items to represent the menu cascade.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph ui-d/menucascade</p>
     </section>

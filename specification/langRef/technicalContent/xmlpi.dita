@@ -19,7 +19,7 @@
       <p>The <xmlelement>xmlpi</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
         distinct formatting. <ph conkeyref="conref-file/xml-mention-domain"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/keyword markup-d/markupname xml-d/xmlpi</p>
     </section>

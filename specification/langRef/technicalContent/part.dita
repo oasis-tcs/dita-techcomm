@@ -21,7 +21,7 @@
         reference information, you can define two parts, one containing the guide information and
         the other containing the reference information.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicref bookmap/part</p>
     </section>
