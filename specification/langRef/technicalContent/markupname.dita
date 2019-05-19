@@ -16,7 +16,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element also serves as the specialization basis for the elements in the XML mention
+      <p>The <xmlelement>markupname</xmlelement> element also serves as the specialization basis for the elements in the XML mention
         domain; when that domain is present, use its more specific elements instead of
           <xmlelement>markupname</xmlelement> when
         appropriate.<!--14 April 2014: Discussed last sentence with Kris and Robert, agreed that this is lower case "should",

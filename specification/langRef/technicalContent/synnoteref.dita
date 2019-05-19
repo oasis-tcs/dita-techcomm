@@ -18,7 +18,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The same notation can be used in more than one syntax definition.<ph
+      <p>The same notation can be used in more than one syntax definition. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">

@@ -25,12 +25,7 @@
       <p>When an <xmlelement>equation-figure</xmlelement> element has multiple direct child
           <xmlelement>mathml</xmlelement>, <xmlelement>image</xmlelement>, or
           <xmlelement>pre</xmlelement> elements, each child represents an alternative form of the
-        equation. Processors are free to choose the form or forms that they use in deliverables. For
-        example, if there is both an image and MathML markup, an HTML-generating processor could
-        output both the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt>
-        or <xmlatt>id</xmlatt> values to enable dynamic showing or hiding of one form or the other
-        based on browser capability. All other direct-child elements of
-          <xmlelement>equation-figure</xmlelement> are treated normally.</p>
+        equation.</p>
       <p>When the intent is to have equations combined with other commentary within an
           <xmlelement>equation-figure</xmlelement>, the recommended best practice is to use child
           <xmlelement>equation-block</xmlelement> elements to contain the equations and clearly
@@ -39,6 +34,15 @@
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
       <p>Display equations are intended to be numbered when numbering is desired.</p>
+    </section>
+    <section id="processing-expectations">
+      <title>Processing expectations</title>
+      <p>Processors are free to choose the form or forms that they use in deliverables. For example,
+        if there is both an image and MathML markup, an HTML-generating processor could output both
+        the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
+          <xmlatt>id</xmlatt> values to enable dynamic showing or hiding of one form or the other
+        based on browser capability. All other direct-child elements of
+          <xmlelement>equation-figure</xmlelement> are treated normally.</p>
     </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
