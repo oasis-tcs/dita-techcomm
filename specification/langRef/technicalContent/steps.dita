@@ -35,6 +35,7 @@
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
+      <p>In the following code sample ...</p>
    <codeblock>&lt;task id="sqlj"&gt;
 &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
  &lt;taskbody&gt;
