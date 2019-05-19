@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita-troubleshooting-topic" xml:lang="en-us"
  > 
-  <title>Troubleshooting topic</title> 
+  <title>Troubleshooting</title> 
   <shortdesc>The troubleshooting topic type provides markup for corrective action information such
 		as troubleshooting and alarm clearing.</shortdesc> 
   <conbody> 

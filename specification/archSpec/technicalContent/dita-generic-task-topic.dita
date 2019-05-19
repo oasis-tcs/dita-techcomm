@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_generic_task_topic" xml:lang="en-US">
-	<title>General task topic</title>
+	<title>General task</title>
 	<shortdesc>The general-task document type was introduced in DITA 1.2. It provides a less-strict
 		content model for task-oriented information than was available previously. Some
 		organizations might prefer the general-task content model over the strict task model, as it

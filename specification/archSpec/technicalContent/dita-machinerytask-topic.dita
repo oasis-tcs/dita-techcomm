@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "concept.dtd">
 <concept id="dita_spec_2_1_info_tasks" xml:lang="en-us">
-     <title>Machinery task topic</title>
+     <title>Machinery task</title>
      <shortdesc>The machinery task document type supports the development of instructions for the
           completion of a procedure. The machinery task document type is built using the general
           task information type combined with the Machinery Taskbody Constraint.</shortdesc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_concept_topic" xml:lang="en-Us"> 
-  <title>Concept topic</title> 
+  <title>Concept</title> 
   <shortdesc>Concept topics are specialized from topic. They include the standard topic elements,
 		including the short description, prolog, a body, and related links.</shortdesc> 
   <conbody> 

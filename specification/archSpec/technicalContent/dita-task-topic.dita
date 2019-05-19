@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_task_topic" xml:lang="en-Us">
-	<title>Task topic (strict task)</title>
+	<title>Task</title>
 	<shortdesc>The strict task-document type supports the development of instructions for the
 		completion of a procedure. The strict-task document type is built using the general-task
 		information type combined with the strict taskbody constraint. See the reference below to

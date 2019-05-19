@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-us" id="mathML-and-equation-domains" >
- <title>MathML and equation domains</title>
+ <title>Equation and MathML domains</title>
  <shortdesc>The MathML and equation domains provide general containers for equations (inline, block,
   and display) and an integration with the MathML standard. The equation containers identify
   equations separate from the data that provides the equation content, which might take many forms,
