@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>SVG domain elements</title>
+    <topicref href="containers/SVG-elements.dita" navtitle="SVG elements">
+        <topicref href="technicalContent/svg-container.dita" keys="svg-container"/>
+        <topicref href="technicalContent/svgref.dita" keys="svgref"/>
+    </topicref>
+</map>
