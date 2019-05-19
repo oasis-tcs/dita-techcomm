@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="responsibleParty" xml:lang="en-us">
   <title><xmlelement>responsibleParty</xmlelement></title>
-  <shortdesc>Use the <xmlelement>responsibleParty</xmlelement> element to identify the party who is
-    responsible for performing a remedy procedure.</shortdesc>
+  <shortdesc>The <xmlelement>responsibleParty</xmlelement> element identifies the individual or team whose task it is to perform a remedy procedure.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,13 +22,13 @@
       <title>Specialization hierarchy</title>
       <p>- topic/p troubleshooting/responsibleParty</p>
     </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass"/>
-    </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>See <xref href="troubleshooting.dita"/>.</p>
     </example>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+    </section>
   </refbody>
 </reference>

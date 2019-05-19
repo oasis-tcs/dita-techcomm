@@ -36,5 +36,9 @@
       <title>Example</title>
       <p>See <xref href="troubleshooting.dita"/>.</p>
     </example>
-  </refbody>
+  <section id="attributes">
+   <title>Attributes</title>
+   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"/>
+  </section>
+ </refbody>
 </reference>
