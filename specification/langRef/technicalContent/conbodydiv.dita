@@ -5,10 +5,7 @@
   <title><xmlelement>conbodydiv</xmlelement></title>
   <shortdesc>The <xmlelement>conbodydiv</xmlelement> element is similar to the
       <xmlelement>bodydiv</xmlelement> element in that it provides an informal container for content
-    that <ph>might</ph> be grouped within a concept. <draft-comment author="BobThomas">Move the rest of this shortdesc to Usage
-      Information.</draft-comment> There are no additional semantics attached to
-    the <xmlelement>conbodydiv</xmlelement> element; it is purely a grouping element provided to
-    help organize content.</shortdesc>
+    that <ph>might</ph> be grouped within a concept. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,17 +16,22 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section-1">
+    <section id="usage-information">
       <title>Usage information</title>
+      <p>There are no additional semantics
+        attached to the <xmlelement>conbodydiv</xmlelement> element; it is purely a grouping element
+        provided to help organize content.</p>
       <p>The parent <xmlelement>conbody</xmlelement> element has a restriction that
           <xmlelement>section</xmlelement> or <xmlelement>example</xmlelement> elements can only be
         followed by other sections or examples. The <xmlelement>conbodydiv</xmlelement> element,
         which allows groupings of sections and examples, keeps the same restriction in place; once
         used, only sections, examples, or other <xmlelement>conbodydiv</xmlelement> groups are
-        allowed.</p></section>
+        allowed.</p>
+    </section>
     <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/bodydiv concept/conbodydiv</p></section>
+      <p>- topic/bodydiv concept/conbodydiv</p>
+    </section>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass"/>
@@ -38,8 +40,8 @@
       <title>Example</title>
       <p>One common use case for the <xmlelement>conbodydiv</xmlelement> element is to group a
         sequence of sections for reuse, so that another concept <ph>can</ph> reference the entire
-        set with a single <xmlatt>conref</xmlatt>
-      attribute.</p><codeblock>&lt;concept id="sample" xml:lang="en">
+        set with a single <xmlatt>conref</xmlatt> attribute.</p>
+      <codeblock>&lt;concept id="sample" xml:lang="en">
  &lt;title>Conbodydiv example&lt;/title>
  &lt;shortdesc>This concept is a sample of how to
 use conbodydiv.&lt;/shortdesc>

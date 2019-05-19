@@ -15,7 +15,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="conbodysection">
+    <section id="usage-information">
       <title>Usage information</title>
       <p>Like the <xmlelement>body</xmlelement> element of a general <xmlelement>topic</xmlelement>,
           <xmlelement>conbody</xmlelement> allows paragraphs, lists, and other elements as well as

@@ -1,9 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="condition" xml:lang="en-us">
   <title><xmlelement>condition</xmlelement></title>
-  <shortdesc>The <xmlelement>condition</xmlelement> element describes an error or alarm state that the troubleshooting topic is intended to resolve. This information helps the user decide whether a troubleshooting topic might contain a possible solution for a problem.</shortdesc>
+  <shortdesc>The <xmlelement>condition</xmlelement> element describes a state that the
+    troubleshooting topic is intended to remedy. This information helps the user decide
+    whether a troubleshooting topic might contain an applicable remedy for a problem.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,12 +16,13 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section_amz_qv3_2fb">
-      <p>This information is optional and should add to or clarify information that is in the title or short description of the troubleshooting topic.</p>
-      </section>
-    <section conref="../../common/commonNavLibraryTable.dita#contentmodel-condition/contains" id="contains" otherprops="contains"></section>
-    <section id="inheritance" otherprops="inheritance">
-      <title>Inheritance</title>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>This section should add to or clarify information that is in the tile or short description
+        of the troubleshooting topic.</p>
+    </section>
+    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
       <p>- topic/section troubleshooting/condition</p>
     </section>
     <example id="example" otherprops="examples">

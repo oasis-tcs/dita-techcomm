@@ -3,8 +3,24 @@
 <reference xml:lang="en-us" id="equation-number">
   <title><xmlelement>equation-number</xmlelement></title>
   <shortdesc>Use the <xmlelement>equation-number</xmlelement> element to indicate that a block
-    equation is numbered and, optionally, to specify the number to use for the block equation.</shortdesc>
+    equation is numbered and, optionally, to specify the number to use for the block
+    equation.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>equation-number</indexterm>
+        <indexterm>equation domain<indexterm>equation-number</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>In normal usage a block equation will have at most one number. However,
+          <xmlelement>equation-number</xmlelement>
+        <ph>can</ph> occur multiple times within <xmlelement>equation-block</xmlelement>, for
+        example, to allow numbers with different (and exclusive) conditional properties.</p>
+    </section>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
       <p>When the <xmlelement>equation-number</xmlelement> element has empty or whitespace-only
@@ -15,10 +31,6 @@
         the number value without any surrounding punctuation, for example, "3.2a" rather than
         "(3.2a)". Processors <term outputclass="RFC-2119">SHOULD</term> add punctuation or
         decoration to the number as appropriate.</p>
-      <p>In normal usage a block equation will have at most one number. However,
-          <xmlelement>equation-number</xmlelement>
-        <ph>can</ph> occur multiple times within <xmlelement>equation-block</xmlelement>, for
-        example, to allow numbers with different (and exclusive) conditional properties.</p>
       <p>The details of equation numbering and number presentation are processor-specific. However,
         common practice is to present the equation number to the right of the equation, centered
         vertically within the vertical extent of the block equation.</p>
