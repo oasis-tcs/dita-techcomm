@@ -5,16 +5,11 @@
  <title>Technical content elements</title>
  <topicref href="langRef-technicalContent.dita">
   <topicref href="quick-reference/technicalContent-elements-a-to-z.dita"/>
-  <mapref href="concept-elements.ditamap"/>
-  <mapref href="task-elements.ditamap"/>
-  <mapref href="reference-elements.ditamap"/>
-  <mapref href="troubleshooting-elements.ditamap"/>
-  <mapref href="glosssary-elements.ditamap"/>
-  <mapref href="bookmap-elements.ditamap" format="ditamap"/>
-  <topicref href="containers/technicalContent-domain-elements.dita" locktitle="yes"
-   navtitle="Technical-content domains elements">
+  <mapref href="topic-and-map-specializations.ditamap" format="ditamap"/>
+  
+  <topicref href="containers/technicalContent-domain-elements.dita">
    <!--Equation domain-->
-<mapref href="equation-domain-elements.ditamap"/>
+   <mapref href="equation-domain-elements.ditamap"/>
    <!--Markup domain-->
    <mapref href="markup-domain-elements.ditamap"/>
    <!--MathML domain-->

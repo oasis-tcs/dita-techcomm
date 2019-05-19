@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Topic and map specializations</title>
+    <topicref href="topic-and-map-specializations.dita">
+        <mapref href="bookmap-elements.ditamap" format="ditamap"/>
+        <mapref href="concept-elements.ditamap"/>
+        <mapref href="glosssary-elements.ditamap"/>
+        <mapref href="reference-elements.ditamap"/>
+        <mapref href="task-elements.ditamap"/>
+        <mapref href="troubleshooting-elements.ditamap"/>
+    </topicref>
+</map>

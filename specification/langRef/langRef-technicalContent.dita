@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
- "concept.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="langRef-technicalContent" xml:lang="en-us">
-<title>Technical content language reference</title>
- <shortdesc>The technical content language reference contains topics for each element defined in the
-  technical content specializations. These elements include the original Concept, Task, and
-  Reference specializations, as well as specializations added in later releases . It also includes
-  domains designed primarily for technical content.</shortdesc>
+<title>Element reference</title>
+ <shortdesc>This section contains topics for each element defined in the technical content
+  specializations. These elements include the original concept, task, and reference specializations,
+  as well as specializations added in later releases . It also includes domains designed primarily
+  for technical content.</shortdesc>
 </concept>
 

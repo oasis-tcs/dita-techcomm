@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="glossaryArch" xml:lang="en-us">
-  <title>Glossary entry topic</title>
+  <title>Glossary entry</title>
   <shortdesc>Each glossary entry <xmlelement>glossentry</xmlelement> topic defines a single sense of
     one term. Besides identifying the term and providing a definition, the topic accommodates basic
     terminology information, such as part of speech. A glossentry topic <ph 
