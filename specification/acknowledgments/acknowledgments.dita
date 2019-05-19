@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r-acknowledgments" xml:lang="en-us">
   <title>Acknowledgments</title>
   <shortdesc>(Non-normative) Many members of the OASIS DITA Technical Committee participated in the
@@ -8,8 +7,13 @@
   <refbody>
     <section id="section-1">
       <sl>
+        <sli>Robert D. Anderson, IBM</sli>
+        <sli>Bill Burns, Healthwise</sli>
+        <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
+        <sli>Nancy Harrison, Individual Member</sli>
+        <sli>Scott Hudson, Boeing</sli>
+        <sli>Eric Sirois, IXIASOFT</sli>
         <sli>Bob Thomas, Individual Member</sli>
-        <sli><draft-comment author="BobThomas">Your name could go here if you volunteer.</draft-comment></sli>
       </sl>
     </section>
   </refbody>
