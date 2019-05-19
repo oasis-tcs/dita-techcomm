@@ -15,7 +15,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicmeta bookmap/bookmeta</p>
     </section>

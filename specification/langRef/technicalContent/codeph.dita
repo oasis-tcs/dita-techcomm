@@ -22,7 +22,7 @@
       <p>The code phrase is displayed in a monospaced font for emphasis. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/codeph</p>
     </section>

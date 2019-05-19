@@ -21,7 +21,7 @@
         should be the numeric value without any leading or trailing characters added as style, for
         example, "10" or "x0a". <ph conkeyref="conref-file/xml-mention-domain"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/keyword markup-d/markupname xml-d/numcharref</p>
     </section>

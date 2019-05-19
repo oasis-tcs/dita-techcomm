@@ -19,7 +19,7 @@
       <p>The processing implementation determines how the level is displayed. Common methods
         include using a dash, for example "-01", or a period, such as ".01".</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/ph bookmap/revisionid</p>
     </section>

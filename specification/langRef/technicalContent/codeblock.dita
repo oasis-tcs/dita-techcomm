@@ -23,7 +23,7 @@
           <ph>are</ph> preserved, and the content is typically rendered in a monospaced font. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/pre pr-d/codeblock</p>
     </section>

@@ -23,7 +23,7 @@
             set of DITA elements designed to document programming tasks, concepts, and reference
             information.</ph>
       </section>
-      <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+      <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title><p>+ topic/keyword pr-d/apiname</p></section>
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="conref-attribute/universal-outputclass-keyref"/>

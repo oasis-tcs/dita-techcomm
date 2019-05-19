@@ -28,7 +28,7 @@
         used, only sections, examples, or other <xmlelement>conbodydiv</xmlelement> groups are
         allowed.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/bodydiv concept/conbodydiv</p>
     </section>

@@ -22,7 +22,7 @@
         If the <xmlatt>href</xmlatt> attribute references a topic or map, that topic or map
           <ph>contains</ph> a manually created table of contents.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicref bookmap/toc</p>
     </section>

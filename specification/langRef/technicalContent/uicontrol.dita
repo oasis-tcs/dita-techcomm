@@ -28,7 +28,7 @@
         DITA elements designed to document user interface tasks, concepts and reference
         information.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph ui-d/uicontrol</p>
     </section>

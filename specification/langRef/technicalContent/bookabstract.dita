@@ -21,7 +21,7 @@
    <p>A bookabstract is generally output as part of the book's front matter. It is used to help the
     reader quickly evaluate the book's purpose.</p>
   </section>
-  <section id="specialization-hierarchy" otherprops="specialization-hierarchy"><title>Specialization
+  <section id="specialization-hierarchy"><title>Specialization
     hierarchy</title><p>- map/topicref bookmap/bookabstract</p></section>
   <section id="attributes"><title>Attributes</title><sectiondiv
     conkeyref="conref-attribute/bookmap-topicrefs"/></section>

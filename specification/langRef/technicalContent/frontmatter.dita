@@ -20,7 +20,7 @@
         lists such as a <xmlelement>toc</xmlelement>, <xmlelement>tablelist</xmlelement>, or
           <xmlelement>figurelist</xmlelement>.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicref bookmap/frontmatter</p>
     </section>

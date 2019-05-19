@@ -21,7 +21,7 @@
         the <xmlelement>tablelist</xmlelement> element, an external processor <ph>might</ph>
         generate a list of tables at this location.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicref bookmap/tablelist</p>
     </section>

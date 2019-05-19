@@ -19,7 +19,7 @@
       <title>Usage information</title>
       <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/dlentry pr-d/plentry</p>
     </section>

@@ -14,7 +14,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+        <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title><p>- topic/data bookmap/approved</p></section>
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="conref-attribute/data-link-universal-outputclass"/>

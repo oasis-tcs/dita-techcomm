@@ -30,7 +30,7 @@
         therefore are labeled according to the book components they point to, such as book title,
         front matter, chapter, and appendix.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+    <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title><p>- map/map bookmap/bookmap</p></section>
     <section id="attributes"><title>Attributes</title>
       <p conkeyref="conref-attribute/map-attributes-common"/>

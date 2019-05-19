@@ -21,7 +21,7 @@
         that the user must make a choice about which part of the syntax to use. Groups are often
         nested. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/figgroup pr-d/groupchoice</p>
     </section>

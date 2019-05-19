@@ -25,7 +25,7 @@
                 that the author wants the lists generated at the <xmlelement>booklists</xmlelement>
                 location.</p>
         </section>
-        <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+        <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title><p>- map/topicref bookmap/booklists</p></section>
         <section id="attributes"><title>Attributes</title>
             <p>The following attributes are available on this element: <xref

@@ -27,7 +27,7 @@
                     <xmlelement>tablelist</xmlelement> for a list of tables, <ph>use that element
                     instead.</ph></p>
         </section>
-        <section id="specialization-hierarchy" otherprops="specialization-hierarchy"
+        <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title><p>- map/topicref bookmap/booklist</p></section>
         <section id="attributes"><title>Attributes</title><sectiondiv
                 conkeyref="conref-attribute/bookmap-booklist-attributes"/></section>

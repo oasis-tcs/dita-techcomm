@@ -47,7 +47,7 @@
           <xmlelement>m:math</xmlelement> element had occurred directly in the content of the
         containing <xmlelement>mathml</xmlelement> element.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/xref mathml-d/mathmlref</p>
     </section>

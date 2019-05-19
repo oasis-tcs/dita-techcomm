@@ -19,7 +19,7 @@
       <p>The <xmlatt>value</xmlatt> attribute indicates the restrictions, such as beta release,
         limited availability, or general availability.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/data bookmap/publishtype</p>
     </section>

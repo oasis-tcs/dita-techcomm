@@ -43,7 +43,7 @@
   &lt;svgref keyref="svg-fragment-0002"/>
 &lt;/svg-container></codeblock></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/xref svg-d/svgref</p>
     </section>

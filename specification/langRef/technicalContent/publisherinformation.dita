@@ -20,7 +20,7 @@
       <p>Other publication history information is found in the
           <xmlelement>bookchangehistory</xmlelement> element.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/publisher bookmap/publisherinformation</p>
     </section>

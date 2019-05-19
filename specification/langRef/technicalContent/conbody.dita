@@ -23,7 +23,7 @@
           <xmlelement>section</xmlelement> or an <xmlelement>example</xmlelement> can be followed
         only by other sections, examples, or <xmlelement>conbodydiv</xmlelement> elements that group
         sections and examples.</p></section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- topic/body concept/conbody</p></section>
     <section id="attributes">

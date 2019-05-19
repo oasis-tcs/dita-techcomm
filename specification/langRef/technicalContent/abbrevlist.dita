@@ -20,7 +20,7 @@
       <p>This element indicates to the processing software that the author wants an abbreviation
         list generated at the particular location.</p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>- map/topicref bookmap/abbrevlist</p>
     </section>

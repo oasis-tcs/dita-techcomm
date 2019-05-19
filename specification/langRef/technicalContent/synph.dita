@@ -22,7 +22,7 @@
           <xmlelement>delim</xmlelement> are used within the text flow of the topic content. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/ph pr-d/synph</p>
     </section>

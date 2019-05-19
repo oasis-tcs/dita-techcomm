@@ -21,7 +21,7 @@
       <p>The same notation can be used in more than one syntax definition. <ph
           conref="apiname.dita#apiname/progdomainelement"/></p>
     </section>
-    <section id="specialization-hierarchy" otherprops="specialization-hierarchy">
+    <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>+ topic/xref pr-d/synnoteref</p>
     </section>
