@@ -25,6 +25,7 @@ subject, although the context section might include some conceptual information.
         </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
+      <p>In the following code sample ...</p>
 <codeblock xml:space="preserve">&lt;task id="sqlj"&gt;
 &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
 &lt;taskbody&gt;
