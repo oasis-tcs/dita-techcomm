@@ -54,6 +54,8 @@
   <chapter format="ditamap" href="langRef/technicalContent-elements.ditamap"/>
   <chapter href="conformance/conformance.dita"/>
   <appendix href="acknowledgments/acknowledgments.dita"/>
+  <appendix href="non-normative/non-normative-information.ditamap" format="ditamap"/>
+  <appendix href="revision-history/revision-history.dita"/>
   <backmatter>
     <booklists><!--<indexlist/>--></booklists>
   </backmatter>
