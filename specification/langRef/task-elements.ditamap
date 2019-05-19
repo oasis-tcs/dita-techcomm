@@ -26,7 +26,7 @@
   <topicref href="technicalContent/chdesc.dita" keys="chdesc"/>
   <topicref href="technicalContent/choices.dita" keys="choices"/>
   <topicref href="technicalContent/choice.dita" keys="choice"/>
-  <topicref href="technicalContent/steptroubleshooting.dita"/>
+  <topicref href="technicalContent/steptroubleshooting.dita" keys="steptroubleshooting"/>
   <topicref href="technicalContent/stepresult.dita" keys="stepresult"/>
   <topicref href="technicalContent/tutorialinfo.dita" keys="tutorialinfo"/>
   <topicref href="technicalContent/tasktroubleshooting.dita" keys="tasktroubleshooting" />

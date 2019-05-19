@@ -29,7 +29,7 @@
     </example>
     <section id="attributes">
       <title>Attributes</title>
-      <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"/>
+      <!--<p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass-spectitle"/>-->
     </section>
   </refbody>
 </reference>

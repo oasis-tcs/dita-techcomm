@@ -18,8 +18,7 @@
   <section id="section_i24_353_2fb">
    <p>Troubleshooting topics limit the body structure to a single optional condition followed by one or more solutions.</p>
   </section>
-  <section conref="../../common/commonNavLibraryTable.dita#contentmodel-troublebody/contains" id="contains" otherprops="contains"></section>
-  <section id="inheritance" otherprops="inheritance">
+  <section id="inheritance">
    <title>Inheritance</title>
    <p>- topic/body troubleshooting/troublebody </p>
   </section>
@@ -29,7 +28,7 @@
   </example>
  <section id="attributes">
    <title>Attributes</title>
-   <p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>
+   <!--<p conref="../../common/conref-attribute.dita#conref-attribute/universal-outputclass"/>-->
   </section>
  </refbody>
 </reference>
