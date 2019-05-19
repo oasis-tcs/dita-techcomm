@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Equation domain elements</title>
+    <topicref href="containers/equation-elements.dita" navtitle="Equation domain elements">
+        <topicref href="technicalContent/equation-block.dita" navtitle="equation-block"
+            keys="equation-block"/>
+        <topicref href="technicalContent/equation-figure.dita" navtitle="equation-figure"
+            keys="equation-figure"/>
+        <topicref href="technicalContent/equation-inline.dita" navtitle="equation-inline"
+            keys="equation-inline"/>
+        <topicref href="technicalContent/equation-number.dita" navtitle="equation-number"
+            keys="equation-number"/>
+    </topicref>
+</map>
