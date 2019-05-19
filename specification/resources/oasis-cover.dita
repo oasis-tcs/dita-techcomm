@@ -31,7 +31,10 @@
     <section platform="dita-tc-publishing" id="section-7">
       <title>Additional artifacts</title>
       <p> This prose specification is one component of a work product that also includes: </p>
-      <p>OASIS has not yet provided the URLs for this document.</p>
+      <ul>
+        <li>X (DITA source)</li>
+        <li>X (Grammar files)</li>
+      </ul>
       <!--<ul><li> <xref keyref="oasis-this-version-dita"/> (DITA source)</li><li> <xref keyref="oasis-this-version-grammars"/> (grammar files)</li></ul>-->
     </section>
     <section>
@@ -40,7 +43,7 @@
     </section>
     <section id="section-8">
       <title>Abstract</title>
-      <p>The Darwin Information Typing Architecture (DITA) Technical Content Version 2.0
+      <p>The Darwin Information Typing Architecture (DITA) for Technical Communication Version 2.0
         specification ...</p>
     </section>
     <section conref="../common/conref-cover-pages.dita#reuse/status" id="section-9"/>
@@ -50,10 +53,10 @@
       <dl>
         <dlentry>
           <dt>[wp-abbrev]</dt>
-          <dd><cite>Darwin Information Typing Architecture (DITA) Technical Content Version
-              2.0</cite>. Edited by &lt;Add names here>. <keyword keyref="stage-date"/>. <keyword
-              keyref="stage"/>. <xref keyref="oasis-this-version-html"/>. Latest version: <xref
-              keyref="oasis-latest-version-html"/>.</dd>
+          <dd><cite>Darwin Information Typing Architecture (DITA) for Technical Communication
+              Version 2.0</cite>. Edited by &lt;Add names here>. <keyword keyref="stage-date"/>.
+              <keyword keyref="stage"/>. X<!--<xref keyref="oasis-this-version-html"/>-->. Latest
+            version: X<!--<xref keyref="oasis-latest-version-html"/>-->.</dd>
         </dlentry>
       </dl>
     </section>
