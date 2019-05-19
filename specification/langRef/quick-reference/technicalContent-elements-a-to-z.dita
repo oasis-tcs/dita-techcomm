@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
-<reference id="technical_content_elements_a_to_z" xml:lang="en-us">
-  <title>Technical content elements, A to Z</title>
-  <shortdesc>This section provides an alphabetized list of links to all elements in the technical
-    content subject area.</shortdesc>
+<reference id="technical-content-elements-a-to-z" xml:lang="en-us">
+  <title>Elements, A to Z</title>
+  <shortdesc>This section provides an alphabetized list of links to all elements in the
+    specification.</shortdesc>
   <refbody>
-    <section id="section-1"><sl>
+    <section id="section-1">
+      <sl>
         <sli><xref keyref="abbreviated-form"/></sli>
         <sli><xref keyref="abbrevlist"/></sli>
         <sli><xref keyref="addressdetails"/></sli>
@@ -258,6 +259,7 @@
         <sli><xref keyref="xmlnsname"/></sli>
         <sli><xref keyref="xmlpi"/></sli>
         <sli><xref keyref="year"/></sli>
-      </sl></section>
+      </sl>
+    </section>
   </refbody>
 </reference>

@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="xnald" xml:lang="en-us">
-<title>xNAL domain elements</title>
+<title>xNAL domain</title>
 <shortdesc>The xNAL domain elements represent a subset of the Extensible
 Name and Address Standard. It is used to encode information about
 the author or authors of DITA information. The domain can be included

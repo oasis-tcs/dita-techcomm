@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="SVG-elements" >
-  <title>SVG elements</title>
+  <title>SVG domain</title>
   <shortdesc>The SVG domain elements enable direct use of SVG markup within DITA documents, as well
     as use-by-reference of SVG markup that is stored in separate non-DITA documents. SVG is a W3C
     standard.</shortdesc>
