@@ -14,20 +14,16 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-  <section id="formatting-expectations">
-   <title>Formatting expectations</title>
-   <p>Implementations <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
+  <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Implementations <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
         related-links section together with the content of the <xmlelement>prereq</xmlelement>
         element.</p>
-   <!--Replaced the following sentence based on review comments:
-"Prerequisite links will be placed in a list after the related-links
-section; on output the &lt;prereq&gt; links from the related-links
-section are added to the &lt;prereq&gt; section."-->
-  </section>
+    </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
-   <p>The <xmlelement>prereq</xmlelement> element is specialized from the section element in the
-        topic module.</p>
+   <p>The <xmlelement>prereq</xmlelement> element is specialized from
+          <xmlelement>section</xmlelement>. It is defined in the task module.</p>
   </section>
   <section id="attributes">
    <title>Attributes</title>

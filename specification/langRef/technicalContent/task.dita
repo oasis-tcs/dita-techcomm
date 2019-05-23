@@ -29,8 +29,8 @@ topics, with a title, short description and body.</shortdesc>
     </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
-   <p>The <xmlelement>task</xmlelement> element is specialized from the
-     <xmlelement>topic</xmlelement> element in the topic module.</p>
+   <p>The <xmlelement>task</xmlelement> element is specialized from <xmlelement>topic</xmlelement>.
+        It is defined in the task module.</p>
   </section>
   <section id="attributes">
    <title>Attributes</title>

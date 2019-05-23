@@ -3,14 +3,11 @@
 <reference id="choption" xml:lang="en-us"><title><xmlelement>choption</xmlelement></title><shortdesc>A choice option describes an option in a choice table that a user could choose to
 accomplish a step of a task.</shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>options</indexterm></indexterm><indexterm><xmlelement>choption</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choption</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
-<section id="usage-information">
-<title>Usage information</title>
-<p>In a user interface, for example, this might be the name of radio button.</p>
-</section>
+    <!--<section id="usage-information"><title>Usage information</title><p>In a user interface, for example, this might be the name of radio button.</p></section>-->
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>choption</xmlelement> element is specialized from the
-<xmlelement>stentry</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>choption</xmlelement> element is specialized from
+          <xmlelement>stentry</xmlelement>. It is defined in the task module.</p>
 </section><section id="attributes"><title>Attributes</title>
          <p conkeyref="conref-attribute/universal-outputclass-specentry"/>
          </section>

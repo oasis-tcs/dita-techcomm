@@ -4,20 +4,22 @@
     perform the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>choice</xmlelement> element is specialized from the
-          <xmlelement>li</xmlelement> element in the topic module.</p>
+      <p>The <xmlelement>choice</xmlelement> element is specialized from
+        <xmlelement>li</xmlelement>. It is defined in the task module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass"/>
+      <!--<p conkeyref="conref-attribute/universal-outputclass"/>-->
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how a user can be presented with a set of choices for how
+        to select a server:</p>
       <codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server.&lt;/cmd&gt;
   &lt;choices&gt;
     <b>&lt;choice&gt;</b>If you have a remote server you want to test on, type the
-IP address or hostname of the server here.<b>&lt;/choice&gt;</b>
-    <b>&lt;choice&gt;</b>If you want to do local testing, just type localhost.<b>&lt;/choice&gt;</b>
+IP address or hostname of the server.<b>&lt;/choice&gt;</b>
+    <b>&lt;choice&gt;</b>If you want to do local testing, type &lt;userinput>localhost&lt;/userinput>.<b>&lt;/choice&gt;</b>
   &lt;/choices&gt;
 &lt;/step&gt;</codeblock>
     </example></refbody></reference>

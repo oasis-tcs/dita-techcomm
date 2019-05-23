@@ -4,8 +4,7 @@
 <reference id="chdeschd" xml:lang="en-us">
 <title><xmlelement>chdeschd</xmlelement></title>
 <shortdesc>A choice description heading provides a specific label for the list of descriptions of
-options from which a user chooses in order to accomplish a step.<draft-comment author="robander">I
-think "complete" a step is more appropriate than "accomplish" a step?</draft-comment></shortdesc>
+    options from which a user chooses in order to complete a step.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm><xmlelement>chdeschd</xmlelement><indexterm>processing
@@ -13,19 +12,13 @@ think "complete" a step is more appropriate than "accomplish" a step?</draft-com
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="processing-expectations">
-<title>Processing expectations</title>
-<p>The default label for the list of options could be a localized translation of <b>Description</b>.
-<!--RDA 25 February 2014: original text from DITA 1.2 seems inappropriate:
-"The default label overridden by chdeschd is a localized translation of Description."--><!--RDA 1 December 2017: I think this whole section is unnecessary.--></p>
-</section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>chdeschd</xmlelement> element is specialized from the
-<xmlelement>stentry</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>chdeschd</xmlelement> element is specialized from
+          <xmlelement>stentry</xmlelement>. It is defined in the task module.</p>
 </section>
 <section id="attributes"><title>Attributes</title>
-         <p conkeyref="conref-attribute/universal-outputclass-specentry"/>
+      <!--<p conkeyref="conref-attribute/universal-outputclass-specentry"/>-->
          </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

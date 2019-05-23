@@ -17,8 +17,8 @@ subject, although the context section might include some conceptual information.
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>context</xmlelement> element is specialized from the
-<xmlelement>section</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>context</xmlelement> element is specialized from
+                        <xmlelement>section</xmlelement>. It is defined in the task module.</p>
 </section>
 <section id="attributes">       <title>Attributes</title>
       <p conkeyref="conref-attribute/universal-outputclass"/>

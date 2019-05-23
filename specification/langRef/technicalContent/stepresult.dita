@@ -17,10 +17,10 @@
         track, but they should not be used for every step as this quickly becomes tedious.</p>
   </section>
   <section id="specialization-hierarchy">
-   <title>Specialization hierarchy</title>
-   <p>The <xmlelement>stepresult</xmlelement> element is specialized from the
-     <xmlelement>itemgroup</xmlelement> element in the topic module.</p>
-  </section>
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>stepresult</xmlelement> element is specialized from
+          <xmlelement>itemgroup</xmlelement>. It is defined in the task module.</p>
+    </section>
   <section id="attributes">
    <title>Attributes</title>
    <p conkeyref="conref-attribute/universal-outputclass"/>

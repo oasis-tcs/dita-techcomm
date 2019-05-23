@@ -16,8 +16,8 @@ element instead.</note>
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>result</xmlelement> element is specialized from the
-<xmlelement>section</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>result</xmlelement> element is specialized from <xmlelement>section</xmlelement>.
+        It is defined in the task module.</p>
 </section>
 <section id="attributes"><title>Attributes</title>
    <p conkeyref="conref-attribute/universal-outputclass"/>
@@ -30,6 +30,7 @@ element instead.</note>
     &lt;context&gt;Once you have set up SQLJ, you need to create a new SQLJ file.
       You cannot add #sqlj statements directly in the Source pane of the
       Workbench.&lt;/context&gt;
+    ...
     &lt;<b>result</b>&gt;The SQLJ file is successfully created when the SQLJ server
       displays the "File Created" dialog.&lt;/<b>result</b>&gt;
   &lt;/taskbody&gt;

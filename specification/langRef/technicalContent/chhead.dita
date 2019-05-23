@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>A choice table heading provides heading text for a choice table.<draft-comment
-author="robander">Original shortdesc follows; we don't need to specify the content model in the
-shortdesc, and any mention of overriding is moved to the processing section. <ph> The
-<xmlelement>chhead</xmlelement> element is a container inside the
-<xmlelement>choicetable</xmlelement> element that provides specific heading text to override any
-default headings for the <xmlelement>choicetable</xmlelement> (such as "Option" and "Description").
-The <xmlelement>chhead</xmlelement> element contains both a <xmlelement>choptionhd</xmlelement> and
-<xmlelement>chdeschd</xmlelement> element as a pair.</ph></draft-comment></shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
+<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>A choice table heading provides heading text for a choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>alternate header text</indexterm></indexterm>
         <indexterm>processing
           expectations<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
@@ -18,10 +11,10 @@ The <xmlelement>chhead</xmlelement> element contains both a <xmlelement>choption
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>chhead</xmlelement> element is specialized from the
-<xmlelement>sthead</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>chhead</xmlelement> element is specialized from <xmlelement>sthead</xmlelement>.
+        It is defined in the task module.</p>
 </section><section id="attributes"><title>Attributes</title>
-   <p conkeyref="conref-attribute/universal-outputclass"/>
+      <!--<p conkeyref="conref-attribute/universal-outputclass"/>-->
    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

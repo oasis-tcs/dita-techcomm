@@ -4,7 +4,7 @@
 <reference id="choicetable" xml:lang="en-us">
   <title><xmlelement>choicetable</xmlelement></title>
   <shortdesc>The <xmlelement>choicetable</xmlelement> element contains a series of optional choices
-    available within a step of a task.</shortdesc>
+    that are available within a step of a task.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -30,8 +30,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>choicetable</xmlelement> element is specialized from the
-          <xmlelement>simpletable</xmlelement> element in the topic module.</p>
+      <p>The <xmlelement>choicetable</xmlelement> element is specialized from
+          <xmlelement>simpletable</xmlelement>. It is defined in the task module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -42,8 +42,8 @@
           keyref="specializationAttributes/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
-            <dd>On this element, the default value for <xmlatt>keycol</xmlatt> is "1". Otherwise,
-              the attribute is the same as defined in <xref keyref="simpletableAttributes"/>.</dd>
+            <dd>The default value for <xmlatt>keycol</xmlatt> is "1". Otherwise, the attribute is
+              the same as defined in <xref keyref="simpletableAttributes"/>.</dd>
           </dlentry>
         </dl></p>
     </section>
