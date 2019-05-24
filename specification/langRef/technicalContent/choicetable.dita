@@ -35,9 +35,9 @@
           keyref="specializationAttributes/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
-            <dd>The default value for <xmlatt>keycol</xmlatt> on
-                <xmlelement>choicetable</xmlelement> is "1". Otherwise, the attribute is the same as
-              defined in <xref keyref="simpletableAttributes"/>.</dd>
+            <dd>Defines the column that contains headings for each row. The default value for
+                <xmlatt>keycol</xmlatt> on <xmlelement>choicetable</xmlelement> is "1". Otherwise,
+              the attribute is the same as defined in <xref keyref="simpletableAttributes"/>.</dd>
           </dlentry>
         </dl></p>
     </section>

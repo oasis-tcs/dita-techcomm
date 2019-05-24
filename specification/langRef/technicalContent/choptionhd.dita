@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choptionhd" xml:lang="en-us">
 <title><xmlelement>choptionhd</xmlelement></title>
-   <shortdesc><xmlelement>choptionhd</xmlelement> element provides a label for the first column in
-      the choice table.</shortdesc>
+   <shortdesc><xmlelement>choptionhd</xmlelement> element provides a label for the first ("Options")
+      column in a choice table.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>choptionhd</xmlelement></indexterm>
             <indexterm>processing

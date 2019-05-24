@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="chdeschd" xml:lang="en-us">
 <title><xmlelement>chdeschd</xmlelement></title>
-<shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a label for the second column in
-    the choice table.</shortdesc>
+<shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a label for the second
+                ("Description) column in a choice table.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm><xmlelement>chdeschd</xmlelement><indexterm>processing

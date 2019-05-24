@@ -3,7 +3,7 @@
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
 <shortdesc>The <xmlelement>prereq</xmlelement> contains prerequisites. Prerequisites are things that
-    users must know or preliminary tasks that users must perform before starting the current
+    users need to know or preliminary tasks that users need to perform before starting the current
     task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
@@ -31,7 +31,7 @@
    <title>Example</title>
       <p>The following code sample is from a topic that expains how to create an SQLJ file. A
         prerequisite is to log into the SQLJ server. Style sheets might generate a label, for
-        example, <q>Before you begin</q>, to indicate clearly that the information provided must be
+        example, <q>Before you begin</q>, to indicate clearly that the prerequisite task needs to be
         performed before embarking on the procedure.</p>
    <codeblock>&lt;task id="sqlj"&gt;
  &lt;title&gt;Creating an SQLJ file&lt;/title&gt;

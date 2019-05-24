@@ -3,7 +3,7 @@
 <reference id="chrow" xml:lang="en-us"><title><xmlelement>chrow</xmlelement></title>
   <shortdesc>The <xmlelement>chrow</xmlelement> element represents a row in a choice table. It
     contains a pair of elements: <xmlelement>choption</xmlelement> and
-      <xmlelement>chdesc</xmlelement></shortdesc><prolog><metadata><keywords>
+      <xmlelement>chdesc</xmlelement>.</shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>rows</indexterm></indexterm><indexterm><xmlelement>chrow</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>chrow</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

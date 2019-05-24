@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="step" xml:lang="en-us">
 <title><xmlelement>step</xmlelement></title>
-<shortdesc>The <xmlelement>step</xmlelement> contains a step. A step represents an action that a
-    user must take to accomplish a task. It also can contain additional information about the step,
-    such as an example, result, or trouble shooting guidance.</shortdesc>
+<shortdesc>The <xmlelement>step</xmlelement> element contains a step. A step represents an action
+    that a user can take to complete a task. It also can contain additional information about the
+    step, such as an example, result, or trouble shooting guidance.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>step</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>step</xmlelement></indexterm></indexterm>
 </keywords>

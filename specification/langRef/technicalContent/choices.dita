@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choices" xml:lang="en-us"><title><xmlelement>choices</xmlelement></title><shortdesc>The <xmlelement>choices</xmlelement> element contains a list of choices. Each choice
-    represents an action that a user can take while performing a step. </shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+    represents a way that a user can complete the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>choices</xmlelement> element is specialized from <xmlelement>ul</xmlelement>. It
@@ -11,8 +11,8 @@
       </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how a user can be presented with a set of choices for how
-        to select a server:</p>
+      <p>The following code sample shows how a user can be presented with different ways to select a
+        server:</p>
       <codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server:&lt;/cmd&gt;
   &lt;choices&gt;
     &lt;choice&gt;If you have a remote server you want to test on, type the IP address 

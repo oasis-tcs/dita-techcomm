@@ -17,8 +17,10 @@
 <section id="attributes"><title>Attributes</title>
    <p conkeyref="conref-attribute/universal-outputclass"/>
    </section>
-<example id="example" otherprops="examples"
-><title>Example</title><codeblock xml:space="preserve">&lt;steps&gt;
+<example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows
+        how the <xmlelement>tutorialinfo</xmlelement> element might be used in a task topic that is
+        part of a
+      tutorial.</p><codeblock xml:space="preserve">&lt;steps&gt;
   &lt;step&gt;
     &lt;cmd&gt;Do this&lt;/cmd&gt;
     &lt;tutorialinfo&gt;In your editor, open the first element and click on 

@@ -26,9 +26,9 @@
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-      <p>A author uses the following markup to indicate tasks that must be performed before leaving
-        on a vacation. While each step involves a single item, the steps can be performed in any
-        order.</p>
+      <p>A author uses the following markup to indicate tasks that need to be performed before
+        leaving on a vacation. While each step involves a single item, the steps can be performed in
+        any order.</p>
    <codeblock>&lt;task id="task">
   &lt;title>Preparing for a trip&lt;/title>
   &lt;taskbody>

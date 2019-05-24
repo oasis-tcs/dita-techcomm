@@ -20,7 +20,7 @@
    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-      <p>In the following code sample, the author clearly communicates the expected result for
+      <p>In the following code sample, the author clearly communicates the expected result of
         successfully completing the task:</p>
 <codeblock>&lt;task id="sqlj"&gt;
   &lt;title&gt;Creating an SQLJ file&lt;/title&gt;

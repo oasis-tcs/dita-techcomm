@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stepsection" xml:lang="en-us">
 <title><xmlelement>stepsection</xmlelement></title>
-<shortdesc>The <xmlelement>stepsection</xmlelement> element can contain expository text that is
-        rendered before a step.</shortdesc>
+<shortdesc>The <xmlelement>stepsection</xmlelement> element contains expository text that might be
+    rendered before a step.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepsection</xmlelement></indexterm>
         <indexterm>rendering
@@ -16,8 +15,8 @@
     <section id="rendering-expectations">
             <title>Rendering expectations</title>
             <p>Processors which render the content of <xmlelement>stepsection</xmlelement> elements
-                among the <xmlelement>step</xmlelement> elements MUST not number the
-                    <xmlelement>stepsection</xmlelement> elements.</p>
+        among the <xmlelement>step</xmlelement> elements <term outputclass="RFC-2119">MUST
+          NOT</term> number the <xmlelement>stepsection</xmlelement> elements.</p>
         </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
