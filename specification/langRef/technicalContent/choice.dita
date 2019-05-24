@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
-  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="choice" xml:lang="en-us"><title><xmlelement>choice</xmlelement></title><shortdesc>Each <xmlelement>choice</xmlelement> element describes one way that the user could
-    perform the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="choice" xml:lang="en-us"><title><xmlelement>choice</xmlelement></title>
+  <shortdesc>A <xmlelement>choice</xmlelement> element describes a way that the user could perform
+    the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>choice</xmlelement> element is specialized from
@@ -13,13 +14,5 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how a user can be presented with a set of choices for how
-        to select a server:</p>
-      <codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server.&lt;/cmd&gt;
-  &lt;choices&gt;
-    <b>&lt;choice&gt;</b>If you have a remote server you want to test on, type the
-IP address or hostname of the server.<b>&lt;/choice&gt;</b>
-    <b>&lt;choice&gt;</b>If you want to do local testing, type &lt;userinput>localhost&lt;/userinput>.<b>&lt;/choice&gt;</b>
-  &lt;/choices&gt;
-&lt;/step&gt;</codeblock>
+      <p>See <xref keyref="choices"/></p>
     </example></refbody></reference>

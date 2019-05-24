@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="step" xml:lang="en-us">
 <title><xmlelement>step</xmlelement></title>
-<shortdesc>A step represents an action that a user must follow to accomplish a task. It also can
-  contain additional information about the step, such as an example, result, or trouble shooting
-  guidance.</shortdesc>
+<shortdesc>The <xmlelement>step</xmlelement> contains a step. A step represents an action that a
+    user must take to accomplish a task. It also can contain additional information about the step,
+    such as an example, result, or trouble shooting guidance.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>step</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>step</xmlelement></indexterm></indexterm>
 </keywords>
@@ -20,19 +19,20 @@
 <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="conref-attribute/step-and-substep"/></section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-   <p>In the following code sample ...</p>
-<codeblock xml:space="preserve">&lt;task id="sqlj"&gt;
-&lt;title&gt;Creating an SQLJ file&lt;/title&gt;
-&lt;taskbody&gt;
-&lt;context&gt;Once you have set up SQLJ, you need to create a new SQLJ file.&lt;/context&gt;
-&lt;steps&gt;
-&lt;step&gt;
- &lt;cmd&gt;Select &lt;menucascade&gt;&lt;uicontrol&gt;File&lt;/uicontrol&gt;&lt;uicontrol&gt;New&lt;/uicontrol&gt;&lt;/menucascade&gt;.&lt;/cmd&gt;
- &lt;info&gt;New files are created with default values based on a standard template.&lt;/info&gt;
-&lt;/step&gt;
-&lt;/steps&gt;
-&lt;/taskbody&gt;
-&lt;/task&gt;</codeblock>
+   <p>The following code sample shows almost all the elements that <xmlelement>step</xmlelement> can
+        contain.</p>
+<codeblock>&lt;step>
+  &lt;cmd>Specify the configuration parameters.&lt;/cmd>
+  &lt;info>The configuration parameters can be specified from either the command line or
+        the product GUI.&lt;/info>
+  &lt;choices>
+    &lt;choice>From a command prompt, type config -l parameter&lt;/choice>
+    &lt;choice>Click New Configuration Parameters.&lt;/choice>
+  &lt;/choices>
+  &lt;stepresult>You receive a 'Configuration successful message".&lt;/stepresult>
+  &lt;steptroubleshooting>If you do not receive a 'Configuration successful message,"
+                       retry the configuration operation.&lt;/steptroubleshooting>
+&lt;/step></codeblock>
 </example>
 </refbody>
 </reference>

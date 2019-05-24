@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="tutorialinfo" xml:lang="en-us">
 <title><xmlelement>tutorialinfo</xmlelement></title>
-<shortdesc>Tutorial information contains additional information that is useful when the task is part
-of a tutorial.</shortdesc>
+<shortdesc>The <xmlelement>tutorialinfo</xmlelement> element contains additional information that is
+    useful when the task topic  is part of a tutorial.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>tutorialinfo</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>tutorialinfo</xmlelement></indexterm></indexterm>
 </keywords>

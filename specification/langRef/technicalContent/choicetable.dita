@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choicetable" xml:lang="en-us">
   <title><xmlelement>choicetable</xmlelement></title>
-  <shortdesc>The <xmlelement>choicetable</xmlelement> element contains a series of optional choices
-    that are available within a step of a task.</shortdesc>
+  <shortdesc>The <xmlelement>choicetable</xmlelement> element contains information about a set of
+    options that are presented to users in a step.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,12 +21,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-      <p>By default, processors highlight the choice column using bold. To change the highlighting,
-        set the <xmlatt>keycol</xmlatt> attribute of the <xmlelement>choicetable</xmlelement> tag to
-        0 (zero).</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>choicetable</xmlelement> element is specialized from
@@ -42,28 +35,31 @@
           keyref="specializationAttributes/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
-            <dd>The default value for <xmlatt>keycol</xmlatt> is "1". Otherwise, the attribute is
-              the same as defined in <xref keyref="simpletableAttributes"/>.</dd>
+            <dd>The default value for <xmlatt>keycol</xmlatt> on
+                <xmlelement>choicetable</xmlelement> is "1". Otherwise, the attribute is the same as
+              defined in <xref keyref="simpletableAttributes"/>.</dd>
           </dlentry>
         </dl></p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;step&gt;&lt;cmd&gt;Then this&lt;/cmd&gt;
-  &lt;substeps&gt;
-    &lt;substep importance="optional"&gt;&lt;cmd&gt;which is done by doing this&lt;/cmd&gt;&lt;/substep&gt;
-    &lt;substep importance="required"&gt;&lt;cmd&gt;and then this.&lt;/cmd&gt;&lt;/substep&gt;
-  &lt;/substeps&gt;
-  <b>&lt;choicetable&gt;</b>
+      <p>The following code sample contains a choice table that contains a header row:</p>
+      <codeblock>&lt;step&gt;
+  &lt;cmd&gt;Create a new filter:&lt;/cmd&gt;
+  &lt;choicetable&gt;
     &lt;chhead&gt;
-      &lt;choptionhd&gt;Do something&lt;/choptionhd&gt;
-      &lt;chdeschd&gt;Or Else this&lt;/chdeschd&gt;
+      &lt;choptionhd&gt;Option&lt;/choptionhd&gt;
+      &lt;chdeschd&gt;Description&lt;/chdeschd&gt;
     &lt;/chhead&gt;
-    &lt;chrow&gt;&lt;choption&gt;Do this&lt;/choption&gt;
-      &lt;chdesc&gt;and this will happen&lt;/chdesc&gt;&lt;/chrow&gt;
-    &lt;chrow&gt;&lt;choption&gt;Do that&lt;/choption&gt;
-      &lt;chdesc&gt;and that will happen&lt;/chdesc&gt;&lt;/chrow&gt;
-  <b>&lt;/choicetable&gt;</b>
+    &lt;chrow&gt;
+      &lt;choption&gt;Command-line interface&lt;/choption&gt;
+      &lt;chdesc&gt;Type arg -f filter&lt;/chdesc&gt;
+    &lt;/chrow&gt;
+    &lt;chrow&gt;
+      &lt;choption&gt;Product GUI&lt;/choption&gt;
+      &lt;chdesc&gt;Click New Filter&lt;/chdesc&gt;
+    &lt;/chrow&gt;
+  &lt;/choicetable&gt;
 &lt;/step&gt;</codeblock>
     </example>
   </refbody>

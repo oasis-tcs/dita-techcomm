@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="steptroubleshooting" xml:lang="en-us" >
   <title><xmlelement>steptroubleshooting</xmlelement></title>
-  <shortdesc>Step troubleshooting element provides information that is designed to help remedy the
-situation when a step does not complete as expected.</shortdesc>
+  <shortdesc>The <xmlelement>steptroubleshooting</xmlelement> element contains information that is
+    designed to help remedy the situation when a step does not complete as expected.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,8 +17,6 @@ situation when a step does not complete as expected.</shortdesc>
   <refbody>
 <section id="usage-information">
 <title>Usage information</title>
-<p>In particular, this element can be used to explain how users can recover when the results of a
-step do not match those listed in the <xmlelement>stepresult</xmlelement> element.</p>
 <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph> inside of
 <xmlelement>steptroubleshooting</xmlelement> because its meaning there would be ambiguous.</note>
 </section>
@@ -34,9 +32,8 @@ step do not match those listed in the <xmlelement>stepresult</xmlelement> elemen
     </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-<p>The following example illustrates using the <xmlelement>steptroubleshooting</xmlelement> element
-with a single action:</p>
-<codeblock><![CDATA[
+      <!--<p>The following example illustrates using the <xmlelement>steptroubleshooting</xmlelement> element with a single action:</p>-->
+      <!--<codeblock><![CDATA[
   <step>
     <cmd>Select <uicontrol>Perform system backup</uicontrol></cmd>
     <stepresult>
@@ -50,10 +47,10 @@ with a single action:</p>
     </steptroubleshooting>
   </step>]]>
 
-</codeblock>
-<p>The following example illustrates using the <xmlelement>steptroubleshooting</xmlelement> element
-with several actions:</p>
-<codeblock><![CDATA[
+</codeblock>-->
+      <p>The following following code sample show using the
+          <xmlelement>steptroubleshooting</xmlelement> element with several actions:</p>
+      <codeblock><![CDATA[
   <step>
     <cmd>Log in to the system</cmd>
     <stepresult>

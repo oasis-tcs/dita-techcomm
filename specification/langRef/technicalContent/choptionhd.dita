@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choptionhd" xml:lang="en-us">
 <title><xmlelement>choptionhd</xmlelement></title>
-<shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a specific label for the list of
-      options from which a user chooses in order to complete a step.</shortdesc>
+   <shortdesc><xmlelement>choptionhd</xmlelement> element provides a label for the first column in
+      the choice table.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>choptionhd</xmlelement></indexterm>
             <indexterm>processing
@@ -24,19 +23,7 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <codeblock>&lt;step&gt;&lt;cmd&gt;Then this&lt;/cmd&gt;
- &lt;choicetable&gt;
-  &lt;chhead&gt;
-   <b>&lt;choptionhd&gt;</b>Do something<b>&lt;/choptionhd&gt;</b>
-   &lt;chdeschd&gt;And this happens&lt;/chdeschd&gt;
-  &lt;/chhead&gt;
-  &lt;chrow&gt;&lt;choption&gt;Do this&lt;/choption&gt;
-     &lt;chdesc&gt;and this will happen&lt;/chdesc&gt;&lt;/chrow&gt;
-  &lt;chrow&gt;&lt;choption&gt;Do that&lt;/choption&gt;
-     &lt;chdesc&gt;and that will happen&lt;/chdesc&gt;&lt;/chrow&gt;
- &lt;/choicetable&gt;
-&lt;/step&gt;
-</codeblock>
+         <p>See <xref keyref="choicetable"/>.</p>
       </example>
 </refbody>
 </reference>

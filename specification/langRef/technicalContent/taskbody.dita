@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="taskbody" xml:lang="en-us">
 <title><xmlelement>taskbody</xmlelement></title>
-<shortdesc>The task body contains information specific to completing a task, such as prerequisites,
-            contextual information, and steps.</shortdesc>
+<shortdesc>The <xmlelement>taskbody</xmlelement> element contains the body of a task topic.  The
+      task body can include prerequisites, contextual information, steps, results, an example,
+      troubleshooting information, and post-requisites.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>taskbody</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>taskbody</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
+      <section id="usage-information">
+         <title>Usage information</title>
+         <p>The content model of the <xmlelement>taskbody</xmlelement> element depends on the type
+            of task topic used.</p>
+      </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>taskbody</xmlelement> element is specialized from <xmlelement>body</xmlelement>.

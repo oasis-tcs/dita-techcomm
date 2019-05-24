@@ -3,18 +3,15 @@
  "reference.dtd">
 <reference id="context" xml:lang="en-us">
 <title><xmlelement>context</xmlelement></title>
-<shortdesc>The task context provides background information that helps users understand the purpose
-of the task and what they will gain by completing it.</shortdesc>
+<shortdesc>The <xmlelement>context</xmlelement> element contains contextual information. Contextual
+            information is background information that helps users understand the purpose of the
+            task and what they will gain by completing it.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>context</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>context</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="usage-information">
-<title>Usage information</title>
-<p>This section should be brief and does not replace or recreate a concept topic on the same
-subject, although the context section might include some conceptual information.</p>
-</section>
+            <!--<section id="usage-information"><title>Usage information</title><p>This section should be brief and does not replace or recreate a concept topic on the same subject, although the context section might include some conceptual information.</p></section>-->
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>context</xmlelement> element is specialized from
@@ -25,14 +22,20 @@ subject, although the context section might include some conceptual information.
         </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-      <p>In the following code sample ...</p>
-<codeblock xml:space="preserve">&lt;task id="sqlj"&gt;
-&lt;title&gt;Creating an SQLJ file&lt;/title&gt;
-&lt;taskbody&gt;
-<b>&lt;context&gt;</b>Once you have set up SQLJ, you need to create a
-new SQLJ file.<b>&lt;/context&gt;</b>
-&lt;/taskbody&gt;
-&lt;/task&gt;</codeblock>
+      <p>An author uses the following markup to provide users with more contextual information than
+                        is appropriate for a short description. Style sheets might generate a label,
+                        for example, <q>About this procedure</q>, to indicate clearly that the
+                        information provided is background information.</p>
+<codeblock>&lt;task id="Generating_stub_files" xml:lang="en-us">
+  &lt;title>Generating stub files&lt;/title>
+  &lt;shortdesc>You can use IBM Task Modeler to generate stub files. Stub files are 
+             DITA files that contain only a title.&lt;/shortdesc>
+  &lt;taskbody>
+    &lt;context>As you perform this procedure, you can select the conventions that 
+            you want to use for file names.&lt;/context>
+    ...
+  &lt;/taskbody>
+&lt;/task></codeblock>
 </example>
 </refbody>
 </reference>

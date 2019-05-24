@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
-<shortdesc>A step example illustrates a step of a task.</shortdesc>
+<shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example that illustrates how a
+  step is completed. This example can be a few words, an image, or a paragraph.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-<section id="usage-information">
-<title>Usage information</title>
-<p>The step example can be a couple of words, or an entire paragraph.</p>
-</section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>stepxmp</xmlelement> element is specialized from
@@ -23,6 +19,8 @@
 </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
+   <p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example
+    of what a user might type as a name for a widget:</p>
 <codeblock xml:space="preserve">&lt;step&gt;
  &lt;cmd&gt;Type a name for the widget.&lt;/cmd&gt;
  &lt;stepxmp&gt;For example, &lt;userinput&gt;mywidget&lt;/userinput&gt;&lt;/stepxmp&gt;

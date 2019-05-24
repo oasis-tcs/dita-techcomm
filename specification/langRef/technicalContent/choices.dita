@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="choices" xml:lang="en-us"><title><xmlelement>choices</xmlelement></title><shortdesc>Choices contain a list of choices for users that need to choose one of several actions
-while performing the steps of a task.
-<!--The <xmlelement>choices</xmlelement> element contains a list of <xmlelement>choice</xmlelement> elements. It is used when the user will need to choose one of several actions while performing the steps of a task. --></shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+<reference id="choices" xml:lang="en-us"><title><xmlelement>choices</xmlelement></title><shortdesc>The <xmlelement>choices</xmlelement> element contains a list of choices. Each choice
+    represents an action that a user can take while performing a step. </shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>choices</xmlelement> element is specialized from <xmlelement>ul</xmlelement>. It
@@ -10,13 +9,15 @@ while performing the steps of a task.
 </section><section id="attributes"><title>Attributes</title>
       <!--<p conkeyref="conref-attribute/universal-outputclass"/>-->
       </section>
-<example id="example" otherprops="examples">
-<title>Example</title>
-<codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server.&lt;/cmd&gt;
-<b>&lt;choices&gt;</b>
-&lt;choice&gt;If you have a remote server you want to test on, type the
-IP address or hostname of the server here.&lt;/choice&gt;
-&lt;choice&gt;If you want to do local testing, just type localhost.&lt;/choice&gt;
-<b>&lt;/choices&gt;</b>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>The following code sample shows how a user can be presented with a set of choices for how
+        to select a server:</p>
+      <codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server:&lt;/cmd&gt;
+  &lt;choices&gt;
+    &lt;choice&gt;If you have a remote server you want to test on, type the IP address 
+            or hostname of the server.&lt;/choice&gt;
+    &lt;choice&gt;If you want to do local testing, type localhost.&lt;/choice&gt;
+  &lt;/choices&gt;
 &lt;/step&gt;</codeblock>
-</example></refbody></reference>
+    </example></refbody></reference>

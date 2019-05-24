@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="chdesc" xml:lang="en-us">
 <title><xmlelement>chdesc</xmlelement></title>
-<shortdesc>The <xmlelement>chdesc</xmlelement> element is a description of an option from a choice
-    table that a user chooses while performing a step to accomplish a task. It explains why the user
-    would choose that option and might explain the result of the choice when it is not immediately
-    obvious.</shortdesc>
+<shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content of the "Description"
+    cell in a choice table row. It explains why the user would choose that option and might explain
+    the result of the choice when it is not immediately obvious.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>chdesc</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>descriptions</indexterm></indexterm>

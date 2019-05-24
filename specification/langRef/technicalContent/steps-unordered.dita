@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="steps-unordered" xml:lang="en-us">
 <title><xmlelement>steps-unordered</xmlelement></title>
   <abstract>
-    <shortdesc>Unordered steps are steps in which the order of the steps to be performed might vary
+    <shortdesc>The <xmlelement>steps-unordered</xmlelement> element contains a set of unordered
+      steps. Unordered steps are steps in which the order of the steps to be performed might vary
       from one situation to another.</shortdesc>
-    <shortdesc>Like the <xmlelement>steps</xmlelement> element, the
-        <xmlelement>steps-unordered</xmlelement> element provides the main content of a task topic,
-      but particularly for cases in which the order of steps might vary from one situation to
-      another. At least one <xmlelement>step</xmlelement> element is required inside the
-        <xmlelement>steps-unordered</xmlelement> element.</shortdesc>
+    <!--<shortdesc>Like the <xmlelement>steps</xmlelement> element, the <xmlelement>steps-unordered</xmlelement> element provides the main content of a task topic, but particularly for cases in which the order of steps might vary from one situation to another. At least one <xmlelement>step</xmlelement> element is required inside the <xmlelement>steps-unordered</xmlelement> element.</shortdesc>-->
   </abstract>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>steps-unordered</xmlelement></indexterm>
@@ -19,18 +15,10 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-  <section id="formatting-expectations">
-   <title>Formatting expectations</title>
-   <p>Steps with only a single step might be rendered as a paragraph rather than as a list. Two or
-        more steps should typically be rendered as an unordered list. If all of the contained steps
-        are simple (that is, have no more than a <xmlelement>cmd</xmlelement> element each) then the
-        step list should default to compact. Otherwise it should be rendered as expanded (with blank
-        lines between each step).</p>
-  </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
-   <p>The <xmlelement>steps-unordered</xmlelement> element is specialized from the
-     <xmlelement>ul</xmlelement> element in the topic module.</p>
+   <p>The <xmlelement>steps-unordered</xmlelement> element is specialized from
+          <xmlelement>ul</xmlelement>. It is defined in the task module.</p>
   </section>
   <section id="attributes">
    <title>Attributes</title>
@@ -38,16 +26,25 @@
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-      <p>In the following code sample ...</p>
-   <codeblock>&lt;task id="sqlj"&gt;
- &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
- &lt;taskbody&gt;
-  &lt;context&gt;Once you have set up SQLJ, you need to create a new SQLJ file.&lt;/context&gt;
-  &lt;steps-unordered&gt;
-   &lt;step&gt;&lt;cmd&gt;In a text editor, create a new file.&lt;/cmd&gt;&lt;/step&gt;
-  &lt;/steps-unordered&gt;
- &lt;/taskbody&gt;
-&lt;/task&gt;</codeblock>
+      <p>A author uses the following markup to indicate tasks that must be performed before leaving
+        on a vacation. While each step involves a single item, the steps can be performed in any
+        order.</p>
+   <codeblock>&lt;task id="task">
+  &lt;title>Preparing for a trip&lt;/title>
+  &lt;taskbody>
+    &lt;steps-unordered>
+      &lt;step>
+        &lt;cmd>Arrange for a pet sitter&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Do laundry&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Buy a plane ticket&lt;/cmd>
+      &lt;/step>
+    &lt;/steps-unordered>
+  &lt;/taskbody>
+&lt;/task></codeblock>
   </example>
 </refbody>
 </reference>

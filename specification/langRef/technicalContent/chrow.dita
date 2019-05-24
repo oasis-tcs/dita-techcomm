@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
-  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="chrow" xml:lang="en-us"><title><xmlelement>chrow</xmlelement></title><shortdesc>The <xmlelement>chrow</xmlelement> element is a container inside
-the <xmlelement>choicetable</xmlelement> element. The <xmlelement>chrow</xmlelement>
-element contains both a <xmlelement>choption</xmlelement> and <xmlelement>chdesc</xmlelement>
-element as a pair.</shortdesc><prolog><metadata><keywords>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="chrow" xml:lang="en-us"><title><xmlelement>chrow</xmlelement></title>
+  <shortdesc>The <xmlelement>chrow</xmlelement> element represents a row in a choice table. It
+    contains a pair of elements: <xmlelement>choption</xmlelement> and
+      <xmlelement>chdesc</xmlelement></shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>rows</indexterm></indexterm><indexterm><xmlelement>chrow</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>chrow</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -16,21 +16,5 @@ element as a pair.</shortdesc><prolog><metadata><keywords>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;step&gt;&lt;cmd&gt;Then this&lt;/cmd&gt;
-  &lt;substeps&gt;
-    &lt;substep importance="optional"&gt;&lt;cmd&gt;which is done by doing this&lt;/cmd&gt;&lt;/substep&gt;
-    &lt;substep importance="required"&gt;&lt;cmd&gt;and then this.&lt;/cmd&gt;&lt;/substep&gt;
-  &lt;/substeps&gt;
-  &lt;choicetable&gt;
-    &lt;chhead&gt;
-      &lt;choptionhd&gt;Do something&lt;/choptionhd&gt;
-      &lt;chdeschd&gt;Or Else this&lt;/chdeschd&gt;
-    &lt;/chhead&gt;
-    <b>&lt;chrow&gt;</b>&lt;choption&gt;Do this&lt;/choption&gt;
-      &lt;chdesc&gt;and this will happen&lt;/chdesc&gt;<b>&lt;/chrow&gt;</b>
-    <b>&lt;chrow&gt;</b>&lt;choption&gt;Do that&lt;/choption&gt;
-      &lt;chdesc&gt;and that will happen&lt;/chdesc&gt;<b>&lt;/chrow&gt;</b>
-  &lt;/choicetable&gt;
-&lt;/step&gt;
-</codeblock>
+      <p>See <xref keyref="choicetable"/>.</p>
     </example></refbody></reference>
