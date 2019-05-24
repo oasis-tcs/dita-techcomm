@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="tutorialinfo" xml:lang="en-us">
 <title><xmlelement>tutorialinfo</xmlelement></title>
-<shortdesc>Tutorial information contains additional information that is useful when the task is part
-of a tutorial.</shortdesc>
+<shortdesc>The <xmlelement>tutorialinfo</xmlelement> element contains additional information that is
+    useful when the task topic  is part of a tutorial.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>tutorialinfo</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>tutorialinfo</xmlelement></indexterm></indexterm>
 </keywords>
@@ -12,14 +11,16 @@ of a tutorial.</shortdesc>
 <refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>tutorialinfo</xmlelement> element is specialized from the
-<xmlelement>itemgroup</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>tutorialinfo</xmlelement> element is specialized from
+          <xmlelement>itemgroup</xmlelement>. It is defined in the task module.</p>
 </section>
 <section id="attributes"><title>Attributes</title>
    <p conkeyref="conref-attribute/universal-outputclass"/>
    </section>
-<example id="example" otherprops="examples"
-><title>Example</title><codeblock xml:space="preserve">&lt;steps&gt;
+<example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows
+        how the <xmlelement>tutorialinfo</xmlelement> element might be used in a task topic that is
+        part of a
+      tutorial.</p><codeblock xml:space="preserve">&lt;steps&gt;
   &lt;step&gt;
     &lt;cmd&gt;Do this&lt;/cmd&gt;
     &lt;tutorialinfo&gt;In your editor, open the first element and click on 

@@ -1,23 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
-  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="choice" xml:lang="en-us"><title><xmlelement>choice</xmlelement></title><shortdesc>Each <xmlelement>choice</xmlelement> element describes one way that the user could
-    perform the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="choice" xml:lang="en-us"><title><xmlelement>choice</xmlelement></title>
+  <shortdesc>A <xmlelement>choice</xmlelement> element describes a way that a user can complete the
+    current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>choice</xmlelement> element is specialized from the
-          <xmlelement>li</xmlelement> element in the topic module.</p>
+      <p>The <xmlelement>choice</xmlelement> element is specialized from
+        <xmlelement>li</xmlelement>. It is defined in the task module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass"/>
+      <!--<p conkeyref="conref-attribute/universal-outputclass"/>-->
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server.&lt;/cmd&gt;
-  &lt;choices&gt;
-    <b>&lt;choice&gt;</b>If you have a remote server you want to test on, type the
-IP address or hostname of the server here.<b>&lt;/choice&gt;</b>
-    <b>&lt;choice&gt;</b>If you want to do local testing, just type localhost.<b>&lt;/choice&gt;</b>
-  &lt;/choices&gt;
-&lt;/step&gt;</codeblock>
+      <p>See <xref keyref="choices"/></p>
     </example></refbody></reference>

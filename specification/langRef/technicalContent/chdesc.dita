@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="chdesc" xml:lang="en-us">
 <title><xmlelement>chdesc</xmlelement></title>
-<shortdesc>The <xmlelement>chdesc</xmlelement> element is a description of an option from a choice
-    table that a user chooses while performing a step to accomplish a task. It explains why the user
-    would choose that option and might explain the result of the choice when it is not immediately
-    obvious.</shortdesc>
+<shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content of the "Description"
+    cell in a choice table row. It explains why the user would choose that option and might explain
+    the result of the choice when it is not immediately obvious.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>chdesc</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>descriptions</indexterm></indexterm>
@@ -16,30 +14,16 @@
 <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>chdesc</xmlelement> element is specialized from the
-          <xmlelement>stentry</xmlelement> element in the topic modules.</p>
+      <p>The <xmlelement>chdesc</xmlelement> element is specialized from
+          <xmlelement>stentry</xmlelement>. It is defined in the task module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p
-        conkeyref="conref-attribute/universal-outputclass-specentry"
-      />
+      <!--<p conkeyref="conref-attribute/universal-outputclass-specentry"/>-->
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;step&gt;&lt;cmd&gt;Then this&lt;/cmd&gt;
-  &lt;substeps&gt;
-    &lt;substep importance="optional"&gt;&lt;cmd&gt;which is done by doing this&lt;/cmd&gt;&lt;/substep&gt;
-    &lt;substep importance="required"&gt;&lt;cmd&gt;and then this.&lt;/cmd&gt;&lt;/substep&gt;
-  &lt;/substeps&gt;
-  &lt;choicetable&gt;
-    &lt;chrow&gt;&lt;choption&gt;Do this&lt;/choption&gt;
-      <b>&lt;chdesc&gt;</b>and this will happen<b>&lt;/chdesc&gt;</b>&lt;/chrow&gt;
-    &lt;chrow&gt;&lt;choption&gt;Do that&lt;/choption&gt;
-      <b>&lt;chdesc&gt;</b>and that will happen<b>&lt;/chdesc&gt;</b>&lt;/chrow&gt;
-  &lt;/choicetable&gt;
-&lt;/step&gt;
-</codeblock>
+      <p>See <xref keyref="choicetable"/>.</p>
     </example>
 </refbody>
 </reference>

@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
-<shortdesc>Prerequisites are things that users must know or preliminary tasks that users must
-    perform before starting the current task.</shortdesc>
+<shortdesc>The <xmlelement>prereq</xmlelement> contains prerequisites. Prerequisites are things that
+    users need to know or preliminary tasks that users need to perform before starting the current
+    task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
-        <indexterm>formatting
+        <indexterm>rendering
           expectations<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm>
-    <indexterm>processing
-     expectations<indexterm><xmlelement>prereq</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-  <section id="formatting-expectations">
-   <title>Formatting expectations</title>
-   <p>Implementations <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
+  <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Processors <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
         related-links section together with the content of the <xmlelement>prereq</xmlelement>
         element.</p>
-   <!--Replaced the following sentence based on review comments:
-"Prerequisite links will be placed in a list after the related-links
-section; on output the &lt;prereq&gt; links from the related-links
-section are added to the &lt;prereq&gt; section."-->
-  </section>
+    </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
-   <p>The <xmlelement>prereq</xmlelement> element is specialized from the section element in the
-        topic module.</p>
+   <p>The <xmlelement>prereq</xmlelement> element is specialized from
+          <xmlelement>section</xmlelement>. It is defined in the task module.</p>
   </section>
   <section id="attributes">
    <title>Attributes</title>
@@ -35,12 +29,16 @@ section are added to the &lt;prereq&gt; section."-->
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-      <p>In the following code sample ...</p>
+      <p>The following code sample is from a topic that expains how to create an SQLJ file. A
+        prerequisite is to log into the SQLJ server. Style sheets might generate a label, for
+        example, <q>Before you begin</q>, to indicate clearly that the prerequisite task needs to be
+        performed before embarking on the procedure.</p>
    <codeblock>&lt;task id="sqlj"&gt;
  &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
  &lt;taskbody&gt;
   &lt;prereq&gt;Before creating a new SQLJ file, you must 
   log in to the SQLJ server.&lt;/prereq&gt;
+  ...
  &lt;/taskbody&gt;
 &lt;/task&gt;</codeblock>
   </example>

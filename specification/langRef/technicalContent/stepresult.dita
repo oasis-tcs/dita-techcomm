@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stepresult" xml:lang="en-us">
 <title><xmlelement>stepresult</xmlelement></title>
-<shortdesc>The <xmlelement>stepresult</xmlelement> element provides information on the expected
-  outcome of a step.</shortdesc>
+<shortdesc>The <xmlelement>stepresult</xmlelement> element provides  information about the expected
+    outcome of a step.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepresult</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepresult</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-  <section id="usage-information">
-   <title>Usage information</title>
-   <p>If a user interface is being documented, the outcome could describe a dialog box opening or a
-        progress indicator appearing. Step results are useful to assure a user that they are on
-        track, but they should not be used for every step as this quickly becomes tedious.</p>
-  </section>
   <section id="specialization-hierarchy">
-   <title>Specialization hierarchy</title>
-   <p>The <xmlelement>stepresult</xmlelement> element is specialized from the
-     <xmlelement>itemgroup</xmlelement> element in the topic module.</p>
-  </section>
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>stepresult</xmlelement> element is specialized from
+          <xmlelement>itemgroup</xmlelement>. It is defined in the task module.</p>
+    </section>
   <section id="attributes">
    <title>Attributes</title>
    <p conkeyref="conref-attribute/universal-outputclass"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-   <codeblock>&lt;steps&gt;
+      <p>In the following example, the content of the <xmlelement>stepresult</xmlelement> element
+        enables the user to ascertain whether they have completed the step correctly.</p>
+      <codeblock>&lt;step>
+  &lt;cmd>Specify the configuration parameters.&lt;/cmd>
+  &lt;info>The configuration parameters can be specified from either the command line or
+        the product GUI.&lt;/info>
+  &lt;choices>
+    &lt;choice>From a command prompt, type config -l parameter&lt;/choice>
+    &lt;choice>Click New Configuration Parameters.&lt;/choice>
+  &lt;/choices>
+  &lt;stepresult>You receive a 'Configuration successful message".&lt;/stepresult>
+&lt;/step></codeblock>
+      <!--<codeblock>&lt;steps&gt;
  &lt;step&gt;
   &lt;cmd importance="urgent"&gt;Once you have the water place it in the microwave.&lt;/cmd&gt;
   &lt;info&gt;Try not to spill any, as water is very wet.&lt;/info&gt;
@@ -41,7 +46,7 @@
   &lt;cmd&gt;Once the water begins to boil, stop the Microwave.&lt;/cmd&gt;
  &lt;/step&gt;
 &lt;/steps&gt;
-</codeblock>
+</codeblock>-->
   </example>
 </refbody>
 </reference>

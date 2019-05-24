@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="steps-informal" xml:lang="en-us">
 <title><xmlelement>steps-informal</xmlelement></title>
-<shortdesc>Informal steps allow authors to describe procedural task information without placing each
-step in an individual container element, which is a requirement of the related
-<xmlelement>steps</xmlelement> and <xmlelement>steps-unordered</xmlelement> elements.</shortdesc>
+<shortdesc>The <xmlelement>steps-informal</xmlelement> element contains a set of informal steps.
+        Informal steps do not follow a strict content model; a paragraph might describe more than
+        one step, or a paragraph might combine procedural information along with other
+        information.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>steps-informal</xmlelement></indexterm>
     <indexterm>task elements</indexterm>
     <indexterm><xmlelement>steps-informal</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-<section id="usage-information">
-<title>Usage information</title>
-<p>The <xmlelement>steps-informal</xmlelement> element might contain a paragraph that describes more
-                than one step in a single sentence, or it might contain sentences that mix steps
-                together with information about the steps.</p>
-</section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>steps-informal</xmlelement> element is specialized from the
-<xmlelement>section</xmlelement> element in the topic module.</p>
+<p>The <xmlelement>steps-informal</xmlelement> element is specialized from
+                    <xmlelement>section</xmlelement>. It is defined in the task module.</p>
 </section>
 <section id="attributes">
 <title>Attributes</title>
 <p conkeyref="conref-attribute/universal-outputclass"/>
 </section>
 <example id="example" otherprops="examples"><title>Example</title>
-            <p>In the following code sample ...</p><codeblock>&lt;steps-informal>
- &lt;p>Put the soil in the container any old way. It doesn't really matter how
-you do it as long as it is at least 12 cm deep. Once the soil is in place,
-water appropriately and wait.&lt;/p>
-&lt;/steps-informal></codeblock></example>
+            <p>An author uses the following markup to provide informal information about how to grow
+                a flower from seed:</p><codeblock>&lt;task>
+  &lt;title>Growing a flower from seed&lt;/title>
+  &lt;taskbody>
+    &lt;steps-informal>
+      &lt;p>Put the soil in the container any old way. It doesn't really 
+         matter how you do it as long as it is at least 12 cm deep. Once 
+         the soil is in place, plant the seeds, water appropriately and 
+         wait.&lt;/p>
+    &lt;/steps-informal>
+  &lt;/taskbody>
+&lt;/task></codeblock></example>
 </refbody>
 </reference>
 
