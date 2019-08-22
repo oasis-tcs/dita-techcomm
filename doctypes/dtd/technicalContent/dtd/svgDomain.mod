@@ -14,7 +14,7 @@
 <!ENTITY % svgref      "svgref"                                      >
 
 <!ENTITY % svg11-ditadriver
-   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 SVG 1.1 Driver//EN"
+   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 SVG 1.1 Driver//EN"
           "svg/svg11-ditadriver.dtd"
 >%svg11-ditadriver;
 

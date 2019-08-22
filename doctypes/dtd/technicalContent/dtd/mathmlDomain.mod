@@ -24,7 +24,7 @@
 <!ENTITY % mathml      "mathml"                                      >
 
 <!ENTITY % mathml3-ditadriver
-   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Mathml3 Driver//EN"
+   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Mathml3 Driver//EN"
           "mathml/mathml3-ditadriver.dtd"
 >%mathml3-ditadriver;
 

@@ -3,7 +3,7 @@
 <!--                                                               -->
 <!-- Defines element types for capturing change details within     -->
 <!-- topics or maps.                                               -->
-<!-- DITA 1.3                                                      -->
+<!-- DITA 2.0                                                      -->
 <!-- Copyright (c) 2013 OASIS Open                                 -->
 <!-- ============================================================= -->
 <!--                     PUBLIC DOCUMENT TYPE DEFINITION            -->

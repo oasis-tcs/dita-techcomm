@@ -81,7 +81,7 @@
 <!ENTITY % mathml-charent.module "IGNORE" >
   
 <!ENTITY % mathml3
-   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 MathML 3//EN"
+   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 MathML 3//EN"
           "mathml3/mathml3.dtd"
 >%mathml3;
 
