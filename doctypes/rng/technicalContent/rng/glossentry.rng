@@ -107,18 +107,18 @@ ORIGINAL CREATION DATE:
   </div>
   <div>
       <a:documentation>MODULE INCLUSIONS</a:documentation>
-      <include href="../../base/rng/topicMod.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:topicMod.rng:2.0"/>
       <include href="conceptMod.rng"/>
       <include href="glossentryMod.rng">
         <define name="glossentry-info-types">
           <empty/>
         </define>
       </include>
-      <include href="../../base/rng/deliveryTargetAttDomain.rng" dita:since="1.3"/>
+     <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
       <include href="equationDomain.rng" dita:since="1.3"/>
-      <include href="../../base/rng/hazardstatementDomain.rng"/>
-      <include href="../../base/rng/highlightDomain.rng"/>
-      <include href="../../base/rng/indexingDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:indexingDomain.rng:2.0"/>
       <include href="abbreviateDomain.rng"/>
       <include href="markupDomain.rng" dita:since="1.3"/>
       <include href="mathmlDomain.rng" dita:since="1.3"/>
@@ -127,7 +127,7 @@ ORIGINAL CREATION DATE:
       <include href="softwareDomain.rng"/>
       <include href="svgDomain.rng" dita:since="1.3"/>
       <include href="uiDomain.rng"/>
-      <include href="../../base/rng/utilitiesDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
       <include href="xmlDomain.rng" dita:since="1.3"/>
   </div>
   <div>
