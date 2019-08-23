@@ -253,9 +253,6 @@ ORIGINAL CREATION DATE:
     <a:documentation>COMMON ATTRIBUTE SETS</a:documentation>
     <define name="chapter-atts">
       <optional>
-        <attribute name="navtitle"/>
-      </optional>
-      <optional>
         <attribute name="href"/>
       </optional>
       <optional>
