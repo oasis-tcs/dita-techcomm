@@ -3,8 +3,8 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Task                                         -->
-<!--  VERSION:   1.3                                               -->
-<!--  DATE:      March 2014                                        -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      August 2019                                       -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -24,7 +24,7 @@
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             March 2001                                        -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2005, 2009.              -->
+<!--             (C) Copyright OASIS Open 2005, 2019.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
@@ -40,7 +40,7 @@
 <!--    2006.11.30 RDA: Add -dita-use-conref-target to enumerated  -->
 <!--                      attributes                               -->
 <!--    2006.11.30 RDA: Remove #FIXED from DITAArchVersion         -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
+<!--    2007.12.01 WEK: Reformatted DTD modules for DITA 1.2       -->
 <!--    2008.01.30 RDA: Replace @conref defn. with %conref-atts;   -->
 <!--    2008.02.06 RDA: Add note and itemgroup to step, substep    -->
 <!--    2008.02.06 RDA: Loosen content model of taskbody; add      -->
@@ -49,6 +49,8 @@
 <!--    2008.05.06 RDA: Added sectiondiv to section specializations -->
 <!--    2008.12.02 RDA: Rename process to steps-informal           -->
 <!--    2014.04.16 WEK: Redefined as RNG                           -->
+<!--    2019.08.23 KJE: Removed substeps and substep; added steps  -->
+<!--                    and steps-unordered to step                -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -68,8 +70,6 @@
 <!ENTITY % step        "step"                                        >
 <!ENTITY % cmd         "cmd"                                         >
 <!ENTITY % info        "info"                                        >
-<!ENTITY % substeps    "substeps"                                    >
-<!ENTITY % substep     "substep"                                     >
 <!ENTITY % tutorialinfo
                        "tutorialinfo"                                >
 <!ENTITY % stepxmp     "stepxmp"                                     >
@@ -274,7 +274,8 @@
                           %info; |
                           %itemgroup; |
                           %stepxmp; |
-                          %substeps; |
+                          %steps; |
+                          %steps-unordered; |
                           %tutorialinfo;)*,
                          (%stepresult;)?,
                          (%steptroubleshooting;)?)"
@@ -323,48 +324,6 @@
 >
 <!ELEMENT  info %info.content;>
 <!ATTLIST  info %info.attributes;>
-
-
-<!--                    LONG NAME: Sub-steps                       -->
-<!ENTITY % substeps.content
-                       "((%data; |
-                          %data-about;)*,
-                         (%substep;)+)"
->
-<!ENTITY % substeps.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
->
-<!ELEMENT  substeps %substeps.content;>
-<!ATTLIST  substeps %substeps.attributes;>
-
-
-<!--                    LONG NAME: Sub-step                        -->
-<!ENTITY % substep.content
-                       "((%note;)*,
-                         (%cmd;),
-                         (%info; |
-                          %itemgroup; |
-                          %stepxmp; |
-                          %tutorialinfo;)*,
-                         (%stepresult;)?)"
->
-<!ENTITY % substep.attributes
-              "importance
-                          (optional |
-                           required |
-                           -dita-use-conref-target)
-                                    #IMPLIED
-               %univ-atts-no-importance-task;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
->
-<!ELEMENT  substep %substep.content;>
-<!ATTLIST  substep %substep.attributes;>
-
 
 <!--                    LONG NAME: Tutorial Information            -->
 <!ENTITY % tutorialinfo.content
@@ -632,8 +591,6 @@
 <!ATTLIST  stepsection  %global-atts;  class CDATA "- topic/li task/stepsection ">
 <!ATTLIST  step         %global-atts;  class CDATA "- topic/li task/step ">
 <!ATTLIST  cmd          %global-atts;  class CDATA "- topic/ph task/cmd ">
-<!ATTLIST  substeps     %global-atts;  class CDATA "- topic/ol task/substeps ">
-<!ATTLIST  substep      %global-atts;  class CDATA "- topic/li task/substep ">
 <!ATTLIST  tutorialinfo %global-atts;  class CDATA "- topic/itemgroup task/tutorialinfo ">
 <!ATTLIST  info         %global-atts;  class CDATA "- topic/itemgroup task/info ">
 <!ATTLIST  stepxmp      %global-atts;  class CDATA "- topic/itemgroup task/stepxmp ">
