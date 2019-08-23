@@ -138,9 +138,6 @@
                copy-to
                           CDATA
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %topicref-atts;
                %univ-atts;"
 >
@@ -234,9 +231,6 @@
                query
                           CDATA
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %topicref-atts;
                %univ-atts;"
 >
@@ -258,9 +252,6 @@
                           CDATA
                                     #IMPLIED
                query
-                          CDATA
-                                    #IMPLIED
-               outputclass
                           CDATA
                                     #IMPLIED
                %topicref-atts;
@@ -364,10 +355,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  summary %summary.content;>
 <!ATTLIST  summary %summary.attributes;>
@@ -432,9 +420,6 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                value
                           CDATA
                                     #REQUIRED"
@@ -452,10 +437,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  revisionid %revisionid.content;>
 <!ATTLIST  revisionid %revisionid.attributes;>
@@ -477,10 +459,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  started %started.content;>
 <!ATTLIST  started %started.attributes;>
@@ -502,10 +481,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  completed %completed.content;>
 <!ATTLIST  completed %completed.attributes;>
@@ -521,10 +497,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  year %year.content;>
 <!ATTLIST  year %year.attributes;>
@@ -540,10 +513,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  month %month.content;>
 <!ATTLIST  month %month.attributes;>
@@ -559,10 +529,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  day %day.content;>
 <!ATTLIST  day %day.attributes;>
@@ -686,10 +653,7 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  bookeventtype %bookeventtype.content;>
 <!ATTLIST  bookeventtype %bookeventtype.attributes;>
@@ -848,9 +812,6 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                value
                           CDATA
                                     #REQUIRED"
@@ -890,10 +851,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  booklibrary %booklibrary.content;>
 <!ATTLIST  booklibrary %booklibrary.attributes;>
@@ -909,10 +867,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  mainbooktitle %mainbooktitle.content;>
 <!ATTLIST  mainbooktitle %mainbooktitle.attributes;>
@@ -928,10 +883,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  booktitlealt %booktitlealt.content;>
 <!ATTLIST  booktitlealt %booktitlealt.attributes;>

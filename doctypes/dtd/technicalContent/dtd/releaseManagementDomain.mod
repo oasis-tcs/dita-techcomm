@@ -49,9 +49,6 @@
               "%univ-atts;
                datatype
                           CDATA
-                                    #IMPLIED
-               outputclass
-                          CDATA
                                     #IMPLIED"
 >
 <!--                    LONG NAME: Change History List             -->

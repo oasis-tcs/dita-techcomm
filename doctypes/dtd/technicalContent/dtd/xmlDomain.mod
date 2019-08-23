@@ -35,10 +35,7 @@
                          %text;)*"
 >
 <!ENTITY % numcharref.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  numcharref %numcharref.content;>
 <!ATTLIST  numcharref %numcharref.attributes;>
@@ -52,10 +49,7 @@
                          %text;)*"
 >
 <!ENTITY % parameterentity.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  parameterentity %parameterentity.content;>
 <!ATTLIST  parameterentity %parameterentity.attributes;>
@@ -69,10 +63,7 @@
                          %text;)*"
 >
 <!ENTITY % textentity.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  textentity %textentity.content;>
 <!ATTLIST  textentity %textentity.attributes;>
@@ -86,10 +77,7 @@
                          %text;)*"
 >
 <!ENTITY % xmlatt.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  xmlatt %xmlatt.content;>
 <!ATTLIST  xmlatt %xmlatt.attributes;>
@@ -103,10 +91,7 @@
                          %text;)*"
 >
 <!ENTITY % xmlelement.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  xmlelement %xmlelement.content;>
 <!ATTLIST  xmlelement %xmlelement.attributes;>
@@ -120,10 +105,7 @@
                          %text;)*"
 >
 <!ENTITY % xmlnsname.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  xmlnsname %xmlnsname.content;>
 <!ATTLIST  xmlnsname %xmlnsname.attributes;>
@@ -137,10 +119,7 @@
                          %text;)*"
 >
 <!ENTITY % xmlpi.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  xmlpi %xmlpi.content;>
 <!ATTLIST  xmlpi %xmlpi.attributes;>

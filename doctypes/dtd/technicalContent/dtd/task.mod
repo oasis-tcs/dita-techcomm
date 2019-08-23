@@ -104,6 +104,9 @@
                           CDATA
                                     #IMPLIED
                %base-attribute-extensions;
+               outputclass
+                          CDATA
+                                    #IMPLIED
                rev
                           CDATA
                                     #IMPLIED
@@ -180,10 +183,7 @@
                        "(%section.notitle.cnt;)*"
 >
 <!ENTITY % prereq.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  prereq %prereq.content;>
 <!ATTLIST  prereq %prereq.attributes;>
@@ -194,10 +194,7 @@
                        "(%section.notitle.cnt;)*"
 >
 <!ENTITY % context.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  context %context.content;>
 <!ATTLIST  context %context.attributes;>
@@ -208,10 +205,7 @@
                        "(%section.notitle.cnt;)*"
 >
 <!ENTITY % steps-informal.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  steps-informal %steps-informal.content;>
 <!ATTLIST  steps-informal %steps-informal.attributes;>
@@ -225,10 +219,7 @@
                           (%step;))+)"
 >
 <!ENTITY % steps.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  steps %steps.content;>
 <!ATTLIST  steps %steps.attributes;>
@@ -242,10 +233,7 @@
                           (%step;))+)"
 >
 <!ENTITY % steps-unordered.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  steps-unordered %steps-unordered.content;>
 <!ATTLIST  steps-unordered %steps-unordered.attributes;>
@@ -256,10 +244,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % stepsection.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  stepsection %stepsection.content;>
 <!ATTLIST  stepsection %stepsection.attributes;>
@@ -285,10 +270,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance-task;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance-task;"
 >
 <!ELEMENT  step %step.content;>
 <!ATTLIST  step %step.attributes;>
@@ -302,10 +284,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  cmd %cmd.content;>
 <!ATTLIST  cmd %cmd.attributes;>
@@ -316,10 +295,7 @@
                        "(%itemgroup.cnt;)*"
 >
 <!ENTITY % info.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  info %info.content;>
 <!ATTLIST  info %info.attributes;>
@@ -332,10 +308,7 @@
                          (%substep;)+)"
 >
 <!ENTITY % substeps.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  substeps %substeps.content;>
 <!ATTLIST  substeps %substeps.attributes;>
@@ -357,10 +330,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance-task;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance-task;"
 >
 <!ELEMENT  substep %substep.content;>
 <!ATTLIST  substep %substep.attributes;>
@@ -371,10 +341,7 @@
                        "(%itemgroup.cnt;)*"
 >
 <!ENTITY % tutorialinfo.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  tutorialinfo %tutorialinfo.content;>
 <!ATTLIST  tutorialinfo %tutorialinfo.attributes;>
@@ -385,10 +352,7 @@
                        "(%itemgroup.cnt;)*"
 >
 <!ENTITY % stepxmp.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  stepxmp %stepxmp.content;>
 <!ATTLIST  stepxmp %stepxmp.attributes;>
@@ -401,10 +365,7 @@
                          (%choice;)+)"
 >
 <!ENTITY % choices.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  choices %choices.content;>
 <!ATTLIST  choices %choices.attributes;>
@@ -415,10 +376,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % choice.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  choice %choice.content;>
 <!ATTLIST  choice %choice.attributes;>
@@ -443,10 +401,7 @@
                           CDATA
                                     #IMPLIED
                %display-atts;
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  choicetable %choicetable.content;>
 <!ATTLIST  choicetable %choicetable.attributes;>
@@ -458,10 +413,7 @@
                          (%chdeschd;))"
 >
 <!ENTITY % chhead.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  chhead %chhead.content;>
 <!ATTLIST  chhead %chhead.attributes;>
@@ -475,10 +427,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  choptionhd %choptionhd.content;>
 <!ATTLIST  choptionhd %choptionhd.attributes;>
@@ -492,10 +441,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  chdeschd %chdeschd.content;>
 <!ATTLIST  chdeschd %chdeschd.attributes;>
@@ -507,10 +453,7 @@
                          (%chdesc;))"
 >
 <!ENTITY % chrow.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  chrow %chrow.content;>
 <!ATTLIST  chrow %chrow.attributes;>
@@ -524,10 +467,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  choption %choption.content;>
 <!ATTLIST  choption %choption.attributes;>
@@ -541,10 +481,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  chdesc %chdesc.content;>
 <!ATTLIST  chdesc %chdesc.attributes;>
@@ -555,10 +492,7 @@
                        "(%itemgroup.cnt;)*"
 >
 <!ENTITY % stepresult.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  stepresult %stepresult.content;>
 <!ATTLIST  stepresult %stepresult.attributes;>
@@ -569,10 +503,7 @@
                        "(%itemgroup.cnt;)*"
 >
 <!ENTITY % steptroubleshooting.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  steptroubleshooting %steptroubleshooting.content;>
 <!ATTLIST  steptroubleshooting %steptroubleshooting.attributes;>
@@ -583,10 +514,7 @@
                        "(%section.notitle.cnt;)*"
 >
 <!ENTITY % tasktroubleshooting.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  tasktroubleshooting %tasktroubleshooting.content;>
 <!ATTLIST  tasktroubleshooting %tasktroubleshooting.attributes;>
@@ -597,10 +525,7 @@
                        "(%section.notitle.cnt;)*"
 >
 <!ENTITY % result.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  result %result.content;>
 <!ATTLIST  result %result.attributes;>
@@ -611,10 +536,7 @@
                        "(%section.notitle.cnt;)*"
 >
 <!ENTITY % postreq.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  postreq %postreq.content;>
 <!ATTLIST  postreq %postreq.attributes;>

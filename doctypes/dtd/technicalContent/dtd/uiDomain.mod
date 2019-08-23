@@ -60,10 +60,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  uicontrol %uicontrol.content;>
 <!ATTLIST  uicontrol %uicontrol.attributes;>
@@ -78,10 +75,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  wintitle %wintitle.content;>
 <!ATTLIST  wintitle %wintitle.attributes;>
@@ -95,10 +89,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  menucascade %menucascade.content;>
 <!ATTLIST  menucascade %menucascade.attributes;>
@@ -113,10 +104,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  shortcut %shortcut.content;>
 <!ATTLIST  shortcut %shortcut.attributes;>
@@ -139,10 +127,7 @@
                           (preserve)
                                     #FIXED 
                                     'preserve'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  screen %screen.content;>
 <!ATTLIST  screen %screen.attributes;>

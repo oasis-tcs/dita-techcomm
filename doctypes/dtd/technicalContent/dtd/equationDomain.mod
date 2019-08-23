@@ -34,10 +34,7 @@
                        "(%equation.cnt;)*"
 >
 <!ENTITY % equation-inline.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  equation-inline %equation-inline.content;>
 <!ATTLIST  equation-inline %equation-inline.attributes;>
@@ -49,10 +46,7 @@
                          %equation-number;)*"
 >
 <!ENTITY % equation-block.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  equation-block %equation-block.content;>
 <!ATTLIST  equation-block %equation-block.attributes;>
@@ -65,10 +59,7 @@
                          %text;)*"
 >
 <!ENTITY % equation-number.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  equation-number %equation-number.content;>
 <!ATTLIST  equation-number %equation-number.attributes;>
@@ -86,10 +77,7 @@
                spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  equation-figure %equation-figure.content;>
 <!ATTLIST  equation-figure %equation-figure.attributes;>

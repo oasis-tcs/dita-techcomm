@@ -64,9 +64,6 @@
                copy-to
                           CDATA
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                collection-type
                           (choice |
                            family |

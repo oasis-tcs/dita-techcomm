@@ -134,10 +134,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  organizationnamedetails %organizationnamedetails.content;>
 <!ATTLIST  organizationnamedetails %organizationnamedetails.attributes;>
@@ -151,10 +148,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  organizationname %organizationname.content;>
 <!ATTLIST  organizationname %organizationname.attributes;>
@@ -264,10 +258,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  addressdetails %addressdetails.content;>
 <!ATTLIST  addressdetails %addressdetails.attributes;>
@@ -283,10 +274,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  locality %locality.content;>
 <!ATTLIST  locality %locality.attributes;>
@@ -300,10 +288,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  localityname %localityname.content;>
 <!ATTLIST  localityname %localityname.attributes;>
@@ -317,10 +302,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  administrativearea %administrativearea.content;>
 <!ATTLIST  administrativearea %administrativearea.attributes;>
@@ -334,10 +316,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  thoroughfare %thoroughfare.content;>
 <!ATTLIST  thoroughfare %thoroughfare.attributes;>
@@ -353,10 +332,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  postalcode %postalcode.content;>
 <!ATTLIST  postalcode %postalcode.attributes;>
@@ -372,10 +348,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  country %country.content;>
 <!ATTLIST  country %country.attributes;>

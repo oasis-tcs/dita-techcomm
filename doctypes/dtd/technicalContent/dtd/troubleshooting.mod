@@ -118,9 +118,6 @@
               "%univ-atts;
                spectitle
                           CDATA
-                                    #IMPLIED
-               outputclass
-                          CDATA
                                     #IMPLIED"
 >
 <!ELEMENT  cause %cause.content;>
@@ -134,9 +131,6 @@
 <!ENTITY % condition.attributes
               "%univ-atts;
                spectitle
-                          CDATA
-                                    #IMPLIED
-               outputclass
                           CDATA
                                     #IMPLIED"
 >
@@ -156,10 +150,7 @@
               "spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  remedy %remedy.content;>
 <!ATTLIST  remedy %remedy.attributes;>
@@ -170,10 +161,7 @@
                        "(%para.cnt;)*"
 >
 <!ENTITY % responsibleParty.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  responsibleParty %responsibleParty.content;>
 <!ATTLIST  responsibleParty %responsibleParty.attributes;>
@@ -185,10 +173,7 @@
                          (%remedy;)*)"
 >
 <!ENTITY % troubleSolution.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  troubleSolution %troubleSolution.content;>
 <!ATTLIST  troubleSolution %troubleSolution.attributes;>

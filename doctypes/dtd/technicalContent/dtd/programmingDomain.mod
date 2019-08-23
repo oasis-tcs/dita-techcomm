@@ -87,6 +87,9 @@
                %id-atts;
                %filter-atts;
                %localization-atts;
+               outputclass
+                          CDATA
+                                    #IMPLIED
                rev
                           CDATA
                                     #IMPLIED
@@ -108,10 +111,7 @@
                          %required-cleanup;)*"
 >
 <!ENTITY % codeph.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  codeph %codeph.content;>
 <!ATTLIST  codeph %codeph.attributes;>
@@ -135,10 +135,7 @@
                           (preserve)
                                     #FIXED 
                                     'preserve'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  codeblock %codeblock.content;>
 <!ATTLIST  codeblock %codeblock.attributes;>
@@ -167,10 +164,7 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  coderef %coderef.content;>
 <!ATTLIST  coderef %coderef.attributes;>
@@ -185,10 +179,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  option %option.content;>
 <!ATTLIST  option %option.attributes;>
@@ -205,10 +196,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  var %var.content;>
 <!ATTLIST  var %var.attributes;>
@@ -223,10 +211,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  parmname %parmname.content;>
 <!ATTLIST  parmname %parmname.attributes;>
@@ -247,10 +232,7 @@
                          %var;)*"
 >
 <!ENTITY % synph.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  synph %synph.content;>
 <!ATTLIST  synph %synph.attributes;>
@@ -267,10 +249,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  oper %oper.content;>
 <!ATTLIST  oper %oper.attributes;>
@@ -286,10 +265,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  delim %delim.content;>
 <!ATTLIST  delim %delim.attributes;>
@@ -305,10 +281,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  sep %sep.content;>
 <!ATTLIST  sep %sep.attributes;>
@@ -323,10 +296,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  apiname %apiname.content;>
 <!ATTLIST  apiname %apiname.attributes;>
@@ -347,10 +317,7 @@
                spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  parml %parml.content;>
 <!ATTLIST  parml %parml.attributes;>
@@ -362,10 +329,7 @@
                          (%pd;)+)"
 >
 <!ENTITY % plentry.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  plentry %plentry.content;>
 <!ATTLIST  plentry %plentry.attributes;>
@@ -379,10 +343,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  pt %pt.content;>
 <!ATTLIST  pt %pt.attributes;>
@@ -393,10 +354,7 @@
                        "(%defn.cnt;)*"
 >
 <!ENTITY % pd.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  pd %pd.content;>
 <!ATTLIST  pd %pd.attributes;>
@@ -416,10 +374,7 @@
 >
 <!ENTITY % syntaxdiagram.attributes
               "%display-atts;
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  syntaxdiagram %syntaxdiagram.content;>
 <!ATTLIST  syntaxdiagram %syntaxdiagram.attributes;>
@@ -437,10 +392,7 @@
                           %synnoteref;)*)"
 >
 <!ENTITY % synblk.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  synblk %synblk.content;>
 <!ATTLIST  synblk %synblk.attributes;>
@@ -469,10 +421,7 @@
                            optional |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  groupseq %groupseq.content;>
 <!ATTLIST  groupseq %groupseq.attributes;>
@@ -501,10 +450,7 @@
                            optional |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  groupchoice %groupchoice.content;>
 <!ATTLIST  groupchoice %groupchoice.attributes;>
@@ -533,10 +479,7 @@
                            optional |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  groupcomp %groupcomp.content;>
 <!ATTLIST  groupcomp %groupcomp.attributes;>
@@ -553,10 +496,7 @@
                           %synnoteref;)*)"
 >
 <!ENTITY % fragment.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  fragment %fragment.content;>
 <!ATTLIST  fragment %fragment.attributes;>
@@ -575,10 +515,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  fragref %fragref.content;>
 <!ATTLIST  fragref %fragref.attributes;>
@@ -593,10 +530,7 @@
               "callout
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  synnote %synnote.content;>
 <!ATTLIST  synnote %synnote.attributes;>
@@ -610,10 +544,7 @@
               "href
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  synnoteref %synnoteref.content;>
 <!ATTLIST  synnoteref %synnoteref.attributes;>
@@ -629,10 +560,7 @@
                            required |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  repsep %repsep.content;>
 <!ATTLIST  repsep %repsep.attributes;>
@@ -653,10 +581,7 @@
                            optional |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts-no-importance;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts-no-importance;"
 >
 <!ELEMENT  kwd %kwd.content;>
 <!ATTLIST  kwd %kwd.attributes;>

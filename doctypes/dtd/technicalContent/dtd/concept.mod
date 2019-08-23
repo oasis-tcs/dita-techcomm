@@ -114,10 +114,7 @@
                          %section;)*"
 >
 <!ENTITY % conbodydiv.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  conbodydiv %conbodydiv.content;>
 <!ATTLIST  conbodydiv %conbodydiv.attributes;>

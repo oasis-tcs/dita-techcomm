@@ -127,10 +127,7 @@
                        "(%abstract.cnt;)*"
 >
 <!ENTITY % glossdef.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossdef %glossdef.content;>
 <!ATTLIST  glossdef %glossdef.attributes;>
@@ -297,10 +294,7 @@
                          %tm;)*"
 >
 <!ENTITY % glossSurfaceForm.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossSurfaceForm %glossSurfaceForm.content;>
 <!ATTLIST  glossSurfaceForm %glossSurfaceForm.attributes;>
@@ -329,10 +323,7 @@
                othertype
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossUsage %glossUsage.content;>
 <!ATTLIST  glossUsage %glossUsage.attributes;>
@@ -361,10 +352,7 @@
                othertype
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossScopeNote %glossScopeNote.content;>
 <!ATTLIST  glossScopeNote %glossScopeNote.attributes;>
@@ -413,10 +401,7 @@
                            inline |
                            -dita-use-conref-target)
                                     'inline'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossSymbol %glossSymbol.content;>
 <!ATTLIST  glossSymbol %glossSymbol.attributes;>
@@ -435,10 +420,7 @@
                          (%glossAlternateFor;)*)"
 >
 <!ENTITY % glossAlt.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossAlt %glossAlt.content;>
 <!ATTLIST  glossAlt %glossAlt.attributes;>
@@ -467,10 +449,7 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossAlternateFor %glossAlternateFor.content;>
 <!ATTLIST  glossAlternateFor %glossAlternateFor.attributes;>

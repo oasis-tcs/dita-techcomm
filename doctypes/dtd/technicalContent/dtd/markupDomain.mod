@@ -28,10 +28,7 @@
                          %text;)*"
 >
 <!ENTITY % markupname.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  markupname %markupname.content;>
 <!ATTLIST  markupname %markupname.attributes;>

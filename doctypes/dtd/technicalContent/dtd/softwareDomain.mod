@@ -59,10 +59,7 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % msgph.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  msgph %msgph.content;>
 <!ATTLIST  msgph %msgph.attributes;>
@@ -79,9 +76,6 @@
                           CDATA
                                     #IMPLIED
                %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED
                xml:space
                           (preserve)
                                     #FIXED 
@@ -100,10 +94,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  msgnum %msgnum.content;>
 <!ATTLIST  msgnum %msgnum.attributes;>
@@ -118,10 +109,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  cmdname %cmdname.content;>
 <!ATTLIST  cmdname %cmdname.attributes;>
@@ -136,10 +124,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  varname %varname.content;>
 <!ATTLIST  varname %varname.attributes;>
@@ -150,10 +135,7 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % filepath.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  filepath %filepath.content;>
 <!ATTLIST  filepath %filepath.attributes;>
@@ -164,10 +146,7 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % userinput.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  userinput %userinput.content;>
 <!ATTLIST  userinput %userinput.attributes;>
@@ -178,10 +157,7 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % systemoutput.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  systemoutput %systemoutput.content;>
 <!ATTLIST  systemoutput %systemoutput.attributes;>

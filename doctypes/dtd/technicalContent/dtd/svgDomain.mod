@@ -30,10 +30,7 @@
                          %data-about;)*"
 >
 <!ENTITY % svg-container.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  svg-container %svg-container.content;>
 <!ATTLIST  svg-container %svg-container.attributes;>
@@ -53,10 +50,7 @@
                format
                           CDATA
                                     'svg'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  svgref %svgref.content;>
 <!ATTLIST  svgref %svgref.attributes;>

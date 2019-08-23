@@ -50,10 +50,7 @@
               "keyref
                           CDATA
                                     #REQUIRED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  abbreviated-form %abbreviated-form.content;>
 <!ATTLIST  abbreviated-form %abbreviated-form.attributes;>

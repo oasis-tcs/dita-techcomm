@@ -138,10 +138,7 @@
                          %table;)*"
 >
 <!ENTITY % refbodydiv.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  refbodydiv %refbodydiv.content;>
 <!ATTLIST  refbodydiv %refbodydiv.attributes;>
@@ -155,10 +152,7 @@
               "spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  refsyn %refsyn.content;>
 <!ATTLIST  refsyn %refsyn.attributes;>
@@ -183,10 +177,7 @@
                           CDATA
                                     #IMPLIED
                %display-atts;
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  properties %properties.content;>
 <!ATTLIST  properties %properties.attributes;>
@@ -199,10 +190,7 @@
                          (%propdeschd;)?)"
 >
 <!ENTITY % prophead.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  prophead %prophead.content;>
 <!ATTLIST  prophead %prophead.attributes;>
@@ -216,10 +204,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  proptypehd %proptypehd.content;>
 <!ATTLIST  proptypehd %proptypehd.attributes;>
@@ -233,10 +218,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propvaluehd %propvaluehd.content;>
 <!ATTLIST  propvaluehd %propvaluehd.attributes;>
@@ -250,10 +232,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propdeschd %propdeschd.content;>
 <!ATTLIST  propdeschd %propdeschd.attributes;>
@@ -266,10 +245,7 @@
                          (%propdesc;)?)"
 >
 <!ENTITY % property.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  property %property.content;>
 <!ATTLIST  property %property.attributes;>
@@ -283,10 +259,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  proptype %proptype.content;>
 <!ATTLIST  proptype %proptype.attributes;>
@@ -300,10 +273,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propvalue %propvalue.content;>
 <!ATTLIST  propvalue %propvalue.attributes;>
@@ -317,10 +287,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propdesc %propdesc.content;>
 <!ATTLIST  propdesc %propdesc.attributes;>
