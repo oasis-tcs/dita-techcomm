@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ev
+set -e
 
 # Install DITA-OT
 curl -sfL https://github.com/dita-ot/dita-ot/releases/download/$DITA_OT_VERSION/dita-ot-$DITA_OT_VERSION.zip -o dita-ot-$DITA_OT_VERSION.zip
