@@ -191,6 +191,9 @@ ORIGINAL CREATION DATE:
         </attribute>
       </optional>
       <ref name="localization-atts"/>
+      <optional>
+        <attribute name="outputclass"/>
+      </optional>
     </define>
 
   </div>
@@ -322,9 +325,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="prereq.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="prereq.element">
         <element name="prereq" dita:longName="Prerequisites">
@@ -350,9 +350,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="context.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="context.element">
         <element name="context" dita:longName="Context">
@@ -378,9 +375,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="steps-informal.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <a:documentation>
         <![CDATA[The <steps-informal> element allows authors to describe procedural task information that would not normally be described as steps. ]]></a:documentation>
@@ -415,9 +409,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="steps.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="steps.element">
         <element name="steps" dita:longName="Steps">
@@ -454,9 +445,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="steps-unordered.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="steps-unordered.element">
         <element name="steps-unordered" dita:longName="Unordered steps">
@@ -482,9 +470,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="stepsection.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <a:documentation>
         <![CDATA[The <stepsection> element provides expository text before a step element. Although the element is specialized from <li> and has the same content model as a list item, this is not considered a step, and rendering engines may choose to skip this element when numbering steps. ]]></a:documentation>
@@ -535,9 +520,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance-task"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="step.element">
         <element name="step" dita:longName="Step">
@@ -566,9 +548,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="cmd.element">
         <element name="cmd" dita:longName="Command">
@@ -594,9 +573,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="info.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="info.element">
         <element name="info" dita:longName="Information">
@@ -627,9 +603,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="substeps.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="substeps.element">
         <element name="substeps" dita:longName="Sub-steps">
@@ -676,9 +649,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance-task"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="substep.element">
         <element name="substep" dita:longName="Sub-step">
@@ -704,9 +674,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="tutorialinfo.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="tutorialinfo.element">
         <element name="tutorialinfo" dita:longName="Tutorial Information">
@@ -732,9 +699,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="stepxmp.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="stepxmp.element">
         <element name="stepxmp" dita:longName="Step Example">
@@ -766,9 +730,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="choices.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="choices.element">
         <element name="choices" dita:longName="Choices">
@@ -794,9 +755,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="choice.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="choice.element">
         <element name="choice" dita:longName="Choice">
@@ -842,9 +800,6 @@ ORIGINAL CREATION DATE:
         </optional>
         <ref name="display-atts"/>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="choicetable.element">
         <element name="choicetable" dita:longName="Choice Table">
@@ -869,9 +824,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="chhead.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="chhead.element">
         <element name="chhead" dita:longName="Choice Head">
@@ -900,9 +852,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="choptionhd.element">
         <element name="choptionhd" dita:longName="Choice Option Head">
@@ -931,9 +880,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="chdeschd.element">
         <element name="chdeschd" dita:longName="Choice Description Head">
@@ -958,9 +904,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="chrow.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="chrow.element">
         <element name="chrow" dita:longName="Choice Row">
@@ -989,9 +932,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="choption.element">
         <element name="choption" dita:longName="Choice Option">
@@ -1020,9 +960,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="chdesc.element">
         <element name="chdesc" dita:longName="Choice Description">
@@ -1048,9 +985,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="stepresult.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="stepresult.element">
         <element name="stepresult" dita:longName="Step Result">
@@ -1076,9 +1010,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="steptroubleshooting.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="steptroubleshooting.element">
         <element name="steptroubleshooting" dita:longName="Step Troubleshooting" dita:since="1.3">
@@ -1104,9 +1035,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="tasktroubleshooting.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="tasktroubleshooting.element">
         <element name="tasktroubleshooting" dita:longName="Task Troubleshooting" dita:since="1.3">
@@ -1132,9 +1060,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="result.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="result.element">
         <element name="result" dita:longName="Result">
@@ -1160,9 +1085,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="postreq.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="postreq.element">
         <element name="postreq" dita:longName="Post Requirements">

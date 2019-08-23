@@ -206,9 +206,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="glossdef.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossdef.element">
         <element name="glossdef" dita:longName="Glossary Definition">
@@ -500,9 +497,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="glossSurfaceForm.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossSurfaceForm.element">
         <element name="glossSurfaceForm" dita:longName="Glossary Surface Form">
@@ -548,9 +542,6 @@ ORIGINAL CREATION DATE:
           <attribute name="othertype"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossUsage.element">
         <element name="glossUsage" dita:longName="Glossary Usage">
@@ -595,9 +586,6 @@ ORIGINAL CREATION DATE:
           <attribute name="othertype"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossScopeNote.element">
         <element name="glossScopeNote" dita:longName="Glossary Scope Note">
@@ -680,9 +668,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossSymbol.element">
         <element name="glossSymbol" dita:longName="Glossary Symbol">
@@ -725,9 +710,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="glossAlt.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossAlt.element">
         <element name="glossAlt" dita:longName="Glossary Alternate Form">
@@ -771,9 +753,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="glossAlternateFor.element">
         <element name="glossAlternateFor" dita:longName="Glossary - Alternate For">

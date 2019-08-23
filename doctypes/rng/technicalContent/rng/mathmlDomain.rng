@@ -106,9 +106,6 @@ All Rights Reserved.
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
 
       <define name="mathmlref.element">
@@ -181,9 +178,6 @@ elements
 
       <define name="mathml.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
 
       <define name="mathml.element">

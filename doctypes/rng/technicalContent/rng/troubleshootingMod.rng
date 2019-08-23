@@ -204,9 +204,6 @@ ORIGINAL CREATION DATE:
         <optional>
           <attribute name="spectitle"/>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="cause.element">
         <element name="cause" dita:longName="Cause" dita:since="1.3">
@@ -233,9 +230,6 @@ ORIGINAL CREATION DATE:
         <ref name="univ-atts"/>
         <optional>
           <attribute name="spectitle"/>
-        </optional>
-        <optional>
-          <attribute name="outputclass"/>
         </optional>
       </define>
       <define name="condition.element">
@@ -272,9 +266,6 @@ ORIGINAL CREATION DATE:
           <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="remedy.element">
         <element name="remedy" dita:longName="Remedy" dita:since="1.3">
@@ -299,9 +290,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="responsibleParty.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="responsibleParty.element">
         <element name="responsibleParty" dita:longName="Responsible Party" dita:since="1.3">
@@ -331,9 +319,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="troubleSolution.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="troubleSolution.element">
         <element name="troubleSolution" dita:longName="Trouble Solution" dita:since="1.3">

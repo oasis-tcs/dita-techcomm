@@ -193,9 +193,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="conbodydiv.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="conbodydiv.element">
         <element name="conbodydiv" dita:longName="Concept Body division">

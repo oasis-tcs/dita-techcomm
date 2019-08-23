@@ -94,9 +94,6 @@ PUBLIC "-//OASIS//ENTITIES DITA Release Management Domain//EN"
       <optional>
         <attribute name="datatype"/>
       </optional>
-      <optional>
-        <attribute name="outputclass"/>
-      </optional>
     </define>
   </div>
   <div>

@@ -238,9 +238,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="organizationnamedetails.element">
         <element name="organizationnamedetails" dita:longName="Organization Details">
@@ -267,9 +264,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="organizationname.element">
         <element name="organizationname" dita:longName="Organization Name">
@@ -498,9 +492,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="addressdetails.element">
         <element name="addressdetails" dita:longName="Address Details">
@@ -531,9 +522,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="locality.element">
         <element name="locality" dita:longName="Locality">
@@ -560,9 +548,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="localityname.element">
         <element name="localityname" dita:longName="Locality Name">
@@ -589,9 +574,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="administrativearea.element">
         <element name="administrativearea" dita:longName="Administrative Area">
@@ -618,9 +600,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="thoroughfare.element">
         <element name="thoroughfare" dita:longName="Thoroughfare">
@@ -651,9 +630,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="postalcode.element">
         <element name="postalcode" dita:longName="Postal Code">
@@ -684,9 +660,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="country.element">
         <element name="country" dita:longName="Country">

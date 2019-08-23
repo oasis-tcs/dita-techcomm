@@ -81,9 +81,6 @@ ORIGINAL CREATION DATE:
       <define name="abbreviated-form.attributes">
         <attribute name="keyref"/>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="abbreviated-form.element">
         <element name="abbreviated-form" dita:longName="Abbreviated Form">

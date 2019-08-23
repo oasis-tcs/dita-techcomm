@@ -267,9 +267,6 @@ ORIGINAL CREATION DATE:
       <optional>
         <attribute name="copy-to"/>
       </optional>
-      <optional>
-        <attribute name="outputclass"/>
-      </optional>
       <ref name="topicref-atts"/>
       <ref name="univ-atts"/>
     </define>
@@ -457,9 +454,6 @@ ORIGINAL CREATION DATE:
         <optional>
           <attribute name="query"/>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
         <ref name="topicref-atts"/>
         <ref name="univ-atts"/>
       </define>
@@ -496,9 +490,6 @@ ORIGINAL CREATION DATE:
         </optional>
         <optional>
           <attribute name="query"/>
-        </optional>
-        <optional>
-          <attribute name="outputclass"/>
         </optional>
         <ref name="topicref-atts"/>
         <ref name="univ-atts"/>
@@ -704,9 +695,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="summary.element">
         <element name="summary" dita:longName="Summary">
@@ -823,9 +811,6 @@ ORIGINAL CREATION DATE:
             </choice>
           </attribute>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
         <attribute name="value"/>
       </define>
       <define name="publishtype.element">
@@ -856,9 +841,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="revisionid.element">
         <element name="revisionid" dita:longName="Revision ID">
@@ -917,9 +899,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="started.element">
         <element name="started" dita:longName="Start Date">
@@ -965,9 +944,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="completed.element">
         <element name="completed" dita:longName="Completion Date">
@@ -997,9 +973,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="year.element">
         <element name="year" dita:longName="Year">
@@ -1029,9 +1002,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="month.element">
         <element name="month" dita:longName="Month">
@@ -1061,9 +1031,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="day.element">
         <element name="day" dita:longName="Day">
@@ -1319,9 +1286,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="bookeventtype.element">
         <element name="bookeventtype" dita:longName="Book Event Type">
@@ -1621,9 +1585,6 @@ ORIGINAL CREATION DATE:
             </choice>
           </attribute>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
         <attribute name="value"/>
       </define>
       <define name="bookrestriction.element">
@@ -1690,9 +1651,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="booklibrary.element">
         <element name="booklibrary" dita:longName="Library Title">
@@ -1723,9 +1681,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="mainbooktitle.element">
         <element name="mainbooktitle" dita:longName="Main Book Title">
@@ -1755,9 +1710,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="booktitlealt.element">
         <element name="booktitlealt" dita:longName="Alternate Book Title">
