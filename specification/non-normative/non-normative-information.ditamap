@@ -6,5 +6,6 @@
         <mapref href="../baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
             format="ditamap"/>
         <topicref href="formatting-expectations.dita"/>
+        <topicref href="elementsMerged.dita"/>
     </topicref>
 </map>
