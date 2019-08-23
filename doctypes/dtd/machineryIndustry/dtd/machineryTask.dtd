@@ -90,10 +90,30 @@
 <!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
 <!-- ============================================================= -->
 
+<!ENTITY % audienceAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Audience Attribute Domain//EN"
+         "audienceAttDomain.ent"
+>%audienceAtt-d-dec;
+
 <!ENTITY % deliveryTargetAtt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Delivery Target Attribute Domain//EN"
-         "../../base/dtd/deliveryTargetAttDomain.ent"
+         "deliveryTargetAttDomain.ent"
 >%deliveryTargetAtt-d-dec;
+
+<!ENTITY % platformAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Platform Attribute Domain//EN"
+         "platformAttDomain.ent"
+>%platformAtt-d-dec;
+
+<!ENTITY % productAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Product Attribute Domain//EN"
+         "productAttDomain.ent"
+>%productAtt-d-dec;
+
+<!ENTITY % otherpropsAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Otherprops Attribute Domain//EN"
+         "otherpropsAttDomain.ent"
+>%otherpropsAtt-d-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
@@ -136,7 +156,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY % props-attribute-extensions
-  "%deliveryTargetAtt-d-attribute;"
+  "%audienceAtt-d-attribute;
+  %deliveryTargetAtt-d-attribute;
+  %platformAtt-d-attribute;
+  %productAtt-d-attribute;
+  %otherpropsAtt-d-attribute;"
 >
 <!ENTITY % base-attribute-extensions
   ""
@@ -156,7 +180,11 @@
 
 <!ENTITY included-domains
                           "&task-att;
+                           &audienceAtt-d-att;
                            &deliveryTargetAtt-d-att;
+                           &otherpropsAtt-d-att;
+                           &platformAtt-d-att;
+                           &productAtt-d-att;
                            &hazard-d-att;
                            &hi-d-att;
                            &svg-d-att;
