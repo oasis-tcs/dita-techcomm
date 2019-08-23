@@ -24,15 +24,20 @@
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             June 2006                                         -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2006, 2009.              -->
+<!--             (C) Copyright OASIS Open 2006, 2019.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
+<!--    2007.12.01 WEK:  Reformatted DTD modules for DITA 1.2      -->
 <!--    2008.01.30 RDA: Replace @conref defn. with %conref-atts;   -->
-<!--    2008.02.12 RDA: Expand glossary for DITA 1.2                -->
+<!--    2008.02.12 RDA: Expand glossary for DITA 1.2               -->
 <!--    2008.02.13 RDA: Create .content and .attributes entities   -->
 <!--    2009.09.21 WEK: Renamed glossentry.mod                     -->
+<!--    2019.03.23 KJE: Modified content models of                 -->
+<!--                    glossSurfaceForm, glossAcronym,            -->
+<!--                    glossSynonym, glossShortForm, and          -->
+<!--                    glossAbbreviation                          -->
+<!--                                                               -->
 <!-- ============================================================= -->
 <!--                                                               -->
 
@@ -169,7 +174,8 @@
                          %keyword; |
                          %term; |
                          %text; |
-                         %tm;)*"
+                         %tm; |
+                         %ph;)*"
 >
 <!ENTITY % glossAbbreviation.attributes
               "%id-atts;
@@ -192,7 +198,8 @@
                          %keyword; |
                          %term; |
                          %text; |
-                         %tm;)*"
+                         %tm; |
+                         %ph;)*"
 >
 <!ENTITY % glossAcronym.attributes
               "%id-atts;
@@ -215,7 +222,8 @@
                          %keyword; |
                          %term; |
                          %text; |
-                         %tm;)*"
+                         %tm; |
+                         %ph;)*"
 >
 <!ENTITY % glossShortForm.attributes
               "%id-atts;
@@ -238,7 +246,8 @@
                          %keyword; |
                          %term; |
                          %text; |
-                         %tm;)*"
+                         %tm; |
+                         %ph;)*"
 >
 <!ENTITY % glossSynonym.attributes
               "%id-atts;
@@ -294,7 +303,8 @@
                          %keyword; |
                          %term; |
                          %text; |
-                         %tm;)*"
+                         %tm; |
+                         %ph;)*"
 >
 <!ENTITY % glossSurfaceForm.attributes
               "%univ-atts;
