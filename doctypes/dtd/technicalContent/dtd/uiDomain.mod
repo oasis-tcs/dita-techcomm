@@ -60,10 +60,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  uicontrol %uicontrol.content;>
 <!ATTLIST  uicontrol %uicontrol.attributes;>
@@ -78,10 +75,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  wintitle %wintitle.content;>
 <!ATTLIST  wintitle %wintitle.attributes;>
@@ -95,10 +89,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  menucascade %menucascade.content;>
 <!ATTLIST  menucascade %menucascade.attributes;>
@@ -113,10 +104,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  shortcut %shortcut.content;>
 <!ATTLIST  shortcut %shortcut.attributes;>
@@ -139,10 +127,7 @@
                           (preserve)
                                     #FIXED 
                                     'preserve'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  screen %screen.content;>
 <!ATTLIST  screen %screen.attributes;>
@@ -153,11 +138,11 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  menucascade  %global-atts;  class CDATA "+ topic/ph ui-d/menucascade ">
-<!ATTLIST  screen       %global-atts;  class CDATA "+ topic/pre ui-d/screen ">
-<!ATTLIST  shortcut     %global-atts;  class CDATA "+ topic/keyword ui-d/shortcut ">
-<!ATTLIST  uicontrol    %global-atts;  class CDATA "+ topic/ph ui-d/uicontrol ">
-<!ATTLIST  wintitle     %global-atts;  class CDATA "+ topic/keyword ui-d/wintitle ">
+<!ATTLIST  menucascade  class CDATA "+ topic/ph ui-d/menucascade ">
+<!ATTLIST  screen       class CDATA "+ topic/pre ui-d/screen ">
+<!ATTLIST  shortcut     class CDATA "+ topic/keyword ui-d/shortcut ">
+<!ATTLIST  uicontrol    class CDATA "+ topic/ph ui-d/uicontrol ">
+<!ATTLIST  wintitle     class CDATA "+ topic/keyword ui-d/wintitle ">
 
 <!-- ================== End of DITA User Interface Domain ==================== -->
  

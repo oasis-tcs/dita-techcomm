@@ -50,10 +50,7 @@
               "keyref
                           CDATA
                                     #REQUIRED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  abbreviated-form %abbreviated-form.content;>
 <!ATTLIST  abbreviated-form %abbreviated-form.attributes;>
@@ -64,7 +61,7 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  abbreviated-form %global-atts;  class CDATA "+ topic/term abbrev-d/abbreviated-form ">
+<!ATTLIST  abbreviated-form class CDATA "+ topic/term abbrev-d/abbreviated-form ">
 
 <!-- ================== End of DITA Abbreviated Form Domain ==================== -->
  

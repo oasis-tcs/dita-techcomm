@@ -84,11 +84,6 @@
          "../../base/dtd/highlightDomain.ent"
 >%hi-d-dec;
 
-<!ENTITY % indexing-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.ent"
->%indexing-d-dec;
-
 <!ENTITY % markup-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Markup Domain//EN"
          "markupDomain.ent"
@@ -138,10 +133,30 @@
 <!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
 <!-- ============================================================= -->
 
+<!ENTITY % audienceAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Audience Attribute Domain//EN"
+         "audienceAttDomain.ent"
+>%audienceAtt-d-dec;
+
 <!ENTITY % deliveryTargetAtt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Delivery Target Attribute Domain//EN"
-         "../../base/dtd/deliveryTargetAttDomain.ent"
+         "deliveryTargetAttDomain.ent"
 >%deliveryTargetAtt-d-dec;
+
+<!ENTITY % platformAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Platform Attribute Domain//EN"
+         "platformAttDomain.ent"
+>%platformAtt-d-dec;
+
+<!ENTITY % productAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Product Attribute Domain//EN"
+         "productAttDomain.ent"
+>%productAtt-d-dec;
+
+<!ENTITY % otherpropsAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Otherprops Attribute Domain//EN"
+         "otherpropsAttDomain.ent"
+>%otherpropsAtt-d-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
@@ -150,9 +165,6 @@
                         the name of the domain(s) in which the
                         extension was declared                     -->
 
-<!ENTITY % index-base   "index-base |
-                         %indexing-d-index-base;
-                        ">
 <!ENTITY % note         "note |
                          %hazard-d-note;
                         ">
@@ -205,7 +217,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY % props-attribute-extensions
-  "%deliveryTargetAtt-d-attribute;"
+  "%audienceAtt-d-attribute;
+  %deliveryTargetAtt-d-attribute;
+  %platformAtt-d-attribute;
+  %productAtt-d-attribute;
+  %otherpropsAtt-d-attribute;"
 >
 <!ENTITY % base-attribute-extensions
   ""
@@ -226,11 +242,14 @@
 <!ENTITY included-domains
                           "&concept-att;
                            &abbrev-d-att;
+                           &audienceAtt-d-att;
                            &deliveryTargetAtt-d-att;
+                           &otherpropsAtt-d-att;
+                           &platformAtt-d-att;
+                           &productAtt-d-att;
                            &equation-d-att;
                            &hazard-d-att;
                            &hi-d-att;
-                           &indexing-d-att;
                            &markup-d-att;
                            &mathml-d-att;
                            &pr-d-att;
@@ -284,11 +303,6 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
          "../../base/dtd/highlightDomain.mod"
 >%hi-d-def;
-
-<!ENTITY % indexing-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.mod"
->%indexing-d-def;
 
 <!ENTITY % markup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Markup Domain//EN"

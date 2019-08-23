@@ -76,10 +76,7 @@
                          (%safety;)?)"
 >
 <!ENTITY % prelreqs.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  prelreqs %prelreqs.content;>
 <!ATTLIST  prelreqs %prelreqs.attributes;>
@@ -90,10 +87,7 @@
                        "(%reqconds;)"
 >
 <!ENTITY % closereqs.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  closereqs %closereqs.content;>
 <!ATTLIST  closereqs %closereqs.attributes;>
@@ -108,10 +102,7 @@
                            %reqcontp;)+))"
 >
 <!ENTITY % reqconds.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  reqconds %reqconds.content;>
 <!ATTLIST  reqconds %reqconds.attributes;>
@@ -122,10 +113,7 @@
                        "EMPTY"
 >
 <!ENTITY % noconds.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  noconds %noconds.content;>
 <!ATTLIST  noconds %noconds.attributes;>
@@ -136,10 +124,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % reqcond.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  reqcond %reqcond.content;>
 <!ATTLIST  reqcond %reqcond.attributes;>
@@ -150,10 +135,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % reqcontp.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  reqcontp %reqcontp.content;>
 <!ATTLIST  reqcontp %reqcontp.attributes;>
@@ -169,10 +151,7 @@
                            (%esttime;)?)?)+)"
 >
 <!ENTITY % reqpers.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  reqpers %reqpers.content;>
 <!ATTLIST  reqpers %reqpers.attributes;>
@@ -183,10 +162,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % personnel.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  personnel %personnel.content;>
 <!ATTLIST  personnel %personnel.attributes;>
@@ -197,10 +173,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % perscat.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  perscat %perscat.content;>
 <!ATTLIST  perscat %perscat.attributes;>
@@ -211,10 +184,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % perskill.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  perskill %perskill.content;>
 <!ATTLIST  perskill %perskill.attributes;>
@@ -225,10 +195,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % esttime.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  esttime %esttime.content;>
 <!ATTLIST  esttime %esttime.attributes;>
@@ -240,10 +207,7 @@
                          %supeqli;)"
 >
 <!ENTITY % supequip.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  supequip %supequip.content;>
 <!ATTLIST  supequip %supequip.attributes;>
@@ -275,10 +239,7 @@
                spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  supeqli %supeqli.content;>
 <!ATTLIST  supeqli %supeqli.attributes;>
@@ -289,10 +250,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % supequi.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  supequi %supequi.content;>
 <!ATTLIST  supequi %supequi.attributes;>
@@ -304,10 +262,7 @@
                          %supplyli;)"
 >
 <!ENTITY % supplies.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  supplies %supplies.content;>
 <!ATTLIST  supplies %supplies.attributes;>
@@ -339,10 +294,7 @@
                spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  supplyli %supplyli.content;>
 <!ATTLIST  supplyli %supplyli.attributes;>
@@ -353,10 +305,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % supply.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  supply %supply.content;>
 <!ATTLIST  supply %supply.attributes;>
@@ -368,10 +317,7 @@
                          %sparesli;)"
 >
 <!ENTITY % spares.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  spares %spares.content;>
 <!ATTLIST  spares %spares.attributes;>
@@ -403,10 +349,7 @@
                spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  sparesli %sparesli.content;>
 <!ATTLIST  sparesli %sparesli.attributes;>
@@ -417,10 +360,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % spare.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  spare %spare.content;>
 <!ATTLIST  spare %spare.attributes;>
@@ -434,10 +374,7 @@
                           (%safecond;)+))"
 >
 <!ENTITY % safety.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  safety %safety.content;>
 <!ATTLIST  safety %safety.attributes;>
@@ -448,10 +385,7 @@
                        "EMPTY"
 >
 <!ENTITY % nosafety.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  nosafety %nosafety.content;>
 <!ATTLIST  nosafety %nosafety.attributes;>
@@ -462,10 +396,7 @@
                        "(%listitem.cnt;)*"
 >
 <!ENTITY % safecond.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  safecond %safecond.content;>
 <!ATTLIST  safecond %safecond.attributes;>
@@ -476,32 +407,32 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  prelreqs     %global-atts;  class CDATA "+ topic/section task/prereq taskreq-d/prelreqs ">
-<!ATTLIST  closereqs    %global-atts;  class CDATA "+ topic/section task/postreq taskreq-d/closereqs ">
-<!ATTLIST  reqconds     %global-atts;  class CDATA "+ topic/ul task/ul taskreq-d/reqconds ">
-<!ATTLIST  noconds      %global-atts;  class CDATA "+ topic/li task/li taskreq-d/noconds ">
-<!ATTLIST  reqcond      %global-atts;  class CDATA "+ topic/li task/li taskreq-d/reqcond ">
-<!ATTLIST  reqcontp     %global-atts;  class CDATA "+ topic/li task/li taskreq-d/reqcontp ">
-<!ATTLIST  reqpers      %global-atts;  class CDATA "+ topic/ul task/ul taskreq-d/reqpers ">
-<!ATTLIST  personnel    %global-atts;  class CDATA "+ topic/li task/li taskreq-d/personnel ">
-<!ATTLIST  perscat      %global-atts;  class CDATA "+ topic/li task/li taskreq-d/perscat ">
-<!ATTLIST  perskill     %global-atts;  class CDATA "+ topic/li task/li taskreq-d/perskill ">
-<!ATTLIST  esttime      %global-atts;  class CDATA "+ topic/li task/li taskreq-d/esttime ">
-<!ATTLIST  supequip     %global-atts;  class CDATA "+ topic/p task/p taskreq-d/supequip ">
-<!ATTLIST  nosupeq      %global-atts;  class CDATA "+ topic/data task/data taskreq-d/nosupeq ">
-<!ATTLIST  supeqli      %global-atts;  class CDATA "+ topic/ul task/ul taskreq-d/supeqli ">
-<!ATTLIST  supequi      %global-atts;  class CDATA "+ topic/li task/li taskreq-d/supequi ">
-<!ATTLIST  supplies     %global-atts;  class CDATA "+ topic/p task/p taskreq-d/supplies ">
-<!ATTLIST  nosupply     %global-atts;  class CDATA "+ topic/data task/data taskreq-d/nosupply ">
-<!ATTLIST  supplyli     %global-atts;  class CDATA "+ topic/ul task/ul taskreq-d/supplyli ">
-<!ATTLIST  supply       %global-atts;  class CDATA "+ topic/li task/li taskreq-d/supply ">
-<!ATTLIST  spares       %global-atts;  class CDATA "+ topic/p task/p taskreq-d/spares ">
-<!ATTLIST  nospares     %global-atts;  class CDATA "+ topic/data task/data taskreq-d/nospares ">
-<!ATTLIST  sparesli     %global-atts;  class CDATA "+ topic/ul task/ul taskreq-d/sparesli ">
-<!ATTLIST  spare        %global-atts;  class CDATA "+ topic/li task/li taskreq-d/spare ">
-<!ATTLIST  safety       %global-atts;  class CDATA "+ topic/ol task/ol taskreq-d/safety ">
-<!ATTLIST  nosafety     %global-atts;  class CDATA "+ topic/li task/li taskreq-d/nosafety ">
-<!ATTLIST  safecond     %global-atts;  class CDATA "+ topic/li task/li taskreq-d/safecond ">
+<!ATTLIST  prelreqs     class CDATA "+ topic/section task/prereq taskreq-d/prelreqs ">
+<!ATTLIST  closereqs    class CDATA "+ topic/section task/postreq taskreq-d/closereqs ">
+<!ATTLIST  reqconds     class CDATA "+ topic/ul task/ul taskreq-d/reqconds ">
+<!ATTLIST  noconds      class CDATA "+ topic/li task/li taskreq-d/noconds ">
+<!ATTLIST  reqcond      class CDATA "+ topic/li task/li taskreq-d/reqcond ">
+<!ATTLIST  reqcontp     class CDATA "+ topic/li task/li taskreq-d/reqcontp ">
+<!ATTLIST  reqpers      class CDATA "+ topic/ul task/ul taskreq-d/reqpers ">
+<!ATTLIST  personnel    class CDATA "+ topic/li task/li taskreq-d/personnel ">
+<!ATTLIST  perscat      class CDATA "+ topic/li task/li taskreq-d/perscat ">
+<!ATTLIST  perskill     class CDATA "+ topic/li task/li taskreq-d/perskill ">
+<!ATTLIST  esttime      class CDATA "+ topic/li task/li taskreq-d/esttime ">
+<!ATTLIST  supequip     class CDATA "+ topic/p task/p taskreq-d/supequip ">
+<!ATTLIST  nosupeq      class CDATA "+ topic/data task/data taskreq-d/nosupeq ">
+<!ATTLIST  supeqli      class CDATA "+ topic/ul task/ul taskreq-d/supeqli ">
+<!ATTLIST  supequi      class CDATA "+ topic/li task/li taskreq-d/supequi ">
+<!ATTLIST  supplies     class CDATA "+ topic/p task/p taskreq-d/supplies ">
+<!ATTLIST  nosupply     class CDATA "+ topic/data task/data taskreq-d/nosupply ">
+<!ATTLIST  supplyli     class CDATA "+ topic/ul task/ul taskreq-d/supplyli ">
+<!ATTLIST  supply       class CDATA "+ topic/li task/li taskreq-d/supply ">
+<!ATTLIST  spares       class CDATA "+ topic/p task/p taskreq-d/spares ">
+<!ATTLIST  nospares     class CDATA "+ topic/data task/data taskreq-d/nospares ">
+<!ATTLIST  sparesli     class CDATA "+ topic/ul task/ul taskreq-d/sparesli ">
+<!ATTLIST  spare        class CDATA "+ topic/li task/li taskreq-d/spare ">
+<!ATTLIST  safety       class CDATA "+ topic/ol task/ol taskreq-d/safety ">
+<!ATTLIST  nosafety     class CDATA "+ topic/li task/li taskreq-d/nosafety ">
+<!ATTLIST  safecond     class CDATA "+ topic/li task/li taskreq-d/safecond ">
 
 <!-- ================== End of DITA Task Requirements Domain ==================== -->
  

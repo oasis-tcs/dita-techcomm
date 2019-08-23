@@ -55,10 +55,7 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  mathmlref %mathmlref.content;>
 <!ATTLIST  mathmlref %mathmlref.attributes;>
@@ -72,10 +69,7 @@
                          %data-about;)*"
 >
 <!ENTITY % mathml.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  mathml %mathml.content;>
 <!ATTLIST  mathml %mathml.attributes;>
@@ -86,8 +80,8 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  mathml       %global-atts;  class CDATA "+ topic/foreign mathml-d/mathml ">
-<!ATTLIST  mathmlref    %global-atts;  class CDATA "+ topic/xref mathml-d/mathmlref ">
+<!ATTLIST  mathml       class CDATA "+ topic/foreign mathml-d/mathml ">
+<!ATTLIST  mathmlref    class CDATA "+ topic/xref mathml-d/mathmlref ">
 
 <!-- ================== End of DITA MathML Domain ==================== -->
  

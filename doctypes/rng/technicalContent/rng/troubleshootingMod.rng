@@ -204,9 +204,6 @@ ORIGINAL CREATION DATE:
         <optional>
           <attribute name="spectitle"/>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="cause.element">
         <element name="cause" dita:longName="Cause" dita:since="1.3">
@@ -233,9 +230,6 @@ ORIGINAL CREATION DATE:
         <ref name="univ-atts"/>
         <optional>
           <attribute name="spectitle"/>
-        </optional>
-        <optional>
-          <attribute name="outputclass"/>
         </optional>
       </define>
       <define name="condition.element">
@@ -272,9 +266,6 @@ ORIGINAL CREATION DATE:
           <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="remedy.element">
         <element name="remedy" dita:longName="Remedy" dita:since="1.3">
@@ -299,9 +290,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="responsibleParty.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="responsibleParty.element">
         <element name="responsibleParty" dita:longName="Responsible Party" dita:since="1.3">
@@ -331,9 +319,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="troubleSolution.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="troubleSolution.element">
         <element name="troubleSolution" dita:longName="Trouble Solution" dita:since="1.3">
@@ -353,43 +338,36 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="troubleshooting.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/topic troubleshooting/troubleshooting "/>
       </optional>
     </define>
     <define name="troublebody.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/body troubleshooting/troublebody "/>
       </optional>
     </define>
     <define name="troubleSolution.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/bodydiv troubleshooting/troubleSolution "/>
       </optional>
     </define>
     <define name="cause.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/section troubleshooting/cause "/>
       </optional>
     </define>
     <define name="condition.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/section troubleshooting/condition "/>
       </optional>
     </define>
     <define name="remedy.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/section troubleshooting/remedy "/>
       </optional>
     </define>
     <define name="responsibleParty.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/p troubleshooting/responsibleParty "/>
       </optional>

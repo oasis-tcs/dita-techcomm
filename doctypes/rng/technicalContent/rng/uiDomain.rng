@@ -118,9 +118,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="uicontrol.element">
         <element name="uicontrol" dita:longName="User Interface Control">
@@ -151,9 +148,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="wintitle.element">
         <element name="wintitle" dita:longName="Window Title">
@@ -181,9 +175,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="menucascade.element">
         <element name="menucascade" dita:longName="Menu Cascade">
@@ -215,9 +206,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="shortcut.element">
         <element name="shortcut" dita:longName="Short Cut">
@@ -256,9 +244,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="screen.element">
         <element name="screen" dita:longName="Text Screen Capture">
@@ -276,31 +261,26 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="menucascade.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph ui-d/menucascade "/>
       </optional>
     </define>
     <define name="screen.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/pre ui-d/screen "/>
       </optional>
     </define>
     <define name="shortcut.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword ui-d/shortcut "/>
       </optional>
     </define>
     <define name="uicontrol.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph ui-d/uicontrol "/>
       </optional>
     </define>
     <define name="wintitle.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword ui-d/wintitle "/>
       </optional>

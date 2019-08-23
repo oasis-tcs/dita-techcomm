@@ -190,6 +190,9 @@ ORIGINAL CREATION DATE:
         <ref name="filter-atts"/>
         <ref name="localization-atts"/>
         <optional>
+          <attribute name="outputclass"/>
+        </optional>
+        <optional>
           <attribute name="rev"/>
         </optional>
         <optional>
@@ -224,9 +227,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="codeph.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="codeph.element">
         <element name="codeph" dita:longName="Code Phrase">
@@ -267,9 +267,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="codeblock.element">
         <element name="codeblock" dita:longName="Code Block">
@@ -314,9 +311,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="coderef.element">
         <element name="coderef" dita:longName="Literal code reference">
@@ -346,9 +340,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="option.element">
         <element name="option" dita:longName="Option">
@@ -383,9 +374,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="var.element">
         <element name="var" dita:longName="Variable">
@@ -416,9 +404,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="parmname.element">
         <element name="parmname" dita:longName="Parameter Name">
@@ -455,9 +440,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="synph.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="synph.element">
         <element name="synph" dita:longName="Syntax Phrase">
@@ -492,9 +474,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="oper.element">
         <element name="oper" dita:longName="Operator">
@@ -528,9 +507,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="delim.element">
         <element name="delim" dita:longName="Delimiter">
@@ -564,9 +540,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="sep.element">
         <element name="sep" dita:longName="Separator">
@@ -597,9 +570,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="apiname.element">
         <element name="apiname" dita:longName="API Name">
@@ -642,9 +612,6 @@ ORIGINAL CREATION DATE:
           <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="parml.element">
         <element name="parml" dita:longName="Parameter List">
@@ -672,9 +639,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="plentry.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="plentry.element">
         <element name="plentry" dita:longName="Parameter List Entry">
@@ -702,9 +666,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="pt.element">
         <element name="pt" dita:longName="Parameter Term">
@@ -729,9 +690,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="pd.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="pd.element">
         <element name="pd" dita:longName="Parameter Description">
@@ -769,9 +727,6 @@ ORIGINAL CREATION DATE:
       <define name="syntaxdiagram.attributes">
         <ref name="display-atts"/>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="syntaxdiagram.element">
         <element name="syntaxdiagram" dita:longName="Syntax Diagram">
@@ -807,9 +762,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="synblk.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="synblk.element">
         <element name="synblk" dita:longName="Syntax Block">
@@ -862,9 +814,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="groupseq.element">
         <element name="groupseq" dita:longName="Sequence Group">
@@ -917,9 +866,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="groupchoice.element">
         <element name="groupchoice" dita:longName="Choice Group">
@@ -972,9 +918,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="groupcomp.element">
         <element name="groupcomp" dita:longName="Composite group">
@@ -1009,9 +952,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="fragment.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="fragment.element">
         <element name="fragment" dita:longName="Fragment">
@@ -1048,9 +988,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="fragref.element">
         <element name="fragref" dita:longName="Fragment Reference">
@@ -1081,9 +1018,6 @@ ORIGINAL CREATION DATE:
           <attribute name="callout"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="synnote.element">
         <element name="synnote" dita:longName="Syntax Diagram Note">
@@ -1109,9 +1043,6 @@ ORIGINAL CREATION DATE:
           <attribute name="href"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="synnoteref.element">
         <element name="synnoteref" dita:longName="Syntax Note Reference">
@@ -1145,9 +1076,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="repsep.element" >
         <element name="repsep" dita:longName="Repeat Separator">
@@ -1188,9 +1116,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <ref name="univ-atts-no-importance"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="kwd.element">
         <element name="kwd" dita:longName="Syntax Keyword">
@@ -1212,157 +1137,131 @@ ORIGINAL CREATION DATE:
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
 
     <define name="apiname.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword pr-d/apiname "/>
       </optional>
     </define>
     <define name="codeblock.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/pre pr-d/codeblock "/>
       </optional>
     </define>
     <define name="codeph.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/codeph "/>
       </optional>
     </define>
     <define name="coderef.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/xref pr-d/coderef "/>
       </optional>
     </define>
     <define name="delim.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/delim "/>
       </optional>
     </define>
     <define name="fragment.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/figgroup pr-d/fragment "/>
       </optional>
     </define>
     <define name="fragref.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/xref pr-d/fragref "/>
       </optional>
     </define>
     <define name="groupchoice.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/figgroup pr-d/groupchoice "/>
       </optional>
     </define>
     <define name="groupcomp.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/figgroup pr-d/groupcomp "/>
       </optional>
     </define>
     <define name="groupseq.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/figgroup pr-d/groupseq "/>
       </optional>
     </define>
     <define name="kwd.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword pr-d/kwd "/>
       </optional>
     </define>
     <define name="oper.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/oper "/>
       </optional>
     </define>
     <define name="option.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword pr-d/option "/>
       </optional>
     </define>
     <define name="parml.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/dl pr-d/parml "/>
       </optional>
     </define>
     <define name="parmname.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword pr-d/parmname "/>
       </optional>
     </define>
     <define name="pd.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/dd pr-d/pd "/>
       </optional>
     </define>
     <define name="plentry.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/dlentry pr-d/plentry "/>
       </optional>
     </define>
     <define name="pt.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/dt pr-d/pt "/>
       </optional>
     </define>
     <define name="repsep.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/repsep "/>
       </optional>
     </define>
     <define name="sep.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/sep "/>
       </optional>
     </define>
     <define name="synblk.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/figgroup pr-d/synblk "/>
       </optional>
     </define>
     <define name="synnote.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/fn pr-d/synnote "/>
       </optional>
     </define>
     <define name="synnoteref.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/xref pr-d/synnoteref "/>
       </optional>
     </define>
     <define name="synph.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/synph "/>
       </optional>
     </define>
     <define name="syntaxdiagram.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/fig pr-d/syntaxdiagram "/>
       </optional>
     </define>
     <define name="var.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph pr-d/var "/>
       </optional>

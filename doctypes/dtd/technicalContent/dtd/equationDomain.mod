@@ -34,10 +34,7 @@
                        "(%equation.cnt;)*"
 >
 <!ENTITY % equation-inline.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  equation-inline %equation-inline.content;>
 <!ATTLIST  equation-inline %equation-inline.attributes;>
@@ -49,10 +46,7 @@
                          %equation-number;)*"
 >
 <!ENTITY % equation-block.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  equation-block %equation-block.content;>
 <!ATTLIST  equation-block %equation-block.attributes;>
@@ -65,10 +59,7 @@
                          %text;)*"
 >
 <!ENTITY % equation-number.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  equation-number %equation-number.content;>
 <!ATTLIST  equation-number %equation-number.attributes;>
@@ -86,10 +77,7 @@
                spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  equation-figure %equation-figure.content;>
 <!ATTLIST  equation-figure %equation-figure.attributes;>
@@ -100,10 +88,10 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  equation-inline %global-atts;  class CDATA "+ topic/ph equation-d/equation-inline ">
-<!ATTLIST  equation-block %global-atts;  class CDATA "+ topic/div equation-d/equation-block ">
-<!ATTLIST  equation-number %global-atts;  class CDATA "+ topic/ph equation-d/equation-number ">
-<!ATTLIST  equation-figure %global-atts;  class CDATA "+ topic/fig equation-d/equation-figure ">
+<!ATTLIST  equation-inline class CDATA "+ topic/ph equation-d/equation-inline ">
+<!ATTLIST  equation-block class CDATA "+ topic/div equation-d/equation-block ">
+<!ATTLIST  equation-number class CDATA "+ topic/ph equation-d/equation-number ">
+<!ATTLIST  equation-figure class CDATA "+ topic/fig equation-d/equation-figure ">
 
 <!-- ================== End of DITA Equation Domain ==================== -->
  

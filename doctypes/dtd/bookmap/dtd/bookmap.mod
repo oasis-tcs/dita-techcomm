@@ -123,10 +123,7 @@
 <!-- ============================================================= -->
 
 <!ENTITY % chapter-atts
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref
@@ -136,9 +133,6 @@
                           CDATA
                                     #IMPLIED
                copy-to
-                          CDATA
-                                    #IMPLIED
-               outputclass
                           CDATA
                                     #IMPLIED
                %topicref-atts;
@@ -234,9 +228,6 @@
                query
                           CDATA
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %topicref-atts;
                %univ-atts;"
 >
@@ -258,9 +249,6 @@
                           CDATA
                                     #IMPLIED
                query
-                          CDATA
-                                    #IMPLIED
-               outputclass
                           CDATA
                                     #IMPLIED
                %topicref-atts;
@@ -364,10 +352,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  summary %summary.content;>
 <!ATTLIST  summary %summary.attributes;>
@@ -432,9 +417,6 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                value
                           CDATA
                                     #REQUIRED"
@@ -452,10 +434,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  revisionid %revisionid.content;>
 <!ATTLIST  revisionid %revisionid.attributes;>
@@ -477,10 +456,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  started %started.content;>
 <!ATTLIST  started %started.attributes;>
@@ -502,10 +478,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  completed %completed.content;>
 <!ATTLIST  completed %completed.attributes;>
@@ -521,10 +494,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  year %year.content;>
 <!ATTLIST  year %year.attributes;>
@@ -540,10 +510,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  month %month.content;>
 <!ATTLIST  month %month.attributes;>
@@ -559,10 +526,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  day %day.content;>
 <!ATTLIST  day %day.attributes;>
@@ -686,10 +650,7 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  bookeventtype %bookeventtype.content;>
 <!ATTLIST  bookeventtype %bookeventtype.attributes;>
@@ -848,9 +809,6 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               outputclass
-                          CDATA
-                                    #IMPLIED
                value
                           CDATA
                                     #REQUIRED"
@@ -890,10 +848,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  booklibrary %booklibrary.content;>
 <!ATTLIST  booklibrary %booklibrary.attributes;>
@@ -909,10 +864,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  mainbooktitle %mainbooktitle.content;>
 <!ATTLIST  mainbooktitle %mainbooktitle.attributes;>
@@ -928,10 +880,7 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  booktitlealt %booktitlealt.content;>
 <!ATTLIST  booktitlealt %booktitlealt.attributes;>
@@ -1196,67 +1145,67 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  bookmap      %global-atts;  class CDATA "- map/map bookmap/bookmap ">
-<!ATTLIST  abbrevlist   %global-atts;  class CDATA "- map/topicref bookmap/abbrevlist ">
-<!ATTLIST  amendments   %global-atts;  class CDATA "- map/topicref bookmap/amendments ">
-<!ATTLIST  appendices   %global-atts;  class CDATA "- map/topicref bookmap/appendices ">
-<!ATTLIST  appendix     %global-atts;  class CDATA "- map/topicref bookmap/appendix ">
-<!ATTLIST  approved     %global-atts;  class CDATA "- topic/data bookmap/approved ">
-<!ATTLIST  backmatter   %global-atts;  class CDATA "- map/topicref bookmap/backmatter ">
-<!ATTLIST  bibliolist   %global-atts;  class CDATA "- map/topicref bookmap/bibliolist ">
-<!ATTLIST  bookabstract %global-atts;  class CDATA "- map/topicref bookmap/bookabstract ">
-<!ATTLIST  bookchangehistory %global-atts;  class CDATA "- topic/data bookmap/bookchangehistory ">
-<!ATTLIST  bookevent    %global-atts;  class CDATA "- topic/data bookmap/bookevent ">
-<!ATTLIST  bookeventtype %global-atts;  class CDATA "- topic/data bookmap/bookeventtype ">
-<!ATTLIST  bookid       %global-atts;  class CDATA "- topic/data bookmap/bookid ">
-<!ATTLIST  booklibrary  %global-atts;  class CDATA "- topic/ph bookmap/booklibrary ">
-<!ATTLIST  booklist     %global-atts;  class CDATA "- map/topicref bookmap/booklist ">
-<!ATTLIST  booklists    %global-atts;  class CDATA "- map/topicref bookmap/booklists ">
-<!ATTLIST  bookmeta     %global-atts;  class CDATA "- map/topicmeta bookmap/bookmeta ">
-<!ATTLIST  booknumber   %global-atts;  class CDATA "- topic/data bookmap/booknumber ">
-<!ATTLIST  bookowner    %global-atts;  class CDATA "- topic/data bookmap/bookowner ">
-<!ATTLIST  bookpartno   %global-atts;  class CDATA "- topic/data bookmap/bookpartno ">
-<!ATTLIST  bookrestriction %global-atts;  class CDATA "- topic/data bookmap/bookrestriction ">
-<!ATTLIST  bookrights   %global-atts;  class CDATA "- topic/data bookmap/bookrights ">
-<!ATTLIST  booktitle    %global-atts;  class CDATA "- topic/title bookmap/booktitle ">
-<!ATTLIST  booktitlealt %global-atts;  class CDATA "- topic/ph bookmap/booktitlealt ">
-<!ATTLIST  chapter      %global-atts;  class CDATA "- map/topicref bookmap/chapter ">
-<!ATTLIST  colophon     %global-atts;  class CDATA "- map/topicref bookmap/colophon ">
-<!ATTLIST  completed    %global-atts;  class CDATA "- topic/ph bookmap/completed ">
-<!ATTLIST  copyrfirst   %global-atts;  class CDATA "- topic/data bookmap/copyrfirst ">
-<!ATTLIST  copyrlast    %global-atts;  class CDATA "- topic/data bookmap/copyrlast ">
-<!ATTLIST  day          %global-atts;  class CDATA "- topic/ph bookmap/day ">
-<!ATTLIST  dedication   %global-atts;  class CDATA "- map/topicref bookmap/dedication ">
-<!ATTLIST  draftintro   %global-atts;  class CDATA "- map/topicref bookmap/draftintro ">
-<!ATTLIST  edited       %global-atts;  class CDATA "- topic/data bookmap/edited ">
-<!ATTLIST  edition      %global-atts;  class CDATA "- topic/data bookmap/edition ">
-<!ATTLIST  figurelist   %global-atts;  class CDATA "- map/topicref bookmap/figurelist ">
-<!ATTLIST  frontmatter  %global-atts;  class CDATA "- map/topicref bookmap/frontmatter ">
-<!ATTLIST  glossarylist %global-atts;  class CDATA "- map/topicref bookmap/glossarylist ">
-<!ATTLIST  indexlist    %global-atts;  class CDATA "- map/topicref bookmap/indexlist ">
-<!ATTLIST  isbn         %global-atts;  class CDATA "- topic/data bookmap/isbn ">
-<!ATTLIST  mainbooktitle %global-atts;  class CDATA "- topic/ph bookmap/mainbooktitle ">
-<!ATTLIST  maintainer   %global-atts;  class CDATA "- topic/data bookmap/maintainer ">
-<!ATTLIST  month        %global-atts;  class CDATA "- topic/ph bookmap/month ">
-<!ATTLIST  notices      %global-atts;  class CDATA "- map/topicref bookmap/notices ">
-<!ATTLIST  organization %global-atts;  class CDATA "- topic/data bookmap/organization ">
-<!ATTLIST  part         %global-atts;  class CDATA "- map/topicref bookmap/part ">
-<!ATTLIST  person       %global-atts;  class CDATA "- topic/data bookmap/person ">
-<!ATTLIST  preface      %global-atts;  class CDATA "- map/topicref bookmap/preface ">
-<!ATTLIST  printlocation %global-atts;  class CDATA "- topic/data bookmap/printlocation ">
-<!ATTLIST  published    %global-atts;  class CDATA "- topic/data bookmap/published ">
-<!ATTLIST  publisherinformation %global-atts;  class CDATA "- topic/publisher bookmap/publisherinformation ">
-<!ATTLIST  publishtype  %global-atts;  class CDATA "- topic/data bookmap/publishtype ">
-<!ATTLIST  reviewed     %global-atts;  class CDATA "- topic/data bookmap/reviewed ">
-<!ATTLIST  revisionid   %global-atts;  class CDATA "- topic/ph bookmap/revisionid ">
-<!ATTLIST  started      %global-atts;  class CDATA "- topic/ph bookmap/started ">
-<!ATTLIST  summary      %global-atts;  class CDATA "- topic/ph bookmap/summary ">
-<!ATTLIST  tablelist    %global-atts;  class CDATA "- map/topicref bookmap/tablelist ">
-<!ATTLIST  tested       %global-atts;  class CDATA "- topic/data bookmap/tested ">
-<!ATTLIST  toc          %global-atts;  class CDATA "- map/topicref bookmap/toc ">
-<!ATTLIST  trademarklist %global-atts;  class CDATA "- map/topicref bookmap/trademarklist ">
-<!ATTLIST  volume       %global-atts;  class CDATA "- topic/data bookmap/volume ">
-<!ATTLIST  year         %global-atts;  class CDATA "- topic/ph bookmap/year ">
+<!ATTLIST  bookmap      class CDATA "- map/map bookmap/bookmap ">
+<!ATTLIST  abbrevlist   class CDATA "- map/topicref bookmap/abbrevlist ">
+<!ATTLIST  amendments   class CDATA "- map/topicref bookmap/amendments ">
+<!ATTLIST  appendices   class CDATA "- map/topicref bookmap/appendices ">
+<!ATTLIST  appendix     class CDATA "- map/topicref bookmap/appendix ">
+<!ATTLIST  approved     class CDATA "- topic/data bookmap/approved ">
+<!ATTLIST  backmatter   class CDATA "- map/topicref bookmap/backmatter ">
+<!ATTLIST  bibliolist   class CDATA "- map/topicref bookmap/bibliolist ">
+<!ATTLIST  bookabstract class CDATA "- map/topicref bookmap/bookabstract ">
+<!ATTLIST  bookchangehistory class CDATA "- topic/data bookmap/bookchangehistory ">
+<!ATTLIST  bookevent    class CDATA "- topic/data bookmap/bookevent ">
+<!ATTLIST  bookeventtype class CDATA "- topic/data bookmap/bookeventtype ">
+<!ATTLIST  bookid       class CDATA "- topic/data bookmap/bookid ">
+<!ATTLIST  booklibrary  class CDATA "- topic/ph bookmap/booklibrary ">
+<!ATTLIST  booklist     class CDATA "- map/topicref bookmap/booklist ">
+<!ATTLIST  booklists    class CDATA "- map/topicref bookmap/booklists ">
+<!ATTLIST  bookmeta     class CDATA "- map/topicmeta bookmap/bookmeta ">
+<!ATTLIST  booknumber   class CDATA "- topic/data bookmap/booknumber ">
+<!ATTLIST  bookowner    class CDATA "- topic/data bookmap/bookowner ">
+<!ATTLIST  bookpartno   class CDATA "- topic/data bookmap/bookpartno ">
+<!ATTLIST  bookrestriction class CDATA "- topic/data bookmap/bookrestriction ">
+<!ATTLIST  bookrights   class CDATA "- topic/data bookmap/bookrights ">
+<!ATTLIST  booktitle    class CDATA "- topic/title bookmap/booktitle ">
+<!ATTLIST  booktitlealt class CDATA "- topic/ph bookmap/booktitlealt ">
+<!ATTLIST  chapter      class CDATA "- map/topicref bookmap/chapter ">
+<!ATTLIST  colophon     class CDATA "- map/topicref bookmap/colophon ">
+<!ATTLIST  completed    class CDATA "- topic/ph bookmap/completed ">
+<!ATTLIST  copyrfirst   class CDATA "- topic/data bookmap/copyrfirst ">
+<!ATTLIST  copyrlast    class CDATA "- topic/data bookmap/copyrlast ">
+<!ATTLIST  day          class CDATA "- topic/ph bookmap/day ">
+<!ATTLIST  dedication   class CDATA "- map/topicref bookmap/dedication ">
+<!ATTLIST  draftintro   class CDATA "- map/topicref bookmap/draftintro ">
+<!ATTLIST  edited       class CDATA "- topic/data bookmap/edited ">
+<!ATTLIST  edition      class CDATA "- topic/data bookmap/edition ">
+<!ATTLIST  figurelist   class CDATA "- map/topicref bookmap/figurelist ">
+<!ATTLIST  frontmatter  class CDATA "- map/topicref bookmap/frontmatter ">
+<!ATTLIST  glossarylist class CDATA "- map/topicref bookmap/glossarylist ">
+<!ATTLIST  indexlist    class CDATA "- map/topicref bookmap/indexlist ">
+<!ATTLIST  isbn         class CDATA "- topic/data bookmap/isbn ">
+<!ATTLIST  mainbooktitle class CDATA "- topic/ph bookmap/mainbooktitle ">
+<!ATTLIST  maintainer   class CDATA "- topic/data bookmap/maintainer ">
+<!ATTLIST  month        class CDATA "- topic/ph bookmap/month ">
+<!ATTLIST  notices      class CDATA "- map/topicref bookmap/notices ">
+<!ATTLIST  organization class CDATA "- topic/data bookmap/organization ">
+<!ATTLIST  part         class CDATA "- map/topicref bookmap/part ">
+<!ATTLIST  person       class CDATA "- topic/data bookmap/person ">
+<!ATTLIST  preface      class CDATA "- map/topicref bookmap/preface ">
+<!ATTLIST  printlocation class CDATA "- topic/data bookmap/printlocation ">
+<!ATTLIST  published    class CDATA "- topic/data bookmap/published ">
+<!ATTLIST  publisherinformation class CDATA "- topic/publisher bookmap/publisherinformation ">
+<!ATTLIST  publishtype  class CDATA "- topic/data bookmap/publishtype ">
+<!ATTLIST  reviewed     class CDATA "- topic/data bookmap/reviewed ">
+<!ATTLIST  revisionid   class CDATA "- topic/ph bookmap/revisionid ">
+<!ATTLIST  started      class CDATA "- topic/ph bookmap/started ">
+<!ATTLIST  summary      class CDATA "- topic/ph bookmap/summary ">
+<!ATTLIST  tablelist    class CDATA "- map/topicref bookmap/tablelist ">
+<!ATTLIST  tested       class CDATA "- topic/data bookmap/tested ">
+<!ATTLIST  toc          class CDATA "- map/topicref bookmap/toc ">
+<!ATTLIST  trademarklist class CDATA "- map/topicref bookmap/trademarklist ">
+<!ATTLIST  volume       class CDATA "- topic/data bookmap/volume ">
+<!ATTLIST  year         class CDATA "- topic/ph bookmap/year ">
 
 <!-- ================== End of DITA Bookmap ==================== -->
  

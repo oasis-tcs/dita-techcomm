@@ -30,10 +30,7 @@
                          %data-about;)*"
 >
 <!ENTITY % svg-container.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  svg-container %svg-container.content;>
 <!ATTLIST  svg-container %svg-container.attributes;>
@@ -53,10 +50,7 @@
                format
                           CDATA
                                     'svg'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  svgref %svgref.content;>
 <!ATTLIST  svgref %svgref.attributes;>
@@ -67,8 +61,8 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  svg-container %global-atts;  class CDATA "+ topic/foreign svg-d/svg-container ">
-<!ATTLIST  svgref       %global-atts;  class CDATA "+ topic/xref svg-d/svgref ">
+<!ATTLIST  svg-container class CDATA "+ topic/foreign svg-d/svg-container ">
+<!ATTLIST  svgref       class CDATA "+ topic/xref svg-d/svgref ">
 
 <!-- ================== End of DITA SVG Domain ==================== -->
  

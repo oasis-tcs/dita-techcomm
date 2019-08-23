@@ -28,10 +28,7 @@
                          %text;)*"
 >
 <!ENTITY % markupname.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  markupname %markupname.content;>
 <!ATTLIST  markupname %markupname.attributes;>
@@ -42,7 +39,7 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  markupname   %global-atts;  class CDATA "+ topic/keyword markup-d/markupname ">
+<!ATTLIST  markupname   class CDATA "+ topic/keyword markup-d/markupname ">
 
 <!-- ================== End of DITA Markup Name Mention Domain ==================== -->
  

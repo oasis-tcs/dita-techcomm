@@ -46,10 +46,7 @@
                        "(%topicmeta;)?"
 >
 <!ENTITY % glossref.attributes
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref
@@ -62,9 +59,6 @@
                           CDATA
                                     #IMPLIED
                copy-to
-                          CDATA
-                                    #IMPLIED
-               outputclass
                           CDATA
                                     #IMPLIED
                collection-type
@@ -133,7 +127,7 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  glossref     %global-atts;  class CDATA "+ map/topicref glossref-d/glossref ">
+<!ATTLIST  glossref     class CDATA "+ map/topicref glossref-d/glossref ">
 
 <!-- ================== End of DITA Glossary Reference Domain ==================== -->
  

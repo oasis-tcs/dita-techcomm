@@ -6,7 +6,7 @@
          xmlns:dita="http://dita.oasis-open.org/architecture/2005/"
          xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
   <moduleDesc xmlns="http://dita.oasis-open.org/architecture/2005/">
-      <moduleTitle>DITA Glossary Entry Shell</moduleTitle>
+      <moduleTitle>DITA Classification Map Shell</moduleTitle>
       <headerComment xml:space="preserve">
 =============================================================
                    HEADER                                    
@@ -18,58 +18,49 @@ Copyright (c) OASIS Open 2018. All rights reserved.
 Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part0-overview/dita-v1.3-errata02-csprd01-part0-overview-complete.html
 
 ============================================================
- MODULE:    DITA Glossary Entry Shell                 
- VERSION:   1.3                                              
- DATE:      March 2014                                    
+ MODULE:    DITA Classification Map
+ VERSION:   1.3
+ DATE:      November 2014
                                                              
 =============================================================
 
 =============================================================
                    PUBLIC DOCUMENT TYPE DEFINITION           
-                   TYPICAL INVOCATION                        
+                       TYPICAL INVOCATION                    
                                                              
- Refer to this file by the following public identifier or an 
-      appropriate system identifier 
-      
-PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
-
-The public ID above refers to the latest version of this DTD.
-     To refer to this specific version, you may use this value:
-
-PUBLIC "-//OASIS//DTD DITA 1.3 Glossary Entry//EN"                      
+Refer to this file by the following public identifier or an
+     appropriate system identifier:
+PUBLIC "-//OASIS//DTD DITA Classification Map//EN"
+     Delivered as file "classifyMap.dtd"                          
 
 =============================================================
 SYSTEM:     Darwin Information Typing Architecture (DITA)    
                                                              
-PURPOSE:    Document type to describe DITA Glossary Entry topics       
+PURPOSE:    DTD to describe DITA Classification maps         
                                                              
 ORIGINAL CREATION DATE:                                      
-            June 2006                                        
+            March 2001                                       
                                                              
-            (C) Copyright OASIS Open 2006, 2014.             
+            (C) Copyright OASIS Open 2005, 2014.             
+            (C) Copyright IBM Corporation 2001, 2004.        
             All Rights Reserved.                             
                                                              
  UPDATES:                                                    
-   2008.02.01 RDA: Added references to concept.ent and       
-                   glossary.ent                              
-   2008.02.12 RDA: Modify imbeds to use specific 1.2 version 
-   2008.04.15 RDA: Added hazard domain                       
-   2009.09.21 WEK: Renamed to glossentry.dtd                 
-   2014.03.12 WEK: Updated for DITA 1.3, reimplemented as 
-                   RELAX NG
+   2010.09.21 RDA: Added base topic domains                  
+   2014.03.13 WEK: Updated for DITA 1.3, reimplemented as RNG
 =============================================================
-
+    
   </headerComment>
       <moduleMetadata>
-         <moduleType>topicshell</moduleType>
-         <moduleShortName>Glossary Entry</moduleShortName>
+         <moduleType>mapshell</moduleType>
+         <moduleShortName>classifyMap</moduleShortName>
          <shellPublicIds>
-            <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Glossary Entry//EN</dtdShell>
-            <rncShell>urn:oasis:names:tc:dita:rnc:glossentry.rnc<var presep=":" name="ditaver"/>
+            <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Classification Map//EN</dtdShell>
+            <rncShell>urn:oasis:tc:tc:dita:spec:classification:rnc:classifyMap.rnc<var presep=":" name="ditaver"/>
             </rncShell>
-            <rngShell>urn:oasis:names:tc:dita:rng:glossentry.rng<var presep=":" name="ditaver"/>
+            <rngShell>urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng<var presep=":" name="ditaver"/>
             </rngShell>
-            <xsdShell>urn:oasis:names:tc:dita:xsd:glossentry.xsd<var presep=":" name="ditaver"/>
+            <xsdShell>urn:oasis:tc:tc:dita:spec:classification:xsd:classifyMap.xsd<var presep=":" name="ditaver"/>
             </xsdShell>
          </shellPublicIds>
       </moduleMetadata>
@@ -77,65 +68,58 @@ ORIGINAL CREATION DATE:
   <div>
       <a:documentation>ROOT ELEMENT DECLARATION</a:documentation>
       <start>
-         <ref name="glossentry.element"/>
+         <ref name="map.element"/>
       </start>
+
   </div>
   <div>
       <a:documentation>DOMAINS ATTRIBUTE</a:documentation>
       <define name="domains-att" combine="interleave">
          <optional>
             <attribute name="domains"
-                       a:defaultValue="(topic abbrev-d)
-                         (topic concept glossentry)
-                         (topic concept)
-                         (topic equation-d)
+                       a:defaultValue="(map classify-d)
+                         (topic abbrev-d)
+                         (map ditavalref-d)
+                         (map glossref-d)
                          (topic hazard-d)
                          (topic hi-d)
+                         (map mapgroup-d)
                          (topic markup-d xml-d)
                          (topic markup-d)
-                         (topic mathml-d)
                          (topic pr-d)
                          (topic relmgmt-d)
-                         (topic svg-d)
                          (topic sw-d)
                          (topic ui-d)
                          (topic ut-d)
-                         a(props audience)
-                         a(props deliveryTarget)
-                         a(props platform)
-                         a(props product)
-                         a(props otherprops)"/>
+                         a(props deliveryTarget)"/>
          </optional>
       </define>
+
   </div>
   <div>
       <a:documentation>MODULE INCLUSIONS</a:documentation>
-      <include href="urn:oasis:names:tc:dita:rng:topicMod.rng:2.0"/>
-      <include href="conceptMod.rng"/>
-      <include href="glossentryMod.rng">
-        <define name="glossentry-info-types">
-          <empty/>
-        </define>
-      </include>
+     <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0"/>
+     <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
+  
+     <include href="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:2.0"/>
+      <include href="../technicalContent/rng/abbreviateDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
-      <include href="equationDomain.rng" dita:since="1.3"/>
-      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-      <include href="abbreviateDomain.rng"/>
-      <include href="markupDomain.rng" dita:since="1.3"/>
-      <include href="mathmlDomain.rng" dita:since="1.3"/>
-      <include href="programmingDomain.rng"/>
-      <include href="releaseManagementDomain.rng" dita:since="1.3"/>
-      <include href="softwareDomain.rng"/>
-      <include href="svgDomain.rng" dita:since="1.3"/>
-      <include href="uiDomain.rng"/>
-      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
-      <include href="xmlDomain.rng" dita:since="1.3"/>
-  </div>
+     <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
+      <include href="../technicalContent/rng/glossrefDomain.rng"/>
+     <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
+     <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
+      <include href="../technicalContent/rng/markupDomain.rng" dita:since="1.3"/>
+      <include href="../technicalContent/rng/programmingDomain.rng"/>
+      <include href="../technicalContent/rng/releaseManagementDomain.rng"
+               dita:since="1.3"/>
+      <include href="../technicalContent/rng/softwareDomain.rng"/>
+      <include href="../technicalContent/rng/uiDomain.rng"/>
+     <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
+      <include href="../technicalContent/rng/xmlDomain.rng" dita:since="1.3"/>    </div>
   <div>
       <a:documentation>ID-DEFINING-ELEMENT OVERRIDES</a:documentation>
       <define name="any">
@@ -145,11 +129,8 @@ ORIGINAL CREATION DATE:
                <element>
                   <anyName>
                      <except>
-                        <name>topic</name>
-                        <name>concept</name>
-                        <name>glossentry</name>
-                        <nsName ns="http://www.w3.org/2000/svg"/>
-                        <nsName ns="http://www.w3.org/1998/Math/MathML"/>
+                        <name>map</name>
+                        <name>anchor</name>
                      </except>
                   </anyName>
                   <zeroOrMore>

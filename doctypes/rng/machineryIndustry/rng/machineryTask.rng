@@ -77,14 +77,17 @@ ORIGINAL CREATION DATE:
             <attribute name="domains"
                        a:defaultValue="(topic hazard-d)
                          (topic hi-d)
-                         (topic indexing-d)
                          (topic svg-d)
                          (topic task taskreq-d)
                          (topic task)
                          (topic task+taskreq-d machineryTaskbody-c)
                          (topic ui-d)
                          (topic ut-d)
-                         a(props deliveryTarget)"/>
+                         a(props audience)
+                         a(props deliveryTarget)
+                         a(props platform)
+                         a(props product)
+                         a(props otherprops)"/>
          </optional>
       </define>
 
@@ -104,10 +107,13 @@ ORIGINAL CREATION DATE:
 
       <include href="urn:oasis:names:tc:dita:rng:topicMod.rng:2.0"/>
     
+      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:indexingDomain.rng:2.0"/>
       <include href="../../technicalContent/rng/svgDomain.rng" dita:since="1.3"/>
       <include href="../../technicalContent/rng/taskreqDomain.rng"/>
       <include href="../../technicalContent/rng/uiDomain.rng"/>

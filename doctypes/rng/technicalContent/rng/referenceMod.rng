@@ -231,9 +231,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="refbodydiv.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="refbodydiv.element">
         <element name="refbodydiv" dita:longName="Reference Body division">
@@ -260,9 +257,6 @@ ORIGINAL CREATION DATE:
           <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="refsyn.element">
         <element name="refsyn" dita:longName="Reference Syntax">
@@ -308,9 +302,6 @@ ORIGINAL CREATION DATE:
         </optional>
         <ref name="display-atts"/>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="properties.element">
         <element name="properties" dita:longName="Properties">
@@ -342,9 +333,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="prophead.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="prophead.element">
         <element name="prophead" dita:longName="Property Head">
@@ -373,9 +361,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="proptypehd.element">
         <element name="proptypehd" dita:longName="Property Type Head">
@@ -403,9 +388,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="propvaluehd.element">
         <element name="propvaluehd" dita:longName="Property Value Head">
@@ -434,9 +416,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="propdeschd.element">
         <element name="propdeschd" dita:longName="Property Description Head">
@@ -467,9 +446,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="property.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="property.element">
         <element name="property" dita:longName="Property">
@@ -498,9 +474,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="proptype.element">
         <element name="proptype" dita:longName="Property Type">
@@ -529,9 +502,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="propvalue.element">
         <element name="propvalue" dita:longName="Property Value">
@@ -560,9 +530,6 @@ ORIGINAL CREATION DATE:
           <attribute name="specentry"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="propdesc.element">
         <element name="propdesc" dita:longName="Property Description">
@@ -584,79 +551,66 @@ ORIGINAL CREATION DATE:
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
 
     <define name="reference.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/topic       reference/reference "/>
       </optional>
     </define>
     <define name="refbody.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/body        reference/refbody "/>
       </optional>
     </define>
     <define name="refbodydiv.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/bodydiv     reference/refbodydiv "/>
       </optional>
     </define>
     <define name="refsyn.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/section     reference/refsyn "/>
       </optional>
     </define>
     <define name="properties.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/simpletable reference/properties "/>
       </optional>
     </define>
     <define name="property.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/strow       reference/property "/>
       </optional>
     </define>
     <define name="proptype.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/stentry     reference/proptype "/>
       </optional>
     </define>
     <define name="propvalue.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/stentry     reference/propvalue "/>
       </optional>
     </define>
     <define name="propdesc.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/stentry     reference/propdesc "/>
       </optional>
     </define>
     <define name="prophead.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/sthead      reference/prophead "/>
       </optional>
     </define>
     <define name="proptypehd.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/stentry     reference/proptypehd "/>
       </optional>
     </define>
     <define name="propvaluehd.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/stentry     reference/propvaluehd "/>
       </optional>
     </define>
     <define name="propdeschd.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="- topic/stentry     reference/propdeschd "/>
       </optional>

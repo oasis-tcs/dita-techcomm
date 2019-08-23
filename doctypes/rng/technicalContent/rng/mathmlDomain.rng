@@ -106,9 +106,6 @@ All Rights Reserved.
           </attribute>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
 
       <define name="mathmlref.element">
@@ -181,9 +178,6 @@ elements
 
       <define name="mathml.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
 
       <define name="mathml.element">
@@ -220,14 +214,12 @@ elements
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
 
     <define name="mathml.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/foreign mathml-d/mathml "/>
       </optional>
     </define>
 
     <define name="mathmlref.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/xref mathml-d/mathmlref "/>
       </optional>

@@ -94,7 +94,6 @@ ORIGINAL CREATION DATE:
                          (topic equation-d)
                          (topic hazard-d)
                          (topic hi-d)
-                         (topic indexing-d)
                          (topic markup-d xml-d)
                          (topic markup-d)
                          (topic mathml-d)
@@ -108,7 +107,11 @@ ORIGINAL CREATION DATE:
                          (topic troubleshooting++task)
                          (topic ui-d)
                          (topic ut-d)
-                         a(props deliveryTarget)"/>
+                         a(props audience)
+                         a(props deliveryTarget)
+                         a(props platform)
+                         a(props product)
+                         a(props otherprops)"/>
          </optional>
       </define>
   </div>
@@ -137,11 +140,14 @@ ORIGINAL CREATION DATE:
       <include href="troubleshootingMod.rng"/>
     
       <include href="abbreviateDomain.rng"/>
+     <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
+     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
+     <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
+     <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
       <include href="equationDomain.rng" dita:since="1.3"/>
       <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:indexingDomain.rng:2.0"/>
       <include href="markupDomain.rng" dita:since="1.3"/>
       <include href="mathmlDomain.rng" dita:since="1.3"/>
       <include href="programmingDomain.rng"/>
@@ -169,7 +175,6 @@ ORIGINAL CREATION DATE:
       <define name="dita.attlist" combine="interleave">
         <ref name="arch-atts"/>
         <ref name="localization-atts" dita:since="DITA 1.3"/>
-        <ref name="global-atts"/>
       </define>
 
   </div>

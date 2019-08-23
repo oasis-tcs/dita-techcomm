@@ -118,9 +118,6 @@
               "%univ-atts;
                spectitle
                           CDATA
-                                    #IMPLIED
-               outputclass
-                          CDATA
                                     #IMPLIED"
 >
 <!ELEMENT  cause %cause.content;>
@@ -134,9 +131,6 @@
 <!ENTITY % condition.attributes
               "%univ-atts;
                spectitle
-                          CDATA
-                                    #IMPLIED
-               outputclass
                           CDATA
                                     #IMPLIED"
 >
@@ -156,10 +150,7 @@
               "spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  remedy %remedy.content;>
 <!ATTLIST  remedy %remedy.attributes;>
@@ -170,10 +161,7 @@
                        "(%para.cnt;)*"
 >
 <!ENTITY % responsibleParty.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  responsibleParty %responsibleParty.content;>
 <!ATTLIST  responsibleParty %responsibleParty.attributes;>
@@ -185,10 +173,7 @@
                          (%remedy;)*)"
 >
 <!ENTITY % troubleSolution.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  troubleSolution %troubleSolution.content;>
 <!ATTLIST  troubleSolution %troubleSolution.attributes;>
@@ -199,13 +184,13 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  troubleshooting %global-atts;  class CDATA "- topic/topic troubleshooting/troubleshooting ">
-<!ATTLIST  troublebody  %global-atts;  class CDATA "- topic/body troubleshooting/troublebody ">
-<!ATTLIST  troubleSolution %global-atts;  class CDATA "- topic/bodydiv troubleshooting/troubleSolution ">
-<!ATTLIST  cause        %global-atts;  class CDATA "- topic/section troubleshooting/cause ">
-<!ATTLIST  condition    %global-atts;  class CDATA "- topic/section troubleshooting/condition ">
-<!ATTLIST  remedy       %global-atts;  class CDATA "- topic/section troubleshooting/remedy ">
-<!ATTLIST  responsibleParty %global-atts;  class CDATA "- topic/p troubleshooting/responsibleParty ">
+<!ATTLIST  troubleshooting class CDATA "- topic/topic troubleshooting/troubleshooting ">
+<!ATTLIST  troublebody  class CDATA "- topic/body troubleshooting/troublebody ">
+<!ATTLIST  troubleSolution class CDATA "- topic/bodydiv troubleshooting/troubleSolution ">
+<!ATTLIST  cause        class CDATA "- topic/section troubleshooting/cause ">
+<!ATTLIST  condition    class CDATA "- topic/section troubleshooting/condition ">
+<!ATTLIST  remedy       class CDATA "- topic/section troubleshooting/remedy ">
+<!ATTLIST  responsibleParty class CDATA "- topic/p troubleshooting/responsibleParty ">
 
 <!-- ================== End of DITA Troubleshooting Domain ==================== -->
  

@@ -127,9 +127,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="msgph.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="msgph.element">
         <element name="msgph" dita:longName="Message Phrase">
@@ -162,9 +159,6 @@ ORIGINAL CREATION DATE:
           <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
         <optional>
           <attribute name="xml:space" a:defaultValue="preserve">
             <value>preserve</value>
@@ -201,9 +195,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="msgnum.element">
         <element name="msgnum" dita:longName="Message Number">
@@ -235,9 +226,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="cmdname.element">
         <element name="cmdname" dita:longName="Command Name">
@@ -269,9 +257,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="varname.element">
         <element name="varname" dita:longName="Variable Name">
@@ -297,9 +282,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="filepath.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="filepath.element">
         <element name="filepath" dita:longName="File Path">
@@ -330,9 +312,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="userinput.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="userinput.element">
         <element name="userinput" dita:longName="User Input">
@@ -358,9 +337,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="systemoutput.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="systemoutput.element">
         <element name="systemoutput" dita:longName="System Output">
@@ -381,49 +357,41 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="cmdname.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword sw-d/cmdname "/>
       </optional>
     </define>
     <define name="filepath.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph sw-d/filepath "/>
       </optional>
     </define>
     <define name="msgblock.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/pre sw-d/msgblock "/>
       </optional>
     </define>
     <define name="msgnum.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword sw-d/msgnum "/>
       </optional>
     </define>
     <define name="msgph.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph sw-d/msgph "/>
       </optional>
     </define>
     <define name="systemoutput.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph sw-d/systemoutput "/>
       </optional>
     </define>
     <define name="userinput.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/ph sw-d/userinput "/>
       </optional>
     </define>
     <define name="varname.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/keyword sw-d/varname "/>
       </optional>

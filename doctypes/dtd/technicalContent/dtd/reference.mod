@@ -138,10 +138,7 @@
                          %table;)*"
 >
 <!ENTITY % refbodydiv.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  refbodydiv %refbodydiv.content;>
 <!ATTLIST  refbodydiv %refbodydiv.attributes;>
@@ -155,10 +152,7 @@
               "spectitle
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  refsyn %refsyn.content;>
 <!ATTLIST  refsyn %refsyn.attributes;>
@@ -183,10 +177,7 @@
                           CDATA
                                     #IMPLIED
                %display-atts;
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  properties %properties.content;>
 <!ATTLIST  properties %properties.attributes;>
@@ -199,10 +190,7 @@
                          (%propdeschd;)?)"
 >
 <!ENTITY % prophead.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  prophead %prophead.content;>
 <!ATTLIST  prophead %prophead.attributes;>
@@ -216,10 +204,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  proptypehd %proptypehd.content;>
 <!ATTLIST  proptypehd %proptypehd.attributes;>
@@ -233,10 +218,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propvaluehd %propvaluehd.content;>
 <!ATTLIST  propvaluehd %propvaluehd.attributes;>
@@ -250,10 +232,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propdeschd %propdeschd.content;>
 <!ATTLIST  propdeschd %propdeschd.attributes;>
@@ -266,10 +245,7 @@
                          (%propdesc;)?)"
 >
 <!ENTITY % property.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  property %property.content;>
 <!ATTLIST  property %property.attributes;>
@@ -283,10 +259,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  proptype %proptype.content;>
 <!ATTLIST  proptype %proptype.attributes;>
@@ -300,10 +273,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propvalue %propvalue.content;>
 <!ATTLIST  propvalue %propvalue.attributes;>
@@ -317,10 +287,7 @@
               "specentry
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  propdesc %propdesc.content;>
 <!ATTLIST  propdesc %propdesc.attributes;>
@@ -331,19 +298,19 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  reference    %global-atts;  class CDATA "- topic/topic       reference/reference ">
-<!ATTLIST  refbody      %global-atts;  class CDATA "- topic/body        reference/refbody ">
-<!ATTLIST  refbodydiv   %global-atts;  class CDATA "- topic/bodydiv     reference/refbodydiv ">
-<!ATTLIST  refsyn       %global-atts;  class CDATA "- topic/section     reference/refsyn ">
-<!ATTLIST  properties   %global-atts;  class CDATA "- topic/simpletable reference/properties ">
-<!ATTLIST  property     %global-atts;  class CDATA "- topic/strow       reference/property ">
-<!ATTLIST  proptype     %global-atts;  class CDATA "- topic/stentry     reference/proptype ">
-<!ATTLIST  propvalue    %global-atts;  class CDATA "- topic/stentry     reference/propvalue ">
-<!ATTLIST  propdesc     %global-atts;  class CDATA "- topic/stentry     reference/propdesc ">
-<!ATTLIST  prophead     %global-atts;  class CDATA "- topic/sthead      reference/prophead ">
-<!ATTLIST  proptypehd   %global-atts;  class CDATA "- topic/stentry     reference/proptypehd ">
-<!ATTLIST  propvaluehd  %global-atts;  class CDATA "- topic/stentry     reference/propvaluehd ">
-<!ATTLIST  propdeschd   %global-atts;  class CDATA "- topic/stentry     reference/propdeschd ">
+<!ATTLIST  reference    class CDATA "- topic/topic       reference/reference ">
+<!ATTLIST  refbody      class CDATA "- topic/body        reference/refbody ">
+<!ATTLIST  refbodydiv   class CDATA "- topic/bodydiv     reference/refbodydiv ">
+<!ATTLIST  refsyn       class CDATA "- topic/section     reference/refsyn ">
+<!ATTLIST  properties   class CDATA "- topic/simpletable reference/properties ">
+<!ATTLIST  property     class CDATA "- topic/strow       reference/property ">
+<!ATTLIST  proptype     class CDATA "- topic/stentry     reference/proptype ">
+<!ATTLIST  propvalue    class CDATA "- topic/stentry     reference/propvalue ">
+<!ATTLIST  propdesc     class CDATA "- topic/stentry     reference/propdesc ">
+<!ATTLIST  prophead     class CDATA "- topic/sthead      reference/prophead ">
+<!ATTLIST  proptypehd   class CDATA "- topic/stentry     reference/proptypehd ">
+<!ATTLIST  propvaluehd  class CDATA "- topic/stentry     reference/propvaluehd ">
+<!ATTLIST  propdeschd   class CDATA "- topic/stentry     reference/propdeschd ">
 
 <!-- ================== End of DITA Reference ==================== -->
  

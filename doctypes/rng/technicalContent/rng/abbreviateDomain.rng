@@ -81,9 +81,6 @@ ORIGINAL CREATION DATE:
       <define name="abbreviated-form.attributes">
         <attribute name="keyref"/>
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="abbreviated-form.element">
         <element name="abbreviated-form" dita:longName="Abbreviated Form">
@@ -101,7 +98,6 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="abbreviated-form.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/term abbrev-d/abbreviated-form "/>
       </optional>

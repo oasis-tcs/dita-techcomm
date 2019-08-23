@@ -114,10 +114,7 @@
                          %section;)*"
 >
 <!ENTITY % conbodydiv.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  conbodydiv %conbodydiv.content;>
 <!ATTLIST  conbodydiv %conbodydiv.attributes;>
@@ -128,9 +125,9 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  concept      %global-atts;  class CDATA "- topic/topic concept/concept ">
-<!ATTLIST  conbody      %global-atts;  class CDATA "- topic/body  concept/conbody ">
-<!ATTLIST  conbodydiv   %global-atts;  class CDATA "- topic/bodydiv concept/conbodydiv ">
+<!ATTLIST  concept      class CDATA "- topic/topic concept/concept ">
+<!ATTLIST  conbody      class CDATA "- topic/body  concept/conbody ">
+<!ATTLIST  conbodydiv   class CDATA "- topic/bodydiv concept/conbodydiv ">
 
 <!-- ================== End of DITA Concept ==================== -->
  

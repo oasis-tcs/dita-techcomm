@@ -127,10 +127,7 @@
                        "(%abstract.cnt;)*"
 >
 <!ENTITY % glossdef.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossdef %glossdef.content;>
 <!ATTLIST  glossdef %glossdef.attributes;>
@@ -297,10 +294,7 @@
                          %tm;)*"
 >
 <!ENTITY % glossSurfaceForm.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossSurfaceForm %glossSurfaceForm.content;>
 <!ATTLIST  glossSurfaceForm %glossSurfaceForm.attributes;>
@@ -329,10 +323,7 @@
                othertype
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossUsage %glossUsage.content;>
 <!ATTLIST  glossUsage %glossUsage.attributes;>
@@ -361,10 +352,7 @@
                othertype
                           CDATA
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossScopeNote %glossScopeNote.content;>
 <!ATTLIST  glossScopeNote %glossScopeNote.attributes;>
@@ -413,10 +401,7 @@
                            inline |
                            -dita-use-conref-target)
                                     'inline'
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossSymbol %glossSymbol.content;>
 <!ATTLIST  glossSymbol %glossSymbol.attributes;>
@@ -435,10 +420,7 @@
                          (%glossAlternateFor;)*)"
 >
 <!ENTITY % glossAlt.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossAlt %glossAlt.content;>
 <!ATTLIST  glossAlt %glossAlt.attributes;>
@@ -467,10 +449,7 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               %univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+               %univ-atts;"
 >
 <!ELEMENT  glossAlternateFor %glossAlternateFor.content;>
 <!ATTLIST  glossAlternateFor %glossAlternateFor.attributes;>
@@ -481,23 +460,23 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  glossentry   %global-atts;  class CDATA "- topic/topic concept/concept glossentry/glossentry ">
-<!ATTLIST  glossterm    %global-atts;  class CDATA "- topic/title concept/title glossentry/glossterm ">
-<!ATTLIST  glossdef     %global-atts;  class CDATA "- topic/abstract concept/abstract glossentry/glossdef ">
-<!ATTLIST  glossBody    %global-atts;  class CDATA "- topic/body concept/conbody glossentry/glossBody ">
-<!ATTLIST  glossAbbreviation %global-atts;  class CDATA "- topic/title concept/title glossentry/glossAbbreviation ">
-<!ATTLIST  glossAcronym %global-atts;  class CDATA "- topic/title concept/title glossentry/glossAcronym ">
-<!ATTLIST  glossShortForm %global-atts;  class CDATA "- topic/title concept/title glossentry/glossShortForm ">
-<!ATTLIST  glossSynonym %global-atts;  class CDATA "- topic/title concept/title glossentry/glossSynonym ">
-<!ATTLIST  glossPartOfSpeech %global-atts;  class CDATA "- topic/data concept/data glossentry/glossPartOfSpeech ">
-<!ATTLIST  glossProperty %global-atts;  class CDATA "- topic/data concept/data glossentry/glossProperty ">
-<!ATTLIST  glossStatus  %global-atts;  class CDATA "- topic/data concept/data glossentry/glossStatus ">
-<!ATTLIST  glossAlt     %global-atts;  class CDATA "- topic/section concept/section glossentry/glossAlt ">
-<!ATTLIST  glossAlternateFor %global-atts;  class CDATA "- topic/xref concept/xref glossentry/glossAlternateFor ">
-<!ATTLIST  glossScopeNote %global-atts;  class CDATA "- topic/note concept/note glossentry/glossScopeNote ">
-<!ATTLIST  glossSurfaceForm %global-atts;  class CDATA "- topic/p concept/p glossentry/glossSurfaceForm ">
-<!ATTLIST  glossSymbol  %global-atts;  class CDATA "- topic/image concept/image glossentry/glossSymbol ">
-<!ATTLIST  glossUsage   %global-atts;  class CDATA "- topic/note concept/note glossentry/glossUsage ">
+<!ATTLIST  glossentry   class CDATA "- topic/topic concept/concept glossentry/glossentry ">
+<!ATTLIST  glossterm    class CDATA "- topic/title concept/title glossentry/glossterm ">
+<!ATTLIST  glossdef     class CDATA "- topic/abstract concept/abstract glossentry/glossdef ">
+<!ATTLIST  glossBody    class CDATA "- topic/body concept/conbody glossentry/glossBody ">
+<!ATTLIST  glossAbbreviation class CDATA "- topic/title concept/title glossentry/glossAbbreviation ">
+<!ATTLIST  glossAcronym class CDATA "- topic/title concept/title glossentry/glossAcronym ">
+<!ATTLIST  glossShortForm class CDATA "- topic/title concept/title glossentry/glossShortForm ">
+<!ATTLIST  glossSynonym class CDATA "- topic/title concept/title glossentry/glossSynonym ">
+<!ATTLIST  glossPartOfSpeech class CDATA "- topic/data concept/data glossentry/glossPartOfSpeech ">
+<!ATTLIST  glossProperty class CDATA "- topic/data concept/data glossentry/glossProperty ">
+<!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
+<!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">
+<!ATTLIST  glossAlternateFor class CDATA "- topic/xref concept/xref glossentry/glossAlternateFor ">
+<!ATTLIST  glossScopeNote class CDATA "- topic/note concept/note glossentry/glossScopeNote ">
+<!ATTLIST  glossSurfaceForm class CDATA "- topic/p concept/p glossentry/glossSurfaceForm ">
+<!ATTLIST  glossSymbol  class CDATA "- topic/image concept/image glossentry/glossSymbol ">
+<!ATTLIST  glossUsage   class CDATA "- topic/note concept/note glossentry/glossUsage ">
 
 <!-- ================== End of DITA Glossary Entry ==================== -->
  
