@@ -94,7 +94,11 @@ ORIGINAL CREATION DATE:
                          (topic sw-d)
                          (topic ui-d)
                          (topic ut-d)
-                         a(props deliveryTarget)"
+                         a(props audience)
+                         a(props deliveryTarget)
+                         a(props platform)
+                         a(props product)
+                         a(props otherprops)"
         />
       </optional>
     </define>
