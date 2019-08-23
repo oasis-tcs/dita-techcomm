@@ -72,11 +72,6 @@
          "../../technicalContent/dtd/abbreviateDomain.ent"
 >%abbrev-d-dec;
 
-<!ENTITY % delay-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Delayed Resolution Domain//EN"
-         "../../base/dtd/delayResolutionDomain.ent"
->%delay-d-dec;
-
 <!ENTITY % ditavalref-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 DITAVAL Ref Domain//EN"
          "../../base/dtd/ditavalrefDomain.ent"
@@ -152,9 +147,6 @@
                          %mapgroup-d-topicref; |
                          %ditavalref-d-topicref;
                         ">
-<!ENTITY % keywords     "keywords |
-                         %delay-d-keywords;
-                        ">
 <!ENTITY % note         "note |
                          %hazard-d-note;
                         ">
@@ -215,7 +207,6 @@
                           "&mapgroup-d-att;
                            &bookmap-att;
                            &abbrev-d-att;
-                           &delay-d-att;
                            &deliveryTargetAtt-d-att;
                            &ditavalref-d-att;
                            &hazard-d-att;
@@ -262,11 +253,6 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
          "../../technicalContent/dtd/abbreviateDomain.mod"
 >%abbrev-d-def;
-
-<!ENTITY % delay-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Delayed Resolution Domain//EN"
-         "../../base/dtd/delayResolutionDomain.mod"
->%delay-d-def;
 
 <!ENTITY % ditavalref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 DITAVAL Ref Domain//EN"
