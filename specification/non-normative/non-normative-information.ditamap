@@ -2,5 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Non-normative information</title>
-    <topicref href="non-normative-information.dita"/>
+    <topicref href="non-normative-information.dita">
+        <topicref href="formatting-expectations.dita"/>
+    </topicref>
 </map>
