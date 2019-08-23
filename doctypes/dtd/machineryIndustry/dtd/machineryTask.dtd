@@ -66,11 +66,6 @@
          "../../base/dtd/highlightDomain.ent"
 >%hi-d-dec;
 
-<!ENTITY % indexing-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.ent"
->%indexing-d-dec;
-
 <!ENTITY % svg-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 SVG Domain//EN"
          "../../technicalContent/dtd/svgDomain.ent"
@@ -107,9 +102,6 @@
                         the name of the domain(s) in which the
                         extension was declared                     -->
 
-<!ENTITY % index-base   "index-base |
-                         %indexing-d-index-base;
-                        ">
 <!ENTITY % note         "note |
                          %hazard-d-note;
                         ">
@@ -167,7 +159,6 @@
                            &deliveryTargetAtt-d-att;
                            &hazard-d-att;
                            &hi-d-att;
-                           &indexing-d-att;
                            &svg-d-att;
                            &taskreq-d-att;
                            &ui-d-att;
@@ -212,11 +203,6 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
          "../../base/dtd/highlightDomain.mod"
 >%hi-d-def;
-
-<!ENTITY % indexing-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.mod"
->%indexing-d-def;
 
 <!ENTITY % svg-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 SVG Domain//EN"
