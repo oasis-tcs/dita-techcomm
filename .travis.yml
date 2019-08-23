@@ -5,5 +5,7 @@ jdk:
 env:
   global:
   - DITA_OT_VERSION=3.3.3
-install: .travis/install.sh
+install: 
+- git submodule update --init --recursive
+- ".travis/install.sh"
 script: .travis/run.sh
