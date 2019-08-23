@@ -249,7 +249,10 @@ ORIGINAL CREATION DATE:
       <a:documentation> LONG NAME: Reference Syntax </a:documentation>
       <define name="refsyn.content">
         <zeroOrMore>
-          <ref name="section.cnt"/>
+          <choice>
+            <ref name="section.cnt"/>
+            <ref name="properties"/>
+          </choice>
         </zeroOrMore>
       </define>
       <define name="refsyn.attributes">

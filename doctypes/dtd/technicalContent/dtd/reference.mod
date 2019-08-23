@@ -146,7 +146,7 @@
 
 <!--                    LONG NAME: Reference Syntax                -->
 <!ENTITY % refsyn.content
-                       "(%section.cnt;)*"
+                       "(%section.cnt; | %properties;)*"
 >
 <!ENTITY % refsyn.attributes
               "spectitle
