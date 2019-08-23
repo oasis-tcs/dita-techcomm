@@ -130,7 +130,7 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  glossref     %global-atts;  class CDATA "+ map/topicref glossref-d/glossref ">
+<!ATTLIST  glossref     class CDATA "+ map/topicref glossref-d/glossref ">
 
 <!-- ================== End of DITA Glossary Reference Domain ==================== -->
  
