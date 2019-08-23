@@ -414,7 +414,6 @@
                                   "&included-domains;"
               %arch-atts;
               %localization-atts;
-              %global-atts;
 >
 
 <!-- ================= End of DITA BASE ================= -->
