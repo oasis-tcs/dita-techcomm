@@ -46,10 +46,7 @@
                        "(%topicmeta;)?"
 >
 <!ENTITY % glossref.attributes
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref

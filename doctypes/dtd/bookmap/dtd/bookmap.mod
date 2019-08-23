@@ -123,10 +123,7 @@
 <!-- ============================================================= -->
 
 <!ENTITY % chapter-atts
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref
