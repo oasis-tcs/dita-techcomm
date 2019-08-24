@@ -15,7 +15,6 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p/>
       <p>When an <xmlelement>equation-block</xmlelement> element has multiple direct child elements,
         each child represents an alternative form of the equation.</p>
     </section>
@@ -37,7 +36,8 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass"/>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+        />.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

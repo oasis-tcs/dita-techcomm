@@ -50,35 +50,45 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/fig-attributes"/>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/>, <xref
+                                        keyref="attributes-display"/>, and <xref
+                                        keyref="attributes-specialization/spectitle"/>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following example, the <xmlelement>equation-figure</xmlelement> element contains a
-        title and
+      <p>In the following code sample, the <xmlelement>equation-figure</xmlelement> element contains
+        a title and
         MathML:<codeblock>&lt;equation-figure>
-          &lt;title>Display equation with a MathML container&lt;/title>
-          &lt;mathml>
-          &lt;m:math display='block'>
-          &lt;m:semantics>
-          &lt;m:mrow>
+  &lt;title>Display equation with a MathML container&lt;/title>
+  &lt;mathml>
+    &lt;m:math display='block'>
+      &lt;m:semantics>
+        &lt;m:mrow>
           &lt;m:mfrac>
-          &lt;m:mrow>
-          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
+            &lt;m:mrow>
+              &lt;m:mi>n&lt;/m:mi>
+              &lt;m:mo>!&lt;/m:mo>
+            &lt;/m:mrow>
+            &lt;m:mrow>
+              &lt;m:mi>r&lt;/m:mi>
+              &lt;m:mo>!&lt;/m:mo>
+            &lt;m:mrow>
+              &lt;m:mo>(&lt;/m:mo>
+              &lt;m:mrow>
+                &lt;m:mi>n&lt;/m:mi>
+                &lt;m:mo>&amp;#x2212;&lt;/m:mo>
+                &lt;m:mi>r&lt;/m:mi>
+              &lt;/m:mrow>
+              &lt;m:mo>)&lt;/m:mo>
+            &lt;/m:mrow>
+            &lt;m:mo>!&lt;/m:mo>
           &lt;/m:mrow>
-          &lt;m:mrow>
-          &lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;m:mrow>&lt;m:mo>(&lt;/m:mo>
-          &lt;m:mrow>
-          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>
-          &lt;/m:mrow>
-          &lt;m:mo>)&lt;/m:mo>&lt;/m:mrow>&lt;m:mo>!&lt;/m:mo>
-          &lt;/m:mrow>
-          &lt;/m:mfrac>         
-          &lt;/m:mrow>
-          &lt;/m:semantics>
-          &lt;/m:math>
-          &lt;/mathml>
-          &lt;/equation-figure></codeblock></p>
+        &lt;/m:mfrac>         
+      &lt;/m:mrow>
+    &lt;/m:semantics>
+  &lt;/m:math>
+&lt;/mathml>
+&lt;/equation-figure></codeblock></p>
       <p>In the following example, the <xmlelement>equation-figure</xmlelement> element contains a
         title and an <xmlelement>equation-block</xmlelement> element that contains MathML and
         commentary:<codeblock>&lt;equation-figure>

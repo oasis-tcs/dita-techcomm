@@ -2,36 +2,39 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="markupname">
   <title><xmlelement>markupname</xmlelement></title>
-  <shortdesc>Use the <xmlelement>markupname</xmlelement> element to identify mentions of named
-    markup tokens, such as elements or attributes in XML or SGML, named groups in XSD schemas, or
-    named patterns in RELAX NG schemas.</shortdesc>
+  <shortdesc>The <xmlelement>markupname</xmlelement> element identifies named markup tokens, for
+    example,  elements or attributes in XML and SGML, named groups in XSD schemas, and named
+    patterns in RELAX NG schemas.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>markupname</indexterm>
-        <indexterm>markup domain<indexterm>markupname</indexterm></indexterm>
+        <indexterm>markup
+          domain<indexterm><xmlelement>markupname</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>markupname</xmlelement> element also serves as the specialization basis for the elements in the XML mention
-        domain; when that domain is present, use its more specific elements instead of
-          <xmlelement>markupname</xmlelement> when
+      <p>The <xmlelement>markupname</xmlelement> element serves as the specialization basis for the
+        elements in the XML mention domain. When the XML mention domain is present, use its more
+        specific elements instead of <xmlelement>markupname</xmlelement> when
         appropriate.<!--14 April 2014: Discussed last sentence with Kris and Robert, agreed that this is lower case "should",
       which is more appropriate for the end user author audience rather than for implementations. Do not use RFC terminology.--></p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname</p>
+      <p>The <xmlelement>markupname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>. It is defined in the markup domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>markupname</xmlelement> element is used to
+        tag an attribute group.</p>
       <codeblock>The <b>&lt;markupname>p.attributes&lt;/markupname></b> attribute group defines 
 the allowed attributes for the &lt;xmlelement>p&lt;/xmlelement> element.</codeblock>
     </example>
