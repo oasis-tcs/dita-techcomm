@@ -7,8 +7,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>mathml</indexterm>
-        <indexterm>MathML domain<indexterm>mathml</indexterm></indexterm>
+        <indexterm>MathML domain<indexterm><xmlelement>mathml</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -31,11 +30,11 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass"/>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following example, a <xmlelement>mathml</xmlelement> element contains MathML
+      <p>In the following code sample, a <xmlelement>mathml</xmlelement> element contains MathML
         content:</p>
       <codeblock>&lt;equation-block>
         <b>&lt;mathml></b>

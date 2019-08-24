@@ -27,14 +27,14 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/universal-outputclass-keyref"/>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;p>Numeric character references represent characters from the Universal
 Character Set (UCS) of Unicode. They are used to reference characters  that 
 cannot easily be directly encoded in a document, such as a copyright 
-symbol. When a markup-aware processor encounters a numeric  character 
+symbol. When a markup-aware processor encounters a numeric character 
 reference, for example, &lt;numcharref>225&lt;/numcharref>, it renders the 
 reference as the Unicode character that it represents: a-acute.&lt;/p></codeblock>
     </example>
