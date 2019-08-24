@@ -216,8 +216,6 @@
         <sli><xref keyref="stepsection"/></sli>
         <sli><xref keyref="steptroubleshooting"/></sli>
         <sli><xref keyref="stepxmp"/></sli>
-        <!--<sli><xref keyref="substep"/></sli>-->
-        <!--<sli><xref keyref="substeps"/></sli>-->
         <sli><xref keyref="summary"/></sli>
         <sli><xref keyref="supeqli"/></sli>
         <sli><xref keyref="supequi"/></sli>

@@ -49,20 +49,19 @@
 				<dlentry>
 					<dt><xmlelement>steps</xmlelement>
 					</dt>
-					<dd>Provides the main content of the task topic. A <xmlelement>task</xmlelement>
-						consists of a series of steps that accomplish the task. The
-							<xmlelement>steps</xmlelement> element must have one or more
-							<xmlelement>step</xmlelement> elements, which provide the specifics
-						about each step in the task. The <xmlelement>steps</xmlelement> element
-							<ph>can</ph> occur only once. <p id="p_510ED5C99C6A4A38958D579C3E8ABBC2"
-							>The <xmlelement>step</xmlelement> element represents an action that a
+					<dd>Provides the main content of the task topic. A <xmlelement>task</xmlelement> consists of a
+						series of steps that accomplish the task. The <xmlelement>steps</xmlelement>
+						element must have one or more <xmlelement>step</xmlelement> elements, which
+						provide the specifics about each step in the task. The
+							<xmlelement>steps</xmlelement> element <ph>can</ph> occur only once. <p
+							id="p_510ED5C99C6A4A38958D579C3E8ABBC2">The
+								<xmlelement>step</xmlelement> element represents an action that a
 							user must follow to accomplish a task. Each
 								<xmlelement>step</xmlelement> in a <xmlelement>task</xmlelement>
 							must contain a command <xmlelement>cmd</xmlelement> element which
 							describes the particular action the user must perform to accomplish the
-							overall task. The <xmlelement>step</xmlelement> element <ph>can</ph>
-							also contain information <xmlelement>info</xmlelement>, substeps
-								<xmlelement>substeps</xmlelement>, tutorial information
+							overall task. The <xmlelement>step</xmlelement> element can also contain
+							information <xmlelement>info</xmlelement>, tutorial information
 								<xmlelement>tutorialinfo</xmlelement>, a step example
 								<xmlelement>stepxmp</xmlelement>, choices
 								<xmlelement>choices</xmlelement>, a step result
