@@ -1,38 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
-  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="menucascade" xml:lang="en-us">
   <title><xmlelement>menucascade</xmlelement></title>
-  <shortdesc>The <xmlelement>menucascade</xmlelement> element is used to document a series of menu
-    choices.</shortdesc>
+  <shortdesc>The <xmlelement>menucascade</xmlelement> element identifies a sequence of menu choices
+    in a nested menu, such as <menucascade>
+      <uicontrol>File</uicontrol>
+      <uicontrol>New</uicontrol>
+    </menucascade>. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>menucascade</xmlelement></indexterm>
-        <indexterm>rendering
-          expectations<indexterm><xmlelement>menucascade</xmlelement></indexterm></indexterm>
-        <indexterm>user-interface domain
-            elements<indexterm><xmlelement>menucascade</xmlelement></indexterm></indexterm>
-        <indexterm>user interfaces<indexterm>menu choices</indexterm></indexterm>
+        <indexterm>menu sequences</indexterm>
+        <indexterm>user interface components<indexterm>menu sequences</indexterm></indexterm>
+        <indexterm>user interface
+          domain<indexterm><xmlelement>menucascade</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>menucascade</xmlelement> element contains one or more user interface
-        control (<xmlelement>uicontrol</xmlelement>) elements, for example: <codeph>Start &gt;
-          Programs &gt; Accessories &gt; Notepad</codeph>. This
-        element is part of the DITA user interface domain, a special set of DITA elements designed
-        to document user interface tasks, concepts and reference information.</p>
-    </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-      <p>If there is more than one <xmlelement>uicontrol</xmlelement> element, a formatter might
-        show connecting characters between the menu items to represent the menu cascade.</p>
+      <!--<p>The <xmlelement>menucascade</xmlelement> element contains one or more user interface control (<xmlelement>uicontrol</xmlelement>) elements, for example: <codeph>Start &gt; Programs &gt; Accessories &gt; Notepad</codeph>. </p>-->
+      <p>This element is part of the user interface domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph ui-d/menucascade</p>
+      <p>The <xmlelement>menucascade</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>. It is defined in the user-interface domain module.</p>
+      <!--<p>+ topic/ph ui-d/menucascade</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -40,19 +35,15 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>This example:</p>
+      <p>In the following code sample, the <xmlelement>menucascade</xmlelement> element is used to
+        identify a series of menu choices that enable users to launch the Notepad application:</p>
       <codeblock>&lt;menucascade&gt;
  &lt;uicontrol&gt;Start&lt;/uicontrol&gt;
  &lt;uicontrol&gt;Programs&lt;/uicontrol&gt;
  &lt;uicontrol&gt;Accessories&lt;/uicontrol&gt;
  &lt;uicontrol&gt;Notepad&lt;/uicontrol&gt;
 &lt;/menucascade&gt;</codeblock>
-      <p>May produce output similar to the following: <menucascade>
-          <uicontrol>Start</uicontrol>
-          <uicontrol>Programs</uicontrol>
-          <uicontrol>Accessories</uicontrol>
-          <uicontrol>Notepad</uicontrol>
-        </menucascade></p>
+      <!--<p>May produce output similar to the following: <menucascade><uicontrol>Start</uicontrol><uicontrol>Programs</uicontrol><uicontrol>Accessories</uicontrol><uicontrol>Notepad</uicontrol></menucascade></p>-->
     </example>
   </refbody>
 </reference>

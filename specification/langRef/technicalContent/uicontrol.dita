@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="uicontrol" xml:lang="en-us">
   <title><xmlelement>uicontrol</xmlelement></title>
-  <shortdesc>The <xmlelement>uicontrol</xmlelement> element is used to mark up user interface
-    controls, such as names of buttons, entry fields, menu items, or other objects that allow the
-    user to control the interface.</shortdesc>
+  <shortdesc>The <xmlelement>uicontrol</xmlelement> element identifies user interface controls, such
+    as names of buttons, fields, menu items, and other objects that enable users to control the
+    interface.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>user-interface domain
-            elements<indexterm><xmlelement>uicontrol</xmlelement></indexterm></indexterm>
-        <indexterm><xmlelement>uicontrol</xmlelement></indexterm>
-        <indexterm>user interfaces<indexterm>controls</indexterm></indexterm>
+        <indexterm>interface controls</indexterm>
+        <indexterm>user interface components<indexterm>controls</indexterm></indexterm>
+        <indexterm>user interface
+          domain<indexterm><xmlelement>uicontrol</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Use the <xmlelement>uicontrol</xmlelement> element inside a
+      <p>The <xmlelement>uicontrol</xmlelement> element also is used inside a
           <xmlelement>menucascade</xmlelement> element to identify a sequence of menu choices in a
         nested menu, such as <menucascade>
           <uicontrol>File</uicontrol>
           <uicontrol>New</uicontrol>
-        </menucascade>. This element is part of the DITA user interface domain, a special set of
-        DITA elements designed to document user interface tasks, concepts and reference
-        information.</p>
+        </menucascade>. </p>
+      <p>This element is part of the user interface domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph ui-d/uicontrol</p>
+      <p>The <xmlelement>uicontrol</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>. It is defined in the user-interface domain module.</p>
+      <!--<p>+ topic/ph ui-d/uicontrol</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -38,7 +38,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;p>Press the <b>&lt;uicontrol&gt;</b>OK<b>&lt;/uicontrol&gt;</b> button.&lt;/p></codeblock>
+      <p>In the following code sample, the <xmlelement>uicontrol</xmlelement> element identifies a
+        button that a user is directed to press:</p>
+      <codeblock>&lt;p>Press <b>&lt;uicontrol&gt;</b>OK<b>&lt;/uicontrol&gt;</b>.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="shortcut" xml:lang="en-us">
   <title><xmlelement>shortcut</xmlelement></title>
   <shortdesc>The <xmlelement>shortcut</xmlelement> element identifies a keyboard shortcut for a menu
@@ -8,22 +7,23 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>shortcut</xmlelement></indexterm>
-        <indexterm>user-interface domain
-            elements<indexterm><xmlelement>shortcut</xmlelement></indexterm></indexterm>
-        <indexterm>user interfaces<indexterm>keyboard shortcuts</indexterm></indexterm>
+        <indexterm>keyboard shortcuts</indexterm>
+        <indexterm>user interface components<indexterm>keyboard shortcuts</indexterm></indexterm>
+        <indexterm>user interface
+          domain<indexterm><xmlelement>shortcut</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element is part of the DITA user interface domain, a special set of DITA elements
-        designed to document user interface tasks, concepts and reference information.</p>
+      <p>This element is part of the user interface domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword ui-d/shortcut</p>
+      <p>The <xmlelement>shortcut</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>. It is defined in the user-interface domain module.</p>
+      <!--<p>+ topic/keyword ui-d/shortcut</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -31,15 +31,13 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>This example:</p>
+      <p>In the following code sample, the <xmlelement>shortcut</xmlelement> element identifies the
+        keyboard shortcut for the "Start Programs" menu action:</p>
       <codeblock>&lt;menucascade&gt;
  &lt;uicontrol&gt;Start&lt;/uicontrol&gt;
  &lt;uicontrol&gt;<b>&lt;shortcut&gt;</b>P<b>&lt;/shortcut&gt;</b>rograms&lt;/uicontrol&gt;
 &lt;/menucascade&gt;</codeblock>
-      <p>May produce output similar to the following: <menucascade>
-          <uicontrol>Start</uicontrol>
-          <uicontrol><shortcut>P</shortcut>rograms</uicontrol>
-        </menucascade></p>
+      <!--<p>May produce output similar to the following: <menucascade><uicontrol>Start</uicontrol><uicontrol><shortcut>P</shortcut>rograms</uicontrol></menucascade></p>-->
     </example>
   </refbody>
 </reference>
