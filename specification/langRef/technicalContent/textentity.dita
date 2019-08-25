@@ -2,29 +2,33 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="textentity">
   <title><xmlelement>textentity</xmlelement></title>
-  <shortdesc>Use the <xmlelement>textentity</xmlelement> element to identify mentions of XML text
-    entities, for example, "&amp;xml-d-att;".</shortdesc>
+  <shortdesc>The <xmlelement>textentity</xmlelement> element identifies mentions of XML text
+    entities.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>textentity</xmlelement></indexterm>
-        <indexterm>XML-mention domain
-            elements<indexterm><xmlelement>textentity</xmlelement></indexterm></indexterm>
+        <indexterm>text entities</indexterm>
+        <indexterm>XML<indexterm>text entities</indexterm></indexterm>
+        <indexterm>XML mention
+          domain<indexterm><xmlelement>textentity</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>textentity</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
-        distinct formatting, such as adding an ampersand (&amp;) as a leading character and a
-        semi-colon (;) as a trailing character. The content of the
-          <xmlelement>textentity</xmlelement> element should be the entity name without the
-        ampersand and semi-colon delimiters. <ph conkeyref="conref-file/xml-mention-domain"/></p>
+      <p><!--The <xmlelement>textentity</xmlelement> element enables more precise semantic searching of the DITA source; it also enables distinct formatting, such as adding an ampersand (&amp;) as a leading character and a semi-colon (;) as a trailing character. -->The
+        content of the <xmlelement>textentity</xmlelement> element should be the entity name without
+        the ampersand and semi-colon delimiters, for example, <keyword>hi-d-att</keyword>.</p>
+      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/textentity p</p>
+      <p>The <xmlelement>textentity</xmlelement> element is specialized from
+          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
+          <xmlelement>markupname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <!--<p>+ topic/keyword markup-d/markupname xml-d/textentity</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,6 +36,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>textentity</xmlelement> element is used to
+        tag the token that the highlighting domain contributes to the <xmlatt>domains</xmlatt>
+        attribute:</p>
       <codeblock>The <b>&lt;textentity>hi-d-att&lt;/textentity></b> entity holds the contribution for the 
 &lt;xmlatt>domains&lt;/xmlatt> attribute.</codeblock>
     </example>

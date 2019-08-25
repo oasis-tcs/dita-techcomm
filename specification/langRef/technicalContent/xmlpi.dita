@@ -2,26 +2,30 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="xmlpi">
   <title><xmlelement>xmlpi</xmlelement></title>
-  <shortdesc>Use the <xmlelement>xmlpi</xmlelement> element to identify mentions of processing
-    instruction names, such as <codeph>&lt;?<i>piname</i> pi value?></codeph>.</shortdesc>
+  <shortdesc>The <xmlelement>xmlpi</xmlelement> element identifies mentions of processing
+    instruction names.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>xmlpi</xmlelement></indexterm>
-        <indexterm>XML-mention domain
-          elements<indexterm><xmlelement>xmlpi</xmlelement></indexterm></indexterm>
+        <indexterm>processing instructions</indexterm>
+        <indexterm>XML<indexterm>processing instructions</indexterm></indexterm>
+        <indexterm>XML mention
+          domain<indexterm><xmlelement>xmlpi</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>xmlpi</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
-        distinct formatting. <ph conkeyref="conref-file/xml-mention-domain"/></p>
+      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/xmlpi</p>
+      <p>The <xmlelement>xmlpi</xmlelement> element is specialized from
+          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
+          <xmlelement>markupname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <!--<p>+ topic/keyword markup-d/markupname xml-d/xmlpi</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -29,6 +33,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, an <xmlelement>xmlpi</xmlelement> element is used to tag the
+        name of a processing instruction:</p>
       <codeblock>While DITA does not define any processing instructions, some applications might
 use some DocBook processing instructions, such as <b>&lt;xmlpi>dbhtml_bgcolor&lt;/xmlpi></b>.</codeblock>
     </example>

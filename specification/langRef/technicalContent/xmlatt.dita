@@ -2,29 +2,32 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="xmlatt">
   <title><xmlelement>xmlatt</xmlelement></title>
-  <shortdesc>Use the <xmlelement>xmlatt</xmlelement> element to identify mentions of XML attributes,
-    for example, <xmlatt>audience</xmlatt>.</shortdesc>
+  <shortdesc>The <xmlelement>xmlatt</xmlelement> element identifies mentions of XML
+    attributes.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>xmlatt</xmlelement></indexterm>
-        <indexterm>XML-mention domain
-          elements<indexterm><xmlelement>xmlatt</xmlelement></indexterm></indexterm>
+        <indexterm>XML<indexterm>attributes</indexterm></indexterm>
+        <indexterm>XML mention
+          domain<indexterm><xmlelement>xmlatt</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>xmlatt</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
-        distinct formatting, such as preceding the name of the attribute with a commercial at (@)
-        sign. The content of the <xmlelement>xmlatt</xmlelement> element should be the attribute
-        name without commercial at or equals (=) characters. <ph
-          conkeyref="conref-file/xml-mention-domain"/></p>
+      <p>The content of the <xmlelement>xmlatt</xmlelement> element should be the attribute name
+        without commercial at symbol (@) or equals character (=) , for example,
+          <keyword>audience</keyword>.</p>
+      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/xmlatt</p>
+      <p>The <xmlelement>xmlatt</xmlelement> element is specialized from
+          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
+          <xmlelement>markupname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <!--<p>+ topic/keyword markup-d/markupname xml-d/xmlatt</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,6 +35,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>xmlatt</xmlelement> element is used to tag
+        mentions of the <xmlatt>collection-type</xmlatt> and <xmlatt>linking</xmlatt>
+        attributes:</p>
       <codeblock>The <b>&lt;xmlatt>collection-type&lt;/xmlatt></b> and <b>&lt;xmlatt>linking&lt;/xmlatt></b> 
 attributes affect how related links are generated for topics that are 
 referenced in the DITA map.</codeblock>

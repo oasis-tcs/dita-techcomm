@@ -2,39 +2,46 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id=" parameterentity">
   <title><xmlelement>parameterentity</xmlelement></title>
-  <shortdesc>Use the <xmlelement>parameterentity</xmlelement> element to identify mentions of
-    parameter entities, for example, "%keyword.content;".</shortdesc>
+  <shortdesc>The <xmlelement>parameterentity</xmlelement> element identifies mentions of parameter
+    entities.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>parameterentity</xmlelement></indexterm>
-        <indexterm>XML-mention domain
-            elements<indexterm><xmlelement>parameterentity</xmlelement></indexterm></indexterm>
+        <indexterm>parameter entities</indexterm>
+        <indexterm>XML<indexterm>parameter entities</indexterm></indexterm>
+        <indexterm>XML mention
+          domain<indexterm><xmlelement>parameterentity</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>parameterentity</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
-        distinct formatting, such as adding the percentage sign (%) or trailing semi-colon (;)
-        delimiters to the parameter entity name. The content of the
-          <xmlelement>parameterentity</xmlelement> element should be the entity name without the
-        leading percentage sign or trailing semi-colon. <ph
-          conkeyref="conref-file/xml-mention-domain"/></p>
+      <p><!--The <xmlelement>parameterentity</xmlelement> element enables more precise semantic searching of the DITA source; it also enables distinct formatting, such as adding the percentage sign (%) or trailing semi-colon (;) delimiters to the parameter entity name. -->The
+        content of the <xmlelement>parameterentity</xmlelement> element should be the entity name
+        without a leading percentage sign or trailing semi-colon, for example,
+          <keyword>keyword.content</keyword>.</p>
+      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/parameterentity</p>
+      <p>The <xmlelement>parameterentity</xmlelement> element is specialized from
+          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
+          <xmlelement>markupname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <!--<p>+ topic/keyword markup-d/markupname xml-d/parameterentity</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+        /> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Examples</title>
-      <codeblock>&lt;p> ... The <b>&lt;parameterentity>p.content&lt;/parameterentity></b> parameter entity 
-defines the content model for the &lt;xmlelement>p&lt;/xmlelement> element.&lt;/p></codeblock>
+      <p>In the following code sample, the <xmlelement>parameterentity</xmlelement> element tags the
+        name of the <parameterentity>xml-d-dec</parameterentity> parameter entity:</p>
+      <!--<codeblock>&lt;p> ... The <b>&lt;parameterentity>p.content&lt;/parameterentity></b> parameter entity 
+defines the content model for the &lt;xmlelement>p&lt;/xmlelement> element.&lt;/p></codeblock>-->
       <codeblock>&lt;p>To include the XML-mention domain in a DTD document-type shell, you must 
 declare the <b>&lt;parameterentity>xml-d-dec&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
     </example>

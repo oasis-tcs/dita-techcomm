@@ -2,35 +2,43 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="numcharref">
   <title><xmlelement>numcharref</xmlelement></title>
-  <shortdesc>Use the <xmlelement>numcharref</xmlelement> element to identify mentions of XML numeric
-    character references, for example, "&amp;#10;" or "&amp;#x0a;".</shortdesc>
+  <shortdesc>The <xmlelement>numcharref</xmlelement> element identifies mentions of XML numeric
+    character references.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><xmlelement>numcharref</xmlelement></indexterm>
-        <indexterm>XML-mention domain
-            elements<indexterm><xmlelement>numcharref</xmlelement></indexterm></indexterm>
+        <indexterm>numeric character references</indexterm>
+        <indexterm>XML<indexterm>numeric character references</indexterm></indexterm>
+        <indexterm>XML mention
+          domain<indexterm><xmlelement>numcharref</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>numcharref</xmlelement> element enables more precise semantic searching of the DITA source; it also enables
-        distinct output formatting. The content of the <xmlelement>numcharref</xmlelement> element
-        should be the numeric value without any leading or trailing characters added as style, for
-        example, "10" or "x0a". <ph conkeyref="conref-file/xml-mention-domain"/></p>
+      <p>The content of the <xmlelement>numcharref</xmlelement> element should be the numeric value
+        without any leading or trailing characters, for example, <keyword>10</keyword> or<keyword>
+          x0a</keyword>.</p>
+      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword markup-d/markupname xml-d/numcharref</p>
+      <p>The <xmlelement>numcharref</xmlelement> element is specialized from
+          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
+          <xmlelement>markupname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <!--<p>+ topic/keyword markup-d/markupname xml-d/numcharref</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+        /> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, a <xmlelement>numcharref</xmlelement> element tags the
+        numeric character reference for the a-cute Unicode character:</p>
       <codeblock>&lt;p>Numeric character references represent characters from the Universal
 Character Set (UCS) of Unicode. They are used to reference characters  that 
 cannot easily be directly encoded in a document, such as a copyright 
