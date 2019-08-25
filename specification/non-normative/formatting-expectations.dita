@@ -47,6 +47,11 @@
                                 <xmlelement>choptionhd</xmlelement> element.</entry>
                     </row>
                     <row>
+                        <entry><xmlelement>menucascade</xmlelement></entry>
+                        <entry>Separate <xmlelement>uicontrol</xmlelement> elements with a character
+                            to represent the menu cascade.</entry>
+                    </row>
+                    <row>
                         <entry><xmlelement>numcharref</xmlelement></entry>
                         <entry>Surround the contents of the <xmlelement>numcharref</xmlelement>
                             element with a leading ampersand (&amp;) and a trailing semi-colon
@@ -57,6 +62,15 @@
                         <entry>Surround the contents of the <xmlelement>numcharref</xmlelement>
                             element with a leading percentage sign (%) and a trailing semi-colon
                             (;).</entry>
+                    </row>
+                    <row>
+                        <entry><xmlelement>screen</xmlelement></entry>
+                        <entry>Enclose the contents of the <xmlelement>screen</xmlelement> element
+                            with a box to suggest a computer display screen.</entry>
+                    </row>
+                    <row>
+                        <entry><xmlelement>shortcut</xmlelement></entry>
+                        <entry>Highlight the keyboard shortcut with underlining.</entry>
                     </row>
                     <row>
                         <entry><xmlelement>steps</xmlelement></entry>
