@@ -1,30 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
-  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="msgph" xml:lang="en-us">
   <title><xmlelement>msgph</xmlelement></title>
-  <shortdesc>The <xmlelement>msgph</xmlelement> element is a message phrase that contains the text
-    content of a message produced by an application or program.</shortdesc>
+  <shortdesc>The <xmlelement>msgph</xmlelement> element identifies the text of a message that is
+    produced by an application or program.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>messages<indexterm>phrases</indexterm></indexterm>
-        <indexterm><xmlelement>msgph</xmlelement></indexterm>
-        <indexterm>software domain
-          elements<indexterm><xmlelement>msgph</xmlelement></indexterm></indexterm>
+        <indexterm>messages<indexterm>text</indexterm></indexterm>
+        <indexterm>software<indexterm>messages<indexterm>text</indexterm></indexterm></indexterm>
+        <indexterm>software domain<indexterm><xmlelement>msgph</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element can also contain a variable name (<xmlelement>varname</xmlelement>) element to
-        illustrate where variable text content can occur in the message. This element is part of the
-        DITA software domain, a special set of DITA elements designed to document software tasks,
-        concepts and reference information.</p>
+      <p><!--This element can also contain a variable name (<xmlelement>varname</xmlelement>) element to illustrate where variable text content can occur in the message. -->This
+        element is part of the software domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph sw-d/msgph</p>
+      <p>The <xmlelement>msgph</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
+        It is defined in the software domain module.</p>
+      <!--<p>+ topic/ph sw-d/msgph</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,6 +31,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>msgph</xmlelement> element is used to tag a
+        message returned by the server:</p>
       <codeblock>&lt;p&gt;A server log entry of &lt;msgnum&gt;I:0&lt;/msgnum&gt; is equivalent to the
 text message, &lt;msgph&gt;informational: successful&lt;/msgph&gt;.&lt;/p&gt;</codeblock></example>
   </refbody>
