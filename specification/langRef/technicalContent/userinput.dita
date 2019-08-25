@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="userinput" xml:lang="en-us">
   <title><xmlelement>userinput</xmlelement></title>
-  <shortdesc>The <xmlelement>userinput</xmlelement> element represents the text a user should input
-    in response to a program or system prompt.</shortdesc>
+  <shortdesc>The <xmlelement>userinput</xmlelement> element identifies text that a user types in
+    response to an application or system prompt.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>computer<indexterm>input</indexterm></indexterm>
-        <indexterm><xmlelement>userinput</xmlelement></indexterm>
-        <indexterm>software domain
-          elements<indexterm><xmlelement>userinput</xmlelement></indexterm></indexterm>
+        <indexterm>software<indexterm>user inputs</indexterm></indexterm>
+        <indexterm>software
+          domain<indexterm><xmlelement>userinput</xmlelement></indexterm></indexterm>
+        <indexterm>user inputs</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
 <section id="usage-information">
          <title>Usage information</title>
-         <p>This element is part of the DITA software domain, a
-    special set of DITA elements designed to document software tasks, concepts and reference
-    information.</p>
+         <p>This element is part of the software domain.</p>
       </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph sw-d/userinput</p>
+      <p>The <xmlelement>userinput</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>. It is defined in the software domain module.</p>
+      <!--<p>+ topic/ph sw-d/userinput</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,9 +31,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock xml:space="preserve">&lt;p&gt;After you type &lt;userinput&gt;mealplan dinner&lt;/userinput&gt;, the meal planning program
-will print a &lt;systemoutput&gt;For what day?&lt;/systemoutput&gt; message.
-Reply by typing the day of the week for which you want a meal plan,
-for example, &lt;userinput&gt;Thursday&lt;/userinput&gt;.&lt;/p&gt;</codeblock></example>
+      <p>In the following code sample, the <xmlelement>userinput</xmlelement> element identifies
+        text that a user should type at the command prompt:</p>
+      <codeblock>&lt;p>From a DOS command prompt, type &lt;userinput>dir&lt;/userimput> to view a list
+of files in the current directory.&lt;/p></codeblock></example>
   </refbody>
 </reference>

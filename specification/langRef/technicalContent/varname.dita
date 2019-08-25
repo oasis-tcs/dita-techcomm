@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="varname" xml:lang="en-us">
   <title><xmlelement>varname</xmlelement></title>
-  <shortdesc>The <xmlelement>varname</xmlelement> element specifies a variable that must be supplied
-    to a software application.</shortdesc>
+  <shortdesc>The <xmlelement>varname</xmlelement> element identifies a variable that is supplied to
+    a software application.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>variables<indexterm>software</indexterm></indexterm>
-        <indexterm>software domain
-          elements<indexterm><xmlelement>varname</xmlelement></indexterm></indexterm>
-        <indexterm><xmlelement>varname</xmlelement></indexterm>
+        <indexterm>software<indexterm>variables</indexterm></indexterm>
+        <indexterm>software
+          domain<indexterm><xmlelement>varname</xmlelement></indexterm></indexterm>
+        <indexterm>variables</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The variable name element is very similar to the <xmlelement>var</xmlelement> element, but
-          <xmlelement>varname</xmlelement> is available outside of syntax diagrams. This element is
-        part of the DITA software domain, a special set of DITA elements designed to document
-        software tasks, concepts and reference information.</p>
+      <p>This element is part of the software domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword sw-d/varname</p>
+      <p>The <xmlelement>varname</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>. It is defined in the software domain module.</p>
+      <!--<p>+ topic/keyword sw-d/varname</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -33,7 +31,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock xml:space="preserve">&lt;filepath&gt;
+      <p>In the following code sample, the <xmlelement>varname</xmlelement> element  is used to
+        identify variables that represent the "installation directory," "project directory," and
+        "filename".</p>
+      <codeblock>&lt;filepath&gt;
   &lt;varname&gt;install-dir&lt;/varname&gt;\projects\working\&lt;varname&gt;project-dir&lt;/varname&gt;
        \source\&lt;varname&gt;filename&lt;/varname&gt;.java
 &lt;/filepath&gt;</codeblock></example>
