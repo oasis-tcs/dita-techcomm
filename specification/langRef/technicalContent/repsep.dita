@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="repsep" xml:lang="en-us">
   <title><xmlelement>repsep</xmlelement></title>
-  <shortdesc>The <xmlelement>repsep</xmlelement> element provides a repeat separator character
-    within a syntax diagram to indicate that a group of syntax elements can (or should) be
-    repeated.</shortdesc>
+  <shortdesc>The <xmlelement>repsep</xmlelement> element identifies a character used in a syntax
+    diagram to indicate that a group of syntax elements can (or should) be repeated.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>repsep</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>repsep</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>repeat separator characters</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -20,19 +18,22 @@
       <title>Usage information</title>
       <p>If the <xmlelement>repsep</xmlelement> element contains a separator character such as a
         plus (+), this indicates that the character must be used between repetitions of the syntax
-        elements. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
+        elements. </p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph pr-d/repsep</p>
+      <p>The <xmlelement>repsep</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
+        defined in the programming domain module.</p>
+      <!--<p>+ topic/ph pr-d/repsep</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="conref-attribute/syntaxelement-optreq"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In this example, the group <ph>can</ph> be repeated. When repeated, a comma should be used
-        between selections.</p>
+      <p>In this example, the group can be repeated. When repeated, a comma should be used between
+        selections.</p>
       <codeblock xml:space="preserve">&lt;groupchoice&gt;
   &lt;repsep&gt;,&lt;/repsep&gt;
   &lt;kwd&gt;This&lt;/kwd&gt;

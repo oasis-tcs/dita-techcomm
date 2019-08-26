@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="oper" xml:lang="en-us">
   <title><xmlelement>oper</xmlelement></title>
-  <shortdesc>The <xmlelement>oper</xmlelement> element defines an operator within a syntax
+  <shortdesc>The <xmlelement>oper</xmlelement> element identifies an operator within a syntax
     definition.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>oper</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>oper</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>operators</indexterm></indexterm>
         <indexterm>syntax phrases<indexterm>operators</indexterm></indexterm>
       </keywords>
@@ -18,17 +17,22 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Typical operators are equals (=), plus (+) or multiply (*). <ph conref="apiname.dita#apiname/progdomainelement"/></p>
+      <p>Typical operators are equals (=), plus (+) or multiply (*). </p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph pr-d/oper</p>
+      <p>The <xmlelement>oper</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
+        defined in the programming domain module.</p>
+      <!--<p>+ topic/ph pr-d/oper</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="conref-attribute/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>oper</xmlelement> element specifies that the
+        operator is plus (+):</p>
       <codeblock>&lt;syntaxdiagram&gt;
   &lt;title&gt;Adding&lt;/title&gt;
   &lt;groupseq&gt;&lt;kwd&gt;1&lt;/kwd&gt;<b>&lt;oper&gt;</b>+<b>&lt;/oper&gt;</b>&lt;var&gt;two&lt;/var&gt;

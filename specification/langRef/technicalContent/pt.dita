@@ -9,8 +9,9 @@
     <metadata>
       <keywords>
         <indexterm>parameter lists<indexterm>terms</indexterm></indexterm>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>pt</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming<indexterm>parameter
+          lists<indexterm>terms</indexterm></indexterm></indexterm>
+        <indexterm>programming domain<indexterm><xmlelement>pt</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>

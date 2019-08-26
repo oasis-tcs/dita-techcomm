@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="synph" xml:lang="en-us">
   <title><xmlelement>synph</xmlelement></title>
-  <shortdesc>The <xmlelement>synph</xmlelement> (syntax phrase) element is a container for syntax
-    definition elements.</shortdesc>
+  <shortdesc>The <xmlelement>synph</xmlelement> element identifies a syntax
+    phrase.<!-- (syntax phrase) element is a container for syntax definition elements.--></shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>synph</xmlelement></indexterm></indexterm></indexterm>
-        <indexterm>syntax phrases<indexterm>overview</indexterm></indexterm>
+        <indexterm>programming<indexterm>syntax phrases</indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>synph</xmlelement></indexterm></indexterm>
+        <indexterm>syntax phrases</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>synph</xmlelement> element is used when a complete syntax diagram is not needed, but some of the syntax
-        elements, such as <xmlelement>kwd</xmlelement>, <xmlelement>oper</xmlelement>, or
-          <xmlelement>delim</xmlelement> are used within the text flow of the topic content. <ph
-          conref="apiname.dita#apiname/progdomainelement"/></p>
+      <p>The <xmlelement>synph</xmlelement> element is used when a complete syntax diagram is not
+        needed, but some of the syntax elements, such as <xmlelement>kwd</xmlelement>,
+          <xmlelement>oper</xmlelement>, or <xmlelement>delim</xmlelement> are used within the text
+        flow of the topic content.</p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph pr-d/synph</p>
+      <p>The <xmlelement>synph</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
+        defined in the programming domain module.</p>
+      <!--<p>+ topic/ph pr-d/synph</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,6 +35,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>synph</xmlelement> element ...</p>
       <codeblock><b>&lt;synph&gt;</b>&lt;kwd&gt;format&lt;/kwd&gt; &lt;var&gt;volumename&lt;/var&gt;<b>&lt;/synph&gt;</b>
 </codeblock></example>
   </refbody>

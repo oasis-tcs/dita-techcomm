@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="kwd" xml:lang="en-us">
   <title><xmlelement>kwd</xmlelement></title>
-  <shortdesc>The <xmlelement>kwd</xmlelement> element defines a keyword within a syntax
-    diagram.</shortdesc>
+  <shortdesc>The <xmlelement>kwd</xmlelement> element identifies a keyword within a syntax diagram
+    or phrase.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>kwd</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming domain<indexterm><xmlelement>kwd</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>keywords</indexterm></indexterm>
         <indexterm>syntax phrases<indexterm>keywords</indexterm></indexterm>
       </keywords>
@@ -18,13 +16,15 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A keyword <ph>is</ph> typed or output, either by the user or application, exactly as
-        specified in the syntax definition. <ph conref="apiname.dita#apiname/progdomainelement"
-        /></p>
+      <p>A keyword is typed or output, by the user or application, exactly as specified in the
+        syntax diagram or phrase.</p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword pr-d/kwd</p>
+      <p>The <xmlelement>kwd</xmlelement> is specialized from <xmlelement>keyword</xmlelement>. It
+        is defined in the programming domain module.</p>
+      <!--<p>+ topic/keyword pr-d/kwd</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,6 +32,8 @@
       /></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>kwd</xmlelement> element identifies text that
+        must be provided to the application exactly as specified:</p>
       <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
  &lt;title&gt;CopyFile&lt;/title&gt;
  &lt;groupseq&gt;<b>&lt;kwd&gt;</b>COPYF<b>&lt;/kwd&gt;</b>&lt;/groupseq&gt;
