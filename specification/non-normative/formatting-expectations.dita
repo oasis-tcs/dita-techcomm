@@ -47,6 +47,16 @@
                                 <xmlelement>choptionhd</xmlelement> element.</entry>
                     </row>
                     <row>
+                        <entry><xmlelement>codeblock</xmlelement></entry>
+                        <entry>Use a monospaced font for the contents of the
+                                <xmlelement>codeblock</xmlelement> element.</entry>
+                    </row>
+                    <row>
+                        <entry><xmlelement>codeph</xmlelement></entry>
+                        <entry>Use a monospaced font for the contents of the
+                                <xmlelement>codeph</xmlelement> element.</entry>
+                    </row>
+                    <row>
                         <entry><xmlelement>menucascade</xmlelement></entry>
                         <entry>Separate <xmlelement>uicontrol</xmlelement> elements with a character
                             to represent the menu cascade.</entry>
@@ -77,12 +87,23 @@
                         <entry>Render steps with only a single step as a paragraph. Render two or
                             more steps as an ordered list.</entry>
                     </row>
+                    <row>
+                        <entry><xmlelement>syntaxdiagram</xmlelement></entry>
+                        <entry>Traditionally, the syntax diagram is formatted with "railroad tracks"
+                            that connect the units of the syntax together, but the presentation
+                            might differ depending on the output media.</entry>
+                    </row>
 
                     <row>
                         <entry><xmlelement>textentity</xmlelement></entry>
                         <entry>Surround the contents of the <xmlelement>textentity</xmlelement>
                             element with a leading ampersand (&amp;) and a trailing semi-colon
                             (;).</entry>
+                    </row>
+                    <row>
+                        <entry><xmlelement>var</xmlelement></entry>
+                        <entry>Apply italic highlighting to the contents of the
+                                <xmlelement>var</xmlelement> element.</entry>
                     </row>
                     <row>
                         <entry><xmlelement>xmlatt</xmlelement></entry>

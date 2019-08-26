@@ -3,25 +3,29 @@
  "reference.dtd">
 <reference id="parmname" xml:lang="en-us">
   <title><xmlelement>parmname</xmlelement></title>
-  <shortdesc>The <xmlelement>parmname</xmlelement> element is used to reference the name of an
-    application programming interface parameter within the text flow of a topic.</shortdesc>
+  <shortdesc>The <xmlelement>parmname</xmlelement> element identifies the name of an API
+    parameter<!-- within the text flow of a topic-->.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>API<indexterm>parameters</indexterm></indexterm>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>parmname</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>parameters</indexterm>
+        <indexterm>programming<indexterm>API<indexterm>parameters</indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>parmname</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/keyword pr-d/parmname</p>
+      <p>The <xmlelement>parmname</xmlelement> is specialized from <xmlelement>keyword</xmlelement>.
+        It is defined in the programming domain module.</p>
+      <!--<p>+ topic/keyword pr-d/parmname</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -29,6 +33,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>parmname</xmlelement> element identifies a
+        parameter used with the <cmdname>config</cmdname> command:</p>
       <codeblock>&lt;p>Use the &lt;parmname&gt;/env&lt;/parmname&gt; parameter of the &lt;cmdname&gt;config&lt;/cmdname&gt; 
 command to update the field value.&lt;/p></codeblock></example>
   </refbody>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="syntaxdiagram" xml:lang="en-us">
   <title><xmlelement>syntaxdiagram</xmlelement></title>
-  <shortdesc>The <xmlelement>syntaxdiagram</xmlelement> element is the main container for all the
-    syntax elements that make up a syntax definition.</shortdesc>
+  <shortdesc>The <xmlelement>syntaxdiagram</xmlelement> element represents the syntax of a command,
+    function call, or programming language statement.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-                domain<indexterm><xmlelement>syntaxdiagram</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming<indexterm>syntax
+          diagrams<indexterm>overview</indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>syntaxdiagram</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>overview</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -17,24 +18,22 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The syntax diagram represents the syntax of a statement from a computer language or a
-        command, function call, or programming language statement. Traditionally, the syntax diagram
-        is formatted with "railroad tracks" that connect the units of the syntax together, but the
-        presentation might differ depending on the output media. <ph
-          conref="apiname.dita#apiname/progdomainelement"/></p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/fig pr-d/syntaxdiagram</p>
+      <p>The <xmlelement>syntaxdiagram</xmlelement> is specialized from
+        <xmlelement>fig</xmlelement>. It is defined in the programming domain module.</p>
+      <!--<p>+ topic/fig pr-d/syntaxdiagram</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p id="syntax-attributes">The following attributes are available on this element: <xref
-          keyref="universalAttributes"/>, <xref keyref="displayAttributes"/>, and <xref
-          keyref="commonAttributes/outputclass"/>.</p>
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+        /> and <xref keyref="attributes-display"/>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, ...</p>
       <codeblock>&lt;syntaxdiagram&gt;
   &lt;title&gt;CopyFile&lt;/title&gt;
   &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;

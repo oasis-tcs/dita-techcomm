@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="groupchoice" xml:lang="en-us">
   <title><xmlelement>groupchoice</xmlelement></title>
   <shortdesc>The <xmlelement>groupchoice</xmlelement> element is part of the subset of elements that
@@ -8,8 +7,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-                domain<indexterm><xmlelement>groupchoice</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>groupchoice</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>group choices</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -19,11 +18,14 @@
       <title>Usage information</title>
       <p>A group is a logical set of pieces of syntax that go together. A group choice specifies
         that the user must make a choice about which part of the syntax to use. Groups are often
-        nested. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
+        nested.</p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/groupchoice</p>
+      <p>The <xmlelement>groupchoice</xmlelement> element is specialized from
+          <xmlelement>figgroup</xmlelement>. It is defined in the programming domain module.</p>
+      <!--<p>+ topic/figgroup pr-d/groupchoice</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

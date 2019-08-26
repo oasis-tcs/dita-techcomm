@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="coderef" xml:lang="en-us">
   <title><xmlelement>coderef</xmlelement></title>
   <shortdesc>The <xmlelement>coderef</xmlelement> element references an external file that contains
@@ -9,9 +8,10 @@
     <metadata>
       <keywords>
         <indexterm>code<indexterm>references</indexterm></indexterm>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>coderef</xmlelement></indexterm></indexterm></indexterm>
-        <indexterm>formatting
+        <indexterm>programming<indexterm>code<indexterm>references</indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>coderef</xmlelement></indexterm></indexterm>
+        <indexterm>rendering
           expectations<indexterm><xmlelement>coderef</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
@@ -19,29 +19,38 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
+      <p>This element is part of the programming domain.</p>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-      <p>When evaluated, the <xmlelement>coderef</xmlelement> element <ph>causes</ph> the target
-        code to be displayed inline. If the target contains non-XML characters such as '&lt;' or
-        '&amp;', those will need to be handled in a way that they <ph>can</ph> be displayed
-        correctly by the final rendering engine.</p>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>When evaluated, the <xmlelement>coderef</xmlelement> element causes the target code to be
+        displayed inline. If the target code contains non-XML characters such as '&lt;' or '&amp;',
+        those characters need to be handled so that they can be displayed correctly by the final
+        rendering engine.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p><ph>+</ph> topic/xref pr-d/coderef</p>
+      <p>The <xmlelement>coderef</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It
+        is defined in the programming domain module.</p>
+      <!--<p>+ topic/xref pr-d/coderef</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/xref-attributes"/>
+      <p id="xref-attributes">The following attributes are available on this element: <xref
+          keyref="attributes-universal"/>, <xref keyref="attributes-linkRelationship"/>, and <xref
+          keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample, the <xmlelement>codref</xmlelement> element references the
+        content of the <filepath>process-dita.xsl</filepath> file. In the rendered output, the XSL
+        code will be present in a code block.</p>
       <codeblock>&lt;example>
   &lt;title>Processing DITA&lt;/title>
   &lt;p>This code is an example of how to process DITA.&lt;/p>
-  &lt;codeblock>&lt;coderef href="process-dita.xsl"/>&lt;/codeblock>
+  &lt;codeblock>
+    &lt;coderef href="process-dita.xsl"/>
+  &lt;/codeblock>
 &lt;/example></codeblock></example>
   </refbody>
 </reference>

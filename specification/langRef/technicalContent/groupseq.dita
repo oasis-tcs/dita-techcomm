@@ -8,8 +8,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>groupseq</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>programming
+          domain<indexterm><xmlelement>groupseq</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>group sequences</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -20,17 +20,21 @@
       <p>A group is a logical set of pieces of syntax that go together. Within the syntax
         definition, groups of keywords, delimiters and other syntax units act as a combined unit,
         and they occur in a specific sequence, as delimited by the <xmlelement>groupseq</xmlelement>
-        element. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
+        element. </p>
+      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/groupseq</p>
+      <p>The <xmlelement>groupseq</xmlelement> element is specialized from
+          <xmlelement>figgroup</xmlelement>. It is defined in the programming domain module.</p>
+      <!--<p>+ topic/figgroup pr-d/groupseq</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="conref-attribute/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>In the following code sample</p>
       <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
  &lt;title&gt;CopyFile&lt;/title&gt;
  <b>&lt;groupseq&gt;</b>&lt;kwd&gt;COPYF&lt;/kwd&gt;<b>&lt;/groupseq&gt;</b>
