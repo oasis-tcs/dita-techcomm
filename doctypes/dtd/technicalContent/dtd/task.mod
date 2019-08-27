@@ -358,9 +358,6 @@
                keycol
                           NMTOKEN
                                     '1'
-               refcols
-                          NMTOKENS
-                                    #IMPLIED
                spectitle
                           CDATA
                                     #IMPLIED

@@ -55,9 +55,6 @@
                keys
                           CDATA
                                     #REQUIRED
-               query
-                          CDATA
-                                    #IMPLIED
                copy-to
                           CDATA
                                     #IMPLIED
@@ -94,12 +91,6 @@
                                     'none'
                toc
                           (no |
-                           yes |
-                           -dita-use-conref-target)
-                                    'no'
-               print
-                          (no |
-                           printonly |
                            yes |
                            -dita-use-conref-target)
                                     'no'

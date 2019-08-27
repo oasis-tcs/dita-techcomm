@@ -709,11 +709,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <optional>
-          <attribute name="refcols">
-            <data type="NMTOKENS"/>
-          </attribute>
-        </optional>
-        <optional>
           <attribute name="spectitle"/>
         </optional>
         <ref name="display-atts"/>

@@ -170,9 +170,6 @@
                keycol
                           NMTOKEN
                                     #IMPLIED
-               refcols
-                          NMTOKENS
-                                    #IMPLIED
                spectitle
                           CDATA
                                     #IMPLIED

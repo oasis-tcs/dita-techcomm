@@ -85,9 +85,6 @@ ORIGINAL CREATION DATE:
         </optional>
         <attribute name="keys"/>
         <optional>
-          <attribute name="query"/>
-        </optional>
-        <optional>
           <attribute name="copy-to"/>
         </optional>
         <optional>
@@ -141,16 +138,6 @@ ORIGINAL CREATION DATE:
           <attribute name="toc" a:defaultValue="no">
             <choice>
               <value>no</value>
-              <value>yes</value>
-              <value>-dita-use-conref-target</value>
-            </choice>
-          </attribute>
-        </optional>
-        <optional>
-          <attribute name="print" a:defaultValue="no">
-            <choice>
-              <value>no</value>
-              <value>printonly</value>
               <value>yes</value>
               <value>-dita-use-conref-target</value>
             </choice>
