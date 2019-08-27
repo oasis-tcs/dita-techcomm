@@ -68,8 +68,6 @@
 <!ENTITY % step        "step"                                        >
 <!ENTITY % cmd         "cmd"                                         >
 <!ENTITY % info        "info"                                        >
-<!ENTITY % substeps    "substeps"                                    >
-<!ENTITY % substep     "substep"                                     >
 <!ENTITY % tutorialinfo
                        "tutorialinfo"                                >
 <!ENTITY % stepxmp     "stepxmp"                                     >
@@ -259,7 +257,8 @@
                           %info; |
                           %itemgroup; |
                           %stepxmp; |
-                          %substeps; |
+                          %steps; |
+                          %steps-unordered; |
                           %tutorialinfo;)*,
                          (%stepresult;)?,
                          (%steptroubleshooting;)?)"
@@ -299,41 +298,6 @@
 >
 <!ELEMENT  info %info.content;>
 <!ATTLIST  info %info.attributes;>
-
-
-<!--                    LONG NAME: Sub-steps                       -->
-<!ENTITY % substeps.content
-                       "((%data; |
-                          %data-about;)*,
-                         (%substep;)+)"
->
-<!ENTITY % substeps.attributes
-              "%univ-atts;"
->
-<!ELEMENT  substeps %substeps.content;>
-<!ATTLIST  substeps %substeps.attributes;>
-
-
-<!--                    LONG NAME: Sub-step                        -->
-<!ENTITY % substep.content
-                       "((%note;)*,
-                         (%cmd;),
-                         (%info; |
-                          %itemgroup; |
-                          %stepxmp; |
-                          %tutorialinfo;)*,
-                         (%stepresult;)?)"
->
-<!ENTITY % substep.attributes
-              "importance
-                          (optional |
-                           required |
-                           -dita-use-conref-target)
-                                    #IMPLIED
-               %univ-atts-no-importance-task;"
->
-<!ELEMENT  substep %substep.content;>
-<!ATTLIST  substep %substep.attributes;>
 
 
 <!--                    LONG NAME: Tutorial Information            -->
@@ -554,8 +518,6 @@
 <!ATTLIST  stepsection  class CDATA "- topic/li task/stepsection ">
 <!ATTLIST  step         class CDATA "- topic/li task/step ">
 <!ATTLIST  cmd          class CDATA "- topic/ph task/cmd ">
-<!ATTLIST  substeps     class CDATA "- topic/ol task/substeps ">
-<!ATTLIST  substep      class CDATA "- topic/li task/substep ">
 <!ATTLIST  tutorialinfo class CDATA "- topic/itemgroup task/tutorialinfo ">
 <!ATTLIST  info         class CDATA "- topic/itemgroup task/info ">
 <!ATTLIST  stepxmp      class CDATA "- topic/itemgroup task/stepxmp ">
