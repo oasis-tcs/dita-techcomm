@@ -2004,6 +2004,9 @@ ORIGINAL CREATION DATE:
         <ref name="id-atts"/>
         <ref name="select-atts"/>
         <ref name="localization-atts"/>
+        <optional>
+          <attribute name="outputclass"/>
+        </optional>
       </define>
       <define name="booklists.element">
         <element name="booklists" dita:longName="Book Lists">
