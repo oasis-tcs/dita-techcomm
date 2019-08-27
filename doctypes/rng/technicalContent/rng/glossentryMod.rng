@@ -638,9 +638,6 @@ ORIGINAL CREATION DATE:
           <attribute name="keyref"/>
         </optional>
         <optional>
-          <attribute name="longdescref"/>
-        </optional>
-        <optional>
           <attribute name="height">
             <data type="NMTOKEN"/>
           </attribute>
