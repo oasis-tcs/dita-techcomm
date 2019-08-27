@@ -85,9 +85,6 @@ ORIGINAL CREATION DATE:
         </optional>
         <attribute name="keys"/>
         <optional>
-          <attribute name="query"/>
-        </optional>
-        <optional>
           <attribute name="copy-to"/>
         </optional>
         <optional>

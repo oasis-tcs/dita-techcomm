@@ -448,9 +448,6 @@ ORIGINAL CREATION DATE:
         <optional>
           <attribute name="keyref"/>
         </optional>
-        <optional>
-          <attribute name="query"/>
-        </optional>
         <ref name="topicref-atts"/>
         <ref name="univ-atts"/>
       </define>
@@ -484,9 +481,6 @@ ORIGINAL CREATION DATE:
       <define name="backmatter.attributes">
         <optional>
           <attribute name="keyref"/>
-        </optional>
-        <optional>
-          <attribute name="query"/>
         </optional>
         <ref name="topicref-atts"/>
         <ref name="univ-atts"/>

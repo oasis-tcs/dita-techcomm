@@ -55,9 +55,6 @@
                keys
                           CDATA
                                     #REQUIRED
-               query
-                          CDATA
-                                    #IMPLIED
                copy-to
                           CDATA
                                     #IMPLIED

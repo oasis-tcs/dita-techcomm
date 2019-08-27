@@ -225,9 +225,6 @@
               "keyref
                           CDATA
                                     #IMPLIED
-               query
-                          CDATA
-                                    #IMPLIED
                %topicref-atts;
                %univ-atts;"
 >
@@ -246,9 +243,6 @@
 >
 <!ENTITY % backmatter.attributes
               "keyref
-                          CDATA
-                                    #IMPLIED
-               query
                           CDATA
                                     #IMPLIED
                %topicref-atts;
