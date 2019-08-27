@@ -147,16 +147,6 @@ ORIGINAL CREATION DATE:
           </attribute>
         </optional>
         <optional>
-          <attribute name="print" a:defaultValue="no">
-            <choice>
-              <value>no</value>
-              <value>printonly</value>
-              <value>yes</value>
-              <value>-dita-use-conref-target</value>
-            </choice>
-          </attribute>
-        </optional>
-        <optional>
           <attribute name="search" a:defaultValue="no">
             <choice>
               <value>no</value>

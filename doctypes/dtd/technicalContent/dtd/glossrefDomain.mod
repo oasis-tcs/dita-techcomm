@@ -97,12 +97,6 @@
                            yes |
                            -dita-use-conref-target)
                                     'no'
-               print
-                          (no |
-                           printonly |
-                           yes |
-                           -dita-use-conref-target)
-                                    'no'
                search
                           (no |
                            yes |
