@@ -259,7 +259,8 @@
                           %info; |
                           %itemgroup; |
                           %stepxmp; |
-                          %substeps; |
+                          %steps; |
+                          %steps-unordered; |
                           %tutorialinfo;)*,
                          (%stepresult;)?,
                          (%steptroubleshooting;)?)"

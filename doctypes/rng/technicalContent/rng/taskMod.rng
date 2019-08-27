@@ -498,7 +498,8 @@ ORIGINAL CREATION DATE:
             <ref name="info"/>
             <ref name="itemgroup"/>
             <ref name="stepxmp"/>
-            <ref name="substeps"/>
+            <ref name="steps"/>
+            <ref name="steps-unordered"/>
             <ref name="tutorialinfo"/>
           </choice>
         </zeroOrMore>
