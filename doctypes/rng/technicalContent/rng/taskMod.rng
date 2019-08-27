@@ -97,12 +97,6 @@ ORIGINAL CREATION DATE:
     <define name="cmd">
       <ref name="cmd.element"/>
     </define>
-    <define name="substeps">
-      <ref name="substeps.element"/>
-    </define>
-    <define name="substep">
-      <ref name="substep.element"/>
-    </define>
     <define name="tutorialinfo">
       <ref name="tutorialinfo.element"/>
     </define>
@@ -525,7 +519,7 @@ ORIGINAL CREATION DATE:
       <define name="step.element">
         <element name="step" dita:longName="Step">
           <a:documentation>
-            <![CDATA[The <step> element represents an action that a user must follow to accomplish a task. Each step in a task must contain a command <cmd> element which describes the particular action the user must do to accomplish the overall task. The step element can also contain information <info>, substeps <substeps>, tutorial information <tutorialinfo>, a step example <stepxmp>, choices <choices> or a stepresult <stepresult>, although these are optional.
+            <![CDATA[The <step> element represents an action that a user must follow to accomplish a task. Each step in a task must contain a command <cmd> element which describes the particular action the user must do to accomplish the overall task. The step element can also contain information <info>, steps <steps> or unordered steps <steps-unordered>, tutorial information <tutorialinfo>, a step example <stepxmp>, choices <choices> or a stepresult <stepresult>, although these are optional.
     Category: Task elements
   ]]></a:documentation>
           <ref name="step.attlist"/>
@@ -588,83 +582,6 @@ ORIGINAL CREATION DATE:
       <define name="info.attlist" combine="interleave">
         <ref name="info.attributes"/>
       </define>
-    </div>
-    <div>
-      <a:documentation> LONG NAME: Sub-steps </a:documentation>
-      <define name="substeps.content">
-        <zeroOrMore dita:since="1.3">
-          <choice>
-            <ref name="data"/>
-            <ref name="data-about"/>
-          </choice>
-        </zeroOrMore>
-        <oneOrMore>
-          <ref name="substep"/>
-        </oneOrMore>
-      </define>
-      <define name="substeps.attributes">
-        <ref name="univ-atts"/>
-      </define>
-      <define name="substeps.element">
-        <element name="substeps" dita:longName="Sub-steps">
-          <a:documentation>
-            <![CDATA[The <substeps> element allows you to break a step down into a series of separate actions, and should be used only if necessary. Try to describe the steps of a task in a single level of steps. If you need to use more than one level of substep nesting, you should probably rewrite the task to simplify it.
-    Category: Task elements
-  ]]></a:documentation>
-          <ref name="substeps.attlist"/>
-          <ref name="substeps.content"/>
-        </element>
-      </define>
-      <define name="substeps.attlist" combine="interleave">
-        <ref name="substeps.attributes"/>
-      </define>
-
-    </div>
-    <div>
-      <a:documentation> LONG NAME: Sub-step </a:documentation>
-      <define name="substep.content">
-        <zeroOrMore>
-          <ref name="note"/>
-        </zeroOrMore>
-        <ref name="cmd"/>
-        <zeroOrMore>
-          <choice>
-            <ref name="info"/>
-            <ref name="itemgroup"/>
-            <ref name="stepxmp"/>
-            <ref name="tutorialinfo"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <ref name="stepresult"/>
-        </optional>
-      </define>
-      <define name="substep.attributes">
-        <optional>
-          <attribute name="importance">
-            <choice>
-              <value>optional</value>
-              <value>required</value>
-              <value>-dita-use-conref-target</value>
-            </choice>
-          </attribute>
-        </optional>
-        <ref name="univ-atts-no-importance-task"/>
-      </define>
-      <define name="substep.element">
-        <element name="substep" dita:longName="Sub-step">
-          <a:documentation>
-            <![CDATA[A <substep> element has the same structure as a <step>, except that it does not allow lists of choices or substeps within it, in order to prevent unlimited nesting of steps.
-    Category: Task elements
-  ]]></a:documentation>
-          <ref name="substep.attlist"/>
-          <ref name="substep.content"/>
-        </element>
-      </define>
-      <define name="substep.attlist" combine="interleave">
-        <ref name="substep.attributes"/>
-      </define>
-
     </div>
     <div>
       <a:documentation> LONG NAME: Tutorial Information </a:documentation>
@@ -1138,16 +1055,6 @@ ORIGINAL CREATION DATE:
     <define name="cmd.attlist" combine="interleave">
       <optional>
         <attribute name="class" a:defaultValue="- topic/ph task/cmd "/>
-      </optional>
-    </define>
-    <define name="substeps.attlist" combine="interleave">
-      <optional>
-        <attribute name="class" a:defaultValue="- topic/ol task/substeps "/>
-      </optional>
-    </define>
-    <define name="substep.attlist" combine="interleave">
-      <optional>
-        <attribute name="class" a:defaultValue="- topic/li task/substep "/>
       </optional>
     </define>
     <define name="tutorialinfo.attlist" combine="interleave">
