@@ -1028,7 +1028,10 @@
                %topicref-atts;
                %id-atts;
                %select-atts;
-               %localization-atts;"
+               %localization-atts;
+               outputclass
+                          CDATA
+                                    #IMPLIED"
 >
 <!ELEMENT  booklists %booklists.content;>
 <!ATTLIST  booklists %booklists.attributes;>
