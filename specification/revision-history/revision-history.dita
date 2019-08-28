@@ -23,7 +23,30 @@
                 <stentry>02</stentry>
                 <stentry>24 May 2019</stentry>
                 <stentry>Kristen James Eberlein</stentry>
-                <stentry>Reworked task element topics.</stentry>
+                <stentry>Generated working draft #02. Contains reworked task element
+                    topics.</stentry>
+            </strow>
+            <strow>
+                <stentry>03</stentry>
+                <stentry>27 August 2017</stentry>
+                <stentry>Kristen James Eberlein</stentry>
+                <stentry>
+                    <p>Generated working draft #03.</p>
+                    <p>Contains updated DITA source for the following proposals:</p>
+                    <ul>
+                        <li>#85: Several glossentry elements should allow
+                                <xmlelement>sub</xmlelement> and <xmlelement>sup</xmlelement></li>
+                        <li>#106 Allow steps to nest</li>
+                    </ul>
+                    <p>Contains edited element-reference topics for the following domains:</p>
+                    <ul>
+                        <li>Markup</li>
+                        <li>Programming (partial)</li>
+                        <li>Software</li>
+                        <li>User interface</li>
+                        <li>XML mention</li>
+                    </ul>
+                </stentry>
             </strow>
         </simpletable>
     </refbody>
