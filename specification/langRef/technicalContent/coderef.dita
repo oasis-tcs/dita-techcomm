@@ -30,9 +30,9 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>coderef</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It
+      <p>The <xmlelement>coderef</xmlelement> is specialized from <xmlelement>include</xmlelement>. It
         is defined in the programming domain module.</p>
-      <!--<p>+ topic/xref pr-d/coderef</p>-->
+      <!--<p>+ topic/include pr-d/coderef</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

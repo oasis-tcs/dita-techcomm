@@ -2463,7 +2463,7 @@ for this?</draft-comment>-->
         </strow>
         <strow>
           <stentry><xmlelement>coderef</xmlelement> <i>(new in DITA 1.2)</i></stentry>
-          <stentry><xmlelement>xref</xmlelement></stentry>
+          <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
           <stentry>N/A <i>(empty element)</i></stentry>
