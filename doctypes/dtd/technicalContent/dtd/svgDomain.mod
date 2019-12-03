@@ -50,6 +50,9 @@
                format
                           CDATA
                                     'svg'
+               parse
+                          CDATA
+                                    'xml'
                %univ-atts;"
 >
 <!ELEMENT  svgref %svgref.content;>
@@ -62,7 +65,7 @@
 <!-- ============================================================= -->
   
 <!ATTLIST  svg-container class CDATA "+ topic/foreign svg-d/svg-container ">
-<!ATTLIST  svgref       class CDATA "+ topic/xref svg-d/svgref ">
+<!ATTLIST  svgref       class CDATA "+ topic/include svg-d/svgref ">
 
 <!-- ================== End of DITA SVG Domain ==================== -->
  

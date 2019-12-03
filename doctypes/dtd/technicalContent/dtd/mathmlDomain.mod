@@ -49,6 +49,9 @@
                format
                           CDATA
                                     'mml'
+               parse
+                          CDATA
+                                    'xml'
                scope
                           (external |
                            local |
@@ -81,7 +84,7 @@
 <!-- ============================================================= -->
   
 <!ATTLIST  mathml       class CDATA "+ topic/foreign mathml-d/mathml ">
-<!ATTLIST  mathmlref    class CDATA "+ topic/xref mathml-d/mathmlref ">
+<!ATTLIST  mathmlref    class CDATA "+ topic/include mathml-d/mathmlref ">
 
 <!-- ================== End of DITA MathML Domain ==================== -->
  

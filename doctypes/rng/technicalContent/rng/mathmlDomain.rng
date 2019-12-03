@@ -96,6 +96,9 @@ All Rights Reserved.
           <attribute name="format" a:defaultValue="mml"/>
         </optional>
         <optional>
+          <attribute name="parse" a:defaultValue="xml"/>
+        </optional>
+        <optional>
           <attribute name="scope">
             <choice>
               <value>external</value>
@@ -221,7 +224,7 @@ elements
 
     <define name="mathmlref.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="+ topic/xref mathml-d/mathmlref "/>
+        <attribute name="class" a:defaultValue="+ topic/include mathml-d/mathmlref "/>
       </optional>
     </define>
   </div>

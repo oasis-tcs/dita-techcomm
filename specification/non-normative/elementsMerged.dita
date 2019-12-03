@@ -3995,7 +3995,7 @@ for this?</draft-comment>-->
         </strow>
         <strow>
           <stentry><xmlelement>mathmlref</xmlelement></stentry>
-          <stentry><xmlelement>xref</xmlelement></stentry>
+          <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
           <stentry>N/A (empty)</stentry>
@@ -4027,7 +4027,7 @@ for this?</draft-comment>-->
         </strow>
         <strow>
           <stentry><xmlelement>svgref</xmlelement></stentry>
-          <stentry><xmlelement>xref</xmlelement></stentry>
+          <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
           <stentry>N/A (empty)</stentry>
