@@ -3,8 +3,8 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Bookmap                                      -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      October 2019                                      -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -14,7 +14,7 @@
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA BookMap//EN"                  -->
-<!--       Delivered as file "bookmap.mod"                              -->
+<!--       Delivered as file "bookmap.mod"                         -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
@@ -24,11 +24,11 @@
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             March 2004                                        -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2005, 2009.              -->
+<!--             (C) Copyright OASIS Open 2005, 2019.              -->
 <!--             (C) Copyright IBM Corporation 2004, 2005.         -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
+<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2       -->
 <!--    2008.01.28 RDA: Removed enumerations for attributes:       -->
 <!--                    publishtype/@value, bookrestriction/@value -->
 <!--    2008.01.28 RDA: Added <metadata> to <bookmeta>             -->
@@ -39,6 +39,9 @@
 <!--                    publisherinformation                       -->
 <!--    2008.02.13 RDA: Create .content and .attributes entities   -->
 <!--    2008.03.17 RDA: Add appendices element                     -->
+<!--    2019.10.06 KJE: Modified content model of bookmap and      -->
+<!--                    booklists                                  -->
+<!--                                                               -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -140,16 +143,18 @@
 >
 <!--                    LONG NAME: Book Map                        -->
 <!ENTITY % bookmap.content
-                       "((%title; |
-                          %booktitle;)?,
+                       "(
+                         (%title; | %booktitle;)?,
                          (%bookmeta;)?,
+                         (%ditavalref;)*,
+                         (%mapresources;)*,
                          (%frontmatter;)?,
                          (%chapter;)*,
                          (%part;)*,
-                         ((%appendices;)? |
-                          (%appendix;)*),
+                         ((%appendices;)? | (%appendix;)*),
                          (%backmatter;)?,
-                         (%reltable;)*)"
+                         (%reltable;)*
+                         )"
 >
 <!ENTITY % bookmap.attributes
               "id
@@ -1012,6 +1017,7 @@
 <!--                    LONG NAME: Book Lists                      -->
 <!ENTITY % booklists.content
                        "(%abbrevlist; |
+                         %amendments; |
                          %bibliolist; |
                          %booklist; |
                          %figurelist; |
