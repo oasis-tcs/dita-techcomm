@@ -158,11 +158,17 @@
                format
                           CDATA
                                     #IMPLIED
+               parse
+                          CDATA
+                                    'text'
                scope
                           (external |
                            local |
                            peer |
                            -dita-use-conref-target)
+                                    #IMPLIED
+               encoding
+                          CDATA
                                     #IMPLIED
                %univ-atts;"
 >
@@ -595,7 +601,7 @@
 <!ATTLIST  apiname      class CDATA "+ topic/keyword pr-d/apiname ">
 <!ATTLIST  codeblock    class CDATA "+ topic/pre pr-d/codeblock ">
 <!ATTLIST  codeph       class CDATA "+ topic/ph pr-d/codeph ">
-<!ATTLIST  coderef      class CDATA "+ topic/xref pr-d/coderef ">
+<!ATTLIST  coderef      class CDATA "+ topic/include pr-d/coderef ">
 <!ATTLIST  delim        class CDATA "+ topic/ph pr-d/delim ">
 <!ATTLIST  fragment     class CDATA "+ topic/figgroup pr-d/fragment ">
 <!ATTLIST  fragref      class CDATA "+ topic/xref pr-d/fragref ">

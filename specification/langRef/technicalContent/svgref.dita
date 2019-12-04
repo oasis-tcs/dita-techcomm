@@ -45,15 +45,16 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/xref svg-d/svgref</p>
+      <p>+ topic/include svg-d/svgref</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="universalAttributes"
-        />, <xref keyref="commonAttributes/outputclass"/>, and <xref keyref="thekeyrefattribute"
-            ><xmlatt>keyref</xmlatt></xref>. This element also uses <xref
-          keyref="linkRelationshipAttributes"/>, with narrowed definitions of <xmlatt>href</xmlatt>
-        and <xmlatt>format</xmlatt> (given below).</p>
+/>, <xref keyref="attributes-includeElement/encoding"><xmlatt>encoding</xmlatt></xref>, <xref
+keyref="attributes-includeElement/parse"><xmlatt>parse</xmlatt></xref> (with a default value of
+"xml"), and <xref keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>. This element also uses
+<xref keyref="linkRelationshipAttributes"/>, with narrowed definitions of <xmlatt>href</xmlatt> and
+<xmlatt>format</xmlatt> (given below).</p>
       <dl>
         <dlentry>
           <dt><xmlatt>href</xmlatt></dt>

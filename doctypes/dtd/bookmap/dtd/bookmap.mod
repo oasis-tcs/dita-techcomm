@@ -204,12 +204,7 @@
                          (%data;)*)"
 >
 <!ENTITY % bookmeta.attributes
-              "lockmeta
-                          (no |
-                           yes |
-                           -dita-use-conref-target)
-                                    #IMPLIED
-               %univ-atts;"
+              "%univ-atts;"
 >
 <!ELEMENT  bookmeta %bookmeta.content;>
 <!ATTLIST  bookmeta %bookmeta.attributes;>
