@@ -10,8 +10,8 @@
                    HEADER                                    
 =============================================================
  MODULE:    DITA Bookmap                                     
- VERSION:   1.2                                              
- DATE:      November 2009                                    
+ VERSION:   2.0                                              
+ DATE:      October 2019                                    
                                                              
 =============================================================
 
@@ -33,7 +33,7 @@ PURPOSE:    Define elements and specialization atttributes
 ORIGINAL CREATION DATE:                                      
             March 2004                                       
                                                              
-            (C) Copyright OASIS Open 2005, 2009.             
+            (C) Copyright OASIS Open 2005, 2019.             
             (C) Copyright IBM Corporation 2004, 2005.        
             All Rights Reserved.                             
  UPDATES:                                                    
@@ -47,7 +47,8 @@ ORIGINAL CREATION DATE:
    2008.02.12 RDA: Add @format, @scope, and @type to         
                    publisherinformation                      
    2008.02.13 RDA: Create .content and .attributes entities  
-   2008.03.17 RDA: Add appendices element                    
+   2008.03.17 RDA: Add appendices element
+   2019.10.07 KJE: Updated for DITA 2.0
 =============================================================
 ]]></headerComment>
     <moduleMetadata>
@@ -284,6 +285,12 @@ ORIGINAL CREATION DATE:
         <optional>
           <ref name="bookmeta"/>
         </optional>
+        <zeroOrMore>
+          <ref name="ditavalref"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="mapresources"/>
+        </zeroOrMore>
         <optional>
           <ref name="frontmatter"/>
         </optional>
@@ -1985,6 +1992,7 @@ ORIGINAL CREATION DATE:
         <zeroOrMore>
           <choice>
             <ref name="abbrevlist"/>
+            <ref name="amendments"/>
             <ref name="bibliolist"/>
             <ref name="booklist"/>
             <ref name="figurelist"/>

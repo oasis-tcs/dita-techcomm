@@ -107,7 +107,9 @@ ORIGINAL CREATION DATE:
 
   </div>
   <div>
-      <a:documentation>MODULE INCLUSIONS</a:documentation>
+      <a:documentation>MODULE INCLUSIONS</a:documentation>    
+      <!-- Do not remove references to the map group or DITAVALref       -->
+      <!-- domains. The bookmap specialization requires these domains.   -->
      <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
 
