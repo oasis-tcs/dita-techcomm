@@ -98,6 +98,12 @@ DITA SVG Domain
         <optional>
           <attribute name="format" a:defaultValue="svg"/>
         </optional>
+        <optional>
+          <attribute name="parse" a:defaultValue="xml"/>
+        </optional>
+        <optional>
+          <attribute name="encoding"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="svgref.element">
@@ -122,7 +128,7 @@ DITA SVG Domain
     </define>
     <define name="svgref.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="+ topic/xref svg-d/svgref "/>
+        <attribute name="class" a:defaultValue="+ topic/include svg-d/svgref "/>
       </optional>
     </define>
   </div>

@@ -301,6 +301,12 @@ ORIGINAL CREATION DATE:
           <attribute name="format"/>
         </optional>
         <optional>
+          <attribute name="parse" a:defaultValue="text"/>
+        </optional>
+        <optional>
+          <attribute name="encoding"/>
+        </optional>
+        <optional>
           <attribute name="scope">
             <choice>
               <value>external</value>
@@ -1153,7 +1159,7 @@ ORIGINAL CREATION DATE:
     </define>
     <define name="coderef.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="+ topic/xref pr-d/coderef "/>
+        <attribute name="class" a:defaultValue="+ topic/include pr-d/coderef "/>
       </optional>
     </define>
     <define name="delim.attlist" combine="interleave">

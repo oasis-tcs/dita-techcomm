@@ -129,8 +129,8 @@
                          %hi-d-ph; |
                          %ui-d-ph;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;
+<!ENTITY % div          "div |
+                         %ut-d-div;
                         ">
 <!ENTITY % data         "data |
                          %ut-d-data;
