@@ -20,14 +20,15 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>A group is a logical set of pieces of syntax that go together. The group composite means
-        that the items that make up the syntax diagram will be formatted close together rather than
-        being separated by a horizontal or vertical line, which is the usual formatting method. <ph
-          conref="apiname.dita#apiname/progdomainelement"/></p>
+that the items that make up the syntax diagram will be formatted close together rather than being
+separated by a horizontal or vertical line, which is the usual formatting method.</p>
     </section>
-    <section id="specialization-hierarchy">
-      <title>Specialization hierarchy</title>
-      <p>+ topic/figgroup pr-d/groupcomp</p>
-    </section>
+<section id="specialization-hierarchy">
+<title>Specialization hierarchy</title>
+<p>The <xmlelement>groupcomp</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>. It
+is defined in the programming domain module.</p>
+<!--<p>+ topic/figgroup pr-d/groupcomp</p>-->
+</section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="conref-attribute/syntaxelement-update-importance"/></section>

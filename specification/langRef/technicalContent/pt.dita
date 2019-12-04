@@ -4,7 +4,7 @@
 <reference id="pt" xml:lang="en-us">
   <title><xmlelement>pt</xmlelement></title>
   <shortdesc>The <xmlelement>pt</xmlelement> element specifies a parameter term within a parameter
-    list entry. <ph conref="apiname.dita#apiname/progdomainelement"/></shortdesc>
+list entry.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,14 +16,12 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
-    </section>
-    <section id="specialization-hierarchy">
-      <title>Specialization hierarchy</title>
-      <p>+ topic/dt pr-d/pt</p>
-    </section>
+<section>
+<title>Specialization hierarchy</title>
+<p>The <xmlelement>pt</xmlelement> is specialized from <xmlelement>dt</xmlelement>. It is defined in
+the programming domain module.</p>
+<!--<p>+ topic/dt pr-d/pt</p>-->
+</section>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>

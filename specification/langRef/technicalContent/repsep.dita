@@ -19,7 +19,6 @@
       <p>If the <xmlelement>repsep</xmlelement> element contains a separator character such as a
         plus (+), this indicates that the character must be used between repetitions of the syntax
         elements. </p>
-      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
