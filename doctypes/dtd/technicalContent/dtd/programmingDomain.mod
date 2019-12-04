@@ -167,6 +167,9 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
+               encoding
+                          CDATA
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  coderef %coderef.content;>

@@ -101,6 +101,9 @@ DITA SVG Domain
         <optional>
           <attribute name="parse" a:defaultValue="xml"/>
         </optional>
+        <optional>
+          <attribute name="encoding"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="svgref.element">

@@ -58,6 +58,9 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
+               encoding
+                          CDATA
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  mathmlref %mathmlref.content;>

@@ -304,6 +304,9 @@ ORIGINAL CREATION DATE:
           <attribute name="parse" a:defaultValue="text"/>
         </optional>
         <optional>
+          <attribute name="encoding"/>
+        </optional>
+        <optional>
           <attribute name="scope">
             <choice>
               <value>external</value>

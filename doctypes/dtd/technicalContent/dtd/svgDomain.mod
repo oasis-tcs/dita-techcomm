@@ -53,6 +53,9 @@
                parse
                           CDATA
                                     'xml'
+               encoding
+                          CDATA
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  svgref %svgref.content;>
