@@ -32,8 +32,8 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
           keyref="dataElementAttributes"/> (with a narrowed definition of <xmlatt>value</xmlatt>,
-        given below), <xref keyref="linkRelationshipAttributes"/>, <xref
-          keyref="universalAttributes"/>, and <xref keyref="commonAttributes/outputclass"/>.</p>
+        given below), <xref keyref="linkRelationshipAttributes"/>, and <xref
+          keyref="universalAttributes"/>.</p>
       <dl>
         <dlentry>
           <dt id="value"><xmlatt>value</xmlatt></dt>
