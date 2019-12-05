@@ -20,13 +20,19 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>The syntax note explains aspects of the syntax that cannot be expressed in the markup
-        itself. The note will appear at the bottom of the syntax diagram instead of at the bottom of
-        the page. <ph conref="apiname.dita#apiname/progdomainelement"/></p>
+itself.</p>
     </section>
-    <section id="specialization-hierarchy">
-      <title>Specialization hierarchy</title>
-      <p>+ topic/fn pr-d/synnote</p>
-    </section>
+<section id="rendering-expectations">
+<title>Rendering expectations</title>
+<p>The note will appear at the bottom of the syntax diagram instead of at the bottom of the
+page.</p>
+</section>
+<section id="specialization-hierarchy">
+<title>Specialization hierarchy</title>
+<p>The <xmlelement>synnote</xmlelement> is specialized from <xmlelement>fn</xmlelement>. It is
+defined in the programming domain module.</p>
+<!--<p>+ topic/fn pr-d/synnote</p>-->
+</section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="conref-attribute/fn-attributes"/></section>

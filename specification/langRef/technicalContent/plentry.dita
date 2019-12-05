@@ -17,14 +17,12 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
-    </section>
-    <section id="specialization-hierarchy">
-      <title>Specialization hierarchy</title>
-      <p>+ topic/dlentry pr-d/plentry</p>
-    </section>
+<section id="specialization-hierarchy">
+<title>Specialization hierarchy</title>
+<p>The <xmlelement>plentry</xmlelement> is specialized from <xmlelement>dlentry</xmlelement>. It is
+defined in the programming domain module.</p>
+<!--<p>+ topic/dlentry pr-d/plentry</p>-->
+</section>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="attributes-universal"/>.</p>
