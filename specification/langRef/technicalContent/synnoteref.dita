@@ -29,7 +29,7 @@ defined in the programming domain module.</p>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="universalAttributes"
-        />, <xref keyref="commonAttributes/outputclass"/>, and the attribute defined below.</p>
+        /> and the attribute defined below.</p>
       <dl>
         <dlentry>
           <dt><xmlatt>href</xmlatt></dt>

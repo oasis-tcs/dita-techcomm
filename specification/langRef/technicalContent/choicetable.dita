@@ -30,8 +30,7 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="universalAttributes"
         />, <xref keyref="displayAttributes"/>, <xref keyref="simpletableAttributes"/> (with a
-        narrowed definition of <xmlatt>keycol</xmlatt>, given below), <xref
-          keyref="commonAttributes/outputclass"/>, and <xref
+        narrowed definition of <xmlatt>keycol</xmlatt>, given below), and <xref
           keyref="specializationAttributes/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
