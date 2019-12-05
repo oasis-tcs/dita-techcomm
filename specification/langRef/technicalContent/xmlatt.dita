@@ -19,7 +19,6 @@
       <p>The content of the <xmlelement>xmlatt</xmlelement> element should be the attribute name
         without commercial at symbol (@) or equals character (=) , for example,
           <keyword>audience</keyword>.</p>
-      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
