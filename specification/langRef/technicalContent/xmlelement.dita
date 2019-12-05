@@ -19,7 +19,6 @@
       <p><!--The <xmlelement>xmlelement</xmlelement> element enables more precise semantic searching of the DITA source; it also enables distinct formatting, such as surrounding the name of the element with angle brackets.-->The
         content of the <xmlelement>xmlelement</xmlelement> element should be the element type name
         without leading or trailing angle brackets.</p>
-      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

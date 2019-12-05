@@ -20,7 +20,6 @@
       <p>The content of the <xmlelement>numcharref</xmlelement> element should be the numeric value
         without any leading or trailing characters, for example, <keyword>10</keyword> or<keyword>
           x0a</keyword>.</p>
-      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

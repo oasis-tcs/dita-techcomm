@@ -20,7 +20,6 @@
       <p><!--The <xmlelement>textentity</xmlelement> element enables more precise semantic searching of the DITA source; it also enables distinct formatting, such as adding an ampersand (&amp;) as a leading character and a semi-colon (;) as a trailing character. -->The
         content of the <xmlelement>textentity</xmlelement> element should be the entity name without
         the ampersand and semi-colon delimiters, for example, <keyword>hi-d-att</keyword>.</p>
-      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
