@@ -17,7 +17,7 @@ Source: [[[Source link]]]
 ============================================================
  MODULE:    DITA Glossary DTD                                
  VERSION:   2.0                                              
- DATE:      November 2009                                    
+ DATE:      [[[Release date]]]                                    
                                                              
 =============================================================
 
@@ -43,7 +43,7 @@ PUBLIC "-//OASIS//DTD DITA 1.3 Glossary//EN"
 =============================================================
  MODULE:    DITA Glossary XSD                                 
  VERSION:   2.0
- DATE:      October 2009                                   
+ DATE:      [[[Release date]]]                                   
                                                              
 =============================================================
  
