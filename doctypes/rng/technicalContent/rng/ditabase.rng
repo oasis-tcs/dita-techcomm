@@ -34,7 +34,7 @@ Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part
 PUBLIC "-//OASIS//DTD DITA Composite//EN"
 
 The public ID above refers to the latest version of this DTD.
-     To refer to this specific version, you may use this value:
+     To refer to this specific version, use this value:
      
 PUBLIC "-//OASIS//DTD DITA 1.3 Composite//EN"                     
  
