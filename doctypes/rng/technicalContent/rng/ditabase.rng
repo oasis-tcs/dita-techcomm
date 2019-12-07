@@ -39,12 +39,7 @@ The public ID above refers to the latest version of this DTD.
 PUBLIC "-//OASIS//DTD DITA 1.3 Composite//EN"                     
  
 =============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
 PURPOSE:    Base DTD holds all the information types         
-                                                             
-ORIGINAL CREATION DATE:                                      
-            March 2001                                       
                                                              
             (C) Copyright OASIS Open 2005, 2009.             
             (C) Copyright IBM Corporation 2001, 2004.        

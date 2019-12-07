@@ -16,13 +16,8 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA Troubleshooting//EN"          -->
 <!--       Delivered as file "troubleshooting.mod"                                 -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
 <!-- PURPOSE:    Declaring the elements and specialization         -->
 <!--             attributes for the DITA Troubleshootings                     -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2014                                        -->
 <!--                                                               -->
 <!--             (C) Copyright OASIS Open 2014                     -->
 <!--             All Rights Reserved.                              -->

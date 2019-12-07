@@ -24,13 +24,8 @@ PUBLIC "-//OASIS//ELEMENTS DITA Task Requirements Domain//EN"
       Delivered as file "taskreqDomain.mod"                       
 
 =============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
 PURPOSE:    Define elements and specialization attributes   
             for the Task Requirements Domain                 
-                                                             
-ORIGINAL CREATION DATE:                                      
-            September 2007                                   
                                                              
             (C) Copyright OASIS Open 2007, 2009.             
             All Rights Reserved.                             

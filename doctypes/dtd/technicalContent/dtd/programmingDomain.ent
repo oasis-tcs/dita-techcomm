@@ -16,13 +16,8 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA Programming Domain//EN"       -->
 <!--       Delivered as file "programmingDomain.mod"                    -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
 <!-- PURPOSE:    Declaring the elements and specialization         -->
 <!--             attributes for the Programming Domain             -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2001                                        -->
 <!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->

@@ -16,13 +16,8 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA Glossary Reference Domain//EN" -->
 <!--       Delivered as file "glossrefDomain.mod"                       -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
 <!-- PURPOSE:    Define elements and specialization attributes     -->
 <!--             for Glossary Reference Domain                     -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             June 2008                                         -->
 <!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->

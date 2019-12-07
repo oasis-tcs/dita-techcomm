@@ -24,13 +24,8 @@ PUBLIC "-//OASIS//ELEMENTS DITA Strict Taskbody Constraint//EN"
       Delivered as file "strictTaskbodyConstraint.mod"            
 
 =============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
 PURPOSE:    Declaring the domain entity for the strict task  
             constraint module                                
-                                                             
-ORIGINAL CREATION DATE:                                      
-            April 2008                                       
                                                              
             (C) Copyright OASIS Open 2008, 2014.             
             All Rights Reserved.                             

@@ -24,13 +24,8 @@ PUBLIC "-//OASIS//ELEMENTS DITA XNAL Domain//EN"
       Delivered as file "xnalDomain.mod"                          
 
 =============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
 PURPOSE:    Define elements and specialization atttributed   
             for the XNAL Domain                              
-                                                             
-ORIGINAL CREATION DATE:                                      
-            June 2006                                        
                                                              
             (C) Copyright OASIS Open 2006, 2009.             
             All Rights Reserved.                             

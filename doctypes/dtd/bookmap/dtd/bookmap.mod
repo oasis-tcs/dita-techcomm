@@ -16,13 +16,8 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA BookMap//EN"                  -->
 <!--       Delivered as file "bookmap.mod"                              -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
 <!-- PURPOSE:    Define elements and specialization atttributes    -->
 <!--             for Book Maps                                     -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2004                                        -->
 <!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2004, 2005.         -->

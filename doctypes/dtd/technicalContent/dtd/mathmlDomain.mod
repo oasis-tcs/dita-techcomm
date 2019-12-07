@@ -6,11 +6,8 @@
 <!-- DATE:      May 2013                                           -->
 <!-- =============================================================  -->
 <!-- =============================================================  -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)      -->
 <!-- PURPOSE:    Provides elements for including MathML Markup     -->
 <!--            in DITA documents.                                 -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!-- May 2013                                                      -->
 <!-- (C) Copyright OASIS Open 2013                                 -->
 <!-- All Rights Reserved.                                           -->
 <!-- =============================================================     -->

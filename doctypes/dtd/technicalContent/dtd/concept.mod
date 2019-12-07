@@ -16,13 +16,8 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA Concept//EN"                  -->
 <!--       Delivered as file "concept.mod"                              -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
 <!-- PURPOSE:    Define elements and specialization atttributes    -->
 <!--             for Concepts                                      -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2001                                        -->
 <!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->

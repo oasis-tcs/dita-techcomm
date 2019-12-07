@@ -34,12 +34,7 @@ PUBLIC "-//OASIS//DTD DITA Classification Map//EN"
      Delivered as file "classifyMap.dtd"                          
 
 =============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
 PURPOSE:    DTD to describe DITA Classification maps         
-                                                             
-ORIGINAL CREATION DATE:                                      
-            March 2001                                       
                                                              
             (C) Copyright OASIS Open 2005, 2014.             
             (C) Copyright IBM Corporation 2001, 2004.        
