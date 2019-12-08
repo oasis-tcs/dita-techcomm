@@ -32,11 +32,6 @@
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2006.06.07 RDA: Added indexing domain                      -->
-<!--    2006.06.21 RDA: Added props attribute extensions           -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
-<!--    2008.04.15 RDA: Added hazard domain                        -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->

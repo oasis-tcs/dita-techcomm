@@ -22,11 +22,6 @@
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.01.30 RDA: Replace @conref defn. with %conref-atts;   -->
-<!--    2008.02.12 RDA: Expand glossary for DITA 1.2                -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
-<!--    2009.09.21 WEK: Renamed glossentry.mod                     -->
 <!-- ============================================================= -->
 <!--                                                               -->
 

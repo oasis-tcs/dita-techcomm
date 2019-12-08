@@ -23,11 +23,6 @@
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2005.11.15 RDA: Corrected the  PURPOSE in this comment      -->
-<!--    2005.11.15 RDA: Corrected the "Delivered as" system ID     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.02.12 RDA: Add text to msgnum, cmdname, varname       -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
 <!-- =============================================================   -->
 
 <!-- ============================================================= -->

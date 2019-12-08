@@ -21,7 +21,6 @@
 <!--             (C) Copyright OASIS Open 2007, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->
-<!--    2009.10.20 CHK: Make safecond unbound                      -->
 <!-- ============================================================= -->
 <!--                                                               -->
 

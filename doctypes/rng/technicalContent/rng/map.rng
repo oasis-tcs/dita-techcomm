@@ -46,15 +46,6 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Map//EN"
             All Rights Reserved.                             
                                                              
  UPDATES:                                                    
-   2005.11.15 RDA: Corrected public ID for map.mod           
-   2005.11.15 RDA: Updated these comments to match template  
-   2006.06.07 RDA: Added indexing domain                     
-   2006.06.21 RDA: Added props attribute extensions          
-   2007.12.01 EK:  Reformatted DTD modules for DITA 1.2       
-   2008.02.01 RDA: Added Delayed Resolution domain           
-   2008.02.12 RDA: Modify imbeds to use specific 1.2 version 
-   2010.09.20 RDA: Add topic-based domains                   
-   2014.04.12 WEK: Updated for DITA 1.3, defined as RELAX NG                    
 =============================================================   
   </headerComment>
       <moduleMetadata>

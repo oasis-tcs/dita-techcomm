@@ -29,12 +29,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 XNAL Domain//EN"
             (C) Copyright OASIS Open 2006, 2009.             
             All Rights Reserved.                             
  UPDATES:                                                    
-   2007.12.01 EK:  Reformatted DTD modules for DITA 1.2       
-   2008.01.28 RDA: Removed enumerations for attributes:      
-                   authorinformation/@type                   
-   2008.02.12 RDA: Add keyword to data specializations       
-   2008.02.12 RDA: Add @format, @scope to authorinformation  
-   2008.02.13 RDA: Create .content and .attributes entities  
 =============================================================  
 </headerComment>
     <moduleMetadata>

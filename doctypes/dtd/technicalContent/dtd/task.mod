@@ -23,26 +23,6 @@
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2005.11.15 RDA: Removed old declaration for                -->
-<!--                    taskClasses entity                         -->
-<!--    2005.11.15 RDA: Corrected LONG NAME for chdeschd           -->
-<!--    2006.06.06 RDA: Changed model of choice to listitem.cnt    -->
-<!--                    for completeness                           -->
-<!--    2006.06.07 RDA: Added <abstract> element                   -->
-<!--    2006.06.07 RDA: Make universal attributes universal        -->
-<!--                      (DITA 1.1 proposal #12)                  -->
-<!--    2006.11.30 RDA: Add -dita-use-conref-target to enumerated  -->
-<!--                      attributes                               -->
-<!--    2006.11.30 RDA: Remove #FIXED from DITAArchVersion         -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.01.30 RDA: Replace @conref defn. with %conref-atts;   -->
-<!--    2008.02.06 RDA: Add note and itemgroup to step, substep    -->
-<!--    2008.02.06 RDA: Loosen content model of taskbody; add      -->
-<!--                    process and stepsection elements           -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
-<!--    2008.05.06 RDA: Added sectiondiv to section specializations -->
-<!--    2008.12.02 RDA: Rename process to steps-informal           -->
-<!--    2014.04.16 WEK: Redefined as RNG                           -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->

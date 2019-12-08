@@ -31,16 +31,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
             (C) Copyright IBM Corporation 2001, 2004.        
             All Rights Reserved.                             
  UPDATES:                                                    
-   2005.11.15 RDA: Removed old declaration for               
-                   conceptClasses entity                     
-   2006.06.07 RDA: Added <abstract> element                  
-   2006.06.07 RDA: Make universal attributes universal       
-                     (DITA 1.1 proposal #12)                 
-   2006.11.30 RDA: Remove #FIXED from DITAArchVersion        
-   2007.12.01 EK:  Reformatted DTD modules for DITA 1.2       
-   2008.01.30 RDA: Replace @conref defn. with %conref-atts;  
-   2008.02.13 RDA: Create .content and .attributes entities  
-   2008.05.06 RDA: Added conbodydiv                          
 =============================================================
 ]]></headerComment>
     <moduleMetadata>

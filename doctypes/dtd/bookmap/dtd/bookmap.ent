@@ -22,17 +22,6 @@
 <!--             (C) Copyright IBM Corporation 2004, 2005.         -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.01.28 RDA: Removed enumerations for attributes:       -->
-<!--                    publishtype/@value, bookrestriction/@value -->
-<!--    2008.01.28 RDA: Added <metadata> to <bookmeta>             -->
-<!--    2008.01.30 RDA: Replace @conref defn. with %conref-atts;   -->
-<!--    2008.02.01 RDA: Added keys attributes, more keyref attrs   -->
-<!--    2008.02.12 RDA: Add keyword to many data specializations   -->
-<!--    2008.02.12 RDA: Add @format, @scope, and @type to          -->
-<!--                    publisherinformation                       -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
-<!--    2008.03.17 RDA: Add appendices element                     -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
