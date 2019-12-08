@@ -21,6 +21,7 @@ Source: [[[Source link]]]
  MODULE:    DITA Troubleshooting Shell                                  
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   DTD to describe DITA troubleshooting tasks                       
                                                              
 =============================================================
 
@@ -39,8 +40,6 @@ The public ID above refers to the latest version of this DTD.
 PUBLIC "-//OASIS//DTD DITA 2.0 Troubleshooting//EN"                          
 
 =============================================================
-PURPOSE:    DTD to describe DITA troubleshooting tasks                       
-                                                             
             (C) Copyright OASIS Open 2014             
             All Rights Reserved.                             
                                                              

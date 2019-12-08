@@ -12,6 +12,7 @@
 <!--  MODULE:    DITA Reference DTD                                -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   DTD to describe DITA References                   -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -27,8 +28,6 @@
 <!--                                                               -->
 <!-- PUBLIC "-//OASIS//DTD DITA 2.0 Reference//EN"                      -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    DTD to describe DITA References                   -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2014.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->

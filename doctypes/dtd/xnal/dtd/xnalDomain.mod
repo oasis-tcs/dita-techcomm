@@ -5,6 +5,8 @@
 <!--  MODULE:    XNAL Domain                                       -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization atttributes    -->
+<!--             for the XNAL Domain                               -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 XNAL Domain//EN"              -->
 <!--       Delivered as file "xnalDomain.mod"                           -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Define elements and specialization atttributed    -->
-<!--             for the XNAL Domain                               -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2006, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->

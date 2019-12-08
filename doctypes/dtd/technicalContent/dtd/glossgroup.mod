@@ -5,6 +5,8 @@
 <!--  MODULE:    DITA Glossary Group                               -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization atttributes    -->
+<!--             for Glossary Group topics                         -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Group//EN"           -->
 <!--       Delivered as file "glossgroup.mod"                           -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Define elements and specialization atttributes    -->
-<!--             for Glossary Group topics                         -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

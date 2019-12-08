@@ -5,6 +5,8 @@
 <!--  MODULE:    DITA Machine Industry Taskbody Constraint         -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Declaring the domain entity for the strict task   -->
+<!--             constraint module                                 -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Machinery Taskbody Constraint//EN" -->
 <!--       Delivered as file "machineryTaskbodyConstraint.mod"          -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Declaring the domain entity for the strict task   -->
-<!--             constraint module                                 -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

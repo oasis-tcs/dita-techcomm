@@ -12,6 +12,7 @@
 <!--  MODULE:    DITA General Task Shell                           -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   DTD to describe unconstrained DITA Tasks          -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -28,8 +29,6 @@
 <!--                                                               -->
 <!-- PUBLIC "-//OASIS//DTD DITA 2.0 General Task//EN"                   -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    DTD to describe unconstrained DITA Tasks          -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2014.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

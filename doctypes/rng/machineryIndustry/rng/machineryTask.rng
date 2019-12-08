@@ -21,6 +21,7 @@ Source: [[[Source link]]]
  MODULE:    DITA Machinery Task
  VERSION:   2.0
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   DTD to describe DITA Machinery Tasks             
                                                              
 =============================================================
 
@@ -39,8 +40,6 @@ To refer to this specific version, use this value:
 PUBLIC "-//OASIS//DTD DITA 2.0 Machinery Task//EN"                
 
 =============================================================
-PURPOSE:    DTD to describe DITA Machinery Tasks             
-                                                             
             (C) Copyright OASIS Open 2008, 2014.             
             All Rights Reserved.                             
                                                              

@@ -5,6 +5,8 @@
 <!--  MODULE:    DITA Task                                         -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   Declaring the elements and specialization         -->
+<!--             attributes for the DITA Tasks                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"                     -->
 <!--       Delivered as file "task.mod"                                 -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Declaring the elements and specialization         -->
-<!--             attributes for the DITA Tasks                     -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->

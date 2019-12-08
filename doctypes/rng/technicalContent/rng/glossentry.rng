@@ -21,6 +21,7 @@ Source: [[[Source link]]]
  MODULE:    DITA Glossary Entry Shell                 
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   Document type to describe DITA Glossary Entry topics       
                                                              
 =============================================================
 
@@ -39,8 +40,6 @@ The public ID above refers to the latest version of this DTD.
 PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN"                      
 
 =============================================================
-PURPOSE:    Document type to describe DITA Glossary Entry topics       
-                                                             
             (C) Copyright OASIS Open 2006, 2014.             
             All Rights Reserved.                             
                                                              

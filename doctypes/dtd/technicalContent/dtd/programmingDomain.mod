@@ -5,6 +5,8 @@
 <!--  MODULE:    DITA Programming Domain                           -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Declaring the elements and specialization         -->
+<!--             attributes for the Programming Domain             -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Programming Domain//EN"       -->
 <!--       Delivered as file "programmingDomain.mod"                    -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Declaring the elements and specialization         -->
-<!--             attributes for the Programming Domain             -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->

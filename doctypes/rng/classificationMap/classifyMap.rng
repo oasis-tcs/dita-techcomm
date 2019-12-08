@@ -21,6 +21,7 @@ Source: [[[Source link]]]
  MODULE:    DITA Classification Map
  VERSION:   2.0
  DATE:      [[[Release date]]]
+ PURPOSE:   DTD to describe DITA Classification maps         
                                                              
 =============================================================
 
@@ -34,8 +35,6 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
      Delivered as file "classifyMap.dtd"                          
 
 =============================================================
-PURPOSE:    DTD to describe DITA Classification maps         
-                                                             
             (C) Copyright OASIS Open 2005, 2014.             
             (C) Copyright IBM Corporation 2001, 2004.        
             All Rights Reserved.                             

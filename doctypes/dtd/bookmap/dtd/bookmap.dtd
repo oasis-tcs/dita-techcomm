@@ -12,6 +12,7 @@
 <!--  MODULE:    DITA Bookmap                                      -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   DTD to describe DITA Book Maps                    -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -26,8 +27,6 @@
 <!--      To refer to this specific version, use this value: -->
 <!-- PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"                   -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    DTD to describe DITA Book Maps                    -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2006, 2014               -->
 <!--             (C) Copyright IBM Corporation 2004, 2005.         -->
 <!--             All Rights Reserved.                              -->

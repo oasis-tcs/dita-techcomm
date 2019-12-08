@@ -5,6 +5,8 @@
 <!--  MODULE:    DITA Glossary                                     -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization atttributes    -->
+<!--             for Glossary topics                               -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"           -->
 <!--       Delivered as file "glossentry.mod"                             -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Define elements and specialization atttributes    -->
-<!--             for Glossary topics                               -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2006, 2019.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

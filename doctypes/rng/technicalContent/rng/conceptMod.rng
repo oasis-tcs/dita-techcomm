@@ -12,6 +12,8 @@
  MODULE:    DITA Concept                                     
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   Define elements and specialization atttributes   
+            for Concepts                                     
                                                              
 =============================================================
 
@@ -25,9 +27,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
       Delivered as file "concept.mod"                             
 
 =============================================================
-PURPOSE:    Define elements and specialization atttributes   
-            for Concepts                                     
-                                                             
             (C) Copyright OASIS Open 2005, 2009.             
             (C) Copyright IBM Corporation 2001, 2004.        
             All Rights Reserved.                             

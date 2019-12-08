@@ -12,6 +12,8 @@
  MODULE:    DITA Task                                        
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   Declaring the elements and specialization        
+            attributes for the DITA Tasks                    
                                                              
 =============================================================
 
@@ -25,9 +27,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       Delivered as file "task.mod"                                
 
 =============================================================
-PURPOSE:    Declaring the elements and specialization        
-            attributes for the DITA Tasks                    
-                                                             
             (C) Copyright OASIS Open 2005, 2009.             
             (C) Copyright IBM Corporation 2001, 2004.        
             All Rights Reserved.                             
@@ -343,7 +342,7 @@ PURPOSE:    Declaring the elements and specialization
       <define name="context.element">
         <element name="context" dita:longName="Context">
           <a:documentation>
-            <![CDATA[The <context> section of a task provides background information for the task. This information helps the user understand what the purpose of the task is and what they will gain by completing the task. This section should be brief and does not replace or recreate a concept topic on the same subject, although the context section may include some conceptual information.
+            <![CDATA[The <context> section of a task provides background information for the task. This information helps the user understand what the  PURPOSE of the task is and what they will gain by completing the task. This section should be brief and does not replace or recreate a concept topic on the same subject, although the context section may include some conceptual information.
     Category: Task elements
   ]]></a:documentation>
           <ref name="context.attlist"/>

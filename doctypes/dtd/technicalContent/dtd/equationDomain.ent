@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- =============================================================  -->
 <!-- DITA Equation Domain                                          -->
-<!-- Purpose: Provides elements for identifying equations as       -->
+<!--  PURPOSE:Provides elements for identifying equations as       -->
 <!--          equations independent of how the equation itself     -->
 <!--          is defined (e.g., as a graphic, using MathML, etc.). -->
 <!--                                                               -->

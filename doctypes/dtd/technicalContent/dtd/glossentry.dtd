@@ -12,6 +12,7 @@
 <!--  MODULE:    DITA Glossary Entry Shell                         -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   Document type to describe DITA Glossary Entry topics        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -26,8 +27,6 @@
 <!--      To refer to this specific version, use this value: -->
 <!-- PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN"                       -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Document type to describe DITA Glossary Entry topics        -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2006, 2014.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

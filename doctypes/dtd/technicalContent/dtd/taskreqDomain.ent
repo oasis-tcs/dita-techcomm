@@ -5,6 +5,8 @@
 <!--  MODULE:    Task Requirements Domain                          -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization attributes     -->
+<!--             for the Task Requirements Domain                  -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task Requirements Domain//EN" -->
 <!--       Delivered as file "taskreqDomain.mod"                        -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Define elements and specialization attributes     -->
-<!--             for the Task Requirements Domain                  -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2007, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->

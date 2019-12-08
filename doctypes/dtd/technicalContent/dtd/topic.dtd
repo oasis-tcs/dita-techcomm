@@ -12,6 +12,7 @@
 <!--  MODULE:    DITA Topic                                        -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   DTD to describe DITA Topics                       -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -26,8 +27,6 @@
 <!--      To refer to this specific version, use this value:       -->
 <!-- PUBLIC "-//OASIS//DTD DITA 2.0 Topic//EN"                     -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    DTD to describe DITA Topics                       -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->

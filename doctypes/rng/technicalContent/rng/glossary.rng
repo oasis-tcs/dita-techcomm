@@ -18,6 +18,7 @@ Source: [[[Source link]]]
  MODULE:    DITA Glossary DTD                                
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   W3C XML Schema to describe DITA glossary         
                                                              
 =============================================================
 
@@ -49,8 +50,6 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Glossary//EN"
  
  
 =============================================================
-PURPOSE:    W3C XML Schema to describe DITA glossary         
-                                                             
             (C) Copyright OASIS-Open.org 2006, 2009               
             All Rights Reserved.                             
 =============================================================

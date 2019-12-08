@@ -11,6 +11,8 @@
  MODULE:    DITA Abbreviated Form Domain                     
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   Declaring the elements and specialization        
+            attributes for the Abbreviated Form Domain       
                                                              
 =============================================================
 
@@ -24,9 +26,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
       Delivered as file "abbreviateDomain.mod"                    
 
 =============================================================
-PURPOSE:    Declaring the elements and specialization        
-            attributes for the Abbreviated Form Domain       
-                                                             
             (C) Copyright OASIS Open 2008, 2009.             
             All Rights Reserved.                             
                                                              

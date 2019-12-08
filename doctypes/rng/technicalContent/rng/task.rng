@@ -21,6 +21,7 @@ Source: [[[Source link]]]
  MODULE:    DITA Task Shell                                  
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
+ PURPOSE:   DTD to describe DITA Tasks                       
                                                              
 =============================================================
 
@@ -39,8 +40,6 @@ The public ID above refers to the latest version of this DTD.
 PUBLIC "-//OASIS//DTD DITA 2.0 Task//EN"                          
 
 =============================================================
-PURPOSE:    DTD to describe DITA Tasks                       
-                                                             
             (C) Copyright OASIS Open 2005, 2014.             
             (C) Copyright IBM Corporation 2001, 2004.        
             All Rights Reserved.                             

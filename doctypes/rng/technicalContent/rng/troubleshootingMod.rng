@@ -12,7 +12,8 @@
  MODULE:    DITA Troubleshooting Domain                                      
  VERSION:   2.0                                              
  DATE:      [[[Release date]]]                                    
-                                                             
+ PURPOSE:   Declaring the elements and specialization        
+            attributes for DITA Troubleshooting                    
 =============================================================
 
 =============================================================
@@ -25,9 +26,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
       Delivered as file "troubleshooting.mod"                                
 
 =============================================================
-PURPOSE:    Declaring the elements and specialization        
-            attributes for the DITA Troubleshootings                    
-                                                             
             (C) Copyright OASIS Open 2014             
             All Rights Reserved.                             
                                                              

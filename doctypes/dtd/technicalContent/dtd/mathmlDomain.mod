@@ -4,10 +4,10 @@
 <!-- MODULE:    DITA MathML Domain - RNG                           -->
 <!-- VERSION:   2.0                                                 -->
 <!-- DATE:      [[[Release date]]]                                           -->
-<!-- =============================================================  -->
-<!-- =============================================================  -->
-<!-- PURPOSE:    Provides elements for including MathML Markup     -->
+<!-- PURPOSE:   Provides elements for including MathML Markup     -->
 <!--            in DITA documents.                                 -->
+<!-- =============================================================  -->
+<!-- =============================================================  -->
 <!-- (C) Copyright OASIS Open 2013                                 -->
 <!-- All Rights Reserved.                                           -->
 <!-- =============================================================     -->

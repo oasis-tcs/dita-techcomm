@@ -12,6 +12,7 @@
 <!--  MODULE:    DITA Task Shell                                   -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   DTD to describe DITA Tasks                        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -27,8 +28,6 @@
 <!--                                                               -->
 <!-- PUBLIC "-//OASIS//DTD DITA 2.0 Task//EN"                           -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    DTD to describe DITA Tasks                        -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2014.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->

@@ -5,6 +5,8 @@
 <!--  MODULE:    DITA Glossary Reference Domain                    -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization attributes     -->
+<!--             for Glossary Reference Domain                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -16,9 +18,6 @@
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN" -->
 <!--       Delivered as file "glossrefDomain.mod"                       -->
 <!-- ============================================================= -->
-<!-- PURPOSE:    Define elements and specialization attributes     -->
-<!--             for Glossary Reference Domain                     -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
