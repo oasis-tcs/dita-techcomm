@@ -5,12 +5,12 @@
       <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:2.0"
               uri="classifyMap.rng"/>
       <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:2.x"
-              uri="rng/classifyMap.rng"/>
+              uri="classifyMap.rng"/>
    </group>
    <group><!-- Public ID (URN) catalog entries -->
       <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:2.0"
            uri="classifyMap.rng"/>
       <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:2.x"
-           uri="rng/classifyMap.rng"/>
+           uri="classifyMap.rng"/>
    </group>
 </catalog>
