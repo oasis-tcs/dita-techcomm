@@ -4,5 +4,5 @@
    <public publicId="-//OASIS//DTD DITA 2.0 Classification Map//EN"
            uri="classifyMap.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Classification Map//EN"
-           uri="dtd/classifyMap.dtd"/>
+           uri="classifyMap.dtd"/>
 </catalog>
