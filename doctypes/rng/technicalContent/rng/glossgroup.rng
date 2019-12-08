@@ -9,16 +9,18 @@
  =============================================================
                    HEADER                                     
 ============================================================= 
-Darwin Information Typing Architecture (DITA) Version 1.3 Plus Errata 02
-OASIS Standard
-16 January 2018 
+Darwin Information Typing Architecture (DITA) Version 2.0
+[[[Draft level]]]
+[[[Release date]]] 
 Copyright (c) OASIS Open 2018. All rights reserved. 
-Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part0-overview/dita-v1.3-errata02-csprd01-part0-overview-complete.html
+Source: [[[Source link]]]
 
 ============================================================
  MODULE:    DITA Glossary Group Shell                         
- VERSION:   1.3                                       
- DATE:      March 2014                                     
+ VERSION:   2.0                                       
+ DATE:      [[[Release date]]]                                     
+ PURPOSE:   Define elements and specialization atttributes    
+            for Glossary Group topics                         
                                                               
 ============================================================= 
 
@@ -29,17 +31,9 @@ Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part
  Refer to this file by the following public identifier or an 
       appropriate system identifier 
       
-PUBLIC "-//OASIS//ELEMENTS DITA Glossary Group//EN"
+PUBLIC "-//OASIS//ELEMENTS DITA 2.x Glossary Group//EN"
 
 ============================================================= 
-SYSTEM:     Darwin Information Typing Architecture (DITA)     
-                                                              
-PURPOSE:    Define elements and specialization atttributes    
-            for Glossary Group topics                         
-                                                              
-ORIGINAL CREATION DATE:                                       
-            June 2008                                         
-                                                              
             (C) Copyright OASIS Open 2008, 2014.              
             All Rights Reserved.                              
                                                               

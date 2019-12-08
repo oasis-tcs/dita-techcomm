@@ -1,20 +1,17 @@
 <!-- ============================================================= 
      MODULE:    DITA MathML Domain - RNG              
-     VERSION:   1.3                                                
-     DATE:      May 2013                                       
+     VERSION:   2.0                                                
+     DATE:      [[[Release date]]]                                       
      ============================================================= -->
 <!--
      Refer to the latest version of this file by the following URI:
      urn:dita-ng:dita:rng:mathmlDomain.mod.rng
-     To refer to this specific version, you may use this value:
+     To refer to this specific version, use this value:
      urn:dita-ng:dita:rng:mathmlDomain.mod.rng:1.3
 -->
 <!-- ============================================================= 
-     SYSTEM:     Darwin Information Typing Architecture (DITA)     
-     PURPOSE:    Provides elements for including MathML Markup
+      PURPOSE:   Provides elements for including MathML Markup
                  in DITA documents.
-     ORIGINAL CREATION DATE:  
-     May 2013                                                
      (C) Copyright OASIS Open 2013                                
      All Rights Reserved.                                          
      ============================================================= -->
@@ -27,17 +24,14 @@
     <headerComment> 
 ============================================================= 
 MODULE:    DITA MathML Domain - RNG              
-VERSION:   1.3                                                
-DATE:      May 2013                                       
+VERSION:   2.0                                                
+DATE:      [[[Release date]]]                                       
+PURPOSE:   Provides elements for including MathML Markup
+in DITA documents.
 ============================================================= 
 
 
 ============================================================= 
-SYSTEM:     Darwin Information Typing Architecture (DITA)     
-PURPOSE:    Provides elements for including MathML Markup
-           in DITA documents.
-ORIGINAL CREATION DATE:  
-May 2013                                                
 (C) Copyright OASIS Open 2013                                
 All Rights Reserved.                                          
 =============================================================    
@@ -170,7 +164,7 @@ elements
           <choice>
             <externalRef href="mathmlDomainProxy.rng"
               dita:namespacePrefix="m"
-              dita:dtdPublicId="-//OASIS//ELEMENTS DITA 1.3 Mathml3 Driver//EN"
+              dita:dtdPublicId="-//OASIS//ELEMENTS DITA 2.0 Mathml3 Driver//EN"
               dita:dtdSystemId="mathml/mathml3-ditadriver.dtd"
               dita:xsdURI="mathml/mathml3/mathml3.xsd"
               dita:xsdTargetNamespace="http://www.w3.org/1998/Math/MathML"
@@ -195,7 +189,7 @@ The MathML container (&lt;mathml>) element contains inline MathML markup or
 references to MathML elements stored in a separate non-DITA XML
 document.
 
-The purpose of this element is simply to contain MathML markup. It is
+The  PURPOSE of this element is simply to contain MathML markup. It is
 not intended, by itself, to convey the semantic of "equation". Rather,
 it simply serves to hold one of many possible ways that the content of
 an equation may be represented. The companion equation domain provides

@@ -2,15 +2,12 @@
 <!--                                                               -->
 <!-- =============================================================  -->
 <!-- MODULE:    DITA MathML Domain - RNG                           -->
-<!-- VERSION:   1.3                                                 -->
-<!-- DATE:      May 2013                                           -->
-<!-- =============================================================  -->
-<!-- =============================================================  -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)      -->
-<!-- PURPOSE:    Provides elements for including MathML Markup     -->
+<!-- VERSION:   2.0                                                 -->
+<!-- DATE:      [[[Release date]]]                                           -->
+<!-- PURPOSE:   Provides elements for including MathML Markup     -->
 <!--            in DITA documents.                                 -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!-- May 2013                                                      -->
+<!-- =============================================================  -->
+<!-- =============================================================  -->
 <!-- (C) Copyright OASIS Open 2013                                 -->
 <!-- All Rights Reserved.                                           -->
 <!-- =============================================================     -->

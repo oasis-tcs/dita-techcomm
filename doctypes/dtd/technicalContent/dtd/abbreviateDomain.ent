@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Abbreviated Form Domain                      -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Declaring the elements and specialization         -->
+<!--             attributes for the Abbreviated Form Domain        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,17 +15,9 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Abbreviated Form Domain//EN"  -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"  -->
 <!--       Delivered as file "abbreviateDomain.mod"                     -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Declaring the elements and specialization         -->
-<!--             attributes for the Abbreviated Form Domain        -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             June 2008                                         -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

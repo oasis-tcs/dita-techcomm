@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Machine Industry Taskbody Constraint         -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Declaring the domain entity for the strict task   -->
+<!--             constraint module                                 -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,17 +15,9 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Machinery Taskbody Constraint//EN" -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Machinery Taskbody Constraint//EN" -->
 <!--       Delivered as file "machineryTaskbodyConstraint.mod"          -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Declaring the domain entity for the strict task   -->
-<!--             constraint module                                 -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             April 2008                                        -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Strict Taskbody Constraint                   -->
-<!--  VERSION:   1.3                                               -->
-<!--  DATE:      March 2014                                        -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                        -->
+<!--  PURPOSE:   Declaring the domain entity for the strict task   -->
+<!--             constraint module                                 -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,17 +15,9 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Strict Taskbody Constraint//EN" -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Strict Taskbody Constraint//EN" -->
 <!--       Delivered as file "strictTaskbodyConstraint.mod"             -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Declaring the domain entity for the strict task   -->
-<!--             constraint module                                 -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             April 2008                                        -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2014.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->

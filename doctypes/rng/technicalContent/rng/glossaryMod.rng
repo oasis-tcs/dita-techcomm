@@ -10,8 +10,8 @@
                    HEADER
 =============================================================
  MODULE:    DITA Glossary Entity
- VERSION:   1.2
- DATE:      November 2009
+ VERSION:   2.0
+ DATE:      [[[Release date]]]
                                                               
 =============================================================
  
@@ -22,7 +22,7 @@
 Refer to this file by the following public identifier or an 
 appropriate system identifier 
  
-PUBLIC "-//OASIS//ENTITIES DITA Glossary//EN"
+PUBLIC "-//OASIS//ENTITIES DITA 2.0 Glossary//EN"
  
 Delivered as file "glossary.ent"
  
@@ -32,8 +32,8 @@ Delivered as file "glossary.ent"
                    HEADER                                    
 =============================================================
  MODULE:    DITA Glossary
- VERSION:   1.2
- DATE:      November 2009
+ VERSION:   2.0
+ DATE:      [[[Release date]]]
                                                              
 =============================================================
  
@@ -44,55 +44,9 @@ Delivered as file "glossary.ent"
 Refer to this file by the following public identifier or an 
 appropriate system identifier
 
-PUBLIC "-//OASIS//ELEMENTS DITA Glossary//EN"
+PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary//EN"
  
 Delivered as file "glossary.mod"
-</headerComment>
-<headerComment xml:space="preserve" fileType="xsdGrp">
-=============================================================
-                   HEADER                                    
-=============================================================
- MODULE:    DITA Glossary XSD Group Declaration
- VERSION:   1.2
- DATE:      July 2007
-                                                             
-=============================================================
-
-
-=============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)
-                                                             
-PURPOSE:    W3C XML Schema to describe DITA concepts
-                                                             
-ORIGINAL CREATION DATE:                                      
-            June 2006
-                                                             
-            (C) Copyright OASIS-Open.org 2006, 2009               
-            All Rights Reserved.
-=============================================================
-</headerComment>
-    <headerComment xml:space="preserve" fileType="xsdMod">
-=============================================================
-                   HEADER                                    
-=============================================================
- MODULE:    DITA Glossary XSD Module                          
- VERSION:   1.2                                            
- DATE:      July 2007                                    
-                                                             
-=============================================================
- 
- 
-=============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
-PURPOSE:    Define elements and specialization attributes   
-            for Glossary topics                              
-ORIGINAL CREATION DATE:                                      
-            July 2007                                       
-                                                             
-            (C) Copyright OASIS-Open.org 2007, 2009               
-            All Rights Reserved.                             
-=============================================================
 </headerComment>
     <moduleMetadata>
       <moduleType>topic</moduleType>

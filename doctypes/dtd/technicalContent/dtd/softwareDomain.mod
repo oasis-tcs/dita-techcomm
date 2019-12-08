@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Software Domain                              -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Declaring the elements and specialization         -->
+<!--             attributes for the Software Domain                -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,27 +15,14 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Software Domain//EN"          -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"          -->
 <!--       Delivered as file "softwareDomain.mod"                       -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Declaring the elements and specialization         -->
-<!--             attributes for the Software Domain                -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2001                                        -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2005, 2009.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2005.11.15 RDA: Corrected the PURPOSE in this comment      -->
-<!--    2005.11.15 RDA: Corrected the "Delivered as" system ID     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.02.12 RDA: Add text to msgnum, cmdname, varname       -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
 <!-- =============================================================   -->
 
 <!-- ============================================================= -->

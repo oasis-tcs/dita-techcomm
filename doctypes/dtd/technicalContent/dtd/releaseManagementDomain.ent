@@ -11,7 +11,7 @@
 <!--                                                                -->
 <!-- Refer to this file by the following public identifier or an   -->
 <!-- appropriate system identifier                                 -->
-<!-- PUBLIC "-//OASIS//ENTITIES DITA Release Management Domain//EN" -->
+<!-- PUBLIC "-//OASIS//ENTITIES DITA 2.0 Release Management Domain//EN" -->
 <!-- ============================================================= -->
 <!--                                                               -->
 

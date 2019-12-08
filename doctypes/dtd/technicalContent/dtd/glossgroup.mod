@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Glossary Group                               -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization atttributes    -->
+<!--             for Glossary Group topics                         -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,17 +15,9 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Glossary Group//EN"           -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Group//EN"           -->
 <!--       Delivered as file "glossgroup.mod"                           -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Define elements and specialization atttributes    -->
-<!--             for Glossary Group topics                         -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             June 2008                                         -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2008, 2009.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
