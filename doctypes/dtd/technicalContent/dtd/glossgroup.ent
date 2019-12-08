@@ -13,7 +13,7 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Glossary Group//EN"           -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Group//EN"           -->
 <!--       Delivered as file "glossgroup.mod"                           -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    Define elements and specialization atttributes    -->

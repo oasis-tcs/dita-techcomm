@@ -13,7 +13,7 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Task//EN"                     -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"                     -->
 <!--       Delivered as file "task.mod"                                 -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    Declaring the elements and specialization         -->

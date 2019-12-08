@@ -13,8 +13,8 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA BookMap//EN"                  -->
-<!--       Delivered as file "bookmap.mod"                              -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"              -->
+<!--       Delivered as file "bookmap.mod"                         -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    Define elements and specialization atttributes    -->
 <!--             for Book Maps                                     -->

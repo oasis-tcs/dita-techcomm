@@ -20,11 +20,11 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//DTD DITA BookMap//EN"                       -->
-<!--       Delivered as file "bookmap.dtd"                              -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.x BookMap//EN"                   -->
+<!--       Delivered as file "bookmap.dtd"                         -->
 <!-- The public ID above refers to the latest version of this DTD. -->
 <!--      To refer to this specific version, use this value: -->
-<!-- PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"                        -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"                   -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    DTD to describe DITA Book Maps                    -->
 <!--                                                               -->

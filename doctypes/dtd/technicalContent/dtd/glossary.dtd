@@ -21,7 +21,7 @@
 <!-- Refer to this file by the following public identifier or an   -->
 <!-- appropriate system identifier                                 -->
 <!--                                                               -->
-<!-- PUBLIC "-//OASIS//DTD DITA Glossary//EN"                      -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.x Glossary//EN"                  -->
 <!--                                                               -->
 <!-- Delivered as file "glossary.dtd"                              -->
 <!--                                                               -->
@@ -36,7 +36,7 @@
   -->
 
 <!ENTITY % glossentryDtd
-  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" 
+  PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN" 
          "glossentry.dtd"
 >%glossentryDtd;
 

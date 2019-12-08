@@ -13,7 +13,7 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identfier or an   -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA XNAL Domain//EN"              -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 XNAL Domain//EN"              -->
 <!--       Delivered as file "xnalDomain.mod"                           -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    Define elements and specialization atttributed    -->

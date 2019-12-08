@@ -13,7 +13,7 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Machinery Taskbody Constraint//EN" -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Machinery Taskbody Constraint//EN" -->
 <!--       Delivered as file "machineryTaskbodyConstraint.mod"          -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    Declaring the domain entity for the strict task   -->

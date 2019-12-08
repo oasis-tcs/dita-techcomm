@@ -13,7 +13,7 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identfier or an   -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Task Requirements Domain//EN" -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task Requirements Domain//EN" -->
 <!--       Delivered as file "taskreqDomain.mod"                        -->
 <!-- ============================================================= -->
 <!-- PURPOSE:    Define elements and specialization attributes     -->

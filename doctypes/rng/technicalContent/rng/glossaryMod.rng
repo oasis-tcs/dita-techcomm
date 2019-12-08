@@ -22,7 +22,7 @@
 Refer to this file by the following public identifier or an 
 appropriate system identifier 
  
-PUBLIC "-//OASIS//ENTITIES DITA Glossary//EN"
+PUBLIC "-//OASIS//ENTITIES DITA 2.0 Glossary//EN"
  
 Delivered as file "glossary.ent"
  
@@ -44,7 +44,7 @@ Delivered as file "glossary.ent"
 Refer to this file by the following public identifier or an 
 appropriate system identifier
 
-PUBLIC "-//OASIS//ELEMENTS DITA Glossary//EN"
+PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary//EN"
  
 Delivered as file "glossary.mod"
 </headerComment>

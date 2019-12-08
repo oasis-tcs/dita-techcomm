@@ -14,7 +14,7 @@
 <!--                                                               -->
 <!-- Refer to this file by the following public identifier or an   -->
 <!-- appropriate system identifier                                 -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Glossary//EN"                 -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary//EN"                 -->
 <!--                                                               -->
 <!-- Delivered as file "glossary.mod"                              -->
 
@@ -24,7 +24,7 @@
   -->
 
 <!ENTITY % glossentryMod
-  PUBLIC "-//OASIS//ELEMENTS DITA Glossary Entry//EN" 
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN" 
          "glossentry.mod"
 >%glossentryMod;
 

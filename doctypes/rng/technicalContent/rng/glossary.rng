@@ -28,14 +28,14 @@ Source: [[[Source link]]]
 Refer to this file by the following public identifier or an 
 appropriate system identifier 
  
-PUBLIC "-//OASIS//DTD DITA Glossary//EN"
+PUBLIC "-//OASIS//DTD DITA 2.x Glossary//EN"
  
 Delivered as file "glossary.dtd"
  
 The public ID above refers to the latest version of this DTD.
 To refer to this specific version, use this value:
  
-PUBLIC "-//OASIS//DTD DITA 1.3 Glossary//EN"
+PUBLIC "-//OASIS//DTD DITA 2.0 Glossary//EN"
 </headerComment>
     <headerComment xml:space="preserve" fileType="xsdShell">
 =============================================================
