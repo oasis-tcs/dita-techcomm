@@ -11,17 +11,17 @@
 =============================================================
                    HEADER                                    
 =============================================================
-Darwin Information Typing Architecture (DITA) Version 1.3 Plus Errata 02
-OASIS Standard
-16 January 2018 
+Darwin Information Typing Architecture (DITA) Version 2.0
+[[[Draft level]]]
+[[[Release date]]] 
 Copyright (c) OASIS Open 2018. All rights reserved. 
-Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part0-overview/dita-v1.3-errata02-csprd01-part0-overview-complete.html
+Source: [[[Source link]]]
 
 ============================================================
  MODULE:    DITA Bookmap                                 
- VERSION:   1.3                                              
- DATE:      March 2014                                    
-                                                             
+ VERSION:   2.0                                              
+ DATE:      [[[Release date]]]                                    
+ PURPOSE:   DTD to describe DITA Book Maps                   
 =============================================================
 
 =============================================================
@@ -30,31 +30,20 @@ Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part
                                                              
  Refer to this file by the following public identifier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+PUBLIC "-//OASIS//DTD DITA 2.x BookMap//EN"
       Delivered as file "bookmap.dtd"                             
 
 The public ID above refers to the latest version of this DTD.
-     To refer to this specific version, you may use this value:
-PUBLIC "-//OASIS//DTD DITA 1.3 BookMap//EN"                       
+     To refer to this specific version, use this value:
+PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"                       
 
 =============================================================
-SYSTEM:     Darwin Information Typing Architecture (DITA)    
-                                                             
-PURPOSE:    DTD to describe DITA Book Maps                   
-                                                             
-ORIGINAL CREATION DATE:                                      
-            March 2004                                       
-                                                             
-            (C) Copyright OASIS Open 2006, 2014         
+            (C) Copyright OASIS Open 2006, 2019         
             (C) Copyright IBM Corporation 2004, 2005.        
             All Rights Reserved.                             
                                                              
  UPDATES:                                                    
-   2008.02.01 RDA: Added reference to bookmap.ent            
-   2008.02.12 RDA: Modify imbeds to use specific 1.2 version 
-   2008.04.15 RDA: Added delay resolution domain             
-   2010.09.21 RDA: Added base and tec. content topic domains 
-   2014.03.13 WEK: Updated for DITA 1.3, reimplemented as RNG
+   2019.12.11 KJE: Updated for DITA 2.0
 =============================================================
 </headerComment>
       <moduleMetadata>
@@ -112,26 +101,24 @@ ORIGINAL CREATION DATE:
       <!-- domains. The bookmap specialization requires these domains.   -->
      <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
-
-      <include href="bookmapMod.rng"/>
-
-      <include href="../../technicalContent/rng/abbreviateDomain.rng"/>
+     <include href="bookmapMod.rng"/>
+     <include href="../../technicalContent/rng/abbreviateDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
-      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-      <include href="../../technicalContent/rng/markupDomain.rng" dita:since="1.3"/>
-      <include href="../../technicalContent/rng/programmingDomain.rng"/>
-      <include href="../../technicalContent/rng/releaseManagementDomain.rng" dita:since="1.3"/>
-      <include href="../../technicalContent/rng/softwareDomain.rng"/>
-      <include href="../../technicalContent/rng/uiDomain.rng"/>
-      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
-      <include href="../../xnal/rng/xnalDomain.rng"/>
-      <include href="../../technicalContent/rng/xmlDomain.rng" dita:since="1.3"/>
+     <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
+     <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
+     <include href="../../technicalContent/rng/markupDomain.rng" dita:since="1.3"/>
+     <include href="../../technicalContent/rng/programmingDomain.rng"/>
+     <include href="../../technicalContent/rng/releaseManagementDomain.rng" dita:since="1.3"/>
+     <include href="../../technicalContent/rng/softwareDomain.rng"/>
+     <include href="../../technicalContent/rng/uiDomain.rng"/>
+     <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
+     <include href="../../xnal/rng/xnalDomain.rng"/>
+     <include href="../../technicalContent/rng/xmlDomain.rng" dita:since="1.3"/>
   </div>
   <div>
       <a:documentation>ID-DEFINING-ELEMENT OVERRIDES</a:documentation>
