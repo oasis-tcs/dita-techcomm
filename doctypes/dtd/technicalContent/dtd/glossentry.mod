@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Glossary                                     -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization atttributes    -->
+<!--             for Glossary topics                               -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,26 +15,13 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Glossary Entry//EN"           -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"           -->
 <!--       Delivered as file "glossentry.mod"                             -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
-<!--                                                               -->
-<!-- PURPOSE:    Define elements and specialization atttributes    -->
-<!--             for Glossary topics                               -->
-<!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             June 2006                                         -->
-<!--                                                               -->
 <!--             (C) Copyright OASIS Open 2006, 2019.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
-<!--    2007.12.01 WEK:  Reformatted DTD modules for DITA 1.2      -->
-<!--    2008.01.30 RDA: Replace @conref defn. with %conref-atts;   -->
-<!--    2008.02.12 RDA: Expand glossary for DITA 1.2               -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
-<!--    2009.09.21 WEK: Renamed glossentry.mod                     -->
 <!--    2019.03.23 KJE: Modified content models of                 -->
 <!--                    glossSurfaceForm, glossAcronym,            -->
 <!--                    glossSynonym, glossShortForm, and          -->

@@ -18,11 +18,10 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
+    <!--<section id="usage-information">
       <title>Usage information</title>
-      <!--<p>The <xmlelement>menucascade</xmlelement> element contains one or more user interface control (<xmlelement>uicontrol</xmlelement>) elements, for example: <codeph>Start &gt; Programs &gt; Accessories &gt; Notepad</codeph>. </p>-->
-      <p>This element is part of the user interface domain.</p>
-    </section>
+      <p>The <xmlelement>menucascade</xmlelement> element contains one or more user interface control (<xmlelement>uicontrol</xmlelement>) elements, for example: <codeph>Start &gt; Programs &gt; Accessories &gt; Notepad</codeph>. </p>
+    </section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>menucascade</xmlelement> element is specialized from

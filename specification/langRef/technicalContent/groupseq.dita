@@ -21,7 +21,6 @@
         definition, groups of keywords, delimiters and other syntax units act as a combined unit,
         and they occur in a specific sequence, as delimited by the <xmlelement>groupseq</xmlelement>
         element. </p>
-      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

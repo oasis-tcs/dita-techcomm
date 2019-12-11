@@ -21,7 +21,6 @@
         message descriptions, each enclosed in <xmlelement>msgnum</xmlelement> and
           <xmlelement>msgph</xmlelement> elements. It also can contain the message content
         directly.</p>
-      <p>This element is part of the software domain.</p>
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>

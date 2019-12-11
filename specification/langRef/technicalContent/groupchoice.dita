@@ -19,7 +19,6 @@
       <p>A group is a logical set of pieces of syntax that go together. A group choice specifies
         that the user must make a choice about which part of the syntax to use. Groups are often
         nested.</p>
-      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

@@ -29,10 +29,9 @@
       <p>The following attributes are available on this element: <xref
           keyref="universalAttributes"/>, <xref
           keyref="linkRelationshipAttributes"/> (with a narrowed definition of
-          <xmlatt>href</xmlatt>, given below), <xref
+          <xmlatt>href</xmlatt>, given below), and <xref
             keyref="thekeyrefattribute"
-          ><xmlatt>keyref</xmlatt></xref>, and <xref
-          keyref="commonAttributes/outputclass"/>.<dl>
+          ><xmlatt>keyref</xmlatt></xref>.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
             <dd>References a term for which the current variant is an alternate (in addition to the

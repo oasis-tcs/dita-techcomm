@@ -21,7 +21,6 @@
         needed, but some of the syntax elements, such as <xmlelement>kwd</xmlelement>,
           <xmlelement>oper</xmlelement>, or <xmlelement>delim</xmlelement> are used within the text
         flow of the topic content.</p>
-      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

@@ -16,19 +16,16 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p><ph conref="apiname.dita#apiname/progdomainelement"/></p>
-    </section>
-    <section id="specialization-hierarchy">
-      <title>Specialization hierarchy</title>
-      <p>+ topic/xref pr-d/fragref</p>
-    </section>
+<section id="specialization-hierarchy">
+<title>Specialization hierarchy</title>
+<p>The <xmlelement>fragref</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It is
+defined in the programming domain module.</p>
+<!--<p>+ topic/xref pr-d/fragref</p>-->
+</section>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="universalAttributes"
-        /> (with a narrowed definition of <xmlatt>importance</xmlatt>, given below), <xref
-          keyref="commonAttributes/outputclass"/>, and the attributes defined below.</p>
+        /> (with a narrowed definition of <xmlatt>importance</xmlatt>, given below) and the attributes defined below.</p>
       <dl>
         <dlentry>
           <dt><xmlatt>href</xmlatt></dt>

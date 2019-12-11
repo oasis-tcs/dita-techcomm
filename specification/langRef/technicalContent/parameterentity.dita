@@ -21,7 +21,6 @@
         content of the <xmlelement>parameterentity</xmlelement> element should be the entity name
         without a leading percentage sign or trailing semi-colon, for example,
           <keyword>keyword.content</keyword>.</p>
-      <p>This element is part of the XML mention domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

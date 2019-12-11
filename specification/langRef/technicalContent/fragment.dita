@@ -19,7 +19,6 @@
       <title>Usage information</title>
       <p>The <xmlelement>fragment</xmlelement> element allows breaking out logical chunks of a large
         syntax diagram into named fragments. </p>
-      <p>This element is part of the programming domain.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

@@ -32,7 +32,6 @@ and expanded versions of that acronym.</shortdesc>
             keyref="topicrefElementAttributes"/>, <xref
           keyref="linkRelationshipAttributes"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), <xref
-          keyref="commonAttributes/outputclass"/>, <xref
           keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
           <xmlatt>collection-type</xmlatt>, <xmlatt>locktitle</xmlatt>, <xmlatt>chunk</xmlatt>, and
