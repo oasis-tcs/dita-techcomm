@@ -31,6 +31,7 @@
     </bookrights>
   </bookmeta>
   <frontmatter>
+    <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <!--    <mapref href="dita-20-key-definitions-common-metadata.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-part2-metadata.ditamap" processing-role="resource-only"/>-->
