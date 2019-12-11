@@ -4,6 +4,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Bookmap                                      -->
 <!--  VERSION:   2.0                                               -->
+<!--  DATE:      October 2019                                      -->
 <!--  DATE:      [[[Release date]]]                                     -->
 <!--  PURPOSE:   Define elements and specialization atttributes    -->
 <!--             for Book Maps                                     -->
@@ -15,13 +16,17 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
+
 <!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"              -->
 <!--       Delivered as file "bookmap.mod"                         -->
 <!-- ============================================================= -->
-<!--             (C) Copyright OASIS Open 2005, 2009.              -->
+<!--             (C) Copyright OASIS Open 2005, 2019.              -->
 <!--             (C) Copyright IBM Corporation 2004, 2005.         -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->
+<!--    2019.12.11 KJE: Modified content model of bookmap and      -->
+<!--                    booklists                                  -->
+<!--                                                               -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -123,16 +128,18 @@
 >
 <!--                    LONG NAME: Book Map                        -->
 <!ENTITY % bookmap.content
-                       "((%title; |
-                          %booktitle;)?,
+                       "(
+                         (%title; | %booktitle;)?,
                          (%bookmeta;)?,
+                         (%ditavalref;)*,
+                         (%mapresources;)*,
                          (%frontmatter;)?,
                          (%chapter;)*,
                          (%part;)*,
-                         ((%appendices;)? |
-                          (%appendix;)*),
+                         ((%appendices;)? | (%appendix;)*),
                          (%backmatter;)?,
-                         (%reltable;)*)"
+                         (%reltable;)*
+                         )"
 >
 <!ENTITY % bookmap.attributes
               "id
@@ -990,6 +997,7 @@
 <!--                    LONG NAME: Book Lists                      -->
 <!ENTITY % booklists.content
                        "(%abbrevlist; |
+                         %amendments; |
                          %bibliolist; |
                          %booklist; |
                          %figurelist; |

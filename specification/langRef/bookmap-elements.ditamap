@@ -6,7 +6,6 @@
         <!--Bookmap content elements -->
         <topicref href="containers/bookmap-content-elements.dita"
             navtitle="Bookmap content elements">
-            <topicref href="technicalContent/bookmap.dita" keys="bookmap" navtitle="bookmap"/>
             <topicref href="technicalContent/abbrevlist.dita" keys="abbrevlist"
                 navtitle="abbrevlist"/>
             <topicref href="technicalContent/amendments.dita" keys="amendments"
@@ -14,6 +13,7 @@
             <topicref href="technicalContent/appendices.dita" keys="appendices"
                 navtitle="appendices"/>
             <topicref href="technicalContent/appendix.dita" keys="appendix" navtitle="appendix"/>
+            <topicref href="technicalContent/bookmap.dita" keys="bookmap" navtitle="bookmap"/>
             <topicref href="technicalContent/backmatter.dita" keys="backmatter"
                 navtitle="backmatter"/>
             <topicref href="technicalContent/bibliolist.dita" keys="bibliolist"
@@ -53,7 +53,6 @@
         <!--Bookmap metadata elements -->
         <topicref href="containers/bookmap-metadata-elements.dita"
             navtitle="Bookmap metadata elements">
-            <topicref href="technicalContent/bookmeta.dita" keys="bookmeta" navtitle="bookmeta"/>
             <topicref href="technicalContent/approved.dita" keys="approved" navtitle="approved"/>
             <topicref href="technicalContent/bookchangehistory.dita" keys="bookchangehistory"
                 navtitle="bookchangehistory"/>
@@ -61,6 +60,7 @@
             <topicref href="technicalContent/bookeventtype.dita" keys="bookeventtype"
                 navtitle="bookeventtype"/>
             <topicref href="technicalContent/bookid.dita" keys="bookid" navtitle="bookid"/>
+            <topicref href="technicalContent/bookmeta.dita" keys="bookmeta" navtitle="bookmeta"/>
             <topicref href="technicalContent/booknumber.dita" keys="booknumber"
                 navtitle="booknumber"/>
             <topicref href="technicalContent/bookowner.dita" keys="bookowner" navtitle="bookowner"/>
