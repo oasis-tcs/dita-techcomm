@@ -51,7 +51,7 @@
   &lt;topicref href="afeed.dita"/&gt;
  &lt;/chapter&gt; 
 &lt;/part&gt;</codeblock></p>
-      <p>Parts that reference ditamaps of
+      <p>Parts that reference DITA maps of
         content:<codeblock xml:space="preserve">&lt;part href="intro.ditamap" format="ditamap"/&gt;
 &lt;part href="guide.ditamap" format="ditamap"/&gt;
 </codeblock></p>

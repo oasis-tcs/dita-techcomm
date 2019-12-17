@@ -8,14 +8,18 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>addressdetails<indexterm>xNAL
-            elements<indexterm>addressdetails</indexterm></indexterm></indexterm>
+        <indexterm><xmlelement>addressdetails</xmlelement><indexterm>xNAL
+              elements<xmlelement>addressdetails</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>+ topic/ph xnal-d/addressdetails</p></section>
+        ><title>Specialization hierarchy</title>
+      <p>The <xmlelement>addressdetails</xmlelement> is specialized from
+        <xmlelement>ph</xmlelement>. It is defined in the XNAL domain.</p>
+      <p>The value of the <xmlatt>class</xmlatt> attribute is <keyword>+ topic/ph
+          xnal-d/addressdetails </keyword>.</p></section>
     <section id="attributes"><title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>

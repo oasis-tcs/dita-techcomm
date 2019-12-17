@@ -69,8 +69,8 @@ keyref="attributes-includeElement/parse"><xmlatt>parse</xmlatt></xref> (with a d
         </dlentry>
         <dlentry>
           <dt><xmlatt>format</xmlatt></dt>
-          <dd><ph>The data format of the resource.. For SVG the format should be "svg", which is the
-              default value for <xmlatt>format</xmlatt> on this element. </ph></dd>
+          <dd><ph>The data format of the resource. For SVG the format should be <keyword>svg</keyword>, which is the
+              default value for the <xmlatt>format</xmlatt> attribute.</ph></dd>
         </dlentry>
       </dl>
     </section>

@@ -26,7 +26,7 @@
   <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="conref-attribute/bookmap-topicrefs"/></section>
   <example id="example" otherprops="examples"><title>Example</title>
       <p>The following code sample specifies that a change history list is generated in the
-        publication frontmatter. The content of the change history list is contained in the DITA
+        publication front matter. The content of the change history list is contained in the DITA
         resource referenced by <xmlatt>keyref</xmlatt>.</p>
       <codeblock>&lt;frontmatter>
   &lt;booklists>

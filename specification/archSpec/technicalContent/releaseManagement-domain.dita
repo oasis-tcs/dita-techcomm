@@ -68,7 +68,7 @@
 		  <dlentry> 
 			 <dt><xmlelement>change-request-reference</xmlelement> 
 			 </dt> 
-			 <dd>Contains information that provides traceablity to an external
+			 <dd>Contains information that provides traceability to an external
 				change request or other ticketing system 
 			 </dd> 
 		  </dlentry> 

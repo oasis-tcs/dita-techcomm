@@ -29,7 +29,7 @@
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-      <p>The following code sample is from a topic that expains how to create an SQLJ file. A
+      <p>The following code sample is from a topic that explains how to create an SQLJ file. A
         prerequisite is to log into the SQLJ server. Style sheets might generate a label, for
         example, <q>Before you begin</q>, to indicate clearly that the prerequisite task needs to be
         performed before embarking on the procedure.</p>

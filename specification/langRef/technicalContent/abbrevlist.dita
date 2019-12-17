@@ -8,9 +8,9 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>abbrevlist</indexterm>
+        <indexterm><xmlelement>abbrevlist</xmlelement></indexterm>
         <indexterm>abbreviation list</indexterm>
-        <indexterm>Bookmap elements<indexterm>abbrevlist</indexterm></indexterm>
+        <indexterm>Bookmap elements<indexterm><xmlelement>abbrevlist</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -22,7 +22,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicref bookmap/abbrevlist</p>
+      <p>The <xmlelement>abbrevlist</xmlelement> element is specialized from
+          <xmlelement>map</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

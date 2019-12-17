@@ -4,7 +4,7 @@
 <reference id="copyrfirst" xml:lang="en-us">
   <title><xmlelement>copyrfirst</xmlelement></title>
   <shortdesc>The <xmlelement>copyrfirst</xmlelement> element contains the copyright year, or the
-    first copyright year within a multiyear copyright statement.</shortdesc>
+    first copyright year within a multi-year copyright statement.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

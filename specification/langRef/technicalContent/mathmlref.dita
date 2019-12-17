@@ -62,8 +62,8 @@ keyref="attributes-includeElement/parse"><xmlatt>parse</xmlatt></xref> (with a d
       <dl>
         <dlentry>
           <dt><xmlatt>format</xmlatt></dt>
-          <dd><ph>Specifies the format (data type) of the referenced resource. For MathML the format
-              should be "mml", which is the default value for <xmlatt>format</xmlatt> on this
+          <dd><ph>Specifies the format (data type) of the referenced resource. For MathML, the format
+              is <keyword>mml</keyword>, which is the default value for <xmlatt>format</xmlatt> on this
               element.</ph></dd>
         </dlentry>
       </dl>

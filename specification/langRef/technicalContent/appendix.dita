@@ -29,8 +29,7 @@
 &lt;appendix href="setup.dita"&gt;
  &lt;topicref href="prereq.dita"/&gt;
  &lt;topicref href="download.dita"/&gt;
-&lt;/appendix&gt; </codeblock></p><p>Appendix
-        that references a ditamap of
+&lt;/appendix&gt; </codeblock></p><p>Appendix that references a DITA map of
         content:<codeblock xml:space="preserve">&lt;appendix href="intro.ditamap" format="ditamap"/&gt;
 </codeblock></p></example>
   </refbody>

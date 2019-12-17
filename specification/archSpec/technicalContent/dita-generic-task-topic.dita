@@ -71,8 +71,9 @@
 					<colspec colname="col2"/>
 					<thead>
 						<row>
-							<entry valign="top">General taskbody </entry>
-							<entry valign="top">Strict taskbody constraint </entry>
+							<entry valign="top">General <xmlelement>taskbody</xmlelement>
+							</entry>
+							<entry valign="top">Strict <xmlelement>taskbody</xmlelement> constraint </entry>
 						</row>
 					</thead>
 					<tbody>
@@ -86,7 +87,7 @@
 						</row>
 						<row>
 							<entry>section (optional, in any order, any number) </entry>
-							<entry>(not defined for strict taskbody) </entry>
+							<entry>(not defined for strict <xmlelement>taskbody</xmlelement>) </entry>
 						</row>
 						<row>
 							<entry>steps </entry>
@@ -98,7 +99,7 @@
 						</row>
 						<row>
 							<entry>steps-informal </entry>
-							<entry>(not defined for strict taskbody) </entry>
+							<entry>(not defined for strict <xmlelement>taskbody</xmlelement>) </entry>
 						</row>
 						<row>
 							<entry>result (optional, one only, precedes example) </entry>
