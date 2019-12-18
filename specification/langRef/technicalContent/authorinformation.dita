@@ -8,14 +8,17 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>authorinformation</indexterm>
-        <indexterm>xNAL elements<indexterm>authorinformation</indexterm></indexterm>
+        <indexterm><xmlelement>authorinformation</xmlelement></indexterm>
+        <indexterm>xNAL
+          elements<indexterm><xmlelement>authorinformation</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>+ topic/author xnal-d/authorinformation</p></section>
+        ><title>Specialization hierarchy</title>
+      <p>The <xmlelement>authorinformation</xmlelement> element is specialized from
+          <xmlelement>author</xmlelement>. It is defined in the XNAL-domain module.</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
         conkeyref="conref-attribute/author-attributes"/></section>
     <example id="example" otherprops="examples"

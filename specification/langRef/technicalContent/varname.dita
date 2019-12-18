@@ -29,7 +29,7 @@
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>varname</xmlelement> element  is used to
         identify variables that represent the "installation directory," "project directory," and
-        "filename".</p>
+        "file name".</p>
       <codeblock>&lt;filepath&gt;
   &lt;varname&gt;install-dir&lt;/varname&gt;\projects\working\&lt;varname&gt;project-dir&lt;/varname&gt;
        \source\&lt;varname&gt;filename&lt;/varname&gt;.java

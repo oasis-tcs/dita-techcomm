@@ -27,17 +27,17 @@
       <title>Formatting expectations</title>
       <p>The <xmlelement>abbreviated-form</xmlelement> element is intended to reference a
           <xmlelement>glossentry</xmlelement> topic that contains both a term and an abbreviated
-        form of that term. The topic <ph>might</ph> also provide a surface form that differs from
-        the original term. The full term or surface form <ph>is</ph> rendered in introductory
-        contexts where the term might be unfamiliar to a reader or in other contexts where a precise
-        term is appropriate. In other contexts a <ph>processor substitutes</ph> the abbreviated form
-        of the term. Note that the definition of an introductory context will differ for every
-        deliverable format.</p>
-      <p>For instance, a process composing a book deliverable <ph>might</ph> emit the surface form
-        of a term on the first reference to the <xmlelement>glossentry</xmlelement> topic within the
-        book or for every reference within a copyright or a warranty-related warning. A process
-        generating an online page <ph>might</ph> emit the surface form as a hover tooltip on every
-        instance of the term.</p>
+        form of that term. The topic might also provide a surface form that differs from the
+        original term. The full term or surface form is rendered in introductory contexts where the
+        term might be unfamiliar to a reader or in other contexts where a precise term is
+        appropriate. In other contexts a processor substitutes the abbreviated form of the term.
+        Note that the definition of an introductory context will differ for every deliverable
+        format.</p>
+      <p>For instance, a process composing a book deliverable might emit the surface form of a term
+        on the first reference to the <xmlelement>glossentry</xmlelement> topic within the book or
+        for every reference within a copyright or a warranty-related warning. A process generating
+        an online page might emit the surface form as a hover tooltip on every instance of the
+        term.</p>
       <p><ph>The following rules</ph> determine how to render an
           <xmlelement>abbreviated-form</xmlelement> element. As described, the definition of
         "introductory context" will vary based on the rendered format and processor.<ol

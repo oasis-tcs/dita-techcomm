@@ -8,14 +8,17 @@
    <prolog>
       <metadata>
          <keywords>
-            <indexterm>xNAL elements<indexterm>administrativearea</indexterm></indexterm>
-            <indexterm>administrativearea</indexterm>
+            <indexterm>xNAL
+                  elements<indexterm><xmlelement>administrativearea</xmlelement></indexterm></indexterm>
+            <indexterm><xmlelement>administrativearea</xmlelement></indexterm>
          </keywords>
       </metadata>
    </prolog>
    <refbody>
       <section id="specialization-hierarchy"
-            ><title>Specialization hierarchy</title><p>+ topic/ph xnal-d/administrativearea</p></section>
+            ><title>Specialization hierarchy</title>
+         <p>The <xmlelement>administrativearea</xmlelement> element is specialized from
+               <xmlelement>topic</xmlelement>. It is defined in the XNAL domain module.</p></section>
       <section id="attributes"><title>Attributes</title>
          <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
       </section>

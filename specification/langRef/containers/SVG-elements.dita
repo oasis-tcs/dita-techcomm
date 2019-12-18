@@ -21,7 +21,7 @@
         namespace on the SVG <xmlelement>svg</xmlelement> element. SVG elements that are referenced
         using the <xmlelement>svgref</xmlelement> element do not need to have a namespace prefix,
         because they are parsed separately from the DITA documents that refer to them. By default,
-        the SVG domain is configured to use the namespace prefix "svg" for the SVG elements.</p>
+        the SVG domain is configured to use the namespace prefix <keyword>svg</keyword> for the SVG elements.</p>
     </section>
   </refbody>
   <related-links>

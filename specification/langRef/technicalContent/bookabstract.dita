@@ -8,21 +8,21 @@
  <prolog>
   <metadata>
    <keywords>
-    <indexterm>abstract<indexterm>Bookmap
-     elements<indexterm>abstract</indexterm></indexterm></indexterm>
-    <indexterm>Bookmap elements<indexterm>abstract</indexterm></indexterm>
-    <indexterm>abstract</indexterm>
+    <indexterm>Bookmap
+          elements<indexterm><xmlelement>bookabstract</xmlelement></indexterm></indexterm>
    </keywords>
   </metadata>
  </prolog>
  <refbody>
   <section id="usage-information">
    <title>Usage information</title>
-   <p>A bookabstract is generally output as part of the book's front matter. It is used to help the
-    reader quickly evaluate the book's purpose.</p>
+   <p>A book abstract is generally output as part of the book's front matter. It is used to help the
+        reader quickly evaluate the book's purpose.</p>
   </section>
   <section id="specialization-hierarchy"><title>Specialization
-    hierarchy</title><p>- map/topicref bookmap/bookabstract</p></section>
+    hierarchy</title>
+      <p>The <xmlelement>bookabstract</xmlelement> element is specialized from
+          <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
   <section id="attributes"><title>Attributes</title><sectiondiv
     conkeyref="conref-attribute/bookmap-topicrefs"/></section>
   <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref

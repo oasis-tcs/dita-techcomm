@@ -3,27 +3,24 @@
 <reference id="backmatter" xml:lang="en-us">
  <title><xmlelement>backmatter</xmlelement></title>
  <shortdesc>The <xmlelement>backmatter</xmlelement> element contains the material that follows the
-  main body of a document and any appendices.</shortdesc>
+  main body of a document and any appendices. Back matter might include items such as a colophon,
+  legal notices, and book lists such as a glossary or an index.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
-    <indexterm>Bookmap elements<indexterm>backmatter</indexterm></indexterm>
-    <indexterm>backmatter</indexterm>
+    <indexterm>Bookmap
+     elements<indexterm><xmlelement>backmatter</xmlelement></indexterm></indexterm>
+    <indexterm><xmlelement>backmatter</xmlelement></indexterm>
    </keywords>
   </metadata>
  </prolog>
  <refbody>
-  <section id="usage-information">
-   <title>Usage information</title>
-   <p>Backmatter <ph>might</ph> include items such as a colophon, legal notices, and various types
-    of book lists such as a glossary or an index.</p>
-  </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
-   <p>- map/topicref bookmap/backmatter</p>
+   <p>The <xmlelement>backmatter</xmlelement> element is specialized from
+     <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
   </section>
-  <section id="attributes"><title>Attributes</title><sectiondiv
-    conkeyref="conref-attribute/bookmap-frontbackmatter"/></section>
+  <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="conref-attribute/bookmap-frontbackmatter"/></section>
   <example id="example" otherprops="examples">
    <title>Example</title>
    <p>See the example in <xref href="bookmap.dita"/>.</p>

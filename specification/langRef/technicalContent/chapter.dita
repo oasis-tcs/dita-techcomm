@@ -32,7 +32,7 @@
  &lt;topicref href="prereq.dita"/&gt;
  &lt;topicref href="download.dita"/&gt;
 &lt;/chapter&gt; </codeblock></p>
-      <p>Chapter that references a ditamap of
+      <p>Chapter that references a DITA map of
         content:<codeblock xml:space="preserve">&lt;chapter href="intro.ditamap" format="ditamap"/&gt;
 </codeblock></p>
     </example>

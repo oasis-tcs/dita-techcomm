@@ -5,7 +5,7 @@
   <shortdesc>The DITA xNAL domain specialization defines a number of metadata
 	 elements and attributes that are useful in representing personal/organizational
 	 names and addresses. The metadata can be used to identify authors and content
-	 owners. The OASIS xNAL Standard (extensible Name and Address Langauge) was
+	 owners. The OASIS xNAL Standard (extensible Name and Address Language) was
 	 selected to represent close mappings from the DITA bookmap metadata content
 	 model to an existing standard. xNAL is included in the Bookmap and the
 	 LearningBookmap document types.</shortdesc> 
