@@ -8,8 +8,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>bibliolist</indexterm>
-        <indexterm>Bookmap elements<indexterm>bibliolist</indexterm></indexterm>
+        <indexterm>Bookmap
+          elements<indexterm><xmlelement>bibliolist</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -20,12 +20,13 @@
         wants a bibliography, containing links to related books, articles, published papers, or
         other types of material, generated at the particular location. If no <xmlatt>href</xmlatt>
         attribute is specified on the <xmlelement>bibliolist</xmlelement> element, an external
-        processor <ph>might</ph> generate a list of bibliographic entries at this location.</p>
+        processor might generate a list of bibliographic entries at this location.</p>
     </section>
     <section id="specialization-hierarchy"
-        ><title>Specialization hierarchy</title><p>- map/topicref bookmap/bibliolist</p></section>
-    <section id="attributes"><title>Attributes</title><sectiondiv
-        conkeyref="conref-attribute/bookmap-booklist-attributes"/></section>
+        ><title>Specialization hierarchy</title>
+      <p>The <xmlelement>bibliolist</xmlelement> element is specialized from
+          <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
+    <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="conref-attribute/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title><codeblock>&lt;bookmap>
   &lt;!-- ... -->
