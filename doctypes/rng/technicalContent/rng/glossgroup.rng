@@ -79,11 +79,11 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.x Glossary Group//EN"
                          (topic sw-d)
                          (topic ui-d)
                          (topic ut-d)
-                         a(props audience)
-                         a(props deliveryTarget)
-                         a(props platform)
-                         a(props product)
-                         a(props otherprops)"
+                         @props/audience
+                         @props/deliveryTarget
+                         @props/platform
+                         @props/product
+                         @props/otherprops"
         />
       </optional>
     </define>

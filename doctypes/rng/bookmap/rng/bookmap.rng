@@ -86,11 +86,11 @@ PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"
                          (topic ui-d)
                          (topic ut-d)
                          (topic xnal-d)
-                         a(props audience)
-                         a(props deliveryTarget)
-                         a(props platform)
-                         a(props product)
-                         a(props otherprops)"/>
+                         @props/audience
+                         @props/deliveryTarget
+                         @props/platform
+                         @props/product
+                         @props/otherprops"/>
          </optional>
       </define>
 

@@ -83,7 +83,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
                          (topic sw-d)
                          (topic ui-d)
                          (topic ut-d)
-                         a(props deliveryTarget)"/>
+                         @props/deliveryTarget"/>
          </optional>
       </define>
 
