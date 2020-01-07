@@ -73,7 +73,9 @@ All Rights Reserved.
     <div>
       <a:documentation>FULL NAME: MathML reference</a:documentation>
       <define name="mathmlref.content">
-        <empty/>
+        <optional>
+          <ref name="fallback"/>
+        </optional>
       </define>
       <define name="mathmlref.attributes">
         <optional>

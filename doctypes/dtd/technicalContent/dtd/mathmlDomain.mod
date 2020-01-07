@@ -31,7 +31,7 @@
 
 <!--                    LONG NAME: MathML reference                -->
 <!ENTITY % mathmlref.content
-                       "EMPTY"
+                       "(%fallback;)?"
 >
 <!ENTITY % mathmlref.attributes
               "href

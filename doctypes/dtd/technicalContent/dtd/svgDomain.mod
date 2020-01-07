@@ -38,7 +38,7 @@
 
 <!--                    LONG NAME: SVG element reference           -->
 <!ENTITY % svgref.content
-                       "EMPTY"
+                       "(%fallback;)?"
 >
 <!ENTITY % svgref.attributes
               "href

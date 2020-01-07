@@ -85,7 +85,9 @@ DITA SVG Domain
     <div>
       <a:documentation>LONG NAME: SVG referece</a:documentation>
       <define name="svgref.content">
-        <empty/>
+        <optional>
+          <ref name="fallback"/>
+        </optional>
       </define>
       <define name="svgref.attributes">
         <optional>
