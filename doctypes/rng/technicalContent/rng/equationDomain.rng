@@ -30,7 +30,6 @@ Copyright (c) OASIS Open 2014
         <rncMod>urn:oasis:names:tc:dita:rnc:equationDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:equationDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic equation-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

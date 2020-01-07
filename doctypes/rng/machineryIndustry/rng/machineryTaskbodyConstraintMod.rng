@@ -45,7 +45,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Machinery Taskbody Constraint//EN"
       <rncMod>urn:oasis:names:tc:dita:spec:machinery:rnc:machineryTaskbodyConstraintMod.rnc<var presep=":" name="ditaver"/></rncMod>
       <rngMod>urn:oasis:names:tc:dita:spec:machinery:rng:machineryTaskbodyConstraintMod.rng<var presep=":" name="ditaver"/></rngMod>
     </modulePublicIds>
-    <domainsContribution>(topic task+taskreq-d machineryTaskbody-c)</domainsContribution>
   </moduleMetadata>
 </moduleDesc>  
   

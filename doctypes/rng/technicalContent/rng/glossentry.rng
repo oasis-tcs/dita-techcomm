@@ -69,29 +69,14 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN"
   </div>
   <div>
       <a:documentation>DOMAINS ATTRIBUTE</a:documentation>
-      <define name="domains-att" combine="interleave">
+      <define name="specializations-att" combine="interleave">
          <optional>
-            <attribute name="domains"
-                       a:defaultValue="(topic abbrev-d)
-                         (topic concept glossentry)
-                         (topic concept)
-                         (topic equation-d)
-                         (topic hazard-d)
-                         (topic hi-d)
-                         (topic markup-d xml-d)
-                         (topic markup-d)
-                         (topic mathml-d)
-                         (topic pr-d)
-                         (topic relmgmt-d)
-                         (topic svg-d)
-                         (topic sw-d)
-                         (topic ui-d)
-                         (topic ut-d)
-                         a(props audience)
-                         a(props deliveryTarget)
-                         a(props platform)
-                         a(props product)
-                         a(props otherprops)"/>
+            <attribute name="specializations"
+                       a:defaultValue="@props/audience
+                         @props/deliveryTarget
+                         @props/platform
+                         @props/product
+                         @props/otherprops"/>
          </optional>
       </define>
   </div>

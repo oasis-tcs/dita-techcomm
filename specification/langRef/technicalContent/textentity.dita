@@ -36,10 +36,10 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>textentity</xmlelement> element is used to
-        tag the token that the highlighting domain contributes to the <xmlatt>domains</xmlatt>
-        attribute:</p>
-      <codeblock>The <b>&lt;textentity>hi-d-att&lt;/textentity></b> entity holds the contribution for the 
-&lt;xmlatt>domains&lt;/xmlatt> attribute.</codeblock>
+        tag the token that the <xmlatt>deliveryTarget</xmlatt> attribute domain contributes to the 
+        <xmlatt>specializations</xmlatt> attribute:</p>
+      <codeblock>The <b>&lt;textentity>deliveryTargetAtt-d-att&lt;/textentity></b> entity holds the contribution for the 
+&lt;xmlatt>specializations&lt;/xmlatt> attribute.</codeblock>
     </example>
   </refbody>
 </reference>

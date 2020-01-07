@@ -25,9 +25,6 @@
 <!-- ============================================================= -->
 <!--                                                               -->
 
-<!ENTITY taskbody-constraints
-  "(topic task strictTaskbody-c)"
->
 <!ENTITY % prereq                                          "prereq">
 <!ENTITY % context                                         "context">
 <!ENTITY % steps                                           "steps">

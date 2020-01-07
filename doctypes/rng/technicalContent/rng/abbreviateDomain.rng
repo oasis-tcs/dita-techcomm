@@ -42,7 +42,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:abbreviateDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:abbreviateDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic abbrev-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

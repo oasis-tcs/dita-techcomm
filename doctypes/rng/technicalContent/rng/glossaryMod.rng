@@ -59,7 +59,6 @@ Delivered as file "glossary.mod"
         <rncMod>urn:oasis:names:tc:dita:rnc:glossaryMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:glossaryMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic concept glossentry)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
     

@@ -91,7 +91,7 @@
 <!ELEMENT  glossentry %glossentry.content;>
 <!ATTLIST  glossentry %glossentry.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >

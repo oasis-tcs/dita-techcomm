@@ -44,7 +44,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Group//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:glossgroupMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:glossgroupMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic concept glossgroup)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>
@@ -98,7 +97,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Group//EN"
       <define name="glossgroup.attlist" combine="interleave">
         <ref name="glossgroup.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
   </div>

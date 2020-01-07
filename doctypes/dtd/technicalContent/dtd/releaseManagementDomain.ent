@@ -23,13 +23,5 @@
   "change-historylist"
 >
 
-<!-- ============================================================= -->
-<!--                    DOMAIN ENTITY DECLARATION                  -->
-<!-- ============================================================= -->
-
-<!ENTITY relmgmt-d-att
-  "(topic relmgmt-d)"
->
-
 <!-- ================ End DITA Release Management Domain ================== -->
  

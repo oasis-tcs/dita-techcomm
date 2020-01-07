@@ -116,7 +116,7 @@
 <!ELEMENT  task %task.content;>
 <!ATTLIST  task %task.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >

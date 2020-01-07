@@ -45,7 +45,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:referenceMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:referenceMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic reference)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>
@@ -148,7 +147,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
       <define name="reference.attlist" combine="interleave">
         <ref name="reference.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
 
     </div>

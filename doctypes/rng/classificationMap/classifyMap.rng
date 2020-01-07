@@ -66,24 +66,14 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
   </div>
   <div>
       <a:documentation>DOMAINS ATTRIBUTE</a:documentation>
-      <define name="domains-att" combine="interleave">
+      <define name="specializations-att" combine="interleave">
          <optional>
-            <attribute name="domains"
-                       a:defaultValue="(map classify-d)
-                         (topic abbrev-d)
-                         (map ditavalref-d)
-                         (map glossref-d)
-                         (topic hazard-d)
-                         (topic hi-d)
-                         (map mapgroup-d)
-                         (topic markup-d xml-d)
-                         (topic markup-d)
-                         (topic pr-d)
-                         (topic relmgmt-d)
-                         (topic sw-d)
-                         (topic ui-d)
-                         (topic ut-d)
-                         a(props deliveryTarget)"/>
+            <attribute name="specializations"
+               a:defaultValue="@props/audience
+               @props/deliveryTarget
+               @props/platform
+               @props/product
+               @props/otherprops"/>
          </optional>
       </define>
 

@@ -44,7 +44,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:softwareDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:softwareDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic sw-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

@@ -64,7 +64,7 @@
 <!ELEMENT  concept %concept.content;>
 <!ATTLIST  concept %concept.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >

@@ -44,7 +44,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:conceptMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:conceptMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic concept)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>
@@ -120,7 +119,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
       <define name="concept.attlist" combine="interleave">
         <ref name="concept.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
       <define name="idElements" combine="choice">
         <ref name="concept.element"/>

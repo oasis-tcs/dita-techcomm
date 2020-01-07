@@ -39,11 +39,6 @@
 <!--                MAP ENTITY DECLARATIONS                        -->
 <!-- ============================================================= -->
 
-<!ENTITY % bookmap-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 BookMap//EN"
-         "bookmap.ent"
->%bookmap-dec;
-
 <!-- ============================================================= -->
 <!--             DOMAIN CONSTRAINT INTEGRATION                     -->
 <!-- ============================================================= -->
@@ -223,25 +218,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY included-domains
-                          "&mapgroup-d-att;
-                           &bookmap-att;
-                           &abbrev-d-att;
-                           &audienceAtt-d-att;
+                          "&audienceAtt-d-att;
                            &deliveryTargetAtt-d-att;
                            &otherpropsAtt-d-att;
                            &platformAtt-d-att;
                            &productAtt-d-att;
-                           &ditavalref-d-att;
-                           &hazard-d-att;
-                           &hi-d-att;
-                           &markup-d-att;
-                           &pr-d-att;
-                           &relmgmt-d-att;
-                           &sw-d-att;
-                           &ui-d-att;
-                           &ut-d-att;
-                           &xnal-d-att;
-                           &xml-d-att;
   "
 >
 

@@ -28,7 +28,6 @@
         <rncMod>urn:oasis:names:tc:dita:rnc:xmlDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:xmlDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic markup-d xml-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

@@ -46,7 +46,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:bookmapMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:bookmapMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(map bookmap)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>
@@ -326,7 +325,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
       <define name="bookmap.attlist" combine="interleave">
         <ref name="bookmap.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
 
     </div>

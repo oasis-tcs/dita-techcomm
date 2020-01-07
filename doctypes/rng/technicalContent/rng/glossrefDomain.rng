@@ -42,7 +42,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:glossrefDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:glossrefDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(map glossref-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>
