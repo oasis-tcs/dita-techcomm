@@ -45,7 +45,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:taskMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:taskMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic task)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

@@ -46,7 +46,6 @@ All Rights Reserved.
         <rncMod>urn:oasis:names:tc:dita:rnc:mathmlDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:mathmlDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic mathml-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

@@ -35,13 +35,5 @@
   "closereqs"
 >
 
-<!-- ============================================================= -->
-<!--                    DOMAIN ENTITY DECLARATION                  -->
-<!-- ============================================================= -->
-
-<!ENTITY taskreq-d-att
-  "(topic task taskreq-d)"
->
-
 <!-- ================ End DITA Task Requirements Domain ================== -->
  

@@ -43,7 +43,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:uiDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:uiDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic ui-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

@@ -33,15 +33,6 @@
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
-<!--              TOPIC ENTITY DECLARATIONS                        -->
-<!-- ============================================================= -->
-
-<!ENTITY % task-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Task//EN"
-         "../../technicalContent/dtd/task.ent"
->%task-dec;
-
-<!-- ============================================================= -->
 <!--             DOMAIN CONSTRAINT INTEGRATION                     -->
 <!-- ============================================================= -->
 
@@ -172,19 +163,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY included-domains
-                          "&task-att;
-                           &audienceAtt-d-att;
+                          "&audienceAtt-d-att;
                            &deliveryTargetAtt-d-att;
                            &otherpropsAtt-d-att;
                            &platformAtt-d-att;
                            &productAtt-d-att;
-                           &hazard-d-att;
-                           &hi-d-att;
-                           &svg-d-att;
-                           &taskreq-d-att;
-                           &ui-d-att;
-                           &ut-d-att;
-                           &taskbody-constraints;
   "
 >
 

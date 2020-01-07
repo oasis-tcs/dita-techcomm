@@ -68,15 +68,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Machinery Task//EN"
       <define name="domains-att" combine="interleave">
          <optional>
             <attribute name="domains"
-                       a:defaultValue="(topic hazard-d)
-                         (topic hi-d)
-                         (topic svg-d)
-                         (topic task taskreq-d)
-                         (topic task)
-                         (topic task+taskreq-d machineryTaskbody-c)
-                         (topic ui-d)
-                         (topic ut-d)
-                         @props/audience
+                       a:defaultValue="@props/audience
                          @props/deliveryTarget
                          @props/platform
                          @props/product

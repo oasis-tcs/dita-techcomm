@@ -42,8 +42,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
         <rncMod>urn:oasis:names:tc:dita:rnc:troubleshootingMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:troubleshootingMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic troubleshooting++task)</domainsContribution> 
-      <domainsContribution>(topic task)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

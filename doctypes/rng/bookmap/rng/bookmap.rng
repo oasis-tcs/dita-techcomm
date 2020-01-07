@@ -72,21 +72,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"
       <define name="domains-att" combine="interleave">
          <optional>
             <attribute name="domains"
-                       a:defaultValue="(map bookmap)
-                         (topic abbrev-d)
-                         (map ditavalref-d)
-                         (topic hazard-d)
-                         (topic hi-d)
-                         (map mapgroup-d)
-                         (topic markup-d xml-d)
-                         (topic markup-d)
-                         (topic pr-d)
-                         (topic relmgmt-d)
-                         (topic sw-d)
-                         (topic ui-d)
-                         (topic ut-d)
-                         (topic xnal-d)
-                         @props/audience
+                       a:defaultValue="@props/audience
                          @props/deliveryTarget
                          @props/platform
                          @props/product

@@ -35,20 +35,6 @@
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
-<!--              TOPIC ENTITY DECLARATIONS                        -->
-<!-- ============================================================= -->
-
-<!ENTITY % task-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Task//EN"
-         "task.ent"
->%task-dec;
-
-<!ENTITY % troubleshooting-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Troubleshooting//EN"
-         "troubleshooting.ent"
->%troubleshooting-dec;
-
-<!-- ============================================================= -->
 <!--             DOMAIN CONSTRAINT INTEGRATION                     -->
 <!-- ============================================================= -->
 
@@ -237,27 +223,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY included-domains
-                          "&task-att;
-                           &troubleshooting-att;
-                           &abbrev-d-att;
-                           &audienceAtt-d-att;
+                          "&audienceAtt-d-att;
                            &deliveryTargetAtt-d-att;
                            &otherpropsAtt-d-att;
                            &platformAtt-d-att;
                            &productAtt-d-att;
-                           &equation-d-att;
-                           &hazard-d-att;
-                           &hi-d-att;
-                           &markup-d-att;
-                           &mathml-d-att;
-                           &pr-d-att;
-                           &relmgmt-d-att;
-                           &sw-d-att;
-                           &svg-d-att;
-                           &ui-d-att;
-                           &ut-d-att;
-                           &xml-d-att;
-                           &taskbody-constraints;
   "
 >
 

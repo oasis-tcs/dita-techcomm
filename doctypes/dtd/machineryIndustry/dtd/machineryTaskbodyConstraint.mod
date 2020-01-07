@@ -25,9 +25,6 @@
 <!-- ============================================================= -->
 <!--                                                               -->
 
-<!ENTITY taskbody-constraints
-  "(topic task+taskreq-d machineryTaskbody-c)"
->
 <!ENTITY % prelreqs                                        "prelreqs">
 <!ENTITY % context                                         "context">
 <!ENTITY % section                                         "section">
