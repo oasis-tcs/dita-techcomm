@@ -71,9 +71,9 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Map//EN"
   <div>
       <a:documentation>DITA DOMAINS ATTRIBUTE</a:documentation>
 
-      <define name="domains-att">
+      <define name="specializations-att">
          <optional>
-            <attribute name="domains"
+            <attribute name="specializations"
                        a:defaultValue="
                          @props/audience
                          @props/deliveryTarget

@@ -325,7 +325,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
       <define name="bookmap.attlist" combine="interleave">
         <ref name="bookmap.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
 
     </div>

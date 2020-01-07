@@ -58,7 +58,7 @@
 <!ELEMENT  glossgroup %glossgroup.content;>
 <!ATTLIST  glossgroup %glossgroup.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >

@@ -75,7 +75,7 @@
 <!ELEMENT  reference %reference.content;>
 <!ATTLIST  reference %reference.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >

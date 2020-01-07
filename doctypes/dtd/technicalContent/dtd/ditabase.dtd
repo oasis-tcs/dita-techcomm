@@ -369,7 +369,7 @@
 >%xml-d-def;
 
 <!ATTLIST dita
-              domains 
+              specializations 
                         CDATA                            
                                   "&included-domains;"
               %arch-atts;

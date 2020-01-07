@@ -159,7 +159,7 @@
 <!ELEMENT  bookmap %bookmap.content;>
 <!ATTLIST  bookmap %bookmap.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >

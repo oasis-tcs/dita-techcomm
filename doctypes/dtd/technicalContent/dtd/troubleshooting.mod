@@ -78,7 +78,7 @@
 <!ELEMENT  troubleshooting %troubleshooting.content;>
 <!ATTLIST  troubleshooting %troubleshooting.attributes;
                  %arch-atts;
-                 domains 
+                 specializations 
                         CDATA
                                   "&included-domains;"
 >
