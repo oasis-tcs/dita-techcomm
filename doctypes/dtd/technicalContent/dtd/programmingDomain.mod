@@ -125,7 +125,7 @@
 
 <!--                    LONG NAME: Literal code reference          -->
 <!ENTITY % coderef.content
-                       "EMPTY"
+                       "(%fallback;)?"
 >
 <!ENTITY % coderef.attributes
               "href
