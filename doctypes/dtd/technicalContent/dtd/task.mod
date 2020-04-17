@@ -322,7 +322,8 @@
 
 <!--                    LONG NAME: Choice Table                    -->
 <!ENTITY % choicetable.content
-                       "((%chhead;)?,
+                       "((%title;)?,
+                         (%chhead;)?,
                          (%chrow;)+)"
 >
 <!ENTITY % choicetable.attributes
@@ -362,6 +363,16 @@
               "specentry
                           CDATA
                                     #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  choptionhd %choptionhd.content;>
@@ -375,6 +386,16 @@
 <!ENTITY % chdeschd.attributes
               "specentry
                           CDATA
+                                    #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
                                     #IMPLIED
                %univ-atts;"
 >
@@ -402,6 +423,16 @@
               "specentry
                           CDATA
                                     #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  choption %choption.content;>
@@ -415,6 +446,16 @@
 <!ENTITY % chdesc.attributes
               "specentry
                           CDATA
+                                    #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
                                     #IMPLIED
                %univ-atts;"
 >
