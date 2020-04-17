@@ -143,7 +143,8 @@
 
 <!--                    LONG NAME: Properties                      -->
 <!ENTITY % properties.content
-                       "((%prophead;)?,
+                       "((%title;)?,
+                         (%prophead;)?,
                          (%property;)+)"
 >
 <!ENTITY % properties.attributes
@@ -184,6 +185,16 @@
               "specentry
                           CDATA
                                     #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  proptypehd %proptypehd.content;>
@@ -198,6 +209,16 @@
               "specentry
                           CDATA
                                     #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  propvaluehd %propvaluehd.content;>
@@ -211,6 +232,16 @@
 <!ENTITY % propdeschd.attributes
               "specentry
                           CDATA
+                                    #IMPLIED
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
                                     #IMPLIED
                %univ-atts;"
 >
@@ -239,6 +270,19 @@
               "specentry
                           CDATA
                                     #IMPLIED
+               rowspan
+                          NMTOKEN
+                                    #IMPLIED                     
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  proptype %proptype.content;>
@@ -253,6 +297,19 @@
               "specentry
                           CDATA
                                     #IMPLIED
+               rowspan
+                          NMTOKEN
+                                    #IMPLIED                     
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
+                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  propvalue %propvalue.content;>
@@ -266,6 +323,19 @@
 <!ENTITY % propdesc.attributes
               "specentry
                           CDATA
+                                    #IMPLIED
+               rowspan
+                          NMTOKEN
+                                    #IMPLIED                     
+               scope
+                          (row |
+                           col |
+                           rowgroup |
+                           colgroup |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               headers
+                          NMTOKENS
                                     #IMPLIED
                %univ-atts;"
 >
