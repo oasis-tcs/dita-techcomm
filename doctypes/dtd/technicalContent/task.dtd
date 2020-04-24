@@ -9,10 +9,10 @@
 <!-- Source: [[[Source link]]]                                -->
 <!--                                                               -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Troubleshooting Shell                        -->
+<!--  MODULE:    DITA Task Shell                                   -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
-<!--  PURPOSE:   DTD to describe DITA troubleshooting tasks        -->
+<!--  PURPOSE:   DTD to describe DITA Tasks                        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -22,13 +22,14 @@
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier:                          -->
 <!--                                                               -->
-<!-- PUBLIC "-//OASIS//DTD DITA 2.x Troubleshooting//EN"           -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.x Task//EN"                      -->
 <!-- The public ID above refers to the latest version of this DTD. -->
 <!--      To refer to this specific version, use this value: -->
 <!--                                                               -->
-<!-- PUBLIC "-//OASIS//DTD DITA 2.0 Troubleshooting//EN"           -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.0 Task//EN"                           -->
 <!-- ============================================================= -->
-<!--             (C) Copyright OASIS Open 2014                     -->
+<!--             (C) Copyright OASIS Open 2005, 2014.              -->
+<!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
@@ -54,12 +55,12 @@
 
 <!ENTITY % hazard-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.ent"
+         "../base/hazardstatementDomain.ent"
 >%hazard-d-dec;
 
 <!ENTITY % hi-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.ent"
+         "../base/highlightDomain.ent"
 >%hi-d-dec;
 
 <!ENTITY % markup-d-dec
@@ -99,7 +100,7 @@
 
 <!ENTITY % ut-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.ent"
+         "../base/utilitiesDomain.ent"
 >%ut-d-dec;
 
 <!ENTITY % xml-d-dec
@@ -214,9 +215,6 @@
 <!ENTITY % task-info-types
               "task"
 >
-<!ENTITY % troubleshooting-info-types
-              "task"
->
 
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -246,18 +244,13 @@
 
 <!ENTITY % topic-type
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Topic//EN"
-         "../../base/dtd/topic.mod"
+         "../base/topic.mod"
 >%topic-type;
 
 <!ENTITY % task-type
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
          "task.mod"
 >%task-type;
-
-<!ENTITY % troubleshooting-type
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
-         "troubleshooting.mod"
->%troubleshooting-type;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
@@ -275,12 +268,12 @@
 
 <!ENTITY % hazard-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.mod"
+         "../base/hazardstatementDomain.mod"
 >%hazard-d-def;
 
 <!ENTITY % hi-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.mod"
+         "../base/highlightDomain.mod"
 >%hi-d-def;
 
 <!ENTITY % markup-d-def
@@ -320,7 +313,7 @@
 
 <!ENTITY % ut-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.mod"
+         "../base/utilitiesDomain.mod"
 >%ut-d-def;
 
 <!ENTITY % xml-d-def
@@ -328,4 +321,4 @@
          "xmlDomain.mod"
 >%xml-d-def;
 
-<!-- ================= End of DITA Troubleshooting Shell ================= -->
+<!-- ================= End of DITA Task Shell ================= -->

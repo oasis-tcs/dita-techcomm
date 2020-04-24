@@ -9,10 +9,10 @@
 <!-- Source: [[[Source link]]]                                -->
 <!--                                                               -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Glossary Entry Shell                         -->
+<!--  MODULE:    DITA Concept Shell                                -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                        -->
-<!--  PURPOSE:   Document type to describe DITA Glossary Entry topics        -->
+<!--  PURPOSE:   DTD to describe DITA Concepts                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -22,12 +22,13 @@
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
 <!--                                                               -->
-<!-- PUBLIC "-//OASIS//DTD DITA 2.x Glossary Entry//EN"            -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN"                   -->
 <!-- The public ID above refers to the latest version of this DTD. -->
 <!--      To refer to this specific version, use this value: -->
-<!-- PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN"                       -->
+<!-- PUBLIC "-//OASIS//DTD DITA 2.0 Concept//EN"                        -->
 <!-- ============================================================= -->
-<!--             (C) Copyright OASIS Open 2006, 2014.              -->
+<!--             (C) Copyright OASIS Open 2005, 2014.              -->
+<!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
@@ -42,6 +43,11 @@
 <!--             DOMAIN ENTITY DECLARATIONS                        -->
 <!-- ============================================================= -->
 
+<!ENTITY % abbrev-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Abbreviated Form Domain//EN"
+         "abbreviateDomain.ent"
+>%abbrev-d-dec;
+
 <!ENTITY % equation-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Equation Domain//EN"
          "equationDomain.ent"
@@ -49,18 +55,13 @@
 
 <!ENTITY % hazard-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.ent"
+         "../base/hazardstatementDomain.ent"
 >%hazard-d-dec;
 
 <!ENTITY % hi-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.ent"
+         "../base/highlightDomain.ent"
 >%hi-d-dec;
-
-<!ENTITY % abbrev-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Abbreviated Form Domain//EN"
-         "abbreviateDomain.ent"
->%abbrev-d-dec;
 
 <!ENTITY % markup-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Markup Domain//EN"
@@ -99,7 +100,7 @@
 
 <!ENTITY % ut-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.ent"
+         "../base/utilitiesDomain.ent"
 >%ut-d-dec;
 
 <!ENTITY % xml-d-dec
@@ -211,8 +212,8 @@
 <!--                    TOPIC NESTING OVERRIDE                     -->
 <!-- ============================================================= -->
 
-<!ENTITY % glossentry-info-types
-              "no-topic-nesting"
+<!ENTITY % concept-info-types
+              "concept"
 >
 
 <!-- ============================================================= -->
@@ -238,7 +239,7 @@
 
 <!ENTITY % topic-type
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Topic//EN"
-         "../../base/dtd/topic.mod"
+         "../base/topic.mod"
 >%topic-type;
 
 <!ENTITY % concept-type
@@ -246,14 +247,14 @@
          "concept.mod"
 >%concept-type;
 
-<!ENTITY % glossentry-type
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
-         "glossentry.mod"
->%glossentry-type;
-
 <!-- ============================================================= -->
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
 <!-- ============================================================= -->
+
+<!ENTITY % abbrev-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
+         "abbreviateDomain.mod"
+>%abbrev-d-def;
 
 <!ENTITY % equation-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Equation Domain//EN"
@@ -262,18 +263,13 @@
 
 <!ENTITY % hazard-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.mod"
+         "../base/hazardstatementDomain.mod"
 >%hazard-d-def;
 
 <!ENTITY % hi-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.mod"
+         "../base/highlightDomain.mod"
 >%hi-d-def;
-
-<!ENTITY % abbrev-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
-         "abbreviateDomain.mod"
->%abbrev-d-def;
 
 <!ENTITY % markup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Markup Domain//EN"
@@ -312,7 +308,7 @@
 
 <!ENTITY % ut-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.mod"
+         "../base/utilitiesDomain.mod"
 >%ut-d-def;
 
 <!ENTITY % xml-d-def
@@ -320,4 +316,4 @@
          "xmlDomain.mod"
 >%xml-d-def;
 
-<!-- ================= End of DITA Glossary Entry Shell ================= -->
+<!-- ================= End of DITA Concept Shell ================= -->
