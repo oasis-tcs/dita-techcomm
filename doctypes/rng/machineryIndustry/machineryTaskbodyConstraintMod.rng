@@ -48,7 +48,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Machinery Taskbody Constraint//EN"
   </moduleMetadata>
 </moduleDesc>  
   
-  <include href="../../technicalContent/rng/taskMod.rng">
+  <include href="../technicalContent/taskMod.rng">
     <a:documentation>Use prelreqs in place of prereqs,
     use closereqs in place of postreq.</a:documentation>
     <define name="taskbody.content">

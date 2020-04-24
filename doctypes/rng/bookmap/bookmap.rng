@@ -88,7 +88,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"
      <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
      <include href="bookmapMod.rng"/>
-     <include href="../../technicalContent/rng/abbreviateDomain.rng"/>
+     <include href="../technicalContentabbreviateDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
@@ -97,14 +97,14 @@ PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"
      <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-     <include href="../../technicalContent/rng/markupDomain.rng" dita:since="1.3"/>
-     <include href="../../technicalContent/rng/programmingDomain.rng"/>
-     <include href="../../technicalContent/rng/releaseManagementDomain.rng" dita:since="1.3"/>
-     <include href="../../technicalContent/rng/softwareDomain.rng"/>
-     <include href="../../technicalContent/rng/uiDomain.rng"/>
+     <include href="../technicalContentmarkupDomain.rng" dita:since="1.3"/>
+     <include href="../technicalContentprogrammingDomain.rng"/>
+     <include href="../technicalContentreleaseManagementDomain.rng" dita:since="1.3"/>
+     <include href="../technicalContentsoftwareDomain.rng"/>
+     <include href="../technicalContentuiDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
-     <include href="../../xnal/rng/xnalDomain.rng"/>
-     <include href="../../technicalContent/rng/xmlDomain.rng" dita:since="1.3"/>
+     <include href="../xnalxnalDomain.rng"/>
+     <include href="../technicalContentxmlDomain.rng" dita:since="1.3"/>
   </div>
   <div>
       <a:documentation>ID-DEFINING-ELEMENT OVERRIDES</a:documentation>

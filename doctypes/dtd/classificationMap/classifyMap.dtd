@@ -43,7 +43,7 @@
 
 <!ENTITY % mapgroup-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Map Group Domain//EN"
-         "../../base/dtd/mapGroup.ent"
+         "../base/mapGroup.ent"
 >%mapgroup-d-dec;
 
 <!ENTITY % classify-d-dec
@@ -53,62 +53,62 @@
 
 <!ENTITY % abbrev-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Abbreviated Form Domain//EN"
-         "../../technicalContent/dtd/abbreviateDomain.ent"
+         "../technicalContent/abbreviateDomain.ent"
 >%abbrev-d-dec;
 
 <!ENTITY % ditavalref-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 DITAVAL Ref Domain//EN"
-         "../../base/dtd/ditavalrefDomain.ent"
+         "../base/ditavalrefDomain.ent"
 >%ditavalref-d-dec;
 
 <!ENTITY % glossref-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Glossary Reference Domain//EN"
-         "../../technicalContent/dtd/glossrefDomain.ent"
+         "../technicalContent/glossrefDomain.ent"
 >%glossref-d-dec;
 
 <!ENTITY % hazard-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.ent"
+         "../base/hazardstatementDomain.ent"
 >%hazard-d-dec;
 
 <!ENTITY % hi-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.ent"
+         "../base/highlightDomain.ent"
 >%hi-d-dec;
 
 <!ENTITY % markup-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Markup Domain//EN"
-         "../../technicalContent/dtd/markupDomain.ent"
+         "../technicalContent/markupDomain.ent"
 >%markup-d-dec;
 
 <!ENTITY % pr-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Programming Domain//EN"
-         "../../technicalContent/dtd/programmingDomain.ent"
+         "../technicalContent/programmingDomain.ent"
 >%pr-d-dec;
 
 <!ENTITY % relmgmt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Release Management Domain//EN"
-         "../../technicalContent/dtd/releaseManagementDomain.ent"
+         "../technicalContent/releaseManagementDomain.ent"
 >%relmgmt-d-dec;
 
 <!ENTITY % sw-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Software Domain//EN"
-         "../../technicalContent/dtd/softwareDomain.ent"
+         "../technicalContent/softwareDomain.ent"
 >%sw-d-dec;
 
 <!ENTITY % ui-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 User Interface Domain//EN"
-         "../../technicalContent/dtd/uiDomain.ent"
+         "../technicalContent/uiDomain.ent"
 >%ui-d-dec;
 
 <!ENTITY % ut-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.ent"
+         "../base/utilitiesDomain.ent"
 >%ut-d-dec;
 
 <!ENTITY % xml-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 XML Domain//EN"
-         "../../technicalContent/dtd/xmlDomain.ent"
+         "../technicalContent/xmlDomain.ent"
 >%xml-d-dec;
 
 <!-- ============================================================= -->
@@ -233,7 +233,7 @@
 
 <!ENTITY % map-type
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Map//EN"
-         "../../base/dtd/map.mod"
+         "../base/map.mod"
 >%map-type;
 
 <!-- ============================================================= -->
@@ -242,7 +242,7 @@
 
 <!ENTITY % mapgroup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Map Group Domain//EN"
-         "../../base/dtd/mapGroup.mod"
+         "../base/mapGroup.mod"
 >%mapgroup-d-def;
 
 <!ENTITY % classify-d-def
@@ -252,62 +252,62 @@
 
 <!ENTITY % abbrev-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
-         "../../technicalContent/dtd/abbreviateDomain.mod"
+         "../technicalContent/abbreviateDomain.mod"
 >%abbrev-d-def;
 
 <!ENTITY % ditavalref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 DITAVAL Ref Domain//EN"
-         "../../base/dtd/ditavalrefDomain.mod"
+         "../base/ditavalrefDomain.mod"
 >%ditavalref-d-def;
 
 <!ENTITY % glossref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN"
-         "../../technicalContent/dtd/glossrefDomain.mod"
+         "../technicalContent/glossrefDomain.mod"
 >%glossref-d-def;
 
 <!ENTITY % hazard-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.mod"
+         "../base/hazardstatementDomain.mod"
 >%hazard-d-def;
 
 <!ENTITY % hi-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.mod"
+         "../base/highlightDomain.mod"
 >%hi-d-def;
 
 <!ENTITY % markup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Markup Domain//EN"
-         "../../technicalContent/dtd/markupDomain.mod"
+         "../technicalContent/markupDomain.mod"
 >%markup-d-def;
 
 <!ENTITY % pr-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Programming Domain//EN"
-         "../../technicalContent/dtd/programmingDomain.mod"
+         "../technicalContent/programmingDomain.mod"
 >%pr-d-def;
 
 <!ENTITY % relmgmt-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Release Management Domain//EN"
-         "../../technicalContent/dtd/releaseManagementDomain.mod"
+         "../technicalContent/releaseManagementDomain.mod"
 >%relmgmt-d-def;
 
 <!ENTITY % sw-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
-         "../../technicalContent/dtd/softwareDomain.mod"
+         "../technicalContent/softwareDomain.mod"
 >%sw-d-def;
 
 <!ENTITY % ui-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"
-         "../../technicalContent/dtd/uiDomain.mod"
+         "../technicalContent/uiDomain.mod"
 >%ui-d-def;
 
 <!ENTITY % ut-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.mod"
+         "../base/utilitiesDomain.mod"
 >%ut-d-def;
 
 <!ENTITY % xml-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 XML Domain//EN"
-         "../../technicalContent/dtd/xmlDomain.mod"
+         "../technicalContent/xmlDomain.mod"
 >%xml-d-def;
 
 <!-- ================= End of DITA Classification Map Shell ================= -->

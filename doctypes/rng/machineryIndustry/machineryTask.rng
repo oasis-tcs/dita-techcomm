@@ -99,9 +99,9 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Machinery Task//EN"
       <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-      <include href="../../technicalContent/rng/svgDomain.rng" dita:since="1.3"/>
-      <include href="../../technicalContent/rng/taskreqDomain.rng"/>
-      <include href="../../technicalContent/rng/uiDomain.rng"/>
+      <include href="../technicalContent/svgDomain.rng" dita:since="1.3"/>
+      <include href="../technicalContent/taskreqDomain.rng"/>
+      <include href="../technicalContent/uiDomain.rng"/>
       <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
   </div>
   <div>

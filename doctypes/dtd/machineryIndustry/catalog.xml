@@ -2,11 +2,11 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
    <!--DITA Machinery Task Shell and constraint-->
    <public publicId="-//OASIS//DTD DITA 2.0 Machinery Task//EN"
-           uri="dtd/machineryTask.dtd"/>
+           uri="machineryTask.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Machinery Task//EN"
-           uri="dtd/machineryTask.dtd"/>
+           uri="machineryTask.dtd"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Machinery Taskbody Constraint//EN"
-           uri="dtd/machineryTaskbodyConstraint.mod"/>
+           uri="machineryTaskbodyConstraint.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Machinery Taskbody Constraint//EN"
-           uri="dtd/machineryTaskbodyConstraint.mod"/>
+           uri="machineryTaskbodyConstraint.mod"/>
 </catalog>
