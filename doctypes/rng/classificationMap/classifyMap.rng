@@ -84,24 +84,24 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
      <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
   
      <include href="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:2.0"/>
-      <include href="../technicalContent/rng/abbreviateDomain.rng"/>
+      <include href="../technicalContent/abbreviateDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
-      <include href="../technicalContent/rng/glossrefDomain.rng"/>
+      <include href="../technicalContent/glossrefDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
-      <include href="../technicalContent/rng/markupDomain.rng" dita:since="1.3"/>
-      <include href="../technicalContent/rng/programmingDomain.rng"/>
-      <include href="../technicalContent/rng/releaseManagementDomain.rng"
+      <include href="../technicalContent/markupDomain.rng" dita:since="1.3"/>
+      <include href="../technicalContent/programmingDomain.rng"/>
+      <include href="../technicalContent/releaseManagementDomain.rng"
                dita:since="1.3"/>
-      <include href="../technicalContent/rng/softwareDomain.rng"/>
-      <include href="../technicalContent/rng/uiDomain.rng"/>
+      <include href="../technicalContent/softwareDomain.rng"/>
+      <include href="../technicalContent/uiDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
-      <include href="../technicalContent/rng/xmlDomain.rng" dita:since="1.3"/>    </div>
+      <include href="../technicalContent/xmlDomain.rng" dita:since="1.3"/>    </div>
   <div>
       <a:documentation>ID-DEFINING-ELEMENT OVERRIDES</a:documentation>
       <define name="any">
