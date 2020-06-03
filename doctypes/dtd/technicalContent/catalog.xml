@@ -16,10 +16,6 @@
            uri="concept.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Concept//EN"
            uri="concept.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Concept//EN"
-           uri="concept.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Concept//EN"
-           uri="concept.ent"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Composite//EN" uri="ditabase.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Composite//EN" uri="ditabase.dtd"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Equation Domain//EN"
@@ -52,10 +48,6 @@
            uri="glossentry.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Glossary Entry//EN"
            uri="glossentry.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Glossary Entry//EN"
-           uri="glossentry.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Glossary Entry//EN"
-           uri="glossentry.ent"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Glossary Group//EN"
            uri="glossgroup.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Glossary Group//EN"
@@ -64,10 +56,6 @@
            uri="glossgroup.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Glossary Group//EN"
            uri="glossgroup.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Glossary Group//EN"
-           uri="glossgroup.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Glossary Group//EN"
-           uri="glossgroup.ent"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN"
            uri="glossrefDomain.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Glossary Reference Domain//EN"
@@ -108,10 +96,6 @@
            uri="reference.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Reference//EN"
            uri="reference.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Reference//EN"
-           uri="reference.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Reference//EN"
-           uri="reference.ent"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Release Management Domain//EN"
            uri="releaseManagementDomain.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Release Management Domain//EN"
@@ -144,8 +128,6 @@
    <public publicId="-//OASIS//DTD DITA 2.x Task//EN" uri="task.dtd"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Task//EN" uri="task.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Task//EN" uri="task.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Task//EN" uri="task.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Task//EN" uri="task.ent"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Task Requirements Domain//EN"
            uri="taskreqDomain.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Task Requirements Domain//EN"
@@ -164,10 +146,6 @@
            uri="troubleshooting.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Troubleshooting//EN"
            uri="troubleshooting.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Troubleshooting//EN"
-           uri="troubleshooting.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Troubleshooting//EN"
-           uri="troubleshooting.ent"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"
            uri="uiDomain.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x User Interface Domain//EN"
