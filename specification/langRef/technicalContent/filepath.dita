@@ -21,7 +21,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>filepath</xmlelement> element is specialized from
           <xmlelement>ph</xmlelement>. It is defined in the software domain module.</p>
-      <!--<p>+ topic/ph sw-d/filepath</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

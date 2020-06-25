@@ -19,7 +19,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>varname</xmlelement> element is specialized from
           <xmlelement>keyword</xmlelement>. It is defined in the software domain module.</p>
-      <!--<p>+ topic/keyword sw-d/varname</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

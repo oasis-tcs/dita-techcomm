@@ -31,7 +31,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>msgblock</xmlelement> element is specialized from
           <xmlelement>pre</xmlelement>. It is defined in the software domain module.</p>
-      <!--<p>+ topic/pre sw-d/msgblock</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
