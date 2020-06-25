@@ -29,7 +29,8 @@
       </section>    
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph equation-d/equation-inline</p>
+      <p>The <xmlelement>equation-inline</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>. It is defined in the equation-domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

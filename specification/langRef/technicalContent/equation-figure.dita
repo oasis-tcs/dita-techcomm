@@ -46,7 +46,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/fig equation-d/equation-figure</p>
+      <p>The <xmlelement>equation-figure</xmlelement> element is specialized from
+          <xmlelement>fig</xmlelement>. It is defined in the equation-domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
