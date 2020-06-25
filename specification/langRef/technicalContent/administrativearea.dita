@@ -18,7 +18,7 @@
       <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title>
          <p>The <xmlelement>administrativearea</xmlelement> element is specialized from
-               <xmlelement>topic</xmlelement>. It is defined in the XNAL domain module.</p></section>
+               <xmlelement>ph</xmlelement>. It is defined in the XNAL domain module.</p></section>
       <section id="attributes"><title>Attributes</title>
          <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
       </section>

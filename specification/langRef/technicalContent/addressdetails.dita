@@ -17,9 +17,7 @@
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>addressdetails</xmlelement> is specialized from
-        <xmlelement>ph</xmlelement>. It is defined in the XNAL domain.</p>
-      <p>The value of the <xmlatt>class</xmlatt> attribute is <keyword>+ topic/ph
-          xnal-d/addressdetails </keyword>.</p></section>
+        <xmlelement>ph</xmlelement>. It is defined in the XNAL domain.</p></section>
     <section id="attributes"><title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="attributes-universal"/> and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
