@@ -16,7 +16,9 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/metadata relmgmt-d/change-request-reference</p>
+      <p>The <xmlelement>change-request-reference</xmlelement> is specialized from
+          <xmlelement>metadata</xmlelement>. It is defined in the release management domain
+        module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
