@@ -18,7 +18,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-item</xmlelement> is specialized from <xmlelement>data</xmlelement>.
         It is defined in the release management domain module.</p>
-      <p>- topic/data relmgmt-d/change-item</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
