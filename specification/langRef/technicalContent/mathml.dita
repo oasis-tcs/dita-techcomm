@@ -26,7 +26,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/foreign mathml-d/mathml</p>
+      <p>The <xmlelement>mathml</xmlelement> element is specialized from
+          <xmlelement>foreign</xmlelement>. It is defined in the mathml-domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
