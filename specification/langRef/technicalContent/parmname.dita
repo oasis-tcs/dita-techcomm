@@ -21,7 +21,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>parmname</xmlelement> is specialized from <xmlelement>keyword</xmlelement>.
         It is defined in the programming domain module.</p>
-      <!--<p>+ topic/keyword pr-d/parmname</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

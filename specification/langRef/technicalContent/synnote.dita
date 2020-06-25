@@ -31,7 +31,6 @@ page.</p>
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synnote</xmlelement> is specialized from <xmlelement>fn</xmlelement>. It is
 defined in the programming domain module.</p>
-<!--<p>+ topic/fn pr-d/synnote</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

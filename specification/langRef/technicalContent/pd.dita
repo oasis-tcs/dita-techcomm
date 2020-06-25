@@ -20,7 +20,6 @@
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>pd</xmlelement> is specialized from <xmlelement>dd</xmlelement>. It is defined in
 the programming domain module.</p>
-<!--<p>+ topic/dd pr-d/pd</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

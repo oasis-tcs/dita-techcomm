@@ -24,7 +24,6 @@
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synnoteref</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It is
 defined in the programming domain module.</p>
-<!--<p>+ topic/xref pr-d/synnoteref</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -20,7 +20,6 @@ list entry.</shortdesc>
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>pt</xmlelement> is specialized from <xmlelement>dt</xmlelement>. It is defined in
 the programming domain module.</p>
-<!--<p>+ topic/dt pr-d/pt</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

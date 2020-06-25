@@ -23,7 +23,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>oper</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
         defined in the programming domain module.</p>
-      <!--<p>+ topic/ph pr-d/oper</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

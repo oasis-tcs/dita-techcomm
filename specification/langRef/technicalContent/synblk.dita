@@ -19,7 +19,6 @@
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synblk</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>. It is
 defined in the programming domain module.</p>
-<!--<p>+ topic/figgroup pr-d/synblk</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

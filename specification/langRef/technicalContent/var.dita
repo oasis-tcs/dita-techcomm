@@ -19,7 +19,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>var</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
         defined in the programming domain module.</p>
-      <!--<p>+ topic/ph pr-d/var</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

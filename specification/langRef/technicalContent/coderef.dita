@@ -28,7 +28,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>coderef</xmlelement> is specialized from <xmlelement>include</xmlelement>. It
         is defined in the programming domain module.</p>
-      <!--<p>+ topic/include pr-d/coderef</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
