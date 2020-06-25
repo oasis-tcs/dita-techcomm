@@ -50,7 +50,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>mathmlref</xmlelement> element is specialized from
-          <xmlelement>include</xmlelement>. It is defined in the mathml-domain module.</p>
+          <xmlelement>include</xmlelement>. It is defined in the MathML domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

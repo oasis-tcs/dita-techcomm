@@ -38,7 +38,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>equation-number</xmlelement> element is specialized from
-          <xmlelement>ph</xmlelement>. It is defined in the equation-domain module.</p>
+          <xmlelement>ph</xmlelement>. It is defined in the equation domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

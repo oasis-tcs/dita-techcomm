@@ -33,7 +33,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>equation-block</xmlelement> element is specialized from
-          <xmlelement>div</xmlelement>. It is defined in the equation-domain module.</p>
+          <xmlelement>div</xmlelement>. It is defined in the equation domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
