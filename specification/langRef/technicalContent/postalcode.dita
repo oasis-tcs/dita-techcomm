@@ -17,7 +17,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>postalcode</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the XNAL domain module.</p>
+          <xmlelement>ph</xmlelement>. It is defined in the XNAL domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
