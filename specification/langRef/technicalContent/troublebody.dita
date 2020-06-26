@@ -20,7 +20,8 @@
   </section>
   <section id="inheritance">
    <title>Inheritance</title>
-   <p>- topic/body troubleshooting/troublebody </p>
+   <p>The <xmlelement>troublebody</xmlelement> element is specialized from
+     <xmlelement>body</xmlelement>; it is defined in the troubleshooting module.</p>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
