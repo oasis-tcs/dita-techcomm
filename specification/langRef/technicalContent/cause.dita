@@ -21,7 +21,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/section troubleshooting/cause</p>
+      <p>The <xmlelement>cause</xmlelement> element is specialized from
+          <xmlelement>section</xmlelement>; it is defined in the troubleshooting module.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

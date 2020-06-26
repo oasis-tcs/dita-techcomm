@@ -20,7 +20,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/p troubleshooting/responsibleParty</p>
+      <p>The <xmlelement>responsibleParty</xmlelement> element is specialized from
+          <xmlelement>p</xmlelement>; it is defined in the troubleshooting module.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

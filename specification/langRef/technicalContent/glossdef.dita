@@ -18,7 +18,8 @@ each sense.</shortdesc>
 <refbody>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/abstract concept/abstract glossentry/glossdef</p>
+         <p>The <xmlelement>glossdef</xmlelement> element is specialized from
+               <xmlelement>abstract</xmlelement>; it is defined in the glossary entry module.</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>

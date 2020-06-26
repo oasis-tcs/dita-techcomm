@@ -29,7 +29,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/section concept/section glossentry/glossAlt</p>
+      <p>The <xmlelement>glossAlt</xmlelement> element is specialized from
+          <xmlelement>section</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -17,7 +17,8 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicmeta bookmap/bookmeta</p>
+      <p>The <xmlelement>bookmeta</xmlelement> element is specialized from
+          <xmlelement>topicmeta</xmlelement>; it is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

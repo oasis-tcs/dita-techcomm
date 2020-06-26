@@ -22,7 +22,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/publisher bookmap/publisherinformation</p>
+      <p>The <xmlelement>publisherinformation</xmlelement> element is specialized from
+          <xmlelement>publisher</xmlelement>; it is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

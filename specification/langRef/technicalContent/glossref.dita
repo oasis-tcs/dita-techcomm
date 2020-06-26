@@ -23,7 +23,9 @@ and expanded versions of that acronym.</shortdesc>
       refer to the term American Bureau of Shipping.</section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ map/topicref glossref-d/glossref</p>
+      <p>The <xmlelement>glossref</xmlelement> element is specialized from
+          <xmlelement>topicref</xmlelement>. It is defined in the glossary reference domain
+        module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -30,7 +30,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/bodydiv concept/conbodydiv</p>
+      <p>The <xmlelement>conbodydiv</xmlelement> element is specialized from
+          <xmlelement>bodydiv</xmlelement>; it is defined in the concept module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

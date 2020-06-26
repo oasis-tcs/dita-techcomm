@@ -23,7 +23,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/bodydiv troubleshooting/troubleSolution</p>
+      <p>The <xmlelement>troubleSolution</xmlelement> element is specialized from
+          <xmlelement>bodydiv</xmlelement>; it is defined in the troubleshooting module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

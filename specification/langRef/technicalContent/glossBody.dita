@@ -22,7 +22,10 @@ glossary term (such as part of speech or additional forms of the term).</shortde
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/body concept/conbody glossentry/glossBody</p>
+         <p>The <xmlelement>glossBody</xmlelement> element is specialized from
+               <xmlelement>conbody</xmlelement>; it is defined in the glossary entry module. The
+               <xmlelement>conbody</xmlelement> element is specialized from
+               <xmlelement>body</xmlelement>; it is defined in the concept module.</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>

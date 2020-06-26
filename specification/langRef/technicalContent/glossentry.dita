@@ -28,7 +28,10 @@
       definition on hover or click.</section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic concept/concept glossentry/glossentry</p>
+      <p>The <xmlelement>glossentry</xmlelement> element is specialized from
+          <xmlelement>concept</xmlelement>; it is defined in the glossary entry module. The
+          <xmlelement>concept</xmlelement> element is specialized from
+          <xmlelement>topic</xmlelement>; it is defined in the concept module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

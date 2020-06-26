@@ -18,7 +18,8 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/note concept/note glossentry/glossUsage</p>
+      <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
+          <xmlelement>note</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
