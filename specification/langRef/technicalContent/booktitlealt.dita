@@ -17,12 +17,12 @@
     <section id="usage-information">
       <title>Usage information</title>
       <draft-comment author="BobThomas">I would like to delete this advice on specialization.</draft-comment>
-      <p>Booktitlealt <ph>can</ph> be specialized into a specific element for those or other
-        purposes.</p>
+      <p>Booktitlealt can be specialized into a specific element for those or other purposes.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/ph bookmap/booktitlealt</p>
+      <p>The <xmlelement>booktitlealt</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>; it is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -22,7 +22,9 @@
                <xmlelement>approved</xmlelement>, <ph>use that element instead.</ph></p>
       </section>
       <section id="specialization-hierarchy"
-            ><title>Specialization hierarchy</title><p>- topic/data bookmap/bookevent</p></section>
+            ><title>Specialization hierarchy</title>
+         <p>The <xmlelement>bookevent</xmlelement> element is specialized from
+               <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p></section>
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
       </section>

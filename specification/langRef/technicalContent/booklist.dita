@@ -28,7 +28,9 @@
                     instead.</ph></p>
         </section>
         <section id="specialization-hierarchy"
-                ><title>Specialization hierarchy</title><p>- map/topicref bookmap/booklist</p></section>
+                ><title>Specialization hierarchy</title>
+            <p>The <xmlelement>booklist</xmlelement> element is specialized from
+                    <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p></section>
         <section id="attributes"><title>Attributes</title><sectiondiv
                 conkeyref="conref-attribute/bookmap-booklist-attributes"/></section>
         <example id="example" otherprops="examples"><title>Example</title><p>In this case the

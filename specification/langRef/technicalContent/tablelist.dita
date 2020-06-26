@@ -23,7 +23,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- map/topicref bookmap/tablelist</p>
+      <p>The <xmlelement>tablelist</xmlelement> element is specialized from
+          <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
