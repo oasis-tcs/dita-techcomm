@@ -26,7 +26,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/data concept/data glossentry/glossPartOfSpeech</p>
+      <p>The <xmlelement>glossPartOfSpeech</xmlelement> element is specialized from
+          <xmlelement>data</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

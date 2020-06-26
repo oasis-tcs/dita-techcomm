@@ -18,7 +18,8 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/title concept/title glossentry/glossAbbreviation</p>
+      <p>The <xmlelement>glossAbbreviation</xmlelement> element is specialized from
+          <xmlelement>title</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

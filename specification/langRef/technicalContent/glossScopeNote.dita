@@ -24,7 +24,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/note concept/note glossentry/glossScopeNote</p>
+      <p>The <xmlelement>glossScopeNote</xmlelement> element is specialized from
+          <xmlelement>note</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

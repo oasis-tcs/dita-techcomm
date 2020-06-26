@@ -14,7 +14,8 @@
 <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/image concept/image glossentry/glossSymbol</p>
+      <p>The <xmlelement>glossSymbol</xmlelement> element is specialized from
+          <xmlelement>image</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

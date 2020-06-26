@@ -20,7 +20,8 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>- topic/title concept/title glossentry/glossSynonym</p>
+         <p>The <xmlelement>glossSynonym</xmlelement> element is specialized from
+               <xmlelement>title</xmlelement>; it is defined in the glossary entry module.</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>

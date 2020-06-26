@@ -79,7 +79,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/term abbrev-d/abbreviated-form</p>
+      <p>The <xmlelement>abbreviated-form</xmlelement> element is specialized from
+          <xmlelement>term</xmlelement>. It is defined in the abbreviated-form domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

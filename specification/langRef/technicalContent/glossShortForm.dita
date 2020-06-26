@@ -21,7 +21,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/title concept/title glossentry/glossShortForm</p>
+      <p>The <xmlelement>glossShortForm</xmlelement> element is specialized from
+          <xmlelement>title</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

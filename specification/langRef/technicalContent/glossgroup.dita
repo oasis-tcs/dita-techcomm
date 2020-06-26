@@ -17,7 +17,10 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/topic concept/concept glossgroup/glossgroup</p>
+      <p>The <xmlelement>glossgroup</xmlelement> element is specialized from
+          <xmlelement>concept</xmlelement>; it is defined in the glossary group module. The
+          <xmlelement>concept</xmlelement> element is specialized from
+          <xmlelement>topic</xmlelement>; it is defined in the concept module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
