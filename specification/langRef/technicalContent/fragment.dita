@@ -24,7 +24,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>fragment</xmlelement> element is specialized from
           <xmlelement>figgroup</xmlelement>. It is defined in the programming domain module.</p>
-      <!--<p>+ topic/figgroup pr-d/fragment</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

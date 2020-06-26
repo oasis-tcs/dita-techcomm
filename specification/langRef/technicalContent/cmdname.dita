@@ -20,7 +20,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>cmdname</xmlelement> element is specialized from
           <xmlelement>keyword</xmlelement>. It is defined in the software domain module.</p>
-      <!--<p>+ topic/keyword sw-d/cmdname</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

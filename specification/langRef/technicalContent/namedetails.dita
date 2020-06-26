@@ -16,7 +16,8 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/data xnal-d/namedetails</p>
+      <p>The <xmlelement>namedetails</xmlelement> element is specialized from
+          <xmlelement>data</xmlelement>. It is defined in the XNAL domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

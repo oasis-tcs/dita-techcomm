@@ -21,7 +21,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph xnal-d/locality</p>
+      <p>The <xmlelement>locality</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>. It is defined in the XNAL domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

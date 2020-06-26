@@ -20,7 +20,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>syntaxdiagram</xmlelement> is specialized from
         <xmlelement>fig</xmlelement>. It is defined in the programming domain module.</p>
-      <!--<p>+ topic/fig pr-d/syntaxdiagram</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

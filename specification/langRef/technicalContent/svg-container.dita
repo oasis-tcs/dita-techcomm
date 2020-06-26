@@ -23,7 +23,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/foreign svg-d/svg-container</p>
+      <p>The <xmlelement>svg-container</xmlelement> is specialized from
+          <xmlelement>foreign</xmlelement>. It is defined in the SVG domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -22,7 +22,9 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/metadata relmgmt-d/change-historylist</p>
+      <p>The <xmlelement>change-historylist</xmlelement> is specialized from
+          <xmlelement>metadata</xmlelement>. It is defined in the release management domain
+        module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

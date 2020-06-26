@@ -18,7 +18,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>codeph</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
         defined in the programming domain module.</p>
-      <!--<p>+ topic/ph pr-d/codeph</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

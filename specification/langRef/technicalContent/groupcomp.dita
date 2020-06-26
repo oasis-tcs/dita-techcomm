@@ -27,7 +27,6 @@ separated by a horizontal or vertical line, which is the usual formatting method
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>groupcomp</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>. It
 is defined in the programming domain module.</p>
-<!--<p>+ topic/figgroup pr-d/groupcomp</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

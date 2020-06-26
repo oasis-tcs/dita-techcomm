@@ -23,7 +23,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>screen</xmlelement> element is specialized from
           <xmlelement>pre</xmlelement>. It is defined in the user-interface domain module.</p>
-      <!--<p>+ topic/pre ui-d/screen</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

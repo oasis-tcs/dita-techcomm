@@ -45,7 +45,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/include svg-d/svgref</p>
+      <p>The <xmlelement>svgref</xmlelement> is specialized from <xmlelement>include</xmlelement>.
+        It is defined in the SVG domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -24,7 +24,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>delim</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
         defined in the programming domain module.</p>
-      <!--<p>+ topic/ph pr-d/delim</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

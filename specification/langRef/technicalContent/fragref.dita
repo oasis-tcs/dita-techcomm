@@ -20,7 +20,6 @@
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>fragref</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It is
 defined in the programming domain module.</p>
-<!--<p>+ topic/xref pr-d/fragref</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

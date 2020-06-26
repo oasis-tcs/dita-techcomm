@@ -29,7 +29,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>uicontrol</xmlelement> element is specialized from
           <xmlelement>ph</xmlelement>. It is defined in the user-interface domain module.</p>
-      <!--<p>+ topic/ph ui-d/uicontrol</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>

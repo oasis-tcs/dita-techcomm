@@ -17,7 +17,8 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>+ topic/ph xnal-d/thoroughfare</p>
+      <p>The <xmlelement>thoroughfare</xmlelement> element is specialized from
+          <xmlelement>ph</xmlelement>. It is defined in the XNAL domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

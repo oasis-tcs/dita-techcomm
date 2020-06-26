@@ -21,7 +21,6 @@
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>plentry</xmlelement> is specialized from <xmlelement>dlentry</xmlelement>. It is
 defined in the programming domain module.</p>
-<!--<p>+ topic/dlentry pr-d/plentry</p>-->
 </section>
     <section id="attributes">
       <title>Attributes</title>

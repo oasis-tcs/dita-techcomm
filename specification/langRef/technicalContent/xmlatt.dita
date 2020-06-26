@@ -26,7 +26,6 @@
           <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
           <xmlelement>markupname</xmlelement> element is specialized from
           <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
-      <!--<p>+ topic/keyword markup-d/markupname xml-d/xmlatt</p>-->
     </section>
     <section id="attributes">
       <title>Attributes</title>
