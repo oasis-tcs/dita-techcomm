@@ -25,7 +25,8 @@
         sections and examples.</p></section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>- topic/body concept/conbody</p></section>
+      <p>The <xmlelement>conbody</xmlelement> element is specialized from
+          <xmlelement>body</xmlelement>; it is defined in the concept module.</p></section>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="conref-attribute/topic-body"/>
