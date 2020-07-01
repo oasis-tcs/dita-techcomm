@@ -65,8 +65,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
     <define name="conbodydiv">
       <ref name="conbodydiv.element"/>
     </define>
-
   </div>
+  
+  <div>
+    <a:documentation>COMMON CONTENT MODEL PATTERNS</a:documentation>
+    <!-- Matching body.cnt but remove example -->
+    <define name="conbody.cnt">
+      <choice>
+        <ref name="basic.block.noexample"/>
+        <ref name="data.elements.incl"/>
+        <ref name="draft-comment"/>
+        <ref name="foreign.unknown.incl"/>
+        <ref name="required-cleanup"/>
+     </choice>
+    </define>
+  </div>
+  
   <div>
     <a:documentation>ELEMENT TYPE DECLARATIONS</a:documentation>
 
@@ -129,7 +143,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
       <a:documentation> LONG NAME: Concept Body </a:documentation>
       <define name="conbody.content">
         <zeroOrMore>
-          <ref name="body.cnt"/>
+          <ref name="conbody.cnt"/>
         </zeroOrMore>
         <zeroOrMore>
           <choice>

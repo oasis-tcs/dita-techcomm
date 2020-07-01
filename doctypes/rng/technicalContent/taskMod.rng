@@ -170,6 +170,21 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <ref name="info-types"/>
     </define>
   </div>
+  
+  <div>
+    <a:documentation>COMMON CONTENT MODEL PATTERNS</a:documentation>
+    <!-- Match itemgroup.cnt but exclude example -->
+    <define name="stepxmp.cnt">
+      <choice>
+        <text/>
+        <ref name="basic.block.noexample"/>
+        <ref name="basic.ph"/>
+        <ref name="data.elements.incl"/>
+        <ref name="foreign.unknown.incl"/>
+        <ref name="txt.incl"/>
+      </choice>
+    </define>
+  </div>
   <div>
     <a:documentation>ELEMENT TYPE DECLARATIONS</a:documentation>
 
@@ -585,7 +600,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <a:documentation> LONG NAME: Step Example </a:documentation>
       <define name="stepxmp.content">
         <zeroOrMore>
-          <ref name="itemgroup.cnt"/>
+          <ref name="stepxmp.cnt"/>
         </zeroOrMore>
       </define>
       <define name="stepxmp.attributes">
