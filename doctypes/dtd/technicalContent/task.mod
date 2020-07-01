@@ -285,9 +285,20 @@
 <!ATTLIST  tutorialinfo %tutorialinfo.attributes;>
 
 
+<!-- Match itemgroup.cnt from base, but exclude example element    -->
+<!ENTITY % stepxmp.cnt
+              "#PCDATA |
+               %basic.block.noexample; |
+               %basic.ph; |
+               %data.elements.incl; |
+               %foreign.unknown.incl; |
+               %txt.incl;"
+>
+
+
 <!--                    LONG NAME: Step Example                    -->
 <!ENTITY % stepxmp.content
-                       "(%itemgroup.cnt;)*"
+                       "(%stepxmp.cnt;)*"
 >
 <!ENTITY % stepxmp.attributes
               "%univ-atts;"

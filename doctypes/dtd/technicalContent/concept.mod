@@ -36,6 +36,16 @@
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
+<!-- Based on body.cnt, but swaps
+     basic.block ==> basic.block.noexample-->
+<!ENTITY % conbody.cnt
+              "%basic.block.noexample; |
+               %data.elements.incl; |
+               %draft-comment; |
+               %foreign.unknown.incl; |
+               %required-cleanup;"
+>
+
 <!ENTITY % concept-info-types
               "%info-types;"
 >
@@ -72,7 +82,7 @@
 
 <!--                    LONG NAME: Concept Body                    -->
 <!ENTITY % conbody.content
-                       "((%body.cnt;)*,
+                       "((%conbody.cnt;)*,
                          (%section; |
                           %example; |
                           %conbodydiv;)*)"
