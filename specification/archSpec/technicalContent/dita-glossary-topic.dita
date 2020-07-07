@@ -109,6 +109,5 @@
           href="http://www.oasis-open.org/committees/download.php/29734/AcronymBestPractice_08112008.doc"
           scope="external"/></p>
     </section>
-    <!--<section><title>Modules</title><p>The following DITA modules are provided for the glossary entry topic. <note>The glossary.dtd, glossary.ent, and glossary.mod are deprecated versions of the files glossentry.dtd., glossentry.ent, and glossentry.mod. The deprecated files are included in DITA 1.2 to provide backward compatibility with DITA 1.0 and 1.1.</note></p><sl><sli><filepath>glossentry.dtd</filepath>, <filepath>glossentry.ent</filepath>, <filepath>glossentry.mod</filepath> (DTD)</sli><sli><filepath>glossentryMod.xsd</filepath>, <filepath>glossentryGrp.xsd</filepath> (Schema)</sli><sli rev="DITA1.3 proposal-13112"><filepath>glossentry.rng</filepath>, <filepath>glossentryMod.rng</filepath> (RELAX NG XML syntax)</sli><sli rev="DITA1.3 proposal-13112"><filepath>glossentry.rnc</filepath>, <foreign>glossentryMod.rnc</foreign> (RELAX NG compact syntax)</sli></sl></section>-->
   </conbody>
 </concept>

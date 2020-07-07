@@ -30,16 +30,6 @@
            uri="generalTask.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x General Task//EN"
            uri="generalTask.dtd"/>
-   <public publicId="-//OASIS//DTD DITA 2.0 Glossary//EN" uri="glossary.dtd"/>
-   <public publicId="-//OASIS//DTD DITA 2.x Glossary//EN" uri="glossary.dtd"/>
-   <public publicId="-//OASIS//ELEMENTS DITA 2.0 Glossary//EN"
-           uri="glossary.mod"/>
-   <public publicId="-//OASIS//ELEMENTS DITA 2.x Glossary//EN"
-           uri="glossary.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Glossary//EN"
-           uri="glossary.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Glossary//EN"
-           uri="glossary.ent"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Glossary Entry//EN"
            uri="glossentry.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Glossary Entry//EN"
