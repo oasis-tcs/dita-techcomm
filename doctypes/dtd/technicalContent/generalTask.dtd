@@ -159,9 +159,6 @@
                          %pr-d-fig; |
                          %equation-d-fig;
                         ">
-<!ENTITY % div          "div |
-                         %ut-d-div;
-                        ">
 <!ENTITY % data         "data |
                          %ut-d-data;
                         ">
@@ -191,7 +188,8 @@
                          %mathml-d-foreign;
                         ">
 <!ENTITY % div          "div |
-                         %equation-d-div;
+                         %equation-d-div; |
+                         %ut-d-div;
                         ">
 
 <!-- ============================================================= -->
