@@ -88,6 +88,10 @@
               uri="svgDomain.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:svgDomain.rng:2.x"
               uri="svgDomain.rng"/>
+      <system systemId="urn:oasis:names:tc:dita:rng:syntaxdiagramDomain.rng:2.0"
+              uri="syntaxdiagramDomain.rng"/>
+      <system systemId="urn:oasis:names:tc:dita:rng:syntaxdiagramDomain.rng:2.x"
+              uri="syntaxdiagramDomain.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:task.rng:2.0" uri="task.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:task.rng:2.x" uri="task.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:taskMod.rng:2.0"
@@ -206,6 +210,10 @@
            uri="svgDomain.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:svgDomain.rng:2.x"
            uri="svgDomain.rng"/>
+      <uri name="urn:oasis:names:tc:dita:rng:syntaxdiagramDomain.rng:2.0"
+           uri="syntaxdiagramDomain.rng"/>
+      <uri name="urn:oasis:names:tc:dita:rng:syntaxdiagramDomain.rng:2.x"
+           uri="syntaxdiagramDomain.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:task.rng:2.0" uri="task.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:task.rng:2.x" uri="task.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:taskMod.rng:2.0"

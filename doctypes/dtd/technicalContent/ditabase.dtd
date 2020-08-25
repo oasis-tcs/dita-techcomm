@@ -94,6 +94,11 @@
          "svgDomain.ent"
 >%svg-d-dec;
 
+<!ENTITY % syntaxdiagram-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Syntax Diagram Domain//EN"
+         "syntaxdiagramDomain.ent"
+>%syntaxdiagram-d-dec;
+
 <!ENTITY % ui-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 User Interface Domain//EN"
          "uiDomain.ent"
@@ -152,11 +157,12 @@
                          %hi-d-ph; |
                          %pr-d-ph; |
                          %sw-d-ph; |
+                         %syntaxdiagram-d-ph; |
                          %ui-d-ph; |
                          %equation-d-ph;
                         ">
 <!ENTITY % fig          "fig |
-                         %pr-d-fig; |
+                         %syntaxdiagram-d-fig; |
                          %equation-d-fig;
                         ">
 <!ENTITY % data         "data |
@@ -350,6 +356,12 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 SVG Domain//EN"
          "svgDomain.mod"
 >%svg-d-def;
+
+<!-- Syntax diagram requires programming, so must be declared after that domain. -->
+<!ENTITY % syntaxdiagram-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Syntax Diagram Domain//EN"
+         "syntaxdiagramDomain.mod"
+>%syntaxdiagram-d-def;
 
 <!ENTITY % ui-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"

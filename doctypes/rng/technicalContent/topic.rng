@@ -100,6 +100,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Topic//EN"
     <include href="releaseManagementDomain.rng" dita:since="1.3"/>
     <include href="softwareDomain.rng"/>
     <include href="svgDomain.rng" dita:since="1.3"/>
+    <include href="syntaxdiagramDomain.rng" dita:since="2.0"/>
     <include href="uiDomain.rng"/>
     <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
     <include href="xmlDomain.rng" dita:since="1.3"/>

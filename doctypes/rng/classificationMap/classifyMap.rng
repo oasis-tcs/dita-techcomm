@@ -99,6 +99,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
       <include href="../technicalContent/releaseManagementDomain.rng"
                dita:since="1.3"/>
       <include href="../technicalContent/softwareDomain.rng"/>
+      <include href="../technicalContent/syntaxdiagramDomain.rng" dita:since="2.0"/>
       <include href="../technicalContent/uiDomain.rng"/>
      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
       <include href="../technicalContent/xmlDomain.rng" dita:since="1.3"/>    </div>

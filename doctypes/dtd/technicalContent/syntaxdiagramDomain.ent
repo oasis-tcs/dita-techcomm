@@ -2,11 +2,11 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Programming Domain                           -->
+<!--  MODULE:    DITA Syntax Diagram Domain                        -->
 <!--  VERSION:   2.0                                               -->
 <!--  DATE:      [[[Release date]]]                                     -->
 <!--  PURPOSE:   Declaring the elements and specialization         -->
-<!--             attributes for the Programming Domain             -->
+<!--             attributes for the Syntax Diagram Domain          -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -15,10 +15,10 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Programming Domain//EN"       -->
-<!--       Delivered as file "programmingDomain.mod"                    -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Syntax Diagram Domain//EN" -->
+<!--       Delivered as file "syntaxdiagramDomain.mod"             -->
 <!-- ============================================================= -->
-<!--             (C) Copyright OASIS Open 2005, 2009.              -->
+<!--             (C) Copyright OASIS Open 2005, 2020.              -->
 <!--             (C) Copyright IBM Corporation 2001, 2004.         -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
@@ -29,20 +29,12 @@
 <!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
 <!-- ============================================================= -->
 
-<!ENTITY % pr-d-ph
-  "codeph"
+<!ENTITY % syntaxdiagram-d-ph
+  "synph"
 >
-<!ENTITY % pr-d-pre
-  "codeblock"
->
-<!ENTITY % pr-d-keyword
-  "apiname |
-   option |
-   parmname"
->
-<!ENTITY % pr-d-dl
-  "parml"
+<!ENTITY % syntaxdiagram-d-fig
+  "syntaxdiagram"
 >
 
-<!-- ================ End DITA Programming Domain ================== -->
+<!-- ================ End DITA Syntax Diagram Domain ============= -->
  

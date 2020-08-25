@@ -98,6 +98,11 @@
          "softwareDomain.ent"
 >%sw-d-dec;
 
+<!ENTITY % syntaxdiagram-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Syntax Diagram Domain//EN"
+         "syntaxdiagramDomain.ent"
+>%syntaxdiagram-d-dec;
+
 <!ENTITY % ui-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 User Interface Domain//EN"
          "uiDomain.ent"
@@ -161,10 +166,11 @@
                          %hi-d-ph; |
                          %pr-d-ph; |
                          %sw-d-ph; |
+                         %syntaxdiagram-d-ph; |
                          %ui-d-ph;
                         ">
 <!ENTITY % fig          "fig |
-                         %pr-d-fig;
+                         %syntaxdiagram-d-fig;
                         ">
 <!ENTITY % div          "div |
                          %ut-d-div;
@@ -288,6 +294,12 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
          "softwareDomain.mod"
 >%sw-d-def;
+
+<!-- Syntax diagram requires programming, so must be declared after that domain. -->
+<!ENTITY % syntaxdiagram-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Syntax Diagram Domain//EN"
+         "syntaxdiagramDomain.mod"
+>%syntaxdiagram-d-def;
 
 <!ENTITY % ui-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"

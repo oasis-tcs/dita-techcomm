@@ -114,6 +114,14 @@
            uri="svgDomain.ent"/>
    <public publicId="-//OASIS//ENTITIES DITA 2.x SVG Domain//EN"
            uri="svgDomain.ent"/>
+   <public publicId="-//OASIS//ELEMENTS DITA 2.0 Syntax Diagram Domain//EN"
+           uri="syntaxdiagramDomain.mod"/>
+   <public publicId="-//OASIS//ELEMENTS DITA 2.x Syntax Diagram Domain//EN"
+           uri="syntaxdiagramDomain.mod"/>
+   <public publicId="-//OASIS//ENTITIES DITA 2.0 Syntax Diagram Domain//EN"
+           uri="syntaxdiagramDomain.ent"/>
+   <public publicId="-//OASIS//ENTITIES DITA 2.x Syntax Diagram Domain//EN"
+           uri="syntaxdiagramDomain.ent"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Task//EN" uri="task.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Task//EN" uri="task.dtd"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Task//EN" uri="task.mod"/>
