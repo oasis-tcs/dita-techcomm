@@ -8,8 +8,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>synblk</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>synblk</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>blocks</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -18,7 +18,8 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synblk</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>. It is
-defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>

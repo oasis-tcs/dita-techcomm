@@ -8,8 +8,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-                domain<indexterm><xmlelement>groupcomp</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>groupcomp</xmlelement></indexterm></indexterm>
         <indexterm>formatting
           expectations<indexterm><xmlelement>groupcomp</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>group composites</indexterm></indexterm>
@@ -25,8 +25,9 @@ separated by a horizontal or vertical line, which is the usual formatting method
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>groupcomp</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>. It
-is defined in the programming domain module.</p>
+<p>The <xmlelement>groupcomp</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>.  It
+        is defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>

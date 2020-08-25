@@ -7,7 +7,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>programming
+        <indexterm>syntax diagram
           domain<indexterm><xmlelement>delim</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>delimiters</indexterm></indexterm>
         <indexterm>syntax phrases<indexterm>delimiters</indexterm></indexterm>
@@ -23,7 +23,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>delim</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

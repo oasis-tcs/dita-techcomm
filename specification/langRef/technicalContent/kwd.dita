@@ -7,7 +7,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>programming domain<indexterm><xmlelement>kwd</xmlelement></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>kwd</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>keywords</indexterm></indexterm>
         <indexterm>syntax phrases<indexterm>keywords</indexterm></indexterm>
       </keywords>
@@ -22,7 +23,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>kwd</xmlelement> is specialized from <xmlelement>keyword</xmlelement>. It
-        is defined in the programming domain module.</p>
+        is defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

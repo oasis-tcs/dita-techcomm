@@ -2,13 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="synph" xml:lang="en-us">
   <title><xmlelement>synph</xmlelement></title>
-  <shortdesc>The <xmlelement>synph</xmlelement> element identifies a syntax
-    phrase.<!-- (syntax phrase) element is a container for syntax definition elements.--></shortdesc>
+  <shortdesc>The <xmlelement>synph</xmlelement> element identifies a syntax phrase.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>programming<indexterm>syntax phrases</indexterm></indexterm>
-        <indexterm>programming
+        <indexterm>syntax diagram
           domain<indexterm><xmlelement>synph</xmlelement></indexterm></indexterm>
         <indexterm>syntax phrases</indexterm>
       </keywords>
@@ -25,7 +24,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>synph</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

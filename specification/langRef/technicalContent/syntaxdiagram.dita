@@ -9,8 +9,8 @@
       <keywords>
         <indexterm>programming<indexterm>syntax
           diagrams<indexterm>overview</indexterm></indexterm></indexterm>
-        <indexterm>programming
-          domain<indexterm><xmlelement>syntaxdiagram</xmlelement></indexterm></indexterm>
+        <indexterm>syntax diagram
+            domain<indexterm><xmlelement>syntaxdiagram</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>overview</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -19,7 +19,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>syntaxdiagram</xmlelement> is specialized from
-        <xmlelement>fig</xmlelement>. It is defined in the programming domain module.</p>
+        <xmlelement>fig</xmlelement>. It is defined in the syntax diagram domain module, which is a
+        specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
