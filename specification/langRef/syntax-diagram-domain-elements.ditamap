@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Syntax diagram domain elements</title>
+ <topicref href="containers/syntaxdiagram-d.dita">
+  <topicref href="technicalContent/synph.dita" keys="synph"/>
+  <topicref href="technicalContent/syntaxdiagram.dita" keys="syntaxdiagram"/>
+  <topicref href="technicalContent/groupseq.dita" keys="groupseq"/>
+  <topicref href="technicalContent/groupchoice.dita" keys="groupchoice"/>
+  <topicref href="technicalContent/groupcomp.dita" keys="groupcomp"/>
+  <topicref href="technicalContent/fragment.dita" keys="fragment"/>
+  <topicref href="technicalContent/fragref.dita" keys="fragref"/>
+  <topicref href="technicalContent/synblk.dita" keys="synblk"/>
+  <topicref href="technicalContent/synnote.dita" keys="synnote"/>
+  <topicref href="technicalContent/synnoteref.dita" keys="synnoteref"/>
+  <topicref href="technicalContent/kwd.dita" keys="kwd"/>
+  <topicref href="technicalContent/var.dita" keys="var"/>
+  <topicref href="technicalContent/oper.dita" keys="oper"/>
+  <topicref href="technicalContent/delim.dita" keys="delim"/>
+  <topicref href="technicalContent/sep.dita" keys="sep"/>
+  <topicref href="technicalContent/repsep.dita" keys="repsep"/>
+ </topicref>
+</map>

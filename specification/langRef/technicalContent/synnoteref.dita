@@ -9,8 +9,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-                domain<indexterm><xmlelement>synnoteref</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>synnoteref</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>note references</indexterm></indexterm>
       </keywords>
     </metadata>
@@ -23,7 +23,8 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synnoteref</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It is
-defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>

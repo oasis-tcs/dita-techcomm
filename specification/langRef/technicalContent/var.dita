@@ -7,7 +7,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>programming domain<indexterm><xmlelement>var</xmlelement></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>var</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>variables</indexterm></indexterm>
         <indexterm>syntax phrases<indexterm>variables</indexterm></indexterm>
         <indexterm>variables<indexterm>syntax definitions</indexterm></indexterm>
@@ -18,7 +19,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>var</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

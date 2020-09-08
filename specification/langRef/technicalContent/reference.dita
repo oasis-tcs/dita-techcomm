@@ -41,7 +41,7 @@
   &lt;title&gt;A reference topic&lt;/title&gt;
   &lt;refbody&gt;
     &lt;refsyn&gt;Describe command or api syntax here, possibly
-using synph or syntax elements markup for explicit 
+using syntax phrases or syntax diagrams for explicit 
 definition of syntax or prototype construction.&lt;/refsyn&gt;
     &lt;section&gt;&lt;title&gt;Some section title&lt;/title&gt;&lt;/section&gt;
     &lt;properties&gt;

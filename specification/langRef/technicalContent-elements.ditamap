@@ -22,6 +22,8 @@
    <mapref href="software-domain-elements.ditamap" format="ditamap"/>
    <!--SVG domain-->
    <mapref href="svg-domain-elements.ditamap"/>
+   <!--Syntax diagram and syntax phrase elements -->
+   <mapref href="syntax-diagram-domain-elements.ditamap"/>
    <!--Task requirements domain-->
    <!--<topicref href="containers/mitask-d.dita">
     <topicref href="technicalContent/prelreqs.dita" keys="prelreqs" navtitle="prelreqs"/>

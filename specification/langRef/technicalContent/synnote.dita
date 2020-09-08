@@ -8,8 +8,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>synnote</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>synnote</xmlelement></indexterm></indexterm>
         <indexterm>formatting
           expectations<indexterm><xmlelement>synnote</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>notes</indexterm></indexterm>
@@ -30,7 +30,8 @@ page.</p>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synnote</xmlelement> is specialized from <xmlelement>fn</xmlelement>. It is
-defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -8,7 +8,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>programming
+        <indexterm>syntax diagram
           domain<indexterm><xmlelement>groupseq</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>group sequences</indexterm></indexterm>
       </keywords>
@@ -25,7 +25,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>groupseq</xmlelement> element is specialized from
-          <xmlelement>figgroup</xmlelement>. It is defined in the programming domain module.</p>
+          <xmlelement>figgroup</xmlelement>. It is defined in the syntax diagram domain module,
+        which is a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

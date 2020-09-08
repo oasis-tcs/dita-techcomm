@@ -32,7 +32,7 @@
   &lt;title>MyAPI&lt;/title>
   &lt;refbody>
     &lt;refsyn>Describe the MyAPI syntax here, possibly
-using synph or syntax elements markup for explicit 
+using syntax phrases or syntax diagrams for explicit 
 definition of syntax or prototype construction.&lt;/refsyn>
   &lt;/refbody>
 &lt;/reference></codeblock>

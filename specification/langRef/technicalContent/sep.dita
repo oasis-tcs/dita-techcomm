@@ -7,8 +7,8 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>elements<indexterm>programming
-              domain<indexterm><xmlelement>sep</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>syntax diagram
+          domain<indexterm><xmlelement>sep</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>separators</indexterm></indexterm>
         <indexterm>syntax phrases<indexterm>separators</indexterm></indexterm>
       </keywords>
@@ -22,7 +22,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>sep</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

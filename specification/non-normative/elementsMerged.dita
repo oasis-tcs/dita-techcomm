@@ -2422,9 +2422,10 @@ for this?</draft-comment>-->
         </strow>
       </simpletable>
     </section>
-    <section id="section_4A74E1DCD8A44ADE8A97BBB943796825" product="technicalContent">
+    <section id="programmingdomain" product="technicalContent">
       <title>pr-d elements (programming domain)</title>
-      <simpletable id="simpletable_C3923FF724CD42CC81CD48444AAC3D67" relcolwidth="13* 10* 8* 10* 10* 9* 10*">
+      <simpletable id="simpletable_C3923FF724CD42CC81CD48444AAC3D67"
+        relcolwidth="13* 10* 8* 10* 10* 9* 10*">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -2450,7 +2451,8 @@ for this?</draft-comment>-->
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle"
+              type="fn"/></stentry>
         </strow>
         <strow>
           <stentry><xmlelement>codeph</xmlelement></stentry>
@@ -2462,84 +2464,13 @@ for this?</draft-comment>-->
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>coderef</xmlelement> <i>(new in DITA 1.2)</i></stentry>
+          <stentry><xmlelement>coderef</xmlelement>
+            <i>(new in DITA 1.2)</i></stentry>
           <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
           <stentry>N/A <i>(empty element)</i></stentry>
           <stentry>N/A</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>delim</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>fragment</xmlelement></stentry>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>fragref</xmlelement></stentry>
-          <stentry><xmlelement>xref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>groupchoice</xmlelement></stentry>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>groupcomp</xmlelement></stentry>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>groupseq</xmlelement></stentry>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>kwd</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>oper</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -2558,7 +2489,8 @@ for this?</draft-comment>-->
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle"
+              type="fn"/></stentry>
         </strow>
         <strow>
           <stentry><xmlelement>parmname</xmlelement></stentry>
@@ -2593,78 +2525,6 @@ for this?</draft-comment>-->
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>repsep</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>sep</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>synblk</xmlelement></stentry>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>synnote</xmlelement></stentry>
-          <stentry><xmlelement>fn</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>synnoteref</xmlelement></stentry>
-          <stentry><xmlelement>xref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>synph</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>syntaxdiagram</xmlelement></stentry>
-          <stentry><xmlelement>fig</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>var</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -2748,6 +2608,164 @@ for this?</draft-comment>-->
         <strow>
           <stentry><xmlelement>varname</xmlelement></stentry>
           <stentry><xmlelement>keyword</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section product="technicalContent" id="syntaxdiagramdomain">
+      <title>syntaxdiagram-d elements (syntax diagram domain)</title>
+      <simpletable relcolwidth="13* 10* 8* 10* 10* 9* 10*" id="simpletable_lcp_p23_5mb">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>delim</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>fragment</xmlelement></stentry>
+          <stentry><xmlelement>figgroup</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>fragref</xmlelement></stentry>
+          <stentry><xmlelement>xref</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>groupchoice</xmlelement></stentry>
+          <stentry><xmlelement>figgroup</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>groupcomp</xmlelement></stentry>
+          <stentry><xmlelement>figgroup</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>groupseq</xmlelement></stentry>
+          <stentry><xmlelement>figgroup</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>kwd</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>oper</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>repsep</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>sep</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>synblk</xmlelement></stentry>
+          <stentry><xmlelement>figgroup</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>synnote</xmlelement></stentry>
+          <stentry><xmlelement>fn</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>synnoteref</xmlelement></stentry>
+          <stentry><xmlelement>xref</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>synph</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>syntaxdiagram</xmlelement></stentry>
+          <stentry><xmlelement>fig</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>var</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
           <stentry>inline</stentry>

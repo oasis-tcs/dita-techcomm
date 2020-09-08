@@ -7,7 +7,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>programming
+        <indexterm>syntax diagram
           domain<indexterm><xmlelement>repsep</xmlelement></indexterm></indexterm>
         <indexterm>syntax diagrams<indexterm>repeat separator characters</indexterm></indexterm>
       </keywords>
@@ -23,7 +23,8 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>repsep</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the programming domain module.</p>
+        defined in the syntax diagram domain module, which is a specialization of the programming
+        domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
