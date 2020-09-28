@@ -31,6 +31,7 @@
     </bookrights>
   </bookmeta>
   <frontmatter>
+    <topicref href="common/conref-cover-pages.dita" processing-role="resource-only"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <!--    <mapref href="dita-20-key-definitions-common-metadata.ditamap" processing-role="resource-only"/>
@@ -55,6 +56,7 @@
   <chapter format="ditamap" href="langRef/technicalContent-elements.ditamap"/>
   <chapter href="conformance/conformance.dita"/>
   <appendix href="acknowledgments/acknowledgments.dita"/>
+  <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix href="non-normative/non-normative-information.ditamap" format="ditamap"/>
   <appendix href="revision-history/revision-history.dita"/>
   <backmatter>
