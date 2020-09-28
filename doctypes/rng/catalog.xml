@@ -2,7 +2,6 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
    <nextCatalog catalog="bookmap/catalog.xml"/>
    <nextCatalog catalog="classificationMap/catalog.xml"/>
-   <nextCatalog catalog="machineryIndustry/catalog.xml"/>
    <nextCatalog catalog="technicalContent/catalog.xml"/>
    <nextCatalog catalog="xnal/catalog.xml"/>
 </catalog>

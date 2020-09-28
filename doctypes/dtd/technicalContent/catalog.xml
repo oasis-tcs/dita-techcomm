@@ -126,14 +126,6 @@
    <public publicId="-//OASIS//DTD DITA 2.x Task//EN" uri="task.dtd"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Task//EN" uri="task.mod"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.x Task//EN" uri="task.mod"/>
-   <public publicId="-//OASIS//ELEMENTS DITA 2.0 Task Requirements Domain//EN"
-           uri="taskreqDomain.mod"/>
-   <public publicId="-//OASIS//ELEMENTS DITA 2.x Task Requirements Domain//EN"
-           uri="taskreqDomain.mod"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.0 Task Requirements Domain//EN"
-           uri="taskreqDomain.ent"/>
-   <public publicId="-//OASIS//ENTITIES DITA 2.x Task Requirements Domain//EN"
-           uri="taskreqDomain.ent"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Topic//EN" uri="topic.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Topic//EN" uri="topic.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Troubleshooting//EN"
