@@ -10,7 +10,6 @@
    <topicref href="technicalContent/dita-concept-topic.dita" navtitle="Concept topic"/>
    <topicref href="technicalContent/dita-glossary-topic.dita" navtitle="Glossary Entry topic"/>
    <topicref href="technicalContent/dita-glossarygroup-topic.dita" navtitle="Glossary Group topic"/>
-   <topicref href="technicalContent/dita-machinerytask-topic.dita"/>
    <topicref href="technicalContent/dita-reference-topic.dita" navtitle="Reference topic"/>
    <topicref href="technicalContent/dita-generic-task-topic.dita" navtitle="General task topic"/>
    <topicref href="technicalContent/dita-task-topic.dita" navtitle="Task topic (strict)"/>

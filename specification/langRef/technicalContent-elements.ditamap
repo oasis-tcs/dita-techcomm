@@ -24,35 +24,6 @@
    <mapref href="svg-domain-elements.ditamap"/>
    <!--Syntax diagram and syntax phrase elements -->
    <mapref href="syntax-diagram-domain-elements.ditamap"/>
-   <!--Task requirements domain-->
-   <!--<topicref href="containers/mitask-d.dita">
-    <topicref href="technicalContent/prelreqs.dita" keys="prelreqs" navtitle="prelreqs"/>
-    <topicref href="technicalContent/closereqs.dita" keys="closereqs" navtitle="closereqs"/>
-    <topicref href="technicalContent/reqconds.dita" keys="reqconds" navtitle="reqconds"/>
-    <topicref href="technicalContent/reqcond.dita" keys="reqcond" navtitle="reqcond"/>
-    <topicref href="technicalContent/noconds.dita" keys="noconds" navtitle="noconds"/>
-    <topicref href="technicalContent/reqcontp.dita" keys="reqcontp" navtitle="reqcontp"/>
-    <topicref href="technicalContent/reqpers.dita" keys="reqpers" navtitle="reqpers"/>
-    <topicref href="technicalContent/personnel.dita" keys="personnel" navtitle="personnel"/>
-    <topicref href="technicalContent/perscat.dita" keys="perscat" navtitle="perscat"/>
-    <topicref href="technicalContent/perskill.dita" keys="perskill" navtitle="perskill"/>
-    <topicref href="technicalContent/esttime.dita" keys="esttime" navtitle="esttime"/>
-    <topicref href="technicalContent/supeqli.dita" keys="supeqli" navtitle="supeqli"/>
-    <topicref href="technicalContent/supequi.dita" keys="supequi" navtitle="supequi"/>
-    <topicref href="technicalContent/supequip.dita" keys="supequip" navtitle="supequip"/>
-    <topicref href="technicalContent/nosupeq.dita" keys="nosupeq" navtitle="nosupeq"/>
-    <topicref href="technicalContent/supplies.dita" keys="supplies" navtitle="supplies"/>
-    <topicref href="technicalContent/supply.dita" keys="supply" navtitle="supply"/>
-    <topicref href="technicalContent/supplyli.dita" keys="supplyli" navtitle="supplyli"/>
-    <topicref href="technicalContent/nosupply.dita" keys="nosupply" navtitle="nosupply"/>
-    <topicref href="technicalContent/spare.dita" keys="spare" navtitle="spare"/>
-    <topicref href="technicalContent/spares.dita" keys="spares" navtitle="spares"/>
-    <topicref href="technicalContent/sparesli.dita" keys="sparesli" navtitle="sparesli"/>
-    <topicref href="technicalContent/nospares.dita" keys="nospares" navtitle="nospares"/>
-    <topicref href="technicalContent/nosafety.dita" keys="nosafety" navtitle="nosafety"/>
-    <topicref href="technicalContent/safecond.dita" keys="safecond" navtitle="safecond"/>
-    <topicref href="technicalContent/safety.dita" keys="safety" navtitle="safety"/>
-   </topicref>-->
    <!--User interface elements -->
    <mapref href="ui-domain-elements.ditamap" format="ditamap"/>
    <!--XML mention domain-->
