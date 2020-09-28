@@ -98,10 +98,6 @@
               uri="taskMod.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:taskMod.rng:2.x"
               uri="taskMod.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:rng:taskreqDomain.rng:2.0"
-              uri="taskreqDomain.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:rng:taskreqDomain.rng:2.x"
-              uri="taskreqDomain.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:topic.rng:2.0"
               uri="topic.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:topic.rng:2.x"
@@ -220,10 +216,6 @@
            uri="taskMod.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:taskMod.rng:2.x"
            uri="taskMod.rng"/>
-      <uri name="urn:oasis:names:tc:dita:rng:taskreqDomain.rng:2.0"
-           uri="taskreqDomain.rng"/>
-      <uri name="urn:oasis:names:tc:dita:rng:taskreqDomain.rng:2.x"
-           uri="taskreqDomain.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:topic.rng:2.0" uri="topic.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:topic.rng:2.x" uri="topic.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:troubleshooting.rng:2.0"
