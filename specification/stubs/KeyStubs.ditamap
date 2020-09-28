@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-  <keydef keys="closereqs" href="StubTopic.dita"/>
   <keydef keys="commonAttributes" href="StubTopic.dita"/>
   <keydef keys="commonMapAttributes" href="StubTopic.dita"/>
   <keydef keys="conref-about-this-specification" href="StubTopic.dita"></keydef>
   <keydef keys="conref-attribute" href="StubTopic.dita"/>
   <keydef keys="dataElementAttributes" href="StubTopic.dita"/>
   <keydef keys="displayAttributes" href="StubTopic.dita"/>
-  <keydef keys="esttime" href="StubTopic.dita"/>
   <keydef keys="linkRelationshipAttributes" href="StubTopic.dita"/>
-  <keydef keys="noconds" href="StubTopic.dita"/>
   <keydef keys="migration-1.1-to-1.2" href="StubTopic.dita"/>
-  <keydef keys="nosafety" href="StubTopic.dita"/>
-  <keydef keys="nospares" href="StubTopic.dita"/>
-  <keydef keys="nosupeq" href="StubTopic.dita"/>
-  <keydef keys="nosupply" href="StubTopic.dita"/>
-  <keydef keys="pd" href="StubTopic.dita"/>
-  <keydef keys="perscat" href="StubTopic.dita"/>
-  <keydef keys="perskill" href="StubTopic.dita"/>
-  <keydef keys="personnel" href="StubTopic.dita"/>
-  <keydef keys="prelreqs" href="StubTopic.dita"/>
-  <keydef keys="reqcond" href="StubTopic.dita"/>
-  <keydef keys="reqconds" href="StubTopic.dita"/>
-  <keydef keys="reqcontp" href="StubTopic.dita"/>
-  <keydef keys="reqpers" href="StubTopic.dita"/>
-  <keydef keys="safecond" href="StubTopic.dita"/>
-  <keydef keys="safety" href="StubTopic.dita"/>
   <keydef keys="simpletableAttributes" href="StubTopic.dita"/>
-  <keydef keys="spare" href="StubTopic.dita"/>
-  <keydef keys="spares" href="StubTopic.dita"/>
-  <keydef keys="sparesli" href="StubTopic.dita"/>
   <keydef keys="specializationAttributes" href="StubTopic.dita"/>
-  <keydef keys="supeqli" href="StubTopic.dita"/>
-  <keydef keys="supequi" href="StubTopic.dita"/>
-  <keydef keys="supequip" href="StubTopic.dita"/>
-  <keydef keys="supplies" href="StubTopic.dita"/>
-  <keydef keys="supply" href="StubTopic.dita"/>
-  <keydef keys="supplyli" href="StubTopic.dita"/>
   <keydef keys="topicrefElementAttributes" href="StubTopic.dita"/>
   <keydef keys="thehrefattribute" href="StubTopic.dita"/>
   <keydef keys="thekeyrefattribute" href="StubTopic.dita"/>
