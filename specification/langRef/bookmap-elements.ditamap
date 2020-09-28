@@ -42,7 +42,7 @@
             <topicref href="technicalContent/indexlist.dita" keys="indexlist" navtitle="indexlist"/>
             <topicref href="technicalContent/mainbooktitle.dita" keys="mainbooktitle"
                 navtitle="mainbooktitle"/>
-            <topicref href="technicalContent/notices.dita" keys="notices" navtitle="notices"/>
+            <topicref href="technicalContent/notices.dita" keys="elements-notices" navtitle="notices"/>
             <topicref href="technicalContent/part.dita" keys="part" navtitle="part"/>
             <topicref href="technicalContent/preface.dita" keys="preface" navtitle="preface"/>
             <topicref href="technicalContent/tablelist.dita" keys="tablelist" navtitle="tablelist"/>

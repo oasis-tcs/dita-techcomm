@@ -138,7 +138,7 @@
         <sli><xref keyref="msgnum"/></sli>
         <sli><xref keyref="msgph"/></sli>
         <sli><xref keyref="namedetails"/></sli>
-        <sli><xref keyref="notices"/></sli>
+        <sli><xref keyref="elements-notices"/></sli>
         <sli><xref keyref="numcharref"/></sli>
         <sli><xref keyref="oper"/></sli>
         <sli><xref keyref="option"/></sli>

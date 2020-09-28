@@ -33,6 +33,7 @@
   <frontmatter>
     <topicref href="common/conref-cover-pages.dita" processing-role="resource-only"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap" format="ditamap"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <!--    <mapref href="dita-20-key-definitions-common-metadata.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-part2-metadata.ditamap" processing-role="resource-only"/>-->
