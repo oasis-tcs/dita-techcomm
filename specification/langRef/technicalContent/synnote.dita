@@ -35,7 +35,7 @@ page.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/fn-attributes"/></section>
+      <sectiondiv conkeyref="reuse-attributes/fn-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;groupcomp&gt;&lt;var&gt;one&lt;/var&gt;&lt;var&gt;two&lt;/var&gt;&lt;var&gt;three&lt;/var&gt;&lt;/groupcomp&gt;

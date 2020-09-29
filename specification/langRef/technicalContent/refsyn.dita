@@ -21,7 +21,7 @@
     <section id="attributes">
       <title>Attributes</title>
       <p
-        conkeyref="conref-attribute/universal-outputclass-spectitle"
+        conkeyref="reuse-attributes/universal-outputclass-spectitle"
       />
     </section>
     <example id="example" otherprops="examples">

@@ -21,7 +21,7 @@
       <p>The <xmlelement>appendices</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
-        conkeyref="conref-attribute/bookmap-topicrefs"/></section>
+        conkeyref="reuse-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title><codeblock>&lt;appendices toc="yes" print="no">
   &lt;topicmeta>

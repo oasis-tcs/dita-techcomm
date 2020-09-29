@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-  <!--<keydef keys="conref-about-this-specification" href="StubTopic.dita"></keydef>-->
   <!-- This metadata may no longer be needed, but with baseSpec available we
     can at least reference the appropriate topic rather than a StubTopic. -->
+  <!--<keydef keys="conref-about-this-specification" href="StubTopic.dita"></keydef>-->
   <keydef keys="conref-about-this-specification" href="../baseSpec/specification/common/conref-about-this-specification.dita"/>
-  <keydef keys="conref-attribute" href="StubTopic.dita"/>
   <keydef keys="migration-1.1-to-1.2" href="StubTopic.dita"/>
   <!--<keydef keys="specializationAttributes" href="StubTopic.dita"/>-->
   <!--<keydef keys="topicrefElementAttributes" href="StubTopic.dita"/>-->

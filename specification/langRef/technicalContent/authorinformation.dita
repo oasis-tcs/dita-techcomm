@@ -20,7 +20,7 @@
       <p>The <xmlelement>authorinformation</xmlelement> element is specialized from
           <xmlelement>author</xmlelement>. It is defined in the XNAL-domain module.</p></section>
     <section id="attributes"><title>Attributes</title><sectiondiv
-        conkeyref="conref-attribute/author-attributes"/></section>
+        conkeyref="reuse-attributes/author-attributes"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title><codeblock>&lt;authorinformation&gt;
  &lt;personinfo&gt;

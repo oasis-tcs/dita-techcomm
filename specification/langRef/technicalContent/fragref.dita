@@ -35,7 +35,7 @@
             detailed information on supported values and processing
             implications.<!--For this element, processors <ph rev="public-review-1">can</ph> assume the equivalent of <codeph>scope="local"</codeph> and <codeph>format="dita"</codeph>.--></dd>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/importance-optreq">
+        <dlentry conkeyref="reuse-attributes/importance-optreq">
           <dt/>
           <dd/>
         </dlentry>

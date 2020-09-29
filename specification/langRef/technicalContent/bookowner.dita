@@ -21,7 +21,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+      <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

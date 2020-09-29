@@ -23,7 +23,7 @@
       <title>Attributes</title>
       <p>The <xmlatt>value</xmlatt> attribute indicates any restrictions on the use of the material,
         such as declaring the information confidential or for licensed use only.</p>
-      <p conkeyref="conref-attribute/data-link-universal-outputclass"/>
+      <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

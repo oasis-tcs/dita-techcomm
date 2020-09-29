@@ -45,20 +45,20 @@ and expanded versions of that acronym.</shortdesc>
             <dd>A pointer to a glossary definition, typically a <xmlelement>glossentry</xmlelement>
               topic. See <xref keyref="attributes-href"/> for detailed information
               on supported values and processing implications. <ph
-                conkeyref="conref-attribute/non-dita-href"/></dd>
+                conkeyref="reuse-attributes/non-dita-href"/></dd>
           </dlentry>
           <dlentry>
             <dt><xmlatt>keys</xmlatt>
-              <ph conkeyref="conref-attribute/required-attr"/></dt>
+              <ph conkeyref="reuse-attributes/required-attr"/></dt>
             <dd>Associates one or more space-delimited keys with the target of the glossary
               reference. See <xref keyref="attributes-keys"/> for information on
               using the attribute.</dd>
           </dlentry>
-          <dlentry conkeyref="conref-attribute/toc-default-no">
+          <dlentry conkeyref="reuse-attributes/toc-default-no">
             <dt/>
             <dd/>
           </dlentry>
-          <dlentry conkeyref="conref-attribute/print-default-no">
+          <dlentry conkeyref="reuse-attributes/print-default-no">
             <dt/>
             <dd/>
           </dlentry>
@@ -85,7 +85,7 @@ and expanded versions of that acronym.</shortdesc>
                   <dt>none </dt>
                   <dd>A topic cannot be linked to or link to other topics. </dd>
                 </dlentry>
-                <dlentry conkeyref="conref-attribute/ditauseconref">
+                <dlentry conkeyref="reuse-attributes/ditauseconref">
                   <dt/>
                   <dd/>
                 </dlentry>

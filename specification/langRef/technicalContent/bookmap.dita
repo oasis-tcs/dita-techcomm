@@ -35,13 +35,13 @@
       <p>The <xmlelement>bookmap</xmlelement> element is specialized from
           <xmlelement>map</xmlelement>; it is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title>
-      <p conkeyref="conref-attribute/map-attributes-common"/>
+      <p conkeyref="reuse-attributes/map-attributes-common"/>
       <dl>
-        <dlentry conkeyref="conref-attribute/map-attribute-id">
+        <dlentry conkeyref="reuse-attributes/map-attribute-id">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/map-attribute-anchorref">
+        <dlentry conkeyref="reuse-attributes/map-attribute-anchorref">
           <dt/>
           <dd/>
         </dlentry>

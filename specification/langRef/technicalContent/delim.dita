@@ -28,7 +28,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/syntaxelement-optreq"/></section>
+      <sectiondiv conkeyref="reuse-attributes/syntaxelement-optreq"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>delim</xmlelement> element specifies that the
