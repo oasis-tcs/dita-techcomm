@@ -2,7 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Markup domain elements</title>
-    <topicref href="containers/markup-domain.dita" navtitle="Markup domain">
-        <topicref href="technicalContent/markupname.dita" navtitle="markupname" keys="markupname"/>
+    <topicref href="containers/markup-domain.dita">
+        <topicref href="technicalContent/markupname.dita" keys="markupname"/>
     </topicref>
 </map>

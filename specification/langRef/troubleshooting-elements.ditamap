@@ -2,7 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Troubleshooting elements</title>
- <topicref href="containers/troubleshooting-elements.dita" navtitle="Troubleshooting elements"
+ <topicref href="containers/troubleshooting-elements.dita"
   >
   <topicref href="technicalContent/troubleshooting.dita" keys="troubleshooting"
    />

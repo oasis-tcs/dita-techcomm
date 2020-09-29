@@ -2,8 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
   <title>Key definitions for the specification cover pages</title>
-
-  <topichead navtitle="Specification part titles">
+  <topichead>
+    <topicmeta>
+      <navtitle>Specification part titles</navtitle>
+    </topicmeta>
     <keydef keys="errata-title">
       <topicmeta>
         <keywords>
@@ -44,7 +46,10 @@
       </topicmeta>
     </keydef>
   </topichead>
-  <topichead navtitle="Link text and variable for file names">
+  <topichead>
+    <topicmeta>
+      <navtitle>Link text and variable for file names</navtitle>
+    </topicmeta>
     <!-- Date of specification approval -->
     <keydef keys="approval-date">
       <topicmeta>
@@ -80,7 +85,10 @@
       </topicmeta>
     </keydef>
   </topichead>
-  <topichead navtitle="This version">
+  <topichead>
+    <topicmeta>
+      <navtitle>This version</navtitle>
+    </topicmeta>
     <!-- THIS VERSION -->
     <keydef keys="spec-release-type">
       <topicmeta>
@@ -262,7 +270,10 @@
       </topicmeta>
     </keydef>
   </topichead>
-  <topichead navtitle="Previous version">
+  <topichead>
+    <topicmeta>
+      <navtitle>Previous version</navtitle>
+    </topicmeta>
     <!-- PREVIOUS VERSION -->
     <!-- Needs to have the previous OASIS metadata in @href and link text -->
     <keydef keys="previous-errata-html" href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/dita-v1.3-errata01-os-1-complete.html" scope="external"
@@ -350,7 +361,10 @@
       </topicmeta>
     </keydef>
   </topichead>
-  <topichead navtitle="Latest version">
+  <topichead>
+    <topicmeta>
+      <navtitle>Latest version</navtitle>
+    </topicmeta>
     <!-- LATEST VERSION -->
     <!-- Needs to have no OASIS metadata in @href and link text-->
     <!-- Do not change this as the specification advances through the different phases-->
@@ -437,7 +451,10 @@
     </keydef>
   </topichead>
 
-  <topichead navtitle="Related work">
+  <topichead>
+    <topicmeta>
+      <navtitle>Related work</navtitle>
+    </topicmeta>
     <!-- RELATED WORK -->
     <!-- Needs to have no OASIS metadata in @href and link text-->
     <!--Part 0: Overview -->

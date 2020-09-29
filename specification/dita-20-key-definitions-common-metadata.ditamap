@@ -3,7 +3,10 @@
 <map>
  <title>Key definitions for common metadata that is used in two or more of the specification
   editions</title>
- <topichead navtitle="OASIS naming fragments">
+ <topichead>
+  <topicmeta>
+   <navtitle>OASIS naming fragments</navtitle>
+  </topicmeta>
   <keydef keys="wp-abbrev">
    <topicmeta>
     <keywords>

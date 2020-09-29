@@ -2,21 +2,20 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>XML-mention domain elements</title>
- <topicref href="containers/xml-mention-domain.dita" 
-  navtitle="XML mention domain">
-  <topicref href="technicalContent/numcharref.dita" navtitle="numcharref" keys="numcharref"
+ <topicref href="containers/xml-mention-domain.dita">
+  <topicref href="technicalContent/numcharref.dita" keys="numcharref"
    />
-  <topicref href="technicalContent/parameterentity.dita" navtitle="parameterentity"
+  <topicref href="technicalContent/parameterentity.dita"
    keys="parameterentity" />
-  <topicref href="technicalContent/textentity.dita" navtitle="textentity" keys="textentity"
+  <topicref href="technicalContent/textentity.dita" keys="textentity"
    />
-  <topicref href="technicalContent/xmlatt.dita" navtitle="xmlatt" keys="xmlatt"
+  <topicref href="technicalContent/xmlatt.dita" keys="xmlatt"
    />
-  <topicref href="technicalContent/xmlelement.dita" navtitle="xmlelement" keys="xmlelement"
+  <topicref href="technicalContent/xmlelement.dita" keys="xmlelement"
    />
-  <topicref href="technicalContent/xmlnsname.dita" navtitle="xmlnsname" keys="xmlnsname"
+  <topicref href="technicalContent/xmlnsname.dita" keys="xmlnsname"
    />
-  <topicref href="technicalContent/xmlpi.dita" navtitle="xmlpi" keys="xmlpi"
+  <topicref href="technicalContent/xmlpi.dita" keys="xmlpi"
    />
  </topicref>
 </map>

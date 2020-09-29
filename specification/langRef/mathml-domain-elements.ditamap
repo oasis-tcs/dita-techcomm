@@ -2,8 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>MathML domain elements</title>
-    <topicref href="containers/mathml-d.dita" navtitle="MathML domain elements">
-        <topicref href="technicalContent/mathml.dita" navtitle="mathml" keys="mathml"/>
-        <topicref href="technicalContent/mathmlref.dita" navtitle="mathmlref" keys="mathmlref"/>
+    <topicref href="containers/mathml-d.dita">
+        <topicref href="technicalContent/mathml.dita" keys="mathml"/>
+        <topicref href="technicalContent/mathmlref.dita" keys="mathmlref"/>
     </topicref>
 </map>
