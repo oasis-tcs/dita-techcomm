@@ -2,103 +2,73 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Bookmap elements</title>
-    <topicref href="containers/bookmap-elements.dita" navtitle="Bookmap elements">
+    <topicref href="containers/bookmap-elements.dita">
         <!--Bookmap content elements -->
-        <topicref href="containers/bookmap-content-elements.dita"
-            navtitle="Bookmap content elements">
-            <topicref href="technicalContent/abbrevlist.dita" keys="abbrevlist"
-                navtitle="abbrevlist"/>
-            <topicref href="technicalContent/amendments.dita" keys="amendments"
-                navtitle="amendments"/>
-            <topicref href="technicalContent/appendices.dita" keys="appendices"
-                navtitle="appendices"/>
-            <topicref href="technicalContent/appendix.dita" keys="appendix" navtitle="appendix"/>
-            <topicref href="technicalContent/bookmap.dita" keys="bookmap" navtitle="bookmap"/>
-            <topicref href="technicalContent/backmatter.dita" keys="backmatter"
-                navtitle="backmatter"/>
-            <topicref href="technicalContent/bibliolist.dita" keys="bibliolist"
-                navtitle="bibliolist"/>
-            <topicref href="technicalContent/bookabstract.dita" keys="bookabstract"
-                navtitle="bookabstract"/>
-            <topicref href="technicalContent/booklibrary.dita" keys="booklibrary"
-                navtitle="booklibrary"/>
-            <topicref href="technicalContent/booklist.dita" keys="booklist" navtitle="booklist"/>
-            <topicref href="technicalContent/booklists.dita" keys="booklists" navtitle="booklists"/>
-            <topicref href="technicalContent/booktitle.dita" keys="booktitle" navtitle="booktitle"/>
-            <topicref href="technicalContent/booktitlealt.dita" keys="booktitlealt"
-                navtitle="booktitlealt"/>
-            <topicref href="technicalContent/chapter.dita" keys="chapter" navtitle="chapter"/>
-            <topicref href="technicalContent/colophon.dita" keys="colophon" navtitle="colophon"/>
-            <topicref href="technicalContent/dedication.dita" keys="dedication"
-                navtitle="dedication"/>
-            <topicref href="technicalContent/draftintro.dita" keys="draftintro"
-                navtitle="draftintro"/>
-            <topicref href="technicalContent/figurelist.dita" keys="figurelist"
-                navtitle="figurelist"/>
-            <topicref href="technicalContent/frontmatter.dita" keys="frontmatter"
-                navtitle="frontmatter"/>
-            <topicref href="technicalContent/glossarylist.dita" keys="glossarylist"
-                navtitle="glossarylist"/>
-            <topicref href="technicalContent/indexlist.dita" keys="indexlist" navtitle="indexlist"/>
-            <topicref href="technicalContent/mainbooktitle.dita" keys="mainbooktitle"
-                navtitle="mainbooktitle"/>
-            <topicref href="technicalContent/notices.dita" keys="elements-notices" navtitle="notices"/>
-            <topicref href="technicalContent/part.dita" keys="part" navtitle="part"/>
-            <topicref href="technicalContent/preface.dita" keys="preface" navtitle="preface"/>
-            <topicref href="technicalContent/tablelist.dita" keys="tablelist" navtitle="tablelist"/>
-            <topicref href="technicalContent/toc.dita" keys="toc" navtitle="toc"/>
-            <topicref href="technicalContent/trademarklist.dita" keys="trademarklist"
-                navtitle="trademarklist"/>
+        <topicref href="containers/bookmap-content-elements.dita">
+            <topicref href="technicalContent/abbrevlist.dita" keys="abbrevlist"/>
+            <topicref href="technicalContent/amendments.dita" keys="amendments"/>
+            <topicref href="technicalContent/appendices.dita" keys="appendices"/>
+            <topicref href="technicalContent/appendix.dita" keys="appendix"/>
+            <topicref href="technicalContent/bookmap.dita" keys="bookmap"/>
+            <topicref href="technicalContent/backmatter.dita" keys="backmatter"/>
+            <topicref href="technicalContent/bibliolist.dita" keys="bibliolist"/>
+            <topicref href="technicalContent/bookabstract.dita" keys="bookabstract"/>
+            <topicref href="technicalContent/booklibrary.dita" keys="booklibrary"/>
+            <topicref href="technicalContent/booklist.dita" keys="booklist"/>
+            <topicref href="technicalContent/booklists.dita" keys="booklists"/>
+            <topicref href="technicalContent/booktitle.dita" keys="booktitle"/>
+            <topicref href="technicalContent/booktitlealt.dita" keys="booktitlealt"/>
+            <topicref href="technicalContent/chapter.dita" keys="chapter"/>
+            <topicref href="technicalContent/colophon.dita" keys="colophon"/>
+            <topicref href="technicalContent/dedication.dita" keys="dedication"/>
+            <topicref href="technicalContent/draftintro.dita" keys="draftintro"/>
+            <topicref href="technicalContent/figurelist.dita" keys="figurelist"/>
+            <topicref href="technicalContent/frontmatter.dita" keys="frontmatter"/>
+            <topicref href="technicalContent/glossarylist.dita" keys="glossarylist"/>
+            <topicref href="technicalContent/indexlist.dita" keys="indexlist"/>
+            <topicref href="technicalContent/mainbooktitle.dita" keys="mainbooktitle"/>
+            <topicref href="technicalContent/notices.dita" keys="elements-notices"/>
+            <topicref href="technicalContent/part.dita" keys="part"/>
+            <topicref href="technicalContent/preface.dita" keys="preface"/>
+            <topicref href="technicalContent/tablelist.dita" keys="tablelist"/>
+            <topicref href="technicalContent/toc.dita" keys="toc"/>
+            <topicref href="technicalContent/trademarklist.dita" keys="trademarklist"/>
         </topicref>
         <!--Bookmap metadata elements -->
-        <topicref href="containers/bookmap-metadata-elements.dita"
-            navtitle="Bookmap metadata elements">
-            <topicref href="technicalContent/approved.dita" keys="approved" navtitle="approved"/>
-            <topicref href="technicalContent/bookchangehistory.dita" keys="bookchangehistory"
-                navtitle="bookchangehistory"/>
-            <topicref href="technicalContent/bookevent.dita" keys="bookevent" navtitle="bookevent"/>
-            <topicref href="technicalContent/bookeventtype.dita" keys="bookeventtype"
-                navtitle="bookeventtype"/>
-            <topicref href="technicalContent/bookid.dita" keys="bookid" navtitle="bookid"/>
-            <topicref href="technicalContent/bookmeta.dita" keys="bookmeta" navtitle="bookmeta"/>
-            <topicref href="technicalContent/booknumber.dita" keys="booknumber"
-                navtitle="booknumber"/>
-            <topicref href="technicalContent/bookowner.dita" keys="bookowner" navtitle="bookowner"/>
-            <topicref href="technicalContent/bookpartno.dita" keys="bookpartno"
-                navtitle="bookpartno"/>
-            <topicref href="technicalContent/bookrestriction.dita" keys="bookrestriction"
-                navtitle="bookrestriction"/>
-            <topicref href="technicalContent/bookrights.dita" keys="bookrights"
-                navtitle="bookrights"/>
-            <topicref href="technicalContent/completed.dita" keys="completed" navtitle="completed"/>
-            <topicref href="technicalContent/copyrfirst.dita" keys="copyrfirst"
-                navtitle="copyrfirst"/>
-            <topicref href="technicalContent/copyrlast.dita" keys="copyrlast" navtitle="copyrlast"/>
-            <topicref href="technicalContent/day.dita" keys="day" navtitle="day"/>
-            <topicref href="technicalContent/edited.dita" keys="edited" navtitle="edited"/>
-            <topicref href="technicalContent/edition.dita" keys="edition" navtitle="edition"/>
-            <topicref href="technicalContent/isbn.dita" keys="isbn" navtitle="isbn"/>
-            <topicref href="technicalContent/maintainer.dita" keys="maintainer"
-                navtitle="maintainer"/>
-            <topicref href="technicalContent/month.dita" keys="month" navtitle="month"/>
-            <topicref href="technicalContent/organization.dita" keys="organization"
-                navtitle="organization"/>
-            <topicref href="technicalContent/person.dita" keys="person" navtitle="person"/>
-            <topicref href="technicalContent/printlocation.dita" keys="printlocation"
-                navtitle="printlocation"/>
-            <topicref href="technicalContent/published.dita" keys="published" navtitle="published"/>
-            <topicref href="technicalContent/publisherinformation.dita" keys="publisherinformation"
-                navtitle="publisherinformation"/>
-            <topicref href="technicalContent/publishtype.dita" keys="publishtype"
-                navtitle="publishtype"/>
-            <topicref href="technicalContent/reviewed.dita" keys="reviewed" navtitle="reviewed"/>
-            <topicref href="technicalContent/revisionid.dita" keys="revisionid"
-                navtitle="revisionid"/>
-            <topicref href="technicalContent/started.dita" keys="started" navtitle="started"/>
-            <topicref href="technicalContent/summary.dita" keys="summary" navtitle="summary"/>
-            <topicref href="technicalContent/tested.dita" keys="tested" navtitle="tested"/>
-            <topicref href="technicalContent/volume.dita" keys="volume" navtitle="volume"/>
-            <topicref href="technicalContent/year.dita" keys="year" navtitle="year"/>
+        <topicref href="containers/bookmap-metadata-elements.dita">
+            <topicref href="technicalContent/approved.dita" keys="approved"/>
+            <topicref href="technicalContent/bookchangehistory.dita" keys="bookchangehistory"/>
+            <topicref href="technicalContent/bookevent.dita" keys="bookevent"/>
+            <topicref href="technicalContent/bookeventtype.dita" keys="bookeventtype"/>
+            <topicref href="technicalContent/bookid.dita" keys="bookid"/>
+            <topicref href="technicalContent/bookmeta.dita" keys="bookmeta"/>
+            <topicref href="technicalContent/booknumber.dita" keys="booknumber"/>
+            <topicref href="technicalContent/bookowner.dita" keys="bookowner"/>
+            <topicref href="technicalContent/bookpartno.dita" keys="bookpartno"/>
+            <topicref href="technicalContent/bookrestriction.dita" keys="bookrestriction"/>
+            <topicref href="technicalContent/bookrights.dita" keys="bookrights"/>
+            <topicref href="technicalContent/completed.dita" keys="completed"/>
+            <topicref href="technicalContent/copyrfirst.dita" keys="copyrfirst"/>
+            <topicref href="technicalContent/copyrlast.dita" keys="copyrlast"/>
+            <topicref href="technicalContent/day.dita" keys="day"/>
+            <topicref href="technicalContent/edited.dita" keys="edited"/>
+            <topicref href="technicalContent/edition.dita" keys="edition"/>
+            <topicref href="technicalContent/isbn.dita" keys="isbn"/>
+            <topicref href="technicalContent/maintainer.dita" keys="maintainer"/>
+            <topicref href="technicalContent/month.dita" keys="month"/>
+            <topicref href="technicalContent/organization.dita" keys="organization"/>
+            <topicref href="technicalContent/person.dita" keys="person"/>
+            <topicref href="technicalContent/printlocation.dita" keys="printlocation"/>
+            <topicref href="technicalContent/published.dita" keys="published"/>
+            <topicref href="technicalContent/publisherinformation.dita" keys="publisherinformation"/>
+            <topicref href="technicalContent/publishtype.dita" keys="publishtype"/>
+            <topicref href="technicalContent/reviewed.dita" keys="reviewed"/>
+            <topicref href="technicalContent/revisionid.dita" keys="revisionid"/>
+            <topicref href="technicalContent/started.dita" keys="started"/>
+            <topicref href="technicalContent/summary.dita" keys="summary"/>
+            <topicref href="technicalContent/tested.dita" keys="tested"/>
+            <topicref href="technicalContent/volume.dita" keys="volume"/>
+            <topicref href="technicalContent/year.dita" keys="year"/>
         </topicref>
     </topicref>
 </map>

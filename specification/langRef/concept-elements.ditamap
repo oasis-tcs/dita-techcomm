@@ -2,10 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Concept elements</title>
- <topicref href="containers/concept-elements.dita" navtitle="Concept elements">
+ <topicref href="containers/concept-elements.dita">
   <?Pub Dtl?>
-  <topicref href="technicalContent/concept.dita" keys="concept" navtitle="concept"/>
-  <topicref href="technicalContent/conbody.dita" keys="conbody" navtitle="conbody"/>
-  <topicref href="technicalContent/conbodydiv.dita" keys="conbodydiv" navtitle="conbodydiv"/>
+  <topicref href="technicalContent/concept.dita" keys="concept"/>
+  <topicref href="technicalContent/conbody.dita" keys="conbody"/>
+  <topicref href="technicalContent/conbodydiv.dita" keys="conbodydiv"/>
  </topicref>
 </map>

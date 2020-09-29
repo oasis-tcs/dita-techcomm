@@ -2,45 +2,33 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>XNAL domain elements</title>
-    <topicref href="containers/xnal-d.dita" navtitle="xNAL domain elements">
-        <topicref href="technicalContent/authorinformation.dita" keys="authorinformation"
-            navtitle="authorinformation"/>
-        <topicref href="technicalContent/addressdetails.dita" keys="addressdetails"
-            navtitle="addressdetails"/>
-        <topicref href="technicalContent/administrativearea.dita" keys="administrativearea"
-            navtitle="administrativearea"/>
-        <topicref href="technicalContent/contactnumber.dita" keys="contactnumber"
-            navtitle="contactnumber"/>
-        <topicref href="technicalContent/contactnumbers.dita" keys="contactnumbers"
-            navtitle="contactnumbers"/>
-        <topicref href="technicalContent/country.dita" keys="country" navtitle="country"/>
-        <topicref href="technicalContent/emailaddress.dita" keys="emailaddress"
-            navtitle="emailaddress"/>
-        <topicref href="technicalContent/emailaddresses.dita" keys="emailaddresses"
-            navtitle="emailaddresses"/>
-        <topicref href="technicalContent/firstname.dita" keys="firstname" navtitle="firstname"/>
-        <topicref href="technicalContent/generationidentifier.dita" keys="generationidentifier"
-            navtitle="generationidentifier"/>
-        <topicref href="technicalContent/honorific.dita" keys="honorific" navtitle="honorific"/>
-        <topicref href="technicalContent/lastname.dita" keys="lastname" navtitle="lastname"/>
-        <topicref href="technicalContent/locality.dita" keys="locality" navtitle="locality"/>
-        <topicref href="technicalContent/localityname.dita" keys="localityname"
-            navtitle="localityname"/>
-        <topicref href="technicalContent/middlename.dita" keys="middlename" navtitle="middlename"/>
-        <topicref href="technicalContent/namedetails.dita" keys="namedetails" navtitle="namedetails"/>
-        <topicref href="technicalContent/organizationinfo.dita" keys="organizationinfo"
-            navtitle="organizationinfo"/>
-        <topicref href="technicalContent/organizationname.dita" keys="organizationname"
-            navtitle="organizationname"/>
+    <topicref href="containers/xnal-d.dita">
+        <topicref href="technicalContent/authorinformation.dita" keys="authorinformation"/>
+        <topicref href="technicalContent/addressdetails.dita" keys="addressdetails"/>
+        <topicref href="technicalContent/administrativearea.dita" keys="administrativearea"/>
+        <topicref href="technicalContent/contactnumber.dita" keys="contactnumber"/>
+        <topicref href="technicalContent/contactnumbers.dita" keys="contactnumbers"/>
+        <topicref href="technicalContent/country.dita" keys="country"/>
+        <topicref href="technicalContent/emailaddress.dita" keys="emailaddress"/>
+        <topicref href="technicalContent/emailaddresses.dita" keys="emailaddresses"/>
+        <topicref href="technicalContent/firstname.dita" keys="firstname"/>
+        <topicref href="technicalContent/generationidentifier.dita" keys="generationidentifier"/>
+        <topicref href="technicalContent/honorific.dita" keys="honorific"/>
+        <topicref href="technicalContent/lastname.dita" keys="lastname"/>
+        <topicref href="technicalContent/locality.dita" keys="locality"/>
+        <topicref href="technicalContent/localityname.dita" keys="localityname"/>
+        <topicref href="technicalContent/middlename.dita" keys="middlename"/>
+        <topicref href="technicalContent/namedetails.dita" keys="namedetails"/>
+        <topicref href="technicalContent/organizationinfo.dita" keys="organizationinfo"/>
+        <topicref href="technicalContent/organizationname.dita" keys="organizationname"/>
         <topicref href="technicalContent/organizationnamedetails.dita"
-            keys="organizationnamedetails" navtitle="organizationnamedetails"/>
-        <topicref href="technicalContent/otherinfo.dita" keys="otherinfo" navtitle="otherinfo"/>
-        <topicref href="technicalContent/personinfo.dita" keys="personinfo" navtitle="personinfo"/>
-        <topicref href="technicalContent/personname.dita" keys="personname" navtitle="personname"/>
-        <topicref href="technicalContent/postalcode.dita" keys="postalcode" navtitle="postalcode"/>
-        <topicref href="technicalContent/thoroughfare.dita" keys="thoroughfare"
-            navtitle="thoroughfare"/>
-        <topicref href="technicalContent/url.dita" keys="url" navtitle="url"/>
-        <topicref href="technicalContent/urls.dita" keys="urls" navtitle="urls"/>
+            keys="organizationnamedetails"/>
+        <topicref href="technicalContent/otherinfo.dita" keys="otherinfo"/>
+        <topicref href="technicalContent/personinfo.dita" keys="personinfo"/>
+        <topicref href="technicalContent/personname.dita" keys="personname"/>
+        <topicref href="technicalContent/postalcode.dita" keys="postalcode"/>
+        <topicref href="technicalContent/thoroughfare.dita" keys="thoroughfare"/>
+        <topicref href="technicalContent/url.dita" keys="url"/>
+        <topicref href="technicalContent/urls.dita" keys="urls"/>
     </topicref>
 </map>

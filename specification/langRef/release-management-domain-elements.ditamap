@@ -2,8 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Release-management domain elements</title>
- <topicref href="containers/Release-management-domain-elements.dita"
-  navtitle="Release-management domain elements" >
+ <topicref href="containers/Release-management-domain-elements.dita" >
   <topicref href="technicalContent/change-completed.dita" keys="change-completed"
    />
   <topicref href="technicalContent/change-historylist.dita" keys="change-historylist"

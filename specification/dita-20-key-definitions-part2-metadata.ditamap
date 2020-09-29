@@ -2,7 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Key definitions for part1</title>
- <topichead navtitle="Common Oasis namimg fragments">
+ <topichead>
+  <topicmeta>
+   <navtitle>Common OASIS naming fragments</navtitle>
+  </topicmeta>
   <keydef keys="part-number">
    <topicmeta>
     <keywords>

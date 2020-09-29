@@ -2,7 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>SVG domain elements</title>
-    <topicref href="containers/SVG-elements.dita" navtitle="SVG elements">
+    <topicref href="containers/SVG-elements.dita">
         <topicref href="technicalContent/svg-container.dita" keys="svg-container"/>
         <topicref href="technicalContent/svgref.dita" keys="svgref"/>
     </topicref>
