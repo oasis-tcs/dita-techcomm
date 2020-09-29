@@ -28,7 +28,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/syntaxelement-update-importance"/></section>
+      <sectiondiv conkeyref="reuse-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;syntaxdiagram frame="bottom"&gt;

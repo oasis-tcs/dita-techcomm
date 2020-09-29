@@ -21,43 +21,39 @@
       <title>Attributes</title>
       <!--RDA: Note that this is an exact copy of the attribute list for image, EXCEPT that this element dropped the deprecated alt and makes @href required, which makes it harder to reuse that full list. It is an exact copy of hazardsymbol.-->
       <p>The following attributes are available on this element: <xref
-          keyref="universalAttributes"/>, <xref
-          keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>, and the
+        keyref="attributes-universal"/>, <xref
+            keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below.</p>
       <dl>
-        <dlentry conkeyref="conref-attribute/image-href">
+        <dlentry conkeyref="reuse-attributes/image-href">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-scope">
+        <dlentry conkeyref="reuse-attributes/image-scope">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-height">
+        <dlentry conkeyref="reuse-attributes/image-height">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-width">
+        <dlentry conkeyref="reuse-attributes/image-width">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-align">
+        <dlentry conkeyref="reuse-attributes/image-align">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-scale">
+        <dlentry conkeyref="reuse-attributes/image-scale">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-scalefit">
+        <dlentry conkeyref="reuse-attributes/image-scalefit">
           <dt/>
           <dd/>
         </dlentry>
-        <dlentry conkeyref="conref-attribute/image-placement">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="conref-attribute/image-longdescref">
+        <dlentry conkeyref="reuse-attributes/image-placement">
           <dt/>
           <dd/>
         </dlentry>

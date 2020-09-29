@@ -20,7 +20,7 @@
    <p>The <xmlelement>backmatter</xmlelement> element is specialized from
      <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
   </section>
-  <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="conref-attribute/bookmap-frontbackmatter"/></section>
+  <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="reuse-attributes/bookmap-frontbackmatter"/></section>
   <example id="example" otherprops="examples">
    <title>Example</title>
    <p>See the example in <xref href="bookmap.dita"/>.</p>

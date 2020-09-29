@@ -27,10 +27,7 @@
       <p>The <xmlelement>glossScopeNote</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/note-attributes"/>
-    </section>
+    <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;glossentry id="linuxOS" xml:lang="en-us">

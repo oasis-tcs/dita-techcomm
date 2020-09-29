@@ -31,7 +31,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/topic-attributes"/>
+      <sectiondiv conkeyref="reuse-attributes/topic-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

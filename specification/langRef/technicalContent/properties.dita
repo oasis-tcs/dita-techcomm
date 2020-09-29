@@ -31,7 +31,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="conref-attribute/simpletable-attributes"/>
+      <p conkeyref="reuse-attributes/simpletable-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

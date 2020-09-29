@@ -27,7 +27,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/bookmap-booklist-attributes"/></section>
+      <sectiondiv conkeyref="reuse-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock xml:space="preserve">&lt;abbrevlist href="abbrev.dita"/&gt;</codeblock></example>

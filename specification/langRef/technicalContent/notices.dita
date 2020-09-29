@@ -22,7 +22,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/bookmap-topicrefs"/></section>
+      <sectiondiv conkeyref="reuse-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>This example references a notices topic that contains legal content.</p>

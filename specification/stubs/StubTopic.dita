@@ -27,10 +27,6 @@
           <dt>STUB CONTENT</dt>
           <dd>STUB CONTENT</dd>
         </dlentry>
-        <dlentry id="image-longdescref">
-          <dt>STUB CONTENT</dt>
-          <dd>STUB CONTENT</dd>
-        </dlentry>
         <dlentry id="image-placement">
           <dt>STUB CONTENT</dt>
           <dd>STUB CONTENT</dd>
@@ -80,8 +76,6 @@
       <p id="topic-body">STUB CONTENT</p>
       <p id="universal-outputclass-keyref">STUB CONTENT</p>
       <p id="universal-outputclass-name">STUB CONTENT</p>
-      <p id="universal-outputclass-specentry">STUB CONTENT</p>
-      <p id="universal-outputclass-spectitle-compact">STUB CONTENT</p>
       <p id="universal-outputclass">STUB CONTENT</p>
       <p id="xref-attributes">STUB CONTENT</p>      
       <p id="release-domain-best-practices">STUB CONTENT</p>
@@ -91,7 +85,6 @@
       <p><xref id="mapkeyref" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
       <p><xref id="outputclass" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
       <p><xref id="spectitle" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
-      <p id="universal-outputclass-spectitle">STUB CONTENT</p>
       <codeblock id="concept-codeblock">STUB CONTENT</codeblock>
       <sectiondiv id="author-attributes">
         <p>STUB CONTENT</p>
@@ -106,9 +99,6 @@
         <p>STUB CONTENT</p>
       </sectiondiv>
       <sectiondiv id="fn-attributes">
-        <p>STUB CONTENT</p>
-      </sectiondiv>
-      <sectiondiv id="note-attributes">
         <p>STUB CONTENT</p>
       </sectiondiv>
       <sectiondiv id="standard-topicmeta-attributes">

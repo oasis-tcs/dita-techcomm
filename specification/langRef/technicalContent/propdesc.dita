@@ -19,9 +19,7 @@ values.</shortdesc>
       </section>
       <section id="attributes">
          <title>Attributes</title>
-         <p
-            conkeyref="conref-attribute/universal-outputclass-specentry"
-         />
+         <p conkeyref="reuse-attributes/universal-specentry"/>
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>

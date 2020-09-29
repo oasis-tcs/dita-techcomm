@@ -22,7 +22,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="conref-attribute/standard-topicmeta-attributes"/></section>
+      <sectiondiv conkeyref="reuse-attributes/standard-topicmeta-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In this example:<ul>
