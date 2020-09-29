@@ -28,10 +28,10 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          keyref="universalAttributes"/>, <xref
-          keyref="linkRelationshipAttributes"/> (with a narrowed definition of
+        keyref="attributes-universal"/>, <xref
+            keyref="attributes-linkRelationship"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), and <xref
-            keyref="thekeyrefattribute"
+            keyref="attributes-keyref"
           ><xmlatt>keyref</xmlatt></xref>.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
@@ -40,7 +40,7 @@
               often be to another <xmlelement>glossAlt</xmlelement> element within the same
                 <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
               alternate for both the primary term and the referenced alternate term. See <xref
-                keyref="thehrefattribute"/> for details on syntax.</dd>
+                keyref="attributes-href"/> for details on syntax.</dd>
           </dlentry>
         </dl></p>
     </section>

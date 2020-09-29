@@ -50,11 +50,11 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="universalAttributes"
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
 />, <xref keyref="attributes-includeElement/encoding"><xmlatt>encoding</xmlatt></xref>, <xref
 keyref="attributes-includeElement/parse"><xmlatt>parse</xmlatt></xref> (with a default value of
-"xml"), and <xref keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>. This element also uses
-<xref keyref="linkRelationshipAttributes"/>, with narrowed definitions of <xmlatt>href</xmlatt> and
+        "xml"), and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>. This element also uses
+        <xref keyref="attributes-linkRelationship"/>, with narrowed definitions of <xmlatt>href</xmlatt> and
 <xmlatt>format</xmlatt> (given below).</p>
       <dl>
         <dlentry>
@@ -65,7 +65,7 @@ keyref="attributes-includeElement/parse"><xmlatt>parse</xmlatt></xref> (with a d
             specified, where the fragment identifier is the XML ID of the
               <xmlelement>svg</xmlelement> element to be used. This attribute is not required, but
             must be specified if <xmlatt>keyref</xmlatt> is not specified. See <xref
-              keyref="thehrefattribute"/> for detailed information on supported values and
+              keyref="attributes-href"/> for detailed information on supported values and
             processing implications.</dd>
         </dlentry>
         <dlentry>

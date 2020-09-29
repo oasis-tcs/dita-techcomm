@@ -30,20 +30,20 @@ and expanded versions of that acronym.</shortdesc>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-          keyref="universalAttributes"/>, <xref
-            keyref="topicrefElementAttributes"/>, <xref
-          keyref="linkRelationshipAttributes"/> (with a narrowed definition of
+        keyref="attributes-universal"/>, <xref
+            keyref="attributes-topicrefElement"/>, <xref
+              keyref="attributes-linkRelationship"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), <xref
-          keyref="thekeyrefattribute"><xmlatt>keyref</xmlatt></xref>, and the
+            keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
           <xmlatt>collection-type</xmlatt>, <xmlatt>locktitle</xmlatt>, <xmlatt>chunk</xmlatt>, and
-          <xmlatt>search</xmlatt> from <xref keyref="commonMapAttributes"/>; this
-        element also uses narrowed definitions of <xmlatt>linking</xmlatt>, <xmlatt>toc</xmlatt>,
-        and <xmlatt>print</xmlatt> from <xref keyref="commonMapAttributes"/>, given below.<dl>
+        <xmlatt>search</xmlatt> from <xref keyref="attributes-commonMap"/>; this
+        element also uses narrowed definitions of <xmlatt>linking</xmlatt> and <xmlatt>toc</xmlatt>
+        from <xref keyref="attributes-commonMap"/>, given below.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
             <dd>A pointer to a glossary definition, typically a <xmlelement>glossentry</xmlelement>
-              topic. See <xref keyref="thehrefattribute"/> for detailed information
+              topic. See <xref keyref="attributes-href"/> for detailed information
               on supported values and processing implications. <ph
                 conkeyref="conref-attribute/non-dita-href"/></dd>
           </dlentry>
@@ -51,7 +51,7 @@ and expanded versions of that acronym.</shortdesc>
             <dt><xmlatt>keys</xmlatt>
               <ph conkeyref="conref-attribute/required-attr"/></dt>
             <dd>Associates one or more space-delimited keys with the target of the glossary
-              reference. See <xref keyref="thekeysattribute"/> for information on
+              reference. See <xref keyref="attributes-keys"/> for information on
               using the attribute.</dd>
           </dlentry>
           <dlentry conkeyref="conref-attribute/toc-default-no">

@@ -28,15 +28,15 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="universalAttributes"
-        />, <xref keyref="displayAttributes"/>, <xref keyref="simpletableAttributes"/> (with a
+      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+      />, <xref keyref="attributes-display"/>, <xref keyref="attributes-simpletableElement"/> (with a
         narrowed definition of <xmlatt>keycol</xmlatt>, given below), and <xref
-          keyref="specializationAttributes/spectitle"/>.<dl>
+          keyref="attributes-specialization/spectitle"/>.<dl>
           <dlentry>
             <dt><xmlatt>keycol</xmlatt></dt>
             <dd>Defines the column that contains headings for each row. The default value for
                 <xmlatt>keycol</xmlatt> on <xmlelement>choicetable</xmlelement> is "1". Otherwise,
-              the attribute is the same as defined in <xref keyref="simpletableAttributes"/>.</dd>
+              the attribute is the same as defined in <xref keyref="attributes-simpletableElement"/>.</dd>
           </dlentry>
         </dl></p>
     </section>
