@@ -21,10 +21,7 @@
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>; it is defined in the glossary entry module.</p>
     </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-attributes/note-attributes"/>
-    </section>
+    <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>See the example in <xref href="glossentry.dita#glossentry/example"

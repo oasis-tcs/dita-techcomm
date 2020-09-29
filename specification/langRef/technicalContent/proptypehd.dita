@@ -19,9 +19,7 @@ type column of a properties table.</shortdesc>
             </section>
             <section id="attributes">
                   <title>Attributes</title>
-                  <p
-                        conkeyref="reuse-attributes/universal-outputclass-specentry"
-                  />
+                  <p conkeyref="reuse-attributes/universal-specentry"/>
             </section>
             <example id="example" otherprops="examples">
                   <title>Example</title>

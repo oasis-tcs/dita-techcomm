@@ -29,7 +29,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="reuse-attributes/universal-outputclass-spectitle"/>
+      <p conkeyref="reuse-attributes/universal-spectitle"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
