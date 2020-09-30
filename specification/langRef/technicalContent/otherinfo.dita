@@ -25,7 +25,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;organization<?Pub Caret?>info&gt;
+      <codeblock>&lt;organizationinfo&gt;
  &lt;namedetails&gt;
   &lt;organizationnamedetails&gt;
    &lt;organizationname&gt;WizardWorks, Inc.&lt;/organizationname&gt;
