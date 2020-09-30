@@ -3,7 +3,7 @@
 <map>
     <title>SVG domain elements</title>
     <topicref href="containers/SVG-elements.dita">
-        <topicref href="technicalContent/svg-container.dita" keys="svg-container"/>
-        <topicref href="technicalContent/svgref.dita" keys="svgref"/>
+        <topicref keyref="elements-svg-container"/>
+        <topicref keyref="elements-svgref"/>
     </topicref>
 </map>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Release-management domain element keys</title>
+  <keydef href="technicalContent/change-completed.dita" keys="elements-change-completed"/>
+  <keydef href="technicalContent/change-historylist.dita" keys="elements-change-historylist"/>
+  <keydef href="technicalContent/change-item.dita" keys="elements-change-item"/>
+  <keydef href="technicalContent/change-organization.dita" keys="elements-change-organization"/>
+  <keydef href="technicalContent/change-person.dita" keys="elements-change-person"/>
+  <keydef href="technicalContent/change-request-id.dita" keys="elements-change-request-id"/>
+  <keydef href="technicalContent/change-request-reference.dita" keys="elements-change-request-reference"/>
+  <keydef href="technicalContent/change-request-system.dita" keys="elements-change-request-system"/>
+  <keydef href="technicalContent/change-revisionid.dita" keys="elements-change-revisionid"/>
+  <keydef href="technicalContent/change-started.dita" keys="elements-change-started"/>
+  <keydef href="technicalContent/change-summary.dita" keys="elements-change-summary"/>
+</map>

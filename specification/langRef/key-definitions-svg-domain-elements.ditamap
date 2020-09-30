@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>SVG domain element keys</title>
+    <keydef href="technicalContent/svg-container.dita" keys="elements-svg-container"/>
+    <keydef href="technicalContent/svgref.dita" keys="elements-svgref"/>
+</map>

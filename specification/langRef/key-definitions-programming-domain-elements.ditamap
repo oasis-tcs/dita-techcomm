@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Programming domain element keys</title>
+  <keydef href="technicalContent/apiname.dita" keys="elements-apiname"/>
+  <keydef href="technicalContent/codeblock.dita" keys="elements-codeblock"/>
+  <keydef href="technicalContent/codeph.dita" keys="elements-codeph"/>
+  <keydef href="technicalContent/coderef.dita" keys="elements-coderef"/>
+  <keydef href="technicalContent/option.dita" keys="elements-option"/>
+  <keydef href="technicalContent/parmname.dita" keys="elements-parmname"/>
+  <keydef href="technicalContent/parml.dita" keys="elements-parml"/>
+  <keydef href="technicalContent/plentry.dita" keys="elements-plentry"/>
+  <keydef href="technicalContent/pt.dita" keys="elements-pt"/>
+  <keydef href="technicalContent/pd.dita" keys="elements-pd"/>
+</map>

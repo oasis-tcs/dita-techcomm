@@ -2,33 +2,33 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map id="glosssary-elements">
  <title>Glossary elements</title>
- <topicref href="containers/glossary-elements.dita"><topicmeta><navtitle>Glossary elements</navtitle></topicmeta>
+ <topicref href="containers/glossary-elements.dita">
   <!-- Glossary content elements-->
-  <topicref href="containers/glossentry-elements.dita"><topicmeta><navtitle>Glossentry elements</navtitle></topicmeta>
+  <topicref href="containers/glossentry-elements.dita">
    
-   <topicref href="technicalContent/glossentry.dita" keys="glossentry"><topicmeta><navtitle>glossentry</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossterm.dita" keys="glossterm"><topicmeta><navtitle>glossterm</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossdef.dita" keys="glossdef"><topicmeta><navtitle>glossdef</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossAbbreviation.dita" keys="glossAbbreviation"><topicmeta><navtitle>glossAbbreviation</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossAcronym.dita" keys="glossAcronym"><topicmeta><navtitle>glossAcronym</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossAlt.dita" keys="glossAlt"><topicmeta><navtitle>glossAlt</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossAlternateFor.dita" keys="glossAlternateFor"><topicmeta><navtitle>glossAlternateFor</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossBody.dita" keys="glossBody"><topicmeta><navtitle>glossBody</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossPartOfSpeech.dita" keys="glossPartOfSpeech"><topicmeta><navtitle>glossPartOfSpeech</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossProperty.dita" keys="glossProperty"><topicmeta><navtitle>glossProperty</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossScopeNote.dita" keys="glossScopeNote"><topicmeta><navtitle>glossScopeNote</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossShortForm.dita" keys="glossShortForm"><topicmeta><navtitle>glossShortForm</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossStatus.dita" keys="glossStatus"><topicmeta><navtitle>glossStatus</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossSurfaceForm.dita" keys="glossSurfaceForm"><topicmeta><navtitle>glossSurfaceForm</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossSymbol.dita" keys="glossSymbol"><topicmeta><navtitle>glossSymbol</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossSynonym.dita" keys="glossSynonym"><topicmeta><navtitle>glossSynonym</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossUsage.dita" keys="glossUsage"><topicmeta><navtitle>glossUsage</navtitle></topicmeta></topicref>
+   <topicref keyref="elements-glossentry"/>
+   <topicref keyref="elements-glossterm"/>
+   <topicref keyref="elements-glossdef"/>
+   <topicref keyref="elements-glossAbbreviation"/>
+   <topicref keyref="elements-glossAcronym"/>
+   <topicref keyref="elements-glossAlt"/>
+   <topicref keyref="elements-glossAlternateFor"/>
+   <topicref keyref="elements-glossBody"/>
+   <topicref keyref="elements-glossPartOfSpeech"/>
+   <topicref keyref="elements-glossProperty"/>
+   <topicref keyref="elements-glossScopeNote"/>
+   <topicref keyref="elements-glossShortForm"/>
+   <topicref keyref="elements-glossStatus"/>
+   <topicref keyref="elements-glossSurfaceForm"/>
+   <topicref keyref="elements-glossSymbol"/>
+   <topicref keyref="elements-glossSynonym"/>
+   <topicref keyref="elements-glossUsage"/>
   </topicref>
   <!--Glossary related elements-->
-  <topicref href="containers/glossary-related-elements.dita"><topicmeta><navtitle>Glossary related elements</navtitle></topicmeta>
-   <topicref href="technicalContent/abbreviated-form.dita" keys="abbreviated-form"><topicmeta><navtitle>abbreviated-form</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossref.dita" keys="glossref"><topicmeta><navtitle>glossref</navtitle></topicmeta></topicref>
-   <topicref href="technicalContent/glossgroup.dita" keys="glossgroup"><topicmeta><navtitle>glossgroup</navtitle></topicmeta></topicref>
+  <topicref href="containers/glossary-related-elements.dita">
+   <topicref keyref="elements-abbreviated-form"/>
+   <topicref keyref="elements-glossref"/>
+   <topicref keyref="elements-glossgroup"/>
   </topicref>
  </topicref>
 </map>

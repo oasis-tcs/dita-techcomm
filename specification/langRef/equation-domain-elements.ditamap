@@ -3,13 +3,9 @@
 <map>
     <title>Equation domain elements</title>
     <topicref href="containers/equation-elements.dita">
-        <topicref href="technicalContent/equation-block.dita"
-            keys="equation-block"/>
-        <topicref href="technicalContent/equation-figure.dita"
-            keys="equation-figure"/>
-        <topicref href="technicalContent/equation-inline.dita"
-            keys="equation-inline"/>
-        <topicref href="technicalContent/equation-number.dita"
-            keys="equation-number"/>
+        <topicref keyref="elements-equation-block"/>
+        <topicref keyref="elements-equation-figure"/>
+        <topicref keyref="elements-equation-inline"/>
+        <topicref keyref="elements-equation-number"/>
     </topicref>
 </map>

@@ -3,19 +3,12 @@
 <map>
  <title>XML-mention domain elements</title>
  <topicref href="containers/xml-mention-domain.dita">
-  <topicref href="technicalContent/numcharref.dita" keys="numcharref"
-   />
-  <topicref href="technicalContent/parameterentity.dita"
-   keys="parameterentity" />
-  <topicref href="technicalContent/textentity.dita" keys="textentity"
-   />
-  <topicref href="technicalContent/xmlatt.dita" keys="xmlatt"
-   />
-  <topicref href="technicalContent/xmlelement.dita" keys="xmlelement"
-   />
-  <topicref href="technicalContent/xmlnsname.dita" keys="xmlnsname"
-   />
-  <topicref href="technicalContent/xmlpi.dita" keys="xmlpi"
-   />
+  <topicref keyref="elements-numcharref"/>
+  <topicref keyref="elements-parameterentity" />
+  <topicref keyref="elements-textentity"/>
+  <topicref keyref="elements-xmlatt"/>
+  <topicref keyref="elements-xmlelement"/>
+  <topicref keyref="elements-xmlnsname"/>
+  <topicref keyref="elements-xmlpi"/>
  </topicref>
 </map>

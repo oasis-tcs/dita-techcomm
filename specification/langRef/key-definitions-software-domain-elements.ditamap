@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Software domain element keys</title>
+  <keydef href="technicalContent/msgph.dita" keys="elements-msgph"/>
+  <keydef href="technicalContent/msgblock.dita" keys="elements-msgblock"/>
+  <keydef href="technicalContent/msgnum.dita" keys="elements-msgnum"/>
+  <keydef href="technicalContent/cmdname.dita" keys="elements-cmdname"/>
+  <keydef href="technicalContent/varname.dita" keys="elements-varname"/>
+  <keydef href="technicalContent/filepath.dita" keys="elements-filepath"/>
+  <keydef href="technicalContent/userinput.dita" keys="elements-userinput"/>
+  <keydef href="technicalContent/systemoutput.dita" keys="elements-systemoutput"/>
+</map>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+ "map.dtd">
+<map id="technicalContent_elements_keys" xml:lang="en-us">
+ <title>Key definitions for technical content elements</title>
+ 
+ <mapref href="key-definitions-bookmap-elements.ditamap"/>
+ <mapref href="key-definitions-concept-elements.ditamap"/>
+ <mapref href="key-definitions-glosssary-elements.ditamap"/>
+ <mapref href="key-definitions-reference-elements.ditamap"/>
+ <mapref href="key-definitions-task-elements.ditamap"/>
+ <mapref href="key-definitions-troubleshooting-elements.ditamap"/>
+ 
+ <mapref href="key-definitions-equation-domain-elements.ditamap"/>
+ <mapref href="key-definitions-markup-domain-elements.ditamap"/>
+ <mapref href="key-definitions-mathml-domain-elements.ditamap"/>
+ <mapref href="key-definitions-programming-domain-elements.ditamap"/>
+ <mapref href="key-definitions-release-management-domain-elements.ditamap"/>
+ <mapref href="key-definitions-software-domain-elements.ditamap"/>
+ <mapref href="key-definitions-svg-domain-elements.ditamap"/>
+ <mapref href="key-definitions-syntax-diagram-domain-elements.ditamap"/>
+ <mapref href="key-definitions-ui-domain-elements.ditamap"/>
+ <mapref href="key-definitions-xml-mention-domain-elements.ditamap"/>
+ <mapref href="key-definitions-xnal-domain-elements.ditamap"/>
+</map>

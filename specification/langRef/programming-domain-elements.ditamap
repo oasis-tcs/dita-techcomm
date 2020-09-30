@@ -3,15 +3,15 @@
 <map>
  <title>Programming domain elements</title>
  <topicref href="containers/pr-d.dita">
-  <topicref href="technicalContent/apiname.dita" keys="apiname"/>
-  <topicref href="technicalContent/codeblock.dita" keys="codeblock"/>
-  <topicref href="technicalContent/codeph.dita" keys="codeph"/>
-  <topicref href="technicalContent/coderef.dita" keys="coderef"/>
-  <topicref href="technicalContent/option.dita" keys="option"/>
-  <topicref href="technicalContent/parmname.dita" keys="parmname"/>
-  <topicref href="technicalContent/parml.dita" keys="parml"/>
-  <topicref href="technicalContent/plentry.dita" keys="plentry"/>
-  <topicref href="technicalContent/pt.dita" keys="pt"/>
-  <topicref href="technicalContent/pd.dita" keys="pd"/>
+  <topicref keyref="elements-apiname"/>
+  <topicref keyref="elements-codeblock"/>
+  <topicref keyref="elements-codeph"/>
+  <topicref keyref="elements-coderef"/>
+  <topicref keyref="elements-option"/>
+  <topicref keyref="elements-parmname"/>
+  <topicref keyref="elements-parml"/>
+  <topicref keyref="elements-plentry"/>
+  <topicref keyref="elements-pt"/>
+  <topicref keyref="elements-pd"/>
  </topicref>
 </map>

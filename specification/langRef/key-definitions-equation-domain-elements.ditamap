@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Equation domain element keys</title>
+    <keydef href="technicalContent/equation-block.dita" keys="elements-equation-block"/>
+    <keydef href="technicalContent/equation-figure.dita" keys="elements-equation-figure"/>
+    <keydef href="technicalContent/equation-inline.dita" keys="elements-equation-inline"/>
+    <keydef href="technicalContent/equation-number.dita" keys="elements-equation-number"/>
+</map>

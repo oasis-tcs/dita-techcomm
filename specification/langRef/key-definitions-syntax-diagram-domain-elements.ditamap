@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Syntax diagram domain element keys</title>
+  <keydef href="technicalContent/synph.dita" keys="elements-synph"/>
+  <keydef href="technicalContent/syntaxdiagram.dita" keys="elements-syntaxdiagram"/>
+  <keydef href="technicalContent/groupseq.dita" keys="elements-groupseq"/>
+  <keydef href="technicalContent/groupchoice.dita" keys="elements-groupchoice"/>
+  <keydef href="technicalContent/groupcomp.dita" keys="elements-groupcomp"/>
+  <keydef href="technicalContent/fragment.dita" keys="elements-fragment"/>
+  <keydef href="technicalContent/fragref.dita" keys="elements-fragref"/>
+  <keydef href="technicalContent/synblk.dita" keys="elements-synblk"/>
+  <keydef href="technicalContent/synnote.dita" keys="elements-synnote"/>
+  <keydef href="technicalContent/synnoteref.dita" keys="elements-synnoteref"/>
+  <keydef href="technicalContent/kwd.dita" keys="elements-kwd"/>
+  <keydef href="technicalContent/var.dita" keys="elements-var"/>
+  <keydef href="technicalContent/oper.dita" keys="elements-oper"/>
+  <keydef href="technicalContent/delim.dita" keys="elements-delim"/>
+  <keydef href="technicalContent/sep.dita" keys="elements-sep"/>
+  <keydef href="technicalContent/repsep.dita" keys="elements-repsep"/>
+</map>

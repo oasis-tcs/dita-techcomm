@@ -3,7 +3,7 @@
 <map>
     <title>MathML domain elements</title>
     <topicref href="containers/mathml-d.dita">
-        <topicref href="technicalContent/mathml.dita" keys="mathml"/>
-        <topicref href="technicalContent/mathmlref.dita" keys="mathmlref"/>
+        <topicref keyref="elements-mathml"/>
+        <topicref keyref="elements-mathmlref"/>
     </topicref>
 </map>

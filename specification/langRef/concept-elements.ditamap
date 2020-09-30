@@ -3,9 +3,8 @@
 <map>
  <title>Concept elements</title>
  <topicref href="containers/concept-elements.dita">
-  <?Pub Dtl?>
-  <topicref href="technicalContent/concept.dita" keys="concept"/>
-  <topicref href="technicalContent/conbody.dita" keys="conbody"/>
-  <topicref href="technicalContent/conbodydiv.dita" keys="conbodydiv"/>
+  <topicref keyref="elements-concept"/>
+  <topicref keyref="elements-conbody"/>
+  <topicref keyref="elements-conbodydiv"/>
  </topicref>
 </map>
