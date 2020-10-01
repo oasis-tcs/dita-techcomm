@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>User-interface domain element keys</title>
+  <keydef href="technicalContent/uicontrol.dita" keys="elements-uicontrol"/>
+  <keydef href="technicalContent/wintitle.dita" keys="elements-wintitle"/>
+  <keydef href="technicalContent/menucascade.dita" keys="elements-menucascade"/>
+  <keydef href="technicalContent/shortcut.dita" keys="elements-shortcut"/>
+  <keydef href="technicalContent/screen.dita" keys="elements-screen"/>
+</map>

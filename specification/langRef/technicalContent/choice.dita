@@ -14,5 +14,5 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref keyref="choices"/></p>
+      <p>See <xref keyref="elements-choices"/></p>
     </example></refbody></reference>

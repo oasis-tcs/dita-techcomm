@@ -3,18 +3,18 @@
 <map>
  <title>Reference elements</title>
  <topicref href="containers/reference-elements.dita">
-  <topicref href="technicalContent/reference.dita" keys="reference"/>
-  <topicref href="technicalContent/refbody.dita" keys="refbody"/>
-  <topicref href="technicalContent/refbodydiv.dita" keys="refbodydiv"/>
-  <topicref href="technicalContent/refsyn.dita" keys="refsyn"/>
-  <topicref href="technicalContent/properties.dita" keys="properties"/>
-  <topicref href="technicalContent/prophead.dita" keys="prophead"/>
-  <topicref href="technicalContent/proptypehd.dita" keys="proptypehd"/>
-  <topicref href="technicalContent/propvaluehd.dita" keys="propvaluehd"/>
-  <topicref href="technicalContent/propdeschd.dita" keys="propdeschd"/>
-  <topicref href="technicalContent/property.dita" keys="property"/>
-  <topicref href="technicalContent/proptype.dita" keys="proptype"/>
-  <topicref href="technicalContent/propvalue.dita" keys="propvalue"/>
-  <topicref href="technicalContent/propdesc.dita" keys="propdesc"/>
+  <topicref keyref="elements-reference"/>
+  <topicref keyref="elements-refbody"/>
+  <topicref keyref="elements-refbodydiv"/>
+  <topicref keyref="elements-refsyn"/>
+  <topicref keyref="elements-properties"/>
+  <topicref keyref="elements-prophead"/>
+  <topicref keyref="elements-proptypehd"/>
+  <topicref keyref="elements-propvaluehd"/>
+  <topicref keyref="elements-propdeschd"/>
+  <topicref keyref="elements-property"/>
+  <topicref keyref="elements-proptype"/>
+  <topicref keyref="elements-propvalue"/>
+  <topicref keyref="elements-propdesc"/>
  </topicref>
 </map>

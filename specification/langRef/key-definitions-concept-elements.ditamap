@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Concept element keys</title>
+ <keydef href="technicalContent/concept.dita" keys="elements-concept"/>
+ <keydef href="technicalContent/conbody.dita" keys="elements-conbody"/>
+ <keydef href="technicalContent/conbodydiv.dita" keys="elements-conbodydiv"/>
+</map>

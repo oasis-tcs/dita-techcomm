@@ -2,17 +2,13 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Troubleshooting elements</title>
- <topicref href="containers/troubleshooting-elements.dita"
-  >
-  <topicref href="technicalContent/troubleshooting.dita" keys="troubleshooting"
-   />
-  <topicref href="technicalContent/troublebody.dita" keys="troublebody" />
-  <topicref href="technicalContent/condition.dita" keys="condition" />
-  <topicref href="technicalContent/troubleSolution.dita" keys="troubleSolution"
-   />
-  <topicref href="technicalContent/cause.dita" keys="cause" />
-  <topicref href="technicalContent/remedy.dita" keys="remedy" />
-  <topicref href="technicalContent/responsibleParty.dita" keys="responsibleParty"
-   />
+ <topicref href="containers/troubleshooting-elements.dita">
+  <topicref keyref="elements-troubleshooting"/>
+  <topicref keyref="elements-troublebody"/>
+  <topicref keyref="elements-condition"/>
+  <topicref keyref="elements-troubleSolution"/>
+  <topicref keyref="elements-cause"/>
+  <topicref keyref="elements-remedy"/>
+  <topicref keyref="elements-responsibleParty"/>
  </topicref>
 </map>

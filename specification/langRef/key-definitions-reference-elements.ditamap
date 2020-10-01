@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Reference element keys</title>
+  <keydef href="technicalContent/reference.dita" keys="elements-reference"/>
+  <keydef href="technicalContent/refbody.dita" keys="elements-refbody"/>
+  <keydef href="technicalContent/refbodydiv.dita" keys="elements-refbodydiv"/>
+  <keydef href="technicalContent/refsyn.dita" keys="elements-refsyn"/>
+  <keydef href="technicalContent/properties.dita" keys="elements-properties"/>
+  <keydef href="technicalContent/prophead.dita" keys="elements-prophead"/>
+  <keydef href="technicalContent/proptypehd.dita" keys="elements-proptypehd"/>
+  <keydef href="technicalContent/propvaluehd.dita" keys="elements-propvaluehd"/>
+  <keydef href="technicalContent/propdeschd.dita" keys="elements-propdeschd"/>
+  <keydef href="technicalContent/property.dita" keys="elements-property"/>
+  <keydef href="technicalContent/proptype.dita" keys="elements-proptype"/>
+  <keydef href="technicalContent/propvalue.dita" keys="elements-propvalue"/>
+  <keydef href="technicalContent/propdesc.dita" keys="elements-propdesc"/>
+</map>

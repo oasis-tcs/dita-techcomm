@@ -2,27 +2,17 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Release-management domain elements</title>
- <topicref href="containers/Release-management-domain-elements.dita" >
-  <topicref href="technicalContent/change-completed.dita" keys="change-completed"
-   />
-  <topicref href="technicalContent/change-historylist.dita" keys="change-historylist"
-   />
-  <topicref href="technicalContent/change-item.dita" keys="change-item" />
-  <topicref href="technicalContent/change-organization.dita" keys="change-organization"
-   />
-  <topicref href="technicalContent/change-person.dita" keys="change-person"
-   />
-  <topicref href="technicalContent/change-request-id.dita" keys="change-request-id"
-   />
-  <topicref href="technicalContent/change-request-reference.dita" keys="change-request-reference"
-   />
-  <topicref href="technicalContent/change-request-system.dita" keys="change-request-system"
-   />
-  <topicref href="technicalContent/change-revisionid.dita" keys="change-revisionid"
-   />
-  <topicref href="technicalContent/change-started.dita" keys="change-started"
-   />
-  <topicref href="technicalContent/change-summary.dita" keys="change-summary"
-   />
+ <topicref href="containers/Release-management-domain-elements.dita">
+  <topicref keyref="elements-change-completed"/>
+  <topicref keyref="elements-change-historylist"/>
+  <topicref keyref="elements-change-item"/>
+  <topicref keyref="elements-change-organization"/>
+  <topicref keyref="elements-change-person"/>
+  <topicref keyref="elements-change-request-id"/>
+  <topicref keyref="elements-change-request-reference"/>
+  <topicref keyref="elements-change-request-system"/>
+  <topicref keyref="elements-change-revisionid"/>
+  <topicref keyref="elements-change-started"/>
+  <topicref keyref="elements-change-summary"/>
  </topicref>
 </map>

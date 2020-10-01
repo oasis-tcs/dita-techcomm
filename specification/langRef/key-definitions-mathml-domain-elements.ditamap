@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>MathML domain element keys</title>
+    <keydef href="technicalContent/mathml.dita" keys="elements-mathml"/>
+    <keydef href="technicalContent/mathmlref.dita" keys="elements-mathmlref"/>
+</map>

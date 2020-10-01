@@ -3,32 +3,32 @@
 <map>
  <title>Task elements</title>
  <topicref href="containers/task-elements.dita">
-  <topicref href="technicalContent/chdesc.dita" keys="chdesc"/>
-  <topicref href="technicalContent/chdeschd.dita" keys="chdeschd"/>
-  <topicref href="technicalContent/chhead.dita" keys="chhead"/>
-  <topicref href="technicalContent/choice.dita" keys="choice"/>
-  <topicref href="technicalContent/choices.dita" keys="choices"/>
-  <topicref href="technicalContent/choicetable.dita" keys="choicetable"/>
-  <topicref href="technicalContent/choption.dita" keys="choption"/>
-  <topicref href="technicalContent/choptionhd.dita" keys="choptionhd"/>
-  <topicref href="technicalContent/chrow.dita" keys="chrow"/>
-  <topicref href="technicalContent/cmd.dita" keys="cmd"/>
-  <topicref href="technicalContent/context.dita" keys="context"/>
-  <topicref href="technicalContent/info.dita" keys="info"/>
-  <topicref href="technicalContent/postreq.dita" keys="postreq"/>
-  <topicref href="technicalContent/prereq.dita" keys="prereq"/>
-  <topicref href="technicalContent/result.dita" keys="result"/>
-  <topicref href="technicalContent/step.dita" keys="step"/>
-  <topicref href="technicalContent/stepresult.dita" keys="stepresult"/>
-  <topicref href="technicalContent/steps.dita" keys="steps"/>
-  <topicref href="technicalContent/steps-informal.dita" keys="steps-informal"/>
-  <topicref href="technicalContent/steps-unordered.dita" keys="steps-unordered"/>
-  <topicref href="technicalContent/stepsection.dita" keys="stepsection"/>
-  <topicref href="technicalContent/steptroubleshooting.dita" keys="steptroubleshooting"/>
-  <topicref href="technicalContent/stepxmp.dita" keys="stepxmp"/>
-  <topicref href="technicalContent/task.dita" keys="task"/>
-  <topicref href="technicalContent/taskbody.dita" keys="taskbody"/>
-  <topicref href="technicalContent/tasktroubleshooting.dita" keys="tasktroubleshooting"/>
-  <topicref href="technicalContent/tutorialinfo.dita" keys="tutorialinfo"/>
+  <topicref keyref="elements-chdesc"/>
+  <topicref keyref="elements-chdeschd"/>
+  <topicref keyref="elements-chhead"/>
+  <topicref keyref="elements-choice"/>
+  <topicref keyref="elements-choices"/>
+  <topicref keyref="elements-choicetable"/>
+  <topicref keyref="elements-choption"/>
+  <topicref keyref="elements-choptionhd"/>
+  <topicref keyref="elements-chrow"/>
+  <topicref keyref="elements-cmd"/>
+  <topicref keyref="elements-context"/>
+  <topicref keyref="elements-info"/>
+  <topicref keyref="elements-postreq"/>
+  <topicref keyref="elements-prereq"/>
+  <topicref keyref="elements-result"/>
+  <topicref keyref="elements-step"/>
+  <topicref keyref="elements-stepresult"/>
+  <topicref keyref="elements-steps"/>
+  <topicref keyref="elements-steps-informal"/>
+  <topicref keyref="elements-steps-unordered"/>
+  <topicref keyref="elements-stepsection"/>
+  <topicref keyref="elements-steptroubleshooting"/>
+  <topicref keyref="elements-stepxmp"/>
+  <topicref keyref="elements-task"/>
+  <topicref keyref="elements-taskbody"/>
+  <topicref keyref="elements-tasktroubleshooting"/>
+  <topicref keyref="elements-tutorialinfo"/>
  </topicref>
 </map>

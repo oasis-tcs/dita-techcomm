@@ -3,6 +3,6 @@
 <map>
     <title>Markup domain elements</title>
     <topicref href="containers/markup-domain.dita">
-        <topicref href="technicalContent/markupname.dita" keys="markupname"/>
+        <topicref keyref="elements-markupname"/>
     </topicref>
 </map>

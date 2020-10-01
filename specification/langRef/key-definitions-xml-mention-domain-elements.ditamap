@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>XML-mention domain element keys</title>
+  <keydef href="technicalContent/numcharref.dita" keys="elements-numcharref"/>
+  <keydef href="technicalContent/parameterentity.dita" keys="elements-parameterentity"/>
+  <keydef href="technicalContent/textentity.dita" keys="elements-textentity"/>
+  <keydef href="technicalContent/xmlatt.dita" keys="elements-xmlatt"/>
+  <keydef href="technicalContent/xmlelement.dita" keys="elements-xmlelement"/>
+  <keydef href="technicalContent/xmlnsname.dita" keys="elements-xmlnsname"/>
+  <keydef href="technicalContent/xmlpi.dita" keys="elements-xmlpi"/>
+</map>

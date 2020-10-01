@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Task element keys</title>
+  <keydef href="technicalContent/chdesc.dita" keys="elements-chdesc"/>
+  <keydef href="technicalContent/chdeschd.dita" keys="elements-chdeschd"/>
+  <keydef href="technicalContent/chhead.dita" keys="elements-chhead"/>
+  <keydef href="technicalContent/choice.dita" keys="elements-choice"/>
+  <keydef href="technicalContent/choices.dita" keys="elements-choices"/>
+  <keydef href="technicalContent/choicetable.dita" keys="elements-choicetable"/>
+  <keydef href="technicalContent/choption.dita" keys="elements-choption"/>
+  <keydef href="technicalContent/choptionhd.dita" keys="elements-choptionhd"/>
+  <keydef href="technicalContent/chrow.dita" keys="elements-chrow"/>
+  <keydef href="technicalContent/cmd.dita" keys="elements-cmd"/>
+  <keydef href="technicalContent/context.dita" keys="elements-context"/>
+  <keydef href="technicalContent/info.dita" keys="elements-info"/>
+  <keydef href="technicalContent/postreq.dita" keys="elements-postreq"/>
+  <keydef href="technicalContent/prereq.dita" keys="elements-prereq"/>
+  <keydef href="technicalContent/result.dita" keys="elements-result"/>
+  <keydef href="technicalContent/step.dita" keys="elements-step"/>
+  <keydef href="technicalContent/stepresult.dita" keys="elements-stepresult"/>
+  <keydef href="technicalContent/steps.dita" keys="elements-steps"/>
+  <keydef href="technicalContent/steps-informal.dita" keys="elements-steps-informal"/>
+  <keydef href="technicalContent/steps-unordered.dita" keys="elements-steps-unordered"/>
+  <keydef href="technicalContent/stepsection.dita" keys="elements-stepsection"/>
+  <keydef href="technicalContent/steptroubleshooting.dita" keys="elements-steptroubleshooting"/>
+  <keydef href="technicalContent/stepxmp.dita" keys="elements-stepxmp"/>
+  <keydef href="technicalContent/task.dita" keys="elements-task"/>
+  <keydef href="technicalContent/taskbody.dita" keys="elements-taskbody"/>
+  <keydef href="technicalContent/tasktroubleshooting.dita" keys="elements-tasktroubleshooting"/>
+  <keydef href="technicalContent/tutorialinfo.dita" keys="elements-tutorialinfo"/>
+</map>

@@ -35,6 +35,7 @@
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
     <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap" format="ditamap"/>
     <keydef href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita" keys="reuse-note"/>
+    <mapref href="langRef/key-definitions-tc-elements.ditamap"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <!--    <mapref href="dita-20-key-definitions-common-metadata.ditamap" processing-role="resource-only"/>
     <mapref href="dita-20-key-definitions-part2-metadata.ditamap" processing-role="resource-only"/>-->
