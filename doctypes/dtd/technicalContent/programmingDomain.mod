@@ -166,8 +166,7 @@
 
 <!--                    LONG NAME: Parameter List                  -->
 <!ENTITY % parml.content
-                       "((%data; |
-                          %data-about;)*,
+                       "((%data;)*,
                          (%plentry;)+)"
 >
 <!ENTITY % parml.attributes

@@ -185,8 +185,7 @@
 
 <!--                    LONG NAME: Steps                           -->
 <!ENTITY % steps.content
-                       "((%data; |
-                          %data-about;)*,
+                       "((%data;)*,
                          ((%stepsection;)?,
                           (%step;))+)"
 >
@@ -199,8 +198,7 @@
 
 <!--                    LONG NAME: Unordered steps                 -->
 <!ENTITY % steps-unordered.content
-                       "((%data; |
-                          %data-about;)*,
+                       "((%data;)*,
                          ((%stepsection;)?,
                           (%step;))+)"
 >
@@ -309,8 +307,7 @@
 
 <!--                    LONG NAME: Choices                         -->
 <!ENTITY % choices.content
-                       "((%data; |
-                          %data-about;)*,
+                       "((%data;)*,
                          (%choice;)+)"
 >
 <!ENTITY % choices.attributes

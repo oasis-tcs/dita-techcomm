@@ -26,8 +26,7 @@
 <!ENTITY % svg-container.content
                        "(svg:svg |
                          %svgref; |
-                         %data; |
-                         %data-about;)*"
+                         %data;)*"
 >
 <!ENTITY % svg-container.attributes
               "%univ-atts;"

@@ -61,7 +61,6 @@ DITA SVG Domain
             </externalRef>
             <ref name="svgref"/>
             <ref name="data"/>
-            <ref name="data-about"/>
           </choice>
         </zeroOrMore>
       </define>
