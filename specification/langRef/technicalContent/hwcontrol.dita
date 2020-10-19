@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="hwcontrol" xml:lang="en-us">
+    <title><xmlelement>hwcontrol</xmlelement></title>
+    <shortdesc>The <xmlelement>hwcontrol</xmlelement> element represents the name of a key, button,
+        switch, or other physical control on a device.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>hardware controls</indexterm>
+                <indexterm>hardware components<indexterm>controls</indexterm></indexterm>
+                <indexterm>hardware
+                    domain<indexterm><xmlelement>hwcontrol</xmlelement></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="usage-information">
+            <title>Usage information</title>
+            <p>If you require different output between different types of hardware controls, you can
+                use the <xmlatt>outputclass</xmlatt> attribute to distinguish between different
+                types of usage. </p>
+        </section>
+        <section id="specialization-hierarchy">
+            <title>Specialization hierarchy</title>
+            <p>The <xmlelement>hwcontrol</xmlelement> element is specialized from
+                    <xmlelement>ph</xmlelement>. It is defined in the hardware domain module.</p>
+        </section>
+        <section id="attributes">
+            <title>Attributes</title>
+            <p>The following attributes are available on this element: <xref
+                    keyref="attributes-universal"/> and <xref keyref="attributes-keyref"
+                        ><xmlatt>keyref</xmlatt></xref>.</p>
+        </section>
+        <example id="example" otherprops="examples">
+            <title>Example</title>
+            <p>The following code samples show how <xmlelement>hwcontrol</xmlelement> can be used
+                within task steps to identify hardware controls, including examples that use
+                    <xmlatt>outputclass</xmlatt> to distiguish between types of controls.</p>
+            <codeblock>&lt;step>&lt;cmd>If the command is already running, 
+select the command window and press <b>&lt;hwcontrol>CTRL+C&lt;/hwcontrol></b>
+to end processing.&lt;/cmd>&lt;/step></codeblock>
+            <codeblock>&lt;step>&lt;cmd>After entering the amount you received, press <b>&lt;hwcontrol>Amt Tend&lt;/hwcontrol></b>.&lt;/cmd>
+  &lt;stepresult>This opens the cash drawer. The display shows the amount 
+  of change to give the customer.&lt;/stepresult>&lt;/step></codeblock>
+            <codeblock>&lt;step>&lt;cmd>To set your machine for this type of hem, set the
+<b>&lt;hwcontrol outputclass="knob">Stitch Length&lt;/hwcontrol></b> to &lt;userinput>3&lt;/userinput>
+and the <b>&lt;hwcontrol outputclass="lever">Stitch Selector&lt;/hwcontrol></b> to
+&lt;userinput>D&lt;/userinput>.</codeblock>
+            <codeblock>&lt;step>&lt;cmd>To sew backwards, set the <b>&lt;hwcontrol outputclass="discrete-control">Stitch
+Length&lt;/hwcontrol></b> to &lt;userinput>Reverse&lt;/userinput> and press the 
+<b>&lt;hwcontrol outputclass="continuous-control">pedal&lt;/hwcontrol></b> with your foot.</codeblock>
+        </example>
+    </refbody>
+</reference>

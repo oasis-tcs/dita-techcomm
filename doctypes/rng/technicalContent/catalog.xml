@@ -46,6 +46,10 @@
               uri="glossrefDomain.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:glossrefDomain.rng:2.x"
               uri="glossrefDomain.rng"/>
+      <system systemId="urn:oasis:names:tc:dita:rng:hwDomain.rng:2.0"
+              uri="hwDomain.rng"/>
+      <system systemId="urn:oasis:names:tc:dita:rng:hwDomainDomain.rng:2.x"
+              uri="hwDomain.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:map.rng:2.0" uri="map.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:map.rng:2.x" uri="map.rng"/>
       <system systemId="urn:oasis:names:tc:dita:rng:markupDomain.rng:2.0"
@@ -164,6 +168,10 @@
            uri="glossrefDomain.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:glossrefDomain.rng:2.x"
            uri="glossrefDomain.rng"/>
+      <uri name="urn:oasis:names:tc:dita:rng:hwDomain.rng:2.0"
+           uri="hwDomain.rng"/>
+      <uri name="urn:oasis:names:tc:dita:rng:hwDomain.rng:2.x"
+           uri="hwDomain.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:map.rng:2.0" uri="map.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:map.rng:2.x" uri="map.rng"/>
       <uri name="urn:oasis:names:tc:dita:rng:markupDomain.rng:2.0"

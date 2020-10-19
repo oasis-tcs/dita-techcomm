@@ -75,6 +75,11 @@
          "../base/highlightDomain.ent"
 >%hi-d-dec;
 
+<!ENTITY % hw-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Hardware Domain//EN"
+         "../technicalContent/hwDomain.ent"
+>%hw-d-dec;
+
 <!ENTITY % markup-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Markup Domain//EN"
          "../technicalContent/markupDomain.ent"
@@ -165,6 +170,7 @@
                         ">
 <!ENTITY % ph           "ph |
                          %hi-d-ph; |
+                         %hw-d-ph; |
                          %pr-d-ph; |
                          %sw-d-ph; |
                          %syntaxdiagram-d-ph; |
@@ -278,6 +284,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
          "../base/highlightDomain.mod"
 >%hi-d-def;
+
+<!ENTITY % hw-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Hardware Domain//EN"
+         "../technicalContent/hwDomain.mod"
+>%hw-d-def;
 
 <!ENTITY % markup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Markup Domain//EN"

@@ -54,6 +54,11 @@
          "../base/highlightDomain.ent"
 >%hi-d-dec;
 
+<!ENTITY % hw-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Hardware Domain//EN"
+         "hwDomain.ent"
+>%hw-d-dec;
+
 <!ENTITY % abbrev-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Abbreviated Form Domain//EN"
          "abbreviateDomain.ent"
@@ -150,6 +155,7 @@
                         ">
 <!ENTITY % ph           "ph |
                          %hi-d-ph; |
+                         %hw-d-ph; |
                          %pr-d-ph; |
                          %sw-d-ph; |
                          %syntaxdiagram-d-ph; |
@@ -281,6 +287,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Highlight Domain//EN"
          "../base/highlightDomain.mod"
 >%hi-d-def;
+
+<!ENTITY % hw-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Hardware Domain//EN"
+         "hwDomain.mod"
+>%hw-d-def;
 
 <!ENTITY % abbrev-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"

@@ -18,20 +18,6 @@
       types.</section>
     <section id="notes">
       <title>Notes on the tables below</title>
-      <!--<draft-comment>JO 2007/01/22: I've always been confused by the translate
-attribute.  If something is translatable (by default or because translate="yes")
-and then someone translates it, does the translate attribute change
-to "no" or is it removed or does it remain "yes" since the content
-could be translated again?  Is there a need for a translated attribute
-to go with the translate attribute?</draft-comment><draft-comment>MP:
-leaving to translation TC to determine particular workflow considerations.
-My personal guess would be that the translation attribute is preserved
-through translation, and that translation workflow - including mappings
-between source documents and translated versions - would be managed
-by a translation application. Although the source element in the prolog
-could potentially identify a source version of a translated topic.</draft-comment><draft-comment>NH
-2009/5/23: Did the translation SC ever come out with a best practice
-for this?</draft-comment>-->
       <ul>
         <li>For specializations, the second column gives the ancestor element, and the third column
           gives a quick yes/no guide to indicate whether all behavior is inherited. If something is
@@ -2372,6 +2358,38 @@ for this?</draft-comment>-->
         </strow>
         <strow>
           <stentry><xmlelement>u</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section product="technicalContent" id="hwdomain">
+      <title>hw-d elements (hardware domain)</title>
+      <simpletable id="simpletable_zmb_fpt_jnb">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>hwcontrol</xmlelement></stentry>
+          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>partno</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>

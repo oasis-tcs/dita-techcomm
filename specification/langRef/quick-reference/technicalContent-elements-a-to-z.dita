@@ -119,6 +119,7 @@
         <sli><xref keyref="elements-groupcomp"/></sli>
         <sli><xref keyref="elements-groupseq"/></sli>
         <sli><xref keyref="elements-honorific"/></sli>
+        <sli><xref keyref="elements-hwcontrol"/></sli>
         <sli><xref keyref="elements-indexlist"/></sli>
         <sli><xref keyref="elements-info"/></sli>
         <sli><xref keyref="elements-isbn"/></sli>
@@ -151,6 +152,7 @@
         <sli><xref keyref="elements-parml"/></sli>
         <sli><xref keyref="elements-parmname"/></sli>
         <sli><xref keyref="elements-part"/></sli>
+        <sli><xref keyref="elements-partno"/></sli>
         <sli><xref keyref="elements-pd"/></sli>
         <sli><xref keyref="elements-person"/></sli>
         <sli><xref keyref="elements-personinfo"/></sli>
