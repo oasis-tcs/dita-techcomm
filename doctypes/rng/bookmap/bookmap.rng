@@ -97,6 +97,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"
      <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
+     <include href="../technicalContent/hwDomain.rng" dita:since="2.0"/>
      <include href="../technicalContent/markupDomain.rng" dita:since="1.3"/>
      <include href="../technicalContent/programmingDomain.rng"/>
      <include href="../technicalContent/releaseManagementDomain.rng" dita:since="1.3"/>

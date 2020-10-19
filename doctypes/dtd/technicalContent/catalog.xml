@@ -54,6 +54,14 @@
            uri="glossrefDomain.ent"/>
    <public publicId="-//OASIS//ENTITIES DITA 2.x Glossary Reference Domain//EN"
            uri="glossrefDomain.ent"/>
+   <public publicId="-//OASIS//ELEMENTS DITA 2.0 Hardware Domain//EN"
+           uri="hwDomain.mod"/>
+   <public publicId="-//OASIS//ELEMENTS DITA 2.x Hardware Domain//EN"
+           uri="hwDomain.mod"/>
+   <public publicId="-//OASIS//ENTITIES DITA 2.0 Hardware Domain//EN"
+           uri="hwDomain.ent"/>
+   <public publicId="-//OASIS//ENTITIES DITA 2.x Hardware Domain//EN"
+           uri="hwDomain.ent"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Map//EN" uri="map.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Map//EN" uri="map.dtd"/>
    <public publicId="-//OASIS//ELEMENTS DITA 2.0 Markup Domain//EN"

@@ -10,6 +10,8 @@
   <topicref href="containers/technicalContent-domain-elements.dita">
    <!--Equation domain-->
    <mapref href="equation-domain-elements.ditamap"/>
+   <!--Hardware domain-->
+   <mapref href="hardware-domain-elements.ditamap"/>
    <!--Markup domain-->
    <mapref href="markup-domain-elements.ditamap"/>
    <!--MathML domain-->

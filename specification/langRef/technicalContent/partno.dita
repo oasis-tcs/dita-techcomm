@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-us" id="partno">
+    <title><xmlelement>partno</xmlelement></title>
+    <shortdesc>The <xmlelement>partno</xmlelement> element represents a part number.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>part number</indexterm>
+                <indexterm>hardware
+                    domain<indexterm><xmlelement>partno</xmlelement></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="section_mnn_24t_jnb">
+            <title>Specialization hierarchy</title>
+            <p>The <xmlelement>partno</xmlelement> element is specialized from
+                    <xmlelement>ph</xmlelement>. It is defined in the hardware domain module.</p>
+        </section>
+        <section id="attributes">
+            <title>Attributes</title>
+            <p>The following attributes are available on this element: <xref
+                    keyref="attributes-universal"/> and <xref keyref="attributes-keyref"
+                        ><xmlatt>keyref</xmlatt></xref>.</p>
+        </section>
+        <example otherprops="examples">
+            <title>Example</title>
+            <p>The following code samples show how <xmlelement>partno</xmlelement> can be used to
+                identify part numbers within text.</p>
+            <codeblock>&lt;p>The basic model, <b>&lt;partno>DB-123-456&lt;/partno></b>, is an entry model. Most users
+can take advantage of all features with little to no set up. The <b>&lt;partno>DB-123-456&lt;/partno></b> 
+is available with all systems.</codeblock>
+            <codeblock>&lt;step>
+    &lt;cmd>Place the replacement &lt;hwcontrol>Component <b>&lt;partno>DB-123-789&lt;/partno></b>&lt;/hwcontrol> 
+in the slot and secure with the 4 screws.&lt;/cmd>
+   &lt;/step></codeblock>
+        </example>
+    </refbody>
+</reference>
