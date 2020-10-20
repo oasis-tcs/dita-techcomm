@@ -12,7 +12,7 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>stepxmp</xmlelement> element is specialized from
-     <xmlelement>itemgroup</xmlelement>. It is defined in the task module.</p>
+     <xmlelement>div</xmlelement>. It is defined in the task module.</p>
 </section>
 <section id="attributes"><title>Attributes</title>
 <p>The following attributes are available on this element: <xref keyref="attributes-universal"/>.</p>
