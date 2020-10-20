@@ -90,6 +90,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Concept//EN"
     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+    <include href="urn:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
     <include href="equationDomain.rng" dita:since="1.3"/>
     <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>

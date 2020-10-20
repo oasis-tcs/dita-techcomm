@@ -48,6 +48,11 @@
          "abbreviateDomain.ent"
 >%abbrev-d-dec;
 
+<!ENTITY % emphasis-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Emphasis Domain//EN"
+         "../base/emphasisDomain.ent"
+>%emphasis-d-dec;
+
 <!ENTITY % equation-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Equation Domain//EN"
          "equationDomain.ent"
@@ -158,6 +163,7 @@
                          %hazard-d-note;
                         ">
 <!ENTITY % ph           "ph |
+                         %emphasis-d-ph; |
                          %hi-d-ph; |
                          %hw-d-ph; |
                          %pr-d-ph; |
@@ -265,6 +271,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
          "abbreviateDomain.mod"
 >%abbrev-d-def;
+
+<!ENTITY % emphasis-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Emphasis Domain//EN"
+         "../base/emphasisDomain.mod"
+>%emphasis-d-def;
 
 <!ENTITY % equation-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Equation Domain//EN"
