@@ -37,9 +37,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Troubleshooting//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Troubleshooting//EN</dtdEnt>
-        <xsdGrp>urn:oasis:names:tc:dita:xsd:troubleshootingGrp.xsd<var presep=":" name="ditaver"/></xsdGrp>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:troubleshootingMod.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:rnc:troubleshootingMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:troubleshootingMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>

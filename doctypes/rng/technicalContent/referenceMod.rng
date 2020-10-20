@@ -40,9 +40,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Reference//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Reference//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:referenceMod.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <xsdGrp>urn:oasis:names:tc:dita:xsd:referenceGrp.xsd<var presep=":" name="ditaver"/></xsdGrp>
-        <rncMod>urn:oasis:names:tc:dita:rnc:referenceMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:referenceMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>

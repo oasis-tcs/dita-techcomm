@@ -53,12 +53,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Map//EN"
          <moduleShortName>map</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Map//EN</dtdShell>
-            <rncShell>urn:oasis:names:tc:dita:rnc:map.rnc<var presep=":" name="ditaver"/>
-            </rncShell>
-            <rngShell>urn:oasis:names:tc:dita:rng:map.rng<var presep=":" name="ditaver"/>
-            </rngShell>
-            <xsdShell>urn:oasis:names:tc:dita:xsd:map.xsd<var presep=":" name="ditaver"/>
-            </xsdShell>
+            <rngShell>urn:oasis:names:tc:dita:rng:map.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>

@@ -45,8 +45,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.x Glossary Group//EN"
       <moduleShortName>glossgroup</moduleShortName>
       <shellPublicIds>
         <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Glossary Group//EN</dtdShell>
-        <xsdShell>urn:oasis:names:tc:dita:xsd:glossgroup.xsd<var presep=":" name="ditaver"/></xsdShell>
-        <rncShell>urn:oasis:names:tc:dita:rnc:glossgroup.rnc<var presep=":" name="ditaver"/></rncShell>
         <rngShell>urn:oasis:names:tc:dita:rng:glossgroup.rng<var presep=":" name="ditaver"/></rngShell>
       </shellPublicIds>
     </moduleMetadata>

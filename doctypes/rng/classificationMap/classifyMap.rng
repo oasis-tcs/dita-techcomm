@@ -48,12 +48,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
          <moduleShortName>classifyMap</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Classification Map//EN</dtdShell>
-            <rncShell>urn:oasis:tc:tc:dita:spec:classification:rnc:classifyMap.rnc<var presep=":" name="ditaver"/>
-            </rncShell>
-            <rngShell>urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng<var presep=":" name="ditaver"/>
-            </rngShell>
-            <xsdShell>urn:oasis:tc:tc:dita:spec:classification:xsd:classifyMap.xsd<var presep=":" name="ditaver"/>
-            </xsdShell>
+            <rngShell>urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>

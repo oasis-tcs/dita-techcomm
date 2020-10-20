@@ -53,9 +53,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Composite//EN"
          <moduleShortName>ditabase</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Composite//EN</dtdShell>
-            <rncShell>urn:oasis:names:tc:dita:rnc:ditabase.rnc<var presep=":" name="ditaver"/></rncShell>
             <rngShell>urn:oasis:names:tc:dita:rng:ditabase.rng<var presep=":" name="ditaver"/></rngShell>
-            <xsdShell>urn:oasis:names:tc:dita:xsd:ditabase.xsd<var presep=":" name="ditaver"/></xsdShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>

@@ -51,12 +51,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 BookMap//EN"
          <moduleShortName>bookmap</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> BookMap//EN</dtdShell>
-            <rncShell>urn:oasis:names:tc:dita:rnc:bookmap.rnc<var presep=":" name="ditaver"/>
-            </rncShell>
-            <rngShell>urn:oasis:names:tc:dita:rng:bookmap.rng<var presep=":" name="ditaver"/>
-            </rngShell>
-            <xsdShell>urn:oasis:names:tc:dita:xsd:bookmap.xsd<var presep=":" name="ditaver"/>
-            </xsdShell>
+            <rngShell>urn:oasis:names:tc:dita:rng:bookmap.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>

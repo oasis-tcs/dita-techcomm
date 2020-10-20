@@ -39,8 +39,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Programming Domain//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Programming Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Programming Domain//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:programmingDomain.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:rnc:programmingDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:programmingDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>

@@ -38,8 +38,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Abbreviated Form Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Abbreviated Form Domain//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:abbreviateDomain.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:rnc:abbreviateDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:abbreviateDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>
