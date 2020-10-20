@@ -229,7 +229,7 @@
                          (%choices; |
                           %choicetable; |
                           %info; |
-                          %itemgroup; |
+                          %div; |
                           %stepxmp; |
                           %steps; |
                           %steps-unordered; |
@@ -265,7 +265,7 @@
 
 <!--                    LONG NAME: Information                     -->
 <!ENTITY % info.content
-                       "(%itemgroup.cnt;)*"
+                       "(%div.cnt;)*"
 >
 <!ENTITY % info.attributes
               "%univ-atts;"
@@ -276,7 +276,7 @@
 
 <!--                    LONG NAME: Tutorial Information            -->
 <!ENTITY % tutorialinfo.content
-                       "(%itemgroup.cnt;)*"
+                       "(%div.cnt;)*"
 >
 <!ENTITY % tutorialinfo.attributes
               "%univ-atts;"
@@ -285,7 +285,7 @@
 <!ATTLIST  tutorialinfo %tutorialinfo.attributes;>
 
 
-<!-- Match itemgroup.cnt from base, but exclude example element    -->
+<!-- Match div.cnt from base, but exclude example element    -->
 <!ENTITY % stepxmp.cnt
               "#PCDATA |
                %basic.block.noexample; |
@@ -476,7 +476,7 @@
 
 <!--                    LONG NAME: Step Result                     -->
 <!ENTITY % stepresult.content
-                       "(%itemgroup.cnt;)*"
+                       "(%div.cnt;)*"
 >
 <!ENTITY % stepresult.attributes
               "%univ-atts;"
@@ -487,7 +487,7 @@
 
 <!--                    LONG NAME: Step Troubleshooting            -->
 <!ENTITY % steptroubleshooting.content
-                       "(%itemgroup.cnt;)*"
+                       "(%div.cnt;)*"
 >
 <!ENTITY % steptroubleshooting.attributes
               "%univ-atts;"
@@ -541,11 +541,11 @@
 <!ATTLIST  stepsection  class CDATA "- topic/li task/stepsection ">
 <!ATTLIST  step         class CDATA "- topic/li task/step ">
 <!ATTLIST  cmd          class CDATA "- topic/ph task/cmd ">
-<!ATTLIST  tutorialinfo class CDATA "- topic/itemgroup task/tutorialinfo ">
-<!ATTLIST  info         class CDATA "- topic/itemgroup task/info ">
-<!ATTLIST  stepxmp      class CDATA "- topic/itemgroup task/stepxmp ">
-<!ATTLIST  stepresult   class CDATA "- topic/itemgroup task/stepresult ">
-<!ATTLIST  steptroubleshooting class CDATA "- topic/itemgroup task/steptroubleshooting ">
+<!ATTLIST  tutorialinfo class CDATA "- topic/div task/tutorialinfo ">
+<!ATTLIST  info         class CDATA "- topic/div task/info ">
+<!ATTLIST  stepxmp      class CDATA "- topic/div task/stepxmp ">
+<!ATTLIST  stepresult   class CDATA "- topic/div task/stepresult ">
+<!ATTLIST  steptroubleshooting class CDATA "- topic/div task/steptroubleshooting ">
 <!ATTLIST  choices      class CDATA "- topic/ul task/choices ">
 <!ATTLIST  choice       class CDATA "- topic/li task/choice ">
 <!ATTLIST  result       class CDATA "- topic/section task/result ">

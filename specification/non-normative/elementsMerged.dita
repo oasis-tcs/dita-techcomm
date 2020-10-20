@@ -412,14 +412,6 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>itemgroup</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>N/A</stentry>
           <stentry>inline</stentry>
@@ -2056,7 +2048,7 @@
         </strow>
         <strow>
           <stentry><xmlelement>info</xmlelement></stentry>
-          <stentry><xmlelement>itemgroup</xmlelement></stentry>
+          <stentry><xmlelement>div</xmlelement></stentry>
           <stentry><b>NO</b></stentry>
           <stentry>inline</stentry>
           <stentry><b>block</b></stentry>
@@ -2101,7 +2093,7 @@
         </strow>
         <strow>
           <stentry><xmlelement>stepresult</xmlelement></stentry>
-          <stentry><xmlelement>itemgroup</xmlelement></stentry>
+          <stentry><xmlelement>div</xmlelement></stentry>
           <stentry><b>NO</b></stentry>
           <stentry>inline</stentry>
           <stentry><b>block</b></stentry>
@@ -2146,7 +2138,7 @@
         </strow>
         <strow>
           <stentry><xmlelement>steptroubleshooting</xmlelement></stentry>
-          <stentry><xmlelement>itemgroup</xmlelement></stentry>
+          <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>block</stentry>
@@ -2155,7 +2147,7 @@
         </strow>
         <strow>
           <stentry><xmlelement>stepxmp</xmlelement></stentry>
-          <stentry><xmlelement>itemgroup</xmlelement></stentry>
+          <stentry><xmlelement>div</xmlelement></stentry>
           <stentry><b>NO</b></stentry>
           <stentry>inline</stentry>
           <stentry><b>block</b></stentry>
@@ -2191,7 +2183,7 @@
         </strow>
         <strow>
           <stentry><xmlelement>tutorialinfo</xmlelement></stentry>
-          <stentry><xmlelement>itemgroup</xmlelement></stentry>
+          <stentry><xmlelement>div</xmlelement></stentry>
           <stentry><b>NO</b></stentry>
           <stentry>inline</stentry>
           <stentry><b>block</b></stentry>

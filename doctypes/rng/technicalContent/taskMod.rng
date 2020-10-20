@@ -173,7 +173,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
   
   <div>
     <a:documentation>COMMON CONTENT MODEL PATTERNS</a:documentation>
-    <!-- Match itemgroup.cnt but exclude example -->
+    <!-- Match div.cnt but exclude example -->
     <define name="stepxmp.cnt">
       <choice>
         <text/>
@@ -478,7 +478,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
             <ref name="choices"/>
             <ref name="choicetable"/>
             <ref name="info"/>
-            <ref name="itemgroup"/>
+            <ref name="div"/>
             <ref name="stepxmp"/>
             <ref name="steps"/>
             <ref name="steps-unordered"/>
@@ -551,7 +551,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <a:documentation> LONG NAME: Information </a:documentation>
       <define name="info.content">
         <zeroOrMore>
-          <ref name="itemgroup.cnt"/>
+          <ref name="div.cnt"/>
         </zeroOrMore>
       </define>
       <define name="info.attributes">
@@ -575,7 +575,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <a:documentation> LONG NAME: Tutorial Information </a:documentation>
       <define name="tutorialinfo.content">
         <zeroOrMore>
-          <ref name="itemgroup.cnt"/>
+          <ref name="div.cnt"/>
         </zeroOrMore>
       </define>
       <define name="tutorialinfo.attributes">
@@ -881,7 +881,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <a:documentation> LONG NAME: Step Result </a:documentation>
       <define name="stepresult.content">
         <zeroOrMore>
-          <ref name="itemgroup.cnt"/>
+          <ref name="div.cnt"/>
         </zeroOrMore>
       </define>
       <define name="stepresult.attributes">
@@ -906,7 +906,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <a:documentation> LONG NAME: Step Troubleshooting </a:documentation>
       <define name="steptroubleshooting.content">
         <zeroOrMore>
-          <ref name="itemgroup.cnt"/>
+          <ref name="div.cnt"/>
         </zeroOrMore>
       </define>
       <define name="steptroubleshooting.attributes">
@@ -1042,27 +1042,27 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
     </define>
     <define name="tutorialinfo.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="- topic/itemgroup task/tutorialinfo "/>
+        <attribute name="class" a:defaultValue="- topic/div task/tutorialinfo "/>
       </optional>
     </define>
     <define name="info.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="- topic/itemgroup task/info "/>
+        <attribute name="class" a:defaultValue="- topic/div task/info "/>
       </optional>
     </define>
     <define name="stepxmp.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="- topic/itemgroup task/stepxmp "/>
+        <attribute name="class" a:defaultValue="- topic/div task/stepxmp "/>
       </optional>
     </define>
     <define name="stepresult.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="- topic/itemgroup task/stepresult "/>
+        <attribute name="class" a:defaultValue="- topic/div task/stepresult "/>
       </optional>
     </define>
     <define name="steptroubleshooting.attlist" combine="interleave">
       <optional>
-        <attribute name="class" a:defaultValue="- topic/itemgroup task/steptroubleshooting "/>
+        <attribute name="class" a:defaultValue="- topic/div task/steptroubleshooting "/>
       </optional>
     </define>
     <define name="choices.attlist" combine="interleave">
