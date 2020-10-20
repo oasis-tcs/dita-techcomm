@@ -39,8 +39,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Syntax Diagram Domain//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Syntax Diagram Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Syntax Diagram Domain//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:syntaxdiagramDomain.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:rnc:syntaxdiagramDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:syntaxdiagramDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>

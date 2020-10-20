@@ -45,8 +45,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.x Glossary Group//EN"
       <moduleShortName>glossgroup</moduleShortName>
       <shellPublicIds>
         <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Glossary Group//EN</dtdShell>
-        <xsdShell>urn:oasis:names:tc:dita:xsd:glossgroup.xsd<var presep=":" name="ditaver"/></xsdShell>
-        <rncShell>urn:oasis:names:tc:dita:rnc:glossgroup.rnc<var presep=":" name="ditaver"/></rncShell>
         <rngShell>urn:oasis:names:tc:dita:rng:glossgroup.rng<var presep=":" name="ditaver"/></rngShell>
       </shellPublicIds>
     </moduleMetadata>
@@ -84,6 +82,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.x Glossary Group//EN"
     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+    <include href="urn:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
     <include href="equationDomain.rng" dita:since="1.3"/>
     <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>

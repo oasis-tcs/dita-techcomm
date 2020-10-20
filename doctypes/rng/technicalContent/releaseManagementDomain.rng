@@ -33,8 +33,6 @@ PUBLIC "-//OASIS//ENTITIES DITA 2.0 Release Management Domain//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Release Management Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Release Management Domain//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:releaseManagementDomain.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:rnc:releaseManagementDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:releaseManagementDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>

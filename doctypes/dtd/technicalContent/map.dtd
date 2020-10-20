@@ -68,6 +68,11 @@
          "glossrefDomain.ent"
 >%glossref-d-dec;
 
+<!ENTITY % emphasis-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Emphasis Domain//EN"
+         "../base/emphasisDomain.ent"
+>%emphasis-d-dec;
+
 <!ENTITY % hazard-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Hazard Statement Domain//EN"
          "../base/hazardstatementDomain.ent"
@@ -168,6 +173,7 @@
                          %hazard-d-note;
                         ">
 <!ENTITY % ph           "ph |
+                         %emphasis-d-ph; |
                          %hi-d-ph; |
                          %hw-d-ph; |
                          %pr-d-ph; |
@@ -265,6 +271,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 DITAVAL Ref Domain//EN"
          "../base/ditavalrefDomain.mod"
 >%ditavalref-d-def;
+
+<!ENTITY % emphasis-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Emphasis Domain//EN"
+         "../base/emphasisDomain.mod"
+>%emphasis-d-def;
 
 <!ENTITY % glossref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN"

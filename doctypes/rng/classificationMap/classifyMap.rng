@@ -48,12 +48,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
          <moduleShortName>classifyMap</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Classification Map//EN</dtdShell>
-            <rncShell>urn:oasis:tc:tc:dita:spec:classification:rnc:classifyMap.rnc<var presep=":" name="ditaver"/>
-            </rncShell>
-            <rngShell>urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng<var presep=":" name="ditaver"/>
-            </rngShell>
-            <xsdShell>urn:oasis:tc:tc:dita:spec:classification:xsd:classifyMap.xsd<var presep=":" name="ditaver"/>
-            </xsdShell>
+            <rngShell>urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>
@@ -80,20 +75,21 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
   </div>
   <div>
       <a:documentation>MODULE INCLUSIONS</a:documentation>
-     <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0"/>
   
-     <include href="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:2.0"/>
       <include href="../technicalContent/abbreviateDomain.rng"/>
-     <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
-     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
       <include href="../technicalContent/glossrefDomain.rng"/>
-     <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
       <include href="../technicalContent/markupDomain.rng" dita:since="1.3"/>
       <include href="../technicalContent/programmingDomain.rng"/>
       <include href="../technicalContent/releaseManagementDomain.rng"
@@ -101,7 +97,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
       <include href="../technicalContent/softwareDomain.rng"/>
       <include href="../technicalContent/syntaxdiagramDomain.rng" dita:since="2.0"/>
       <include href="../technicalContent/uiDomain.rng"/>
-     <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
       <include href="../technicalContent/xmlDomain.rng" dita:since="1.3"/>    </div>
   <div>
       <a:documentation>ID-DEFINING-ELEMENT OVERRIDES</a:documentation>

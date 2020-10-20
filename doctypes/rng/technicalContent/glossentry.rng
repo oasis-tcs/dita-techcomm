@@ -52,12 +52,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN"
          <moduleShortName>Glossary Entry</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Glossary Entry//EN</dtdShell>
-            <rncShell>urn:oasis:names:tc:dita:rnc:glossentry.rnc<var presep=":" name="ditaver"/>
-            </rncShell>
-            <rngShell>urn:oasis:names:tc:dita:rng:glossentry.rng<var presep=":" name="ditaver"/>
-            </rngShell>
-            <xsdShell>urn:oasis:names:tc:dita:xsd:glossentry.xsd<var presep=":" name="ditaver"/>
-            </xsdShell>
+            <rngShell>urn:oasis:names:tc:dita:rng:glossentry.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>
@@ -89,11 +84,12 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Glossary Entry//EN"
           <empty/>
         </define>
       </include>
-     <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
-     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
       <include href="equationDomain.rng" dita:since="1.3"/>
       <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>

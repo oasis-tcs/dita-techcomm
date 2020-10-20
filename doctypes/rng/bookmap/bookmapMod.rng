@@ -41,9 +41,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> BookMap//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> BookMap//EN</dtdEnt>
-        <xsdGrp>urn:oasis:names:tc:dita:xsd:bookmapGrp.xsd<var presep=":" name="ditaver"/></xsdGrp>
-        <xsdMod>urn:oasis:names:tc:dita:xsd:bookmapMod.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:rnc:bookmapMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:rng:bookmapMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>

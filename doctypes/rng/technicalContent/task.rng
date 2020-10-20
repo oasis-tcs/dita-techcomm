@@ -52,8 +52,6 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Task//EN"
          <moduleShortName>task</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Task//EN</dtdShell>
-            <xsdShell>urn:oasis:names:tc:dita:xsd:task.xsd<var presep=":" name="ditaver"/></xsdShell>
-            <rncShell>urn:oasis:names:tc:dita:rnc:task.rnc<var presep=":" name="ditaver"/></rncShell>
             <rngShell>urn:oasis:names:tc:dita:rng:task.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
@@ -93,11 +91,12 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Task//EN"
       <a:documentation> MODULE INCLUSIONS </a:documentation>
       <include href="urn:oasis:names:tc:dita:rng:topicMod.rng:2.0"/>
       <include href="abbreviateDomain.rng"/>
-     <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
-     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
-     <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+      <include href="urn:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
       <include href="equationDomain.rng" dita:since="1.3"/>
       <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
       <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
