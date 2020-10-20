@@ -4,17 +4,16 @@ set -e
 
 # Install DITA-OT
 curl -sfL https://github.com/dita-ot/dita-ot/releases/download/$DITA_OT_VERSION/dita-ot-$DITA_OT_VERSION.zip -o dita-ot-$DITA_OT_VERSION.zip
-unzip dita-ot-$DITA_OT_VERSION.zip
+unzip -q dita-ot-$DITA_OT_VERSION.zip
 export DITA_HOME=$PWD/dita-ot-$DITA_OT_VERSION
 
 # Create and install base plugin for 2.0 with latest doctypes
-mkdir $DITA_HOME/plugins/org.oasis-open.dita.v2_0/
+rm -rv $DITA_HOME/plugins/org.oasis-open.dita.v2_0/dtd/
+rm -rv $DITA_HOME/plugins/org.oasis-open.dita.v2_0/rng/
+rm -rv $DITA_HOME/plugins/org.oasis-open.dita.techcomm.v2_0/dtd/
+rm -rv $DITA_HOME/plugins/org.oasis-open.dita.techcomm.v2_0/rng/
 cp -a ./specification/baseSpec/doctypes/. $DITA_HOME/plugins/org.oasis-open.dita.v2_0/
-cp ./specification/baseSpec/.travis/ditaotplugin.xml $DITA_HOME/plugins/org.oasis-open.dita.v2_0/plugin.xml
-# Create and install tech comm plugin for 2.0 with latest doctypes
-mkdir $DITA_HOME/plugins/org.oasis-open.dita.techcomm.v2_0/
 cp -a ./doctypes/. $DITA_HOME/plugins/org.oasis-open.dita.techcomm.v2_0/
-cp .travis/ditaotplugin.xml $DITA_HOME/plugins/org.oasis-open.dita.techcomm.v2_0/plugin.xml
 # install plugins
 $DITA_HOME/bin/dita -install
 
