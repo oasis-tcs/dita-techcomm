@@ -7,6 +7,9 @@
   <keydef href="technicalContent/condition.dita" keys="elements-condition"/>
   <keydef href="technicalContent/troubleSolution.dita" keys="elements-troubleSolution"/>
   <keydef href="technicalContent/cause.dita" keys="elements-cause"/>
+  <keydef href="technicalContent/diagnostics.dita" keys="elements-diagnostics"/>
+  <keydef href="technicalContent/diagnostics-general.dita" keys="elements-diagnostics-general"/>
+  <keydef href="technicalContent/diagnostics-steps.dita" keys="elements-diagnostics-steps"/>
   <keydef href="technicalContent/remedy.dita" keys="elements-remedy"/>
   <keydef href="technicalContent/responsibleParty.dita" keys="elements-responsibleParty"/>
 </map>

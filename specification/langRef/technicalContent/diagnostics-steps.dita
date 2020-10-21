@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_yzs_bkf_knb">
+    <title><xmlelement>diagnostics-steps</xmlelement></title>
+    <shortdesc>The <xmlelement>diagnostics-steps</xmlelement> element includes step-by-step
+        information that can help determine which of multiple cause-remedy pairs apply to a specific
+        situation. Results of each diagnostic step may link to the specific cause-remedy section
+        that applies to each result. </shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm><xmlelement>diagnostics-steps</xmlelement></indexterm>
+                <indexterm>troubleshooting
+                            elements<indexterm><xmlelement>diagnostics-steps</xmlelement></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="section_tp4_2kf_knb">
+            <title>Usage information</title>
+            <p>Use this element in situations where causes are not be simply observable, but require
+                the user to perform a series of steps to determine the cause of the problem; for
+                example, set breakpoints, send commands, push buttons, and so on.</p>
+        </section>
+        <section id="section_up4_2kf_knb">
+            <title>Specialization hierarchy</title>
+            <p>The <xmlelement>diagnostics-steps</xmlelement> element is specialized from
+                    <xmlelement>section</xmlelement>. It is defined in the troubleshooting
+                module.</p>
+        </section>
+        <section id="section_vp4_2kf_knb">
+            <title>Attributes</title>
+            <p conkeyref="reuse-attributes/universal-spectitle"/>
+        </section>
+        <example otherprops="examples">
+            <title>Example</title>
+            <p>The following code sample shows how a troubleshooting topic would provide
+                step-by-step instructions to help a user determine which cause and therefore which
+                solution applies to them.</p>
+            <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 2.0 Troubleshooting//EN" "troubleshooting.dtd">
+&lt;troubleshooting>
+    &lt;title>
+    &lt;shortdesc>
+    &lt;prolog/>
+    &lt;troublebody>
+       &lt;condition>
+       &lt;diagnostics>
+           &lt;diagnostics-steps>
+              &lt;steps>
+            	&lt;step>
+            	    &lt;cmd>Open the command prompt and type &lt;userinput>ipconfig&lt;/userinput>.&lt;/cmd>
+            	    &lt;info>
+            	        &lt;p>The Default Gateway (listed last) is your router’s IP. Your computer’s IP
+            	            address is the number next to “IP Address.” If your computer’s IP address
+            	            starts with 169, the computer is not receiving a valid IP address. See
+            	            &lt;xref href="#./ipaddress"/>&lt;/p>
+            	    &lt;/info>
+            	&lt;/step>
+            	&lt;step>
+            	    &lt;cmd>If your address does not start with 169, type &lt;userinput>tracert
+            	            8.8.8.8&lt;/userinput> to view each step between your router and the Google DNS
+            	            servers.&lt;/cmd>
+            	    &lt;info>If the error comes up early along the pathway, see &lt;xref href="#./resetnetwork"/>&lt;/info>
+            	&lt;/step>
+            	&lt;step>
+            	    &lt;cmd>If everything is working with Google, use the command
+            	            &lt;cmdname>nslookup&lt;/cmdname> to determine if there's a problem with the
+            	        server you are trying to connect to.&lt;/cmd>
+            	    &lt;info>If you received results such as &lt;msgph>Timed Out&lt;/msgph>, &lt;msgph>Server Failure&lt;/msgph>, 
+                           &lt;msgph>Refused&lt;/msgph>, &lt;msgph>No Response from Server&lt;/msgph>, or &lt;msgph>Network is 
+                           Unreachable&lt;?msgph>, the problem originates in the DNS server for your destination. &lt;/info>
+            	&lt;/step>
+            	&lt;step>
+            	    &lt;cmd>If the previous steps turn up no problems, contact your ISP to see if they're having issues.&lt;/cmd>
+            	&lt;/step>
+        	&lt;/steps>
+           &lt;/diagnostics-steps>   
+       &lt;/diagnostics>
+       &lt;troubleSolution>
+            &lt;remedy id="ipaddress">
+              &lt;title>Resetting Your IP Address&lt;/title>
+		&lt;steps>
+                &lt;step>
+                   &lt;cmd>...&lt;/cmd>
+                &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+       &lt;troubleSolution>
+            &lt;remedy id="resetnetwork">
+              &lt;title>Resetting Your Local Network&lt;/title>
+		&lt;steps>
+                &lt;step>
+                   &lt;cmd>...&lt;/cmd>
+                &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+&lt;/troubleshooting></codeblock>
+        </example>
+    </refbody>
+</reference>

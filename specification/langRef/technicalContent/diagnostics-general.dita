@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-us" id="diagnostics-general">
+    <title><xmlelement>diagnostics-general</xmlelement></title>
+    <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element includes non-procedural
+        information that can help determine which of multiple cause-remedy pairs apply to a specific
+        situation. Results of the diagnostics may link to the specific cause-remedy section that
+        applies to each result. </shortdesc>
+    <prolog>
+    <metadata>
+      <keywords>
+        <indexterm><xmlelement>diagnostics-general</xmlelement></indexterm>
+        <indexterm>troubleshooting
+            elements<indexterm><xmlelement>diagnostics-general</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+    <refbody>
+        <section>
+            <title>Usage information</title>
+            <p>Use this element when presenting non-procedural diagnostic information; for example,
+                when including a diagnostic table or a flowchart. Often in these cases, the symptoms are
+                observable without users having to take a specific action – they can simply observe that
+                the symptom exists; for example, if a particular light is on or off.</p>
+        </section>
+        <section>
+            <title>Specialization hierarchy</title>
+            <p>The <xmlelement>diagnostics-general</xmlelement> element is specialized from
+                <xmlelement>section</xmlelement>. It is defined in the troubleshooting module.</p>
+        </section>
+        <section>
+            <title>Attributes</title>
+            <p conkeyref="reuse-attributes/universal-spectitle"/>
+        </section>
+        <example otherprops="examples">
+            <title>Example</title>
+            <p>The following code sample shows how a troubleshooting topic would provide a diagnostic
+                table to help a user determine which cause and therefore which solution applies to
+                them.</p>
+            <codeblock>&lt;troubleshooting>
+    &lt;title>Car is making funny noises.&lt;/title>
+    &lt;shortdesc/>
+    &lt;prolog/>
+    &lt;troublebody>
+       &lt;condition>
+           &lt;p>You probably know how your vehicle sounds when it’s running properly. Listening to your 
+              car can help you troubleshoot problems. If you hear a strange sound, pay attention and 
+              react accordingly.
+           &lt;/p>
+        &lt;/condition>
+       &lt;diagnostics>
+           &lt;diagnostics-general>
+              &lt;table frame="all">
+            	&lt;tgroup cols="2">
+              	  &lt;colspec colname="c1" colnum="1" colwidth="1*"/>
+              	  &lt;colspec colname="c2" colnum="2" colwidth="1*"/>
+               	 &lt;thead>
+               	     &lt;row>
+                	        &lt;entry>Symptom&lt;/entry>
+                	        &lt;entry>Probable Cause&lt;/entry>
+                 	   &lt;/row>
+                	&lt;/thead>
+                	&lt;tbody>
+                	    &lt;row>
+                	        &lt;entry>Clunking noise on bumps only&lt;/entry>
+                	        &lt;entry>&lt;xref href="#./checkstruts"/>&lt;/entry>
+                	    &lt;/row>
+                	    &lt;row>
+                	        &lt;entry>Continuous clunking noise&lt;/entry>
+                	        &lt;entry>&lt;xref href="#./checkballjoints"/>&lt;/entry>
+                	    &lt;/row>
+                	    &lt;row>
+                	        &lt;entry>Ticks when in neutral&lt;/entry>
+                	        &lt;entry>&lt;xref href="#./checkexhaust"/>&lt;/entry>
+                	    &lt;/row>
+                	    &lt;row>
+                	        &lt;entry>Ticks only in reverse&lt;/entry>
+                	        &lt;entry>&lt;xref href="#./checkbrakes"/>&lt;/entry>
+                	    &lt;/row>
+                	    &lt;row>
+                	        &lt;entry>Ticks in turns and curves&lt;/entry>
+                	        &lt;entry>&lt;xref href="#./checkcvjoint"/>&lt;/entry>
+                	    &lt;/row>
+                	    &lt;row>
+                	        &lt;entry>Only ticks when cold&lt;/entry>
+                	        &lt;entry>&lt;xref href="#./checkcatalyticconverter"/>&lt;/entry>
+                	    &lt;/row>
+                	    &lt;row>
+                	        &lt;entry>Ticks only at slow speed&lt;/entry>
+                	        &lt;entry>xref href="#./checkwheels"/>&lt;/entry>
+                	    &lt;/row>
+                	&lt;/tbody>
+           	 &lt;/tgroup>
+        	&lt;/table>
+            &lt;/diagnostics-general>
+       &lt;/diagnostics>
+       &lt;troubleSolution>
+            &lt;remedy id="checkstruts">
+              &lt;title>Checking your struts&lt;/title>
+              &lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+       &lt;troubleSolution>
+            &lt;remedy id="checkballjoints">
+              &lt;title>Checking your ball joints&lt;/title>
+		&lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+	&lt;troubleSolution>
+            &lt;remedy id="checkexhaust">
+              &lt;title>Checking your exhaust&lt;/title>
+		&lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+	&lt;troubleSolution>
+            &lt;remedy id="checkbrakes">
+              &lt;title>Checking your brakes&lt;/title>
+		&lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+	&lt;troubleSolution>
+            &lt;remedy id="checkcvjoint">
+              &lt;title>Checking your CV joints&lt;/title>
+		&lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+	&lt;troubleSolution>
+            &lt;remedy id="checkcatalyticconverter">
+              &lt;title>Checking your catalytic converter&lt;/title>
+		&lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+	&lt;troubleSolution>
+            &lt;remedy id="checkwheels">
+              &lt;title>Checking your wheels&lt;/title>
+		&lt;steps>
+                &lt;step> &lt;cmd>...&lt;/cmd> &lt;/step>
+                &lt;!-- ... -->
+              &lt;/steps>
+            &lt;/remedy>
+       &lt;/troubleSolution>
+&lt;/troubleshooting></codeblock>
+        </example>
+    </refbody>
+</reference>

@@ -8,6 +8,9 @@
   <topicref keyref="elements-condition"/>
   <topicref keyref="elements-troubleSolution"/>
   <topicref keyref="elements-cause"/>
+  <topicref keyref="elements-diagnostics"/>
+  <topicref keyref="elements-diagnostics-general"/>
+  <topicref keyref="elements-diagnostics-steps"/>
   <topicref keyref="elements-remedy"/>
   <topicref keyref="elements-responsibleParty"/>
  </topicref>
