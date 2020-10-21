@@ -32,6 +32,11 @@
 <!ENTITY % troublebody "troublebody"                                 >
 <!ENTITY % cause       "cause"                                       >
 <!ENTITY % condition   "condition"                                   >
+<!ENTITY % diagnostics "diagnostics"                                 >
+<!ENTITY % diagnostics-general      
+                       "diagnostics-general"                         >
+<!ENTITY % diagnostics-steps        
+                       "diagnostics-steps"                           >
 <!ENTITY % remedy      "remedy"                                      >
 <!ENTITY % responsibleParty
                        "responsibleParty"                            >
@@ -87,6 +92,7 @@
 <!--                    LONG NAME: Troubleshooting Body            -->
 <!ENTITY % troublebody.content
                        "((%condition;)?,
+                         (%diagnostics;)?,
                          (%troubleSolution;)+)?"
 >
 <!ENTITY % troublebody.attributes
@@ -130,6 +136,49 @@
 >
 <!ELEMENT  condition %condition.content;>
 <!ATTLIST  condition %condition.attributes;>
+
+
+<!--                    LONG NAME: Diagnostics                      -->
+<!ENTITY % diagnostics.content
+                       "((%diagnostics-general;) | 
+                         (%diagnostics-steps;))"
+>
+<!ENTITY % diagnostics.attributes
+              "%univ-atts;"
+>
+<!ELEMENT  diagnostics %diagnostics.content;>
+<!ATTLIST  diagnostics %diagnostics.attributes;>
+
+
+<!--                    LONG NAME: Diagnostics general              -->
+<!ENTITY % diagnostics-general.content
+                       "(%section.blocks.only.cnt;)?"
+>
+<!ENTITY % diagnostics-general.attributes
+              "%univ-atts;
+               spectitle
+                          CDATA
+                                    #IMPLIED"
+>
+<!ELEMENT  diagnostics-general %diagnostics-general.content;>
+<!ATTLIST  diagnostics-general %diagnostics-general.attributes;>
+
+
+<!--                    LONG NAME: Diagnostics steps                -->
+<!ENTITY % diagnostics-steps.content
+                       "((%title;)?,
+                         (%steps; |
+                          %steps-unordered; |
+                          %steps-informal;))"
+>
+<!ENTITY % diagnostics-steps.attributes
+              "%univ-atts;
+               spectitle
+                          CDATA
+                                    #IMPLIED"
+>
+<!ELEMENT  diagnostics-steps %diagnostics-steps.content;>
+<!ATTLIST  diagnostics-steps %diagnostics-steps.attributes;>
 
 
 <!--                    LONG NAME: Remedy                          -->
@@ -183,6 +232,9 @@
 <!ATTLIST  troubleSolution class CDATA "- topic/bodydiv troubleshooting/troubleSolution ">
 <!ATTLIST  cause        class CDATA "- topic/section troubleshooting/cause ">
 <!ATTLIST  condition    class CDATA "- topic/section troubleshooting/condition ">
+<!ATTLIST  diagnostics         class CDATA "- topic/bodydiv troubleshooting/diagnostics ">
+<!ATTLIST  diagnostics-general class CDATA "- topic/section troubleshooting/diagnostics-general ">
+<!ATTLIST  diagnostics-steps   class CDATA "- topic/section troubleshooting/diagnostics-steps ">
 <!ATTLIST  remedy       class CDATA "- topic/section troubleshooting/remedy ">
 <!ATTLIST  responsibleParty class CDATA "- topic/p troubleshooting/responsibleParty ">
 

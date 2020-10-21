@@ -20,7 +20,9 @@
 			<p>For some conditions there could be more than one cause-remedy pair. The
 				troubleshooting topic accommodates this. Typically, a cause is immediately followed
 				by its remedy. Multiple cause-remedy pairs can provide a series of successive
-				fall-backs for resolving a condition.</p>
+				fall-backs for resolving a condition. An optional diagnostics section can be
+				included to assist in determining which of the cause-remedy pairs applies to the
+				specific situation.</p>
 			<p>Cause and remedy might occur in combinations other than pairs. It is possible to
 				have:</p>
 			<ul>
@@ -54,6 +56,27 @@
 						state in a system, a product, or a service. In cases where the topic title
 						fully explains the condition,<ph > do not use this
 							element.</ph></dd>
+				</dlentry>
+				<dlentry>
+					<dt><xmlelement>diagnostics</xmlelement></dt>
+					<dd>This optional element precedes <xmlelement>troubleSolution</xmlelement> and
+						provides information used to determine which cause-remedy pair applies in a
+						given situation.<p>The <xmlelement>diagnostics</xmlelement> element contains
+							one of the following elements:<dl>
+								<dlentry>
+									<dt><xmlelement>diagnostics-general</xmlelement></dt>
+									<dd>This element provides non-procedural diagnostic information,
+										such as a flowchart diagram or a look-up table of symptoms.
+										Results of the diagnostic may link to the specific
+										cause-remedy section that applies to each result. </dd>
+								</dlentry>
+								<dlentry>
+									<dt><xmlelement>diagnostics-steps</xmlelement></dt>
+									<dd>This element provides step-by-step instructions for
+										diagnosing the problem. Step results may link to the
+										specific cause-remedy section that applies.</dd>
+								</dlentry>
+							</dl></p></dd>
 				</dlentry>
 				<dlentry>
 					<dt><xmlelement>troubleSolution</xmlelement>
@@ -104,67 +127,265 @@
 		</section> 
 	 <example id="example" otherprops="examples">
 			<p>Here is an example of a troubleshooting topic:</p>
-			<codeblock>
-<![CDATA[<troubleshooting id="nologon">
-  <title>Cannot log on</title>
-  <shortdesc>Login attempts have failed</shortdesc>
-  <troublebody>
-    <condition>
-      <p>The system does not accept your login credentials.</p>
-    </condition>
-    <troubleSolution>
-      <cause>
-        <p>The CapsLock key might be on.</p>
-      </cause>
-      <remedy><steps-unordered>
-        <step>
-          <cmd>Verify that the CapsLock key is off.</cmd>
-        </step>
-      </steps-unordered>
-      </remedy>
-    </troubleSolution>
-    <troubleSolution>
-      <cause>
-        <title>Wrong password</title>
-        <p>The password that you are using does not match the one
-          that is stored in the system.</p>
-      </cause>
-      <remedy id="gotoaccountmanagement">
-        <steps>
-          <step>
-            <cmd>Open a Web browser window</cmd>
-          </step>
-          <step>
-            <cmd>Go to
-              <xref href="http://itdept.example.com/reset.html"
-                format="html" scope="external">
-                Account management</xref>, and follow the
-              instructions</cmd>
-          </step>
-        </steps>
-      </remedy>
-    </troubleSolution>
-    <troubleSolution>
-      <cause>
-        <title>Unknown account name</title>
-        <p>The account name you are using does not match the one
-          stored in the system.</p>
-      </cause>
-      <remedy conref="#nologon/gotoaccountmanagement"/>
-    </troubleSolution>
-    <troubleSolution>
-      <remedy>
-        <title>Still cannot log on</title>
-        <steps-informal>
-          <p>If none of the previous solutions work,
-            consider asking for help. Contact your system
-            administrator if your organization has one; otherwise,
-            contact our support team.</p>
-        </steps-informal>
-      </remedy>
-    </troubleSolution>
-  </troublebody>
-</troubleshooting>]]>
+			<codeblock>&lt;troubleshooting id="blinking_lights">
+    &lt;title>Blinking lights&lt;/title>
+    &lt;shortdesc>Printer indicator lights are blinking, indicating an error of some kind.&lt;/shortdesc>
+    &lt;troublebody>
+        &lt;condition>The printer indicator lights are blinking and you are unable to print.&lt;/condition>
+        &lt;diagnostics>
+            &lt;diagnostics-general>&lt;p>Use the table below to determine the problem.&lt;/p>
+              &lt;table frame="all" id="light_diagnostics">
+                &lt;title>Printer light diagnostics&lt;/title>
+                &lt;tgroup cols="2">
+                    &lt;colspec colname="c1" colnum="1" colwidth="1*"/>
+                    &lt;colspec colname="c2" colnum="2" colwidth="2*"/>
+                    &lt;thead>
+                        &lt;row>
+                            &lt;entry>Lights&lt;/entry>
+                            &lt;entry>Issue&lt;/entry>
+                        &lt;/row>
+                    &lt;/thead>
+                    &lt;tbody>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Power light: Flashing&lt;/li>
+                                    &lt;li>Resume light: Off&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>The printer is preparing to print. No action is required. The
+                                light will stop flashing when the printer has received all
+                                data.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Power light: On&lt;/li>
+                                    &lt;li>Resume light: Flashing&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>Printer jam. See &lt;xref
+                                    href="#trouble_olv_gvg_wmb/jam" format="dita"/>.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Power light: Flashing&lt;/li>
+                                    &lt;li>Resume light: Flashing&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>Printer is stalled and needs to be restarted. See &lt;xref
+                                    href="#trouble_olv_gvg_wmb/restart" format="dita"/>.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Left cartridge light: On&lt;/li>
+                                    &lt;li>Right cartridge light: Off&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>Low ink. See &lt;xref href="#trouble_olv_gvg_wmb/ink"
+                                    format="dita"/>.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Left cartridge light: On&lt;/li>
+                                    &lt;li>Right cartridge light: Flashing&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>Dirty ink cartridge. See &lt;xref
+                                    href="#trouble_olv_gvg_wmb/clean" format="dita"/>.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Connection light: Flashes for five seconds&lt;/li>
+                                    &lt;li>Error light: Flashes for five seconds&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>The printer has lost connection with the camera while printing.
+                                Unplug and replug the camera.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Connection light: On&lt;/li>
+                                    &lt;li>Error light: Flashing&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>The camera is not set to the correct mode for transferring
+                                photos. Change the camera mode.&lt;/entry>
+                        &lt;/row>
+                        &lt;row>
+                            &lt;entry>
+                                &lt;ul>
+                                    &lt;li>Connection light: Off&lt;/li>
+                                    &lt;li>Error light: On&lt;/li>
+                                &lt;/ul>
+                            &lt;/entry>
+                            &lt;entry>An unsupported device, such as a mouse, has been connected to the
+                                front USB port. Disconnect the unsupported device.&lt;/entry>
+                        &lt;/row>
+                    &lt;/tbody>
+                &lt;/tgroup>
+              &lt;/table>
+            &lt;/diagnostics-general>
+        &lt;/diagnostics>
+        &lt;troubleSolution>
+            &lt;remedy id="jam">
+                &lt;title>Clearing a paper jam &lt;/title>
+                &lt;steps>
+                    &lt;step>
+                        &lt;cmd>Turn off the printer.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Remove the rear access door by pressing the handle to the right and
+                            pulling out the door.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Remove any paper that is inside the printer by pulling the paper out
+                            from the back of the printer.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Replace the rear access door.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>If the paper jam cannot be removed from the back of the printer, raise
+                            the printer cover, remove the paper jam from the front of the printer,
+                            and then lower the cover.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Turn on the printer and print the document again. &lt;/cmd>
+                    &lt;/step>
+                &lt;/steps>
+            &lt;/remedy>
+        &lt;/troubleSolution>
+        &lt;troubleSolution>
+            &lt;remedy id="restart">
+                &lt;title>Restarting the printer&lt;/title>
+                &lt;steps>
+                    &lt;step>
+                        &lt;cmd>Press the Power button to turn off the printer, and then press the
+                            Power button to restart the printer. &lt;/cmd>
+                        &lt;info>Proceed to step 2 if the lights continue to flash.&lt;/info>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Press the Power button to turn off the printer.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Disconnect the printer power cord from the electrical outlet.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Reconnect the printer power cord to the electrical outlet.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Press the Power button to turn on the printer.&lt;/cmd>
+                    &lt;/step>
+                &lt;/steps>
+            &lt;/remedy>
+        &lt;/troubleSolution>
+        &lt;troubleSolution>
+            &lt;remedy id="clean">
+                &lt;title>Cleaning ink cartridge&lt;/title>
+                &lt;steps>
+                    &lt;step>
+                        &lt;cmd>Raise the printer cover, remove the print cartridge on the right, and
+                            then lower the cover.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Follow one of these steps.&lt;/cmd>
+                        &lt;choices id="choices_kql_wgh_wmb">
+                            &lt;choice>If the light is flashing: Open the printer cover, replace the
+                                print cartridge that you removed, and then remove the other print
+                                cartridge. Proceed to step 3.&lt;/choice>
+                            &lt;choice>If the light is off: There is a problem with the print cartridge
+                                that you removed. Proceed to step 3.&lt;/choice>
+                        &lt;/choices>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Manually clean the print cartridge.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>After cleaning the print cartridge, reinsert it into the printer. If
+                            the light continues to flash, replace the print cartridge.&lt;/cmd>
+                    &lt;/step>
+                &lt;/steps>
+            &lt;/remedy>
+        &lt;/troubleSolution>
+        &lt;troubleSolution>
+            &lt;remedy id="ink">
+                &lt;title>Replacing ink cartridge&lt;/title>
+                &lt;steps>
+                    &lt;step>
+                        &lt;cmd>Turn on the printer.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Make sure to load the printer with plain, white paper.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Gently grasp the handles on either side of the printer and raise the
+                            ink cartridge access door until it locks in place.&lt;/cmd>
+                        &lt;stepresult>The carriage moves to the center of the printer.&lt;/stepresult>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Wait until the carriage is idle and silent before you proceed.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Lift the lid on the ink cartridge slot, then gently push the lid back
+                            until it stops.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Pull up on the ink cartridge to remove it from the slot.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Remove one of the new ink cartridges from its package, being careful to
+                            touch only the black plastic on the cartridge.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Remove the plastic tape from the ink cartridge.&lt;/cmd>
+                        &lt;info>
+                            &lt;note type="caution">Do not touch the copper-colored contacts or the ink
+                                nozzles. Do not replace the protective tape on the contacts.
+                                Handling these parts can result in clogs, ink failure, and bad
+                                electrical connections.&lt;/note>
+                        &lt;/info>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Hold the ink cartridge by its sides with the nozzles toward the
+                            printer, then slide the ink cartridge forward into the slot.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Close the lid on the ink cartridge slot to secure the ink cartridge in
+                            place.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Repeat the previous steps to install the other ink cartridge if
+                            necessary.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Close the ink cartridge access door.&lt;/cmd>
+                        &lt;stepresult>The printer automatically prints an alignment page.&lt;/stepresult>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Wait for the alignment page to fully eject from the printer.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Lift the scanner lid.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Place the alignment page with the print side down on the scanner glass
+                            according to the engraved guides around the glass.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Close the scanner lid and touch OK.&lt;/cmd>
+                        &lt;stepresult>The printer aligns the ink cartridges.&lt;/stepresult>
+                    &lt;/step>
+                &lt;/steps>
+            &lt;/remedy>
+        &lt;/troubleSolution>
+    &lt;/troublebody>
+&lt;/troubleshooting>
 </codeblock>
 		</example>
 		<!--<section id="section_A1E4E0CE15B94E0C89740B633491C1DA"><title>Modules</title><p>The following DITA modules are provided for the troubleshooting topic.</p><dl><dlentry><dt>DTD </dt><dd><sl><sli><filepath>troubleshooting.mod</filepath> </sli><sli><filepath>troubleshooting.ent</filepath> </sli></sl></dd></dlentry><dlentry><dt>RelaxNG </dt><dd><draft-comment author="Kristen Eberlein" time="7 March 2014">Content needed here </draft-comment></dd></dlentry><dlentry><dt>XSD </dt><dd><sl><sli><filepath>troubleshootingMod.xsd</filepath> </sli><sli><filepath>troubleshootingGrp.xsd</filepath> </sli></sl></dd></dlentry></dl></section>--> 

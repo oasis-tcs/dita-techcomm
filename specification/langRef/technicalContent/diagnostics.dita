@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="diagnostics" xml:lang="en-us">
+    <title><xmlelement>diagnostics</xmlelement></title>
+    <shortdesc>The <xmlelement>diagnostics</xmlelement> element is a container element for
+        diagnostic elements that help users determine which of several possible causes discussed
+        within the troubleshooting topic applies to the symptoms they are experiencing. Diagnostics
+        may be provided in text or table format within <xmlelement>diagnostics-general</xmlelement>
+        or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm><xmlelement>diagnostics</xmlelement></indexterm>
+                <indexterm>troubleshooting
+                        elements<indexterm><xmlelement>diagnostics</xmlelement></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="usage-information">
+            <title>Usage information</title>
+            <p>Use when a troubleshooting topic contains more than one possible cause for the
+                condition.</p>
+        </section>
+        <section id="specialization-hierarchy">
+            <title>Specialization hierarchy</title>
+            <p>The <xmlelement>diagnostics</xmlelement> element is specialized from
+                <xmlelement>bodydiv</xmlelement>. It is defined in the troubleshooting module.</p>
+        </section>
+        <section id="attributes">
+            <title>Attributes</title>
+            <p conkeyref="reuse-attributes/only-universal"/>
+        </section>
+        <example id="example" otherprops="examples">
+            <title>Example</title>
+            <p>See <xref keyref="diagnostics-general"/> and <xref
+                keyref="diagnostics-steps"/>.</p>
+        </example>
+    </refbody>
+</reference>

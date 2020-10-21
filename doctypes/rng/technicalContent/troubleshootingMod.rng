@@ -49,6 +49,15 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
     <define name="condition">
       <ref name="condition.element"/>
     </define>
+    <define name="diagnostics">
+      <ref name="diagnostics.element"/>
+    </define>
+    <define name="diagnostics-general">
+      <ref name="diagnostics-general.element"/>
+    </define>
+    <define name="diagnostics-steps">
+      <ref name="diagnostics-steps.element"/>
+    </define>
     <define name="remedy">
       <ref name="remedy.element"/>
     </define>
@@ -150,6 +159,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
           <optional>
             <ref name="condition"/>
           </optional>
+          <optional>
+            <ref name="diagnostics"/>
+          </optional>
           <oneOrMore>
             <ref name="troubleSolution"/>
           </oneOrMore>
@@ -232,6 +244,90 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
       </define>
       <define name="condition.attlist" combine="interleave">
         <ref name="condition.attributes"/>
+      </define>
+    </div>
+    <div>
+      <a:documentation> LONG NAME: Diagnostics </a:documentation>
+      <define name="diagnostics.content">
+        <choice>
+          <ref name="diagnostics-general"/>
+          <ref name="diagnostics-steps"/>
+        </choice>        
+      </define>
+      <define name="diagnostics.attributes">
+        <ref name="univ-atts"/>
+      </define>
+      <define name="diagnostics.element">
+        <element name="diagnostics" dita:longName="Diagnostics" dita:since="2.0">
+          <a:documentation>
+            <![CDATA[
+    Category: Troubleshooting elements
+  ]]></a:documentation>
+          <ref name="diagnostics.attlist"/>
+          <ref name="diagnostics.content"/>
+        </element>
+      </define>
+      <define name="diagnostics.attlist" combine="interleave">
+        <ref name="diagnostics.attributes"/>
+      </define>  
+    </div>
+    <div>
+      <a:documentation> LONG NAME: Diagnostics General </a:documentation>
+      <define name="diagnostics-general.content">
+        <optional>
+          <ref name="section.blocks.only.cnt"/>
+        </optional>
+      </define>
+      <define name="diagnostics-general.attributes">
+        <ref name="univ-atts"/>
+        <optional>
+          <attribute name="spectitle"/>
+        </optional>
+      </define>
+      <define name="diagnostics-general.element">
+        <element name="diagnostics-general" dita:longName="Diagnostics General" dita:since="2.0">
+          <a:documentation>
+            <![CDATA[
+    Category: Troubleshooting elements
+  ]]></a:documentation>
+          <ref name="diagnostics-general.attlist"/>
+          <ref name="diagnostics-general.content"/>
+        </element>
+      </define>
+      <define name="diagnostics-general.attlist" combine="interleave">
+        <ref name="diagnostics-general.attributes"/>
+      </define>
+    </div>
+    <div>
+      <a:documentation> LONG NAME: Diagnostics Steps </a:documentation>
+      <define name="diagnostic-steps.content">
+        <optional>
+          <ref name="title"/>
+        </optional>
+        <choice>
+          <ref name="steps"/>
+          <ref name="steps-unordered"/>
+          <ref name="steps-informal"/>
+        </choice>
+      </define>
+      <define name="diagnostic-steps.attributes">
+        <optional>
+          <attribute name="spectitle"/>
+        </optional>
+        <ref name="univ-atts"/>
+      </define>
+      <define name="diagnostics-steps.element">
+        <element name="diagnostic-steps" dita:longName="Diagnostics Steps" dita:since="2.0">
+          <a:documentation>
+            <![CDATA[
+    Category: Troubleshooting elements
+  ]]></a:documentation>
+          <ref name="diagnostic-steps.attlist"/>
+          <ref name="diagnostic-steps.content"/>
+        </element>
+      </define>
+      <define name="diagnostic-steps.attlist" combine="interleave">
+        <ref name="diagnostic-steps.attributes"/>
       </define>
     </div>
     <div>
@@ -348,6 +444,21 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
     <define name="condition.attlist" combine="interleave">
       <optional>
         <attribute name="class" a:defaultValue="- topic/section troubleshooting/condition "/>
+      </optional>
+    </define>
+    <define name="diagnostics.attlist" combine="interleave">
+      <optional>
+        <attribute name="class" a:defaultValue="- topic/bodydiv troubleshooting/diagnostics "/>
+      </optional>
+    </define>
+    <define name="diagnostics-general.attlist" combine="interleave">
+      <optional>
+        <attribute name="class" a:defaultValue="- topic/section troubleshooting/diagnostics-general "/>
+      </optional>
+    </define>
+    <define name="diagnostics-steps.attlist" combine="interleave">
+      <optional>
+        <attribute name="class" a:defaultValue="- topic/section troubleshooting/diagnostics-steps "/>
       </optional>
     </define>
     <define name="remedy.attlist" combine="interleave">
