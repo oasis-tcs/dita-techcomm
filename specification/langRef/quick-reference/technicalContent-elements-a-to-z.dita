@@ -79,6 +79,9 @@
         <sli><xref keyref="elements-day"/></sli>
         <sli><xref keyref="elements-dedication"/></sli>
         <sli><xref keyref="elements-delim"/></sli>
+        <sli><xref keyref="elements-diagnostics"/></sli>
+        <sli><xref keyref="elements-diagnostics-general"/></sli>
+        <sli><xref keyref="elements-diagnostics-steps"/></sli>
         <sli><xref keyref="elements-draftintro"/></sli>
         <sli><xref keyref="elements-edited"/></sli>
         <sli><xref keyref="elements-edition"/></sli>
