@@ -237,7 +237,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         <ref name="arch-atts"/>
         <ref name="specializations-att"/>
       </define>
-
+      <define name="idElements" combine="choice">
+        <ref name="task.element"/>
+      </define>
     </div>
     <div>
       <a:documentation> LONG NAME: Task Body </a:documentation>
