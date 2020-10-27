@@ -68,8 +68,7 @@
 <!ENTITY % mathml.content
                        "(m:math |
                          %mathmlref; |
-                         %data; |
-                         %data-about;)*"
+                         %data;)*"
 >
 <!ENTITY % mathml.attributes
               "%univ-atts;"

@@ -15,8 +15,7 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>MathML element content includes MathML elements, references to MathML elements held in separate,
-        non-DITA documents, <xmlelement>data</xmlelement>, or <xmlelement>data-about</xmlelement>
-        elements.</p>
+        non-DITA documents, or <xmlelement>data</xmlelement> elements.</p>
       <p>The <xmlelement>mathml</xmlelement> element is not intended to represent a semantic
         equation, only content that contributes to a semantic equation. Use the equation domain
         elements or their equivalent to represent equations semantically, for example, to enable

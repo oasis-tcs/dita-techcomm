@@ -170,7 +170,6 @@ elements
             />
             <ref name="mathmlref"/>
             <ref name="data"/>
-            <ref name="data-about"/>
           </choice>
         </zeroOrMore>
       </define>
