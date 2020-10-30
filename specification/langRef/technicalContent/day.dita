@@ -27,7 +27,7 @@
       <codeblock>&lt;bookchangehistory>
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
-    &lt;completed>&lt;year>2008&lt;/year>&lt;month>10&lt;/month><b>&lt;day>13&lt;/day></b>&lt;/completed>
+    &lt;completed>&lt;year>2020&lt;/year>&lt;month>10&lt;/month><b>&lt;day>13&lt;/day></b>&lt;/completed>
   &lt;/edited>
 &lt;/bookchangehistory></codeblock></example>
   </refbody>

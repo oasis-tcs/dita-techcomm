@@ -34,8 +34,8 @@
       <title>Example</title>
       <codeblock>&lt;bookmeta>
   &lt;bookrights>
-    &lt;copyrfirst>&lt;year>1977&lt;/year>&lt;/copyrfirst>
-    &lt;copyrlast>&lt;year>2008&lt;/year>&lt;/copyrlast>
+    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
     &lt;bookowner>&lt;person>Jane Doe&lt;/person>&lt;/bookowner>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>

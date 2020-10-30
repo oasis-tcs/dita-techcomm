@@ -31,24 +31,24 @@
       ><title>Example</title><codeblock>&lt;bookmeta>
   &lt;bookchangehistory>
     &lt;reviewed>
-      &lt;started>&lt;year>2007&lt;/year>&lt;month>10&lt;/month>&lt;/started>
-      &lt;completed>&lt;year>2008&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
+      &lt;started>&lt;year>2019&lt;/year>&lt;month>10&lt;/month>&lt;/started>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
     &lt;/reviewed>
     &lt;edited>
       &lt;person>Joe T. Editor&lt;/person>
-      &lt;completed>&lt;year>2008&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
     &lt;/edited>
     &lt;tested>
       &lt;organization>OASIS&lt;/organization>
-      &lt;completed>&lt;year>2008&lt;/year>&lt;month>04&lt;/month>&lt;/completed>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>04&lt;/month>&lt;/completed>
     &lt;/tested>
     &lt;approved>
       &lt;organization>OASIS&lt;/organization>
-      &lt;completed>&lt;year>2008&lt;/year>&lt;month>05&lt;/month>&lt;/completed>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>05&lt;/month>&lt;/completed>
     &lt;/approved>
     &lt;bookevent>
       &lt;bookeventtype name="Type of Major Event"/>
-      &lt;completed>&lt;year>2009&lt;/year>&lt;/completed>
+      &lt;completed>&lt;year>2021&lt;/year>&lt;/completed>
     &lt;/bookevent>
   &lt;/bookchangehistory>
 &lt;/bookmeta></codeblock></example>
