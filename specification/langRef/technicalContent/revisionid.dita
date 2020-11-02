@@ -34,12 +34,12 @@
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
     <b>&lt;revisionid>1&lt;/revisionid></b>
-    &lt;completed>&lt;year>2008&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+    &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
   &lt;/edited>
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
     <b>&lt;revisionid>2&lt;/revisionid></b>
-    &lt;completed>&lt;year>2008&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
+    &lt;completed>&lt;year>2020&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
   &lt;/edited>
 &lt;/bookchangehistory></codeblock></example>
   </refbody>

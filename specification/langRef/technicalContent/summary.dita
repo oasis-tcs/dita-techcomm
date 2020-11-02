@@ -30,13 +30,13 @@
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
     &lt;revisionid>1&lt;/revisionid>
-    &lt;completed>&lt;year>2008&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+    &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
     <b>&lt;summary>Added several new topics&lt;/summary></b>
   &lt;/edited>
   &lt;edited>
     &lt;person>Joe T. Editor&lt;/person>
     &lt;revisionid>2&lt;/revisionid>
-    &lt;completed>&lt;year>2008&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
+    &lt;completed>&lt;year>2020&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
     <b>&lt;summary>Fixed a few typos&lt;/summary></b>
   &lt;/edited>
 &lt;/bookchangehistory></codeblock></example>

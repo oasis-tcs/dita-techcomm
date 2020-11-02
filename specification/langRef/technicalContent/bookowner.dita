@@ -27,8 +27,8 @@
       <title>Example</title>
       <codeblock>&lt;bookmeta>
   &lt;bookrights>
-    &lt;copyrfirst>&lt;year>1994&lt;/year>&lt;/copyrfirst>
-    &lt;copyrlast>&lt;year>2006&lt;/year>&lt;/copyrlast>
+    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
     &lt;bookowner>
       &lt;organization>Example Corporation&lt;/organization>
     &lt;/bookowner>

@@ -56,7 +56,7 @@
     &lt;author>John Doe&lt;/author>
     &lt;bookrights>
       &lt;copyrfirst>
-        &lt;year>2006&lt;/year>
+        &lt;year>2020&lt;/year>
       &lt;/copyrfirst>
       &lt;bookowner>
         &lt;person href="task_preface.dita">Jane Doe&lt;/person>

@@ -42,19 +42,19 @@
         &lt;change-item product="productA productB">
         &lt;change-person>Tom Cihak&lt;/change-person>
         &lt;change-organization>JEDEC&lt;/change-organization>
-        &lt;change-completed>2013-03-23&lt;/change-completed>
+        &lt;change-completed>2019-03-23&lt;/change-completed>
         &lt;change-summary>Made change 1 to both products&lt;/change-summary>
         &lt;data>Details of change 1&lt;/data>
         &lt;/change-item>
         &lt;change-item product="productA">
         &lt;change-person>Tom Cihak&lt;/change-person>
-        &lt;change-completed>2013-06-07&lt;/change-completed>
+        &lt;change-completed>2019-06-07&lt;/change-completed>
         &lt;change-summary>Made change 2 to product A&lt;/change-summary>
         &lt;data>Details of change 2&lt;/data>
         &lt;/change-item>
         &lt;change-item product="productA productB">
         &lt;change-person>Tom Cihak&lt;/change-person>
-        &lt;change-completed>2013-07-20&lt;/change-completed>
+        &lt;change-completed>2019-07-20&lt;/change-completed>
         &lt;change-summary>Made change 3 to both products&lt;/change-summary>
         &lt;data>Details of change 3&lt;/data>
         &lt;/change-item>

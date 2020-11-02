@@ -68,7 +68,7 @@
           &lt;/authorinformation&gt;
           &lt;prodinfo&gt;
           &lt;prodname&gt;My Product&lt;/prodname&gt;
-          &lt;vrmlist&gt;&lt;vrm release="Release 1" version="Version 3"/&gt;&lt;/vrmlist&gt;
+          &lt;vrmlist&gt;&lt;vrm release="1" version="3"/&gt;&lt;/vrmlist&gt;
           &lt;/prodinfo&gt;
           &lt;bookid&gt;
           &lt;bookpartno&gt;99F9999&lt;/bookpartno&gt;
@@ -76,8 +76,8 @@
           &lt;maintainer href="#rcf"&gt;&lt;/maintainer&gt;
           &lt;/bookid&gt;
           &lt;bookrights&gt;
-          &lt;copyrfirst&gt;&lt;year&gt;1996&lt;/year&gt;&lt;/copyrfirst&gt;
-          &lt;copyrlast&gt;&lt;year&gt;2006&lt;/year&gt;&lt;/copyrlast&gt;
+          &lt;copyrfirst&gt;&lt;year&gt;2016&lt;/year&gt;&lt;/copyrfirst&gt;
+          &lt;copyrlast&gt;&lt;year&gt;2020&lt;/year&gt;&lt;/copyrlast&gt;
           &lt;bookowner&gt;&lt;organization&gt;OASIS&lt;/organization&gt;&lt;/bookowner&gt;
           &lt;/bookrights&gt;
           &lt;/bookmeta&gt;</codeblock></example>
