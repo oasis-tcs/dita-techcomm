@@ -49,6 +49,12 @@
                format
                           CDATA
                                     'svg'
+               scope
+                          (external |
+                           local |
+                           peer |
+                           -dita-use-conref-target)
+                                    #IMPLIED                                    
                parse
                           CDATA
                                     'xml'

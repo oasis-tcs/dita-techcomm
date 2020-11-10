@@ -97,6 +97,16 @@ DITA SVG Domain
           <attribute name="format" a:defaultValue="svg"/>
         </optional>
         <optional>
+          <attribute name="scope">
+            <choice>
+              <value>external</value>
+              <value>local</value>
+              <value>peer</value>
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
           <attribute name="parse" a:defaultValue="xml"/>
         </optional>
         <optional>
