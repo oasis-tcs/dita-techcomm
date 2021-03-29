@@ -46,6 +46,11 @@
          "../base/mapGroup.ent"
 >%mapgroup-d-dec;
 
+<!ENTITY % alternativetitles-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Alternative Titles Domain//EN"
+         "../base/alternativeTitlesDomain.ent"
+>%alternativetitles-d-dec;
+
 <!ENTITY % classify-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Subject Classification Domain//EN"
          "classifyDomain.ent"
@@ -157,6 +162,9 @@
                         the name of the domain(s) in which the
                         extension was declared                     -->
 
+<!ENTITY % titlealt     "titlealt |
+                         %alternativeTitles-d-titlealt;
+                        ">
 <!ENTITY % topicref     "topicref |
                          %mapgroup-d-topicref; |
                          %ditavalref-d-topicref; |
@@ -266,6 +274,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
          "../technicalContent/abbreviateDomain.mod"
 >%abbrev-d-def;
+
+<!ENTITY % alternativetitles-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Alternative Titles Domain//EN"
+         "../base/alternativeTitlesDomain.mod"
+>%alternativetitles-d-def;
 
 <!ENTITY % ditavalref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 DITAVAL Ref Domain//EN"

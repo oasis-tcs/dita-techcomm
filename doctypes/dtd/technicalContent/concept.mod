@@ -52,7 +52,6 @@
 <!--                    LONG NAME: Concept                         -->
 <!ENTITY % concept.content
                        "((%title;),
-                         (%titlealts;)?,
                          (%abstract; |
                           %shortdesc;)?,
                          (%prolog;)?,

@@ -48,6 +48,11 @@
          "abbreviateDomain.ent"
 >%abbrev-d-dec;
 
+<!ENTITY % alternativetitles-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Alternative Titles Domain//EN"
+         "../base/alternativeTitlesDomain.ent"
+>%alternativetitles-d-dec;
+
 <!ENTITY % emphasis-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Emphasis Domain//EN"
          "../base/emphasisDomain.ent"
@@ -159,6 +164,9 @@
                         the name of the domain(s) in which the
                         extension was declared                     -->
 
+<!ENTITY % titlealt     "titlealt |
+                         %alternativeTitles-d-titlealt;
+                        ">
 <!ENTITY % note         "note |
                          %hazard-d-note;
                         ">
@@ -271,6 +279,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Abbreviated Form Domain//EN"
          "abbreviateDomain.mod"
 >%abbrev-d-def;
+
+<!ENTITY % alternativetitles-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Alternative Titles Domain//EN"
+         "../base/alternativeTitlesDomain.mod"
+>%alternativetitles-d-def;
 
 <!ENTITY % emphasis-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Emphasis Domain//EN"

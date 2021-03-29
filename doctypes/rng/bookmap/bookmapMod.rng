@@ -329,12 +329,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Book Metadata</a:documentation>
       <define name="bookmeta.content">
-        <optional>
-          <ref name="linktext"/>
-        </optional>
-        <optional>
-          <ref name="searchtitle"/>
-        </optional>
+        <zeroOrMore>
+          <ref name="titlealt"/>
+        </zeroOrMore>
         <optional>
           <ref name="shortdesc"/>
         </optional>

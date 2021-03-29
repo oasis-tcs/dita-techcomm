@@ -167,8 +167,7 @@
 
 <!--                    LONG NAME: Book Metadata                   -->
 <!ENTITY % bookmeta.content
-                       "((%linktext;)?,
-                         (%searchtitle;)?,
+                       "((%titlealt;)*,
                          (%shortdesc;)?,
                          (%author;)*,
                          (%source;)?,

@@ -53,7 +53,6 @@
 <!--                    LONG NAME: Reference                       -->
 <!ENTITY % reference.content
                        "((%title;),
-                         (%titlealts;)?,
                          (%abstract; |
                           %shortdesc;)?,
                          (%prolog;)?,

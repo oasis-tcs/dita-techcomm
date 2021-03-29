@@ -85,6 +85,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 General Task//EN"
       </define>
     </include>
     <include href="abbreviateDomain.rng"/>
+    <include href="urn:oasis:names:tc:dita:rng:alternativeTitlesDomain.rng" dita:since="2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
     <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
     <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>

@@ -99,9 +99,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
       <define name="reference.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="abstract"/>
             <ref name="shortdesc"/>
