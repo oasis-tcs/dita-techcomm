@@ -104,9 +104,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
       <define name="troubleshooting.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="abstract"/>
             <ref name="shortdesc"/>

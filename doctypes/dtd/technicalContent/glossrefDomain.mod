@@ -68,11 +68,6 @@
                            peer |
                            -dita-use-conref-target)
                                     #IMPLIED
-               locktitle
-                          (no |
-                           yes |
-                           -dita-use-conref-target)
-                                    #IMPLIED
                format
                           CDATA
                                     #IMPLIED

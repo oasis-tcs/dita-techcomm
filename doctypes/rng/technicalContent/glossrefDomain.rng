@@ -103,15 +103,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN"
           </attribute>
         </optional>
         <optional>
-          <attribute name="locktitle">
-            <choice>
-              <value>no</value>
-              <value>yes</value>
-              <value>-dita-use-conref-target</value>
-            </choice>
-          </attribute>
-        </optional>
-        <optional>
           <attribute name="format"/>
         </optional>
         <optional>

@@ -94,7 +94,6 @@
 <!--                    LONG NAME: Task                            -->
 <!ENTITY % task.content
                        "((%title;),
-                         (%titlealts;)?,
                          (%abstract; |
                           %shortdesc;)?,
                          (%prolog;)?,

@@ -61,7 +61,6 @@
 <!--                    LONG NAME: Troubleshooting                 -->
 <!ENTITY % troubleshooting.content
                        "((%title;),
-                         (%titlealts;)?,
                          (%abstract; |
                           %shortdesc;)?,
                          (%prolog;)?,

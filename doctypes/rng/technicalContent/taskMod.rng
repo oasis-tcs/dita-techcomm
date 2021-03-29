@@ -190,9 +190,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <define name="task.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="abstract"/>
             <ref name="shortdesc"/>
