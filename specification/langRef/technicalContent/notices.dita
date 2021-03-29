@@ -27,7 +27,11 @@
       <title>Example</title>
       <p>This example references a notices topic that contains legal content.</p>
       <codeblock>&lt;backmatter&gt;
-  &lt;notices href="notices.dita" navtitle="Legal notices"/&gt;
+  &lt;notices href="notices.dita" navtitle="Legal notices">
+    &lt;topicmeta>
+      &lt;navtitle>Legal notices&lt;/navtitle>
+    &lt;/topicmeta>
+  &lt;/notices>
   &lt;booklists&gt;
     &lt;!-- Index, glossary, or other lists -->
   &lt;/booklists>

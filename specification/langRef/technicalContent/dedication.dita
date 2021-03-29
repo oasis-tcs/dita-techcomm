@@ -25,8 +25,11 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;frontmatter>
-  &lt;dedication href="dtm.dita"
-                  navtitle="Dedicated to Mother"/>
+  &lt;dedication href="dtm.dita">
+    &lt;topicmeta>
+      &lt;navtitle>Dedicated to Mother&lt;/navtitle>
+    &lt;/topicmeta>
+  &lt;/dedication>
 &lt;/frontmatter></codeblock></example>
   </refbody>
 </reference>
