@@ -39,7 +39,11 @@
             document.</p><codeblock>&lt;booklists>
   &lt;toc/>
   &lt;tablelist/>
-  <b>&lt;booklist href="authors.dita" navtitle="List of authors"/></b>
+  <b>&lt;booklist href="authors.dita"></b>
+    &lt;topicmeta>
+      &lt;navtitle>List of authors&lt;/navtitle>
+    &lt;/topicmeta>
+  <b>&lt;/booklist></b>
 &lt;/booklists></codeblock></example>
     </refbody>
 </reference>

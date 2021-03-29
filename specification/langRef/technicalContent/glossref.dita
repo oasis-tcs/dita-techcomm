@@ -36,7 +36,7 @@ and expanded versions of that acronym.</shortdesc>
           <xmlatt>href</xmlatt>, given below), <xref
             keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
-          <xmlatt>collection-type</xmlatt>, <xmlatt>locktitle</xmlatt>, <xmlatt>chunk</xmlatt>, and
+          <xmlatt>collection-type</xmlatt>, <xmlatt>chunk</xmlatt>, and
         <xmlatt>search</xmlatt> from <xref keyref="attributes-commonMap"/>; this
         element also uses narrowed definitions of <xmlatt>linking</xmlatt> and <xmlatt>toc</xmlatt>
         from <xref keyref="attributes-commonMap"/>, given below.<dl>
@@ -55,10 +55,6 @@ and expanded versions of that acronym.</shortdesc>
               using the attribute.</dd>
           </dlentry>
           <dlentry conkeyref="reuse-attributes/toc-default-no">
-            <dt/>
-            <dd/>
-          </dlentry>
-          <dlentry conkeyref="reuse-attributes/print-default-no">
             <dt/>
             <dd/>
           </dlentry>

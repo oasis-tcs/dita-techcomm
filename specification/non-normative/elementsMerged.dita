@@ -67,8 +67,6 @@
         and <xmlelement>image</xmlelement> elements inside <xmlelement>foreign</xmlelement> should
         still be translatable; they provide an alternative display if the foreign content cannot be
         processed.</fn>
-      <fn id="alt">The use of the <xmlatt>alt</xmlatt> attribute is deprecated in favor of the
-          <xmlelement>alt</xmlelement> element.</fn>
       <simpletable id="simpletable_body">
         <sthead>
           <stentry>Element name</stentry>
@@ -125,14 +123,6 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>boolean</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>n/a</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -364,12 +354,12 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>image</xmlelement> <!--<xref href='"#elements/foreign1"' type="fn"></xref>--></stentry>
+          <stentry><xmlelement>image</xmlelement></stentry>
           <stentry>N/A</stentry>
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>alt</xmlatt><xref href="elementsMerged.dita#elements/alt"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>index-base</xmlelement></stentry>
@@ -393,14 +383,6 @@
           <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>indextermref</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -903,9 +885,6 @@
     </section>
     <section product="base" id="base_map">
       <title>map elements</title>
-      <p>As of DITA 1.2, the <xmlatt>navtitle</xmlatt> attribute is deprecated, for translation purposes, in favor
-        of the new <xmlelement>navtitle</xmlelement> element. The <xmlelement>navtitle</xmlelement> element is also available in topics,
-        and is included in the topic table above.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -937,8 +916,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>title</xmlatt> <fn>(deprecated as of DITA 1.2 for translation purposes)</fn>
-          </stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>navref</xmlelement></stentry>
@@ -1018,7 +996,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>ux-window</xmlelement></stentry>
@@ -1034,8 +1012,6 @@
       <title>bookmap elements</title>
       <p>The bookmap specialization contains many phrase-based elements inside the bookmeta. These
         are metadata, and should not be translated.</p>
-      <p>As of DITA 1.2, the <xmlatt>navtitle</xmlatt> attribute is deprecated, for translation purposes, in favor
-        of the new <xmlelement>navtitle</xmlelement> element.</p>
       <simpletable id="simpletable_ED70E7B07CCD4F0EA141D7E97E8D5D2C" relcolwidth="15* 10* 7* 8* 8* 7* 10*">
         <sthead>
           <stentry>Element name</stentry>
@@ -1053,7 +1029,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>amendments</xmlelement></stentry>
@@ -1062,7 +1038,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>appendix</xmlelement></stentry>
@@ -1071,7 +1047,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>approved</xmlelement></stentry>
@@ -1098,7 +1074,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookabstract</xmlelement></stentry>
@@ -1107,7 +1083,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookchangehistory</xmlelement></stentry>
@@ -1161,7 +1137,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>booklists</xmlelement></stentry>
@@ -1179,7 +1155,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removed title attribute</i></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookmeta</xmlelement></stentry>
@@ -1260,7 +1236,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>colophon</xmlelement></stentry>
@@ -1269,7 +1245,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>completed</xmlelement></stentry>
@@ -1314,7 +1290,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>draftintro</xmlelement></stentry>
@@ -1323,7 +1299,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>edited</xmlelement></stentry>
@@ -1350,7 +1326,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>frontmatter</xmlelement></stentry>
@@ -1359,7 +1335,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>glossarylist</xmlelement></stentry>
@@ -1368,7 +1344,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>indexlist</xmlelement></stentry>
@@ -1377,7 +1353,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>isbn</xmlelement></stentry>
@@ -1422,7 +1398,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>organization</xmlelement></stentry>
@@ -1440,7 +1416,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>person</xmlelement></stentry>
@@ -1458,7 +1434,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>printlocation</xmlelement></stentry>
@@ -1539,7 +1515,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>tested</xmlelement></stentry>
@@ -1557,7 +1533,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>trademarklist</xmlelement></stentry>
@@ -1566,7 +1542,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>volume</xmlelement></stentry>
@@ -1765,7 +1741,7 @@
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>alt</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>glossSynonym</xmlelement></stentry>
@@ -2891,8 +2867,6 @@
     </section>
     <section id="section_FB702013840E4227AB9F6C02B1F35D64" product="base">
       <title>mapgroup-d elements (mapgroup domain)</title>
-      <p>As of DITA 1.2, the <xmlatt>navtitle</xmlatt> attribute is deprecated, for translation purposes, in favor
-        of the new <xmlelement>navtitle</xmlelement> element.</p>
       <simpletable id="simpletable_C7DA2F9DD1804D4CA09B7BB04EB13076">
         <sthead>
           <stentry>Element name</stentry>
@@ -2910,7 +2884,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>keydef</xmlelement></stentry>
@@ -2919,7 +2893,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>mapref</xmlelement></stentry>
@@ -2928,7 +2902,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topicgroup</xmlelement></stentry>
@@ -2937,7 +2911,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topichead</xmlelement></stentry>
@@ -2946,7 +2920,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topicset</xmlelement></stentry>
@@ -2955,7 +2929,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topicsetref</xmlelement></stentry>
@@ -2964,14 +2938,12 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
       </simpletable>
     </section>
     <section id="ditavalref-d" product="base">
       <title>ditavalref-d elements (ditavalref domain)</title>
-      <p>The <xmlatt>navtitle</xmlatt> attribute is deprecated, for translation purposes, in favor
-        of the <xmlelement>navtitle</xmlelement> element.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -3000,7 +2972,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>dvrKeyscopePrefix</xmlelement>
@@ -3375,7 +3347,7 @@
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>alt</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>howtoavoid</xmlelement></stentry>
@@ -3448,7 +3420,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
       </simpletable>
     </section>
@@ -3830,7 +3802,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topicapply</xmlelement></stentry>
@@ -3839,7 +3811,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topicCell</xmlelement></stentry>
@@ -3857,7 +3829,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>topicSubjectHeader</xmlelement></stentry>
@@ -3916,7 +3888,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>elementdef</xmlelement></stentry>
@@ -3934,7 +3906,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>hasInstance</xmlelement></stentry>
@@ -3943,7 +3915,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>hasKind</xmlelement></stentry>
@@ -3952,7 +3924,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>hasNarrower</xmlelement></stentry>
@@ -3961,7 +3933,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>hasPart</xmlelement></stentry>
@@ -3970,7 +3942,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>hasRelated</xmlelement></stentry>
@@ -3979,7 +3951,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>relatedSubjects</xmlelement></stentry>
@@ -3988,7 +3960,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>subjectdef</xmlelement></stentry>
@@ -3997,7 +3969,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>subjectHead</xmlelement></stentry>
@@ -4006,7 +3978,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>subjectHeadMeta</xmlelement></stentry>
@@ -4024,7 +3996,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>navtitle</xmlatt></stentry>
+          <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>subjectRel</xmlelement></stentry>
@@ -4069,7 +4041,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>title</xmlatt></i></stentry>
+          <stentry>no</stentry>
         </strow>
       </simpletable>
     </section>

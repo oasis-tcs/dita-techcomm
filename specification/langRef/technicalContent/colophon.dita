@@ -38,7 +38,11 @@
   &lt;title>Sample book&lt;/title>
   &lt;!-- ... -->
   &lt;backmatter>
-    &lt;colophon href="ProdNot.dita" navtitle="Production Notes"/>
+    &lt;colophon href="ProdNotes.dita">
+      &lt;topicmeta>
+        &lt;navtitle>Production Notes&lt;/navtitle>
+      &lt;/topicmeta>
+    &lt;/colophon>
   &lt;/backmatter>
 &lt;/bookmap></codeblock></example>
   </refbody>
