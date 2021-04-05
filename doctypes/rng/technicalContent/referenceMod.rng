@@ -166,15 +166,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="refbody.attributes">
-        <ref name="id-atts"/>
-        <ref name="localization-atts"/>
-        <optional>
-          <attribute name="base"/>
-        </optional>
-        <ref name="base-attribute-extensions"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
+        <ref name="univ-atts"/>
       </define>
       <define name="refbody.element">
         <element name="refbody" dita:longName="Reference Body">

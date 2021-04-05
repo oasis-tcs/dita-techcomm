@@ -140,15 +140,7 @@
                          (%glossAlt;)*)"
 >
 <!ENTITY % glossBody.attributes
-              "%id-atts;
-               %localization-atts;
-               base
-                          CDATA
-                                    #IMPLIED
-               %base-attribute-extensions;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  glossBody %glossBody.content;>
 <!ATTLIST  glossBody %glossBody.attributes;>

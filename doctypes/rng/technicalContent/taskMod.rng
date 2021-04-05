@@ -269,15 +269,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="taskbody.attributes">
-        <ref name="id-atts"/>
-        <ref name="localization-atts"/>
-        <optional>
-          <attribute name="base"/>
-        </optional>
-        <ref name="base-attribute-extensions"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
+        <ref name="univ-atts"/>
       </define>
       <define name="taskbody.element">
         <element name="taskbody" dita:longName="Task Body">
