@@ -148,15 +148,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
         </zeroOrMore>
       </define>
       <define name="conbody.attributes">
-        <ref name="id-atts"/>
-        <ref name="localization-atts"/>
-        <optional>
-          <attribute name="base"/>
-        </optional>
-        <ref name="base-attribute-extensions"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
+        <ref name="univ-atts"/>
       </define>
       <define name="conbody.element">
         <element name="conbody" dita:longName="Concept Body">
