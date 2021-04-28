@@ -32,8 +32,8 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
-        keyref="attributes-dataElement"/> (with a narrowed definition of <xmlatt>value</xmlatt>,
-        given below), <xref keyref="attributes-linkRelationship"/>, and <xref
+        keyref="attributes-common/dataatts"/> (with a narrowed definition of <xmlatt>value</xmlatt>,
+        given below), <xref keyref="attributes-common/linkatts"/>, and <xref
           keyref="attributes-universal"/>.</p>
       <dl>
         <dlentry>

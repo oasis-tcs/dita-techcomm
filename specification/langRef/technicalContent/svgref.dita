@@ -51,10 +51,10 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref keyref="attributes-universal"
-/>, <xref keyref="attributes-includeElement/encoding"><xmlatt>encoding</xmlatt></xref>, <xref
-keyref="attributes-includeElement/parse"><xmlatt>parse</xmlatt></xref> (with a default value of
+/>, <xref keyref="attributes-common/encoding"><xmlatt>encoding</xmlatt></xref>, <xref
+keyref="attributes-common/parse"><xmlatt>parse</xmlatt></xref> (with a default value of
         "xml"), and <xref keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>. This element also uses
-        <xref keyref="attributes-linkRelationship"/>, with narrowed definitions of <xmlatt>href</xmlatt> and
+        <xref keyref="attributes-common/linkatts"/>, with narrowed definitions of <xmlatt>href</xmlatt> and
 <xmlatt>format</xmlatt> (given below).</p>
       <dl>
         <dlentry>

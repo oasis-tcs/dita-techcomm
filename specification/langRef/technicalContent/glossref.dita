@@ -31,15 +31,15 @@ and expanded versions of that acronym.</shortdesc>
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
         keyref="attributes-universal"/>, <xref
-            keyref="attributes-topicrefElement"/>, <xref
-              keyref="attributes-linkRelationship"/> (with a narrowed definition of
+          keyref="attributes-common/topicrefatts"/>, <xref
+              keyref="attributes-common/linkatts"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), <xref
             keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
           <xmlatt>collection-type</xmlatt>, <xmlatt>chunk</xmlatt>, and
-        <xmlatt>search</xmlatt> from <xref keyref="attributes-commonMap"/>; this
+        <xmlatt>search</xmlatt> from <xref keyref="attributes-common/commonmapatts"/>; this
         element also uses narrowed definitions of <xmlatt>linking</xmlatt> and <xmlatt>toc</xmlatt>
-        from <xref keyref="attributes-commonMap"/>, given below.<dl>
+        from <xref keyref="attributes-common/commonmapatts"/>, given below.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
             <dd>A pointer to a glossary definition, typically a <xmlelement>glossentry</xmlelement>

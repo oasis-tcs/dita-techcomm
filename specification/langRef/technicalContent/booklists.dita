@@ -25,11 +25,11 @@
         </section>
         <section id="attributes"><title>Attributes</title>
             <p>The following attributes are available on this element: <xref
-                keyref="attributes-universal"/>, <xref keyref="attributes-commonMap"/>, <xref
-                    keyref="attributes-topicrefElement"/>, and <xref keyref="attributes-keyref"
-                        ><xmlatt>keyref</xmlatt></xref>. This element also uses
-                    <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> from
-                <xref keyref="attributes-linkRelationship"/>.</p>
+                    keyref="attributes-universal"/>, <xref keyref="attributes-common/commonmapatts"
+                    />, <xref keyref="attributes-common/topicrefatts"/>, and <xref
+                    keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>. This element also
+                uses <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> from
+                    <xref keyref="attributes-common/linkatts"/>.</p>
         </section>
         <example id="example" otherprops="examples"><title>Example</title>
             <p>The following code sample indicates that lists are generated in the front and back
