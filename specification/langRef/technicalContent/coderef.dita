@@ -32,10 +32,10 @@
     <section id="attributes">
       <title>Attributes</title>
       <p id="xref-attributes">The following attributes are available on this element: <xref
-keyref="attributes-universal"/>, <xref keyref="attributes-includeElement/encoding"
-><xmlatt>encoding</xmlatt></xref>, <xref keyref="attributes-includeElement/parse"
+keyref="attributes-universal"/>, <xref keyref="attributes-common/encoding"
+><xmlatt>encoding</xmlatt></xref>, <xref keyref="attributes-common/parse"
 ><xmlatt>parse</xmlatt></xref> (with a default value of "text"), <xref
-keyref="attributes-linkRelationship"/>, and <xref keyref="attributes-keyref"
+keyref="attributes-common/linkatts"/>, and <xref keyref="attributes-keyref"
 ><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">

@@ -29,7 +29,7 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
         keyref="attributes-universal"/>, <xref
-            keyref="attributes-linkRelationship"/> (with a narrowed definition of
+            keyref="attributes-common/linkatts"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), and <xref
             keyref="attributes-keyref"
           ><xmlatt>keyref</xmlatt></xref>.<dl>

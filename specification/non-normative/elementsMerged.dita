@@ -85,8 +85,7 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>alt</xmlelement>
-            <xref href="elementsMerged.dita#elements/alt"/></stentry>
+          <stentry><xmlelement>alt</xmlelement></stentry>
           <stentry>N/A</stentry>
           <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
           <stentry>block</stentry>
