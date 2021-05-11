@@ -29,7 +29,7 @@ glossary term (such as part of speech or additional forms of the term).</shortde
       </section>
       <section id="attributes">
          <title>Attributes</title>
-         <p conkeyref="reuse-attributes/topic-body"/>
+         <p conkeyref="reuse-attributes/only-universal"/>
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>

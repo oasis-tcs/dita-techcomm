@@ -29,7 +29,7 @@
           <xmlelement>body</xmlelement>; it is defined in the concept module.</p></section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="reuse-attributes/topic-body"/>
+      <p conkeyref="reuse-attributes/only-universal"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
