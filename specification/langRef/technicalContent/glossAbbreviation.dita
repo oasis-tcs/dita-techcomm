@@ -23,7 +23,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p conkeyref="reuse-attributes/topic-body"/>
+      <p conkeyref="reuse-tc-attributes/glossentry-specialized-title"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

@@ -32,6 +32,7 @@
   </bookmeta>
   <frontmatter>
     <topicref href="common/conref-cover-pages.dita" processing-role="resource-only"/>
+    <keydef href="common/conref-tc-attribute.dita" keys="reuse-tc-attributes"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
     <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap" format="ditamap"/>
     <keydef href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita" keys="reuse-note"/>
