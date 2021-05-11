@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "concept.dtd">
+<concept id="conref-tc-attribute" xml:lang="en-us">
+                <title>Attribute description reuse file</title>
+                <shortdesc>This file contains attribute information used by multiple files in the
+                DITA Technical Communications specification.</shortdesc>
+                <conbody>
+                        <section>
+                                <title>Reused attribute set for glossentry</title>
+                                <p id="glossentry-specialized-title">The following attributes are available on this element: <xref
+                                        keyref="attributes-universal"/> (without the Metadata attribute group) and
+                                        <xmlatt>base</xmlatt> from the <xref keyref="attributes-metadata"/>.</p>
+                        </section>
+                </conbody>
+        </concept>
