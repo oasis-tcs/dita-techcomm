@@ -49,9 +49,6 @@
                keys
                           CDATA
                                     #REQUIRED
-               copy-to
-                          CDATA
-                                    #IMPLIED
                collection-type
                           (choice |
                            family |

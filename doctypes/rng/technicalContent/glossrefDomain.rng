@@ -76,9 +76,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Reference Domain//EN"
         </optional>
         <attribute name="keys"/>
         <optional>
-          <attribute name="copy-to"/>
-        </optional>
-        <optional>
           <attribute name="collection-type">
             <choice>
               <value>choice</value>

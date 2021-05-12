@@ -242,9 +242,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
       <optional>
         <attribute name="keys"/>
       </optional>
-      <optional>
-        <attribute name="copy-to"/>
-      </optional>
       <ref name="topicref-atts"/>
       <ref name="univ-atts"/>
     </define>
