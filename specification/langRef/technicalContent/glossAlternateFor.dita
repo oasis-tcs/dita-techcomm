@@ -27,8 +27,8 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref
-        keyref="attributes-universal"/>, <xref
+      <p>The following attributes are available on this element: <ph
+        conkeyref="reuse-attributes/ref-universalatts"/>, <xref
             keyref="attributes-common/linkatts"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), and <xref
             keyref="attributes-common/attr-keyref"

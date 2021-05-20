@@ -19,8 +19,8 @@
       </section>
       <section id="attributes">
          <title>Attributes</title>
-         <p>The following attributes are available on this element: <xref
-               keyref="attributes-universal"/>, <xref keyref="attributes-common/specentry"
+         <p>The following attributes are available on this element: <ph
+               conkeyref="reuse-attributes/ref-universalatts"/>, <xref keyref="attributes-common/specentry"
             />, and the attributes defined below.</p>
          <dl>
             <dlentry conkeyref="reuse-attributes/tablescope">

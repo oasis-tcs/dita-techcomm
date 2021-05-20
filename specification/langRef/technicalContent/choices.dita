@@ -7,7 +7,7 @@
 <p>The <xmlelement>choices</xmlelement> element is specialized from <xmlelement>ul</xmlelement>. It
         is defined in the task module.</p>
 </section><section id="attributes"><title>Attributes</title>
-      <!--<p>The following attributes are available on this element: <xref keyref="attributes-universal"/>.</p>-->
+      <!--<p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>-->
       </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

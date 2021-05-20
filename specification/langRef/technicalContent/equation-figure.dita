@@ -51,7 +51,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="attributes-universal"/>, <xref
+      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>, <xref
                                         keyref="attributes-common/displayatts"/>, and <xref
                                         keyref="attributes-common/spectitle"/>.</p>
     </section>

@@ -24,8 +24,8 @@
                     <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
         </section>
         <section id="attributes"><title>Attributes</title>
-            <p>The following attributes are available on this element: <xref
-                    keyref="attributes-universal"/>, <xref keyref="attributes-common/commonmapatts"
+            <p>The following attributes are available on this element: <ph
+                    conkeyref="reuse-attributes/ref-universalatts"/>, <xref keyref="attributes-common/commonmapatts"
                     />, and <xref
                     keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>. This element also
                 uses <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> from

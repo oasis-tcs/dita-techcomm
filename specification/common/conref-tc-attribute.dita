@@ -8,8 +8,8 @@
                 <conbody>
                         <section>
                                 <title>Reused attribute set for glossentry</title>
-                                <p id="glossentry-specialized-title">The following attributes are available on this element: <xref
-                                        keyref="attributes-universal"/> (without the Metadata attribute group) and
+                                <p id="glossentry-specialized-title">The following attributes are available on this element: <ph
+                                        conkeyref="reuse-attributes/ref-universalatts"/> (without the Metadata attribute group) and
                                         <xref keyref="attributes-universal/attr-base"><xmlatt>base</xmlatt></xref>.</p>
                         </section>
                         <section>
@@ -76,25 +76,26 @@
                                                                 <dlentry id="importance-optreq">
                                                                         <dt id="attr-importance-syn2"
                                                                                 ><xmlatt>importance</xmlatt></dt>
-                                                                        <dd>The attribute indicates whether this item in a
-                                                                                syntax diagram is <keyword>optional</keyword> or
-                                                                                <keyword>required</keyword>. Output processors <ph
-                                                                                        >might</ph> indicate this
-                                                                                designation in a generated diagram. Allowable
-                                                                                values are: <dl>
-                                                                                        <dlentry>
-                                                                                                <dt>optional</dt>
-                                                                                                <dd>This section of the syntax is optional.</dd>
-                                                                                        </dlentry>
-                                                                                        <dlentry>
-                                                                                                <dt>required</dt>
-                                                                                                <dd>This section of the syntax is required.</dd>
-                                                                                        </dlentry>
-                                                                                        <dlentry conkeyref="reuse-attributes/ditauseconref">
-                                                                                                <dt/>
-                                                                                                <dd/>
-                                                                                        </dlentry>
-                                                                                </dl></dd>
+                                                                        <dd>The attribute indicates
+                                                  whether this item in a syntax diagram is
+                                                  <keyword>optional</keyword> or
+                                                  <keyword>required</keyword>. Output processors
+                                                  might indicate this designation in a generated
+                                                  diagram. Allowable values are: <dl>
+                                                  <dlentry>
+                                                  <dt>optional</dt>
+                                                  <dd>This section of the syntax is optional.</dd>
+                                                  </dlentry>
+                                                  <dlentry>
+                                                  <dt>required</dt>
+                                                  <dd>This section of the syntax is required.</dd>
+                                                  </dlentry>
+                                                  <dlentry
+                                                  conkeyref="reuse-attributes/ditauseconref">
+                                                  <dt/>
+                                                  <dd/>
+                                                  </dlentry>
+                                                  </dl></dd>
                                                                 </dlentry>
                                                         </dl>
                                                 </sectiondiv><sectiondiv id="syntaxelement-update-importance">
@@ -106,31 +107,32 @@
                                                                 <dlentry>
                                                                         <dt id="attr-importance-syn3"
                                                                                 ><xmlatt>importance</xmlatt></dt>
-                                                                        <dd>The attribute indicates whether this item in a
-                                                                                syntax diagram is <keyword>optional</keyword>,
-                                                                                <keyword>required</keyword>, or
-                                                                                <keyword>default</keyword>. Output processors <ph
-                                                                                        >can</ph> indicate this
-                                                                                designation in a generated diagram. Allowable
-                                                                                values are: <dl>
-                                                                                        <dlentry>
-                                                                                                <dt>optional</dt>
-                                                                                                <dd>This section of the syntax is optional.</dd>
-                                                                                        </dlentry>
-                                                                                        <dlentry>
-                                                                                                <dt>required</dt>
-                                                                                                <dd>This section of the syntax is required.</dd>
-                                                                                        </dlentry>
-                                                                                        <dlentry>
-                                                                                                <dt>default</dt>
-                                                                                                <dd>This section of the syntax is used by default
-                                                                                                        or has this default value.</dd>
-                                                                                        </dlentry>
-                                                                                        <dlentry conkeyref="reuse-attributes/ditauseconref">
-                                                                                                <dt/>
-                                                                                                <dd/>
-                                                                                        </dlentry>
-                                                                                </dl></dd>
+                                                                        <dd>The attribute indicates
+                                                  whether this item in a syntax diagram is
+                                                  <keyword>optional</keyword>,
+                                                  <keyword>required</keyword>, or
+                                                  <keyword>default</keyword>. Output processors can
+                                                  indicate this designation in a generated diagram.
+                                                  Allowable values are: <dl>
+                                                  <dlentry>
+                                                  <dt>optional</dt>
+                                                  <dd>This section of the syntax is optional.</dd>
+                                                  </dlentry>
+                                                  <dlentry>
+                                                  <dt>required</dt>
+                                                  <dd>This section of the syntax is required.</dd>
+                                                  </dlentry>
+                                                  <dlentry>
+                                                  <dt>default</dt>
+                                                  <dd>This section of the syntax is used by default
+                                                  or has this default value.</dd>
+                                                  </dlentry>
+                                                  <dlentry
+                                                  conkeyref="reuse-attributes/ditauseconref">
+                                                  <dt/>
+                                                  <dd/>
+                                                  </dlentry>
+                                                  </dl></dd>
                                                                 </dlentry>
                                                         </dl>
                                                 </sectiondiv><sectiondiv id="syntaxelement-update-importance-plus-keyref">

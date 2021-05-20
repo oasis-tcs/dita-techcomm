@@ -18,7 +18,7 @@
 </section>
 <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
         /> (with a narrowed definition of <xmlatt>importance</xmlatt>, given below).</p>
       <p>For this element, the <xmlatt>importance</xmlatt> attribute is limited to the values
           <keyword>optional</keyword>, <keyword>required</keyword>, or <xref

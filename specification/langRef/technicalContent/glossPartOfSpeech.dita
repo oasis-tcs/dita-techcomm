@@ -33,8 +33,8 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <xref
         keyref="attributes-common/dataatts"/> (with a narrowed definition of <xmlatt>value</xmlatt>,
-        given below), <xref keyref="attributes-common/linkatts"/>, and <xref
-          keyref="attributes-universal"/>.</p>
+        given below), <xref keyref="attributes-common/linkatts"/>, and <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>.</p>
       <dl>
         <dlentry>
           <dt id="value"><xmlatt>value</xmlatt></dt>
