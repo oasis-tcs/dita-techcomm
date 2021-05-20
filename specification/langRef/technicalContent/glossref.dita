@@ -30,15 +30,15 @@ and expanded versions of that acronym.</shortdesc>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
-        conkeyref="reuse-attributes/ref-universalatts"/>, <xref
-              keyref="attributes-common/linkatts"/> (with a narrowed definition of
+        conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+              conkeyref="attributes-common/ref-linkatts"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), <xref
             keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
           <xmlatt>collection-type</xmlatt>, <xmlatt>chunk</xmlatt>, and
-        <xmlatt>search</xmlatt> from <xref keyref="attributes-common/commonmapatts"/>; this
+        <xmlatt>search</xmlatt> from <ph conkeyref="attributes-common/ref-commonmapatts"/>; this
         element also uses narrowed definitions of <xmlatt>linking</xmlatt> and <xmlatt>toc</xmlatt>
-        from <xref keyref="attributes-common/commonmapatts"/>, given below.<dl>
+        from <ph conkeyref="attributes-common/ref-commonmapatts"/>, given below.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
             <dd>A pointer to a glossary definition, typically a <xmlelement>glossentry</xmlelement>

@@ -34,8 +34,8 @@
       <p id="xref-attributes">The following attributes are available on this element: <ph
 conkeyref="reuse-attributes/ref-universalatts"/>, <xref keyref="attributes-common/encoding"
 ><xmlatt>encoding</xmlatt></xref>, <xref keyref="attributes-common/parse"
-><xmlatt>parse</xmlatt></xref> (with a default value of "text"), <xref
-keyref="attributes-common/linkatts"/>, and <xref keyref="attributes-common/attr-keyref"
+><xmlatt>parse</xmlatt></xref> (with a default value of "text"), <ph
+  conkeyref="reuse-attributes/ref-linkatts"/>, and <xref keyref="attributes-common/attr-keyref"
 ><xmlatt>keyref</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">

@@ -31,9 +31,9 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref
-        keyref="attributes-common/dataatts"/> (with a narrowed definition of <xmlatt>value</xmlatt>,
-        given below), <xref keyref="attributes-common/linkatts"/>, and <ph
+      <p>The following attributes are available on this element: <ph
+        conkeyref="attributes-common/ref-dataatts"/> (with a narrowed definition of <xmlatt>value</xmlatt>,
+        given below), <ph conkeyref="attributes-common/ref-linkatts"/>, and <ph
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
       <dl>
         <dlentry>

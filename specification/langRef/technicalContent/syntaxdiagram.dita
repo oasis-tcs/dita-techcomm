@@ -25,7 +25,7 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-        /> and <xref keyref="attributes-common/displayatts"/>.</p>
+      /> and <ph conkeyref="reuse-attributes/ref-displayatts"/>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

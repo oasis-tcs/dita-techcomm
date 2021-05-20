@@ -59,7 +59,7 @@
 keyref="attributes-common/parse"><xmlatt>parse</xmlatt></xref> (with a default value of
         "xml"), and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>. This element also uses
 <xmlatt>href</xmlatt>, <xmlatt>scope</xmlatt>, and a narrowed definition of <xmlatt>format</xmlatt>
-        (given below) from <xref keyref="attributes-common/linkatts"/>.</p>
+        (given below) from <ph conkeyref="attributes-common/ref-linkatts"/>.</p>
       <dl>
         <dlentry>
           <dt><xmlatt>format</xmlatt></dt>
