@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
+  <title>Key definitions for keys that still need to be
+  removed from the 2.0 TC Spec, or key definitions that
+  need to be added to the TC Spec</title>
   <!-- This metadata may no longer be needed, but with baseSpec available we
     can at least reference the appropriate topic rather than a StubTopic. -->
   <!--<keydef keys="conref-about-this-specification" href="StubTopic.dita"></keydef>-->

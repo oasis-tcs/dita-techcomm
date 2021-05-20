@@ -32,7 +32,7 @@
             <p>The <xmlelement>booklist</xmlelement> element is specialized from
                     <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p></section>
         <section id="attributes"><title>Attributes</title><sectiondiv
-                conkeyref="reuse-attributes/bookmap-booklist-attributes"/></section>
+                conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
         <example id="example" otherprops="examples"><title>Example</title><p>In this case the
                     <xmlelement>booklist</xmlelement> element references a topic that contains a
                 list of authors of topics in this

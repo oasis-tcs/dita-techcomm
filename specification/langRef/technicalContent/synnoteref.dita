@@ -35,7 +35,7 @@
           <dt><xmlatt>href</xmlatt></dt>
           <dd>A reference to the target syntax note (<xmlelement>synnote</xmlelement>) element. The
             referenced syntax note must be in the same syntax diagram as the
-            <xmlelement>synnoteref</xmlelement> element. See <xref keyref="attributes-href"/> for
+            <xmlelement>synnoteref</xmlelement> element. See <xref keyref="attributes-common/attr-href"/> for
             detailed information on supported values and processing implications.
             <!--For this element, processors should assume the equivalent of <codeph>scope="local"</codeph> and <codeph>format="dita"</codeph>.--></dd>
         </dlentry>

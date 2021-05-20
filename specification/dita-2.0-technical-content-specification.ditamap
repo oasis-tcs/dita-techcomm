@@ -31,6 +31,20 @@
     </bookrights>
   </bookmeta>
   <frontmatter>
+    <!-- These references to StubTopic need to refer to a copy of the base spec,
+      which should be published in some version before this map is processed. -->
+    <keydef keys="attributes-keys" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-keyscope" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-keyref" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-conref" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-conkeyref" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-conaction" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-conrefend" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-useconreftarget" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-href" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-format" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-scope" href="stubs/StubTopic.dita"/>
+    <keydef keys="attributes-type" href="stubs/StubTopic.dita"/>
     <topicref href="common/conref-cover-pages.dita" processing-role="resource-only"/>
     <keydef href="common/conref-tc-attribute.dita" keys="reuse-tc-attributes"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
