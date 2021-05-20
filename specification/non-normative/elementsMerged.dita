@@ -817,14 +817,6 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>titlealts</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
           <stentry><xmlelement>tm</xmlelement></stentry>
           <stentry>N/A</stentry>
           <stentry>inline</stentry>
