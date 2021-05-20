@@ -36,14 +36,12 @@
 		</section> 
 	 <section id="structure">
 			<title>The structure of the troubleshooting topic</title>
-			<p>The top-level element for troubleshooting topics is
-					<xmlelement>troubleshooting</xmlelement>. The
-					<xmlelement>troubleshooting</xmlelement> element contains a
-					<xmlelement>title</xmlelement> with optional alternative titles
-					(<xmlelement>titlealts</xmlelement>), a short description or
-					<xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, a
-					<xmlelement>troublebody</xmlelement>, and
-				<xmlelement>related-links</xmlelement>.</p>
+			<p>The top-level element for troubleshooting topics is <xmlelement>troubleshooting</xmlelement>.
+                The <xmlelement>troubleshooting</xmlelement> element contains a
+                    <xmlelement>title</xmlelement>, a short description or
+                    <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, a
+                    <xmlelement>troublebody</xmlelement>, and
+                <xmlelement>related-links</xmlelement>.</p>
 			<p><xmlelement>troublebody</xmlelement> is the main body element in a troubleshooting
 				topic. The <xmlelement>troublebody</xmlelement> element contains the following
 				elements:</p>

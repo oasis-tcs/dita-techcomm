@@ -20,10 +20,9 @@
 		</section>
 		<section id="section_709331EA92CE484FBEC8274342823932">
 			<title>The structure of the <xmlelement>task</xmlelement> topic</title>
-			<p id="p_14C0AF0152D04AC8A70306B49E22D705">The <xmlelement>task</xmlelement> element is
-				the top-level element for the strict task topic. The strict task document type
-				contains a <xmlelement>title</xmlelement> and a <xmlelement>taskbody</xmlelement>
-				with optional alternative titles (<xmlelement>titlealts</xmlelement>), a short
+			<p id="p_14C0AF0152D04AC8A70306B49E22D705">The <xmlelement>task</xmlelement> element is the
+				top-level element for the strict task topic. The strict task document type contains
+				a <xmlelement>title</xmlelement> and a <xmlelement>taskbody</xmlelement>, a short
 				description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>,
 				and <xmlelement>related-links</xmlelement>.</p>
 			<p id="p_9286DB98E2CD47D0A53B40DFB0049E0C">The <xmlelement>taskbody</xmlelement> element

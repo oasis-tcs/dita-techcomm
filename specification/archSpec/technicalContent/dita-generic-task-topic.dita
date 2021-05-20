@@ -27,10 +27,9 @@
 		</section>
 		<section id="section_0C8A068CDF1D498F9FF534D3CE88CF2F">
 			<title>The structure of the general task topic</title>
-			<p id="p_366CB29A7238470BA9070488F953FBDD">The <xmlelement>task</xmlelement> element is
-				the top-level element for the general task topic. The general task topic contains a
-					<xmlelement>title</xmlelement> and a <xmlelement>taskbody</xmlelement> with
-				optional alternative titles (<xmlelement>titlealts</xmlelement>), a short
+			<p id="p_366CB29A7238470BA9070488F953FBDD">The <xmlelement>task</xmlelement> element is the
+				top-level element for the general task topic. The general task topic contains a
+					<xmlelement>title</xmlelement> and a <xmlelement>taskbody</xmlelement>, a short
 				description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>,
 				and <xmlelement>related-links</xmlelement>.</p>
 			<p id="p_7262A46437C34654BD4E46DC49BC6FD4">The following elements are described here

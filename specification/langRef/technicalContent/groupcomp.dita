@@ -31,7 +31,7 @@ separated by a horizontal or vertical line, which is the usual formatting method
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-attributes/syntaxelement-update-importance"/></section>
+      <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;syntaxdiagram frame="bottom"&gt;

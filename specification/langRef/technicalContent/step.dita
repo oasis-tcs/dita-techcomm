@@ -16,18 +16,14 @@
 <p>The <xmlelement>step</xmlelement> element is specialized from <xmlelement>li</xmlelement>. It is
         defined in the task module.</p>
 </section>
-<section id="attributes"><title>Attributes</title>
-      <p>The following attributes are available on this element: <xref keyref="attributes-universal"
+<section id="attributes">
+      <title>Attributes</title>
+      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
         /> (with a narrowed definition of <xmlatt>importance</xmlatt>, given below).</p>
-      <dl>
-        <dlentry>
-          <dt>importance</dt>
-          <dd>Specifies whether the step is optional or required. Output processors might highlight
-            steps that are optional or required. Allowed values are <keyword>optional</keyword>,
-              <keyword>required</keyword>, or <xref keyref="attributes-useconreftarget"
-              >-dita-use-conref-target</xref>.</dd>
-        </dlentry>
-      </dl></section>
+      <p>For this element, the <xmlatt>importance</xmlatt> attribute is limited to the values
+          <keyword>optional</keyword>, <keyword>required</keyword>, or <xref
+          keyref="attributes-useconreftarget">-dita-use-conref-target</xref>.</p>
+    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
    <p>The following code sample shows almost all the elements that <xmlelement>step</xmlelement> can

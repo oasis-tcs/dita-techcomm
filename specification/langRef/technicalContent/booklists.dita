@@ -24,12 +24,12 @@
                     <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
         </section>
         <section id="attributes"><title>Attributes</title>
-            <p>The following attributes are available on this element: <xref
-                    keyref="attributes-universal"/>, <xref keyref="attributes-common/commonmapatts"
-                    />, <xref keyref="attributes-common/topicrefatts"/>, and <xref
-                    keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>. This element also
+            <p>The following attributes are available on this element: <ph
+                    conkeyref="reuse-attributes/ref-universalatts"/>, <ph conkeyref="reuse-attributes/ref-commonmapatts"
+                    />, and <xref
+                    keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>. This element also
                 uses <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> from
-                    <xref keyref="attributes-common/linkatts"/>.</p>
+                <ph conkeyref="reuse-attributes/ref-linkatts"/>.</p>
         </section>
         <example id="example" otherprops="examples"><title>Example</title>
             <p>The following code sample indicates that lists are generated in the front and back

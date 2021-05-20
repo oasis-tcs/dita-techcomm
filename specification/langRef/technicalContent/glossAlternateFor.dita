@@ -27,11 +27,11 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <xref
-        keyref="attributes-universal"/>, <xref
-            keyref="attributes-common/linkatts"/> (with a narrowed definition of
+      <p>The following attributes are available on this element: <ph
+        conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+          conkeyref="reuse-attributes/ref-linkatts"/> (with a narrowed definition of
           <xmlatt>href</xmlatt>, given below), and <xref
-            keyref="attributes-keyref"
+            keyref="attributes-common/attr-keyref"
           ><xmlatt>keyref</xmlatt></xref>.<dl>
           <dlentry>
             <dt><xmlatt>href</xmlatt></dt>
@@ -40,7 +40,7 @@
               often be to another <xmlelement>glossAlt</xmlelement> element within the same
                 <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
               alternate for both the primary term and the referenced alternate term. See <xref
-                keyref="attributes-href"/> for details on syntax.</dd>
+                keyref="attributes-common/attr-href"/> for details on syntax.</dd>
           </dlentry>
         </dl></p>
     </section>

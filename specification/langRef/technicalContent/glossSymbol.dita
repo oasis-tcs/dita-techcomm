@@ -20,9 +20,9 @@
     <section id="attributes">
       <title>Attributes</title>
       <!--RDA: Note that this is an exact copy of the attribute list for image, EXCEPT that this element dropped the deprecated alt and makes @href required, which makes it harder to reuse that full list. It is an exact copy of hazardsymbol.-->
-      <p>The following attributes are available on this element: <xref
-        keyref="attributes-universal"/>, <xref
-            keyref="attributes-keyref"><xmlatt>keyref</xmlatt></xref>, and the
+      <p>The following attributes are available on this element: <ph
+        conkeyref="reuse-attributes/ref-universalatts"/>, <xref
+            keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and the
         attributes defined below.</p>
       <dl>
         <dlentry conkeyref="reuse-attributes/image-href">
