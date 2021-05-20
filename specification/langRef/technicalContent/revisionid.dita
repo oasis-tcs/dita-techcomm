@@ -14,19 +14,19 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>The processing implementation determines how the level is displayed. Common methods
+    <section id="processing-expectations">
+      <title>Processing expectations</title>
+      <p>A processor determines how or whether the revision level is displayed. Common methods
         include using a dash, for example "-01", or a period, such as ".01".</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>revisionid</xmlelement> element is specialized from
-          <xmlelement>ph</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>ph</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

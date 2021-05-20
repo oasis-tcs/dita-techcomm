@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="mainbooktitle" xml:lang="en-us">
   <title><xmlelement>mainbooktitle</xmlelement></title>
-  <shortdesc>The <xmlelement>mainbooktitle</xmlelement> element contains the primary title
-    information for a book.</shortdesc>
+  <shortdesc>The <xmlelement>mainbooktitle</xmlelement> element contains the primary title for a
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,11 +17,11 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>mainbooktitle</xmlelement> element is specialized from
-          <xmlelement>ph</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>ph</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

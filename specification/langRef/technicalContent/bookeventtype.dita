@@ -21,9 +21,11 @@
       <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title>
          <p>The <xmlelement>bookeventtype</xmlelement> element is specialized from
-               <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p></section>
+               <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p></section>
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
+         <p id="attr-exception">For this element, the <xmlatt>name</xmlatt> attribute is
+            required.</p>
       </section>
       <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref
                href="bookchangehistory.dita"/>.</p></example>

@@ -16,15 +16,13 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>This element indicates to the processing software that the author wants a list of
-        trademarks generated at the particular location. If no <xmlatt>href</xmlatt> attribute is
-        specified on the <xmlelement>trademarklist</xmlelement> element, an external processor
-          <ph>might</ph> generate a list of trademarks at this location.</p>
+      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
+        list of trademarks at the specified location in the map.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>trademarklist</xmlelement> element is specialized from
-          <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

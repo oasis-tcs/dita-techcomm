@@ -4,7 +4,7 @@
 <reference id="bookabstract" xml:lang="en-us">
  <title><xmlelement>bookabstract</xmlelement></title>
  <shortdesc>The <xmlelement>bookabstract</xmlelement> element references a topic used within a
-  bookmap as a brief summary of book content</shortdesc>
+    bookmap as a brief summary of the book's content.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
@@ -16,8 +16,8 @@
  <refbody>
   <section id="usage-information">
    <title>Usage information</title>
-   <p>A book abstract is generally output as part of the book's front matter. It is used to help the
-        reader quickly evaluate the book's purpose.</p>
+   <p>A book abstract is generally rendered as part of the book's front matter. It is used to help
+        the reader quickly evaluate the book's purpose.</p>
   </section>
   <section id="specialization-hierarchy"><title>Specialization
     hierarchy</title>

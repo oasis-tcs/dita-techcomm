@@ -17,15 +17,15 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>If no <xmlatt>href</xmlatt> attribute is specified on the <xmlelement>toc</xmlelement>
-        element, an external processor <ph>might</ph> generate a table of contents at this location.
-        If the <xmlatt>href</xmlatt> attribute references a topic or map, that topic or map
-          <ph>contains</ph> a manually created table of contents.</p>
+      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
+        table of contents at the specified location in the map. If the <xmlatt>href</xmlatt>
+        attribute is specified, the referenced topic or map contains a manually created table of
+        contents.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>toc</xmlelement> element is specialized from
-          <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

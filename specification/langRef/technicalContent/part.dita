@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="part" xml:lang="en-us">
   <title><xmlelement>part</xmlelement></title>
-  <shortdesc>The <xmlelement>part</xmlelement> element references a part topic or a map that
-    references part topics for the book.</shortdesc>
+  <shortdesc>The <xmlelement>part</xmlelement> element references topic or a map as a part within a
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,15 +16,15 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><!-- A new part is started.--> Use <xmlelement>part</xmlelement> to divide a document's
-        chapters into logical groupings. For example, in a document that contains both guide and
-        reference information, you can define two parts, one containing the guide information and
-        the other containing the reference information.</p>
+      <p>Use <xmlelement>part</xmlelement> to divide a document's chapters into logical groupings.
+        For example, in a document that contains both guide and reference information, you can
+        define two parts, one containing the guide information and the other containing the
+        reference information.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>part</xmlelement> element is specialized from
-          <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

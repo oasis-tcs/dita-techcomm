@@ -16,15 +16,14 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>If no <xmlatt>href</xmlatt> attribute is specified on the
-          <xmlelement>indexlist</xmlelement> element, an external processor <ph>might</ph> generate
-        an index at this location. If the <xmlatt>href</xmlatt> attribute references a topic or map,
-        that topic or map <ph>contains</ph> a manually created index.</p>
+      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate an
+        index at the specified location in the map. If the <xmlatt>href</xmlatt> attribute is
+        specified, the referenced topic or map contains a manually created index.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>indexlist</xmlelement> element is specialized from
-          <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

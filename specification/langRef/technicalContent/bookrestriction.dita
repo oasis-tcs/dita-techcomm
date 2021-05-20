@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="bookrestriction" xml:lang="en-us">
   <title><xmlelement>bookrestriction</xmlelement></title>
-  <shortdesc>The <xmlelement>bookrestriction</xmlelement> element indicates whether the book is
+  <shortdesc>The <xmlelement>bookrestriction</xmlelement> element specifies whether the book is
     classified or restricted in some way.</shortdesc>
   <prolog>
     <metadata>
@@ -17,13 +17,14 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>bookrestriction</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The <xmlatt>value</xmlatt> attribute indicates any restrictions on the use of the material,
-        such as declaring the information confidential or for licensed use only.</p>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
+      <p id="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies any
+        restrictions on the use of the material, such as declaring the information confidential or
+        for licensed use only.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

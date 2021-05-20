@@ -23,7 +23,7 @@
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>bookchangehistory</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p></section>
+          <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>

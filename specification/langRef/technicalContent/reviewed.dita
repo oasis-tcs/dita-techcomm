@@ -17,7 +17,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>reviewed</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
