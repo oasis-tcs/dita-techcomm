@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="booklist" xml:lang="en-us">
     <title><xmlelement>booklist</xmlelement></title>
-    <shortdesc>The <xmlelement>booklist</xmlelement> element is a general purpose element, designed
-        for use in specializations, that references a topic or map containing a list of items within
-        the book.</shortdesc>
+    <shortdesc>The <xmlelement>booklist</xmlelement> element references a topic or map containing a
+        list of items within the book.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -19,18 +18,15 @@
             <title>Usage information</title>
             <p>The <xmlelement>booklist</xmlelement> element is a general purpose element, designed
                 for use in specializations, that references a topic or map containing a list of
-                items within the book.
-                <!--Some child elements could indicate to the processing software that the author wants that list of items to
-                be generated at the particular location.-->
-                For example, it could be used to reference a topic that contains a list of authors
-                for the book. When a more specific element is already available, such as
-                    <xmlelement>tablelist</xmlelement> for a list of tables, <ph>use that element
-                    instead.</ph></p>
+                items within the book. For example, it could be used to reference a topic that
+                contains a list of authors for the book. When a more specific element is already
+                available, such as <xmlelement>tablelist</xmlelement> for a list of tables, use that
+                element instead.</p>
         </section>
         <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title>
             <p>The <xmlelement>booklist</xmlelement> element is specialized from
-                    <xmlelement>topicref</xmlelement>; it is defined in the bookmap module.</p></section>
+                    <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
         <section id="attributes"><title>Attributes</title><sectiondiv
                 conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
         <example id="example" otherprops="examples"><title>Example</title><p>In this case the

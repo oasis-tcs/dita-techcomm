@@ -3,7 +3,7 @@
 <reference id="bookid" xml:lang="en-us">
     <title><xmlelement>bookid</xmlelement></title>
     <shortdesc>The <xmlelement>bookid</xmlelement> element contains the publisher's identification
-        information for the book, such as part number, edition number and ISBN number.</shortdesc>
+        information for the book, such as part number, edition number, or ISBN number.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -16,7 +16,7 @@
         <section id="specialization-hierarchy">
             <title>Specialization hierarchy</title>
             <p>The <xmlelement>bookid</xmlelement> element is specialized from
-                    <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p></section>
+                    <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p></section>
 
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>

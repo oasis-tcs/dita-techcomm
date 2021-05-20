@@ -4,7 +4,7 @@
 <reference id="booktitle" xml:lang="en-us">
   <title><xmlelement>booktitle</xmlelement></title>
   <shortdesc>The <xmlelement>booktitle</xmlelement> element contains the title information for a
-    book, including the library title, main title, subtitle, and other titles (as required).</shortdesc>
+    book, including the library title, main title, subtitle, and any other titles.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,12 +17,13 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>booktitle</xmlelement> element is specialized from
-          <xmlelement>title</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>title</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-        />.</p>
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/> (without the metadata attribute group)
+        and <xref keyref="attributes-universal/attr-base"><xmlatt>base</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

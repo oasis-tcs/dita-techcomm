@@ -19,12 +19,12 @@
          <p>This element is appropriate for specialization if the current set of specific book event
             types does not meet your needs. If an element already exists to describe a specific type
             of event, such as <xmlelement>reviewed</xmlelement>, <xmlelement>edited</xmlelement>, or
-               <xmlelement>approved</xmlelement>, <ph>use that element instead.</ph></p>
+               <xmlelement>approved</xmlelement>, use that element instead.</p>
       </section>
       <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title>
          <p>The <xmlelement>bookevent</xmlelement> element is specialized from
-               <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p></section>
+               <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p></section>
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
       </section>

@@ -4,8 +4,7 @@
 <reference id="maintainer" xml:lang="en-us">
   <title><xmlelement>maintainer</xmlelement></title>
   <shortdesc>The <xmlelement>maintainer</xmlelement> element contains information about who
-    maintains the document; the maintainer <ph>might</ph> be an organization or a
-    person.</shortdesc>
+    maintains the document. The maintainer might be an organization or a person.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,7 +17,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>maintainer</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

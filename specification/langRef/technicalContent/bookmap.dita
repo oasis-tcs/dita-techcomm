@@ -24,7 +24,7 @@
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>bookmap</xmlelement> element is specialized from
-          <xmlelement>map</xmlelement>; it is defined in the bookmap module.</p></section>
+          <xmlelement>map</xmlelement>. It is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/map-attributes-common"/>
       <dl>

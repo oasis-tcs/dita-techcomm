@@ -14,13 +14,13 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="section_ynq_grf_rpb">
+      <title>Processing expectations</title>
+    </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>A <xmlelement>bibliolist</xmlelement> indicates to the processing software that the author
-        wants a bibliography, containing links to related books, articles, published papers, or
-        other types of material, generated at the particular location. If no <xmlatt>href</xmlatt>
-        attribute is specified on the <xmlelement>bibliolist</xmlelement> element, an external
-        processor might generate a list of bibliographic entries at this location.</p>
+      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
+        list of bibliographic entries at the specified location in the map.</p>
     </section>
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>

@@ -16,7 +16,7 @@
         <section id="processing-expectations">
             <title>Processing expectations</title>
             <p>The <xmlelement>booklists</xmlelement> element indicates to processors that lists are
-                to be generated at that location in the front or back matter.</p>
+                to be rendered or generated at that location in the front or back matter.</p>
         </section>
         <section id="specialization-hierarchy">
             <title>Specialization hierarchy</title>
@@ -25,11 +25,12 @@
         </section>
         <section id="attributes"><title>Attributes</title>
             <p>The following attributes are available on this element: <ph
-                    conkeyref="reuse-attributes/ref-universalatts"/>, <ph conkeyref="reuse-attributes/ref-commonmapatts"
-                    />, and <xref
-                    keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>. This element also
-                uses <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> from
-                <ph conkeyref="reuse-attributes/ref-linkatts"/>.</p>
+                    conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+                    conkeyref="reuse-attributes/ref-commonmapatts"/>, <xref
+                    keyref="attributes-common/attr-format"><xmlatt>format</xmlatt></xref>, <xref
+                    keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, <xref
+                    keyref="attributes-common/attr-scope"><xmlatt>scope</xmlatt></xref>, and <xref
+                    keyref="attributes-common/attr-type"><xmlatt>type</xmlatt></xref>.</p>
         </section>
         <example id="example" otherprops="examples"><title>Example</title>
             <p>The following code sample indicates that lists are generated in the front and back

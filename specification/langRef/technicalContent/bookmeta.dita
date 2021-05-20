@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="bookmeta" xml:lang="en-us">
   <title><xmlelement>bookmeta</xmlelement></title>
-  <shortdesc>The <xmlelement>bookmeta</xmlelement> element contains information about the book that
-    is not considered book content, such as copyright information, author information, and any
-    classifications.</shortdesc>
+  <shortdesc>The <xmlelement>bookmeta</xmlelement> element contains metadata about the book, such as
+    copyright information, author information, and any classifications.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,7 +17,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>bookmeta</xmlelement> element is specialized from
-          <xmlelement>topicmeta</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>topicmeta</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

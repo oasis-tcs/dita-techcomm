@@ -15,12 +15,15 @@
   </prolog>
   <refbody><section id="usage-information">
          <title>Usage information</title>
+      <draft-comment author="robander" time="20 May 2021">This seems like an odd restriction / not
+        restriction, if we need it then it should be phrased like other typical-use
+        statements.</draft-comment>
          <p>Customarily, the content is restricted to the name of the country.</p>
       </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>printlocation</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>; it is defined in the bookmap module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
