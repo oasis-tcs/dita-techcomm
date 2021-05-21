@@ -4,7 +4,7 @@
 <reference id="parmname" xml:lang="en-us">
   <title><xmlelement>parmname</xmlelement></title>
   <shortdesc>The <xmlelement>parmname</xmlelement> element identifies the name of an API
-    parameter<!-- within the text flow of a topic-->.</shortdesc>
+    parameter.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,7 +24,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
