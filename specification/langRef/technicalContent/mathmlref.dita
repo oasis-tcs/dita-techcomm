@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="mathmlref">
   <title><xmlelement>mathmlref</xmlelement></title>
-  <shortdesc>Use the <xmlelement>mathmlref</xmlelement> element to reference a non-DITA XML document
-    that contains MathML markup.</shortdesc>
+  <shortdesc>The <xmlelement>mathmlref</xmlelement> element is a reference to a non-DITA XML
+    document that contains MathML markup.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,7 +15,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>mathmlref</xmlelement> element enables you to use the markup by reference.</p>
+      <p>The <xmlelement>mathmlref</xmlelement> element enables you to use MathML markup by
+        reference.</p>
       <p>The reference must be to a MathML <xmlelement>math</xmlelement> element. The reference can
         be one of the following:<ul>
           <li>A URI that addresses an XML document; the XML document has a MathML
@@ -54,97 +55,81 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-/>, <xref keyref="attributes-common/encoding"><xmlatt>encoding</xmlatt></xref>, <xref
-keyref="attributes-common/parse"><xmlatt>parse</xmlatt></xref> (with a default value of
-        "xml"), and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>. This element also uses
-<xmlatt>href</xmlatt>, <xmlatt>scope</xmlatt>, and a narrowed definition of <xmlatt>format</xmlatt>
-        (given below) from <ph conkeyref="attributes-common/ref-linkatts"/>.</p>
-      <dl>
-        <dlentry>
-          <dt><xmlatt>format</xmlatt></dt>
-          <dd><ph>Specifies the format (data type) of the referenced resource. For MathML, the format
-              is <keyword>mml</keyword>, which is the default value for <xmlatt>format</xmlatt> on this
-              element.</ph></dd>
-        </dlentry>
-      </dl>
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+          conkeyref="reuse-attributes/ref-inclusionatts"/>, <xref
+          keyref="attributes-common/attr-format"><xmlatt>format</xmlatt></xref>, <xref
+          keyref="attributes-common/attr-href"><xmlatt>href</xmlatt></xref>, <xref
+          keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and <xref
+          keyref="attributes-common/attr-scope"><xmlatt>scope</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element:<ul id="ul_eyw_gg4_rpb">
+          <li>The <xmlatt>format</xmlatt> attribute has a default value of
+            <keyword>mml</keyword>.</li>
+          <li>The <xmlatt>parse</xmlatt> attribute has a default value of
+            <keyword>xml</keyword>.</li>
+        </ul></p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>Here is a reference to a <xmlelement>mathml</xmlelement> element that is the root element
-        of its containing document:</p>
+      <p>The following code sample shows a reference to a <xmlelement>math</xmlelement> element that
+        is the root element of its containing document:</p>
       <codeblock>&lt;equation-block>
-        &lt;mathml>
-        <b>&lt;mathmlref href="../mathml-source/mathml-root-mathml.mml"/></b>
-        &lt;/mathml>
-        &lt;/equation-block></codeblock>
+ &lt;mathml>
+  <b>&lt;mathmlref href="../mathml-source/mathml-root-mathml.mml"/></b>
+ &lt;/mathml>
+&lt;/equation-block></codeblock>
       <p>The <filepath>mathml-root-mathml.mml</filepath> file contains the following content. Note
         that the <xmlelement>math</xmlelement> element sets the MathML namespace as the default
         namespace, so there are no namespace prefixes on the MathML
         markup:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-          <b>&lt;math</b> xmlns="http://www.w3.org/1998/Math/MathML" 
+<b>&lt;math</b> xmlns="http://www.w3.org/1998/Math/MathML" 
           xmlns:xlink="http://www.w3.org/1999/xlink">
-          &lt;mstyle displaystyle="false" scriptlevel="0">
-          &lt;mrow>
-          &lt;mfrac>
-          &lt;mrow>
-          &lt;mi mathcolor="gray">sin&lt;/mi>
-          &lt;mo rspace="verythinmathspace">&lt;/mo>                    
-          &lt;mi>θ&lt;/mi>
-          &lt;/mrow>
-          &lt;mi>π&lt;/mi>
-          &lt;/mfrac>
-          &lt;/mrow>
-          &lt;/mstyle>
-          <b>&lt;/math></b></codeblock></p>
-      <p>Here is a reference to a specific <xmlelement>math</xmlelement> element in a containing XML
-        file:</p>
+ &lt;mstyle displaystyle="false" scriptlevel="0">
+  &lt;mrow>
+   &lt;mfrac>
+    &lt;mrow>
+     &lt;mi mathcolor="gray">sin&lt;/mi>
+     &lt;mo rspace="verythinmathspace">&lt;/mo>                    
+     &lt;mi>θ&lt;/mi>
+    &lt;/mrow>
+    &lt;mi>π&lt;/mi>
+   &lt;/mfrac>
+  &lt;/mrow>
+ &lt;/mstyle>
+<b>&lt;/math></b></codeblock></p>
+      <p>The following code sample shows a reference to a specific <xmlelement>math</xmlelement>
+        element in a containing XML file:</p>
       <codeblock>&lt;equation-block>
-        &lt;mathml>
-        <b>&lt;mathmlref</b>
-        <b>href="../mathml-source/mathml-equation-library.xml#mathfrag-02"</b>
-        <b>/></b>
-        &lt;/mathml>
-        &lt;/equation-block></codeblock>
+ &lt;mathml>
+  <b>&lt;mathmlref</b>
+     <b>href="../mathml-source/mathml-equation-library.xml#mathfrag-02"</b>
+     <b>/></b>
+  &lt;/mathml>
+&lt;/equation-block></codeblock>
       <p>The <filepath>mathml-equation-library.xml</filepath> file contains the following
         content:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-          &lt;root>
-          &lt;part>
-          &lt;math
-          id="timeinday"
-          xmlns="http://www.w3.org/1998/Math/MathML">
-          &lt;mi>x&lt;/mi>
-          &lt;/math>
-          <b>&lt;math</b>
-          <b>id="mathfrag-02"</b>
-          xmlns="http://www.w3.org/1998/Math/MathML">
-          &lt;math>
-          &lt;mrow>
-          &lt;mi>y&lt;/mi>
-          &lt;mo>=&lt;/mo>
-          &lt;mn>5&lt;/mn>
-          &lt;mi>x&lt;/mi>
-          &lt;mo>+&lt;/mo>
-          &lt;mn>2&lt;/mn>
-          &lt;/mrow>
-          &lt;/math>
-          &lt;/math>
-          &lt;/part>
-          &lt;part>
-          &lt;m:math
-          id="mathfrag-03"
-          display="inline"
-          overflow="scroll"
+&lt;root>
+ &lt;part>
+  &lt;math id="timeinday"
+        xmlns="http://www.w3.org/1998/Math/MathML">
+   &lt;mi>x&lt;/mi>
+  &lt;/math>
+  <b>&lt;math id="mathfrag-02"</b>
+        xmlns="http://www.w3.org/1998/Math/MathML">
+   &lt;math>
+    &lt;mrow>
+     &lt;mi>y&lt;/mi>&lt;mo>=&lt;/mo>&lt;mn>5&lt;/mn>&lt;mi>x&lt;/mi>&lt;mo>+&lt;/mo>&lt;mn>2&lt;/mn>
+    &lt;/mrow>
+   &lt;/math>
+  &lt;/math>
+ &lt;/part>
+ &lt;part>
+  &lt;m:math id="mathfrag-03" display="inline" overflow="scroll"
           xmlns:m="http://www.w3.org/1998/Math/MathML">
-          &lt;m:mi>y&lt;/m:mi>
-          &lt;m:mo>=&lt;/m:mo>
-          &lt;m:mi>m&lt;/m:mi>
-          &lt;m:mi>x&lt;/m:mi>
-          &lt;m:mo>+&lt;/m:mo>
-          &lt;m:mi>b&lt;/m:mi>
-          &lt;/math>
-          &lt;/part>
-          &lt;/root></codeblock></p>
+   &lt;m:mi>y&lt;/m:mi>&lt;m:mo>=&lt;/m:mo>&lt;m:mi>m&lt;/m:mi>&lt;m:mi>x&lt;/m:mi>&lt;m:mo>+&lt;/m:mo>&lt;m:mi>b&lt;/m:mi>
+  &lt;/math>
+ &lt;/part>
+&lt;/root></codeblock></p>
     </example>
   </refbody>
 </reference>
