@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="conref-examples" xml:lang="en-us">
+ <title>Conref: Examples</title>
+ <shortdesc>Contains <xmlelement>example</xmlelement> elements that are reused throughout the DITA
+  specification.</shortdesc>
+ <conbody>
+    <example id="release-management" otherprops="examples">
+      <title>Example</title>
+      <p>See the example in <xref keyref="elements-change-historylist/example"
+            ><xmlelement>change-historylist</xmlelement></xref>.</p>
+    </example>
+  </conbody>
+</concept>

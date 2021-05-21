@@ -47,6 +47,8 @@
     <keydef keys="attributes-type" href="stubs/StubTopic.dita"/>
     <topicref href="common/conref-cover-pages.dita" processing-role="resource-only"/>
     <keydef href="common/conref-tc-attribute.dita" keys="reuse-tc-attributes"/>
+    <keydef href="common/conref-tc-file.dita" keys="reuse-tc-file"/>
+    <keydef href="common/conref-tc-examples.dita" keys="reuse-tc-examples"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
     <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap" format="ditamap"/>
     <keydef href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita" keys="reuse-note"/>

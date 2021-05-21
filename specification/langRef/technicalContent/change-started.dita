@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-started" xml:lang="en-us">
   <title><xmlelement>change-started</xmlelement></title>
-  <shortdesc>Use the <xmlelement>change-started</xmlelement> element to specify the date on which
-    the change was initiated.</shortdesc>
+  <shortdesc>The <xmlelement>change-started</xmlelement> element specifies the date on which the
+    change was initiated.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p conkeyref="conref-file/release-domain-best-practices"/>
+      <p conkeyref="reuse-tc-file/release-domain-best-practices"/>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -27,6 +27,6 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

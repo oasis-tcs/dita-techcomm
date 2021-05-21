@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-request-reference" xml:lang="en-us">
   <title><xmlelement>change-request-reference</xmlelement></title>
-  <shortdesc>Use the <xmlelement>change-request-reference</xmlelement> element to provide
-    information that links the change to an external tracking system.</shortdesc>
+  <shortdesc>The <xmlelement>change-request-reference</xmlelement> element provides information that
+    links the change to an external tracking system.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,6 +24,6 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>
