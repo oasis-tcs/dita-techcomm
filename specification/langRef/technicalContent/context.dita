@@ -11,14 +11,13 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-            <!--<section id="usage-information"><title>Usage information</title><p>This section should be brief and does not replace or recreate a concept topic on the same subject, although the context section might include some conceptual information.</p></section>-->
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>context</xmlelement> element is specialized from
                         <xmlelement>section</xmlelement>. It is defined in the task module.</p>
 </section>
 <section id="attributes">       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p conkeyref="reuse-attributes/only-universal"/>
         </section>
 <example id="example" otherprops="examples">
 <title>Example</title>

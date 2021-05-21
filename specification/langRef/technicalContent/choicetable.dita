@@ -3,7 +3,10 @@
 <reference id="choicetable" xml:lang="en-us">
   <title><xmlelement>choicetable</xmlelement></title>
   <shortdesc>The <xmlelement>choicetable</xmlelement> element contains information about a set of
-    options that are presented to users in a step.</shortdesc>
+    options that are presented to users in a step.<draft-comment author="robander"
+      time="21 may 2021">I think we should reword a bit to focus on how the choices relate to the
+      step ("a set of options for completing a step"?) rather than where they are
+      presented.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,17 +31,13 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-      />, <ph keyref="reuse-attributes/ref-displayatts"/>, <ph conkeyref="reuse-attributes/ref-simpletableatts"/> (with a
-        narrowed definition of <xmlatt>keycol</xmlatt>, given below), and <xref
-          keyref="attributes-common/attr-spectitle"><xmlatt>spectitle</xmlatt></xref>.<dl>
-          <dlentry>
-            <dt><xmlatt>keycol</xmlatt></dt>
-            <dd>Defines the column that contains headings for each row. The default value for
-                <xmlatt>keycol</xmlatt> on <xmlelement>choicetable</xmlelement> is "1". Otherwise,
-              the attribute is the same as defined in <xref keyref="attributes-common/simpletableatts"/>.</dd>
-          </dlentry>
-        </dl></p>
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+          keyref="reuse-attributes/ref-displayatts"/>, <ph
+          conkeyref="reuse-attributes/ref-simpletableatts"/>, and <xref
+          keyref="attributes-common/attr-spectitle"><xmlatt>spectitle</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element, the <xmlatt>keycol</xmlatt> attribute has a default
+        value of <keyword>1</keyword>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

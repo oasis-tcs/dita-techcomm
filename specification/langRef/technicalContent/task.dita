@@ -17,8 +17,9 @@
       <dl>
         <dlentry>
           <dt>(Strict) task</dt>
-          <dd>Maintains the order and cardinality of the original <xmlelement>taskbody</xmlelement>
-            content model. The strict task is implemented with a constraint module.</dd>
+          <dd>Maintains a strict order and cardinality for elements within the
+              <xmlelement>taskbody</xmlelement> content model. The strict task is implemented with a
+            constraint module.</dd>
         </dlentry>
         <dlentry>
           <dt>General task</dt>

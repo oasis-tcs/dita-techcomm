@@ -8,7 +8,6 @@
 <keywords><indexterm><xmlelement>cmd</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>cmd</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-      <!--<section id="usage-information"><title>Usage information</title><p>A command provides the active voice instruction to the user for completing the step, and should not be more than one sentence. If the step needs additional explanation, place the explanation in an <xmlelement>info</xmlelement> element following the <xmlelement>cmd</xmlelement>.</p></section>-->
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>cmd</xmlelement> element is specialized from <xmlelement>ph</xmlelement>. It is

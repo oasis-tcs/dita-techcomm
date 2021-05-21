@@ -4,7 +4,10 @@
 <title><xmlelement>chdesc</xmlelement></title>
 <shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content of the "Description"
     cell in a choice table row. It explains why the user would choose that option and might explain
-    the result of the choice when it is not immediately obvious.</shortdesc>
+    the result of the choice when it is not immediately obvious.<draft-comment author="robander"
+      time="21 may 2021">Rather than describing this based on presentation (content of a description
+      cell in a table row) can we describe it as the description of an option in a step, or
+      description of an option in a choice table?</draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>chdesc</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>descriptions</indexterm></indexterm>

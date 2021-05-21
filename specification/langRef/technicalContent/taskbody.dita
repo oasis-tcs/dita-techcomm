@@ -14,6 +14,10 @@
          <title>Usage information</title>
          <p>The content model of the <xmlelement>taskbody</xmlelement> element depends on the type
             of task topic used.</p>
+                  <draft-comment author="robander" time="21 may 2021">I think the above statement is
+                        true for almost any element in a configured shell, it's just that this is
+                        the only element where OASIS gives two configured options out of the box.
+                        Not sure how best to clarify that here.</draft-comment>
       </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

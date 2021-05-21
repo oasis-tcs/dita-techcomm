@@ -17,6 +17,8 @@
       <p>Processors <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
         related-links section together with the content of the <xmlelement>prereq</xmlelement>
         element.</p>
+      <draft-comment author="robander" time="21 may 2021">This seems like one that could be changed
+        from normative MAY to "might"</draft-comment>
     </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
@@ -25,7 +27,7 @@
   </section>
   <section id="attributes">
    <title>Attributes</title>
-   <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p conkeyref="reuse-attributes/only-universal"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
