@@ -21,13 +21,13 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>msgnum</xmlelement> element identifies the
         number of the message returned by an application.</p>
-      <codeblock>&lt;p&gt;A server log entry of &lt;msgnum&gt;I:0&lt;/msgnum&gt; is equivalent to the
+      <codeblock>&lt;p&gt;A server log entry of <b>&lt;msgnum&gt;I:0&lt;/msgnum&gt;</b> is equivalent to the
 text message &lt;msgph&gt;informational: successful&lt;/msgph&gt;.&lt;/p&gt;</codeblock></example>
   </refbody>
 </reference>

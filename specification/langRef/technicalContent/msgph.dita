@@ -14,11 +14,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p><!--This element can also contain a variable name (<xmlelement>varname</xmlelement>) element to illustrate where variable text content can occur in the message. -->This
-        element is part of the software domain.</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>msgph</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
@@ -26,13 +21,13 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>msgph</xmlelement> element is used to tag a
         message returned by the server:</p>
       <codeblock>&lt;p&gt;A server log entry of &lt;msgnum&gt;I:0&lt;/msgnum&gt; is equivalent to the
-text message, &lt;msgph&gt;informational: successful&lt;/msgph&gt;.&lt;/p&gt;</codeblock></example>
+text message, <b>&lt;msgph&gt;informational: successful&lt;/msgph&gt;</b>.&lt;/p&gt;</codeblock></example>
   </refbody>
 </reference>

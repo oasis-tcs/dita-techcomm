@@ -15,10 +15,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <!--<section id="usage-information">
-      <title>Usage information</title>
-      <p>A generalized element, it represents any kind of output from the computer, so the author <ph>might want</ph> to choose more specific markup, such as <xmlelement>msgph</xmlelement> for messages from the application. </p>
-    </section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>systemoutput</xmlelement> element is specialized from
@@ -26,7 +22,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
