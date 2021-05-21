@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="equation-inline">
   <title><xmlelement>equation-inline</xmlelement></title>
-  <shortdesc>Use the <xmlelement>equation-inline</xmlelement> element to represent an equation that
-    is presented inline within a paragraph or similar context.</shortdesc>
+  <shortdesc>The <xmlelement>equation-inline</xmlelement> element represents an equation that is
+    presented inline within a paragraph or similar context.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,11 +21,13 @@
     </section>
       <section id="processing-expectations">
          <title>Processing expectations</title>
+      <draft-comment author="robander" time="21 May 2021">Realizing that this same language appears
+        in equation block / figure / inline, we should crisp it up and move it to the TC reuse
+        file.</draft-comment>
       <p>Processors are free to choose the form or forms that they use in deliverables. For example,
-        if there is both an image and MathML markup, an HTML-generating processor could output both
-        the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
-          <xmlatt>id</xmlatt> values to enable dynamic showing or hiding of one form or the other
-        based on browser capability.</p>
+        if there is both an image and MathML markup, an HTML-generating processor could generate
+        both the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
+          <xmlatt>id</xmlatt> values to enable dynamic rendering based on browser capability.</p>
       </section>    
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,34 +36,29 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following example contains a paragraph that contains an
           <xmlelement>equation-inline</xmlelement> element with MathML markup:</p>
       <codeblock>&lt;p>MathML inline: <b>&lt;equation-inline></b>
-        <b>&lt;mathml></b>
-        <b>&lt;m:math display='inline'></b>
-        &lt;m:semantics>
-        &lt;m:mrow>
-        &lt;m:msqrt>
-        &lt;m:mrow>
-        &lt;m:msup>
-        &lt;m:mi>a&lt;/m:mi>
-        &lt;m:mn>2&lt;/m:mn>
-        &lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>&lt;m:msup>
-        &lt;m:mi>b&lt;/m:mi>
-        &lt;m:mn>2&lt;/m:mn>
-        &lt;/m:msup>
-        &lt;/m:mrow>
-        &lt;/m:msqrt>        
-        &lt;/m:mrow>
-        &lt;/m:semantics>
-        <b>&lt;/m:math></b>
-        <b>&lt;/mathml></b>
-        <b>&lt;/equation-inline></b>&lt;/p></codeblock>
+  <b>&lt;mathml></b>
+   <b>&lt;m:math display='inline'></b>
+    &lt;m:semantics>
+     &lt;m:mrow>
+      &lt;m:msqrt>
+       &lt;m:mrow>
+        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+        &lt;m:mo>+&lt;/m:mo>
+        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+       &lt;/m:mrow>
+      &lt;/m:msqrt>        
+     &lt;/m:mrow>
+    &lt;/m:semantics>
+   <b>&lt;/m:math></b>
+  <b>&lt;/mathml></b>
+ <b>&lt;/equation-inline></b>&lt;/p></codeblock>
       <p>The following example contains an <xmlelement>equation-inline</xmlelement> element that
         uses an image as its content:</p>
       <codeblock>&lt;p>An inline equation that contains an image:

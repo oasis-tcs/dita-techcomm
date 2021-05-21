@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="equation-figure">
   <title><xmlelement>equation-figure</xmlelement></title>
-  <shortdesc>Use the <xmlelement>equation-figure</xmlelement> element to represent an equation that
+  <shortdesc>The <xmlelement>equation-figure</xmlelement> element represents an equation that
     functions as a form of figure or display.</shortdesc>
   <prolog>
     <metadata>
@@ -15,13 +15,11 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Since the <xmlelement>equation-figure</xmlelement> element is specialized from
-          <xmlelement>fig</xmlelement>, display equations can have titles, descriptions, figure
-        groups, and all other figure components. The direct children of
-          <xmlelement>equation-figure</xmlelement> can be the equation content itself (for example,
-          <xmlelement>mathml</xmlelement> or an image reference), or it can be one or more
-          <xmlelement>equation-block</xmlelement> elements, along with other elements allowed within
-          <xmlelement>fig</xmlelement>, such as paragraphs.</p>
+      <p>Display equations can have titles, descriptions, figure groups, and all other figure
+        components. The direct children of <xmlelement>equation-figure</xmlelement> can be the
+        equation content itself (for example, <xmlelement>mathml</xmlelement> or an image
+        reference), or it can be one or more <xmlelement>equation-block</xmlelement> elements, along
+        with other elements allowed within figures.</p>
       <p>When an <xmlelement>equation-figure</xmlelement> element has multiple direct child
           <xmlelement>mathml</xmlelement>, <xmlelement>image</xmlelement>, or
           <xmlelement>pre</xmlelement> elements, each child represents an alternative form of the
@@ -31,18 +29,26 @@
           <xmlelement>equation-block</xmlelement> elements to contain the equations and clearly
         distinguish them from the commentary.</p>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
       <p>Display equations are intended to be numbered when numbering is desired.</p>
+      <draft-comment author="robander" time="21 may 2021">I'm not sure how to interpret this. Is it
+        an instruction that processors need to give authors a way to indicate that numbering is
+        desired? Or could this be more simply stated as "Display equations might be numbered"? Or,
+        is this based on the presence of equation-number, in which case we should be explicit that
+        it is numbered when equation-number is used?</draft-comment>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
       <p>Processors are free to choose the form or forms that they use in deliverables. For example,
-        if there is both an image and MathML markup, an HTML-generating processor could output both
-        the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
-          <xmlatt>id</xmlatt> values to enable dynamic showing or hiding of one form or the other
-        based on browser capability. All other direct-child elements of
-          <xmlelement>equation-figure</xmlelement> are treated normally.</p>
+        if there is both an image and MathML markup, an HTML-generating processor could generate
+        both the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
+          <xmlatt>id</xmlatt> values to enable dynamic rendering based on browser capability. All
+        other direct-child elements of <xmlelement>equation-figure</xmlelement> are treated
+        normally.</p>
+      <draft-comment author="robander" time="21 may 2021">We say "all other" without explicitly
+        listing what is "other" – only a for-example that has images and mathml, but leaves out the
+          <xmlelement>pre</xmlelement> element described earlier in the topic.</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -58,68 +64,57 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>equation-figure</xmlelement> element contains
-        a title and
-        MathML:<codeblock>&lt;equation-figure>
+        a title and MathML:<codeblock>&lt;equation-figure>
   &lt;title>Display equation with a MathML container&lt;/title>
   &lt;mathml>
     &lt;m:math display='block'>
       &lt;m:semantics>
         &lt;m:mrow>
           &lt;m:mfrac>
-            &lt;m:mrow>
-              &lt;m:mi>n&lt;/m:mi>
-              &lt;m:mo>!&lt;/m:mo>
-            &lt;/m:mrow>
-            &lt;m:mrow>
-              &lt;m:mi>r&lt;/m:mi>
-              &lt;m:mo>!&lt;/m:mo>
-            &lt;m:mrow>
-              &lt;m:mo>(&lt;/m:mo>
+            &lt;m:mrow>&lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;/m:mrow>
+            &lt;m:mrow>&lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
               &lt;m:mrow>
-                &lt;m:mi>n&lt;/m:mi>
-                &lt;m:mo>&amp;#x2212;&lt;/m:mo>
-                &lt;m:mi>r&lt;/m:mi>
+                &lt;m:mo>(&lt;/m:mo>
+                &lt;m:mrow>&lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>&lt;/m:mrow>
+                &lt;m:mo>)&lt;/m:mo>
               &lt;/m:mrow>
-              &lt;m:mo>)&lt;/m:mo>
+              &lt;m:mo>!&lt;/m:mo>
             &lt;/m:mrow>
-            &lt;m:mo>!&lt;/m:mo>
-          &lt;/m:mrow>
-        &lt;/m:mfrac>         
-      &lt;/m:mrow>
-    &lt;/m:semantics>
-  &lt;/m:math>
-&lt;/mathml>
+          &lt;/m:mfrac>         
+        &lt;/m:mrow>
+      &lt;/m:semantics>
+    &lt;/m:math>
+  &lt;/mathml>
 &lt;/equation-figure></codeblock></p>
       <p>In the following example, the <xmlelement>equation-figure</xmlelement> element contains a
         title and an <xmlelement>equation-block</xmlelement> element that contains MathML and
         commentary:<codeblock>&lt;equation-figure>
-          &lt;title>Display equation with a MathML container&lt;/title>
-          &lt;equation-block>
-          &lt;mathml>
-          &lt;m:math display='block'>
-          &lt;m:semantics>
-          &lt;m:mrow>
-          &lt;m:mfrac>
-          &lt;m:mrow>
-          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
-          &lt;/m:mrow>
-          &lt;m:mrow>
-          &lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;m:mrow>&lt;m:mo>(&lt;/m:mo>
-          &lt;m:mrow>
-          &lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>
-          &lt;/m:mrow>
-          &lt;m:mo>)&lt;/m:mo>&lt;/m:mrow>&lt;m:mo>!&lt;/m:mo>
-          &lt;/m:mrow>
-          &lt;/m:mfrac>            
-          &lt;/m:mrow>
-          &lt;/m:semantics>
-          &lt;/m:math>
-          &lt;/mathml>
-          &lt;/equation-block>
-          &lt;p>Where 
-          &lt;equation-inline>&lt;mathml>&lt;m:math>&lt;m:mi>r&lt;/m:mi>&lt;/m:math>&lt;/mathml>&lt;/equation-inline>
-          is greater than 1.&lt;/p>
-          &lt;/equation-figure></codeblock></p>
+ &lt;title>Display equation with a MathML container&lt;/title>
+ &lt;equation-block>
+  &lt;mathml>
+   &lt;m:math display='block'>
+     &lt;m:semantics>
+       &lt;m:mrow>
+         &lt;m:mfrac>
+           &lt;m:mrow>&lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;/m:mrow>
+           &lt;m:mrow>&lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
+             &lt;m:mrow>
+               &lt;m:mo>(&lt;/m:mo>
+               &lt;m:mrow>&lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>&lt;/m:mrow>
+               &lt;m:mo>)&lt;/m:mo>
+             &lt;/m:mrow>
+             &lt;m:mo>!&lt;/m:mo>
+           &lt;/m:mrow>
+         &lt;/m:mfrac>         
+       &lt;/m:mrow>
+     &lt;/m:semantics>
+   &lt;/m:math>
+  &lt;/mathml>
+ &lt;/equation-block>
+ &lt;p>Where 
+   &lt;equation-inline>&lt;mathml>&lt;m:math>&lt;m:mi>r&lt;/m:mi>&lt;/m:math>&lt;/mathml>&lt;/equation-inline>
+   is greater than 1.&lt;/p>
+&lt;/equation-figure></codeblock></p>
     </example>
   </refbody>
 </reference>
