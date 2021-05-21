@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="troublebody" xml:lang="en-us" >
  <title><xmlelement>troublebody</xmlelement></title>
- <shortdesc>The <xmlelement>troublebody</xmlelement> element is a container for the main content of
-  the troubleshooting topic.</shortdesc>
+ <shortdesc>The <xmlelement>troublebody</xmlelement> element contains the main content of the
+  troubleshooting topic.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
@@ -15,13 +15,15 @@
   </metadata>
  </prolog>
  <refbody>
-  <section id="section_i24_353_2fb">
-   <p>Troubleshooting topics limit the body structure to a single optional condition followed by one or more solutions.</p>
+  <section id="usage-information">
+   <title>Usage Information</title>
+   <p>Troubleshooting topics limit the body structure to a single optional condition followed by one
+    or more solutions.</p>
   </section>
-  <section id="inheritance">
-   <title>Inheritance</title>
+  <section id="specialization-hierarchy">
+   <title>Specialization hierarchy</title>
    <p>The <xmlelement>troublebody</xmlelement> element is specialized from
-     <xmlelement>body</xmlelement>; it is defined in the troubleshooting module.</p>
+     <xmlelement>body</xmlelement>. It is defined in the troubleshooting module.</p>
   </section>
   <section id="attributes">
    <title>Attributes</title>

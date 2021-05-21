@@ -6,7 +6,9 @@
         diagnostic elements that help users determine which of several possible causes discussed
         within the troubleshooting topic applies to the symptoms they are experiencing. Diagnostics
         may be provided in text or table format within <xmlelement>diagnostics-general</xmlelement>
-        or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.</shortdesc>
+        or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.<draft-comment
+            author="robander" time="21 may 2021">Feels like the first sentence here could be
+            simplified. Also would be nice to delete the word "users".</draft-comment></shortdesc>
     <prolog>
         <metadata>
             <keywords>

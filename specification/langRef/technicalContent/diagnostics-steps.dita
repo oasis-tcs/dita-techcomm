@@ -4,7 +4,7 @@
     <title><xmlelement>diagnostics-steps</xmlelement></title>
     <shortdesc>The <xmlelement>diagnostics-steps</xmlelement> element includes step-by-step
         information that can help determine which of multiple cause-remedy pairs apply to a specific
-        situation. Results of each diagnostic step may link to the specific cause-remedy section
+        situation. Results of each diagnostic step might link to the specific cause-remedy section
         that applies to each result. </shortdesc>
     <prolog>
         <metadata>
@@ -81,9 +81,7 @@
             &lt;remedy id="ipaddress">
               &lt;title>Resetting Your IP Address&lt;/title>
 		&lt;steps>
-                &lt;step>
-                   &lt;cmd>...&lt;/cmd>
-                &lt;/step>
+                &lt;step>&lt;cmd>...&lt;/cmd>&lt;/step>
                 &lt;!-- ... -->
               &lt;/steps>
             &lt;/remedy>
@@ -92,9 +90,7 @@
             &lt;remedy id="resetnetwork">
               &lt;title>Resetting Your Local Network&lt;/title>
 		&lt;steps>
-                &lt;step>
-                   &lt;cmd>...&lt;/cmd>
-                &lt;/step>
+                &lt;step>&lt;cmd>...&lt;/cmd>&lt;/step>
                 &lt;!-- ... -->
               &lt;/steps>
             &lt;/remedy>
