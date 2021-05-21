@@ -4,8 +4,10 @@
 <reference id="glossterm" xml:lang="en-us">
 <title><xmlelement>glossterm</xmlelement></title>
 <shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the preferred term that is
-      associated with a definition of a sense. If the same term has multiple senses, create a
-      separate <xmlelement>glossentry</xmlelement> topic for each sense.</shortdesc>
+            associated with a definition of a sense. If the same term has multiple senses, create a
+            separate <xmlelement>glossentry</xmlelement> topic for each sense.<draft-comment
+                  author="robander" time="20 may 2021">associated with a definition of a "sense"? I
+                  think we need to clear that up.</draft-comment></shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>terms</indexterm></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossterm</xmlelement></indexterm></indexterm>
@@ -16,7 +18,8 @@
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>glossterm</xmlelement> element is specialized from
-               <xmlelement>title</xmlelement>; it is defined in the glossary entry module.</p>
+                              <xmlelement>title</xmlelement>. It is defined in the glossary entry
+                        module.</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>

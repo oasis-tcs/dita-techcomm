@@ -14,15 +14,15 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <note>Any list of alternative terms is, of course, specific to the language, so translation of
-        a <xmlelement>glossentry</xmlelement> topic <ph>might</ph> result in an empty
-          <xmlelement>glossShortForm</xmlelement> element if there is no equivalent in the target
-        language.</note>
+      <note>Any list of alternative terms is specific to the language. Translation of a
+          <xmlelement>glossentry</xmlelement> topic might result in an empty
+          <xmlelement>glossShortForm</xmlelement> element if there is no equivalent short form in
+        the target language.</note>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossShortForm</xmlelement> element is specialized from
-          <xmlelement>title</xmlelement>; it is defined in the glossary entry module.</p>
+          <xmlelement>title</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

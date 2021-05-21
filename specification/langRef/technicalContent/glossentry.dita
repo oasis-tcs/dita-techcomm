@@ -19,13 +19,15 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      The recommended (but not required) book processing is to sort and group glossary entries based
-      on the localized term so a back-of-the-book glossary can contain a collated list of terms with
-      the definitions of the individual senses of each term indented under the term. The glossary
-      can have a different organization in different languages depending on the translation of the
-      terms. One possible implementation of a glossary in online processing is to associate a
-      hotspot for mentions of terms in <xmlelement>term</xmlelement> elements and display the
-      definition on hover or click.</section>
+      <p>The recommended (but not required) book processing is to sort and group glossary entries
+        based on the localized term so a back-of-the-book glossary can contain a collated list of
+        terms with the definitions of the individual senses of each term indented under the term.
+        The glossary can have a different organization in different languages depending on the
+        translation of the terms.</p>
+      <p>One possible implementation of a glossary in online processing is to associate a hotspot
+        for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
+        on hover or click.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossentry</xmlelement> element is specialized from

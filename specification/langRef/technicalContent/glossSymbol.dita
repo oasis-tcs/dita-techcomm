@@ -15,11 +15,10 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossSymbol</xmlelement> element is specialized from
-          <xmlelement>image</xmlelement>; it is defined in the glossary entry module.</p>
+          <xmlelement>image</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <!--RDA: Note that this is an exact copy of the attribute list for image, EXCEPT that this element dropped the deprecated alt and makes @href required, which makes it harder to reuse that full list. It is an exact copy of hazardsymbol.-->
       <p>The following attributes are available on this element: <ph
         conkeyref="reuse-attributes/ref-universalatts"/>, <xref
             keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and the

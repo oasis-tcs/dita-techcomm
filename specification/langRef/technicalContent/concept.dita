@@ -26,7 +26,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>concept</xmlelement> element is specialized from
-          <xmlelement>topic</xmlelement>; it is defined in the concept module.</p>
+          <xmlelement>topic</xmlelement>. It is defined in the concept module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title><sectiondiv

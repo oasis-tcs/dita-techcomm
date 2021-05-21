@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="glossProperty" xml:lang="en-us">
 <title><xmlelement>glossProperty</xmlelement></title>
-<shortdesc >The <xmlelement>glossProperty</xmlelement> element is a specialization of
-    the <xmlelement>data</xmlelement> element. You can use it to specify additional details about
-    the preferred term or its subject, for example, the gender of a noun.</shortdesc>
+<shortdesc>The <xmlelement>glossProperty</xmlelement> element specifies additional details about the
+    preferred term or its subject, such as the gender of a noun.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>extension points</indexterm></indexterm>
@@ -16,7 +15,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossProperty</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>; it is defined in the glossary entry module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

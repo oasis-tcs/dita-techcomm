@@ -30,63 +30,23 @@ and expanded versions of that acronym.</shortdesc>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
-        conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-              conkeyref="attributes-common/ref-linkatts"/> (with a narrowed definition of
-          <xmlatt>href</xmlatt>, given below), <xref
-            keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and the
-        attributes defined below. This element also uses <xmlatt>processing-role</xmlatt>,
-          <xmlatt>collection-type</xmlatt>, <xmlatt>chunk</xmlatt>, and
-        <xmlatt>search</xmlatt> from <ph conkeyref="attributes-common/ref-commonmapatts"/>; this
-        element also uses narrowed definitions of <xmlatt>linking</xmlatt> and <xmlatt>toc</xmlatt>
-        from <ph conkeyref="attributes-common/ref-commonmapatts"/>, given below.<dl>
-          <dlentry>
-            <dt><xmlatt>href</xmlatt></dt>
-            <dd>A pointer to a glossary definition, typically a <xmlelement>glossentry</xmlelement>
-              topic. See <xref keyref="attributes-common/attr-href"/> for detailed information
-              on supported values and processing implications. <ph
-                conkeyref="reuse-attributes/non-dita-href"/></dd>
-          </dlentry>
-          <dlentry>
-            <dt><xmlatt>keys</xmlatt>
-              <ph conkeyref="reuse-attributes/required-attr"/></dt>
-            <dd>Associates one or more space-delimited keys with the target of the glossary
-              reference. See <xref keyref="attributes-common/attr-keys"/> for information on
-              using the attribute.</dd>
-          </dlentry>
-          <dlentry conkeyref="reuse-attributes/toc-default-no">
-            <dt/>
-            <dd/>
-          </dlentry>
-          <dlentry>
-            <dt><xmlatt>linking</xmlatt></dt>
-            <dd>Defines some specific linking characteristics of a glossary topic&apos;s current
-              location in the map. On this element the value defaults to "none" in order to keep
-              individual glossary entries from creating links based on their location in the map.
-              Allowable values are:<dl>
-                <dlentry>
-                  <dt>targetonly </dt>
-                  <dd>A topic can only be linked to and cannot link to other topics. </dd>
-                </dlentry>
-                <dlentry>
-                  <dt>sourceonly </dt>
-                  <dd>A topic cannot be linked to but can link to other topics. </dd>
-                </dlentry>
-                <dlentry>
-                  <dt>normal </dt>
-                  <dd>A topic can be linked to and can link to other topics. Use this to override
-                    the linking value of a parent topic. </dd>
-                </dlentry>
-                <dlentry>
-                  <dt>none </dt>
-                  <dd>A topic cannot be linked to or link to other topics. </dd>
-                </dlentry>
-                <dlentry conkeyref="reuse-attributes/ditauseconref">
-                  <dt/>
-                  <dd/>
-                </dlentry>
-              </dl></dd>
-          </dlentry>
-        </dl></p>
+          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+          conkeyref="reuse-attributes/ref-linkatts"/>, <xref keyref="attributes-common/attr-chunk"
+            ><xmlatt>chunk</xmlatt></xref>, <xref keyref="attributes-common/attr-collection-type"
+            ><xmlatt>collection-type</xmlatt></xref>, <xref keyref="attributes-common/attr-keyref"
+            ><xmlatt>keyref</xmlatt></xref>, <xref keyref="attributes-common/attr-linking"
+            ><xmlatt>linking</xmlatt></xref>, <xref keyref="attributes-common/attr-processing-role"
+            ><xmlatt>processing-role</xmlatt></xref>, <xref keyref="attributes-common/attr-search"
+            ><xmlatt>search</xmlatt></xref>, and <xref keyref="attributes-common/attr-toc"
+            ><xmlatt>toc</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element:<ul id="ul_mwn_xdh_rpb">
+          <li>The <xmlatt>href</xmlatt> attribute is a reference to a glossary definigion, typically
+            a <xmlelement>glossentry</xmlelement> topic.</li>
+          <li>The <xmlatt>keys</xmlatt> attribute is required.</li>
+          <li>The <xmlatt>linking</xmlatt> attribute has a default value of
+            <keyword>none</keyword>.</li>
+          <li>The <xmlatt>toc</xmlatt> attribute has a default value of <keyword>no</keyword>.</li>
+        </ul></p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
@@ -100,4 +60,3 @@ and expanded versions of that acronym.</shortdesc>
     </example>
 </refbody>
 </reference>
-

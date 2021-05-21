@@ -25,6 +25,8 @@
     </section>
     <section id="formatting-expectations">
       <title>Formatting expectations</title>
+      <draft-comment author="robander" time="20 may 2021">It really feels like this should be in a
+        small architectural section for the TC spec, with clear examples.</draft-comment>
       <p>The <xmlelement>abbreviated-form</xmlelement> element is intended to reference a
           <xmlelement>glossentry</xmlelement> topic that contains both a term and an abbreviated
         form of that term. The topic might also provide a surface form that differs from the
@@ -38,10 +40,9 @@
         for every reference within a copyright or a warranty-related warning. A process generating
         an online page might emit the surface form as a hover tooltip on every instance of the
         term.</p>
-      <p><ph>The following rules</ph> determine how to render an
-          <xmlelement>abbreviated-form</xmlelement> element. As described, the definition of
-        "introductory context" will vary based on the rendered format and processor.<ol
-          id="ol_iwv_w5t_wbb">
+      <p>The following rules determine how to render an <xmlelement>abbreviated-form</xmlelement>
+        element. As described, the definition of "introductory context" will vary based on the
+        rendered format and processor.<ol id="ol_iwv_w5t_wbb">
           <li>If the referenced topic is not a <xmlelement>glossentry</xmlelement> topic (or a
             specialization of <xmlelement>glossentry</xmlelement>), the title of the topic <term
               outputclass="RFC-2119">SHOULD</term> be displayed.</li>
@@ -88,9 +89,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The term and acronym <ph>can</ph> be defined as follows, in a
-          <xmlelement>glossentry</xmlelement> topic. Note that the <xmlatt>id</xmlatt> attribute of
-        the topic does not need to match the term or acronym.</p>
+      <p>The term and acronym can be defined as follows, in a <xmlelement>glossentry</xmlelement>
+        topic. Note that the <xmlatt>id</xmlatt> attribute of the topic does not need to match the
+        term or acronym.</p>
       <codeblock>&lt;glossentry id="abs-definition">
   &lt;glossterm>Anti-lock Braking System&lt;/glossterm>
   &lt;glossBody>
@@ -115,9 +116,9 @@
         manner. Again, the key (in this case "abs") does not need to match the term or acronym
         value.</p>
       <codeblock>&lt;glossref keys="abs" href="antilock.dita"/></codeblock>
-      <p>An author <ph>who wants</ph> to reference this topic <ph>can</ph> do so by using the
+      <p>An author who wants to reference this topic can do so by using the
           <xmlelement>abbreviated-form</xmlelement> element. The <xmlatt>keyref</xmlatt> attribute
-          <ph>references</ph> the value defined on the <xmlatt>keys</xmlatt> attribute above.</p>
+        references the value defined on the <xmlatt>keys</xmlatt> attribute above.</p>
       <codeblock>&lt;section>An &lt;abbreviated-form keyref="abs"/> helps a
 driver to stop. For this reason many find an
 &lt;abbreviated-form keyref="abs"/> useful.
