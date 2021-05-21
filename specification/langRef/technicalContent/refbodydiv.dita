@@ -3,14 +3,8 @@
  "reference.dtd">
 <reference id="refbodydiv" xml:lang="en-us">
 <title><xmlelement>refbodydiv</xmlelement></title>
-<shortdesc>The <xmlelement>refbodydiv</xmlelement> element is similar to the
-      <xmlelement>bodydiv</xmlelement> element in that it provides an informal container for content
-    that <ph >might</ph> be grouped within a reference. Reference topics place
-    many restrictions on their content compared to generic topics; the
-      <xmlelement>refbodydiv</xmlelement> element maintains these restrictions by only allowing
-    elements that are already available within the body of a reference. There are no additional
-    semantics attached to the <xmlelement>refbodydiv</xmlelement> element; it is purely a grouping
-    element provided to help organize content.</shortdesc>
+<shortdesc>The <xmlelement>refbodydiv</xmlelement> element provides an informal container for
+    content that might be grouped within a reference.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refbodydiv</xmlelement></indexterm>
         <indexterm>reference
@@ -19,6 +13,11 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
+      <p>Reference topics place many restrictions on their content compared to generic topics; the
+          <xmlelement>refbodydiv</xmlelement> element maintains these restrictions by only allowing
+        elements that are already available within the body of a reference. There are no additional
+        semantics attached to the <xmlelement>refbodydiv</xmlelement> element; it is purely a
+        grouping element provided to help organize content.</p>
       <p>The <xmlelement>refbodydiv</xmlelement> element can nest itself, which means that it can be
         specialized to create structured information within a specialized reference topic. Another
         common use case for the <xmlelement>refbodydiv</xmlelement> element is to group a sequence
@@ -27,8 +26,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>refbodydiv</xmlelement> element is specialized from the
-          <xmlelement>bodydiv</xmlelement> element in the topic module.</p>
+      <p>The <xmlelement>refbodydiv</xmlelement> element is specialized from
+          <xmlelement>bodydiv</xmlelement>. It is defined in the reference module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

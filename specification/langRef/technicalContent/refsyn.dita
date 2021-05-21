@@ -7,7 +7,9 @@
     topic. The section often contains syntax or signature content (for example, the calling syntax
     for a command-line utility or an API signature). The <xmlelement>refsyn</xmlelement> contains a
     brief, possibly diagrammatic description of the subject's interface or high-level
-    structure.</shortdesc>
+      structure.<draft-comment author="robander" time="20 may 2021">This seems like all usage
+      information, and could use an edit to clarify what the element is
+    for.</draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refsyn</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>refsyn</xmlelement></indexterm></indexterm>
 </keywords>
@@ -15,8 +17,8 @@
 <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>refsyn</xmlelement> element is specialized from the
-          <xmlelement>section</xmlelement> element in the topic module.</p>
+      <p>The <xmlelement>refsyn</xmlelement> element is specialized from
+          <xmlelement>section</xmlelement>. It is defined in the reference module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

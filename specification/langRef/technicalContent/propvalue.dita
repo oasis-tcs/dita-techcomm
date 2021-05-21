@@ -13,20 +13,23 @@
 <refbody>
       <section id="usage-information">
          <title>Usage information</title>
-         <p>Values <ph>can</ph> be placed in separate <xmlelement>property</xmlelement> elements if
-            they need separate descriptions. The <xmlelement>proptype</xmlelement> element need not
-            be repeated.</p>
+         <p>Values can be placed in separate <xmlelement>property</xmlelement> elements if they need
+            separate descriptions. The <xmlelement>proptype</xmlelement> element need not be
+            repeated.</p>
+         <draft-comment author="robander" time="20 May 2021">This feels like something that should
+            be called out for processors in either formatting or processing info.</draft-comment>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>The <xmlelement>propvalue</xmlelement> element is specialized from the
-               <xmlelement>stentry</xmlelement> element in the topic module.</p>
+         <p>The <xmlelement>propvalue</xmlelement> element is specialized from
+               <xmlelement>stentry</xmlelement>. It is defined in the reference module.</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>
          <p>The following attributes are available on this element: <ph
-               conkeyref="reuse-attributes/ref-universalatts"/>, <xref keyref="attributes-common/specentry"
-            />, and the attributes defined below.</p>
+               conkeyref="reuse-attributes/ref-universalatts"/>, <xref
+               keyref="attributes-common/specentry"><xmlatt>specentry</xmlatt></xref>, and the
+            attributes defined below.</p>
          <dl>
             <dlentry conkeyref="reuse-attributes/stentry-rowspan">
                <dt/>
