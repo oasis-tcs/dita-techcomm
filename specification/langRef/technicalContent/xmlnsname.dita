@@ -24,13 +24,14 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, an <xmlelement>xmlnsname</xmlelement> element tags the
-        namespace for XHTML:</p>
-      <codeblock>The namespace name for XHTML is <b>&lt;xmlnamespace>http://www.w3.org/1999/xhtml&lt;/xmlnamespace></b>. </codeblock>
+        namespace for SVG:</p>
+      <codeblock>&lt;p>SVG markup is specified in an &lt;xmlelement>svg&lt;/xmlelement> element with
+the namespace <b>&lt;xmlnamespace></b>http://www.w3.org/2000/svg<b>&lt;/xmlnamespace></b>.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

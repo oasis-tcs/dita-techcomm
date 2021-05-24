@@ -24,14 +24,14 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, an <xmlelement>xmlpi</xmlelement> element is used to tag the
         name of a processing instruction:</p>
-      <codeblock>While DITA does not define any processing instructions, some applications might
-use some DocBook processing instructions, such as <b>&lt;xmlpi>dbhtml_bgcolor&lt;/xmlpi></b>.</codeblock>
+      <codeblock>&lt;p>While DITA does not define any processing instructions, applications might
+use some DocBook processing instructions, such as <b>&lt;xmlpi>dbhtml_bgcolor&lt;/xmlpi></b>.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

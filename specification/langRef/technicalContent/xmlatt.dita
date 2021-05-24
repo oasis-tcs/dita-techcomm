@@ -29,16 +29,16 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>xmlatt</xmlelement> element is used to tag
         mentions of the <xmlatt>collection-type</xmlatt> and <xmlatt>linking</xmlatt>
         attributes:</p>
-      <codeblock>The <b>&lt;xmlatt>collection-type&lt;/xmlatt></b> and <b>&lt;xmlatt>linking&lt;/xmlatt></b> 
+      <codeblock>&lt;p>The <b>&lt;xmlatt>collection-type&lt;/xmlatt></b> and <b>&lt;xmlatt>linking&lt;/xmlatt></b> 
 attributes affect how related links are generated for topics that are 
-referenced in the DITA map.</codeblock>
+referenced in the DITA map.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

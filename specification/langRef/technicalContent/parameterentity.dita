@@ -17,9 +17,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><!--The <xmlelement>parameterentity</xmlelement> element enables more precise semantic searching of the DITA source; it also enables distinct formatting, such as adding the percentage sign (%) or trailing semi-colon (;) delimiters to the parameter entity name. -->The
-        content of the <xmlelement>parameterentity</xmlelement> element should be the entity name
-        without a leading percentage sign or trailing semi-colon, for example,
+      <p>The content of the <xmlelement>parameterentity</xmlelement> element should be the entity
+        name without a leading percentage sign or trailing semi-colon, for example,
           <keyword>keyword.content</keyword>.</p>
     </section>
     <section id="specialization-hierarchy">
@@ -31,17 +30,14 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-        /> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Examples</title>
       <p>In the following code sample, the <xmlelement>parameterentity</xmlelement> element tags the
         name of the <parameterentity>xml-d-dec</parameterentity> parameter entity:</p>
-      <!--<codeblock>&lt;p> ... The <b>&lt;parameterentity>p.content&lt;/parameterentity></b> parameter entity 
-defines the content model for the &lt;xmlelement>p&lt;/xmlelement> element.&lt;/p></codeblock>-->
-      <codeblock>&lt;p>To include the XML-mention domain in a DTD document-type shell, you must 
-declare the <b>&lt;parameterentity>xml-d-dec&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
+      <codeblock>&lt;p>To include the XML-mention domain in a DTD document-type shell, declare and 
+reference the <b>&lt;parameterentity>xml-d-dec&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>
