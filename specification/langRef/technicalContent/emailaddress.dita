@@ -39,9 +39,9 @@
    &lt;country&gt;USA&lt;/country&gt;
  &lt;/addressdetails&gt;
  &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
- <b>&lt;emailaddresses&gt;
-  &lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;
- &lt;/emailaddresses&gt;</b>
+ &lt;emailaddresses&gt;
+  <b>&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;</b>
+ &lt;/emailaddresses&gt;
 &lt;/personinfo&gt;</codeblock></example>
   </refbody>
 </reference>
