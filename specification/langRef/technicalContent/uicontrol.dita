@@ -3,7 +3,7 @@
 <reference id="uicontrol" xml:lang="en-us">
   <title><xmlelement>uicontrol</xmlelement></title>
   <shortdesc>The <xmlelement>uicontrol</xmlelement> element identifies user interface controls, such
-    as names of buttons, fields, menu items, and other objects that enable users to control the
+    as names of buttons, fields, menu items, and other objects that enable users to control an
     interface.</shortdesc>
   <prolog>
     <metadata>
@@ -32,13 +32,13 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>uicontrol</xmlelement> element identifies a
         button that a user is directed to press:</p>
-      <codeblock>&lt;p>Press <b>&lt;uicontrol&gt;</b>OK<b>&lt;/uicontrol&gt;</b>.&lt;/p></codeblock>
+      <codeblock>&lt;p>Press <b>&lt;uicontrol&gt;</b>OK<b>&lt;/uicontrol&gt;</b> to continue.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

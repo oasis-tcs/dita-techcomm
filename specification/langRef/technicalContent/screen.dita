@@ -3,7 +3,7 @@
 <reference id="screen" xml:lang="en-us">
   <title><xmlelement>screen</xmlelement></title>
   <shortdesc>The <xmlelement>screen</xmlelement> element contains a textual representation of a
-    terminal console or other text-based computer interfaces.</shortdesc>
+    terminal console or other text-based computer interface.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,10 +15,12 @@
     </metadata>
   </prolog>
   <refbody>
-    <!--<section id="usage-information">
-      <title>Usage information</title>
-      <p>Use <xmlelement>screen</xmlelement> to contain representations of text-based online panels, text consoles ("term" or "curses" windows, for example), or other text-based user interface components.</p>
-    </section>-->
+    <section id="section_nhf_lrj_spb">
+      <draft-comment author="robander" time="24 May 2021">We have rendering rules for msgblock that
+        say it MUST preserve newlines / white space. I think we should be consistent, either have it
+        there and here, or not have it at all (because xml:space already means they are supposed to
+        respect this). Not sure which though.</draft-comment>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>screen</xmlelement> element is specialized from
