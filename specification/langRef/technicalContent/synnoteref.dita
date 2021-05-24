@@ -22,29 +22,39 @@
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>synnoteref</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+<p>The <xmlelement>synnoteref</xmlelement> element is specialized from
+        <xmlelement>xref</xmlelement>. It is defined in the syntax diagram domain module, which is a
+        specialization of the programming domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-        /> and the attribute defined below.</p>
-      <dl>
-        <dlentry>
-          <dt><xmlatt>href</xmlatt></dt>
-          <dd>A reference to the target syntax note (<xmlelement>synnote</xmlelement>) element. The
-            referenced syntax note must be in the same syntax diagram as the
-            <xmlelement>synnoteref</xmlelement> element. See <xref keyref="attributes-common/attr-href"/> for
-            detailed information on supported values and processing implications.
-            <!--For this element, processors should assume the equivalent of <codeph>scope="local"</codeph> and <codeph>format="dita"</codeph>.--></dd>
-        </dlentry>
-      </dl>
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/> and <xref
+          keyref="attributes-common/attr-href"><xmlatt>href</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element, the <xmlatt>href</xmlatt> attribute is a reference to
+        a syntax note within the same syntax diagram.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;synnoteref href="#topicid/mysyn"/&gt;
-</codeblock>
+      <p>In the following code sample, a syntax note is reused twice in the sample diagram,
+        instructing the reader how to request a modified user name or password.</p>
+      <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
+  &lt;title>Validate account setup&lt;/title>
+  &lt;groupseq>
+    &lt;kwd>clicmd&lt;/kwd>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>&lt;kwd>user&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>account_id&lt;/var><b>&lt;synnoteref href="#./reset"/></b>
+    &lt;/groupcomp>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>&lt;kwd>pwd&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>password_key&lt;/var><b>&lt;synnoteref href="#./reset"/></b>
+    &lt;/groupcomp>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>&lt;kwd>validate&lt;/kwd>
+    &lt;/groupcomp>
+  &lt;/groupseq>
+  &lt;synnote id="reset">If you have forgotten your account ID or password key,
+    please contact customer support.&lt;/synnote>
+&lt;/syntaxdiagram&gt;</codeblock>
     </example>
   </refbody>
 </reference>

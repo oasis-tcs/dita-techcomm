@@ -17,19 +17,34 @@
   <refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>synblk</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+<p>The <xmlelement>synblk</xmlelement> element is specialized from
+        <xmlelement>figgroup</xmlelement>. It is defined in the syntax diagram domain module, which
+        is a specialization of the programming domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p conkeyref="reuse-attributes/only-universal"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock><b>&lt;synblk&gt;</b>
-&lt;groupseq&gt;&lt;kwd&gt;this&lt;/kwd&gt;&lt;sep&gt;-&lt;/sep&gt;&lt;kwd&gt;is&lt;/kwd&gt;&lt;sep&gt;-&lt;/sep&gt;&lt;kwd&gt;a&lt;/kwd&gt;
-&lt;sep&gt;-&lt;/sep&gt;&lt;var&gt;test&lt;/var&gt;&lt;/groupseq&gt;
-<b>&lt;/synblk&gt;</b></codeblock></example>
+      <p>In the following code sample, <xmlelement>synblk</xmlelement> elements are used to group
+        sets of related options for user profile parameters that might be reused in many different
+        sets of syntax.</p>
+      <codeblock><b>&lt;synblk id="profileopts"&gt;</b>
+  &lt;title>Required profile options&lt;/title>
+  &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>user&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>&lt;/groupcomp>
+  &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>acctkey&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>keyfile&lt;/var>&lt;/groupcomp>
+  &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>region&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>homeregion&lt;/var>&lt;/groupcomp>
+<b>&lt;/synblk&gt;</b></codeblock>
+      <p>This block can now be reused in syntax descriptions that always begin with the three
+        profile parameters described in that syntax
+        block:<codeblock id="codeblock_dkj_d3j_spb">&lt;syntaxdiagram>
+  &lt;title>Request file listing&lt;/title>
+  &lt;groupseq>
+    &lt;kwd>clicmd&lt;/kwd>
+    &lt;synblk conkeyref="syntax-library/profileopts"/>
+    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>filelist&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>volumeid&lt;/var>&lt;/groupcomp>
+  &lt;/groupseq>
+&lt;/syntaxdiagram></codeblock></p></example>
   </refbody>
 </reference>

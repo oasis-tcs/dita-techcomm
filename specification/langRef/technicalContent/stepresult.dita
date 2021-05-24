@@ -12,11 +12,11 @@
   <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>stepresult</xmlelement> element is specialized from
-          <xmlelement>itemgroup</xmlelement>. It is defined in the task module.</p>
+          <xmlelement>div</xmlelement>. It is defined in the task module.</p>
     </section>
   <section id="attributes">
    <title>Attributes</title>
-   <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p conkeyref="reuse-attributes/only-universal"/>
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>

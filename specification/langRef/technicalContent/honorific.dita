@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="honorific" xml:lang="en-us">
   <title><xmlelement>honorific</xmlelement></title>
-  <shortdesc>The <xmlelement>honorific</xmlelement> element contains the person's title, such as:
-    Dr., Mr., Ms., or HRH.</shortdesc>
+  <shortdesc>The <xmlelement>honorific</xmlelement> element contains the person's title, such as
+    Dr., Mr., or Ms.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

@@ -22,7 +22,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
@@ -32,7 +32,6 @@
  &lt;uicontrol&gt;Start&lt;/uicontrol&gt;
  &lt;uicontrol&gt;<b>&lt;shortcut&gt;</b>P<b>&lt;/shortcut&gt;</b>rograms&lt;/uicontrol&gt;
 &lt;/menucascade&gt;</codeblock>
-      <!--<p>May produce output similar to the following: <menucascade><uicontrol>Start</uicontrol><uicontrol><shortcut>P</shortcut>rograms</uicontrol></menucascade></p>-->
     </example>
   </refbody>
 </reference>

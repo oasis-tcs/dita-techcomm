@@ -24,13 +24,13 @@ itself.</p>
     </section>
 <section id="rendering-expectations">
 <title>Rendering expectations</title>
-<p>The note will appear at the bottom of the syntax diagram instead of at the bottom of the
-page.</p>
+<p>The note typically appears at the bottom of the syntax diagram instead of at the bottom of the
+        page.</p>
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>synnote</xmlelement> is specialized from <xmlelement>fn</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
+<p>The <xmlelement>synnote</xmlelement> element is specialized from <xmlelement>fn</xmlelement>. It
+        is defined in the syntax diagram domain module, which is a specialization of the programming
         domain module.</p>
 </section>
     <section id="attributes">
@@ -38,7 +38,24 @@ page.</p>
       <sectiondiv conkeyref="reuse-attributes/fn-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;groupcomp&gt;&lt;var&gt;one&lt;/var&gt;&lt;var&gt;two&lt;/var&gt;&lt;var&gt;three&lt;/var&gt;&lt;/groupcomp&gt;
-<b>&lt;synnote&gt;</b>My first syntax note.<b>&lt;/synnote&gt;</b></codeblock></example>
+      <p>In the following code sample, a syntax note reminds the reader where to find information
+        for a required user ID parameter.</p>
+      <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
+  &lt;title>Validate account setup&lt;/title>
+  &lt;groupseq>
+    &lt;kwd>clicmd&lt;/kwd>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>
+      &lt;kwd>user&lt;/kwd>
+      &lt;sep>=&lt;/sep>
+      &lt;var>userid&lt;/var>
+      <b>&lt;synnote></b>Your user ID can be found in your account activation email.<b>&lt;/synnote></b>
+    &lt;/groupcomp>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>
+      &lt;kwd>validate&lt;/kwd>
+    &lt;/groupcomp>
+  &lt;/groupseq>
+&lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
 </reference>

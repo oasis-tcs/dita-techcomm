@@ -4,7 +4,8 @@
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
   <shortdesc>The <xmlelement>tasktroubleshooting</xmlelement> element contains troubleshooting
     information that is designed to help users remedy the situation when a task does not complete as
-    expected.</shortdesc>
+      expected.<draft-comment author="robander" time="21 may 2021">Can we delete the word "users"
+      here but otherwise leave this unchanged?</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,6 +22,11 @@
       <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph> inside of the
           <xmlelement>tasktroubleshooting</xmlelement> element, because its meaning there would be
         ambiguous.</note>
+      <draft-comment author="robander" time="21 may 2021">I don't understand how this would be
+        ambiguous, but it does feel like it would be redundant?<p>Also, I wonder if we should
+          restore some of the commented section here, it's the first case I've seen so far where the
+          content seems to provide new information (correlating this with the result element), but
+          maybe this is not correct?</p></draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -29,7 +35,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p conkeyref="reuse-attributes/only-universal"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

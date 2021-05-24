@@ -19,7 +19,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
-          <xmlelement>note</xmlelement>; it is defined in the glossary entry module.</p>
+          <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">

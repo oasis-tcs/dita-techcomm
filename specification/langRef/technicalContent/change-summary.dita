@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-summary" xml:lang="en-us">
   <title><xmlelement>change-summary</xmlelement></title>
-  <shortdesc>Use the <xmlelement>change-summary</xmlelement> element to summarize the
+  <shortdesc>The <xmlelement>change-summary</xmlelement> element summarizes the details of a
     change.</shortdesc>
   <prolog>
     <metadata>
@@ -27,6 +27,6 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

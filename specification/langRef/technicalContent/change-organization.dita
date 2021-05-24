@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-organization" xml:lang="en-us">
   <title><xmlelement>change-organization</xmlelement></title>
-  <shortdesc>Use the <xmlelement>change-organization</xmlelement> element to specify the name of an
-    organization that required the change.</shortdesc>
+  <shortdesc>The <xmlelement>change-organization</xmlelement> element specifies the name of the
+    organization that required a change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,6 +23,6 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

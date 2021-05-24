@@ -4,7 +4,7 @@
 <title><xmlelement>step</xmlelement></title>
 <shortdesc>The <xmlelement>step</xmlelement> element contains a step. A step represents an action
     that a user can take to complete a task. It also can contain additional information about the
-    step, such as an example, result, or trouble shooting guidance.</shortdesc>
+    step, such as an example, result, or troubleshooting guidance.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>step</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>step</xmlelement></indexterm></indexterm>
 </keywords>
@@ -18,10 +18,10 @@
 </section>
 <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-        /> (with a narrowed definition of <xmlatt>importance</xmlatt>, given below).</p>
-      <p>For this element, the <xmlatt>importance</xmlatt> attribute is limited to the values
-          <keyword>optional</keyword>, <keyword>required</keyword>, or <xref
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p id="attr-exception">For this element, the <xmlatt>importance</xmlatt> attribute is limited
+        to the values <keyword>optional</keyword>, <keyword>required</keyword>, or <xref
           keyref="attributes-useconreftarget">-dita-use-conref-target</xref>.</p>
     </section>
 <example id="example" otherprops="examples">

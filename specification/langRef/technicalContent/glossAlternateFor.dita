@@ -4,7 +4,10 @@
 <reference id="glossAlternateFor" xml:lang="en-us">
 <title><xmlelement>glossAlternateFor</xmlelement></title>
 <shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates when a variant term has
-  a relationship to another variant term in addition to the preferred term.</shortdesc>
+    a relationship to another variant term in addition to the preferred term.<draft-comment
+      author="robander" time="20 may 2021">Does it "indicate when a variant term has a relationship"
+      or does it specify that there is a relationship with a specific other
+    term?</draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossAlternateFor</xmlelement></indexterm>
     <indexterm>glossaries<indexterm>variant terms</indexterm></indexterm>
@@ -12,37 +15,36 @@
      elements<indexterm><xmlelement>glossAlternateFor</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information"><title>Usage information</title>The
-        <xmlelement>glossAlternateFor</xmlelement> element is available inside the
-        <xmlelement>glossAlt</xmlelement> element, which is a container that provides a variant for
-      the primary <xmlelement>glossentry</xmlelement> term. In some cases, the variant
-        <ph>might</ph> also be an alternate for another term. In the example below, the abbreviation
-      "stick" is a variant of the primary term (USB flash drive). The
-        <xmlelement>glossAlternateFor</xmlelement> element indicates that "stick" is also a variant
-      of the synonym "memory stick".</section>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>The <xmlelement>glossAlternateFor</xmlelement> element is available inside the
+          <xmlelement>glossAlt</xmlelement> element, which is a container that provides a variant
+        for the primary <xmlelement>glossentry</xmlelement> term. In some cases, the variant might
+        also be an alternate for another term. In the example below, the abbreviation "stick" is a
+        variant of the primary term (USB flash drive). The
+          <xmlelement>glossAlternateFor</xmlelement> element indicates that "stick" is also a
+        variant of the synonym "memory stick".</p>
+      <draft-comment author="robander" time="20 may 2021">There is a dependency here between the
+        usage description and an example that is not actaully given in this topic; that seems risky
+        and we should probably move or reuse the example here.</draft-comment>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossAlternateFor</xmlelement> element is specialized from
-          <xmlelement>xref</xmlelement>; it is defined in the glossary entry module.</p>
+          <xmlelement>xref</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
-        conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-          conkeyref="reuse-attributes/ref-linkatts"/> (with a narrowed definition of
-          <xmlatt>href</xmlatt>, given below), and <xref
-            keyref="attributes-common/attr-keyref"
-          ><xmlatt>keyref</xmlatt></xref>.<dl>
-          <dlentry>
-            <dt><xmlatt>href</xmlatt></dt>
-            <dd>References a term for which the current variant is an alternate (in addition to the
-              primary term of this <xmlelement>glossentry</xmlelement> topic). The reference will
-              often be to another <xmlelement>glossAlt</xmlelement> element within the same
-                <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
-              alternate for both the primary term and the referenced alternate term. See <xref
-                keyref="attributes-common/attr-href"/> for details on syntax.</dd>
-          </dlentry>
-        </dl></p>
+          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+          conkeyref="reuse-attributes/ref-linkatts"/>, and <xref
+          keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element, the <xmlatt>href</xmlatt> attribute references a term
+        for which the current variant is an alternate (in addition to the primary term of this
+          <xmlelement>glossentry</xmlelement> topic). The reference will often be to another
+          <xmlelement>glossAlt</xmlelement> element within the same
+          <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
+        alternate for both the primary term and the referenced alternate term.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="groupchoice" xml:lang="en-us">
   <title><xmlelement>groupchoice</xmlelement></title>
-  <shortdesc>The <xmlelement>groupchoice</xmlelement> element is part of the subset of elements that
-    define syntax diagrams in DITA.</shortdesc>
+  <shortdesc>The <xmlelement>groupchoice</xmlelement> element provides a set of choices for how to
+    proceed through a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,9 +16,9 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A group is a logical set of pieces of syntax that go together. A group choice specifies
-        that the user must make a choice about which part of the syntax to use. Groups are often
-        nested.</p>
+      <p>Each syntax group is a logical set of pieces of syntax that go together. A group choice
+        specifies that the user must make a choice about which part of the syntax to use. Groups are
+        often nested.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -31,13 +31,19 @@
       <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
- &lt;title&gt;CopyFile&lt;/title&gt;
- &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
- &lt;groupcomp&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
- &lt;groupseq&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
- <b>&lt;groupchoice&gt;</b>&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;<b>&lt;/groupchoice&gt;</b>
- <b>&lt;groupchoice&gt;</b>&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;<b>&lt;/groupchoice&gt;</b>
-&lt;/syntaxdiagram&gt;</codeblock></example>
+      <p>In the following code sample, the diagram presents a choice of two alternate ways to
+        specify an input file name to a command line program.</p>
+      <codeblock>&lt;syntaxdiagram&gt;
+ &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+ &lt;groupseq&gt;
+  &lt;kwd&gt;runprogram&lt;/kwd&gt;
+  <b>&lt;groupchoice></b>
+    &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+  <b>&lt;/groupchoice&gt;</b>
+ &lt;/groupseq>
+&lt;/syntaxdiagram>
+</codeblock>
+    </example>
   </refbody>
 </reference>

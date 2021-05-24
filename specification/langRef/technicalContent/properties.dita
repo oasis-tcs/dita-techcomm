@@ -26,8 +26,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>properties</xmlelement> element is specialized from the
-          <xmlelement>simpletable</xmlelement> element in the topic module.</p>
+      <p>The <xmlelement>properties</xmlelement> element is specialized from
+          <xmlelement>simpletable</xmlelement>. It is defined in the reference module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-person" xml:lang="en-us">
   <title><xmlelement>change-person</xmlelement></title>
-  <shortdesc>Use the <xmlelement>change-person</xmlelement> element to specify the name of the
-    person who made the change.</shortdesc>
+  <shortdesc>The <xmlelement>change-person</xmlelement> element to specifies the name of the person
+    who made a change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,6 +23,6 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="conref-examples/release-management" id="example" otherprops="examples"/>
+    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

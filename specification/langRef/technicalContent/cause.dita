@@ -3,6 +3,8 @@
  "reference.dtd">
 <reference id="cause" xml:lang="en-us">
   <title><xmlelement>cause</xmlelement></title>
+  <shortdesc>The <xmlelement>cause</xmlelement> element describes a potential source of the problem
+    that is described in the troubleshooting topic.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,15 +24,15 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>cause</xmlelement> element is specialized from
-          <xmlelement>section</xmlelement>; it is defined in the troubleshooting module.</p>
+          <xmlelement>section</xmlelement>. It is defined in the troubleshooting module.</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="reuse-attributes/universal-spectitle"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>See <xref href="troubleshooting.dita"/>.</p>
     </example>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="reuse-attributes/universal-spectitle"/>
-    </section>
   </refbody>
 </reference>

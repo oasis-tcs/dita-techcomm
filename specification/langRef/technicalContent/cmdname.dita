@@ -23,12 +23,12 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>cmdname</xmlelement> element identifies the
         name of the <cmdname>rm</cmdname> command.</p>
-      <codeblock>&lt;p>Use the &lt;cmdname>rm&lt;/cmdname> command to permanently delete an object.&lt;/p></codeblock></example>
+      <codeblock>&lt;p>Use the <b>&lt;cmdname>rm&lt;/cmdname></b> command to permanently delete an object.&lt;/p></codeblock></example>
   </refbody>
 </reference>

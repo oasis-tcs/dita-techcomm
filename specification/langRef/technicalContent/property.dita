@@ -19,8 +19,8 @@
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
-         <p>The <xmlelement>property</xmlelement> element is specialized from the
-               <xmlelement>strow</xmlelement> element in the topic module.</p>
+         <p>The <xmlelement>property</xmlelement> element is specialized from
+               <xmlelement>strow</xmlelement>. It is defined in the reference module.</p>
       </section>
       <section id="attributes">
          <title>Attributes</title>

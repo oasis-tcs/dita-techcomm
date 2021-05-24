@@ -16,9 +16,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><!--The <xmlelement>xmlelement</xmlelement> element enables more precise semantic searching of the DITA source; it also enables distinct formatting, such as surrounding the name of the element with angle brackets.-->The
-        content of the <xmlelement>xmlelement</xmlelement> element should be the element type name
-        without leading or trailing angle brackets.</p>
+      <p>The content of the <xmlelement>xmlelement</xmlelement> element should be the element type
+        name without leading or trailing angle brackets.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -29,7 +28,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

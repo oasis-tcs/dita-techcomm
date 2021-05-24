@@ -5,7 +5,7 @@
   <title><xmlelement>conbodydiv</xmlelement></title>
   <shortdesc>The <xmlelement>conbodydiv</xmlelement> element is similar to the
       <xmlelement>bodydiv</xmlelement> element in that it provides an informal container for content
-    that <ph>might</ph> be grouped within a concept. </shortdesc>
+    that might be grouped within a concept. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -31,7 +31,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>conbodydiv</xmlelement> element is specialized from
-          <xmlelement>bodydiv</xmlelement>; it is defined in the concept module.</p>
+          <xmlelement>bodydiv</xmlelement>. It is defined in the concept module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -40,8 +40,8 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>One common use case for the <xmlelement>conbodydiv</xmlelement> element is to group a
-        sequence of sections for reuse, so that another concept <ph>can</ph> reference the entire
-        set with a single <xmlatt>conref</xmlatt> attribute.</p>
+        sequence of sections for reuse, so that another concept can reference the entire set with a
+        single <xmlatt>conref</xmlatt> attribute.</p>
       <codeblock>&lt;concept id="sample" xml:lang="en">
  &lt;title>Conbodydiv example&lt;/title>
  &lt;shortdesc>This concept is a sample of how to

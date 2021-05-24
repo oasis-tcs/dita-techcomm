@@ -18,9 +18,9 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>syntaxdiagram</xmlelement> is specialized from
-        <xmlelement>fig</xmlelement>. It is defined in the syntax diagram domain module, which is a
-        specialization of the programming domain module.</p>
+      <p>The <xmlelement>syntaxdiagram</xmlelement> element is specialized from
+          <xmlelement>fig</xmlelement>. It is defined in the syntax diagram domain module, which is
+        a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -29,14 +29,18 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, ...</p>
+      <p>In the following code sample, a <xmlelement>syntaxdiagram</xmlelement> is used to
+        illustrate the syntax of a basic file-copy command. The initial <codeph>COPYF</codeph>
+        command is followed by the input directory and file name. The input is followed by a choice
+        of either an output directory (and optional file name) or a file name.</p>
       <codeblock>&lt;syntaxdiagram&gt;
   &lt;title&gt;CopyFile&lt;/title&gt;
   &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
-  &lt;groupcomp&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
-  &lt;groupseq&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
-  &lt;groupchoice&gt; &lt;var&gt;input-filename&lt;/var&gt; &lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
-  &lt;groupchoice&gt; &lt;var&gt;output-filename&lt;/var&gt; &lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
+  &lt;groupcomp&gt;&lt;var&gt;input-directory&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
+  &lt;groupchoice>
+    &lt;groupcomp>&lt;var&gt;output-directory&lt;/var&gt;&lt;kwd importance="optional"&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupcomp>
+    &lt;groupcomp>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupcomp>
+  &lt;/groupchoice>
 &lt;/syntaxdiagram&gt;
 </codeblock></example>
   </refbody>

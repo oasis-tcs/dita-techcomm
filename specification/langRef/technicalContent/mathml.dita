@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="mathml">
   <title><xmlelement>mathml</xmlelement></title>
-  <shortdesc>Use the <xmlelement>mathml</xmlelement> element to contain content that contributes to
-    a semantic equation.</shortdesc>
+  <shortdesc>The <xmlelement>mathml</xmlelement> element contains MathML markup or other content
+    that contributes to a semantic equation.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -30,34 +30,29 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p conkeyref="reuse-attributes/only-universal"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, a <xmlelement>mathml</xmlelement> element contains MathML
         content:</p>
-      <codeblock>&lt;equation-block>
-        <b>&lt;mathml></b>
-        &lt;m:math xmlns:m ="http://www.w3.org/1998/Math/MathML">
-        &lt;m:semantics>
-        &lt;m:mrow>
-        &lt;m:msqrt>
-        &lt;m:mrow>
-        &lt;m:msup>
-        &lt;m:mi>a&lt;/m:mi>
-        &lt;m:mn>2&lt;/m:mn>
-        &lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>&lt;m:msup>
-        &lt;m:mi>b&lt;/m:mi>
-        &lt;m:mn>2&lt;/m:mn>
-        &lt;/m:msup>
-        &lt;/m:mrow>
-        &lt;/m:msqrt>        
-        &lt;/m:mrow>
-        &lt;/m:semantics>
-        &lt;/m:math>
-        <b>&lt;/mathml></b>
-        &lt;/equation-block></codeblock>
+      <codeblock id="codeblock_mmn_xf4_rpb">&lt;equation-block>
+  &lt;mathml>
+   &lt;m:math>
+    &lt;m:semantics>
+     &lt;m:mrow>
+      &lt;m:msqrt>
+       &lt;m:mrow>
+        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+        &lt;m:mo>+&lt;/m:mo>
+        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+       &lt;/m:mrow>
+      &lt;/m:msqrt>        
+     &lt;/m:mrow>
+    &lt;/m:semantics>
+   &lt;/m:math>
+  &lt;/mathml>
+&lt;/equation-block></codeblock>
     </example>
   </refbody>
 </reference>

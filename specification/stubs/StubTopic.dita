@@ -59,10 +59,6 @@
           <dt>STUB CONTENT</dt>
           <dd>STUB CONTENT</dd>
         </dlentry>
-        <dlentry id="toc-default-no">
-          <dt>STUB CONTENT</dt>
-          <dd>STUB CONTENT</dd>
-        </dlentry>
       </dl>
       <p id="data-link-universal-outputclass">STUB CONTENT</p>
       <p id="fig-attributes">STUB CONTENT</p>
@@ -95,8 +91,5 @@
     <section id="dita-written-specification"><title>STUB CONTENT</title></section>
     <section id="stub-section"><title>STUB CONTENT</title></section>
     <section id="xml-grammar-files"><title>STUB CONTENT</title></section>
-    <example id="release-management">
-      <p>STUB CONTENT</p>
-    </example>
   </body>
 </topic>

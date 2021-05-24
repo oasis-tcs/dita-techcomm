@@ -4,9 +4,7 @@
 <reference id="remedy" xml:lang="en-us">
   <title><xmlelement>remedy</xmlelement></title>
   <shortdesc>The <xmlelement>remedy</xmlelement> element contains steps that are a potential
-    solution for the problem described in the <xmlelement>condition</xmlelement> element, the topic
-      <xmlelement>title</xmlelement> element, or the <xmlelement>shortdesc</xmlelement>
-      element.</shortdesc>
+    solution for the problem described in the troubleshooting topic.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +23,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>remedy</xmlelement> element is specialized from
-          <xmlelement>section</xmlelement>; it is defined in the troubleshooting module.</p>
+          <xmlelement>section</xmlelement>.  It is defined in the troubleshooting module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

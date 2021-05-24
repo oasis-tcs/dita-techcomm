@@ -29,12 +29,11 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <dl>
-        <dlentry>
-          <dt>Example source:</dt>
-          <dd><codeblock xml:space="preserve">This code example is a basic method signature:
-&lt;codeblock&gt;returnType methodName(pList1, pList2) {&lt;/codeblock&gt;
-where
+      <p>In the following code sample, a set of sample code is followed by a parameter list to
+        define those parameters.</p>
+      <codeblock xml:space="preserve" id="codeblock_rcl_rl4_rpb">&lt;p>This code example is a basic method signature:
+&lt;codeblock&gt;returnType methodName(pList1, pList2) {&lt;/codeblock&gt;&lt;/p>
+&lt;p>The method requires two parameters:
 &lt;parml&gt;
  &lt;plentry&gt;
   &lt;pt&gt;pList1&lt;/pt&gt;
@@ -44,23 +43,25 @@ where
   &lt;pt&gt;pList2&lt;/pt&gt;
   &lt;pd&gt;is the second variable declaration passed to methodName&lt;/pd&gt;
  &lt;/plentry&gt;
-&lt;/parml&gt;</codeblock></dd>
-        </dlentry>
-        <dlentry>
-          <dt>Example output:</dt>
-          <dd>
-            <p>This code example is a basic method signature:<codeblock xml:space="preserve">returnType methodName(pList1, pList2) {</codeblock>where<parml>
-                <plentry>
-                  <pt>pList1</pt>
-                  <pd>is the first variable declaration passed to methodName</pd>
-                </plentry>
-                <plentry>
-                  <pt>pList2</pt>
-                  <pd>is the second variable declaration passed to methodName</pd>
-                </plentry>
-              </parml></p>
-          </dd>
-        </dlentry>
-      </dl></example>
+&lt;/parml&gt;&lt;/p></codeblock>
+      <p>The rendered version of that sample might look like:</p>
+      <p>This code example is a basic method
+        signature:<codeblock xml:space="preserve" id="codeblock_vks_xl4_rpb">returnType methodName(pList1, pList2) {</codeblock></p>
+      <p>The method requires two parameters:<parml>
+          <plentry>
+            <pt>pList1</pt>
+            <pd>is the first variable declaration passed to methodName</pd>
+          </plentry>
+          <plentry>
+            <pt>pList2</pt>
+            <pd>is the second variable declaration passed to methodName</pd>
+          </plentry>
+        </parml></p>
+      <draft-comment author="robander" time="21 May 2021">I am nervous about example output that
+        simply uses the element; anyone republishing the spec with a broken tool can see broken
+        output, and assume it is valid because the spec source says "it might look like this". I'm
+        not sure the sample output is needed at all here, or it could be described in
+        prose.</draft-comment>
+    </example>
   </refbody>
 </reference>

@@ -32,11 +32,12 @@
     <section id="attributes">
       <title>Attributes</title>
       <p id="xref-attributes">The following attributes are available on this element: <ph
-conkeyref="reuse-attributes/ref-universalatts"/>, <xref keyref="attributes-common/encoding"
-><xmlatt>encoding</xmlatt></xref>, <xref keyref="attributes-common/parse"
-><xmlatt>parse</xmlatt></xref> (with a default value of "text"), <ph
-  conkeyref="reuse-attributes/ref-linkatts"/>, and <xref keyref="attributes-common/attr-keyref"
-><xmlatt>keyref</xmlatt></xref>.</p>
+          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
+          conkeyref="reuse-attributes/ref-inclusionatts"/>, <ph
+          conkeyref="reuse-attributes/ref-linkatts"/>, and <xref
+          keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element, the <xmlatt>parse</xmlatt> attribute has a default
+        value of <keyword>text</keyword>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

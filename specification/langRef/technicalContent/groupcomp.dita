@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="groupcomp" xml:lang="en-us">
   <title><xmlelement>groupcomp</xmlelement></title>
-  <shortdesc>The <xmlelement>groupcomp</xmlelement> element is part of the subset of elements that
-    define syntax diagrams in DITA.</shortdesc>
+  <shortdesc>The <xmlelement>groupcomp</xmlelement> element is a set of syntax that makes up a
+    single unit and is usually rendered as a single unit.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,28 +19,36 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A group is a logical set of pieces of syntax that go together. The group composite means
-that the items that make up the syntax diagram will be formatted close together rather than being
-separated by a horizontal or vertical line, which is the usual formatting method.</p>
+      <p>Each syntax group is a logical set of pieces of syntax that go together. The group
+        composite means that the items that make up the syntax diagram will be rendered close
+        together rather than being separated by a horizontal or vertical line, which is the usual
+        formatting method.</p>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>groupcomp</xmlelement> is specialized from <xmlelement>figgroup</xmlelement>.  It
-        is defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+<p>The <xmlelement>groupcomp</xmlelement> element is specialized from
+          <xmlelement>figgroup</xmlelement>. It is defined in the syntax diagram domain module,
+        which is a specialization of the programming domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
- &lt;title&gt;CopyFile&lt;/title&gt;
- &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
- <b>&lt;groupcomp&gt;</b>&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;<b>&lt;/groupcomp&gt;</b>
- &lt;groupseq&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
- &lt;groupchoice&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
- &lt;groupchoice&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
-&lt;/syntaxdiagram&gt;</codeblock></example>
+      <p>In the following code sample, two composite groups represent two alternate ways to specify
+        an input file to a command line program: either <codeph>-i:program-name.py</codeph> or
+          <codeph>--input=program-name.ph</codeph>.</p>
+      <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
+ &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+ &lt;groupseq&gt;
+  &lt;kwd&gt;runprogram&lt;/kwd&gt;
+  &lt;groupchoice>
+    <b>&lt;groupcomp></b>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var><b>&lt;/groupcomp></b>
+    <b>&lt;groupcomp></b>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var><b>&lt;/groupcomp></b>
+  &lt;/groupchoice&gt;
+ &lt;/groupseq>
+&lt;/syntaxdiagram>
+</codeblock>
+    </example>
   </refbody>
 </reference>

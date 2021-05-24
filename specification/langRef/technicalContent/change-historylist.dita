@@ -2,9 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us">
   <title><xmlelement>change-historylist</xmlelement></title>
-  <shortdesc>Use the <xmlelement>change-historylist</xmlelement> element as a container for
-    individual release notes, as represented by the <xmlelement>change-item</xmlelement>
-    element.</shortdesc>
+  <shortdesc>The <xmlelement>change-historylist</xmlelement> element contains individual release
+    notes, as represented by the <xmlelement>change-item</xmlelement> element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,8 +16,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element appears in the topic prolog or the map <xmlelement>topicmeta</xmlelement>
-        element.</p>
+      <p>This element appears in the topic <xmlelement>prolog</xmlelement> or the map
+          <xmlelement>topicmeta</xmlelement> element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -35,30 +34,36 @@
       <p>This example shows three simple release notes added to a single topic. This topic is used
         in documentation for two products, A and B.</p>
       <codeblock>&lt;prolog>
-        &lt;!-- ... -->
-        &lt;change-historylist>
-        &lt;change-item product="productA productB">
-        &lt;change-person>Tom Cihak&lt;/change-person>
-        &lt;change-organization>JEDEC&lt;/change-organization>
-        &lt;change-completed>2019-03-23&lt;/change-completed>
-        &lt;change-summary>Made change 1 to both products&lt;/change-summary>
-        &lt;data>Details of change 1&lt;/data>
-        &lt;/change-item>
-        &lt;change-item product="productA">
-        &lt;change-person>Tom Cihak&lt;/change-person>
-        &lt;change-completed>2019-06-07&lt;/change-completed>
-        &lt;change-summary>Made change 2 to product A&lt;/change-summary>
-        &lt;data>Details of change 2&lt;/data>
-        &lt;/change-item>
-        &lt;change-item product="productA productB">
-        &lt;change-person>Tom Cihak&lt;/change-person>
-        &lt;change-completed>2019-07-20&lt;/change-completed>
-        &lt;change-summary>Made change 3 to both products&lt;/change-summary>
-        &lt;data>Details of change 3&lt;/data>
-        &lt;/change-item>
-        &lt;/change-historylist>
-        &lt;!-- ... -->
-        &lt;/prolog></codeblock>
+  &lt;!-- ... -->
+  &lt;change-historylist>
+    &lt;change-item product="productA productB">
+      &lt;change-person>Tom Cihak&lt;/change-person>
+      &lt;change-organization>JEDEC&lt;/change-organization>
+      &lt;change-started>2019-01-15&lt;/change-started>
+      &lt;change-completed>2019-03-23&lt;/change-completed>
+      &lt;change-summary>Made change 1 to both products&lt;/change-summary>
+      &lt;data>Details of change 1&lt;/data>
+    &lt;/change-item>
+    &lt;change-item product="productA">
+      &lt;change-person>Tom Cihak&lt;/change-person>
+      &lt;change-completed>2019-06-07&lt;/change-completed>
+      &lt;change-summary>Made change 2 to product A&lt;/change-summary>
+      &lt;data>Details of change 2&lt;/data>
+    &lt;/change-item>
+    &lt;change-item product="productA productB">
+      &lt;change-person>Tom Cihak&lt;/change-person>
+      &lt;change-revisionid>r23.4&lt;/change-revisionid>
+      &lt;change-request-reference>
+        &lt;change-request-system>example.com/my/queue/&lt;/change-request-system>
+        &lt;change-request-id>TCKT-1313&lt;/change-request-id>
+      &lt;/change-request-reference>
+      &lt;change-completed>2019-07-20&lt;/change-completed>
+      &lt;change-summary>Made change 3 to both products&lt;/change-summary>
+      &lt;data>Details of change 3&lt;/data>
+    &lt;/change-item>
+  &lt;/change-historylist>
+  &lt;!-- ... -->
+&lt;/prolog></codeblock>
     </example>
   </refbody>
 </reference>

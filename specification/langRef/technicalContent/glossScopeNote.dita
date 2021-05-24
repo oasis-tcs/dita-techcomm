@@ -6,8 +6,10 @@
   <shortdesc>The <xmlelement>glossScopeNote</xmlelement> element contains a clarification of the
     subject that is designated by the <xmlelement>glossterm</xmlelement>, such as examples of
     included or excluded companies or products. For instance, a scope note for "Linux" might explain
-    that the term doe not apply to UNIX products; it might give examples of Linux products that are
-    included as well as UNIX products that are excluded.</shortdesc>
+    that the term does not apply to UNIX products; it might give examples of Linux products that are
+    included as well as UNIX products that are excluded.<draft-comment author="robander"
+      time="20 may 2021">I think we really need to clarify "the subject that is designated by the
+      glossterm"</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,13 +21,11 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-    </section>
+    <!--<section id="usage-information"><title>Usage information</title></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossScopeNote</xmlelement> element is specialized from
-          <xmlelement>note</xmlelement>; it is defined in the glossary entry module.</p>
+          <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">

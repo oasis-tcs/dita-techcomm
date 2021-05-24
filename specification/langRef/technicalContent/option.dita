@@ -25,14 +25,16 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <draft-comment author="Kristen J Eberlein" time="25 August 2019">
-        <p>We need to replace the current example; it sucks.</p>
-      </draft-comment>
-      <p>In the following code sample, ...</p>
-      <codeblock>something &lt;option&gt;/modifier&lt;/option&gt;</codeblock></example>
+      <p>In the following code sample, command line options for a tool are defined in a list.</p>
+      <codeblock>&lt;p>The most common command line options include:
+ &lt;ul>
+  &lt;li>&lt;option>-compress&lt;/option> will generate data in compressed form.&lt;/li>
+  &lt;li>&lt;option>-debug&lt;/option> will generate debug information while running.&lt;/li>
+  &lt;li>&lt;option>-help&lt;/option> will print extended help information.&lt;/li>
+ &lt;/ul>&lt;/p></codeblock></example>
   </refbody>
 </reference>

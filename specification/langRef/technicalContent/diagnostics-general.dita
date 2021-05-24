@@ -3,9 +3,9 @@
 <reference xml:lang="en-us" id="diagnostics-general">
     <title><xmlelement>diagnostics-general</xmlelement></title>
     <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element includes non-procedural
-        information that can help determine which of multiple cause-remedy pairs apply to a specific
-        situation. Results of the diagnostics may link to the specific cause-remedy section that
-        applies to each result. </shortdesc>
+    information that can help determine which of multiple cause-remedy pairs apply to a specific
+    situation. Results of the diagnostics might link to the specific cause-remedy section that
+    applies to each result. </shortdesc>
     <prolog>
     <metadata>
       <keywords>

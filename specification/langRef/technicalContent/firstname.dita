@@ -3,7 +3,12 @@
  "reference.dtd">
 <reference id="firstname" xml:lang="en-us">
   <title><xmlelement>firstname</xmlelement></title>
-  <shortdesc>The <xmlelement>firstname</xmlelement> element contains the person's first name.</shortdesc>
+  <shortdesc>The <xmlelement>firstname</xmlelement> element contains the person's first
+      name.<draft-comment author="robander" time="24 May 2021">Question about all of these … should
+      it be "the person" or "a person"? "The person" only seems to make sense if we are already
+      talking about a person, but the short description for this element does not have that context.
+      It seems like when defining the element on its own, it should be "a
+    person".</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>

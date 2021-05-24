@@ -4,22 +4,13 @@
 <reference id="glossBody" xml:lang="en-us">
 <title><xmlelement>glossBody</xmlelement></title>
 <shortdesc>The <xmlelement>glossBody</xmlelement> element is used to provide details about a
-glossary term (such as part of speech or additional forms of the term).</shortdesc>
+      glossary term, such as part of speech or additional forms of the term.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossBody</xmlelement></indexterm>
             <indexterm>glossentry
                elements<indexterm><xmlelement>glossBody</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-      </section>
-      <section id="formatting-expectations">
-         <title>Formatting expectations</title>
-      </section>
-      <section id="processing-expectations">
-         <title>Processing expectations</title>
-      </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>glossBody</xmlelement> element is specialized from

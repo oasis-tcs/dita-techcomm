@@ -17,12 +17,14 @@
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>addressdetails</xmlelement> is specialized from
-        <xmlelement>ph</xmlelement>. It is defined in the XNAL domain.</p></section>
+        <xmlelement>ph</xmlelement>. It is defined in the XNAL domain module.</p></section>
     <section id="attributes"><title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
+      <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples"
-      ><title>Example</title><codeblock> &lt;personinfo&gt;
+      ><title>Example</title>
+      <draft-comment author="robander" time="24 May 2021">Can this and most of the XNAL examples
+        just be a link to authorinformation?</draft-comment><codeblock> &lt;personinfo&gt;
   &lt;namedetails&gt;&lt;personname&gt;
     &lt;firstname&gt;Derek&lt;/firstname&gt;
     &lt;middlename&gt;L.&lt;/middlename&gt;
