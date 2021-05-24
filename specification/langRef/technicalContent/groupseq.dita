@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="groupseq" xml:lang="en-us">
   <title><xmlelement>groupseq</xmlelement></title>
-  <shortdesc>The <xmlelement>groupseq</xmlelement> element is part of the subset of elements that
-    define syntax diagrams in DITA.</shortdesc>
+  <shortdesc>The <xmlelement>groupseq</xmlelement> element is a set of command syntax that is done
+    in a specific sequence sequence.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +17,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A group is a logical set of pieces of syntax that go together. Within the syntax
+      <p>Each syntax group is a logical set of pieces of syntax that go together. Within the syntax
         definition, groups of keywords, delimiters and other syntax units act as a combined unit,
         and they occur in a specific sequence, as delimited by the <xmlelement>groupseq</xmlelement>
         element. </p>
@@ -33,14 +33,19 @@
       <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample</p>
-      <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
- &lt;title&gt;CopyFile&lt;/title&gt;
- <b>&lt;groupseq&gt;</b>&lt;kwd&gt;COPYF&lt;/kwd&gt;<b>&lt;/groupseq&gt;</b>
- &lt;groupcomp&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
- <b>&lt;groupseq&gt;</b>&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;<b>&lt;/groupseq&gt;</b>
- &lt;groupchoice&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
- &lt;groupchoice&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
-&lt;/syntaxdiagram&gt;</codeblock></example>
+      <p>In the following code sample, a short set of command line syntax is specified in a
+        sequential order: the <codeph>runprogram</codeph> tool name, followed by a choice of how to
+        specify an input file.</p>
+      <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
+ &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+ <b>&lt;groupseq&gt;</b>
+  &lt;kwd&gt;runprogram&lt;/kwd&gt;
+  &lt;groupchoice>
+    &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+  &lt;/groupchoice&gt;
+ <b>&lt;/groupseq></b>
+&lt;/syntaxdiagram>
+</codeblock></example>
   </refbody>
 </reference>

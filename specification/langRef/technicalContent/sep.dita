@@ -21,21 +21,32 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>sep</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+      <p>The <xmlelement>sep</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
+        It is defined in the syntax diagram domain module, which is a specialization of the
+        programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>sep</xmlelement> element</p>
-      <codeblock>&lt;syntaxdiagram&gt;
- &lt;title&gt;Adding&lt;/title&gt;
- &lt;groupseq&gt;&lt;kwd&gt;1&lt;/kwd&gt;&lt;oper&gt;+&lt;/oper&gt;<b>&lt;sep&gt;</b>(<b>&lt;/sep&gt;</b>&lt;var&gt;two&lt;/var&gt;<b>&lt;sep&gt;</b>)<b>&lt;/sep&gt;</b>
-&lt;delim&gt;=&lt;/delim&gt;&lt;kwd&gt;something&lt;/kwd&gt;&lt;/groupseq&gt;
-&lt;/syntaxdiagram&gt; 
-</codeblock></example>
+      <p>In the following code sample, the <xmlelement>sep</xmlelement> element is used to separate
+        a parameter name from a parameter value.</p>
+      <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
+  &lt;title>Validate account setup&lt;/title>
+  &lt;groupseq>
+    &lt;kwd>clicmd&lt;/kwd>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>
+      &lt;kwd>user&lt;/kwd>
+      <b>&lt;sep></b>=<b>&lt;/sep></b>
+      &lt;var>userid&lt;/var>
+    &lt;/groupcomp>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>
+      &lt;kwd>validate&lt;/kwd>
+    &lt;/groupcomp>
+  &lt;/groupseq>
+&lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
 </reference>

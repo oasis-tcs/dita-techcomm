@@ -18,9 +18,9 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>var</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+      <p>The <xmlelement>var</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
+        It is defined in the syntax diagram domain module, which is a specialization of the
+        programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -34,8 +34,6 @@
  &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
  &lt;groupcomp&gt;<b>&lt;var&gt;</b>input-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
  &lt;groupseq&gt;<b>&lt;var&gt;</b>output-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
- &lt;groupchoice&gt;<b>&lt;var&gt;</b>input-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
- &lt;groupchoice&gt;<b>&lt;var&gt;</b>output-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
 </reference>

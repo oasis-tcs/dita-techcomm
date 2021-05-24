@@ -18,47 +18,46 @@
   <refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>fragref</xmlelement> is specialized from <xmlelement>xref</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+<p>The <xmlelement>fragref</xmlelement> element is specialized from <xmlelement>xref</xmlelement>.
+        It is defined in the syntax diagram domain module, which is a specialization of the
+        programming domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
-        /> (with a narrowed definition of <xmlatt>importance</xmlatt>, given below) and the attributes defined below.</p>
-      <dl>
-        <dlentry>
-          <dt><xmlatt>href</xmlatt></dt>
-          <dd>A reference to a syntax diagram <xmlelement>fragment</xmlelement> element. The
-            referenced <xmlelement>fragment</xmlelement> must be in the same diagram as the
-            <xmlelement>fragref</xmlelement> element. See <xref keyref="attributes-common/attr-href"/> for
-            detailed information on supported values and processing
-            implications.<!--For this element, processors <ph rev="public-review-1">can</ph> assume the equivalent of <codeph>scope="local"</codeph> and <codeph>format="dita"</codeph>.--></dd>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/importance-optreq">
-          <dt/>
-          <dd/>
-        </dlentry>
-      </dl>
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/> and <xref
+          keyref="attributes-common/attr-href"><xmlatt>href</xmlatt></xref>.</p>
+      <p id="attr-exception">For this element:<ul id="ul_yvj_42j_spb">
+          <li>The <xmlatt>href</xmlatt> attribute is a reference to a syntax diagram
+              <xmlelement>fragment</xmlelement>. The referenced <xmlelement>fragment</xmlelement>
+            must be in the same diagram as the <xmlelement>fragref</xmlelement> element.</li>
+          <li>The <xmlatt>importance</xmlatt> attribute is limited to the values
+              <keyword>optional</keyword>, <keyword>required</keyword>, or
+              <keyword>-dita-use-conref-target</keyword>.</li>
+        </ul></p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-       This markup
-        example:<codeblock>&lt;syntaxdiagram frame="none"&gt;
-        &lt;title&gt;CopyFile&lt;/title&gt;
-        &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
-        &lt;groupcomp&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
-        &lt;groupseq&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
-        <b>&lt;fragref href="#syntax/overlay"&gt;&lt;/fragref&gt;</b>
-        &lt;groupchoice&gt;&lt;var&gt;input-filename&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
-        &lt;groupchoice&gt;&lt;var&gt;output-filename&lt;/var&gt;&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupchoice&gt;
-        &lt;fragment id="overlay"&gt;
-        &lt;title&gt;Overlay&lt;/title&gt;
-        &lt;groupchoice&gt;&lt;kwd&gt;*OVERLAP&lt;/kwd&gt;&lt;kwd&gt;*Prompt&lt;/kwd&gt;&lt;/groupchoice&gt;
-        &lt;/fragment&gt;
-        &lt;/syntaxdiagram&gt;
-      </codeblock><ph>might</ph>
-      produce output like the
+      <title>Example</title><p>In the following code sample, the <xmlelement>fragref</xmlelement>
+        element is used to break out a set of related logging options from the larger set of syntax.
+        The <xmlelement>fragref</xmlelement> element is part of the program sequence after an input
+        file, but the syntax for logging is defined outside of the main
+        diagram.</p><codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
+ &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+ &lt;groupseq&gt;
+  &lt;kwd&gt;runprogram&lt;/kwd&gt;
+  &lt;groupchoice>
+    &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+  &lt;/groupchoice&gt;
+  <b>&lt;fragref href="#./logging">Logging options&lt;/fragref></b>
+ &lt;/groupseq>
+ &lt;fragment id="logging">
+   &lt;title>Logging options&lt;/title>
+   &lt;groupseq importance="optional">&lt;oper>-&lt;/oper>&lt;kwd>debug&lt;/kwd>&lt;/groupseq>
+   &lt;groupseq importance="optional">&lt;oper>-&lt;/oper>&lt;kwd>verbose&lt;/kwd>&lt;/groupseq>
+ &lt;/fragment>
+&lt;/syntaxdiagram>
+</codeblock><ph>might</ph> produce output like the
       following:<pre xml:space="preserve">CopyFile
 
 &gt;&gt;-COPYF--input-filename*INFILE--output-filename--*OUTFILE------&gt;

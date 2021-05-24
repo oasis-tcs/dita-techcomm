@@ -17,14 +17,16 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A keyword is typed or output, by the user or application, exactly as specified in the
-        syntax diagram or phrase.</p>
+      <p>A <xmlelement>kwd</xmlelement> might be entered by a user typing in the syntax, or rendered
+        by an application as part of a syntax prompt. The keyword value is typed or rendered exactly
+        as specified in the syntax diagram or phrase.</p>
+      <!--<p>A keyword is typed or rendered, by the user or application, exactly as specified in the syntax diagram or phrase.</p>-->
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>kwd</xmlelement> is specialized from <xmlelement>keyword</xmlelement>. It
-        is defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+      <p>The <xmlelement>kwd</xmlelement> element is specialized from
+          <xmlelement>keyword</xmlelement>. It is defined in the syntax diagram domain module, which
+        is a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -34,13 +36,21 @@
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>kwd</xmlelement> element identifies text that
         must be provided to the application exactly as specified:</p>
-      <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
- &lt;title&gt;CopyFile&lt;/title&gt;
- &lt;groupseq&gt;<b>&lt;kwd&gt;</b>COPYF<b>&lt;/kwd&gt;</b>&lt;/groupseq&gt;
- &lt;groupcomp&gt;&lt;var&gt;input-filename&lt;/var&gt;<b>&lt;kwd&gt;</b>*INFILE<b>&lt;/kwd&gt;</b>&lt;/groupcomp&gt;
- &lt;groupseq&gt;&lt;var&gt;output-filename&lt;/var&gt;<b>&lt;kwd&gt;</b>*OUTFILE<b>&lt;/kwd&gt;</b>&lt;/groupseq&gt;
- &lt;groupchoice&gt;&lt;var&gt;input-filename&lt;/var&gt;<b>&lt;kwd&gt;</b>*INFILE<b>&lt;/kwd&gt;</b>&lt;/groupchoice&gt;
- &lt;groupchoice&gt;&lt;var&gt;output-filename&lt;/var&gt;<b>&lt;kwd&gt;</b>*OUTFILE<b>&lt;/kwd&gt;</b>&lt;/groupchoice&gt;
+      <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
+  &lt;title>Validate account setup&lt;/title>
+  &lt;groupseq>
+    <b>&lt;kwd></b>clicmd<b>&lt;/kwd></b>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>
+      <b>&lt;kwd></b>user<b>&lt;/kwd></b>
+      &lt;sep>=&lt;/sep>
+      &lt;var>userid&lt;/var>
+    &lt;/groupcomp>
+    &lt;groupcomp>
+      &lt;oper>--&lt;/oper>
+      <b>&lt;kwd></b>validate<b>&lt;/kwd></b>
+    &lt;/groupcomp>
+  &lt;/groupseq>
 &lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
 </reference>

@@ -21,9 +21,9 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>oper</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
-        defined in the syntax diagram domain module, which is a specialization of the programming
-        domain module.</p>
+      <p>The <xmlelement>oper</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
+        It is defined in the syntax diagram domain module, which is a specialization of the
+        programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -31,11 +31,15 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>oper</xmlelement> element specifies that the
-        operator is plus (+):</p>
+        operator in a math operation is plus (+):</p>
       <codeblock>&lt;syntaxdiagram&gt;
-  &lt;title&gt;Adding&lt;/title&gt;
-  &lt;groupseq&gt;&lt;kwd&gt;1&lt;/kwd&gt;<b>&lt;oper&gt;</b>+<b>&lt;/oper&gt;</b>&lt;var&gt;two&lt;/var&gt;
-&lt;delim&gt;=&lt;/delim&gt;&lt;kwd&gt;something&lt;/kwd&gt;
+  &lt;title&gt;Integer addition&lt;/title&gt;
+  &lt;groupseq&gt;
+   &lt;var&gt;integer&lt;/var&gt;
+   <b>&lt;oper&gt;</b>+<b>&lt;/oper&gt;</b>
+   &lt;var&gt;integer&lt;/var&gt;
+   &lt;delim&gt;=&lt;/delim&gt;
+   &lt;var&gt;total&lt;/var&gt;
   &lt;/groupseq&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
