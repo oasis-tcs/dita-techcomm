@@ -29,7 +29,7 @@
           <xmlelement>topic</xmlelement>. It is defined in the concept module.</p>
     </section>
     <section id="attributes">
-      <title>Attributes</title><sectiondiv
+      <title>Attributes</title><div
         conkeyref="reuse-attributes/topic-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title><draft-comment author="BobThomas">This ought to be an example of a

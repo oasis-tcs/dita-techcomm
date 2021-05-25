@@ -27,7 +27,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-tc-attributes/bookmap-frontbackmatter"/></section>
+      <div conkeyref="reuse-tc-attributes/bookmap-frontbackmatter"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>See the example in <xref href="bookmap.dita"/>.</p>

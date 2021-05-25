@@ -35,7 +35,7 @@ itself.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-attributes/fn-attributes"/></section>
+      <div conkeyref="reuse-attributes/fn-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, a syntax note reminds the reader where to find information

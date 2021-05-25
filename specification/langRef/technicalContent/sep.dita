@@ -27,7 +27,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
+      <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>sep</xmlelement> element is used to separate

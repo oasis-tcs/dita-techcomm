@@ -21,7 +21,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
+      <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>Chapter topics that include

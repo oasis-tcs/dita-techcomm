@@ -32,7 +32,7 @@
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
+      <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, two composite groups represent two alternate ways to specify

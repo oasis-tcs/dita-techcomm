@@ -30,7 +30,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-update-importance-plus-keyref"
+      <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance-plus-keyref"
       /></section>
     <example id="example" otherprops="examples">
       <title>Example</title>

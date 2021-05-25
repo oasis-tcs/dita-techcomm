@@ -28,7 +28,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-tc-attributes/syntaxelement-optreq"/></section>
+      <div conkeyref="reuse-tc-attributes/syntaxelement-optreq"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample example, a file listing can be requested for multiple volumes.
