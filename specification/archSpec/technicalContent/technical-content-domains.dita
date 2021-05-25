@@ -3,6 +3,8 @@
 <concept xml:lang="en-us" id="technical-content-domains">
  <title>Domain specializations</title>
  <shortdesc>This section contains information about the technical content domains, including a
-  general overview and more specific information about the xNAL, release management, equation, and
-  MathML domains.</shortdesc>
+    general overview and more specific information about the xNAL, release management, equation, and
+    MathML domains.<draft-comment author="robander" time="25 may 2021" audience="spec-editors"
+      >Should this be more comprehensive, and not just limited to those three or four domains? Or
+      are the others like "software" too obvious to require a topic?</draft-comment></shortdesc>
 </concept>

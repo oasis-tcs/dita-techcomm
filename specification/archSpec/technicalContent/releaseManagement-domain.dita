@@ -30,16 +30,16 @@
 			 </alt> 
 		  </image> 
 		</fig> 
-		<p>The following list provides a brief description of the element:</p> 
+		<p>The following list provides a brief description of the elements:</p> 
 		<dl> 
 		  <dlentry> 
 			 <dt><xmlelement>change-historylist</xmlelement> 
 			 </dt> 
-			 <dd>Contains <xmlelement>change-item</xmlelement> elements, each of
-				which represents a 
-				<term>release note</term>, which is information about a single
-				change 
-			 </dd> 
+			 <dd>Contains <xmlelement>change-item</xmlelement> elements, each of which represents a
+							<term>release note</term>, which is information about a single change
+							<draft-comment author="robander" time="25 may 2021">"release note" is
+							marked up in a term here, is this needed as a spec
+						term?</draft-comment></dd> 
 		  </dlentry> 
 		  <dlentry> 
 			 <dt><xmlelement>change-item</xmlelement> 
