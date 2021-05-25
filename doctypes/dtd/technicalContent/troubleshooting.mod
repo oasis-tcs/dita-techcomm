@@ -55,7 +55,6 @@
                 (%basic.block; |
                  %data.elements.incl; |
                  %foreign.unknown.incl; |
-                 %sectiondiv; |
                  %txt.incl;)*)"
 >
 <!--                    LONG NAME: Troubleshooting                 -->

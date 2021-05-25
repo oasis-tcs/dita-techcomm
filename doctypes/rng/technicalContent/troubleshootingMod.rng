@@ -85,7 +85,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
           <ref name="basic.block"/>
           <ref name="data.elements.incl"/>
           <ref name="foreign.unknown.incl"/>
-          <ref name="sectiondiv"/>
           <ref name="txt.incl"/>
         </choice>
       </zeroOrMore>
