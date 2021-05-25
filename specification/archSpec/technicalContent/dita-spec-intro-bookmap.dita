@@ -15,6 +15,9 @@
         matter, parts, chapters, and so forth. A rich set of metadata allows for recording
         information about the book, such as its authors and owners, versions, and production
         history.</p>
+      <draft-comment author="robander" audience="spec-editors" time="25 may 2021">Maybe "...used by
+        most book-oriented DTDs" ==> "...used by most technical content books" or even "...used by
+        most books"?</draft-comment>
     </section>
     <section id="structure">
       <title>The structure of the bookmap specialization</title>
@@ -23,15 +26,19 @@
         restrict the bookmap model.</p>
       <p>A bookmap allows the following parts:</p>
       <ul>
-        <li>An initial title or booktitle (booktitle has more semantics)</li>
+        <li>An initial title or booktitle (booktitle has more semantics)<draft-comment
+            author="robander" audience="spec-editors" time="25 may 2021">I seem to remember a
+            comment on previous specs that "semantics" is invalid like this, should be "semantic
+            elements"?</draft-comment></li>
         <li>Book metadata (publisher, author, copyright holders and dates, etc.)</li>
+        <li>A container for resources such as key definitions</li>
         <li>Front matter (placement for Table of Contents and other preliminary information) </li>
         <li>Any number of chapters or parts (parts can group chapters, chapters can group
           topics)</li>
         <li>An appendices section (similar to a part or a chapter, can group multiple
           appendices)</li>
         <li>Back matter (similar to front matter, notices, glossary, index, etc.)</li>
-        <li>Relationship table</li>
+        <li>Relationship tables</li>
       </ul>
       <p>In book-oriented XML grammars, authors typically manage content structures as external
         entities, separate from the body of the book and referenced as embedded elements into the
@@ -42,6 +49,13 @@
     <example id="example" otherprops="examples">
       <p>Here is an example of a simple bookmap. It uses several mechanisms to include chapter
         content:</p>
+      <draft-comment author="robander" audience="spec-editors" time="25 may 2021">
+        <ul id="ul_vct_4hq_spb">
+          <li>should this example have a title?</li>
+          <li>Should it mirror the lang ref samples and begin with "In the following code sample, …"
+            or is the "Here is an example" approach desired here?</li>
+        </ul>
+      </draft-comment>
       <ul>
         <li>Referencing a DITA map</li>
         <li>Referencing a DITA topic</li>
@@ -76,7 +90,6 @@
   &lt;appendix href="task_appendix.dita"/>
   &lt;/bookmap></codeblock>
     </example>
-    <!--<section><title>Modules</title><p>The following DITA modules are provided for the bookmap specialization.</p><sl><sli><filepath>bookmap.dtd</filepath>, <filepath>bookmap.ent</filepath>, <filepath>bookmap.mod</filepath> (DTD)</sli><sli><filepath>bookmap.xsd,</filepath> <filepath>bookmapGrp.xsd</filepath>, <filepath>bookmapMod.xsd</filepath> (Schema)</sli><sli rev="DITA1.3 proposal-13112"><filepath>bookmap.rng</filepath>, <filepath>bookmapMod.rng</filepath> (RELAX NG XML syntax)</sli><sli rev="DITA1.3 proposal-13112"><filepath>bookmap.rnc</filepath>, <filepath>bookmapMod.rnc</filepath> (RELAX NG compact syntax)</sli></sl></section>-->
   </conbody>
 </concept>
 

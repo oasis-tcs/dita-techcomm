@@ -8,7 +8,22 @@
 		can facilitate the migration of legacy content that does not follow the strict-task topic
 		model. The general-task document type serves as the base for the strict-task and
 		machine-industry-task document types. It also can be used to create new document types or
-		specializations.</shortdesc>
+			specializations.<draft-comment author="robander" audience="spec-editors"
+			time="25 may 2021">Should work on a new version of this shortdesc:<ul
+				id="ul_jlf_3pq_spb">
+				<li>I don't think we care anymore when it was introduced? DITA 2.0 is a fresh
+					start</li>
+				<li>All of the short descs in this section seem to be kind of long but this seems …
+					quite long</li>
+				<li>Maybe we should leave the "some organizations prefer" to the concept body
+					here?</li>
+				<li>I assume we want to remove mention of the machine-industry-task even if the TC
+					is going to post a version of it somewhere in github</li>
+			</ul><p>Might be heresy, but given that both strict task and general task are tasks,
+				might it be better to have one topic on the specailziation itself, with the
+				distinction described in a section? After all – the "Task" topic after this one is
+				the only one here that describes a document type configuration rather than a
+				topic/map specialization.</p></draft-comment></shortdesc>
 	<conbody>
 		<section id="section_4B12CAE12AF84259B9DED26BC5F9FEDE">
 			<title>The purpose of the general task information type</title>
@@ -29,33 +44,35 @@
 			<title>The structure of the general task topic</title>
 			<p id="p_366CB29A7238470BA9070488F953FBDD">The <xmlelement>task</xmlelement> element is the
 				top-level element for the general task topic. The general task topic contains a
-					<xmlelement>title</xmlelement> and a <xmlelement>taskbody</xmlelement>, a short
-				description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>,
-				and <xmlelement>related-links</xmlelement>.</p>
-			<p id="p_7262A46437C34654BD4E46DC49BC6FD4">The following elements are described here
-				because they are introduced as part of the general task model. All other elements
-				are described in the strict task topic.</p>
+					<xmlelement>title</xmlelement>, a short description or
+					<xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>,
+					<xmlelement>taskbody</xmlelement> for the main task content, and
+					<xmlelement>related-links</xmlelement>.</p>
+			<p id="p_7262A46437C34654BD4E46DC49BC6FD4">The following elements are described here because they
+				are introduced as part of the general task model. All other elements are described
+				in the strict task topic.<draft-comment author="robander" audience="spec-editors"
+					time="25 may 2021">this paragraph also makes me think we're adding to confusion
+					by defining some elements here, and some in "strict task"</draft-comment></p>
 			<dl>
 				<dlentry>
 					<dt><xmlelement>section</xmlelement>
 					</dt>
-					<dd>Represents an organizational division in a task topic. Sections organize
-						subsets of information within the larger topic. Sections <ph>cannot</ph> be
-						nested. A section <ph>can</ph> have an optional
-							<xmlelement>title</xmlelement>. </dd>
+					<dd>Represents an organizational division in a task topic. Sections organize subsets of
+						information within the larger topic. Sections cannot be nested. A section
+						can have an optional <xmlelement>title</xmlelement>. </dd>
 				</dlentry>
 				<dlentry>
 					<dt><xmlelement>steps-informal</xmlelement>
 					</dt>
 					<dd>Describes procedural task information that would not normally be ordered as
 							<xmlelement>steps</xmlelement>, such as a group of general procedures
-						that <ph>might</ph> all be applied in a particular situation. Instead of
+						that might all be applied in a particular situation. Instead of
 							<xmlelement>step</xmlelement>, the
 							<xmlelement>steps-informal</xmlelement> element uses
 							<xmlelement>ol</xmlelement> and <xmlelement>ul</xmlelement> elements,
 						which are less strictly defined than the <xmlelement>step</xmlelement>
-						element. When converting legacy content, it <ph>might</ph> be simpler to
-						convert numbered lists to <xmlelement>ol</xmlelement> elements than to
+						element. When converting legacy content, it might be simpler to convert
+						numbered lists to <xmlelement>ol</xmlelement> elements than to
 							<xmlelement>step</xmlelement> elements. </dd>
 				</dlentry>
 			</dl>
@@ -98,7 +115,7 @@
 						</row>
 						<row>
 							<entry>steps-informal </entry>
-							<entry>(not defined for strict <xmlelement>taskbody</xmlelement>) </entry>
+							<entry>(not allowed in strict <xmlelement>taskbody</xmlelement>) </entry>
 						</row>
 						<row>
 							<entry>result (optional, one only, precedes example) </entry>
@@ -120,6 +137,5 @@
 				</tgroup>
 			</table>
 		</section>
-		<!--<section id="section_775B8F7510FF4281AB4CB26AA3508D99"><title>Modules</title><p id="p_4DFD5C03379544B19294DB24B0BB12E5">The following DITA modules are provided for the task topic.</p><sl><sli><filepath>task.mod</filepath>, <filepath>task.ent</filepath> (DTD) </sli><sli><filepath>taskMod.xsd</filepath>, <filepath>taskGrp.xsd</filepath> (Schema) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rng</filepath> (RELAX NG XML syntax) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rnc</filepath> (RELAX NG compact syntax) </sli></sl></section>-->
 	</conbody>
 </concept>

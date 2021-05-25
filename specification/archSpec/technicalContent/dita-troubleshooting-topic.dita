@@ -8,6 +8,9 @@
   <conbody> 
 	 <section id="infotype">
 			<title>The troubleshooting information type</title>
+            <draft-comment author="robander" time="25 may 2021" audience="spec-editors">I think all
+                the other topic types use the section title "The purpose of the xyz information
+                type", followed by "The structure of the xyz information type"</draft-comment>
 			<p>In its simplest form, troubleshooting information follows this pattern:</p>
 			<ol>
 				<li>A condition or symptom. Usually the condition or symptom is an undesirable state
@@ -50,10 +53,9 @@
 					<dt><xmlelement>condition</xmlelement>
 					</dt>
 					<dd>This optional element is the first child of <xmlelement>troublebody</xmlelement>, and it
-						describes a condition or symptom that is associated with an undesirable
-						state in a system, a product, or a service. In cases where the topic title
-						fully explains the condition,<ph > do not use this
-							element.</ph></dd>
+                        describes a condition or symptom that is associated with an undesirable
+                        state in a system, a product, or a service. Do not use this element in cases
+                        where the topic title fully explains the condition.</dd>
 				</dlentry>
 				<dlentry>
 					<dt><xmlelement>diagnostics</xmlelement></dt>
@@ -79,11 +81,15 @@
 				<dlentry>
 					<dt><xmlelement>troubleSolution</xmlelement>
 					</dt>
-					<dd>One or more <xmlelement>troubleSolution</xmlelement> elements must appear  in the
-							<xmlelement>troublebody</xmlelement> element.
-							<xmlelement>troubleSolution</xmlelement> is a wrapper element for
-							<xmlelement>cause</xmlelement> and <xmlelement>remedy</xmlelement>, each
-						of which are a cause-remedy pair. </dd>
+					<dd>One or more <xmlelement>troubleSolution</xmlelement> elements appears in the
+                            <xmlelement>troublebody</xmlelement> element.
+                            <xmlelement>troubleSolution</xmlelement> is a wrapper element for
+                            <xmlelement>cause</xmlelement> and <xmlelement>remedy</xmlelement>, each
+                        of which are a cause-remedy pair.<draft-comment author="robander"
+                            time="25 may 2021" audience="spec-editors">Not certain, but I Think
+                            "each of which are a cause-remedy pair" can be removed? I think it's not
+                            adding anything and I'm not entirely sure exactly what "each" refers
+                            to.</draft-comment></dd>
 				</dlentry>
 			</dl>
 			<p>The <xmlelement>troubleSolution</xmlelement> element contains the following elements:</p>
@@ -103,20 +109,20 @@
 								<xmlelement>troubleSolution</xmlelement> describes a possible remedy
 							for the condition.</p>
 						<p>The <xmlelement>remedy</xmlelement> element begins with an optional
-								<xmlelement>title</xmlelement> element followed by an optional
-								<xmlelement>responsibleParty</xmlelement> element followed by either
-							a <xmlelement>steps</xmlelement> element, a
-								<xmlelement>steps-unordered</xmlelement> element, or a
-								<xmlelement>steps-informal</xmlelement> element. The content models
-							for <xmlelement>steps</xmlelement>,
-								<xmlelement>steps-unordered</xmlelement>, and
-								<xmlelement>steps-informal</xmlelement> are borrowed from
-								<xmlelement>task</xmlelement>. This allows remedy to reuse steps
-							from tasks.</p>
+                                <xmlelement>title</xmlelement> element followed by an optional
+                                <xmlelement>responsibleParty</xmlelement> element followed by either
+                            a <xmlelement>steps</xmlelement> element, a
+                                <xmlelement>steps-unordered</xmlelement> element, or a
+                                <xmlelement>steps-informal</xmlelement> element. The content models
+                            for <xmlelement>steps</xmlelement>,
+                                <xmlelement>steps-unordered</xmlelement>, and
+                                <xmlelement>steps-informal</xmlelement> are borrowed from
+                                <xmlelement>task</xmlelement>. This allows
+                                <xmlelement>remedy</xmlelement> to reuse steps from tasks.</p>
 					</dd>
 				</dlentry>
 				<dlentry>
-					<dt>&lt;responsibleParty&gt; </dt>
+					<dt><xmlelement>responsibleParty</xmlelement></dt>
 					<dd>This optional first child of <xmlelement>remedy</xmlelement> indicates who
 						is expected to perform the steps that are outlined in the
 							<xmlelement>remedy</xmlelement> element.</dd>
@@ -125,6 +131,9 @@
 		</section> 
 	 <example id="example" otherprops="examples">
 			<p>Here is an example of a troubleshooting topic:</p>
+            <draft-comment author="robander" time="25 may 2021" audience="spec-editors">This is so
+                much longer than examples for other specializations, I wonder if we should
+                abbreviate some of it with &lt;!– comments --></draft-comment>
 			<codeblock>&lt;troubleshooting id="blinking_lights">
     &lt;title>Blinking lights&lt;/title>
     &lt;shortdesc>Printer indicator lights are blinking, indicating an error of some kind.&lt;/shortdesc>
@@ -385,7 +394,6 @@
     &lt;/troublebody>
 &lt;/troubleshooting>
 </codeblock>
-		</example>
-		<!--<section id="section_A1E4E0CE15B94E0C89740B633491C1DA"><title>Modules</title><p>The following DITA modules are provided for the troubleshooting topic.</p><dl><dlentry><dt>DTD </dt><dd><sl><sli><filepath>troubleshooting.mod</filepath> </sli><sli><filepath>troubleshooting.ent</filepath> </sli></sl></dd></dlentry><dlentry><dt>RelaxNG </dt><dd><draft-comment author="Kristen Eberlein" time="7 March 2014">Content needed here </draft-comment></dd></dlentry><dlentry><dt>XSD </dt><dd><sl><sli><filepath>troubleshootingMod.xsd</filepath> </sli><sli><filepath>troubleshootingGrp.xsd</filepath> </sli></sl></dd></dlentry></dl></section>--> 
+		</example> 
   </conbody> 
 </concept>
