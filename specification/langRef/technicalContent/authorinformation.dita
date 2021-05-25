@@ -19,7 +19,7 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>authorinformation</xmlelement> element is specialized from
           <xmlelement>author</xmlelement>. It is defined in the XNAL domain module.</p></section>
-    <section id="attributes"><title>Attributes</title><sectiondiv conkeyref="reuse-attributes/author-attributes"/></section>
+    <section id="attributes"><title>Attributes</title><div conkeyref="reuse-attributes/author-attributes"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title>
       <p>In the following code sample, the <xmlelement>authorinformation</xmlelement> element is

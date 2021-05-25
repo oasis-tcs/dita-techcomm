@@ -24,7 +24,7 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <sectiondiv conkeyref="reuse-attributes/topic-attributes"/>
+      <div conkeyref="reuse-attributes/topic-attributes"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

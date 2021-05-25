@@ -23,7 +23,7 @@
     hierarchy</title>
       <p>The <xmlelement>bookabstract</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
-  <section id="attributes"><title>Attributes</title><sectiondiv
+  <section id="attributes"><title>Attributes</title><div
     conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
   <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref
      href="bookmap.dita"/>.</p></example>

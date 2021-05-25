@@ -78,15 +78,15 @@
       <p><xref id="outputclass" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
       <p><xref id="spectitle" href="#topic_m1s_s5j_c2b/stub-section"></xref></p>
       <codeblock id="concept-codeblock">STUB CONTENT</codeblock>
-      <sectiondiv id="author-attributes">
+      <div id="author-attributes">
         <p>STUB CONTENT</p>
-      </sectiondiv>
-      <sectiondiv id="fn-attributes">
+      </div>
+      <div id="fn-attributes">
         <p>STUB CONTENT</p>
-      </sectiondiv>
-      <sectiondiv id="topic-attributes">
+      </div>
+      <div id="topic-attributes">
         <p>STUB CONTENT</p>
-      </sectiondiv>
+      </div>
     </section>
     <section id="dita-written-specification"><title>STUB CONTENT</title></section>
     <section id="stub-section"><title>STUB CONTENT</title></section>
