@@ -6,7 +6,7 @@
 		including title, short descriptions or abstract, prolog, a body, and related links.</shortdesc> 
   <conbody> 
 	 <section id="purpose">
-			<title>Purpose of the reference topic</title>
+			<title>The purpose of the reference topic</title>
 			<p>Reference topics provide data that supports users as they perform a task. Reference
 				topics might provide lists and tables that include product specifications, parts
 				lists, and other data that is often <q>looked up</q> rather than memorized. A reference
@@ -26,31 +26,30 @@
 			<p>The <xmlelement>refbody</xmlelement> element contains the main body-level elements of
 				the reference topic. Reference topics limit the body to tables (both simple and
 				complex), property lists, syntax sections, generic sections, and examples.</p>
-			<p>All of the elements of <xmlelement>refbody</xmlelement> are optional; they <ph
-					>can</ph> appear in any sequence and number.</p>
+			<p>All of the elements of <xmlelement>refbody</xmlelement> are optional; they can appear in any
+				sequence and number.</p>
 		</section> 
 	 <section id="limitations">
 			<title>Limitations on the reference body</title>
 			<p>The <xmlelement>refbody</xmlelement> provides for an unlimited number of subdivisions in the
-				form of sections, examples, syntax sections, property lists, and tables.
-				<!--However, once an author decides to incorporate a section, example, property list, or syntax section in the <xmlelement>refbody</xmlelement>, only additional sections, examples, property lists, or syntax sections are allowed. -->Simple
-				and complex tables <ph >can</ph> appear within sections,
-				examples, and syntax sections. They <ph >cannot</ph> appear
-				within the property list or simple or complex table sections. Sections, examples,
-				syntax sections, table subdivisions, and property lists <ph 
-					>cannot</ph> nest; only one level of subdivision is permitted in the reference
-				topic.</p>
+				form of sections, examples, syntax sections, property lists, and tables. Simple
+				tables, complex tables, and property lists also can appear within syntax sections.
+				Sections, examples, syntax sections, table subdivisions, and property lists cannot
+				nest; only one level of subdivision is permitted in the reference topic.</p>
 		</section> 
 	 <section id="elements">
 			<title>The elements in the reference body</title>
+			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">Like in
+				concept, this is almost but not quite a redefinition of section, example,
+				etc</draft-comment>
 			<dl>
 				<dlentry>
 					<dt><xmlelement>section</xmlelement>
 					</dt>
 					<dd>Represents an organizational division in a reference topic. Sections organize subsets of
 						information within a larger topic. You can only include a simple list of
-						peer sections in a topic; sections cannot be nested. A section <ph
-							>might</ph> have an optional title. </dd>
+						peer sections in a topic; sections cannot be nested. A section can have an
+						optional title. </dd>
 				</dlentry>
 				<dlentry>
 					<dt><xmlelement>refsyn</xmlelement>
@@ -88,8 +87,11 @@
 				</dlentry>
 			</dl>
 		</section> 
-	 <example id="example" otherprops="examples">Following is an example of a simple reference topic, including the
-				<xmlelement>refsyn</xmlelement> element.
+	 <example id="example" otherprops="examples">
+			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">Should not
+				start with "Following is …"</draft-comment>
+			<p>Following is an example of a simple reference topic, including the
+					<xmlelement>refsyn</xmlelement> element. </p>
 			<codeblock>&lt;reference id="boldproperty"&gt;
 &lt;title&gt;Bold property&lt;/title&gt;
 &lt;shortdesc&gt;(Read-write) Whether to use a bold font for the specified text string.&lt;/shortdesc&gt;
@@ -113,8 +115,13 @@
 &lt;/refbody&gt;
 &lt;/reference&gt;</codeblock>
 		</example> 
-	 <example id="example-property" otherprops="examples">Following is an example of a simple reference topic, including the
-				<xmlelement>property</xmlelement> element.
+	 <example id="example-property" otherprops="examples">
+			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">Still should
+				not start with "Following is …" – also, the previous example already had the
+					<xmlelement>property</xmlelement> element, just didn't have all 3
+				columns?</draft-comment>
+			<p>Following is an example of a simple reference topic, including the
+					<xmlelement>property</xmlelement> element. </p>
 			<codeblock>&lt;reference id="oiltypes"&gt;
   &lt;title&gt;Oil Types&lt;/title&gt;
   &lt;shortdesc&gt;The tables provide the recommended oil types.&lt;/shortdesc&gt;
@@ -137,10 +144,7 @@
       &lt;/property&gt;
     &lt;/properties&gt;
   &lt;/refbody&gt;
-&lt;/reference&gt;</codeblock><!-- jeff ogden: consider adding example output for all
-          examples MP response: aim for comprehensive example addition
-          in 1.2 -->
-		</example>
-		<!--<section><title>Modules</title><p>The following DITA modules are provided for the reference topic.</p><sl><sli><filepath>reference.mod</filepath>, <filepath>reference.ent</filepath> (DTD) </sli><sli><filepath>referenceMod.xsd</filepath>, <filepath>referenceGrp.xsd</filepath> (Schema) </sli><sli rev="DITA1.3 proposal-13112"><filepath>referenceMod.rng</filepath> (RELAX NG XML syntax) </sli><sli rev="DITA1.3 proposal-13112"><filepath>referenceMod.rnc</filepath> (RELAX NG compact syntax) </sli></sl></section>--> 
+&lt;/reference&gt;</codeblock>
+		</example> 
   </conbody> 
 </concept> 

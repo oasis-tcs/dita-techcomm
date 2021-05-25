@@ -2,13 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept-1" xml:lang="en-us"> 
   <title>xNAL domain</title> 
-  <shortdesc>The DITA xNAL domain specialization defines a number of metadata
-	 elements and attributes that are useful in representing personal/organizational
-	 names and addresses. The metadata can be used to identify authors and content
-	 owners. The OASIS xNAL Standard (extensible Name and Address Language) was
-	 selected to represent close mappings from the DITA bookmap metadata content
-	 model to an existing standard. xNAL is included in the Bookmap and the
-	 LearningBookmap document types.</shortdesc> 
+  <shortdesc>The DITA xNAL domain specialization defines a number of metadata elements that are
+		useful in representing personal/organizational names and addresses. The metadata can be used
+		to identify authors and content owners. The OASIS xNAL Standard (extensible Name and Address
+		Language) was selected to represent close mappings from the DITA bookmap metadata content
+		model to an existing standard. xNAL is included in the Bookmap document type distributed
+		with this version of DITA.</shortdesc> 
   <conbody> 
 	 <p>The OASIS Customer Information Quality (CIQ) standard for global-customer information
 			management contains the definition of the <xref format="html"

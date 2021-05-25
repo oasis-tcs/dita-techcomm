@@ -6,10 +6,14 @@
 		completion of a procedure. The strict-task document type is built using the general-task
 		information type combined with the strict taskbody constraint. See the reference below to
 		ensure that you have the correct task document type when you update to DITA 1.3 from DITA
-		1.0 or DITA 1.1</shortdesc>
+		1.0 or DITA 1.1.<draft-comment author="robander" time="25 may 2021">I don't think we need to
+			refer to updating here (including to 2.0)?</draft-comment></shortdesc>
 	<conbody>
 		<section id="section_60F00B0ECB0B4D69AA641E9710B1AA60">
 			<title>The purpose of the standard task information type</title>
+			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">It seems
+				wrong to refer to this as the "standard" task type when in fact it is the strict /
+				constrained task type</draft-comment>
 			<p id="p_D5ED1C1C9BB841FDB6488701D3C86FCF">Tasks are the essential building blocks to
 				provide procedural information. A task information type answers the "How do I?"
 				question by providing precise step-by-step instructions detailing the requirements
@@ -32,18 +36,17 @@
 				<dlentry>
 					<dt><xmlelement>prereq</xmlelement>
 					</dt>
-					<dd>Describes information that the user needs to know or do before starting the
-						immediate task. This section <ph>can</ph> occur only once. </dd>
+					<dd>Describes information that the user needs to know or do before starting the immediate task.
+						This section can occur only once. </dd>
 				</dlentry>
 				<dlentry>
 					<dt><xmlelement>context</xmlelement>
 					</dt>
-					<dd>Provides background information for the task. This information helps the
-						users understand the purpose of the task and what they will gain by
-						completing the task correctly. This section should be brief and does not
-						replace or recreate a concept topic on the same subject, although the
-						context section <ph>might</ph> include some conceptual information. This
-						section <ph>can</ph> occur only once. </dd>
+					<dd>Provides background information for the task. This information helps the users understand
+						the purpose of the task and what they will gain by completing the task
+						correctly. This section is typically brief and does not replace or recreate
+						a concept topic on the same subject, although the context section might
+						include some conceptual information. This section can occur only once. </dd>
 				</dlentry>
 				<dlentry>
 					<dt><xmlelement>steps</xmlelement>
@@ -52,21 +55,21 @@
 						series of steps that accomplish the task. The <xmlelement>steps</xmlelement>
 						element must have one or more <xmlelement>step</xmlelement> elements, which
 						provide the specifics about each step in the task. The
-							<xmlelement>steps</xmlelement> element <ph>can</ph> occur only once. <p
+							<xmlelement>steps</xmlelement> element can occur only once. <p
 							id="p_510ED5C99C6A4A38958D579C3E8ABBC2">The
 								<xmlelement>step</xmlelement> element represents an action that a
 							user must follow to accomplish a task. Each
 								<xmlelement>step</xmlelement> in a <xmlelement>task</xmlelement>
-							must contain a command <xmlelement>cmd</xmlelement> element which
-							describes the particular action the user must perform to accomplish the
-							overall task. The <xmlelement>step</xmlelement> element can also contain
+							contains a command <xmlelement>cmd</xmlelement> element which describes
+							the particular action the user must perform to accomplish the overall
+							task. The <xmlelement>step</xmlelement> element can also contain
 							information <xmlelement>info</xmlelement>, tutorial information
 								<xmlelement>tutorialinfo</xmlelement>, a step example
 								<xmlelement>stepxmp</xmlelement>, choices
 								<xmlelement>choices</xmlelement>, a step result
-								<xmlelement>stepresult</xmlelement><ph>, or troubleshooting
-									<xmlelement>steptroubleshooting</xmlelement></ph>, although
-							these are optional.</p>
+								<xmlelement>stepresult</xmlelement>, or troubleshooting
+								<xmlelement>steptroubleshooting</xmlelement>, although these are all
+							optional.</p>
 					</dd>
 				</dlentry>
 				<dlentry>
@@ -100,9 +103,8 @@
 				</dlentry>
 			</dl>
 		</section>
-		<example id="example_FED73E89CAC4497D8AC70B96F247C79F" otherprops="examples">Here is an
-			example of a task topic:
-			<codeblock>&lt;task id="birdhousebuilding"&gt;
+		<example id="example_FED73E89CAC4497D8AC70B96F247C79F" otherprops="examples">Here is an example of
+			a task topic: <codeblock>&lt;task id="birdhousebuilding"&gt;
     &lt;title&gt;Building a bird house&lt;/title&gt;
     &lt;shortdesc&gt;Building a birdhouse is a perfect activity 
     for adults to share with their children or grandchildren. 
@@ -113,7 +115,8 @@
   &lt;ul&gt;&lt;li&gt;hand saw&lt;/li&gt;
       &lt;li&gt;hammer ... &lt;/li&gt;
   &lt;/ul&gt;&lt;/prereq&gt;
-  &lt;context&gt;Birdhouses provide safe locations for birds to build nests and raise their young. They also provide shelter during cold and rainy spells.&lt;/context&gt;
+  &lt;context&gt;Birdhouses provide safe locations for birds to build nests and raise their young.
+      They also provide shelter during cold and rainy spells.&lt;/context&gt;
  &lt;steps&gt;
    &lt;step&gt;&lt;cmd&gt;Lay out the dimensions for the birdhouse elements.&lt;/cmd&gt;&lt;/step&gt;
    &lt;step&gt;&lt;cmd&gt;Cut the elements to size.&lt;/cmd&gt;&lt;/step&gt;
@@ -130,11 +133,12 @@
 		<section id="section_5D9B27D18233424697CB9520A79126D0">
 			<title>Maintaining specializations using the strict task model</title>
 		  <draft-comment author="BobThomas">Should migration-1.1-to-1.2.dita be carried forward?</draft-comment>
+			<draft-comment author="robander" time="25 may 2021">I think it is time to remove this
+				section</draft-comment>
 			<p id="p_E1DCE778C2C643D2881255B33FCD9055">Organizations that have created
 				specializations based on the DITA 1.0 and 1.1 strict task model <ph>can</ph> review
 				the recommendations in <xref keyref="migration-1.1-to-1.2"/>
 				<ph>for information about how</ph> to maintain their specializations.</p>
 		</section>
-		<!--<section id="section_A5353AF30F324A64AB125FFF88B7E3D4"><title>Modules</title><p id="p_F14827B364F5411DB2F33DAF5278DE0A">The following DITA modules are provided for the task topic.</p><sl><sli><filepath>task.mod</filepath>, <filepath>task.ent</filepath>, <filepath>strictTaskbodyConstraint.mod</filepath> (DTD) </sli><sli><filepath>taskMod.xsd</filepath>, <filepath>taskGrp.xsd</filepath>, <filepath>strictTaskbodyConstraintMod.xsd</filepath> (Schema) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rng</filepath>, <filepath>strictTaskbodyConstraint.rng</filepath> (RELAX NG XML syntax) </sli><sli rev="DITA1.3 proposal-13112"><filepath>taskMod.rnc</filepath>, <filepath>strictTaskbodyConstraint.rnc</filepath> (RELAX NG compact syntax) </sli></sl></section>-->
 	</conbody>
 </concept>

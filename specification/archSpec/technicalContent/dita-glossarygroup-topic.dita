@@ -4,7 +4,10 @@
 <concept xml:lang="en-us" id="GlossaryGroupTopic-0282E9F1">
  <title>Glossary group</title>
  <shortdesc>The glossary group (<xmlelement>glossgroup</xmlelement>) topic enables authors to
-    include one or more glossary entry (<xmlelement>glossentry</xmlelement>) topics in a single
-    collection file, rather than authoring each glossary entry topic in a separate file. The
-    glossary group topic is a specialization of concept.</shortdesc>
+        include one or more glossary entry (<xmlelement>glossentry</xmlelement>) topics in a single
+        collection file, rather than authoring each glossary entry topic in a separate file. The
+        glossary group topic is a specialization of concept.<draft-comment author="robander"
+            audience="spec-editors" time="25 May 2021">Do we need an example here like in the other
+            topics? Perhaps an example of a term with 2 senses, managed in one
+        file?</draft-comment></shortdesc>
 </concept>
