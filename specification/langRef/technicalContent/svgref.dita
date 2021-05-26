@@ -57,7 +57,7 @@
           conkeyref="reuse-attributes/ref-inclusionatts"/>, <ph
           conkeyref="reuse-attributes/ref-linkatts"/>, and <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
-      <p id="attr-exception">For this element:<ul id="ul_awv_nmp_rpb">
+      <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_awv_nmp_rpb">
           <li>The <xmlatt>format</xmlatt> attribute has a default value of
             <keyword>svg</keyword>.</li>
           <li>The <xmlatt>href</xmlatt> attribute is a reference to an SVG document or SVG element.

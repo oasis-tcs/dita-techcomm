@@ -21,7 +21,7 @@
                                                 conkeyref="reuse-attributes/ref-commonmapatts"/>,
                                         and <xref keyref="attributes-common/attr-keyref"
                                                   ><xmlatt>keyref</xmlatt></xref>.</p>
-                                <p id="attr-exception-booklist">For this element, the
+                                <p id="attr-exception-booklist" outputclass="attr-exception">For this element, the
                                                 <xmlatt>href</xmlatt> attribute references a manual
                                         listing for the current element. If the
                                                 <xmlatt>href</xmlatt> attribute is not specified,
@@ -61,7 +61,7 @@
                                                                 conkeyref="reuse-attributes/ref-universalatts"/>
                                                                 (with a narrowed definition of <xmlatt>importance</xmlatt>,
                                                                 given below).</p>
-                                <p id="attr-exception-optreq">For this element, the
+                                                        <p id="attr-exception-optreq" outputclass="attr-exception">For this element, the
                                                 <xmlatt>importance</xmlatt> attribute indicates
                                         whether this item in a syntax diagram is optional or
                                         required. The attribute value is limited to
@@ -73,7 +73,7 @@
                                         this element: <ph
                                                 conkeyref="reuse-attributes/ref-universalatts"
                                         />.</p>
-                                <p id="attr-exception-optreqdefault">For this element, the
+                                                        <p id="attr-exception-optreqdefault" outputclass="attr-exception">For this element, the
                                                 <xmlatt>importance</xmlatt> attribute indicates
                                         whether this item in a syntax diagram is optional, required,
                                         or used by default. The attribute value is limited to
@@ -87,7 +87,7 @@
                                                 conkeyref="reuse-attributes/ref-universalatts"/> and
                                                 <xref keyref="attributes-common/attr-keyref"
                                                   ><xmlatt>keyref</xmlatt></xref>.</p>
-                                <p id="attr-exception-optreqdefaultkey">For this element, the
+                                                        <p id="attr-exception-optreqdefaultkey" outputclass="attr-exception">For this element, the
                                                 <xmlatt>importance</xmlatt> attribute indicates
                                         whether this item in a syntax diagram is optional, required,
                                         or used by default. The attribute value is limited to

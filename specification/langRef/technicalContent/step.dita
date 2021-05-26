@@ -20,7 +20,7 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
-      <p id="attr-exception">For this element, the <xmlatt>importance</xmlatt> attribute is limited
+  <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>importance</xmlatt> attribute is limited
         to the values <keyword>optional</keyword>, <keyword>required</keyword>, or <xref
           keyref="attributes-useconreftarget">-dita-use-conref-target</xref>.</p>
     </section>
