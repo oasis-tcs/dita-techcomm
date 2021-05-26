@@ -27,7 +27,7 @@
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/> and <xref
           keyref="attributes-common/attr-href"><xmlatt>href</xmlatt></xref>.</p>
-      <p id="attr-exception">For this element:<ul id="ul_yvj_42j_spb">
+      <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_yvj_42j_spb">
           <li>The <xmlatt>href</xmlatt> attribute is a reference to a syntax diagram
               <xmlelement>fragment</xmlelement>. The referenced <xmlelement>fragment</xmlelement>
             must be in the same diagram as the <xmlelement>fragref</xmlelement> element.</li>

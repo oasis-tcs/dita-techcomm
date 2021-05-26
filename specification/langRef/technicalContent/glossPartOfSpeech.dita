@@ -34,7 +34,7 @@
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-dataatts"/>, <ph conkeyref="reuse-attributes/ref-linkatts"
         />, and <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
-      <p id="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies the
+      <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies the
         part of speech for the term or terms.</p>
     </section>
     <example id="example" otherprops="examples">

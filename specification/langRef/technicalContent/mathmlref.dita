@@ -62,7 +62,7 @@
           keyref="attributes-common/attr-href"><xmlatt>href</xmlatt></xref>, <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and <xref
           keyref="attributes-common/attr-scope"><xmlatt>scope</xmlatt></xref>.</p>
-      <p id="attr-exception">For this element:<ul id="ul_eyw_gg4_rpb">
+      <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_eyw_gg4_rpb">
           <li>The <xmlatt>format</xmlatt> attribute has a default value of
             <keyword>mml</keyword>.</li>
           <li>The <xmlatt>parse</xmlatt> attribute has a default value of

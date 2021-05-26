@@ -27,7 +27,7 @@
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
-      <p id="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies any
+      <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies any
         restrictions on the availability of the publication.</p>
     </section>
     <example id="example" otherprops="examples">

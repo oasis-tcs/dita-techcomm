@@ -36,7 +36,7 @@
           conkeyref="reuse-attributes/ref-inclusionatts"/>, <ph
           conkeyref="reuse-attributes/ref-linkatts"/>, and <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
-      <p id="attr-exception">For this element, the <xmlatt>parse</xmlatt> attribute has a default
+      <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>parse</xmlatt> attribute has a default
         value of <keyword>text</keyword>.</p>
     </section>
     <example id="example" otherprops="examples">

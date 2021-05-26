@@ -36,7 +36,7 @@
           keyref="reuse-attributes/ref-displayatts"/>, <ph
           conkeyref="reuse-attributes/ref-simpletableatts"/>, and <xref
           keyref="attributes-common/attr-spectitle"><xmlatt>spectitle</xmlatt></xref>.</p>
-      <p id="attr-exception">For this element, the <xmlatt>keycol</xmlatt> attribute has a default
+      <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>keycol</xmlatt> attribute has a default
         value of <keyword>1</keyword>.</p>
     </section>
     <example id="example" otherprops="examples">
