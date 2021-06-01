@@ -60,6 +60,9 @@
         </zeroOrMore>
       </define>
       <define name="numcharref.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="numcharref.element">
@@ -85,6 +88,9 @@
         </zeroOrMore>
       </define>
       <define name="parameterentity.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="parameterentity.element">
@@ -111,6 +117,9 @@
         </zeroOrMore>
       </define>
       <define name="textentity.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="textentity.element">
@@ -138,6 +147,9 @@
         </zeroOrMore>
       </define>
       <define name="xmlatt.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="xmlatt.element">
@@ -164,6 +176,9 @@
         </zeroOrMore>
       </define>
       <define name="xmlelement.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="xmlelement.element">
@@ -190,6 +205,9 @@
         </zeroOrMore>
       </define>
       <define name="xmlnsname.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="xmlnsname.element">
@@ -217,6 +235,9 @@
         </zeroOrMore>
       </define>
       <define name="xmlpi.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="xmlpi.element">
