@@ -62,6 +62,9 @@
         </zeroOrMore>
       </define>
       <define name="markupname.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="markupname.element">

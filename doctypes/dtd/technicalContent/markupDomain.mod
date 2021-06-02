@@ -28,7 +28,10 @@
                          %text;)*"
 >
 <!ENTITY % markupname.attributes
-              "%univ-atts;"
+              "keyref
+                          CDATA
+                                    #IMPLIED
+               %univ-atts;"
 >
 <!ELEMENT  markupname %markupname.content;>
 <!ATTLIST  markupname %markupname.attributes;>
