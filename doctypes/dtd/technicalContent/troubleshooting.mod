@@ -130,8 +130,7 @@
 
 <!--                    LONG NAME: Diagnostics                      -->
 <!ENTITY % diagnostics.content
-                       "((%diagnostics-general;) | 
-                         (%diagnostics-steps;))"
+                       "(((%diagnostics-general;),(%diagnostics-steps;)) | ((%diagnostics-general;)|(%diagnostics-steps;)))"
 >
 <!ENTITY % diagnostics.attributes
               "%univ-atts;"

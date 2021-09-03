@@ -26,7 +26,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
       Delivered as file "troubleshooting.mod"                                
 
 =============================================================
-            (C) Copyright OASIS Open 2014             
+            (C) Copyright OASIS Open 2021             
             All Rights Reserved.                             
                                                              
 =============================================================
@@ -240,11 +240,16 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
     <div>
       <a:documentation> LONG NAME: Diagnostics </a:documentation>
       <define name="diagnostics.content">
-        <choice>
-          <ref name="diagnostics-general"/>
+    <choice>
+      <group>
+        <ref name="diagnostics-general"/>
+        <optional>
           <ref name="diagnostics-steps"/>
-        </choice>        
-      </define>
+        </optional>
+      </group>
+      <ref name="diagnostics-steps"/>
+    </choice>
+  </define>
       <define name="diagnostics.attributes">
         <ref name="univ-atts"/>
       </define>
