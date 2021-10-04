@@ -15,10 +15,10 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"          -->
-<!--       Delivered as file "troubleshooting.mod"                                 -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"      -->
+<!--       Delivered as file "troubleshooting.mod"                 -->
 <!-- ============================================================= -->
-<!--             (C) Copyright OASIS Open 2014                     -->
+<!--             (C) Copyright OASIS Open 2021                     -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!-- ============================================================= -->
@@ -91,7 +91,7 @@
 <!ENTITY % troublebody.content
                        "((%condition;)?,
                          (%diagnostics;)?,
-                         (%troubleSolution;)+)?"
+                         (%troubleSolution;)*)?"
 >
 <!ENTITY % troublebody.attributes
               "%univ-atts;"
@@ -130,8 +130,8 @@
 
 <!--                    LONG NAME: Diagnostics                      -->
 <!ENTITY % diagnostics.content
-                       "((%diagnostics-general;) | 
-                         (%diagnostics-steps;))"
+                       "(((%diagnostics-general;), (%diagnostics-steps;)?) |
+                          (%diagnostics-steps;))"
 >
 <!ENTITY % diagnostics.attributes
               "%univ-atts;"
