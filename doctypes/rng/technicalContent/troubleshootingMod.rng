@@ -161,9 +161,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
           <optional>
             <ref name="diagnostics"/>
           </optional>
-          <oneOrMore>
+          <zeroOrMore>
             <ref name="troubleSolution"/>
-          </oneOrMore>
+          </zeroOrMore>
         </optional>
       </define>
       <define name="troublebody.attributes">
@@ -241,9 +241,14 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
       <a:documentation> LONG NAME: Diagnostics </a:documentation>
       <define name="diagnostics.content">
         <choice>
-          <ref name="diagnostics-general"/>
+          <group>
+            <ref name="diagnostics-general"/>
+            <optional>
+              <ref name="diagnostics-steps"/>
+            </optional>
+          </group>
           <ref name="diagnostics-steps"/>
-        </choice>        
+        </choice>
       </define>
       <define name="diagnostics.attributes">
         <ref name="univ-atts"/>
@@ -291,7 +296,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
     </div>
     <div>
       <a:documentation> LONG NAME: Diagnostics Steps </a:documentation>
-      <define name="diagnostic-steps.content">
+      <define name="diagnostics-steps.content">
         <optional>
           <ref name="title"/>
         </optional>
@@ -301,24 +306,24 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Troubleshooting//EN"
           <ref name="steps-informal"/>
         </choice>
       </define>
-      <define name="diagnostic-steps.attributes">
+      <define name="diagnostics-steps.attributes">
         <optional>
           <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="diagnostics-steps.element">
-        <element name="diagnostic-steps" dita:longName="Diagnostics Steps" dita:since="2.0">
+        <element name="diagnostics-steps" dita:longName="Diagnostics Steps" dita:since="2.0">
           <a:documentation>
             <![CDATA[
     Category: Troubleshooting elements
   ]]></a:documentation>
-          <ref name="diagnostic-steps.attlist"/>
-          <ref name="diagnostic-steps.content"/>
+          <ref name="diagnostics-steps.attlist"/>
+          <ref name="diagnostics-steps.content"/>
         </element>
       </define>
-      <define name="diagnostic-steps.attlist" combine="interleave">
-        <ref name="diagnostic-steps.attributes"/>
+      <define name="diagnostics-steps.attlist" combine="interleave">
+        <ref name="diagnostics-steps.attributes"/>
       </define>
     </div>
     <div>
