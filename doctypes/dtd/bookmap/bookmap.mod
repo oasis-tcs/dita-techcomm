@@ -143,9 +143,6 @@
                           ID
                                     #IMPLIED
                %conref-atts;
-               anchorref
-                          CDATA
-                                    #IMPLIED
                outputclass
                           CDATA
                                     #IMPLIED
