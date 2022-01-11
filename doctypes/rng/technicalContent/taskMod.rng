@@ -660,6 +660,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
       <a:documentation> LONG NAME: Choice Table </a:documentation>
       <define name="choicetable.content">
         <optional>
+          <ref name="title"/>
+        </optional>
+        <optional>
           <ref name="chhead"/>
         </optional>
         <oneOrMore>
@@ -725,6 +728,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="choptionhd.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="choptionhd.element">
@@ -750,6 +769,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="chdeschd.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="chdeschd.element">
@@ -799,6 +834,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="choption.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="choption.element">
@@ -824,6 +875,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="chdesc.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="chdesc.element">
