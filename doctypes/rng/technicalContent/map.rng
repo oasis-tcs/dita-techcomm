@@ -115,7 +115,6 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Map//EN"
                   <anyName>
                      <except>
                         <name>map</name>
-                        <name>anchor</name>
                      </except>
                   </anyName>
                   <zeroOrMore>
