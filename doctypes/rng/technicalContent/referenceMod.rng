@@ -227,9 +227,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="refsyn.attributes">
-        <optional>
-          <attribute name="spectitle"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="refsyn.element">
@@ -265,9 +262,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
           <attribute name="keycol">
             <data type="NMTOKEN"/>
           </attribute>
-        </optional>
-        <optional>
-          <attribute name="spectitle"/>
         </optional>
         <ref name="display-atts"/>
         <ref name="univ-atts"/>

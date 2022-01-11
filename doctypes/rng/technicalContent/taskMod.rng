@@ -675,9 +675,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
             <data type="NMTOKEN"/>
           </attribute>
         </optional>
-        <optional>
-          <attribute name="spectitle"/>
-        </optional>
         <ref name="display-atts"/>
         <ref name="univ-atts"/>
       </define>

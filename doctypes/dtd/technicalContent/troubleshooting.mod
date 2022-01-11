@@ -105,10 +105,7 @@
                        "(%section.blocks.only.cnt;)?"
 >
 <!ENTITY % cause.attributes
-              "%univ-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  cause %cause.content;>
 <!ATTLIST  cause %cause.attributes;>
@@ -119,10 +116,7 @@
                        "(%section.blocks.only.cnt;)?"
 >
 <!ENTITY % condition.attributes
-              "%univ-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  condition %condition.content;>
 <!ATTLIST  condition %condition.attributes;>
@@ -145,10 +139,7 @@
                        "(%section.blocks.only.cnt;)?"
 >
 <!ENTITY % diagnostics-general.attributes
-              "%univ-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  diagnostics-general %diagnostics-general.content;>
 <!ATTLIST  diagnostics-general %diagnostics-general.attributes;>
@@ -162,10 +153,7 @@
                           %steps-informal;))"
 >
 <!ENTITY % diagnostics-steps.attributes
-              "%univ-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  diagnostics-steps %diagnostics-steps.content;>
 <!ATTLIST  diagnostics-steps %diagnostics-steps.attributes;>
@@ -180,10 +168,7 @@
                           %steps-informal;))"
 >
 <!ENTITY % remedy.attributes
-              "spectitle
-                          CDATA
-                                    #IMPLIED
-               %univ-atts;"
+              "%univ-atts;"
 >
 <!ELEMENT  remedy %remedy.content;>
 <!ATTLIST  remedy %remedy.attributes;>

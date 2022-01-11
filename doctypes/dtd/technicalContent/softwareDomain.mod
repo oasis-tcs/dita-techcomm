@@ -61,9 +61,6 @@
 >
 <!ENTITY % msgblock.attributes
               "%display-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED
                %univ-atts;
                xml:space
                           (preserve)

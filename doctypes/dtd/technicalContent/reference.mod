@@ -123,10 +123,7 @@
                        "(%section.cnt; | %properties;)*"
 >
 <!ENTITY % refsyn.attributes
-              "spectitle
-                          CDATA
-                                    #IMPLIED
-               %univ-atts;"
+              "%univ-atts;"
 >
 <!ELEMENT  refsyn %refsyn.content;>
 <!ATTLIST  refsyn %refsyn.attributes;>
@@ -144,9 +141,6 @@
                                     #IMPLIED
                keycol
                           NMTOKEN
-                                    #IMPLIED
-               spectitle
-                          CDATA
                                     #IMPLIED
                %display-atts;
                %univ-atts;"

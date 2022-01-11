@@ -332,9 +332,6 @@
                keycol
                           NMTOKEN
                                     '1'
-               spectitle
-                          CDATA
-                                    #IMPLIED
                %display-atts;
                %univ-atts;"
 >

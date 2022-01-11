@@ -141,9 +141,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
       </define>
       <define name="msgblock.attributes">
         <ref name="display-atts"/>
-        <optional>
-          <attribute name="spectitle"/>
-        </optional>
         <ref name="univ-atts"/>
         <optional>
           <attribute name="xml:space" a:defaultValue="preserve">

@@ -73,9 +73,6 @@
 >
 <!ENTITY % equation-figure.attributes
               "%display-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  equation-figure %equation-figure.content;>

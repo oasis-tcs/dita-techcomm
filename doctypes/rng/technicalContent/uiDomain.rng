@@ -222,9 +222,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"
       <define name="screen.attributes">
         <ref name="display-atts"/>
         <optional>
-          <attribute name="spectitle"/>
-        </optional>
-        <optional>
           <attribute name="xml:space" a:defaultValue="preserve">
             <value>preserve</value>
           </attribute>
