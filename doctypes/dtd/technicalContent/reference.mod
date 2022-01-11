@@ -173,10 +173,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % proptypehd.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |
@@ -197,10 +194,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % propvaluehd.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |
@@ -221,10 +215,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % propdeschd.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |
@@ -258,10 +249,7 @@
                        "(%ph.cnt;)*"
 >
 <!ENTITY % proptype.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               rowspan
+              "rowspan
                           NMTOKEN
                                     #IMPLIED                     
                scope
@@ -285,10 +273,7 @@
                        "(%ph.cnt;)*"
 >
 <!ENTITY % propvalue.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               rowspan
+              "rowspan
                           NMTOKEN
                                     #IMPLIED                     
                scope
@@ -312,10 +297,7 @@
                        "(%desc.cnt;)*"
 >
 <!ENTITY % propdesc.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               rowspan
+              "rowspan
                           NMTOKEN
                                     #IMPLIED                     
                scope
