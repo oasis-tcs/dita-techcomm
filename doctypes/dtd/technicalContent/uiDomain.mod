@@ -109,9 +109,6 @@
 >
 <!ENTITY % screen.attributes
               "%display-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED
                xml:space
                           (preserve)
                                     #FIXED 

@@ -153,9 +153,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Programming Domain//EN"
       <define name="codeblock.attributes">
         <ref name="display-atts"/>
         <optional>
-          <attribute name="spectitle"/>
-        </optional>
-        <optional>
           <attribute name="xml:space" a:defaultValue="preserve">
             <value>preserve</value>
           </attribute>
@@ -336,9 +333,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Programming Domain//EN"
               <value>-dita-use-conref-target</value>
             </choice>
           </attribute>
-        </optional>
-        <optional>
-          <attribute name="spectitle"/>
         </optional>
         <ref name="univ-atts"/>
       </define>

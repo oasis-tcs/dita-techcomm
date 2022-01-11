@@ -332,9 +332,6 @@
                keycol
                           NMTOKEN
                                     '1'
-               spectitle
-                          CDATA
-                                    #IMPLIED
                %display-atts;
                %univ-atts;"
 >
@@ -359,10 +356,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % choptionhd.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |
@@ -383,10 +377,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % chdeschd.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |
@@ -419,10 +410,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % choption.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |
@@ -443,10 +431,7 @@
                        "(%tblcell.cnt;)*"
 >
 <!ENTITY % chdesc.attributes
-              "specentry
-                          CDATA
-                                    #IMPLIED
-               scope
+              "scope
                           (row |
                            col |
                            rowgroup |

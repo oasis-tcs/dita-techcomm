@@ -182,9 +182,6 @@ Copyright (c) OASIS Open 2014
       </define>
       <define name="equation-figure.attributes">
         <ref name="display-atts"/>
-        <optional>
-          <attribute name="spectitle"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="equation-figure.element">

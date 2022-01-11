@@ -110,7 +110,6 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Classification Map//EN"
                   <anyName>
                      <except>
                         <name>map</name>
-                        <name>anchor</name>
                      </except>
                   </anyName>
                   <zeroOrMore>

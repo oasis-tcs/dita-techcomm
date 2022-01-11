@@ -227,9 +227,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="refsyn.attributes">
-        <optional>
-          <attribute name="spectitle"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="refsyn.element">
@@ -265,9 +262,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
           <attribute name="keycol">
             <data type="NMTOKEN"/>
           </attribute>
-        </optional>
-        <optional>
-          <attribute name="spectitle"/>
         </optional>
         <ref name="display-atts"/>
         <ref name="univ-atts"/>
@@ -326,9 +320,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="proptypehd.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="proptypehd.element">
@@ -353,9 +344,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propvaluehd.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propvaluehd.element">
@@ -381,9 +369,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propdeschd.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propdeschd.element">
@@ -439,9 +424,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="proptype.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="proptype.element">
@@ -467,9 +449,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propvalue.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propvalue.element">
@@ -495,9 +474,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propdesc.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propdesc.element">

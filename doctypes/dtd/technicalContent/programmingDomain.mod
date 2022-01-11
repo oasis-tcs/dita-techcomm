@@ -71,9 +71,6 @@
 >
 <!ENTITY % codeblock.attributes
               "%display-atts;
-               spectitle
-                          CDATA
-                                    #IMPLIED
                xml:space
                           (preserve)
                                     #FIXED 
@@ -174,9 +171,6 @@
                           (yes |
                            no |
                            -dita-use-conref-target)
-                                    #IMPLIED
-               spectitle
-                          CDATA
                                     #IMPLIED
                %univ-atts;"
 >

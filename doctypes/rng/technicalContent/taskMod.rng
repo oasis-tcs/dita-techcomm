@@ -675,9 +675,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
             <data type="NMTOKEN"/>
           </attribute>
         </optional>
-        <optional>
-          <attribute name="spectitle"/>
-        </optional>
         <ref name="display-atts"/>
         <ref name="univ-atts"/>
       </define>
@@ -728,9 +725,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="choptionhd.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="choptionhd.element">
@@ -756,9 +750,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="chdeschd.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="chdeschd.element">
@@ -808,9 +799,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="choption.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="choption.element">
@@ -836,9 +824,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Task//EN"
         </zeroOrMore>
       </define>
       <define name="chdesc.attributes">
-        <optional>
-          <attribute name="specentry"/>
-        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="chdesc.element">
