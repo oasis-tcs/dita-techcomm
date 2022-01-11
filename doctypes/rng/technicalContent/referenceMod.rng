@@ -248,6 +248,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
       <a:documentation> LONG NAME: Properties </a:documentation>
       <define name="properties.content">
         <optional>
+          <ref name="title"/>
+        </optional>
+        <optional>
           <ref name="prophead"/>
         </optional>
         <oneOrMore>
@@ -320,6 +323,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="proptypehd.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="proptypehd.element">
@@ -344,6 +363,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propvaluehd.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propvaluehd.element">
@@ -369,6 +404,22 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propdeschd.attributes">
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propdeschd.element">
@@ -424,6 +475,27 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="proptype.attributes">
+        <optional>
+          <attribute name="rowspan">
+            <data type="NMTOKEN"/>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="proptype.element">
@@ -449,6 +521,27 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propvalue.attributes">
+        <optional>
+          <attribute name="rowspan">
+            <data type="NMTOKEN"/>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propvalue.element">
@@ -474,6 +567,27 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
         </zeroOrMore>
       </define>
       <define name="propdesc.attributes">
+        <optional>
+          <attribute name="rowspan">
+            <data type="NMTOKEN"/>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="scope">
+            <choice>
+              <value>row</value>
+              <value>col</value>              
+              <value>rowgroup</value>              
+              <value>colgroup</value>              
+              <value>-dita-use-conref-target</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="headers">
+            <data type="NMTOKENS"/>
+          </attribute>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="propdesc.element">
