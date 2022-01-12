@@ -27,12 +27,6 @@
           <xmlelement>map</xmlelement>. It is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/map-attributes-common"/>
-      <dl>
-        <dlentry conkeyref="reuse-attributes/map-attribute-anchorref">
-          <dt/>
-          <dd/>
-        </dlentry>
-      </dl>
     </section>
     <example id="example" otherprops="examples"
       ><title>Example</title><codeblock>&lt;bookmap xml:lang="en-us">
