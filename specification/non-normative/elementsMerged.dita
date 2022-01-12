@@ -41,13 +41,7 @@
         <li>For all elements, the <xmlatt>translate</xmlatt> attribute will override the suggested default
           translation setting. So, a translation setting of "yes" or "no" in the table below does
           not guarantee that an element will always, or never, be translated.</li>
-        <li>If an element has translatable attributes, they are listed in the last column. Note that
-          the <xmlatt>spectitle</xmlatt> and <xmlatt>specentry</xmlatt> attributes are described
-          with a footnote. <fn id="spectitle">The <xmlatt>spectitle</xmlatt> and
-              <xmlatt>specentry</xmlatt> attributes can contain translatable text. The direct use of
-            fixed-in-the-DTD text by tools is discouraged, in favor of using the value as a lookup
-            string to find the translation outside of the file, using accepted localization methods
-            for generated text. </fn></li>
+        <li>If an element has translatable attributes, they are listed in the last column.</li>
         <li>The <xmlelement>keyword</xmlelement> element (as well as specializations of
             <xmlelement>keyword</xmlelement>) is an inline, phrase-like element when it appears in
           the body of a document. It <ph >can</ph> also appear in the
@@ -253,7 +247,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>dlentry</xmlelement></stentry>
@@ -309,7 +303,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>featnum</xmlelement></stentry>
@@ -325,7 +319,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>figgroup</xmlelement></stentry>
@@ -414,7 +408,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>link</xmlelement></stentry>
@@ -438,7 +432,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>linkpool</xmlelement></stentry>
@@ -494,7 +488,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt>, <xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry><xmlatt>othertype</xmlatt></stentry>
         </strow>
         <strow>
           <stentry><xmlelement>object</xmlelement> <!--<xref href='"#elements/foreign1"' type="fn"></xref>--></stentry>
@@ -510,7 +504,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>othermeta</xmlelement></stentry>
@@ -566,7 +560,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>prodinfo</xmlelement></stentry>
@@ -670,7 +664,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>series</xmlelement></stentry>
@@ -694,7 +688,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>sl</xmlelement></stentry>
@@ -702,7 +696,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>sli</xmlelement></stentry>
@@ -734,7 +728,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>sthead</xmlelement></stentry>
@@ -830,7 +824,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>unknown</xmlelement></stentry>
@@ -877,14 +871,6 @@
           <stentry>Translatable content?</stentry>
           <stentry>Translatable attributes?</stentry>
         </sthead>
-        <strow>
-          <stentry><xmlelement>anchor</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry/>
-        </strow>
         <strow>
           <stentry><xmlelement>linktext</xmlelement></stentry>
           <stentry>N/A</stentry>
@@ -1625,7 +1611,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>glossAlternateFor</xmlelement></stentry>
@@ -1751,7 +1737,8 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt> <i>(removes <xmlatt>spectitle</xmlatt>)</i></stentry>
+          <stentry><xmlatt>othertype</xmlatt>
+          </stentry>
         </strow>
       </simpletable>
     </section>
@@ -1774,7 +1761,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>propdeschd</xmlelement></stentry>
@@ -1783,7 +1770,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>properties</xmlelement></stentry>
@@ -1792,7 +1779,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>property</xmlelement></stentry>
@@ -1819,7 +1806,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>proptypehd</xmlelement></stentry>
@@ -1828,7 +1815,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>propvalue</xmlelement></stentry>
@@ -1837,7 +1824,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>propvaluehd</xmlelement></stentry>
@@ -1846,7 +1833,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>refbody</xmlelement></stentry>
@@ -1882,7 +1869,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
       </simpletable>
     </section>
@@ -1905,7 +1892,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>chdeschd</xmlelement></stentry>
@@ -1914,7 +1901,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>chhead</xmlelement></stentry>
@@ -1941,7 +1928,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>choicetable</xmlelement></stentry>
@@ -1950,7 +1937,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>choption</xmlelement></stentry>
@@ -1959,7 +1946,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>choptionhd</xmlelement></stentry>
@@ -1968,7 +1955,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>chrow</xmlelement></stentry>
@@ -1995,7 +1982,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>info</xmlelement></stentry>
@@ -2013,7 +2000,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>prereq</xmlelement></stentry>
@@ -2022,7 +2009,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>result</xmlelement></stentry>
@@ -2031,7 +2018,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>step</xmlelement></stentry>
@@ -2058,7 +2045,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>steps-informal</xmlelement></stentry>
@@ -2067,7 +2054,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>steps-unordered</xmlelement></stentry>
@@ -2076,7 +2063,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>stepsection</xmlelement></stentry>
@@ -2130,7 +2117,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>tutorialinfo</xmlelement></stentry>
@@ -2162,7 +2149,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>condition</xmlelement></stentry>
@@ -2171,7 +2158,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>remedy</xmlelement></stentry>
@@ -2180,7 +2167,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>specentry</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>responsibleParty</xmlelement></stentry>
@@ -2408,8 +2395,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle"
-              type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>codeph</xmlelement></stentry>
@@ -2445,8 +2431,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle"
-              type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>parmname</xmlelement></stentry>
@@ -2523,7 +2508,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>msgnum</xmlelement></stentry>
@@ -2717,7 +2702,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><i>removes <xmlatt>spectitle</xmlatt></i></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>var</xmlelement></stentry>
@@ -2758,7 +2743,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>shortcut</xmlelement></stentry>
@@ -2826,7 +2811,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes (can contain translatable alternate text)</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>shape</xmlelement></stentry>
@@ -2860,15 +2845,6 @@
           <stentry>Translatable content?</stentry>
           <stentry>Translatable attributes?</stentry>
         </sthead>
-        <strow>
-          <stentry><xmlelement>anchorref</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
         <strow>
           <stentry><xmlelement>keydef</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
@@ -3252,47 +3228,6 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_delayresolution" product="base">
-      <title>Delayed Conref Resolution domain elements</title>
-      <simpletable id="simpletable_delayresolution">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>anchorid</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry><b>n/a</b></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>anchorkey</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry><b>n/a</b></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>exportanchors</xmlelement></stentry>
-          <stentry><xmlelement>keywords</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry><b>n/a</b></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
     <section id="section_hazard" product="base">
       <title>Hazard Statement Domain</title>
       <simpletable id="simpletable_hazard">
@@ -3321,7 +3256,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt>, <xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry><xmlatt>othertype</xmlatt></stentry>
         </strow>
         <strow>
           <stentry><xmlelement>hazardsymbol</xmlelement></stentry>
@@ -3348,7 +3283,7 @@
           <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>spectitle</xmlatt><xref href="elementsMerged.dita#elements/spectitle" type="fn"/></stentry>
+          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>typeofhazard</xmlelement></stentry>
@@ -3892,60 +3827,6 @@
           <stentry>no</stentry>
         </strow>
         <strow>
-          <stentry><xmlelement>hasInstance</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasKind</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasNarrower</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasPart</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasRelated</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>relatedSubjects</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
           <stentry><xmlelement>subjectdef</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
@@ -3980,42 +3861,6 @@
           <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRel</xmlelement></stentry>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRelHeader</xmlelement></stentry>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRelTable</xmlelement></stentry>
-          <stentry><xmlelement>reltable</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRole</xmlelement></stentry>
-          <stentry><xmlelement>relcell</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
         </strow>
         <strow>
           <stentry><xmlelement>subjectScheme</xmlelement></stentry>
