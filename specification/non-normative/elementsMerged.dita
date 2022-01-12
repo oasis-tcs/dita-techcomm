@@ -878,14 +878,6 @@
           <stentry>Translatable attributes?</stentry>
         </sthead>
         <strow>
-          <stentry><xmlelement>anchor</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry/>
-        </strow>
-        <strow>
           <stentry><xmlelement>linktext</xmlelement></stentry>
           <stentry>N/A</stentry>
           <stentry>block</stentry>
