@@ -33,9 +33,8 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-          keyref="reuse-attributes/ref-displayatts"/>, <ph
-          conkeyref="reuse-attributes/ref-simpletableatts"/>, and <xref
-          keyref="attributes-common/attr-spectitle"><xmlatt>spectitle</xmlatt></xref>.</p>
+          keyref="reuse-attributes/ref-displayatts"/>, and <ph
+          conkeyref="reuse-attributes/ref-simpletableatts"/>.</p>
       <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>keycol</xmlatt> attribute has a default
         value of <keyword>1</keyword>.</p>
     </section>

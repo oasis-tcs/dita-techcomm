@@ -30,7 +30,7 @@
         </section>
         <section>
             <title>Attributes</title>
-            <p conkeyref="reuse-attributes/universal-spectitle"/>
+      <p conkeyref="reuse-attributes/only-universal"/>
         </section>
         <example otherprops="examples">
             <title>Example</title>

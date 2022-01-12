@@ -29,9 +29,8 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-          keyref="reuse-attributes/ref-displayatts"/>, <xref keyref="attributes-common/xmlspace"
-            ><xmlatt>xml:space</xmlatt></xref>, and <xref keyref="attributes-common/attr-spectitle"
-            ><xmlatt>spectitle</xmlatt></xref>.</p>
+          keyref="reuse-attributes/ref-displayatts"/>, and <xref keyref="attributes-common/xmlspace"
+            ><xmlatt>xml:space</xmlatt></xref>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
