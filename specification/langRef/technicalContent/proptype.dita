@@ -18,9 +18,8 @@
       <section id="attributes">
          <title>Attributes</title>
          <p>The following attributes are available on this element: <ph
-               conkeyref="reuse-attributes/ref-universalatts"/>, <xref
-               keyref="attributes-common/specentry"><xmlatt>specentry</xmlatt></xref>, and the
-            attributes defined below.</p>
+               conkeyref="reuse-attributes/ref-universalatts"/> and the attributes defined
+            below.</p>
          <dl>
             <dlentry conkeyref="reuse-attributes/stentry-rowspan">
                <dt/>
