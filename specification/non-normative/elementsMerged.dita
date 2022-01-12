@@ -3834,60 +3834,6 @@
           <stentry>no</stentry>
         </strow>
         <strow>
-          <stentry><xmlelement>hasInstance</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasKind</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasNarrower</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasPart</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hasRelated</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>relatedSubjects</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
           <stentry><xmlelement>subjectdef</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
