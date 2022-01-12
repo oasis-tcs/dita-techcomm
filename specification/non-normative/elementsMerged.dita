@@ -3870,42 +3870,6 @@
           <stentry>no</stentry>
         </strow>
         <strow>
-          <stentry><xmlelement>subjectRel</xmlelement></stentry>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRelHeader</xmlelement></stentry>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRelTable</xmlelement></stentry>
-          <stentry><xmlelement>reltable</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectRole</xmlelement></stentry>
-          <stentry><xmlelement>relcell</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
           <stentry><xmlelement>subjectScheme</xmlelement></stentry>
           <stentry><xmlelement>map</xmlelement></stentry>
           <stentry>yes</stentry>
