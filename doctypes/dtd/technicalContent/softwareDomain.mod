@@ -48,7 +48,10 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % msgph.attributes
-              "%univ-atts;"
+              "keyref
+                          CDATA
+                                    #IMPLIED
+               %univ-atts;"
 >
 <!ELEMENT  msgph %msgph.content;>
 <!ATTLIST  msgph %msgph.attributes;>
@@ -121,7 +124,10 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % filepath.attributes
-              "%univ-atts;"
+              "keyref
+                          CDATA
+                                    #IMPLIED
+               %univ-atts;"
 >
 <!ELEMENT  filepath %filepath.content;>
 <!ATTLIST  filepath %filepath.attributes;>
@@ -132,7 +138,10 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % userinput.attributes
-              "%univ-atts;"
+              "keyref
+                          CDATA
+                                    #IMPLIED
+               %univ-atts;"
 >
 <!ELEMENT  userinput %userinput.content;>
 <!ATTLIST  userinput %userinput.attributes;>
@@ -143,7 +152,10 @@
                        "(%words.cnt;)*"
 >
 <!ENTITY % systemoutput.attributes
-              "%univ-atts;"
+              "keyref
+                          CDATA
+                                    #IMPLIED
+               %univ-atts;"
 >
 <!ELEMENT  systemoutput %systemoutput.content;>
 <!ATTLIST  systemoutput %systemoutput.attributes;>
