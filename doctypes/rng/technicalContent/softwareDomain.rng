@@ -112,6 +112,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
         </zeroOrMore>
       </define>
       <define name="msgph.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="msgph.element">
@@ -264,6 +267,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
         </zeroOrMore>
       </define>
       <define name="filepath.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="filepath.element">
@@ -294,6 +300,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
         </zeroOrMore>
       </define>
       <define name="userinput.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="userinput.element">
@@ -319,6 +328,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Software Domain//EN"
         </zeroOrMore>
       </define>
       <define name="systemoutput.attributes">
+        <optional>
+          <attribute name="keyref"/>
+        </optional>
         <ref name="univ-atts"/>
       </define>
       <define name="systemoutput.element">
