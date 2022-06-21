@@ -142,7 +142,7 @@
                keycol
                           NMTOKEN
                                     #IMPLIED
-               %display-atts;
+               %simpletable-display-atts;
                %univ-atts;"
 >
 <!ELEMENT  properties %properties.content;>
