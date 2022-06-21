@@ -332,7 +332,7 @@
                keycol
                           NMTOKEN
                                     '1'
-               %display-atts;
+               %simpletable-display-atts;
                %univ-atts;"
 >
 <!ELEMENT  choicetable %choicetable.content;>

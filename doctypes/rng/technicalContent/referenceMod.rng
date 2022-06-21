@@ -266,7 +266,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Reference//EN"
             <data type="NMTOKEN"/>
           </attribute>
         </optional>
-        <ref name="display-atts"/>
+        <ref name="simpletable-display-atts"/>
         <ref name="univ-atts"/>
       </define>
       <define name="properties.element">
