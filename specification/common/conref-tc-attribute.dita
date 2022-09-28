@@ -8,17 +8,19 @@
                 <conbody>
                         <section>
                                 <title>Reused attribute set for glossentry</title>
-                                <p id="glossentry-specialized-title">The following attributes are available on this element: <ph
-                                        conkeyref="reuse-attributes/ref-universalatts"/> (without the Metadata attribute group) and
-                                        <xref keyref="attributes-universal/attr-base"><xmlatt>base</xmlatt></xref>.</p>
+                                <p id="glossentry-specialized-title">The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-idandconrefatts"/>, 
+                                        <ph conkeyref="reuse-attributes/ref-localizationatts"/>, <xref
+                                                keyref="attributes-universal/attr-base"><xmlatt>base</xmlatt></xref>, <xref
+                                                        keyref="attributes-universal/attr-class"><xmlatt>class</xmlatt></xref>, and <xref
+                                                                keyref="attributes-universal/attr-outputclass"><xmlatt>outputclass</xmlatt></xref>.</p>
                         </section>
                         <section>
                                 <title>Bookmap related attribute sections</title>
                                 <div id="bookmap-booklist-attributes" platform="dita">
                                         <p>The following attributes are available on this element:
-                                                <ph conkeyref="reuse-attributes/ref-universalatts"
+                                                <ph conkeyref="reuse-attributes/ref-commonmapatts"
                                         />, <ph conkeyref="reuse-attributes/ref-linkatts"/>, <ph
-                                                conkeyref="reuse-attributes/ref-commonmapatts"/>,
+                                                conkeyref="reuse-attributes/ref-universalatts"/>,
                                         and <xref keyref="attributes-common/attr-keyref"
                                                   ><xmlatt>keyref</xmlatt></xref>.</p>
                                 <p id="attr-exception-booklist" outputclass="attr-exception">For this element, the
@@ -29,16 +31,16 @@
                                         this element.
                                         <!--All of the book listings operate in a similar manner; for example, <codeph>&lt;toc href="toc.dita"/&gt;</codeph> references a topic which contains a manual table of contents, while <codeph>&lt;toc/&gt;</codeph> indicates that a processor should generate the table of contents. --></p>
                                 </div><div id="bookmap-topicrefs" platform="dita">
-                                        <p>The following attributes are available on this element: <ph
+                                        <p>The following attributes are available on this element:
+                                                <ph conkeyref="reuse-attributes/ref-commonmapatts"
+                                        />, <ph conkeyref="reuse-attributes/ref-linkatts"/>, <ph
                                                 conkeyref="reuse-attributes/ref-universalatts"/>,
-                                                <ph conkeyref="reuse-attributes/ref-linkatts"/>, <ph
-                                                        conkeyref="reuse-attributes/ref-commonmapatts"/>,
-                                                and <xref keyref="attributes-common/attr-keyref"
-                                                        ><xmlatt>keyref</xmlatt></xref>.</p>
+                                        and <xref keyref="attributes-common/attr-keyref"
+                                                  ><xmlatt>keyref</xmlatt></xref>.</p>
                                 </div><div id="bookmap-frontbackmatter" platform="dita">
                                         <p>The following attributes are available on this element:
-                                                <ph conkeyref="reuse-attributes/ref-universalatts"
-                                        />, <ph conkeyref="reuse-attributes/ref-commonmapatts"/>,
+                                                <ph conkeyref="reuse-attributes/ref-commonmapatts"
+                                        />, <ph conkeyref="reuse-attributes/ref-universalatts"/>,
                                                 <xref keyref="attributes-common/attr-format"
                                                   ><xmlatt>format</xmlatt></xref>, <xref
                                                 keyref="attributes-common/attr-keyref"
@@ -57,10 +59,10 @@
                                                 <xmlatt>importance</xmlatt> definition inside is also used
                                                 by <xmlelement>fragref</xmlelement>.</p><div
                                                         id="syntaxelement-optreq">
-                                                        <p>The following attributes are available on this element: <ph
-                                                                conkeyref="reuse-attributes/ref-universalatts"/>
-                                                                (with a narrowed definition of <xmlatt>importance</xmlatt>,
-                                                                given below).</p>
+                                                        <p>The following attributes are available on
+                                        this element: <ph
+                                                conkeyref="reuse-attributes/ref-universalatts"
+                                        />.</p>
                                                         <p id="attr-exception-optreq" outputclass="attr-exception">For this element, the
                                                 <xmlatt>importance</xmlatt> attribute indicates
                                         whether this item in a syntax diagram is optional or
