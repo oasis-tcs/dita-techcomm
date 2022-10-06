@@ -2,18 +2,28 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r-acknowledgments" xml:lang="en-us">
   <title>Acknowledgments</title>
-  <shortdesc>(Non-normative) Many members of the OASIS DITA Technical Committee participated in the
-    creation of this specification and are gratefully acknowledged.</shortdesc>
+  <shortdesc>Many members of the OASIS DITA Technical Committee
+    participated in the creation of this specification and are gratefully
+    acknowledged.</shortdesc>
   <refbody>
     <section id="section-1">
       <sl>
         <sli>Robert D. Anderson, Oracle</sli>
-        <sli>Bill Burns, Healthwise</sli>
+        <sli>Deb Bissantz, Vasont Systems</sli>
+        <sli>Carsten Brennecke, SAP SE</sli>
+        <sli>Bill Burns, HP Inc.</sli>
         <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
-        <sli>Nancy Harrison, Individual Member</sli>
-        <sli>Scott Hudson, Boeing</sli>
+        <sli>Nancy Harrison, Individual member</sli>
+        <sli>Alan Houser, Individual member</sli>
+        <sli>Scott Hudson, ServiceNow</sli>
+        <sli>Eliot Kimber, ServiceNow</sli>
+        <sli>Zöe Lawson, Synopsys, Inc.</sli>
+        <sli>Chris Nitchie, Individual member</sli>
         <sli>Eric Sirois, IXIASOFT</sli>
-        <sli>Bob Thomas, Individual Member</sli>
+        <sli>Keith Schengili-Roberts, Individual member</sli>
+        <sli>Dawn Stevens, Comtech Services, Inc.</sli>
+        <sli>Bob Thomas, Individual member</sli>
+        <sli>Frank Wegmann, Individual member</sli>
       </sl>
     </section>
   </refbody>
