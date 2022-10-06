@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Key definitions: Technical content library topics</title>
+  <keydef href="conref-tc-attribute.dita" keys="reuse-tc-attributes"/>
+  <keydef href="conref-tc-examples.dita" keys="reuse-tc-examples"/>
+  <keydef href="conref-tc-file.dita" keys="reuse-tc-file"/>
+</map>

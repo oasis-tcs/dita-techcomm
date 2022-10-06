@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-  <title>Key definitions for keys that still need to be
-  removed from the 2.0 TC Spec, or key definitions that
-  need to be added to the TC Spec</title>
-  <!-- This metadata may no longer be needed, but with baseSpec available we
-    can at least reference the appropriate topic rather than a StubTopic. -->
-  <!--<keydef keys="conref-about-this-specification" href="StubTopic.dita"></keydef>-->
-  <keydef keys="conref-about-this-specification" href="../baseSpec/specification/common/conref-about-this-specification.dita"/>
-  <!-- Should likely remove this key from 2.0 but it is still referenced so keeping the stub -->
-  <keydef keys="migration-1.1-to-1.2" href="StubTopic.dita"/>
-  <!-- "conref-examples" is only ever used for an expected release management example,
-    no longer in baseSpec reuse-examples file -->
-  <keydef keys="conref-examples" href="StubTopic.dita"/>
-  <!-- "conref-file" is used for release domain best practices (which needs to move
-    to this repo) and concept-codeblock (no longer exists. -->
-  <keydef keys="conref-file" href="StubTopic.dita"/>
+  <title>Key definitions: Stub topic</title>
+  <!-- These references to StubTopic need to refer to a copy of the base spec,
+      which should be published in some version before this map is processed. -->
+  <keydef keys="attributes-conaction" href="StubTopic.dita"/>
+  <keydef keys="attributes-conkeyref" href="StubTopic.dita"/>
+  <keydef keys="attributes-conref" href="StubTopic.dita"/>
+  <keydef keys="attributes-conrefend" href="StubTopic.dita"/>
+  <keydef keys="attributes-format" href="StubTopic.dita"/>
+  <keydef keys="attributes-href" href="StubTopic.dita"/>
+  <keydef keys="attributes-keyref" href="StubTopic.dita"/>
+  <keydef keys="attributes-keys" href="StubTopic.dita"/>
+  <keydef keys="attributes-keyscope" href="StubTopic.dita"/>
+  <keydef keys="attributes-scope" href="StubTopic.dita"/>
+  <keydef keys="attributes-type" href="StubTopic.dita"/>
+  <keydef keys="attributes-useconreftarget" href="StubTopic.dita"/>
 </map>

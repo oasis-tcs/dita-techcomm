@@ -34,7 +34,6 @@
     <example id="example" otherprops="examples">
       <title>Example</title><draft-comment author="BobThomas">This ought to be an example of a
         concept topic and not of a codeblock. It would be appropriate to reuse this example in the
-        conbody topic, but that's about it for reuse. </draft-comment>
-      <codeblock conkeyref="conref-file/concept-codeblock"/></example>
+        conbody topic, but that's about it for reuse. </draft-comment></example>
   </refbody>
 </reference>

@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "concept.dtd">
 <concept id="conref-tc-attribute" xml:lang="en-us">
-                <title>Attribute description reuse file</title>
+                <title>Reuse: Technical content attributes</title>
                 <shortdesc>This file contains attribute information used by multiple files in the
                 DITA Technical Communications specification.</shortdesc>
                 <conbody>
