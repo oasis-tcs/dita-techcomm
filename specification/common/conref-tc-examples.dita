@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="conref-examples" xml:lang="en-us">
- <title>Conref: Examples</title>
- <shortdesc>Contains <xmlelement>example</xmlelement> elements that are reused throughout the DITA
-  specification.</shortdesc>
+ <title>Reuse: Technical content examples</title>
+ <shortdesc>Contains <xmlelement>example</xmlelement> elements that are
+    reused throughout the DITA Technical Content specification.</shortdesc>
  <conbody>
     <example id="release-management" otherprops="examples">
       <title>Example</title>
