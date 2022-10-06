@@ -20,13 +20,13 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-                  <p>In the following code sample, the <xmlelement>info</xmlelement> element
-                        provides additional information about the ways that the step can be
-                        performed.</p>
+                  <p>In the following code sample, the
+          <xmlelement>info</xmlelement> element provides additional
+        information about the ways that the step can be performed:</p>
                   <codeblock>&lt;step>
   &lt;cmd>Specify the configuration parameters.&lt;/cmd>
-  &lt;info>The configuration parameters can be specified from either the command line or
-        the product GUI.&lt;/info>
+  <b>&lt;info></b>The configuration parameters can be specified from either the command line or
+        the product GUI.<b>&lt;/info></b>
 &lt;/step></codeblock>
       </example>
 </refbody>

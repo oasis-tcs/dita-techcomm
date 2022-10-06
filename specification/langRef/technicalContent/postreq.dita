@@ -2,6 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="postreq" xml:lang="en-us"><title><xmlelement>postreq</xmlelement></title><shortdesc>The <xmlelement>postreq</xmlelement> element contains post-requisites. Post-requisites
     are steps or tasks that the users need to perform after completing the current task.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>postreq</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>postreq</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <draft-comment author="Kristen J Eberlein" time="06 October 2022">
+        <p>Do we want to state somehow that a generated label is really
+          important? If folks don't use a stylesheet that generates labels,
+          often the postreq info can be not clear.</p>
+      </draft-comment>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>postreq</xmlelement> element is specialized from
@@ -13,8 +21,14 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how a user might be directed to notify a test proctor after
-        completing a test.</p>
-      <codeblock>&lt;postreq&gt;Notify the proctor upon completing this self-test.&lt;/postreq&gt; 
+      <p>The following code sample shows how a user might be directed to
+        notify a test proctor after completing a test.</p>
+      <codeblock>&lt;steps>
+&lt;!-- ... -->
+  &lt;step>
+    &lt;cmd>Click &lt;uicontrol>Done&lt;/uicontrol> to complete the test.&lt;/cmd>
+  &lt;/step>
+&lt;/steps>
+<b>&lt;postreq&gt;</b>Notify the proctor upon completing this self-test.<b>&lt;/postreq&gt;</b> 
 </codeblock>
     </example></refbody></reference>

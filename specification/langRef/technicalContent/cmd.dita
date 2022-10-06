@@ -21,7 +21,7 @@
          <p>In the following code sample, the <xmlelement>cmd</xmlelement> element provides clear,
             active-voice instruction for how to complete a step.</p>
 <codeblock>&lt;step>
-  &lt;cmd>Specify the configuration parameters.&lt;/cmd>
+  <b>&lt;cmd></b>Specify the configuration parameters.<b>&lt;/cmd></b>
 &lt;/step></codeblock>
 </example>
 </refbody>
