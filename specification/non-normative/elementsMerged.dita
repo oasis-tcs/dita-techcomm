@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="elements" xml:lang="en-us">
-  <title>Element-by-element recommendations for translators: <ph product="part-1">Base
-      edition</ph><ph product="part-2">Technical content edition</ph></title>
+  <title>Element-by-element recommendations for translators</title>
   <shortdesc>This topic contains a list of all OASIS DITA elements that are available in the
     edition. It includes recommendations on how to present the element type to translators, whether
     the element contents are likely to be suitable for translation, and whether the element has
@@ -52,936 +51,13 @@
             <xmlelement>keyword</xmlelement> can be considered a "subflow" element.</li>
       </ul>
     </section>
-    <section id="section_topic" product="base">
-      <title>topic elements</title>
-      <!--Define footnotes used within the table-->
-      <fn id="foreign">The block vs. inline designation for the <xmlelement>foreign</xmlelement>
-        element is likely to change for some specializations.</fn>
-      <fn id="foreign-translate">The <xmlelement>desc</xmlelement>, <xmlelement>object</xmlelement>,
-        and <xmlelement>image</xmlelement> elements inside <xmlelement>foreign</xmlelement> should
-        still be translatable; they provide an alternative display if the foreign content cannot be
-        processed.</fn>
-      <simpletable id="simpletable_body">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>abstract</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>alt</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>audience</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>author</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>body</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>bodydiv</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>brand</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>category</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>cite</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>colspec</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>component</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>copyrholder</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>copyright</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>copyryear</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>created</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>critdates</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>no (likely to change for some specializations)</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dd</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>ddhd</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>desc</xmlelement> <fn id="foreign2">The desc, object, and image elements inside
-              <xmlelement>foreign</xmlelement> should still be translatable; they provide an alternative display if
-              the foreign content cannot be processed.</fn>
-            <!--<xref href='"#elements/foreign1"' type="fn"></xref>--></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>div</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dl</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dlentry</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dlhead</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>draft-comment</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dt</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dthd</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>entry</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>example</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>featnum</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>fig</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>fn</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>foreign</xmlelement> <fn>The block vs. inline designation for the <xmlelement>foreign</xmlelement> element is likely to
-              change for some specializations.</fn></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block<xref href="elementsMerged.dita#elements/foreign"/></stentry>
-          <stentry>block<xref href="elementsMerged.dita#elements/foreign"/></stentry>
-          <stentry>no<xref href="elementsMerged.dita#elements/foreign-translate"/></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>image</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>index-base</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>index-sort-as</xmlelement></stentry>
-          <stentry>N/A </stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>indexterm</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>keyword</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline (except when within <xmlelement>keywords</xmlelement> – see note above the table)</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>keywords</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>li</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>lines</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>link</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>linkinfo</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>linklist</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>linkpool</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>linktext</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>lq</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>reftitle</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>metadata</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>navtitle</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>no-topic-nesting</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>note</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>object</xmlelement> <!--<xref href='"#elements/foreign1"' type="fn"></xref>--></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>standby</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>ol</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>othermeta</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>content</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>p</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>param</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>n/a</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>permissions</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>platform</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>pre</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>prodinfo</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>prodname</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>prognum</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>prolog</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>publisher</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>q</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>related-links</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>required-cleanup</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>resourceid</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>revised</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>row</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>searchtitle</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>section</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>series</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>shortdesc</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>simpletable</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>sl</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>sli</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>source</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>state</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>value</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>stentry</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>sthead</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>strow</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>table</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>tbody</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>term</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>text</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>tgroup</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>thead</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>title</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>tm</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topic</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>ul</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>unknown</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>vrm</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>vrmlist</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>xref</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section product="base" id="base_map">
-      <title>map elements</title>
-      <simpletable>
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>linktext</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>map</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>navref</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry>n/a</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>relcell</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>relcolspec</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>relheader</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>reltable</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>searchtitle</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>shortdesc</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicmeta</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>ux-window</xmlelement></stentry>
-          <stentry>N/A</stentry>
-          <stentry>N/A (empty)</stentry>
-          <stentry>N/A (empty)</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_F0A2D765E938462B8C0A3D6DB85C63BB" product="technicalContent">
-      <title>bookmap elements</title>
-      <p>The bookmap specialization contains many phrase-based elements inside the bookmeta. These
-        are metadata, and should not be translated.</p>
-      <simpletable id="simpletable_ED70E7B07CCD4F0EA141D7E97E8D5D2C" relcolwidth="15* 10* 7* 8* 8* 7* 10*">
+    <section id="section_F0A2D765E938462B8C0A3D6DB85C63BB">
+      <title>Bookmap elements</title>
+      <p>The bookmap specialization contains many phrase-based elements
+        inside the bookmeta. These are metadata, and should not be
+        translated.</p>
+      <simpletable id="simpletable_ED70E7B07CCD4F0EA141D7E97E8D5D2C"
+        relcolwidth="15* 10* 7* 8* 8* 7* 10*">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -1533,8 +609,8 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_329AA325711A45F09F15D1A74BD2F984" product="technicalContent">
-      <title>concept elements</title>
+    <section id="section_329AA325711A45F09F15D1A74BD2F984">
+      <title>Concept elements</title>
       <simpletable id="simpletable_DDCC82FC86A84A7D92A256AF0C67251C">
         <sthead>
           <stentry>Element name</stentry>
@@ -1574,8 +650,8 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_12664A333F3947499530B8359A22BE0D" product="technicalContent">
-      <title>glossentry elements</title>
+    <section id="section_12664A333F3947499530B8359A22BE0D">
+      <title>Glossary entry elements</title>
       <simpletable id="simpletable_BAC5DC62102D450A9C6F9D0053219BED">
         <sthead>
           <stentry>Element name</stentry>
@@ -1624,7 +700,8 @@
         </strow>
         <strow>
           <stentry><xmlelement>glossbody</xmlelement></stentry>
-          <stentry><xmlelement>body</xmlelement>, <xmlelement>conbody</xmlelement></stentry>
+          <stentry><xmlelement>body</xmlelement>,
+              <xmlelement>conbody</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>block</stentry>
@@ -1642,7 +719,8 @@
         </strow>
         <strow>
           <stentry><xmlelement>glossentry</xmlelement></stentry>
-          <stentry><xmlelement>topic</xmlelement>, <xmlelement>concept</xmlelement></stentry>
+          <stentry><xmlelement>topic</xmlelement>,
+              <xmlelement>concept</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>block</stentry>
@@ -1707,8 +785,10 @@
           <stentry><xmlelement>glossSymbol</xmlelement></stentry>
           <stentry><xmlelement>image</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
+          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise
+            inline</stentry>
+          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise
+            inline</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -1742,8 +822,31 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_FBF447D5D2F04AE18F2955F59188D20A" product="technicalContent">
-      <title>reference elements</title>
+    <section id="section_glossgroup">
+      <title>Glossary group elements</title>
+      <simpletable id="simpletable_glossgroup">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>glossgroup</xmlelement></stentry>
+          <stentry><xmlelement>topic</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="section_FBF447D5D2F04AE18F2955F59188D20A">
+      <title>Reference elements</title>
       <simpletable id="simpletable_35F9040988A34F80B5FD438144F912CE">
         <sthead>
           <stentry>Element name</stentry>
@@ -1873,8 +976,8 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_8BFCBBBBB4EF44669237EB8084DFF1C5" product="technicalContent">
-      <title>task elements</title>
+    <section id="section_8BFCBBBBB4EF44669237EB8084DFF1C5">
+      <title>Task elements</title>
       <simpletable id="simpletable_0A21CBEBFD994F2EB01CC9D7F6FCCB3B">
         <sthead>
           <stentry>Element name</stentry>
@@ -2130,8 +1233,8 @@
         </strow>
       </simpletable>
     </section>
-    <section id="troubleshooting" product="technicalContent">
-      <title>troubleshooting elements</title>
+    <section id="troubleshooting">
+      <title>Troubleshooting elements</title>
       <simpletable id="simpletable_troubleshooting">
         <sthead>
           <stentry>Element name</stentry>
@@ -2207,9 +1310,9 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_BA888B8F9FFD4526AD402A2181A5D349" product="base">
-      <title>hi-d elements (highlight domain)</title>
-      <simpletable id="simpletable_8993AC6E82504B59A5BCC7FBEBFC7A12">
+    <section id="section_abbrev">
+      <title>Abbreviated form domain (abbrev-d)</title>
+      <simpletable id="simpletable_abbrev">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -2220,7 +1323,30 @@
           <stentry>Translatable attributes?</stentry>
         </sthead>
         <strow>
-          <stentry><xmlelement>b</xmlelement></stentry>
+          <stentry><xmlelement>abbreviated-form</xmlelement></stentry>
+          <stentry><xmlelement>term</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>N/A <i>empty element</i></stentry>
+          <stentry>N/A</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="section_equation">
+      <title>Equation domain (equation-d)</title>
+      <simpletable id="simpletable_equation">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>equation-inline</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
@@ -2229,16 +1355,16 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>line-through</xmlelement></stentry>
-          <stentry><ph/></stentry>
+          <stentry><xmlelement>equation-block</xmlelement></stentry>
+          <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>i</xmlelement></stentry>
+          <stentry><xmlelement>equation-number</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
@@ -2247,54 +1373,41 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>overline</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
+          <stentry><xmlelement>equation-figure</xmlelement></stentry>
+          <stentry><xmlelement>fig</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>sub</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>sup</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>tt</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>u</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
       </simpletable>
     </section>
-    <section product="technicalContent" id="hwdomain">
-      <title>hw-d elements (hardware domain)</title>
+    <section id="section_glossref">
+      <title>Glossary reference domain (glossref-d)</title>
+      <simpletable id="simpletable_glossref">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>glossref</xmlelement></stentry>
+          <stentry><xmlelement>topicref</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>block</stentry>
+          <stentry>block</stentry>
+          <stentry>yes</stentry>
+          <stentry>no</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="hwdomain">
+      <title>Hardware domain (hw-d )</title>
       <simpletable id="simpletable_zmb_fpt_jnb">
         <sthead>
           <stentry>Element name</stentry>
@@ -2325,9 +1438,9 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_677C81D1DF0A4D0F90624981D69DF788" product="base">
-      <title>indexing-d elements (indexing domain)</title>
-      <simpletable id="simpletable_E4C631625D194DF49F05BC70E26F6C0E">
+    <section id="section_markup">
+      <title>Markup domain (markup-d)</title>
+      <simpletable id="simpletable_markup">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -2338,36 +1451,50 @@
           <stentry>Translatable attributes?</stentry>
         </sthead>
         <strow>
-          <stentry><xmlelement>index-see</xmlelement></stentry>
-          <stentry><xmlelement>index-base</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>index-see-also</xmlelement></stentry>
-          <stentry><xmlelement>index-base</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>index-sort-as</xmlelement></stentry>
-          <stentry><xmlelement>index-base</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
+          <stentry><xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry><b>no</b></stentry>
           <stentry/>
         </strow>
       </simpletable>
     </section>
-    <section id="programmingdomain" product="technicalContent">
-      <title>pr-d elements (programming domain)</title>
+    <section id="section_math">
+      <title>MathML domain (mathml-d)</title>
+      <simpletable id="simpletable_math">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>mathml</xmlelement></stentry>
+          <stentry><xmlelement>foreign</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>Variable: depends on math content</stentry>
+          <stentry>Depends on math content</stentry>
+          <stentry>Follow rules established for MathML standard</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>mathmlref</xmlelement></stentry>
+          <stentry><xmlelement>include</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>N/A (empty)</stentry>
+          <stentry>no (empty)</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="programmingdomain">
+      <title>Programming domain (pr-d)</title>
       <simpletable id="simpletable_C3923FF724CD42CC81CD48444AAC3D67"
         relcolwidth="13* 10* 8* 10* 10* 9* 10*">
         <sthead>
@@ -2471,8 +1598,121 @@
         </strow>
       </simpletable>
     </section>
-    <section id="sw-d" product="technicalContent">
-      <title>sw-d elements (software domain)</title>
+    <section id="section_relmgmt">
+      <title>Release management domain (relmgmt-d)</title>
+      <simpletable id="simpletable_relmgmt">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>change-historylist</xmlelement></stentry>
+          <stentry><xmlelement>metadata</xmlelement></stentry>
+          <stentry>NO</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-completed</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-item</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-person</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-organization</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-revisionid</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-request-reference</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-request-system</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-request-id</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-started</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>change-summary</xmlelement></stentry>
+          <stentry><xmlelement>data</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>N/A (metadata)</stentry>
+          <stentry>N/A</stentry>
+          <stentry>no</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="sw-d">
+      <title>Software domain (sw-d)</title>
       <simpletable id="simpletable_2DF27494E20F4CA8A90E184026A397B4">
         <sthead>
           <stentry>Element name</stentry>
@@ -2557,9 +1797,42 @@
         </strow>
       </simpletable>
     </section>
-    <section product="technicalContent" id="syntaxdiagramdomain">
-      <title>syntaxdiagram-d elements (syntax diagram domain)</title>
-      <simpletable relcolwidth="13* 10* 8* 10* 10* 9* 10*" id="simpletable_lcp_p23_5mb">
+    <section id="section_svg">
+      <title>SVG domain (svg-d)</title>
+      <simpletable id="simpletable_svg">
+        <sthead>
+          <stentry>Element name</stentry>
+          <stentry>Specialized from</stentry>
+          <stentry>Inherits everything from ancestor?</stentry>
+          <stentry>Block/Inline (presentation)</stentry>
+          <stentry>Block/Inline (translation)</stentry>
+          <stentry>Translatable content?</stentry>
+          <stentry>Translatable attributes?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>svg-container</xmlelement></stentry>
+          <stentry><xmlelement>foreign</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>Variable: depends on SVG content</stentry>
+          <stentry>Depends on SVG content</stentry>
+          <stentry>Follow rules established for SVG standard</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>svgref</xmlelement></stentry>
+          <stentry><xmlelement>include</xmlelement></stentry>
+          <stentry>yes</stentry>
+          <stentry>inline</stentry>
+          <stentry>N/A (empty)</stentry>
+          <stentry>no (empty)</stentry>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="syntaxdiagramdomain">
+      <title>Syntax diagram domain (syntaxdiagram-d)</title>
+      <simpletable relcolwidth="13* 10* 8* 10* 10* 9* 10*"
+        id="simpletable_lcp_p23_5mb">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -2715,8 +1988,8 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_D1862A90B9E74F5C9B424899A30AC3D9" product="technicalContent">
-      <title>ui-d elements (UI domain)</title>
+    <section id="section_D1862A90B9E74F5C9B424899A30AC3D9">
+      <title>User interface domain (ui-d)</title>
       <simpletable id="simpletable_7D58D48CADC345209761BEEBE4BAE09B">
         <sthead>
           <stentry>Element name</stentry>
@@ -2774,9 +2047,9 @@
         </strow>
       </simpletable>
     </section>
-    <section id="section_58A0DC39BCD744E7A8478C5C84E66A8B" product="base">
-      <title>ut-d elements (Utilities domain)</title>
-      <simpletable id="simpletable_0E5E93A44F1243A38F48EBEADF2617B9">
+    <section id="section_xmlmention">
+      <title>XML mention domain (xml-d)</title>
+      <simpletable id="simpletable_xmld">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -2787,202 +2060,88 @@
           <stentry>Translatable attributes?</stentry>
         </sthead>
         <strow>
-          <stentry><xmlelement>area</xmlelement></stentry>
-          <stentry><xmlelement>figgroup</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>coords</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry><b>NO</b></stentry>
+          <stentry><xmlelement>numcharref</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
           <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry><b>no</b></stentry>
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>imagemap</xmlelement></stentry>
-          <stentry><xmlelement>fig</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes (can contain translatable alternate text)</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>shape</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement></stentry>
-          <stentry><b>NO</b></stentry>
+          <stentry><xmlelement>parameterentity</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
           <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry><b>no</b></stentry>
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>sort-as</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry><b>NO</b></stentry>
-          <stentry>block***<xref href="elementsMerged.dita#elements/subflow" type="fn"/></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
+          <stentry><xmlelement>textentity</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry><b>no</b></stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>xmlatt</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry><b>no</b></stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>xmlelement</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry><b>no</b></stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>xmlnsname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry><b>no</b></stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>xmlpi</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>,
+              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><b>no</b></stentry>
+          <stentry>inline</stentry>
+          <stentry>inline</stentry>
+          <stentry><b>no</b></stentry>
           <stentry/>
         </strow>
       </simpletable>
     </section>
-    <section id="section_FB702013840E4227AB9F6C02B1F35D64" product="base">
-      <title>mapgroup-d elements (mapgroup domain)</title>
-      <simpletable id="simpletable_C7DA2F9DD1804D4CA09B7BB04EB13076">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>keydef</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>mapref</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicgroup</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topichead</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicset</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicsetref</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="ditavalref-d" product="base">
-      <title>ditavalref-d elements (ditavalref domain)</title>
-      <simpletable>
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>ditavalmeta</xmlelement>
-          </stentry>
-          <stentry><xmlelement>topicmeta</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>ditavalref</xmlelement>
-          </stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dvrKeyscopePrefix</xmlelement>
-          </stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dvrKeyscopeSuffix</xmlelement>
-          </stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dvrResourcePrefix</xmlelement>
-          </stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>dvrResourceSuffix</xmlelement>
-          </stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_6DC57A954C3940C69BCC5E4A42397B37" product="technicalContent">
-      <title>xnal-d elements (XNAL domain)</title>
-      <p>The XNAL information is all metadata, so it generally does not need to be translated.
-        Exceptions <ph >might</ph> be needed when selections from this metadata
-        are used for display purposes. The standard behavior <ph >might</ph>
-        need to change based on local business rules. For example, in some cases it <ph >might</ph> be appropriate to translate the honorific, country, or
+    <section id="section_6DC57A954C3940C69BCC5E4A42397B37">
+      <title>XNAL domain (xnal-d)</title>
+      <p>The XNAL information is all metadata, so it generally does not
+        need to be translated. Exceptions <ph>might</ph> be needed when
+        selections from this metadata are used for display purposes. The
+        standard behavior <ph>might</ph> need to change based on local
+        business rules. For example, in some cases it <ph>might</ph> be
+        appropriate to translate the honorific, country, or
         organizationname elements.</p>
-      <simpletable id="simpletable_7E0D510E98CB420EBC65FC0D9BCF0425" relcolwidth="12* 6* 6* 7* 7* 6* 6*">
+      <simpletable id="simpletable_7E0D510E98CB420EBC65FC0D9BCF0425"
+        relcolwidth="12* 6* 6* 7* 7* 6* 6*">
         <sthead>
           <stentry>Element name</stentry>
           <stentry>Specialized from</stentry>
@@ -3225,701 +2384,6 @@
           <stentry>block</stentry>
           <stentry><b>no</b></stentry>
           <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_hazard" product="base">
-      <title>Hazard Statement Domain</title>
-      <simpletable id="simpletable_hazard">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>consequence</xmlelement></stentry>
-          <stentry><xmlelement>li</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hazardstatement</xmlelement></stentry>
-          <stentry><xmlelement>note</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>hazardsymbol</xmlelement></stentry>
-          <stentry><xmlelement>image</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>howtoavoid</xmlelement></stentry>
-          <stentry><xmlelement>li</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>messagepanel</xmlelement></stentry>
-          <stentry><xmlelement>ul</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>typeofhazard</xmlelement></stentry>
-          <stentry><xmlelement>li</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_glossgroup" product="technicalContent">
-      <title>glossgroup elements</title>
-      <simpletable id="simpletable_glossgroup">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>glossgroup</xmlelement></stentry>
-          <stentry><xmlelement>topic</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_glossref" product="technicalContent">
-      <title>glossref domain elements</title>
-      <simpletable id="simpletable_glossref">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>glossref</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_abbrev" product="technicalContent">
-      <title>abbreviated-form domain elements</title>
-      <simpletable id="simpletable_abbrev">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>abbreviated-form</xmlelement></stentry>
-          <stentry><xmlelement>term</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>N/A <i>empty element</i></stentry>
-          <stentry>N/A</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_markup" product="technicalContent">
-      <title>markup-d elements (markup domain)</title>
-      <simpletable id="simpletable_markup">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>markupname</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_xmlmention" product="technicalContent">
-      <title>xml-d elements (markup domain)</title>
-      <simpletable id="simpletable_xmld">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>numcharref</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>parameterentity</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>textentity</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>xmlatt</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>xmlelement</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>xmlnsname</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>xmlpi</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
-          <stentry><b>no</b></stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry><b>no</b></stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_relmgmt" product="technicalContent">
-      <title>relmgmt-d elements (release management domain)</title>
-      <simpletable id="simpletable_relmgmt">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>change-historylist</xmlelement></stentry>
-          <stentry><xmlelement>metadata</xmlelement></stentry>
-          <stentry>NO</stentry>
-          <stentry >N/A (metadata)</stentry>
-          <stentry >N/A</stentry>
-          <stentry >no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-completed</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-item</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-person</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-organization</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-revisionid</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-request-reference</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-request-system</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-request-id</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-started</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>change-summary</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>N/A</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_equation" product="technicalContent">
-      <title>equation-d elements (equation domain)</title>
-      <simpletable id="simpletable_equation">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>equation-inline</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>equation-block</xmlelement></stentry>
-          <stentry><xmlelement>div</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>equation-number</xmlelement></stentry>
-          <stentry><xmlelement>ph</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>inline</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>equation-figure</xmlelement></stentry>
-          <stentry><xmlelement>fig</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_math" product="technicalContent">
-      <title>mathml-d elements (MathML domain)</title>
-      <simpletable id="simpletable_math">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>mathml</xmlelement></stentry>
-          <stentry><xmlelement>foreign</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>Variable: depends on math content</stentry>
-          <stentry>Depends on math content</stentry>
-          <stentry>Follow rules established for MathML standard</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>mathmlref</xmlelement></stentry>
-          <stentry><xmlelement>include</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>N/A (empty)</stentry>
-          <stentry>no (empty)</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_svg" product="technicalContent">
-      <title>svg-d elements (SVG domain)</title>
-      <simpletable id="simpletable_svg">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>svg-container</xmlelement></stentry>
-          <stentry><xmlelement>foreign</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>Variable: depends on SVG content</stentry>
-          <stentry>Depends on SVG content</stentry>
-          <stentry>Follow rules established for SVG standard</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>svgref</xmlelement></stentry>
-          <stentry><xmlelement>include</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>inline</stentry>
-          <stentry>N/A (empty)</stentry>
-          <stentry>no (empty)</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_classify" product="base">
-      <title>classification domain elements</title>
-      <simpletable id="simpletable_classify">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>subjectCell</xmlelement></stentry>
-          <stentry><xmlelement>relcell</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectref</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicapply</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicCell</xmlelement></stentry>
-          <stentry><xmlelement>relcell</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicsubject</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicSubjectHeader</xmlelement></stentry>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicSubjectRow</xmlelement></stentry>
-          <stentry><xmlelement>relrow</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>topicSubjectTable</xmlelement></stentry>
-          <stentry><xmlelement>reltable</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_subjectscheme" product="base">
-      <title>subject scheme elements</title>
-      <simpletable id="simpletable_subjectscheme">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Specialized from</stentry>
-          <stentry>Inherits everything from ancestor?</stentry>
-          <stentry>Block/Inline (presentation)</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-          <stentry>Translatable attributes?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>attributedef</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>defaultSubject</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>elementdef</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>N/A (metadata)</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>enumerationdef</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectdef</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectHead</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectHeadMeta</xmlelement></stentry>
-          <stentry><xmlelement>topicmeta</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>schemeref</xmlelement></stentry>
-          <stentry><xmlelement>topicref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>subjectScheme</xmlelement></stentry>
-          <stentry><xmlelement>map</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry>no</stentry>
-        </strow>
-      </simpletable>
-    </section>
-    <section id="section_ditaval" product="base">
-      <title>DITAVAL elements</title>
-      <p>The DITAVAL elements are not specialized, and are not rendered on their own, so related
-        columns are dropped from this table. There are no translatable attributes in the DITAVAL
-        element set.</p>
-      <p>As of DITA 1.2, the only element that directly contains text for translation is
-          <xmlelement>alt-text</xmlelement>.</p>
-      <simpletable id="simpletable_ditaval">
-        <sthead>
-          <stentry>Element name</stentry>
-          <stentry>Block/Inline (translation)</stentry>
-          <stentry>Translatable content?</stentry>
-        </sthead>
-        <strow>
-          <stentry><xmlelement>alt-text</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>endflag</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>yes (inside nested elements)</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>prop</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>yes (inside nested elements)</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>revprop</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>yes (inside nested elements)</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>startflag</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>yes (inside nested elements)</stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>style-conflict</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>N/A <i>(empty element)</i></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>val</xmlelement></stentry>
-          <stentry>block</stentry>
-          <stentry>yes (inside nested elements)</stentry>
         </strow>
       </simpletable>
     </section>
