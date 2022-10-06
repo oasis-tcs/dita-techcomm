@@ -2,21 +2,16 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choicetable" xml:lang="en-us">
   <title><xmlelement>choicetable</xmlelement></title>
-  <shortdesc>The <xmlelement>choicetable</xmlelement> element contains information about a set of
-    options that are presented to users in a step.<draft-comment author="robander"
-      time="21 may 2021">I think we should reword a bit to focus on how the choices relate to the
-      step ("a set of options for completing a step"?) rather than where they are
-      presented.</draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>choicetable</xmlelement> element contains
+    information about a set of options <ph rev="2.0">for completing</ph> a
+    step.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>choice
-            tables<indexterm><xmlatt>keycol</xmlatt></indexterm><indexterm>overview</indexterm><indexterm>formatting
-            expectations</indexterm></indexterm>
+            tables<indexterm><xmlatt>keycol</xmlatt></indexterm><indexterm>overview</indexterm></indexterm>
         <indexterm><xmlelement>choicetable</xmlelement></indexterm>
         <indexterm><xmlatt>keycol</xmlatt></indexterm>
-        <indexterm>formatting
-            expectations<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
         <indexterm>tables<indexterm>choice tables</indexterm></indexterm>
         <indexterm>task
           elements<indexterm><xmlelement>choicetable</xmlelement></indexterm></indexterm>
@@ -24,6 +19,13 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <draft-comment author="Kristen J Eberlein" time="06 October 2022">
+        <p>Do we want to state that choice table are often/typically
+          rendered as tables?</p>
+      </draft-comment>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>choicetable</xmlelement> element is specialized from
@@ -33,7 +35,7 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-          keyref="reuse-attributes/ref-displayatts"/>, and <ph
+          conkeyref="reuse-attributes/ref-displayatts"/>, and <ph
           conkeyref="reuse-attributes/ref-simpletableatts"/>.</p>
       <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>keycol</xmlatt> attribute has a default
         value of <keyword>1</keyword>.</p>
@@ -43,21 +45,24 @@
       <p>The following code sample contains a choice table that contains a header row:</p>
       <codeblock>&lt;step&gt;
   &lt;cmd&gt;Create a new filter:&lt;/cmd&gt;
-  &lt;choicetable&gt;
+  <b>&lt;choicetable&gt;</b>
     &lt;chhead&gt;
       &lt;choptionhd&gt;Option&lt;/choptionhd&gt;
       &lt;chdeschd&gt;Description&lt;/chdeschd&gt;
     &lt;/chhead&gt;
     &lt;chrow&gt;
       &lt;choption&gt;Command-line interface&lt;/choption&gt;
-      &lt;chdesc&gt;Type arg -f filter&lt;/chdesc&gt;
+      &lt;chdesc&gt;Type &lt;codeph>arg -f filter&lt;/codeph>&lt;/chdesc&gt;
     &lt;/chrow&gt;
     &lt;chrow&gt;
       &lt;choption&gt;Product GUI&lt;/choption&gt;
-      &lt;chdesc&gt;Click New Filter&lt;/chdesc&gt;
+      &lt;chdesc&gt;Click &lt;uicontrol>New Filter&lt;/uicontrol>&lt;/chdesc&gt;
     &lt;/chrow&gt;
-  &lt;/choicetable&gt;
+  <b>&lt;/choicetable&gt;</b>
 &lt;/step&gt;</codeblock>
+      <p>The choice table might be rendered in the following way:</p>
+      <image placement="break" href="../../images/choicetable.jpg"
+        scale="60"/>
     </example>
   </refbody>
 </reference>

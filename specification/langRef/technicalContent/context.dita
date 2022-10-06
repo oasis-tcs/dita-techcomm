@@ -30,8 +30,8 @@
   &lt;shortdesc>You can use IBM Task Modeler to generate stub files. Stub files are 
              DITA files that contain only a title.&lt;/shortdesc>
   &lt;taskbody>
-    &lt;context>As you perform this procedure, you can select the conventions that 
-            you want to use for file names.&lt;/context>
+    <b>&lt;context></b>As you perform this procedure, you can select the conventions that 
+            you want to use for file names.<b>&lt;/context></b>
     ...
   &lt;/taskbody>
 &lt;/task></codeblock>

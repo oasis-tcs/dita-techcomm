@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="result" xml:lang="en-us">
 <title><xmlelement>result</xmlelement></title>
-<shortdesc>The <xmlelement>result</xmlelement> element contains the end result of a task. A result
-    describes the expected outcome for the task as a whole.</shortdesc>
+<shortdesc>The <xmlelement>result</xmlelement> element describes the
+    expected outcome for the task as a whole.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>result</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>result</xmlelement></indexterm></indexterm>
 </keywords>
@@ -25,10 +25,10 @@
 <codeblock>&lt;task id="sqlj"&gt;
   &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
   &lt;taskbody&gt;
-    ...
-    &lt;result&gt;The "File Created" window is displayed, and the SQLJ
+    &lt;!-- ... -->
+    <b>&lt;result&gt;</b>The "File Created" window is displayed, and the SQLJ
             file is successfully created.
-    &lt;/result&gt;
+    <b>&lt;/result&gt;</b>
   &lt;/taskbody&gt;
 &lt;/task&gt;</codeblock>
 </example>

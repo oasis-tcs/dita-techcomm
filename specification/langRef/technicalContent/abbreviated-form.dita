@@ -23,57 +23,73 @@
           <xmlelement>glossentry</xmlelement> topic. Processors display the referenced term when
         rendering an <xmlelement>abbreviated-form</xmlelement> element.</p>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
-      <draft-comment author="robander" time="20 may 2021">It really feels like this should be in a
-        small architectural section for the TC spec, with clear examples.</draft-comment>
-      <p>The <xmlelement>abbreviated-form</xmlelement> element is intended to reference a
-          <xmlelement>glossentry</xmlelement> topic that contains both a term and an abbreviated
-        form of that term. The topic might also provide a surface form that differs from the
-        original term. The full term or surface form is rendered in introductory contexts where the
-        term might be unfamiliar to a reader or in other contexts where a precise term is
-        appropriate. In other contexts a processor substitutes the abbreviated form of the term.
-        Note that the definition of an introductory context will differ for every deliverable
-        format.</p>
-      <p>For instance, a process composing a book deliverable might emit the surface form of a term
-        on the first reference to the <xmlelement>glossentry</xmlelement> topic within the book or
-        for every reference within a copyright or a warranty-related warning. A process generating
-        an online page might emit the surface form as a hover tooltip on every instance of the
-        term.</p>
-      <p>The following rules determine how to render an <xmlelement>abbreviated-form</xmlelement>
-        element. As described, the definition of "introductory context" will vary based on the
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <draft-comment author="robander" time="20 may 2021">It really feels
+        like this should be in a small architectural section for the TC
+        spec, with clear examples.<div>
+          <p>Kris Eberlein, 06 October 2022</p>
+          <p>I agree 100+</p>
+        </div></draft-comment>
+      <p>The <xmlelement>abbreviated-form</xmlelement> element is intended
+        to reference a <xmlelement>glossentry</xmlelement> topic that
+        contains both a term and an abbreviated form of that term. The
+        topic might also provide a surface form that differs from the
+        original term. The full term or surface form is rendered in
+        introductory contexts where the term might be unfamiliar to a
+        reader or in other contexts where a precise term is appropriate. In
+        other contexts a processor substitutes the abbreviated form of the
+        term. Note that the definition of an introductory context will
+        differ for every deliverable format.</p>
+      <p>For instance, a process composing a book deliverable might emit
+        the surface form of a term on the first reference to the
+          <xmlelement>glossentry</xmlelement> topic within the book or for
+        every reference within a copyright or a warranty-related warning. A
+        process generating an online page might emit the surface form as a
+        hover tooltip on every instance of the term.</p>
+      <p>The following rules determine how to render an
+          <xmlelement>abbreviated-form</xmlelement> element. As described,
+        the definition of "introductory context" will vary based on the
         rendered format and processor.<ol id="ol_iwv_w5t_wbb">
-          <li>If the referenced topic is not a <xmlelement>glossentry</xmlelement> topic (or a
-            specialization of <xmlelement>glossentry</xmlelement>), the title of the topic <term
-              outputclass="RFC-2119">SHOULD</term> be displayed.</li>
-          <li>Otherwise, if <xmlelement>abbreviated-form</xmlelement> is located in an introductory
-            context, and the referenced topic contains a non-empty
-              <xmlelement>glossSurfaceForm</xmlelement> element, processors <term
-              outputclass="RFC-2119">SHOULD</term> render the contents of the
-              <xmlelement>glossSurfaceForm</xmlelement> element from the referenced
-              <xmlelement>glossentry</xmlelement> topic.</li>
-          <li>Otherwise, if <xmlelement>abbreviated-form</xmlelement> is located in an introductory
-            context, processors <term outputclass="RFC-2119">SHOULD</term> render the contents of
-            the <xmlelement>glossterm</xmlelement> element from the referenced
-              <xmlelement>glossentry</xmlelement> topic.</li>
+          <li>If the referenced topic is not a
+              <xmlelement>glossentry</xmlelement> topic (or a
+            specialization of <xmlelement>glossentry</xmlelement>), the
+            title of the topic <term outputclass="RFC-2119">SHOULD</term>
+            be displayed.</li>
+          <li>Otherwise, if <xmlelement>abbreviated-form</xmlelement> is
+            located in an introductory context, and the referenced topic
+            contains a non-empty <xmlelement>glossSurfaceForm</xmlelement>
+            element, processors <term outputclass="RFC-2119">SHOULD</term>
+            render the contents of the
+              <xmlelement>glossSurfaceForm</xmlelement> element from the
+            referenced <xmlelement>glossentry</xmlelement> topic.</li>
+          <li>Otherwise, if <xmlelement>abbreviated-form</xmlelement> is
+            located in an introductory context, processors <term
+              outputclass="RFC-2119">SHOULD</term> render the contents of
+            the <xmlelement>glossterm</xmlelement> element from the
+            referenced <xmlelement>glossentry</xmlelement> topic.</li>
           <li>Otherwise (in non-introductory contexts), if the referenced
-              <xmlelement>glossentry</xmlelement> topic contains a non-empty
-              <xmlelement>glossAcronym</xmlelement> element, processors <term outputclass="RFC-2119"
-              >SHOULD</term> render the abbreviated form of the term by displaying the contents of
-            the <xmlelement>glossAcronym</xmlelement> element from the referenced
-              <xmlelement>glossentry</xmlelement> topic.</li>
-          <li>Otherwise, processors <term outputclass="RFC-2119">SHOULD</term> render the contents
-            of the <xmlelement>glossterm</xmlelement> element from the referenced
-              <xmlelement>glossentry</xmlelement> topic.</li>
+              <xmlelement>glossentry</xmlelement> topic contains a
+            non-empty <xmlelement>glossAcronym</xmlelement> element,
+            processors <term outputclass="RFC-2119">SHOULD</term> render
+            the abbreviated form of the term by displaying the contents of
+            the <xmlelement>glossAcronym</xmlelement> element from the
+            referenced <xmlelement>glossentry</xmlelement> topic.</li>
+          <li>Otherwise, processors <term outputclass="RFC-2119"
+              >SHOULD</term> render the contents of the
+              <xmlelement>glossterm</xmlelement> element from the
+            referenced <xmlelement>glossentry</xmlelement> topic.</li>
         </ol></p>
-      <p>For instance, if an <xmlelement>abbreviated-form</xmlelement> element with the attribute
-          <codeph>keyref="abs"</codeph> provided the first occurrence of the ABS term within a book,
-        the sentence could be rendered as follows:</p>
-      <lq>"The Anti-lock Brake System (ABS) will prevent the car from skidding in adverse weather
+      <p>For instance, if an <xmlelement>abbreviated-form</xmlelement>
+        element with the attribute <codeph>keyref="abs"</codeph> provided
+        the first occurrence of the ABS term within a book, the sentence
+        could be rendered as follows:</p>
+      <lq>"The Anti-lock Brake System (ABS) will prevent the car from
+        skidding in adverse weather conditions."</lq>
+      <p>If the ABS term had appeared previously within the book, the same
+        sentence could instead be rendered as follows:</p>
+      <lq>"The ABS will prevent the car from skidding in adverse weather
         conditions."</lq>
-      <p>If the ABS term had appeared previously within the book, the same sentence could instead be
-        rendered as follows:</p>
-      <lq>"The ABS will prevent the car from skidding in adverse weather conditions."</lq>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>

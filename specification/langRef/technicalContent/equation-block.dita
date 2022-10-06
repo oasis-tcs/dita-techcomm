@@ -18,8 +18,8 @@
       <p>When an <xmlelement>equation-block</xmlelement> element has multiple direct child elements,
         each child represents an alternative form of the equation.</p>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
       <p>Block equations can be numbered.</p>
     </section>
     <section id="processing-expectations">

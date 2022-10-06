@@ -32,15 +32,15 @@
    <codeblock>&lt;task id="sqlj"&gt;
 &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
  &lt;taskbody&gt;
- &lt;context&gt;Once you have set up SQLJ, you need to create a new SQLJ file.&lt;/context&gt;
-  &lt;steps&gt;
+ &lt;context&gt;Once you have set up SQLJ, you can create a new SQLJ file.&lt;/context&gt;
+  <b>&lt;steps&gt;</b>
    &lt;step&gt;
     &lt;cmd&gt;In a text editor, create a new file.&lt;/cmd&gt;
    &lt;/step&gt;
    &lt;step&gt;
     &lt;cmd&gt;Enter the first query statement.&lt;/cmd&gt;
    &lt;/step&gt;
-  &lt;/steps&gt;
+  <b>&lt;/steps&gt;</b>
  &lt;/taskbody&gt;
 &lt;/task&gt;</codeblock>
   </example>

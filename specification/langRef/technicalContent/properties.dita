@@ -20,8 +20,8 @@
         only the <xmlelement>propvalue</xmlelement> element (and <xmlelement>propdesc</xmlelement>
         when needed) for each successive value.</p>
     </section>
-    <section id="formatting-expectations">
-      <title>Formatting expectations</title>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
       <p>The typical rendering is usually in a table-like format.</p>
     </section>
     <section id="specialization-hierarchy">
