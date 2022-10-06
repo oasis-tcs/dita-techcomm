@@ -5,8 +5,8 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Darwin Information Typing Architecture (DITA) for Technical Communication Version
-      2.0</mainbooktitle>
+    <mainbooktitle>Darwin Information Typing Architecture (DITA) for
+      Technical Content Version 2.0</mainbooktitle>
     <booktitlealt outputclass="documentStage"><keyword keyref="stage"/></booktitlealt>
     <booktitlealt outputclass="stageDate"><keyword keyref="stage-date"/></booktitlealt>
   </booktitle>
@@ -23,7 +23,7 @@
         <year>2005</year>
       </copyrfirst>
       <copyrlast>
-        <year>2019</year>
+        <year>2022</year>
       </copyrlast>
       <bookowner>
         <organization>OASIS</organization>

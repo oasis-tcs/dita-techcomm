@@ -43,8 +43,8 @@
     </section>
     <section id="section-8">
       <title>Abstract</title>
-      <p>The Darwin Information Typing Architecture (DITA) for Technical Communication Version 2.0
-        specification ...</p>
+      <p>The Darwin Information Typing Architecture (DITA) for Technical
+        Content Version 2.0 specification ...</p>
     </section>
     <section conref="../common/conref-cover-pages.dita#reuse/status" id="section-9"/>
     <section id="citation-format">
@@ -53,10 +53,12 @@
       <dl>
         <dlentry>
           <dt>[wp-abbrev]</dt>
-          <dd><cite>Darwin Information Typing Architecture (DITA) for Technical Communication
-              Version 2.0</cite>. Edited by &lt;Add names here>. <keyword keyref="stage-date"/>.
-              <keyword keyref="stage"/>. X<!--<xref keyref="oasis-this-version-html"/>-->. Latest
-            version: X<!--<xref keyref="oasis-latest-version-html"/>-->.</dd>
+          <dd><cite>Darwin Information Typing Architecture (DITA) for
+              Technical Content Version 2.0</cite>. Edited by &lt;Add names
+            here>. <keyword keyref="stage-date"/>. <keyword keyref="stage"
+            />. X<!--<xref keyref="oasis-this-version-html"/>-->. Latest
+            version:
+            X<!--<xref keyref="oasis-latest-version-html"/>-->.</dd>
         </dlentry>
       </dl>
     </section>
