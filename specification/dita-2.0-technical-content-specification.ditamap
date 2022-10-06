@@ -50,6 +50,8 @@
     <keydef href="common/conref-tc-file.dita" keys="reuse-tc-file"/>
     <keydef href="common/conref-tc-examples.dita" keys="reuse-tc-examples"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref
+      href="baseSpec/specification/common/key-definitions-oasis-boilerplate.ditamap"/>
     <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap" format="ditamap"/>
     <keydef href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita" keys="reuse-note"/>
     <mapref href="langRef/key-definitions-tc-elements.ditamap"/>
