@@ -22,11 +22,9 @@
     </section>
   <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>Processors <term outputclass="RFC-2119">MAY</term> render prerequisite links from the
-        related-links section together with the content of the <xmlelement>prereq</xmlelement>
-        element.</p>
-      <draft-comment author="robander" time="21 may 2021">This seems like one that could be changed
-        from normative MAY to "might"</draft-comment>
+      <p>Processors might render prerequisite links from the related-links
+        section together with the content of the
+          <xmlelement>prereq</xmlelement> element.</p>
     </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
@@ -45,10 +43,11 @@
       <codeblock>&lt;task id="sqlj"&gt;
  &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
  &lt;taskbody&gt;
-  <b>&lt;prereq&gt;</b>Before creating a new SQLJ file, you must 
-  log in to the SQLJ server.<b>&lt;/prereq&gt;</b>
-  &lt;!-- ... -->
- &lt;/taskbody&gt;
+    <b>&lt;prereq&gt;</b>Before creating a new SQLJ file, you must 
+  log in to the SQLJ server.
+    <b>&lt;/prereq&gt;</b>
+    &lt;!-- ... -->
+  &lt;/taskbody&gt;
 &lt;/task&gt;</codeblock>
       <p>Style sheets might generate a label, for example, <q>Before you
           begin</q>, to indicate clearly that the prerequisite task needs

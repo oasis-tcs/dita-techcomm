@@ -2,8 +2,21 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_technicalContent_InformationTypes" xml:lang="en-US"> 
   <title>Topic and map specializations</title> 
-  <shortdesc>The Technical Content package contains various document types: concept, reference,
-    general task, strict task, troubleshooting, glossary entry, and glossary group. These document
-    types are designed specifically for information that describes how to use products and
-    processes. The Technical Content package also includes the bookmap document type.</shortdesc> 
+  <shortdesc>The Technical Content package contains various document types:
+    concept, reference, general task, strict task, troubleshooting,
+    glossary entry, and glossary group. These document types are designed
+    specifically for information that describes how to use products and
+    processes. The Technical Content package also includes the bookmap
+    document type.<draft-comment author="Kristen J Eberlein"
+      time="07 October 2022">
+      <p>I think these overview topics need to be <b>thoroughly</b>
+        rewritten. I think they need simply to provide a high-level
+        overview of what the topics (and map) are, what they can do, and
+        maybe an example. They should use natural language and should not
+        provide duplicate definitions of the elements. They should not go
+        into detail about the order in which elements can occur.</p>
+      <p>@Robert, because of the extent to which I think most of the
+        current content is useless, I'm not going to respond to al of your
+        comments.</p>
+    </draft-comment></shortdesc> 
 </concept> 

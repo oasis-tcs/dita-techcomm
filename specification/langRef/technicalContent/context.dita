@@ -25,14 +25,15 @@
                         is appropriate for a short description. Style sheets might generate a label,
                         for example, <q>About this procedure</q>, to indicate clearly that the
                         information provided is background information.</p>
-<codeblock>&lt;task id="Generating_stub_files" xml:lang="en-us">
+<codeblock>&lt;task id="Generating-stub-files" xml:lang="en-us">
   &lt;title>Generating stub files&lt;/title>
-  &lt;shortdesc>You can use IBM Task Modeler to generate stub files. Stub files are 
+  &lt;shortdesc>You can use Task Modeler to generate stub files. Stub files are 
              DITA files that contain only a title.&lt;/shortdesc>
   &lt;taskbody>
     <b>&lt;context></b>As you perform this procedure, you can select the conventions that 
-            you want to use for file names.<b>&lt;/context></b>
-    ...
+            you want to use for file names.
+    <b>&lt;/context></b>
+   &lt;!-- ... -->
   &lt;/taskbody>
 &lt;/task></codeblock>
 </example>

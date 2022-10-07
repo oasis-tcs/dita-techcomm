@@ -2,16 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="steps-unordered" xml:lang="en-us">
 <title><xmlelement>steps-unordered</xmlelement></title>
-  <abstract>
-    <shortdesc>The <xmlelement>steps-unordered</xmlelement> element contains a set of unordered
-      steps. Unordered steps are steps in which the order of the steps to be performed might vary
-      from one situation to another.</shortdesc>
-    <!--<shortdesc>Like the <xmlelement>steps</xmlelement> element, the <xmlelement>steps-unordered</xmlelement> element provides the main content of a task topic, but particularly for cases in which the order of steps might vary from one situation to another. At least one <xmlelement>step</xmlelement> element is required inside the <xmlelement>steps-unordered</xmlelement> element.</shortdesc>-->
-  </abstract>
+  <shortdesc>The <xmlelement>steps-unordered</xmlelement> element contains
+    a set of unordered steps. Unordered steps are steps in which the order
+    of the steps to be performed might vary from one situation to
+    another.</shortdesc>
 <prolog><metadata>
-<keywords><indexterm><xmlelement>steps-unordered</xmlelement></indexterm>
-        <indexterm>formatting
-            expectations<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm>
+<keywords><indexterm><xmlelement>steps-unordered</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
@@ -26,13 +22,14 @@
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-      <p>A author uses the following markup to indicate tasks that need to be performed before
-        leaving on a vacation. While each step involves a single item, the steps can be performed in
-        any order.</p>
-   <codeblock>&lt;task id="task">
+      <p>The following code sample shows how an author provided information
+        about the tasks that need to be performed before leaving on a
+        vacation. While each step involves a single item, the steps can be
+        performed in any order.</p>
+   <codeblock>&lt;task id="prep-for-trip">
   &lt;title>Preparing for a trip&lt;/title>
   &lt;taskbody>
-    &lt;steps-unordered>
+    <b>&lt;steps-unordered></b>
       &lt;step>
         &lt;cmd>Arrange for a pet sitter&lt;/cmd>
       &lt;/step>
@@ -42,7 +39,7 @@
       &lt;step>
         &lt;cmd>Buy a plane ticket&lt;/cmd>
       &lt;/step>
-    &lt;/steps-unordered>
+    <b>&lt;/steps-unordered></b>
   &lt;/taskbody>
 &lt;/task></codeblock>
   </example>

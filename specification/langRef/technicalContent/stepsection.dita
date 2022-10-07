@@ -29,13 +29,13 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-            <p>The following code sample illustrates how a <xmlelement>stepsection</xmlelement>
-                element might be used:</p>
+            <p>The following code sample shows how a
+          <xmlelement>stepsection</xmlelement> element might be used:</p>
       <codeblock>&lt;steps>
   &lt;step>
     &lt;cmd>Get out a bowl.&lt;/cmd>
   &lt;/step>
-  &lt;stepsection>The next two steps are very important!&lt;/stepsection>
+  <b>&lt;stepsection></b>The next two steps are very important!<b>&lt;/stepsection></b>
   &lt;step>
     &lt;cmd>Put on safety gloves.&lt;/cmd>
   &lt;/step>

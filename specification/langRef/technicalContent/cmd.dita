@@ -18,8 +18,9 @@
    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-         <p>In the following code sample, the <xmlelement>cmd</xmlelement> element provides clear,
-            active-voice instruction for how to complete a step.</p>
+         <p>In the following code sample, the <xmlelement>cmd</xmlelement>
+        element provides clear, active-voice instruction for how to
+        complete a step:</p>
 <codeblock>&lt;step>
   <b>&lt;cmd></b>Specify the configuration parameters.<b>&lt;/cmd></b>
 &lt;/step></codeblock>

@@ -26,7 +26,8 @@
                   <codeblock>&lt;step>
   &lt;cmd>Specify the configuration parameters.&lt;/cmd>
   <b>&lt;info></b>The configuration parameters can be specified from either the command line or
-        the product GUI.<b>&lt;/info></b>
+        the product GUI.
+  <b>&lt;/info></b>
 &lt;/step></codeblock>
       </example>
 </refbody>
