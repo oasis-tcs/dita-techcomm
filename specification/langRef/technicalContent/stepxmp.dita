@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
-<shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example that illustrates how a
-  step is completed. This example can be a few words, an image, or a paragraph.</shortdesc>
+<shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example
+    that illustrates how a step is completed. The example can be a few
+    words, an image, or a paragraph.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
 </keywords>
@@ -21,9 +22,9 @@
 <title>Example</title>
    <p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example
     of what a user might type as a name for a widget:</p>
-<codeblock xml:space="preserve">&lt;step&gt;
+<codeblock>&lt;step&gt;
  &lt;cmd&gt;Type a name for the widget.&lt;/cmd&gt;
- &lt;stepxmp&gt;For example, &lt;userinput&gt;mywidget&lt;/userinput&gt;&lt;/stepxmp&gt;
+ <b>&lt;stepxmp&gt;</b>For example, &lt;userinput&gt;mywidget&lt;/userinput&gt;<b>&lt;/stepxmp&gt;</b>
 &lt;/step&gt;
 </codeblock>
 </example>

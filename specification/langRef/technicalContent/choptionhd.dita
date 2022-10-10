@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choptionhd" xml:lang="en-us">
 <title><xmlelement>choptionhd</xmlelement></title>
-   <shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a label for the first
-      ("Options") column in a choice table.</shortdesc>
+   <shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a
+    label for the first column in a choice table.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>choptionhd</xmlelement></indexterm>
             <indexterm>processing
@@ -35,7 +35,8 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See <xref keyref="elements-choicetable"/>.</p>
+      <p>See <xref keyref="elements-choicetable"
+            ><xmlelement>choicetable</xmlelement></xref>.</p>
       </example>
 </refbody>
 </reference>

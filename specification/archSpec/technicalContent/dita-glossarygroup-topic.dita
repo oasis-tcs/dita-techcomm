@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "concept.dtd">
-<concept xml:lang="en-us" id="GlossaryGroupTopic-0282E9F1">
- <title>Glossary group</title>
- <shortdesc>The glossary group (<xmlelement>glossgroup</xmlelement>) topic enables authors to
-        include one or more glossary entry (<xmlelement>glossentry</xmlelement>) topics in a single
-        collection file, rather than authoring each glossary entry topic in a separate file. The
-        glossary group topic is a specialization of concept.<draft-comment author="robander"
-            audience="spec-editors" time="25 May 2021">Do we need an example here like in the other
-            topics? Perhaps an example of a term with 2 senses, managed in one
-        file?</draft-comment></shortdesc>
+<concept xml:lang="en-us" id="glossary-group-topic">
+  <title>Glossary group</title>
+  <abstract>
+    <shortdesc>Glossary group topics are designed to enable authors to
+      author and edit glossary entries in a single file, rather than
+      working with many single glossary entry topics.</shortdesc>
+    <!--<shortdesc>The glossary group (<xmlelement>glossgroup</xmlelement>) topic enables authors to include one or more glossary entry (<xmlelement>glossentry</xmlelement>) topics in a single collection file, rather than authoring each glossary entry topic in a separate file. The glossary group topic is a specialization of concept.<draft-comment author="robander" audience="spec-editors" time="25 May 2021">Do we need an example here like in the other topics? Perhaps an example of a term with 2 senses, managed in one file?</draft-comment></shortdesc>-->
+  </abstract>
+  <conbody>
+    <section id="purpose">
+      <title>Purpose</title>
+      <p>The glossary group topic has the following purposes:</p>
+      <ul>
+        <li/>
+      </ul>
+    </section>
+    <section id="content-model">
+      <title>Content model</title>
+      <p/>
+    </section>
+    <example>
+      <title>Example</title>
+      <p>The following code sample shows a glossary group topic:</p>
+      <codeblock/>
+    </example>
+  </conbody>
 </concept>

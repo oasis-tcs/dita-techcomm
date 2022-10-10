@@ -19,12 +19,15 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="rendering-expectations">
-      <title>Rendering expectations</title>
-      <draft-comment author="Kristen J Eberlein" time="06 October 2022">
-        <p>Do we want to state that choice table are often/typically
-          rendered as tables?</p>
-      </draft-comment>
+    <section id="usage-information" rev="2.0">
+      <title>Usage information</title>
+      <p>A choice table provides information when there is more than one
+        way to complete a step. It is a simple table with two columns. The
+        first cell in a row provides a name for the option, and the second
+        cell in the row provides instructions for completing the step.</p>
+      <p>An optional header row can provide labels for the columns, if an
+        author does not want to use the default labels that are  provided
+        by stylesheets.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -61,8 +64,7 @@
   <b>&lt;/choicetable&gt;</b>
 &lt;/step&gt;</codeblock>
       <p>The choice table might be rendered in the following way:</p>
-      <image placement="break" href="../../images/choicetable.jpg"
-        scale="60"/>
+      <image placement="break" href="../../images/choicetable.jpg"/>
     </example>
   </refbody>
 </reference>

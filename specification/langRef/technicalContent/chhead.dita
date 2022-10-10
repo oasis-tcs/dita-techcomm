@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains optional header row content for a
-    choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
+<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains optional
+    header-row content for a choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>alternate header text</indexterm></indexterm>
         <indexterm>processing
           expectations<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
@@ -19,5 +19,6 @@
    </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-    <p>See <xref keyref="elements-choicetable"/>.</p>
+    <p>See <xref keyref="elements-choicetable"
+            ><xmlelement>choicetable</xmlelement></xref>.</p>
 </example></refbody></reference>

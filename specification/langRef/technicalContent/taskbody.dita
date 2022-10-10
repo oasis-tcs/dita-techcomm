@@ -2,23 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="taskbody" xml:lang="en-us">
 <title><xmlelement>taskbody</xmlelement></title>
-<shortdesc>The <xmlelement>taskbody</xmlelement> element contains the body of a task topic.  The
-      task body can include prerequisites, contextual information, steps, results, an example,
-      troubleshooting information, and post-requisites.</shortdesc>
+<shortdesc>The <xmlelement>taskbody</xmlelement> element contains the body
+    of a task topic. The task body can include prerequisites, contextual
+    information, steps, results, an example, troubleshooting information,
+    and post-requisites. General task topics can also contain generic
+    sections.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>taskbody</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>taskbody</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
       <section id="usage-information">
-         <title>Usage information</title>
-         <p>The content model of the <xmlelement>taskbody</xmlelement> element depends on the type
-            of task topic used.</p>
-                  <draft-comment author="robander" time="21 may 2021">I think the above statement is
-                        true for almost any element in a configured shell, it's just that this is
-                        the only element where OASIS gives two configured options out of the box.
-                        Not sure how best to clarify that here.</draft-comment>
-      </section>
+      <title>Usage information</title>
+      <p>The content model for the task topic varies depending on whether
+        the (strict) task or general task document-type shell is used.</p>
+      <draft-comment author="robander" time="21 may 2021">I think the above
+        statement is true for almost any element in a configured shell,
+        it's just that this is the only element where OASIS gives two
+        configured options out of the box. Not sure how best to clarify
+        that here. <div>
+          <p>Kris Eberlein, 07 October 2022</p>
+          <p>I modified the original sentence slightly ...</p>
+        </div></draft-comment>
+    </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>taskbody</xmlelement> element is specialized from <xmlelement>body</xmlelement>.
@@ -28,8 +34,44 @@
                   <p conkeyref="reuse-attributes/only-universal"/>
    </section>
 <example id="example" otherprops="examples">
-<title>Example</title>
-      <p>See <xref keyref="elements-task"/>.</p>
+<title>Examples</title>
+      <p>This section contains examples of the
+          <xmlelement>taskbody</xmlelement> element in both (strict) task
+        and general task topics.</p>
+      <fig>
+        <title>Strict task topic</title>
+        <p>The following code sample shows how the
+            <xmlelement>taskbody</xmlelement>element contains the main
+          building blocks of a strict task topic:</p>
+        <codeblock>&lt;task id="Generating-stub-files" xml:lang="en-us">
+  &lt;title>Generating stub files&lt;/title>
+  &lt;shortdesc>You can use Task Modeler to generate stub files. Stub files are DITA files 
+             that contain only a title.&lt;/shortdesc>
+  <b>&lt;taskbody></b>
+    &lt;prereq>You must have created a DITA map in Task Modeler.&lt;/prereq>
+    &lt;context>As you perform this procedure, you can select the conventions that you want to 
+             use for file names.&lt;/context>
+    &lt;steps>
+      &lt;!-- ... -->
+    &lt;/steps>
+    &lt;result>In the File Manager view, you can see the file names and paths of the DITA
+            topics.&lt;/result>
+    &lt;tasktroubleshooting>If you cannot see the file name and paths of the DITA topics, refresh
+            the view.&lt;/tasktroubleshooting>
+    &lt;example> &lt;! -- ... --> &lt;/example>
+    &lt;postreq>You now can create a relationship table to define links between the topics in 
+             your DITA map.&lt;/postreq>
+  <b>&lt;/taskbody></b>
+&lt;/task></codeblock>
+        <p>In a strict task topic, while the child elements of
+            <xmlelement>taskbody</xmlelement> are all optional, they can
+          only occur once and must appear in a specific order.</p>
+      </fig>
+      <fig>
+        <title>General task topic</title>
+        <p>The following code sample shows ...</p>
+        <codeblock/>
+      </fig>
 </example>
 </refbody>
 </reference>

@@ -22,16 +22,16 @@
       <p conkeyref="reuse-attributes/only-universal"/>
 </section>
 <example id="example" otherprops="examples"><title>Example</title>
-            <p>An author uses the following markup to provide informal information about how to grow
-                a flower from seed:</p><codeblock>&lt;task>
+            <p>The following code sample shows how an author provided
+        informal information about how to grow a flower from seed:</p><codeblock>&lt;task id="growing-flower>
   &lt;title>Growing a flower from seed&lt;/title>
   &lt;taskbody>
-    &lt;steps-informal>
+    <b>&lt;steps-informal></b>
       &lt;p>Put the soil in the container any old way. It doesn't really 
          matter how you do it as long as it is at least 12 cm deep. Once 
          the soil is in place, plant the seeds, water appropriately and 
          wait.&lt;/p>
-    &lt;/steps-informal>
+    <b>&lt;/steps-informal></b>
   &lt;/taskbody>
 &lt;/task></codeblock></example>
 </refbody>
