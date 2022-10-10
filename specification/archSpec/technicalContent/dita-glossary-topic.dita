@@ -2,66 +2,76 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="glossaryArch" xml:lang="en-us">
   <title>Glossary entry</title>
-  <shortdesc>Each glossary entry <xmlelement>glossentry</xmlelement> topic defines a single sense of
-    one term. Besides identifying the term and providing a definition, the topic accommodates basic
-    terminology information such as part of speech. A glossentry topic might also include acronyms
-    and acronym expansions. Glossentry topics can be assembled by authors or processes to create
-    glossaries for various purposes, including books, websites, or other projects.<draft-comment
-      author="robander" audience="spec-editors" time="25 may 2021">I think I'm being picky but
-      "including books, websites, or other projects" does not seem to add anything to this
-      already-long shortdesc.</draft-comment></shortdesc>
+  <abstract>
+    <shortdesc>A glossary entry topic defines a single meaning of a term.
+      It also can provide information such as part of speech, acronyms, and
+      acronym expansions.</shortdesc>
+    <!--<shortdesc>Each glossary entry <xmlelement>glossentry</xmlelement> topic defines a single sense of one term. Besides identifying the term and providing a definition, the topic accommodates basic terminology information such as part of speech. A glossentry topic might also include acronyms and acronym expansions. Glossentry topics can be assembled by authors or processes to create glossaries for various purposes, including books, websites, or other projects.<draft-comment author="robander" audience="spec-editors" time="25 may 2021">I think I'm being picky but "including books, websites, or other projects" does not seem to add anything to this already-long shortdesc.</draft-comment></shortdesc>-->
+  </abstract>
   <conbody>
     <section id="purpose">
-      <title>The purpose of the glossary entry topic</title>
-      <p>Defining terminology in a glossary ensures that a team of writers uses the same term for
-        the same concept. A glossary added to a book or available online in conjunction with other
-        subject matter provides the reader with definitions of unfamiliar terms and expands
-        acronyms.</p>
+      <title>Purpose</title>
+      <p>Glossary entry topics serve the following purposes:</p>
+      <ul>
+        <li>They ensure that a team of writers can use the same
+          terminology.</li>
+        <li>They make it possible to create glossaries that can be use to
+          provide readers with definitions of terms and explanations about
+          acronyms.</li>
+      </ul>
     </section>
-    <section id="structure">
-      <title>The structure of the glossentry topic</title>
-      <p>The top-level element for a DITA glossentry topic is the <xmlelement>glossentry</xmlelement>
-        element. Every glossentry topic contains a <xmlelement>glossterm</xmlelement> and a <xmlelement>glossdef</xmlelement> element and
-        optional <xmlelement>related-links</xmlelement>.</p>
-      <p>Where a term has multiple definitions, best practices call for the writer to create
-        multiple glossentry topics with the same term in the <xmlelement>glossterm</xmlelement>
-        element but different definitions in the <xmlelement>glossdef</xmlelement> element. A
-        processor can collate and group glossentry topics by term when generating formatted output.
-        Note that definitions with the same term in one language can have different terms in other
-        languages, so translations can result in different collation and grouping of the same set of
-        glossentry topics.</p>
-      <p>Here is an example of a simple glossentry topic:</p>
+    <!--<section><title>The purpose of the glossary entry topic</title><p>Defining terminology in a glossary ensures that a team of writers uses the same term for the same concept. A glossary added to a book or available online in conjunction with other subject matter provides the reader with definitions of unfamiliar terms and expands acronyms.</p></section>-->
+    <section id="content-model">
+      <title>Content model</title>
+      <p>Each glossary entry topic contains the following structures:</p>
+      <ul>
+        <li>Term</li>
+        <li>Definition of term</li>
+        <li importance="optional">Glossary body (which can contain
+          acronyms and surface terms)</li>
+        <li importance="optional">Related links</li>
+      </ul>
+    </section>
+    <!--<section id="structure"><title>The structure of the glossentry topic</title><p>The top-level element for a DITA glossentry topic is the <xmlelement>glossentry</xmlelement> element. Every glossentry topic contains a <xmlelement>glossterm</xmlelement> and a <xmlelement>glossdef</xmlelement> element and optional <xmlelement>related-links</xmlelement>.</p></section>-->
+    <!--<section id="acronyms"><title>Acronyms defined within glossentry topics</title><p>The glossentry topic can be used to provide expansions of acronyms in online text and assist in the proper translation of acronyms into multiple languages. The acronym elements of the glossentry topic include the following:<ul><li><xmlelement>glossterm</xmlelement> specifies the full term to which the acronym refers.</li><li><xmlelement>glossSurfaceForm</xmlelement> specifies the appropriate rendering of the full term plus the acronym.</li><li><xmlelement>glossAcronym</xmlelement> specifies the acronym for the term.</li></ul></p><draft-comment author="robander" audience="spec-editors" time="25 may 2021">As in a bookmap, should decide whether we want to start with "Here is..."<p>Also we should be able to come up with an example that is not WMDs. Maybe just use the EU example (we already have the Polish example here), and leave the "translation without acronym" example to a note or comment?</p></draft-comment></section>-->
+    <example>
+      <title>Example</title>
+      <p>The following code sample contains a simple glossentry topic:</p>
       <codeblock>&lt;glossentry id="ddl">
-    &lt;glossterm>Data Definition Language&lt;/glossterm>
-    &lt;glossdef>A language used for defining database schemas.&lt;/glossdef>
+  &lt;glossterm>data definition language&lt;/glossterm>
+  &lt;glossdef>A language used for defining database schemas&lt;/glossdef>
 &lt;/glossentry></codeblock>
-      <p>To create a glossary, authors can group multiple entries together by<ul id="ul_pbk_vlq_spb">
-          <li>authoring in a single document using the Glossary group document type</li>
-          <li>authoring in a single document under a container topic using the ditabase document
-            type</li>
+      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
+        <p>This should have a glossbody that specifies an acronym and a
+          surface term. Also realted links.</p>
+      </draft-comment>
+    </example>
+    <section>
+      <title>Best practices info that should be moved elsewhere</title>
+      <p>Where a term has multiple definitions, best practices call for the
+        writer to create multiple glossentry topics with the same term in
+        the <xmlelement>glossterm</xmlelement> element but different
+        definitions in the <xmlelement>glossdef</xmlelement> element. A
+        processor can collate and group glossentry topics by term when
+        generating formatted output. Note that definitions with the same
+        term in one language can have different terms in other languages,
+        so translations can result in different collation and grouping of
+        the same set of glossentry topics.</p>
+      <p>To create a glossary, authors can group multiple entries together
+          by<ul id="ul_pbk_vlq_spb">
+          <li>authoring in a single document using the Glossary group
+            document type</li>
+          <li>authoring in a single document under a container topic using
+            the ditabase document type</li>
           <li>referencing the glossentry topics from a map</li>
           <li>using an automated process</li>
         </ul></p>
-      <p>For example, an automated process might assemble glossentry topics from a repository based
-        on the <xmlelement>term</xmlelement> markup in a particular collection of topics.</p>
+      <p>For example, an automated process might assemble glossentry topics
+        from a repository based on the <xmlelement>term</xmlelement> markup
+        in a particular collection of topics.</p>
     </section>
-    <section id="acronyms">
-      <title>Acronyms defined within glossentry topics</title>
-      <p>The glossentry topic can be used to provide expansions of acronyms in online text and
-        assist in the proper translation of acronyms into multiple languages. The acronym elements
-        of the glossentry topic include the following:<ul
-          id="ul_584c0ec8-47d8-48db-8f4c-4e8e67e87d52">
-          <li><xmlelement>glossterm</xmlelement> specifies the full term to which the acronym
-            refers.</li>
-          <li><xmlelement>glossSurfaceForm</xmlelement> specifies the appropriate rendering of the
-            full term plus the acronym.</li>
-          <li><xmlelement>glossAcronym</xmlelement> specifies the acronym for the term.</li>
-        </ul></p>
-      <draft-comment author="robander" audience="spec-editors" time="25 may 2021">As in a bookmap,
-        should decide whether we want to start with "Here is..."<p>Also we should be able to come up
-          with an example that is not WMDs. Maybe just use the EU example (we already have the
-          Polish example here), and leave the "translation without acronym" example to a note or
-          comment?</p></draft-comment>
+    <section>
+      <title>Translation info that should go somewhere else</title>
       <p>Here is an example of an acronym used in the glossentry topic:</p>
       <codeblock>&lt;glossentry id="wmd" xml:lang="en">
   &lt;glossterm>Weapons of Mass Destruction&lt;/glossterm>
@@ -73,10 +83,12 @@
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
-      <p>Here is an example of how the glossentry topic would be translated into Spanish:</p>
+      <p>Here is an example of how the glossentry topic would be translated
+        into Spanish:</p>
       <codeblock>&lt;glossentry id="wmd" xml:lang="es">
   &lt;glossterm>armas de destrucción masiva&lt;/glossterm>
-  &lt;glossdef>...&lt;/glossdef>
+  &lt;glossdef>
+    &lt;!-- ... -->&lt;/glossdef>
   &lt;glossBody>
     &lt;glossSurfaceForm>&lt;/glossSurfaceForm>
     &lt;glossAlt>
@@ -84,11 +96,13 @@
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
-      <p>Note that because no acronym exists for the term in Spanish, the <xmlelement>glossSurfaceForm</xmlelement> and
-        <xmlelement>glossAcronym</xmlelement> elements are left blank.</p>
-      <p>In some languages, the surface form that expands the acronym in its first use handles the
-        formatting differently than in English. For example, in Polish, the acronym precedes the
-        expansion.</p>
+      <p>Note that because no acronym exists for the term in Spanish, the
+          <xmlelement>glossSurfaceForm</xmlelement> and
+          <xmlelement>glossAcronym</xmlelement> elements are left
+        blank.</p>
+      <p>In some languages, the surface form that expands the acronym in
+        its first use handles the formatting differently than in English.
+        For example, in Polish, the acronym precedes the expansion.</p>
       <codeblock>&lt;glossentry id="eu" xml:lang="pl">
   &lt;glossterm>Unia Europejska&lt;/glossterm>
   &lt;glossdef>...&lt;/glossdef>
@@ -99,9 +113,10 @@
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
-      <p>For more information about the correct use of acronym expansions in multiple languages, see
-          <cite>Best Practice for Managing Acronyms and Abbreviations in DITA</cite>, produced by
-        the DITA Translation Subcommittee. <xref format="html"
+      <p>For more information about the correct use of acronym expansions
+        in multiple languages, see <cite>Best Practice for Managing
+          Acronyms and Abbreviations in DITA</cite>, produced by the DITA
+        Translation Subcommittee. <xref format="html"
           href="http://www.oasis-open.org/committees/download.php/29734/AcronymBestPractice_08112008.doc"
           scope="external"/></p>
     </section>

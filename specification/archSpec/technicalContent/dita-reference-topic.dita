@@ -1,98 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept xml:lang="en-us" id="dita_ref_topic"> 
-  <title>Reference</title> 
-  <shortdesc>Reference topics are specialized from topic. They contain the standard topic elements,
-		including title, short descriptions or abstract, prolog, a body, and related links.</shortdesc> 
-  <conbody> 
-	 <section id="purpose">
-			<title>The purpose of the reference topic</title>
-			<p>Reference topics provide data that supports users as they perform a task. Reference
-				topics might provide lists and tables that include product specifications, parts
-				lists, and other data that is often <q>looked up</q> rather than memorized. A reference
-				topic also can describe commands in a programming language or required tools for a
-				series of maintenance tasks.</p>
-			<p>Reference topics provide quick access to fact-based information. In technical
-				information, reference topics are used to list product specifications and
-				parameters, provide essential data, and provide detailed information on subjects
-				such as the commands in a programming language. Reference topics can contain any
-				subject matter that has regular content, such as ingredients for food in recipes,
-				bibliographic lists, catalog items, and so on.</p>
-		</section> 
-	 <section id="structure">
-			<title>The structure of the reference topic</title>
-			<p>The top-level element for a reference topic is the <xmlelement>reference</xmlelement>
-				element.</p>
-			<p>The <xmlelement>refbody</xmlelement> element contains the main body-level elements of
-				the reference topic. Reference topics limit the body to tables (both simple and
-				complex), property lists, syntax sections, generic sections, and examples.</p>
-			<p>All of the elements of <xmlelement>refbody</xmlelement> are optional; they can appear in any
-				sequence and number.</p>
-		</section> 
-	 <section id="limitations">
-			<title>Limitations on the reference body</title>
-			<p>The <xmlelement>refbody</xmlelement> provides for an unlimited number of subdivisions in the
-				form of sections, examples, syntax sections, property lists, and tables. Simple
-				tables, complex tables, and property lists also can appear within syntax sections.
-				Sections, examples, syntax sections, table subdivisions, and property lists cannot
-				nest; only one level of subdivision is permitted in the reference topic.</p>
-		</section> 
-	 <section id="elements">
-			<title>The elements in the reference body</title>
-			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">Like in
-				concept, this is almost but not quite a redefinition of section, example,
-				etc</draft-comment>
-			<dl>
-				<dlentry>
-					<dt><xmlelement>section</xmlelement>
-					</dt>
-					<dd>Represents an organizational division in a reference topic. Sections organize subsets of
-						information within a larger topic. You can only include a simple list of
-						peer sections in a topic; sections cannot be nested. A section can have an
-						optional title. </dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>refsyn</xmlelement>
-					</dt>
-					<dd>Contains syntax or signature content (for example, a command-line utility's
-						calling syntax or an API's signature). The <xmlelement>refsyn</xmlelement>
-						contains a brief, possibly diagrammatic description of the subject's
-						interface or high-level structure. </dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>example</xmlelement>
-					</dt>
-					<dd>Provides examples that illustrate or support the current topic. The
-							<xmlelement>example</xmlelement> element has the same content model as
-							<xmlelement>section</xmlelement>. </dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>table</xmlelement>
-					</dt>
-					<dd>Organizes information according into a rows and columns. Table markup also
-						allows for more complex structures, including spanning rows and columns, as
-						well as table captions. </dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>simpletable</xmlelement>
-					</dt>
-					<dd>Holds information in regular rows and columns and does not allow a caption.
-					</dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>properties</xmlelement>
-					</dt>
-					<dd>Lists properties of a subject and their types, values, and descriptions.
-					</dd>
-				</dlentry>
-			</dl>
-		</section> 
-	 <example id="example" otherprops="examples">
-			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">Should not
-				start with "Following is …"</draft-comment>
-			<p>Following is an example of a simple reference topic, including the
-					<xmlelement>refsyn</xmlelement> element. </p>
-			<codeblock>&lt;reference id="boldproperty"&gt;
+<concept xml:lang="en-us" id="reference-topic">
+  <title>Reference</title>
+  <shortdesc>Reference topics contain reference information that users
+    might need to consult occasionally, for example, product
+    specifications, part lists, API calls, programming language commands,
+    etc.</shortdesc>
+  <conbody>
+    <section id="purpose">
+      <title>Purpose</title>
+      <p>Reference topics serve the following purposes:</p>
+      <ul>
+        <li>Provide data that supports novice users as they perform a
+          task</li>
+        <li>Provide quick access to fact-based information</li>
+        <li>Contain information that advanced users look up
+          infrequently</li>
+      </ul>
+    </section>
+    <!--<section id="purpose"><title>The purpose of the reference topic</title><p>Reference topics provide data that supports users as they perform a task. Reference topics might provide lists and tables that include product specifications, parts lists, and other data that is often <q>looked up</q> rather than memorized. A reference topic also can describe commands in a programming language or required tools for a series of maintenance tasks.</p><p>Reference topics provide quick access to fact-based information. In technical information, reference topics are used to list product specifications and parameters, provide essential data, and provide detailed information on subjects such as the commands in a programming language. Reference topics can contain any subject matter that has regular content, such as ingredients for food in recipes, bibliographic lists, catalog items, and so on.</p></section>-->
+    <section id="content-model">
+      <title>Content model</title>
+      <p>The body of a reference topic can contain the following document
+        structures:</p>
+      <ul>
+        <li>Examples</li>
+        <li>Property lists</li>
+        <li>Sections</li>
+        <li>Syntax sections</li>
+        <li>Tables (both complex and simple)</li>
+        <li>Reference body divisions (which can group the structures in the
+          reference body)</li>
+      </ul>
+      <p>These structures can appear in any order or combination. However,
+        basic document structure such as paragraphs, lists, and figures
+        cannot be placed directly in the body of the reference topic. They
+        must be contained within one of the structures listed above.</p>
+    </section>
+    <!--<section id="structure"><title>The structure of the reference topic</title><p>The top-level element for a reference topic is the <xmlelement>reference</xmlelement> element.</p><p>The <xmlelement>refbody</xmlelement> element contains the main body-level elements of the reference topic. Reference topics limit the body to tables (both simple and complex), property lists, syntax sections, generic sections, and examples.</p><p>All of the elements of <xmlelement>refbody</xmlelement> are optional; they can appear in any sequence and number.</p></section>-->
+    <!--<section id="limitations"><title>Limitations on the reference body</title><p>The <xmlelement>refbody</xmlelement> provides for an unlimited number of subdivisions in the form of sections, examples, syntax sections, property lists, and tables. Simple tables, complex tables, and property lists also can appear within syntax sections. Sections, examples, syntax sections, table subdivisions, and property lists cannot nest; only one level of subdivision is permitted in the reference topic.</p></section>-->
+    <!--<section id="elements"><title>The elements in the reference body</title><draft-comment author="robander" audience="spec-editors" time="25 may 2021">Like in concept, this is almost but not quite a redefinition of section, example, etc</draft-comment><dl><dlentry><dt><xmlelement>section</xmlelement> </dt><dd>Represents an organizational division in a reference topic. Sections organize subsets of information within a larger topic. You can only include a simple list of peer sections in a topic; sections cannot be nested. A section can have an optional title. </dd></dlentry><dlentry><dt><xmlelement>refsyn</xmlelement> </dt><dd>Contains syntax or signature content (for example, a command-line utility's calling syntax or an API's signature). The <xmlelement>refsyn</xmlelement> contains a brief, possibly diagrammatic description of the subject's interface or high-level structure. </dd></dlentry><dlentry><dt><xmlelement>example</xmlelement> </dt><dd>Provides examples that illustrate or support the current topic. The <xmlelement>example</xmlelement> element has the same content model as <xmlelement>section</xmlelement>. </dd></dlentry><dlentry><dt><xmlelement>table</xmlelement> </dt><dd>Organizes information according into a rows and columns. Table markup also allows for more complex structures, including spanning rows and columns, as well as table captions. </dd></dlentry><dlentry><dt><xmlelement>simpletable</xmlelement> </dt><dd>Holds information in regular rows and columns and does not allow a caption. </dd></dlentry><dlentry><dt><xmlelement>properties</xmlelement> </dt><dd>Lists properties of a subject and their types, values, and descriptions. </dd></dlentry></dl></section>-->
+    <!--<example id="example" otherprops="examples"><title>Example</title><draft-comment author="robander" audience="spec-editors" time="25 may 2021">Should not start with "Following is …"</draft-comment><p>The following code examples contains a simple reference topic, including the <xmlelement>refsyn</xmlelement> element. </p><codeblock>&lt;reference id="boldproperty"&gt;
 &lt;title&gt;Bold property&lt;/title&gt;
 &lt;shortdesc&gt;(Read-write) Whether to use a bold font for the specified text string.&lt;/shortdesc&gt;
 &lt;refbody&gt;
@@ -113,17 +61,12 @@
     &lt;/property&gt;
   &lt;/properties&gt;
 &lt;/refbody&gt;
-&lt;/reference&gt;</codeblock>
-		</example> 
-	 <example id="example-property" otherprops="examples">
-			<draft-comment author="robander" audience="spec-editors" time="25 may 2021">Still should
-				not start with "Following is …" – also, the previous example already had the
-					<xmlelement>property</xmlelement> element, just didn't have all 3
-				columns?</draft-comment>
-			<p>Following is an example of a simple reference topic, including the
-					<xmlelement>property</xmlelement> element. </p>
-			<codeblock>&lt;reference id="oiltypes"&gt;
-  &lt;title&gt;Oil Types&lt;/title&gt;
+&lt;/reference&gt;</codeblock></example>-->
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>The following code sample contains a simple reference topic:</p>
+      <codeblock>&lt;reference id="oil-types"&gt;
+  &lt;title&gt;Oil types&lt;/title&gt;
   &lt;shortdesc&gt;The tables provide the recommended oil types.&lt;/shortdesc&gt;
   &lt;refbody&gt;
     &lt;properties&gt;
@@ -135,16 +78,16 @@
       &lt;property&gt;
         &lt;proptype&gt;Primary oil&lt;/proptype&gt;
         &lt;propvalue&gt;A1X&lt;/propvalue&gt;
-        &lt;propdesc&gt;Appropriate for one-cylinder engines&lt;/propdesc&gt;
+        &lt;propdesc&gt;One-cylinder engines&lt;/propdesc&gt;
       &lt;/property&gt;
       &lt;property&gt;
         &lt;proptype&gt;Secondary oil&lt;/proptype&gt;
         &lt;propvalue&gt;B2Z&lt;/propvalue&gt;
-        &lt;propdesc&gt;Appropriate for two-cylinder engines&lt;/propdesc&gt;
+        &lt;propdesc&gt;Two-cylinder engines&lt;/propdesc&gt;
       &lt;/property&gt;
     &lt;/properties&gt;
   &lt;/refbody&gt;
 &lt;/reference&gt;</codeblock>
-		</example> 
-  </conbody> 
+    </example>
+  </conbody>
 </concept> 
