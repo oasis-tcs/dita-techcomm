@@ -17,9 +17,9 @@
     <refbody>
         <section id="usage-information">
             <title>Usage information</title>
-            <p>If you require different output between different types of hardware controls, you can
-                use the <xmlatt>outputclass</xmlatt> attribute to distinguish between different
-                types of usage. </p>
+            <p>Implementations that require different output for different
+        types of hardware controls can use the <xmlatt>outputclass</xmlatt>
+        attribute to distinguish between different types of usage. </p>
         </section>
         <section id="specialization-hierarchy">
             <title>Specialization hierarchy</title>

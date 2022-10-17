@@ -15,15 +15,7 @@
       <section id="usage-information">
       <title>Usage information</title>
       <p>The content model for the task topic varies depending on whether
-        the (strict) task or general task document-type shell is used.</p>
-      <draft-comment author="robander" time="21 may 2021">I think the above
-        statement is true for almost any element in a configured shell,
-        it's just that this is the only element where OASIS gives two
-        configured options out of the box. Not sure how best to clarify
-        that here. <div>
-          <p>Kris Eberlein, 07 October 2022</p>
-          <p>I modified the original sentence slightly ...</p>
-        </div></draft-comment>
+        the strict task or general task document-type shell is used.</p>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

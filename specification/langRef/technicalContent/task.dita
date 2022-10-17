@@ -16,33 +16,24 @@
   <section id="usage-information">
       <title>Usage information</title>
       <p>The OASIS DITA Technical Committee distributes two document-type
-        shells for task topics: general task and (strict) task.</p>
+        shells for task topics: general task and strict task.</p>
       <dl>
+        <dlentry>
+          <dt>General task</dt>
+          <dd>Has a more relaxed content model. It allows
+              <xmlelement>section</xmlelement> and
+              <xmlelement>steps-informal</xmlelement> inside of the task
+            body; it also allows multiple instances and varying order for
+            the elements that make up the task body.</dd>
+        </dlentry>
         <dlentry>
           <dt>(Strict) task</dt>
           <dd>Maintains a strict order and cardinality for elements within the
               <xmlelement>taskbody</xmlelement> content model. The strict task is implemented with a
             constraint module.</dd>
         </dlentry>
-        <dlentry>
-          <dt>General task</dt>
-          <dd>Relaxes the content model of the original task topic. It allows
-              <xmlelement>section</xmlelement> and <xmlelement>steps-informal</xmlelement> inside of
-            the task body; it also allows multiple instances and varying order for the elements that
-            make up the task body.</dd>
-        </dlentry>
       </dl>
-      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>I think this information, as currently written, belongs elsewere
-          -- perhaps in whatever overview topic we have about  task.</p>
-        <p>Here, I think we just need to say that the content model for the
-          task topic varies based on what document-type shell is in use.
-          And honestly, I think the information should be in the
-            <xmlelement>taskbody</xmlelement> topic rather than here.</p>
-        <p>For example: "The content model for the task topic varies
-          depending on whether the (strict) task or general task
-          document-type shell is in use."</p>
-      </draft-comment>
+      <!--<draft-comment author="Kristen J Eberlein" time="07 October 2022"><p>I think this information, as currently written, belongs elsewere -\- perhaps in whatever overview topic we have about task.</p><p>Here, I think we just need to say that the content model for the task topic varies based on what document-type shell is in use. And honestly, I think the information should be in the <xmlelement>taskbody</xmlelement> topic rather than here.</p><p>For example: "The content model for the task topic varies depending on whether the (strict) task or general task document-type shell is in use."</p></draft-comment>-->
     </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
