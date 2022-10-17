@@ -2,8 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="task">
     <title>Task</title>
-    <shortdesc></shortdesc>
-    <conbody>
-        <p></p>
-    </conbody>
+    <shortdesc>DITA offer two varieties of task topics: general task and
+    strict task.</shortdesc>
 </concept>
