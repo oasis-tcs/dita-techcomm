@@ -32,9 +32,11 @@
         </section>
         <example id="example" otherprops="examples">
             <title>Example</title>
-            <p>The following code samples show how <xmlelement>hwcontrol</xmlelement> can be used
-                within task steps to identify hardware controls, including examples that use
-                    <xmlatt>outputclass</xmlatt> to distiguish between types of controls.</p>
+            <p>The following code samples show how
+          <xmlelement>hwcontrol</xmlelement> can be used within task steps
+        to identify hardware controls, including examples that use
+          <xmlatt>outputclass</xmlatt> to distinguish between types of
+        controls.</p>
             <codeblock>&lt;step>&lt;cmd>If the command is already running, 
 select the command window and press <b>&lt;hwcontrol>CTRL+C&lt;/hwcontrol></b>
 to end processing.&lt;/cmd>&lt;/step></codeblock>
