@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map xml:lang="en-us" collection-type="sequence">
- <title>Overview</title>
- <topicref href="archSpec-technicalContent.dita">
-  <topicref href="technicalContent/dita-technicalContent-InformationTypes.dita">
-    <topicmeta>
-     <navtitle>Technical content: Information types</navtitle>
-    </topicmeta>
-   <!--<topicref href="technicalContent/technicalContent-document-types.dita"/>-->
-   <topicref href="technicalContent/dita-spec-intro-bookmap.dita"/>
-   <topicref href="technicalContent/dita-concept-topic.dita"/>
-   <topicref href="technicalContent/dita-glossary-topic.dita"/>
-   <topicref href="technicalContent/dita-glossarygroup-topic.dita"/>
-   <topicref href="technicalContent/dita-reference-topic.dita"/>
-   <topicref href="technicalContent/dita-generic-task-topic.dita"/>
-   <topicref href="technicalContent/dita-task-topic.dita"/>
-   <topicref href="technicalContent/dita-troubleshooting-topic.dita">
-    <topicref href="technicalContent/TroubleshootingElements.dita"/>
-   </topicref>
-  </topicref>
+<map xml:lang="en-us">
+  <title>Domain specializations</title>
   <topicref href="technicalContent/technical-content-domains.dita">
-   <!--<topicref href="technicalContent/dita_technicalContent_TopicDomains.dita"/>-->
-   <topicref href="technicalContent/mathML-and-equation-domains.dita"/>
-   <topicref href="technicalContent/releaseManagement-domain.dita"/>
-   <topicref href="technicalContent/xNALDomain.dita">
-    <topicref href="technicalContent/xnaldetails.dita"/>
-   </topicref>
+    <!--<topicref href="technicalContent/dita_technicalContent_TopicDomains.dita"/>-->
+    <topicref href="technicalContent/mathML-and-equation-domains.dita"/>
+    <topicref href="technicalContent/releaseManagement-domain.dita"/>
+    <topicref href="technicalContent/xNALDomain.dita">
+      <topicref href="technicalContent/xnaldetails.dita"/>
+    </topicref>
   </topicref>
- </topicref>
 </map>

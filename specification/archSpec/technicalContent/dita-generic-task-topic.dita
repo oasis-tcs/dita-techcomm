@@ -2,140 +2,75 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_generic_task_topic" xml:lang="en-US">
 	<title>General task</title>
-	<shortdesc>The general-task document type was introduced in DITA 1.2. It provides a less-strict
-		content model for task-oriented information than was available previously. Some
-		organizations might prefer the general-task content model over the strict task model, as it
-		can facilitate the migration of legacy content that does not follow the strict-task topic
-		model. The general-task document type serves as the base for the strict-task and
-		machine-industry-task document types. It also can be used to create new document types or
-			specializations.<draft-comment author="robander" audience="spec-editors"
-			time="25 may 2021">Should work on a new version of this shortdesc:<ul
-				id="ul_jlf_3pq_spb">
-				<li>I don't think we care anymore when it was introduced? DITA 2.0 is a fresh
-					start</li>
-				<li>All of the short descs in this section seem to be kind of long but this seems …
-					quite long</li>
-				<li>Maybe we should leave the "some organizations prefer" to the concept body
-					here?</li>
-				<li>I assume we want to remove mention of the machine-industry-task even if the TC
-					is going to post a version of it somewhere in github</li>
-			</ul><p>Might be heresy, but given that both strict task and general task are tasks,
-				might it be better to have one topic on the specailziation itself, with the
-				distinction described in a section? After all – the "Task" topic after this one is
-				the only one here that describes a document type configuration rather than a
-				topic/map specialization.</p></draft-comment></shortdesc>
+  <abstract>
+    <shortdesc>A general task topic answers the "How do I?" question by
+      providing instructions and other necessary information that enables
+      the user to complete the task successfully. It has a content model
+      that is more relaxed than that of the strict
+      task.<!-- The general-task document type serves as the base for the strict-task document type. It also can be used to create new document types or specializations.--></shortdesc>
+  </abstract>
 	<conbody>
-		<section id="section_4B12CAE12AF84259B9DED26BC5F9FEDE">
-			<title>The purpose of the general task information type</title>
-			<p>Like the DITA strict task document type, the general task document and information
-				types contain the essential building blocks to provide procedural information. Both
-				task information types answer the "How do I?" question by providing step-by-step
-				instructions that detail the requirements that must be fulfilled, the actions that
-				must be performed, and the order in which the actions must be performed. Both task
-				topics include sections for describing the context, prerequisites, expected results,
-				and other aspects of a task.</p>
-			<p id="p_14C11461E6164EEDB93CDECE17D657C5">The general task information type is
-				specifically designed to accommodate task specializations that differ from the DITA
-				task information type. It might also be used for the conversion of loosely
-				structured tasks from other sources into DITA before they are restructured to follow
-				the more restrictive DITA task model.</p>
-		</section>
-		<section id="section_0C8A068CDF1D498F9FF534D3CE88CF2F">
-			<title>The structure of the general task topic</title>
-			<p id="p_366CB29A7238470BA9070488F953FBDD">The <xmlelement>task</xmlelement> element is the
-				top-level element for the general task topic. The general task topic contains a
-					<xmlelement>title</xmlelement>, a short description or
-					<xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>,
-					<xmlelement>taskbody</xmlelement> for the main task content, and
-					<xmlelement>related-links</xmlelement>.</p>
-			<p id="p_7262A46437C34654BD4E46DC49BC6FD4">The following elements are described here because they
-				are introduced as part of the general task model. All other elements are described
-				in the strict task topic.<draft-comment author="robander" audience="spec-editors"
-					time="25 may 2021">this paragraph also makes me think we're adding to confusion
-					by defining some elements here, and some in "strict task"</draft-comment></p>
-			<dl>
-				<dlentry>
-					<dt><xmlelement>section</xmlelement>
-					</dt>
-					<dd>Represents an organizational division in a task topic. Sections organize subsets of
-						information within the larger topic. Sections cannot be nested. A section
-						can have an optional <xmlelement>title</xmlelement>. </dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>steps-informal</xmlelement>
-					</dt>
-					<dd>Describes procedural task information that would not normally be ordered as
-							<xmlelement>steps</xmlelement>, such as a group of general procedures
-						that might all be applied in a particular situation. Instead of
-							<xmlelement>step</xmlelement>, the
-							<xmlelement>steps-informal</xmlelement> element uses
-							<xmlelement>ol</xmlelement> and <xmlelement>ul</xmlelement> elements,
-						which are less strictly defined than the <xmlelement>step</xmlelement>
-						element. When converting legacy content, it might be simpler to convert
-						numbered lists to <xmlelement>ol</xmlelement> elements than to
-							<xmlelement>step</xmlelement> elements. </dd>
-				</dlentry>
-			</dl>
-		</section>
-		<section id="section_9CD7027683F049709DD7BCD431B421D8">
-			<title>Comparison of general and strict task</title>
-			<p id="p_5533CE00385F44929D16A29C78727AF9">The following table compares the structures
-				of general and strict task:</p>
-			<table id="table_D297CDD1D8B24415A28A74A37372B423">
-				<tgroup cols="2">
-					<colspec colname="col1"/>
-					<colspec colname="col2"/>
-					<thead>
-						<row>
-							<entry valign="top">General <xmlelement>taskbody</xmlelement>
-							</entry>
-							<entry valign="top">Strict <xmlelement>taskbody</xmlelement> constraint </entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>prerequisite (optional, in any order, any number) </entry>
-							<entry>prerequisite (optional, one only, must precede context) </entry>
-						</row>
-						<row>
-							<entry>context (optional, in any order, any number) </entry>
-							<entry>context (optional, one only, must follow prerequisite) </entry>
-						</row>
-						<row>
-							<entry>section (optional, in any order, any number) </entry>
-							<entry>(not defined for strict <xmlelement>taskbody</xmlelement>) </entry>
-						</row>
-						<row>
-							<entry>steps </entry>
-							<entry>steps </entry>
-						</row>
-						<row>
-							<entry>steps-unordered </entry>
-							<entry>steps-unordered </entry>
-						</row>
-						<row>
-							<entry>steps-informal </entry>
-							<entry>(not allowed in strict <xmlelement>taskbody</xmlelement>) </entry>
-						</row>
-						<row>
-							<entry>result (optional, one only, precedes example) </entry>
-							<entry>result (optional, one only, precedes example) </entry>
-						</row>
-						<row>
-							<entry>tasktroubleshooting (optional, one only)</entry>
-							<entry>tasktroubleshooting (optional, one only)</entry>
-						</row>
-						<row>
-							<entry>example (optional, any number, precedes post-req) </entry>
-							<entry>example (optional, one only, precedes post-req) </entry>
-						</row>
-						<row>
-							<entry>post-requisite (optional, any number) </entry>
-							<entry>post-requisite (optional, one only) </entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
-		</section>
+    <section id="purpose">
+      <title>Purpose</title>
+      <p>The purpose of the general task topic is to provide the user with
+        comprehensive instructions for performing a task. In addition, its
+        content model can facilitate the migration of procedural
+        information that does not follow the content model of the strict
+        task topic.</p>
+    </section>
+    <!--<section id="section_4B12CAE12AF84259B9DED26BC5F9FEDE"><title>The purpose of the general task information type</title><p>Like the DITA strict task document type, the general task document and information types contain the essential building blocks to provide procedural information. Both task information types answer the "How do I?" question by providing step-by-step instructions that detail the requirements that must be fulfilled, the actions that must be performed, and the order in which the actions must be performed. Both task topics include sections for describing the context, prerequisites, expected results, and other aspects of a task.</p><p id="p_14C11461E6164EEDB93CDECE17D657C5">The general task information type is specifically designed to accommodate task specializations that differ from the DITA task information type. It might also be used for the conversion of loosely structured tasks from other sources into DITA before they are restructured to follow the more restrictive DITA task model.</p></section>-->
+    <section id="content-model">
+      <title>Content model</title>
+      <p>The general task topic is divided into three parts:</p>
+      <dl>
+        <dlentry>
+          <dt>Introduction</dt>
+          <dd>This portion of the topic can contain the following
+            structural sections:<ul>
+              <li>Prerequisites (<xref keyref="elements-prereq"
+                    ><xmlelement>prerequisites</xmlelement></xref>)</li>
+              <li>Contextual information (<xref keyref="elements-context"
+                    ><xmlelement>context</xmlelement></xref>)</li>
+              <li>Sections (<xmlelement>sections</xmlelement>)</li>
+            </ul>
+            <p>These sections are all optional. They can appear in any
+              order and can occur multiple times.</p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>Procedural instructions</dt>
+          <dd>This portion of the topic can contain only one of the
+            following structural sections:<ul>
+              <li>Steps (<xref keyref="elements-steps"
+                    ><xmlelement>steps</xmlelement></xref>)</li>
+              <li>Steps informal (<xref keyref="elements-steps-informal"
+                    ><xmlelement>steps-informal</xmlelement></xref>)</li>
+              <li>Steps unordered (<xref keyref="elements-steps-unordered"
+                    ><xmlelement>steps-unordered</xmlelement></xref>)</li>
+            </ul></dd>
+        </dlentry>
+        <dlentry>
+          <dt>Post-instructions</dt>
+          <dd>The section of the topic can contain the following structural sections:<ol>
+              <li>Result (<xref keyref="elements-result"
+                    ><xmlelement>result</xmlelement></xref></li>
+              <li>Troubleshooting information (<xref
+                  keyref="elements-tasktroubleshooting"
+                    ><xmlelement>tasktroubleshooting</xmlelement></xref></li>
+              <li>Example (<xmlelement>example</xmlelement>)</li>
+              <li>Post-requisites (<xref keyref="elements-postreq"
+                    ><xmlelement>postreq)</xmlelement></xref></li>
+            </ol><p>While all of the above structural components are
+              optional, they must occur in the outlined order. Examples and
+              post-requisites can occur multiple times.</p></dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="example">
+      <title>Example</title>
+      <p/>
+      <codeblock/>
+    </section>
+    <!--<section id="section_0C8A068CDF1D498F9FF534D3CE88CF2F"><title>The structure of the general task topic</title><p id="p_366CB29A7238470BA9070488F953FBDD">The <xmlelement>task</xmlelement> element is the top-level element for the general task topic. The general task topic contains a <xmlelement>title</xmlelement>, a short description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, <xmlelement>taskbody</xmlelement> for the main task content, and <xmlelement>related-links</xmlelement>.</p><p id="p_7262A46437C34654BD4E46DC49BC6FD4">The following elements are described here because they are introduced as part of the general task model. All other elements are described in the strict task topic.<draft-comment author="robander" audience="spec-editors" time="25 may 2021">this paragraph also makes me think we're adding to confusion by defining some elements here, and some in "strict task"</draft-comment></p><dl><dlentry><dt><xmlelement>section</xmlelement> </dt><dd>Represents an organizational division in a task topic. Sections organize subsets of information within the larger topic. Sections cannot be nested. A section can have an optional <xmlelement>title</xmlelement>. </dd></dlentry><dlentry><dt><xmlelement>steps-informal</xmlelement> </dt><dd>Describes procedural task information that would not normally be ordered as <xmlelement>steps</xmlelement>, such as a group of general procedures that might all be applied in a particular situation. Instead of <xmlelement>step</xmlelement>, the <xmlelement>steps-informal</xmlelement> element uses <xmlelement>ol</xmlelement> and <xmlelement>ul</xmlelement> elements, which are less strictly defined than the <xmlelement>step</xmlelement> element. When converting legacy content, it might be simpler to convert numbered lists to <xmlelement>ol</xmlelement> elements than to <xmlelement>step</xmlelement> elements. </dd></dlentry></dl></section>-->
+    <!--<section id="section_9CD7027683F049709DD7BCD431B421D8"><title>Comparison of general and strict task</title><p id="p_5533CE00385F44929D16A29C78727AF9">The following table compares the structures of general and strict task:</p><table id="table_D297CDD1D8B24415A28A74A37372B423"><tgroup cols="2"><colspec colname="col1"/><colspec colname="col2"/><thead><row><entry valign="top">General <xmlelement>taskbody</xmlelement> </entry><entry valign="top">Strict <xmlelement>taskbody</xmlelement> constraint </entry></row></thead><tbody><row><entry>prerequisite (optional, in any order, any number) </entry><entry>prerequisite (optional, one only, must precede context) </entry></row><row><entry>context (optional, in any order, any number) </entry><entry>context (optional, one only, must follow prerequisite) </entry></row><row><entry>section (optional, in any order, any number) </entry><entry>(not defined for strict <xmlelement>taskbody</xmlelement>) </entry></row><row><entry>steps </entry><entry>steps </entry></row><row><entry>steps-unordered </entry><entry>steps-unordered </entry></row><row><entry>steps-informal </entry><entry>(not allowed in strict <xmlelement>taskbody</xmlelement>) </entry></row><row><entry>result (optional, one only, precedes example) </entry><entry>result (optional, one only, precedes example) </entry></row><row><entry>tasktroubleshooting (optional, one only)</entry><entry>tasktroubleshooting (optional, one only)</entry></row><row><entry>example (optional, any number, precedes post-req) </entry><entry>example (optional, one only, precedes post-req) </entry></row><row><entry>post-requisite (optional, any number) </entry><entry>post-requisite (optional, one only) </entry></row></tbody></tgroup></table></section>-->
 	</conbody>
 </concept>
