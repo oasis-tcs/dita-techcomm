@@ -23,9 +23,10 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>xmlatt</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
-          <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+          <xmlelement>markupname</xmlelement>, which is defined in the
+        XML-mention domain module. The <xmlelement>markupname</xmlelement>
+        element is specialized from <xmlelement>keyword</xmlelement>, which
+        is defined in the markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -33,9 +34,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>xmlatt</xmlelement> element is used to tag
-        mentions of the <xmlatt>collection-type</xmlatt> and <xmlatt>linking</xmlatt>
-        attributes:</p>
+      <p>The following code sample shows how the
+          <xmlelement>xmlatt</xmlelement> element can be used to tag
+        mentions of the <xmlatt>collection-type</xmlatt> and
+          <xmlatt>linking</xmlatt> attributes:</p>
       <codeblock>&lt;p>The <b>&lt;xmlatt>collection-type&lt;/xmlatt></b> and <b>&lt;xmlatt>linking&lt;/xmlatt></b> 
 attributes affect how related links are generated for topics that are 
 referenced in the DITA map.&lt;/p></codeblock>

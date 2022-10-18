@@ -23,10 +23,11 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>numcharref</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
-          <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <p>The <xmlelement>numcharref</xmlelement> element is specialized
+        from <xmlelement>markupname</xmlelement>, which is defined in the
+        XML-mention domain module. The <xmlelement>markupname</xmlelement>
+        element is specialized from <xmlelement>keyword</xmlelement>, which
+        is defined in the markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -34,13 +35,15 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, a <xmlelement>numcharref</xmlelement> element tags the
-        numeric character reference for the a-acute Unicode character:</p>
+      <p>The following code sample shows how a
+          <xmlelement>numcharref</xmlelement> element can be used to tag
+        the numeric character reference for the a-acute Unicode
+        character:</p>
       <codeblock>&lt;p>Numeric character references represent characters from the Universal
 Character Set (UCS) of Unicode. They are used to reference characters  that 
 cannot easily be directly encoded in a document, such as a copyright 
 symbol. When a markup-aware processor encounters a numeric character 
-reference, for example, &lt;numcharref>225&lt;/numcharref>, it renders the 
+reference, for example, <b>&lt;numcharref></b>225<b>&lt;/numcharref></b>, it renders the 
 reference as the Unicode character that it represents: a-acute.&lt;/p></codeblock>
     </example>
   </refbody>

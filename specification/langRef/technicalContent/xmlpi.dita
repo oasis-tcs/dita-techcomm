@@ -18,9 +18,10 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>xmlpi</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
-          <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+          <xmlelement>markupname</xmlelement>, which is defined in the
+        XML-mention domain module. The <xmlelement>markupname</xmlelement>
+        element is specialized from <xmlelement>keyword</xmlelement>, which
+        is defined in the markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -28,7 +29,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, an <xmlelement>xmlpi</xmlelement> element is used to tag the
+      <p>The following code sample shows how an
+          <xmlelement>xmlpi</xmlelement> element can be used to tag the
         name of a processing instruction:</p>
       <codeblock>&lt;p>While DITA does not define any processing instructions, applications might
 use some DocBook processing instructions, such as <b>&lt;xmlpi>dbhtml_bgcolor&lt;/xmlpi></b>.&lt;/p></codeblock>
