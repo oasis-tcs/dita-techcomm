@@ -41,9 +41,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>codref</xmlelement> element references the
-        content of the <filepath>process-dita.xsl</filepath> file. In the rendered output, the XSL
-        code will be present in a code block.</p>
+      <p>In the following code sample, the <xmlelement>codref</xmlelement>
+        element references the content of the
+          <filepath>process-dita.xsl</filepath> file. In the rendered
+        output, the XSL code will be presented in a code block.</p>
       <codeblock>&lt;example>
   &lt;title>Processing DITA&lt;/title>
   &lt;p>This code is an example of how to process DITA.&lt;/p>

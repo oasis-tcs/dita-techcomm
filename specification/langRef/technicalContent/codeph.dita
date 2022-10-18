@@ -27,7 +27,7 @@
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>codeph</xmlelement> element identifies a code
         snippet. The code snippet will be rendered in-line in the paragraph.</p>
-      <codeblock>&lt;p&gt;The second line of the sample program code, &lt;codeph&gt;Do forever&lt;/codeph&gt;, 
+      <codeblock>&lt;p&gt;The second line of the sample program code, <b>&lt;codeph&gt;</b>Do forever<b>&lt;/codeph&gt;</b>, 
 represents the start of a loop construct.&lt;/p&gt;</codeblock></example>
   </refbody>
 </reference>

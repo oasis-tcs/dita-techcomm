@@ -3,8 +3,13 @@
  "reference.dtd">
 <reference id="parmname" xml:lang="en-us">
   <title><xmlelement>parmname</xmlelement></title>
-  <shortdesc>The <xmlelement>parmname</xmlelement> element identifies the name of an API
-    parameter.</shortdesc>
+  <shortdesc>The <xmlelement>parmname</xmlelement> element identifies the
+    name of an API parameter.<draft-comment author="Kristen J Eberlein"
+      time="18 October 2022">
+      <p>Do we want to broaden the definition? I think this element is used
+        more broadly than just API parameters. In fact, the example in this
+        topic shows it used as a parameter to a command.</p>
+    </draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,9 +33,11 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>parmname</xmlelement> element identifies a
-        parameter used with the <cmdname>config</cmdname> command:</p>
-      <codeblock>&lt;p>Use the &lt;parmname&gt;/env&lt;/parmname&gt; parameter of the &lt;cmdname&gt;config&lt;/cmdname&gt; 
+      <p>The following code sample shows how the
+          <xmlelement>parmname</xmlelement> element can be used to identify
+        a parameter that is used with the <cmdname>config</cmdname>
+        command:</p>
+      <codeblock>&lt;p>Use the <b>&lt;parmname&gt;/env&lt;/parmname&gt;</b> parameter of the &lt;cmdname&gt;config&lt;/cmdname&gt; 
 command to update the field value.&lt;/p></codeblock></example>
   </refbody>
 </reference>

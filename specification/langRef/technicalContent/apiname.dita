@@ -24,10 +24,13 @@
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/universal-keyref"/>
       </section>
-      <example id="example" otherprops="examples"
-         ><title>Example</title>
-         <p>In the following code sample, the <xmlelement>apiname</xmlelement> element identifies
-            the <apiname>document.write</apiname> method.</p><codeblock xml:space="preserve">&lt;p&gt;Use the &lt;apiname&gt;document.write&lt;/apiname&gt; method to create text 
-output in the dynamically constructed view.&lt;/p&gt;</codeblock></example>
+      <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>The following code sample shows how the
+          <xmlelement>apiname</xmlelement> element can be used to identify
+        the <apiname>document.write</apiname> method:</p>
+      <codeblock>&lt;p&gt;Use the <b>&lt;apiname&gt;</b>document.write<b>&lt;/apiname></b> method to create text 
+output in the dynamically constructed view.&lt;/p&gt;</codeblock>
+    </example>
    </refbody>
 </reference>

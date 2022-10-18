@@ -27,7 +27,8 @@ the programming domain module.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="parml.dita"/>.</p>
+      <p>See <xref href="parml.dita"
+        ><xmlelement>parml</xmlelement></xref>.</p>
     </example>
   </refbody>
 </reference>
