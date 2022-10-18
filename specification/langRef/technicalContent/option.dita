@@ -29,12 +29,13 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, command line options for a tool are defined in a list.</p>
-      <codeblock>&lt;p>The most common command line options include:
- &lt;ul>
-  &lt;li>&lt;option>-compress&lt;/option> will generate data in compressed form.&lt;/li>
-  &lt;li>&lt;option>-debug&lt;/option> will generate debug information while running.&lt;/li>
-  &lt;li>&lt;option>-help&lt;/option> will print extended help information.&lt;/li>
- &lt;/ul>&lt;/p></codeblock></example>
+      <p>The following code sample shows how the command line options for a
+        tool are defined in a list:</p>
+      <codeblock>&lt;p>The most common command line options include:&lt;/p>
+&lt;ul>
+  &lt;li><b>&lt;option>-compress&lt;/option></b> will generate data in compressed form.&lt;/li>
+  &lt;li><b>&lt;option>-debug&lt;/option></b> will generate debug information while running.&lt;/li>
+  &lt;li><b>&lt;option>-help&lt;/option></b> will print extended help information.&lt;/li>
+&lt;/ul></codeblock></example>
   </refbody>
 </reference>

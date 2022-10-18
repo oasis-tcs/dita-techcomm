@@ -29,21 +29,21 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, a set of sample code is followed by a parameter list to
-        define those parameters.</p>
-      <codeblock xml:space="preserve" id="codeblock_rcl_rl4_rpb">&lt;p>This code example is a basic method signature:
-&lt;codeblock&gt;returnType methodName(pList1, pList2) {&lt;/codeblock&gt;&lt;/p>
-&lt;p>The method requires two parameters:
+      <p>The following code sample shows how a set of sample code is
+        followed by a parameter list that defines those parameters.</p>
+      <codeblock xml:space="preserve" id="codeblock_rcl_rl4_rpb">&lt;p>This code example is a basic method signature:&lt;/p>
+&lt;codeblock&gt;returnType methodName(pList1, pList2)&lt;/codeblock&gt;
+&lt;p>The method requires the following parameters:&lt;/p>
 &lt;parml&gt;
- &lt;plentry&gt;
-  &lt;pt&gt;pList1&lt;/pt&gt;
-  &lt;pd&gt;is the first variable declaration passed to methodName&lt;/pd&gt;
- &lt;/plentry&gt;
- &lt;plentry&gt;
-  &lt;pt&gt;pList2&lt;/pt&gt;
-  &lt;pd&gt;is the second variable declaration passed to methodName&lt;/pd&gt;
- &lt;/plentry&gt;
-&lt;/parml&gt;&lt;/p></codeblock>
+  &lt;plentry&gt;
+    &lt;pt&gt;pList1&lt;/pt&gt;
+    &lt;pd&gt;is the first variable declaration passed to methodName&lt;/pd&gt;
+  &lt;/plentry&gt;
+  &lt;plentry&gt;
+    &lt;pt&gt;pList2&lt;/pt&gt;
+    &lt;pd&gt;is the second variable declaration passed to methodName&lt;/pd&gt;
+  &lt;/plentry&gt;
+&lt;/parml&gt;</codeblock>
       <p>The rendered version of that sample might look like:</p>
       <p>This code example is a basic method
         signature:<codeblock xml:space="preserve" id="codeblock_vks_xl4_rpb">returnType methodName(pList1, pList2) {</codeblock></p>

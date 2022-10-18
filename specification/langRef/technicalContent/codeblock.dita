@@ -34,13 +34,14 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>codeblock</xmlelement> element contains an
+      <p>The following code sample shows how the
+          <xmlelement>codeblock</xmlelement> element can be used to tage an
         excerpt from the code for a program:</p>
-      <codeblock>&lt;codeblock&gt;
+      <codeblock><b>&lt;codeblock&gt;</b>
 /* a long sample program */
 Do forever
   Say "Hello, World"
 End
-&lt;/codeblock&gt;</codeblock></example>
+<b>&lt;/codeblock&gt;</b></codeblock></example>
   </refbody>
 </reference>

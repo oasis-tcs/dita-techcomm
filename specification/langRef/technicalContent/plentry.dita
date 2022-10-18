@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="plentry" xml:lang="en-us">
   <title><xmlelement>plentry</xmlelement></title>
-  <shortdesc>The <xmlelement>plentry</xmlelement> element contains one or more parameter terms and
-    definitions (<xmlelement>pt</xmlelement> and <xmlelement>pd</xmlelement>).</shortdesc>
+  <shortdesc>The <xmlelement>plentry</xmlelement> element contains one or
+    more parameter terms and definitions,</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,7 +28,8 @@ defined in the programming domain module.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="parml.dita"/>.</p>
+      <p>See <xref href="parml.dita"
+        ><xmlelement>parml</xmlelement></xref>.</p>
     </example>
   </refbody>
 </reference>
