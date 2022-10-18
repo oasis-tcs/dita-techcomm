@@ -29,14 +29,16 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>menucascade</xmlelement> element is used to
-        identify a series of menu choices that enable users to launch the Notepad application:</p>
-      <codeblock>&lt;menucascade&gt;
+      <p>The following code sample shows how the
+          <xmlelement>menucascade</xmlelement> element can be used to
+        identify a series of menu choices that enable users to launch the
+        Notepad application:</p>
+      <codeblock><b>&lt;menucascade&gt;</b>
  &lt;uicontrol&gt;Start&lt;/uicontrol&gt;
  &lt;uicontrol&gt;Programs&lt;/uicontrol&gt;
  &lt;uicontrol&gt;Accessories&lt;/uicontrol&gt;
- &lt;uicontrol&gt;Notepad&lt;/uicontrol&gt;
-&lt;/menucascade&gt;</codeblock>
+ &lt;uicontrol&gt;Notepad&lt;/uicontrol&gt;<b>
+&lt;/menucascade&gt;</b></codeblock>
     </example>
   </refbody>
 </reference>

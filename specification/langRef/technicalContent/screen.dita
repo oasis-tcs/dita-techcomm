@@ -15,11 +15,11 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section_nhf_lrj_spb">
-      <draft-comment author="robander" time="24 May 2021">We have rendering rules for msgblock that
-        say it MUST preserve newlines / white space. I think we should be consistent, either have it
-        there and here, or not have it at all (because xml:space already means they are supposed to
-        respect this). Not sure which though.</draft-comment>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Processors <term outputclass="RFC-2119">SHOULD</term> preserve the
+        line breaks and spaces that are present in the content of a
+          <xmlelement>screen</xmlelement> element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,7 +34,7 @@
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>screen</xmlelement> element is used to
         provide a representation of a DOS window:</p>
-      <codeblock>&lt;screen&gt;
+      <codeblock><b>&lt;screen&gt;</b>
 File  Edit  Search  View  Options  Help
 +--------------------------------- UNTITLED1 ----------------------------------+
 ¦                                                                              ¦
@@ -43,7 +43,7 @@ File  Edit  Search  View  Options  Help
 ¦                                                                              ¦
 ¦  Line:1    Col:1  F1=Help                                                    ¦
 +------------------------------------------------------------------------------+
-&lt;/screen&gt;</codeblock>
+<b>&lt;/screen&gt;</b></codeblock>
     </example>
   </refbody>
 </reference>

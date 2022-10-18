@@ -26,11 +26,12 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>wintitle</xmlelement> element is used to tag
-        the name of the "Configuration Options" window:</p>
+      <p>The following code sample shows how the
+          <xmlelement>wintitle</xmlelement> element can be used to tag the
+        name of the "Configuration Options" window:</p>
       <codeblock>&lt;step&gt;
   &lt;cmd&gt;Click &lt;uicontrol&gt;Configure&lt;/uicontrol&gt;.&lt;/cmd&gt;
-  &lt;stepresult&gt;The &lt;wintitle&gt;Configuration Options&lt;/wintitle&gt; window
+  &lt;stepresult&gt;The <b>&lt;wintitle></b>Configuration Options<b>&lt;/wintitle&gt;</b> window
   opens with your last set of selections highlighted.&lt;/stepresult&gt;
 &lt;/step&gt;</codeblock></example>
   </refbody>
