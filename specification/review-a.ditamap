@@ -26,8 +26,19 @@
       <toc/>
     </booklists>
   </frontmatter>
+  <chapter
+    href="archSpec/technicalContent/dita-technicalContent-InformationTypes.dita">
+    <topicref href="archSpec/technicalContent/task.dita">
+      <topicref
+        href="archSpec/technicalContent/dita-generic-task-topic.dita"/>
+      <topicref href="archSpec/technicalContent/dita-task-topic.dita"/>
+    </topicref>
+  </chapter>
   <chapter format="ditamap" href="langRef/task-elements.ditamap"/>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
+  <appendix
+    href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
+    format="ditamap"/>
   <backmatter>
     <booklists>
       <indexlist/>

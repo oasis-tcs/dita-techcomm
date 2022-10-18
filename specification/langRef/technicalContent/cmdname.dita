@@ -27,8 +27,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>cmdname</xmlelement> element identifies the
-        name of the <cmdname>rm</cmdname> command.</p>
+      <p>The following code sample shows a <xmlelement>cmdname</xmlelement>
+        element that identifies the name of the <cmdname>rm</cmdname>
+        command.</p>
       <codeblock>&lt;p>Use the <b>&lt;cmdname>rm&lt;/cmdname></b> command to permanently delete an object.&lt;/p></codeblock></example>
   </refbody>
 </reference>

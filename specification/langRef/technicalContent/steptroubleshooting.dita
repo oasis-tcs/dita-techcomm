@@ -17,16 +17,9 @@
   <refbody>
 <section id="usage-information">
 <title>Usage information</title>
-<note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph> inside of the
-          <xmlelement>steptroubleshooting</xmlelement> element, because its meaning there would be
-        ambiguous.</note>
-      <draft-comment author="robander" time="21 may 2021">I don't
-        understand how this would be ambiguous, but it does feel like it
-        would be redundant?<div>
-          <p>Kris Eberlein, 07 October 2022</p>
-          <p>See the explanation that I provided in the
-              <xmlelement>tasktroubleshooting</xmlelement> topic..</p>
-        </div></draft-comment>
+<note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph>
+        inside of the <xmlelement>steptroubleshooting</xmlelement>
+        element.</note>
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

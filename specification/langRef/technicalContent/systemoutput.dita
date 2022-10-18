@@ -29,8 +29,8 @@
       <p>In the following code sample, the <xmlelement>systemoutput</xmlelement> element identifies
         an application response to user input:</p>
       <codeblock>&lt;p&gt;After you type &lt;userinput&gt;mealplan dinner&lt;/userinput&gt;, the meal planning program
-will print a &lt;systemoutput&gt;For what day?&lt;/systemoutput&gt; message.
+will print <b>&lt;systemoutput&gt;</b>For what day?<b>&lt;/systemoutput&gt;</b>.
 Reply by typing the day of the week for which you want a meal plan,
-for example, &lt;userinput&gt;Thursday&lt;/userinput&gt;.&lt;/p&gt;</codeblock></example>
+for example, <b>&lt;userinput&gt;</b>Thursday<b>&lt;/userinput&gt;</b>.&lt;/p&gt;</codeblock></example>
   </refbody>
 </reference>

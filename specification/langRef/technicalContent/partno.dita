@@ -24,15 +24,16 @@
         </section>
         <example otherprops="examples">
             <title>Example</title>
-            <p>The following code samples show how <xmlelement>partno</xmlelement> can be used to
-                identify part numbers within text.</p>
+            <p>The following code sample shows how
+          <xmlelement>partno</xmlelement> can be used to identify a part
+        number:</p>
             <codeblock>&lt;p>The basic model, <b>&lt;partno>DB-123-456&lt;/partno></b>, is an entry model. Most users
 can take advantage of all features with little to no set up. The <b>&lt;partno>DB-123-456&lt;/partno></b> 
 is available with all systems.</codeblock>
-            <codeblock>&lt;step>
+      <!--<codeblock>&lt;step>
     &lt;cmd>Place the replacement &lt;hwcontrol>Component <b>&lt;partno>DB-123-789&lt;/partno></b>&lt;/hwcontrol> 
 in the slot and secure with the 4 screws.&lt;/cmd>
-   &lt;/step></codeblock>
+   &lt;/step></codeblock>-->
         </example>
     </refbody>
 </reference>

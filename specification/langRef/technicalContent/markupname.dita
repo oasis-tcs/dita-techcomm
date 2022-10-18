@@ -2,9 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="markupname">
   <title><xmlelement>markupname</xmlelement></title>
-  <shortdesc>The <xmlelement>markupname</xmlelement> element identifies named markup tokens, for
-    example,  elements or attributes in XML and SGML, named groups in XSD schemas, and named
-    patterns in RELAX NG schemas.</shortdesc>
+  <shortdesc>The <xmlelement>markupname</xmlelement> element identifies
+    named markup components, for example, elements or attributes in XML and
+    SGML, named groups in XSD schemas, and named patterns in RELAX NG
+    schemas.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,9 +17,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>markupname</xmlelement> element serves as the specialization basis for the
-        elements in the XML mention domain. When the XML mention domain is present, use its more
-        specific elements instead of <xmlelement>markupname</xmlelement> when
+      <p>The <xmlelement>markupname</xmlelement> element serves as the
+        specialization basis for the elements in the XML mention domain.
+        When the XML mention domain is present, use its more specific
+        elements instead of <xmlelement>markupname</xmlelement> if
         appropriate.<!--14 April 2014: Discussed last sentence with Kris and Robert, agreed that this is lower case "should",
       which is more appropriate for the end user author audience rather than for implementations. Do not use RFC terminology.--></p>
     </section>
@@ -33,9 +35,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>markupname</xmlelement> element is used to
-        tag an attribute group.</p>
-      <codeblock>The <b>&lt;markupname>p.attributes&lt;/markupname></b> attribute group defines 
+      <p>The following code sample shows how the
+          <xmlelement>markupname</xmlelement> element can be used to tag an
+        attribute group:</p>
+      <codeblock>The <b>&lt;markupname></b>p.attributes<b>&lt;/markupname></b> attribute group defines 
 the allowed attributes for the &lt;xmlelement>p&lt;/xmlelement> element.</codeblock>
     </example>
   </refbody>

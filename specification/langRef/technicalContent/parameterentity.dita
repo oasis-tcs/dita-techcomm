@@ -23,10 +23,12 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>parameterentity</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
+      <p>The <xmlelement>parameterentity</xmlelement> element is
+        specialized from <xmlelement>markupname</xmlelement>, which is
+        defined in the XML-mention domain module. The
           <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+          <xmlelement>keyword</xmlelement>, which is defined in the
+        markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -34,10 +36,12 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Examples</title>
-      <p>In the following code sample, the <xmlelement>parameterentity</xmlelement> element tags the
-        name of the <parameterentity>xml-d-dec</parameterentity> parameter entity:</p>
+      <p>The following code sample shows how the
+          <xmlelement>parameterentity</xmlelement> element can be used to
+        tag the name of the <parameterentity>xml-d-dec</parameterentity>
+        parameter entity:</p>
       <codeblock>&lt;p>To include the XML-mention domain in a DTD document-type shell, declare and 
-reference the <b>&lt;parameterentity>xml-d-dec&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
+reference the <b>&lt;parameterentity></b>xml-d-dec<b>&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

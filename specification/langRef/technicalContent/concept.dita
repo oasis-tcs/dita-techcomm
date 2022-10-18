@@ -17,11 +17,11 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Concepts provide
-        background information that users must know before they can successfully work with a product
-        or interface. Often, a concept is an extended definition of a major abstraction such as a
-        process or function. It might also have an example or a graphic, but generally the structure
-        of a concept is fairly simple.</p>
+      <p>Concepts provide background information that users must know
+        before they can successfully work with a product or interface.
+        Often, a concept is an extended definition of a major abstraction
+        such as a process or function. It might also have an example or a
+        graphic.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -32,8 +32,17 @@
       <title>Attributes</title><div
         conkeyref="reuse-attributes/topic-attributes"/></section>
     <example id="example" otherprops="examples">
-      <title>Example</title><draft-comment author="BobThomas">This ought to be an example of a
-        concept topic and not of a codeblock. It would be appropriate to reuse this example in the
-        conbody topic, but that's about it for reuse. </draft-comment></example>
+      <title>Example</title>
+      <p>The following code sample shows a concept topic:</p>
+      <codeblock><b>&lt;concept id="concept"></b>
+  &lt;title>DITA concept topic&lt;/title>
+  &lt;shortdesc>The concept topic answers the question &lt;q>what is?&lt;/q>&lt;/shortdesc>
+    &lt;conbody>
+      &lt;p>Concept topics provide background information that users must know
+         before they can successfully work with a product or interface. Often,
+         a concept is an extended definition of a major abstraction such as a
+         process or function. It might also have an example or a graphic.&lt;/p>
+    &lt;/conbody>
+<b>&lt;/concept></b></codeblock></example>
   </refbody>
 </reference>

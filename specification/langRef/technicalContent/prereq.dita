@@ -14,11 +14,8 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <draft-comment author="Kristen J Eberlein" time="06 October 2022">
-        <p>Do we want to state somehow that a generated label is really
-          important? If folks don't use a stylesheet that generates labels,
-          often the prereq info is effectively lost.</p>
-      </draft-comment>
+      <p>Implementations might want to consider having their stylesheets
+        render a label for this section.</p>
     </section>
   <section id="rendering-expectations">
       <title>Rendering expectations</title>

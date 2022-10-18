@@ -21,10 +21,11 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>xmlelement</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
-          <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <p>The <xmlelement>xmlelement</xmlelement> element is specialized
+        from <xmlelement>markupname</xmlelement>, which is defined in the
+        XML-mention domain module. The <xmlelement>markupname</xmlelement>
+        element is specialized from <xmlelement>keyword</xmlelement>, which
+        is defined in the markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -32,8 +33,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>xmlelement</xmlelement> element tags the
-          <xmlelement>uicontrol</xmlelement> element from the user-interface domain.</p>
+      <p>The following code sample shows how the
+          <xmlelement>xmlelement</xmlelement> element can be used to tag
+        the <xmlelement>uicontrol</xmlelement> element from the
+        user-interface domain.</p>
       <codeblock>&lt;p>Use the <b>&lt;xmlelement>uicontrol&lt;/xmlelement></b> (user interface control) 
 element to indicate the names of buttons, entry fields, menu items, or 
 other objects that enable a user to interact with a graphical user 

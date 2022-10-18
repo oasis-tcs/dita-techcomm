@@ -18,9 +18,10 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>xmlnsname</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
-          <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+          <xmlelement>markupname</xmlelement>, which is defined in the
+        XML-mention domain module. The <xmlelement>markupname</xmlelement>
+        element is specialized from <xmlelement>keyword</xmlelement>, which
+        is defined in the markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -28,7 +29,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, an <xmlelement>xmlnsname</xmlelement> element tags the
+      <p>The following code sample shows how an
+          <xmlelement>xmlnsname</xmlelement> element can be used to tag the
         namespace for SVG:</p>
       <codeblock>&lt;p>SVG markup is specified in an &lt;xmlelement>svg&lt;/xmlelement> element with
 the namespace <b>&lt;xmlnamespace></b>http://www.w3.org/2000/svg<b>&lt;/xmlnamespace></b>.&lt;/p></codeblock>

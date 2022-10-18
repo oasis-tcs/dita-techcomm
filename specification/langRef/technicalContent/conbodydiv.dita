@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="conbodydiv" xml:lang="en-us">
   <title><xmlelement>conbodydiv</xmlelement></title>
-  <shortdesc>The <xmlelement>conbodydiv</xmlelement> element is similar to the
-      <xmlelement>bodydiv</xmlelement> element in that it provides an informal container for content
-    that might be grouped within a concept. </shortdesc>
+  <shortdesc>The <xmlelement>conbodydiv</xmlelement> element provides an
+    container for content that might be grouped within a concept topic. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,9 +17,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>There are no additional semantics
-        attached to the <xmlelement>conbodydiv</xmlelement> element; it is purely a grouping element
-        provided to help organize content.</p>
+      <p>There are no additional semantics attached to the
+          <xmlelement>conbodydiv</xmlelement> element. It is purely a
+        grouping element that provided to help organize content for
+        reuse.</p>
       <p>The parent <xmlelement>conbody</xmlelement> element has a restriction that
           <xmlelement>section</xmlelement> or <xmlelement>example</xmlelement> elements can only be
         followed by other sections or examples. The <xmlelement>conbodydiv</xmlelement> element,
@@ -39,21 +39,23 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>One common use case for the <xmlelement>conbodydiv</xmlelement> element is to group a
-        sequence of sections for reuse, so that another concept can reference the entire set with a
-        single <xmlatt>conref</xmlatt> attribute.</p>
-      <codeblock>&lt;concept id="sample" xml:lang="en">
- &lt;title>Conbodydiv example&lt;/title>
- &lt;shortdesc>This concept is a sample of how to
-use conbodydiv.&lt;/shortdesc>
- &lt;conbody>
-  &lt;p>Introduce the example.&lt;/p>
-  &lt;p>Next group some sections that might be reused elsewhere.&lt;/p>
-  &lt;conbodydiv id="my_conbodydiv">
-   &lt;section>&lt;title>First&lt;/title> ... &lt;/section>
-   &lt;section>&lt;title>Second&lt;/title> ... &lt;/section>
-  &lt;/conbodydiv>
- &lt;/conbody>
-&lt;/concept></codeblock></example>
+      <p>The following code sample shows how a
+          <xmlelement>conbodydiv</xmlelement>element can be used to group
+        content for reuse:</p>
+      <codeblock>&lt;conbody>
+  <b>&lt;conbodydiv id="concept-purpose-content-model"></b>
+    &lt;section id="purpose">
+      &lt;title>Purpose&lt;/title>
+        &lt;p>Concept topics serve a variety of purposes:&lt;/p>
+        &lt;!-- ... -->
+    &lt;/section>
+    &lt;section id="content-model">
+      &lt;title>Content model&lt;/title>
+        &lt;p>The body of a concept topic can contain the following document
+          structures:&lt;/p>
+        &lt;!-- ... -->        
+    &lt;/section>
+  <b>&lt;/conbodydiv></b>
+&lt;/conbody></codeblock></example>
   </refbody>
 </reference>

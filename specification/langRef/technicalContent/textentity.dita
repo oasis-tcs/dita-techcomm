@@ -23,10 +23,11 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>textentity</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>; it is defined in the XML-mention domain module. The
-          <xmlelement>markupname</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>; it is defined in the markup-name domain module.</p>
+      <p>The <xmlelement>textentity</xmlelement> element is specialized
+        from <xmlelement>markupname</xmlelement>, which is defined in the
+        XML-mention domain module. The <xmlelement>markupname</xmlelement>
+        element is specialized from <xmlelement>keyword</xmlelement>, which
+        is defined in the markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -34,10 +35,11 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>textentity</xmlelement> element is used to
-        tag the token that the <xmlatt>deliveryTarget</xmlatt> attribute domain contributes to the 
-        <xmlatt>specializations</xmlatt> attribute:</p>
-      <codeblock>&lt;p>The <b>&lt;textentity>deliveryTargetAtt-d-att&lt;/textentity></b> entity holds the contribution for the 
+      <p>The following code sample shows how the
+          <xmlelement>textentity</xmlelement> element is used to tag the
+        token that the <xmlatt>deliveryTarget</xmlatt> attribute domain
+        contributes to the <xmlatt>specializations</xmlatt> attribute:</p>
+      <codeblock>&lt;p>The <b>&lt;textentity></b>deliveryTargetAtt-d-att<b>&lt;/textentity></b> entity holds the contribution for the 
 &lt;xmlatt>specializations&lt;/xmlatt> attribute.&lt;/p></codeblock>
     </example>
   </refbody>

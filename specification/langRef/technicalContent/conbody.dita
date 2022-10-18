@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="conbody" xml:lang="en-us">
   <title><xmlelement>conbody</xmlelement></title>
-  <shortdesc>The <xmlelement>conbody</xmlelement> element is the main body-level element for a
-    concept.</shortdesc>
+  <shortdesc>The <xmlelement>conbody</xmlelement> element contains the main
+    content of a concept topic.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,12 +17,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Like the <xmlelement>body</xmlelement> element of a general <xmlelement>topic</xmlelement>,
-          <xmlelement>conbody</xmlelement> allows paragraphs, lists, and other elements as well as
-        sections and examples. However, <xmlelement>conbody</xmlelement> has a restriction that a
-          <xmlelement>section</xmlelement> or an <xmlelement>example</xmlelement> can be followed
-        only by other sections, examples, or <xmlelement>conbodydiv</xmlelement> elements that group
-        sections and examples.</p></section>
+      <p>The <xmlelement>conbody</xmlelement> element allows paragraphs,
+        lists, and other elements as well as sections and examples.
+        However, <xmlelement>conbody</xmlelement> element has a restriction
+        that a <xmlelement>section</xmlelement> or an
+          <xmlelement>example</xmlelement> can be followed only by other
+        sections, examples, or <xmlelement>conbodydiv</xmlelement> elements
+        that group sections and examples.</p></section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>conbody</xmlelement> element is specialized from
@@ -33,6 +34,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="concept.dita"/>.</p></example>
+      <p>See <xref keyref="elements-concept"
+            ><xmlelement>concept</xmlelement></xref>.</p></example>
   </refbody>
 </reference>

@@ -30,9 +30,9 @@
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>filepath</xmlelement> element is used to tag
         both file names and system paths:</p>
-      <codeblock>&lt;p&gt;Uncompress the &lt;filepath&gt;gbbrsh.gz&lt;/filepath&gt; file to the 
-&lt;filepath&gt;/usr&lt;/filepath&gt; directory. Ensure that the
-&lt;filepath&gt;/usr/tools/data.cfg&lt;/filepath&gt; path is listed in
+      <codeblock>&lt;p&gt;Uncompress the <b>&lt;filepath&gt;</b>gbbrsh.gz<b>&lt;/filepath&gt;</b> file to the 
+<b>&lt;filepath&gt;</b>/usr&lt;<b>/filepath&gt;</b> directory. Ensure that the<b>
+&lt;filepath&gt;</b>/usr/tools/data.cfg<b>&lt;/filepath&gt;</b> path is listed in
 the execution path system variable.&lt;/p&gt;</codeblock></example>
   </refbody>
 </reference>

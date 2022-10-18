@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Topic and map document types</title>
+  <topicref href="dita-technicalContent-InformationTypes.dita">
+    <topicref href="dita-spec-intro-bookmap.dita"/>
+    <topicref href="dita-concept-topic.dita"/>
+    <topicref href="dita-glossary-topic.dita"/>
+    <topicref href="dita-glossarygroup-topic.dita"/>
+    <topicref href="dita-reference-topic.dita"/>
+    <topicref href="task.dita">
+      <topicref href="dita-generic-task-topic.dita"/>
+      <topicref href="dita-task-topic.dita"/>
+    </topicref>
+    <topicref href="dita-troubleshooting-topic.dita"
+      ><!--<topicref href="TroubleshootingElements.dita"/>--></topicref>
+  </topicref>
+</map>
