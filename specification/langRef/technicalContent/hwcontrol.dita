@@ -32,24 +32,22 @@
         </section>
         <example id="example" otherprops="examples">
             <title>Example</title>
-            <p>The following code samples show how
+            <p>The following code sample shows how
           <xmlelement>hwcontrol</xmlelement> can be used within task steps
-        to identify hardware controls, including examples that use
-          <xmlatt>outputclass</xmlatt> to distinguish between types of
-        controls.</p>
+        to identify hardware controls:</p>
             <codeblock>&lt;step>&lt;cmd>If the command is already running, 
 select the command window and press <b>&lt;hwcontrol>CTRL+C&lt;/hwcontrol></b>
 to end processing.&lt;/cmd>&lt;/step></codeblock>
-            <codeblock>&lt;step>&lt;cmd>After entering the amount you received, press <b>&lt;hwcontrol>Amt Tend&lt;/hwcontrol></b>.&lt;/cmd>
+      <!--<codeblock>&lt;step>&lt;cmd>After entering the amount you received, press <b>&lt;hwcontrol>Amt Tend&lt;/hwcontrol></b>.&lt;/cmd>
   &lt;stepresult>This opens the cash drawer. The display shows the amount 
-  of change to give the customer.&lt;/stepresult>&lt;/step></codeblock>
-            <codeblock>&lt;step>&lt;cmd>To set your machine for this type of hem, set the
+  of change to give the customer.&lt;/stepresult>&lt;/step></codeblock>-->
+      <!--<codeblock>&lt;step>&lt;cmd>To set your machine for this type of hem, set the
 <b>&lt;hwcontrol outputclass="knob">Stitch Length&lt;/hwcontrol></b> to &lt;userinput>3&lt;/userinput>
 and the <b>&lt;hwcontrol outputclass="lever">Stitch Selector&lt;/hwcontrol></b> to
-&lt;userinput>D&lt;/userinput>.</codeblock>
-            <codeblock>&lt;step>&lt;cmd>To sew backwards, set the <b>&lt;hwcontrol outputclass="discrete-control">Stitch
+&lt;userinput>D&lt;/userinput>.</codeblock>-->
+      <!--<codeblock>&lt;step>&lt;cmd>To sew backwards, set the <b>&lt;hwcontrol outputclass="discrete-control">Stitch
 Length&lt;/hwcontrol></b> to &lt;userinput>Reverse&lt;/userinput> and press the 
-<b>&lt;hwcontrol outputclass="continuous-control">pedal&lt;/hwcontrol></b> with your foot.</codeblock>
+<b>&lt;hwcontrol outputclass="continuous-control">pedal&lt;/hwcontrol></b> with your foot.</codeblock>-->
         </example>
     </refbody>
 </reference>
