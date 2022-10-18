@@ -17,15 +17,17 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>msgblock</xmlelement> element can contain multiple message numbers and
-        message descriptions, each enclosed in <xmlelement>msgnum</xmlelement> and
-          <xmlelement>msgph</xmlelement> elements. It also can contain the message content
-        directly.</p>
+      <p>The <xmlelement>msgblock</xmlelement> element can contain multiple
+        message numbers and message descriptions, each enclosed in
+          <xmlelement>msgnum</xmlelement> and
+          <xmlelement>msgph</xmlelement> elements. It can also contain the
+        message content directly.</p>
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>Processors <term outputclass="RFC-2119">SHOULD</term> preserve line the breaks and spaces
-        that are present in the content of a <xmlelement>msgblock</xmlelement> element.</p>
+      <p>Processors <term outputclass="RFC-2119">SHOULD</term> preserve the
+        line breaks and spaces that are present in the content of a
+          <xmlelement>msgblock</xmlelement> element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -41,10 +43,11 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>msgblock</xmlelement> element contains a
-        multi-line message returned by an application:</p>
+      <p>The following code sample shows a
+          <xmlelement>msgblock</xmlelement> element that contains a
+        multi-line message that is returned by an application:</p>
       <codeblock>&lt;p&gt;A sequence of failed password attempts generates the following message stream:&lt;/p&gt;
-&lt;msgblock&gt;
+<b>&lt;msgblock&gt;</b>
 I:0
 S:3
 I:1
@@ -52,6 +55,6 @@ S:3
 I:1
 S:4
 S:99 (lockup)
-&lt;/msgblock&gt;</codeblock></example>
+<b>&lt;/msgblock&gt;</b></codeblock></example>
   </refbody>
 </reference>

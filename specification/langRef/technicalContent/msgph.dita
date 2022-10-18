@@ -25,8 +25,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>msgph</xmlelement> element is used to tag a
-        message returned by the server:</p>
+      <p>The following code sample shows how the
+          <xmlelement>msgph</xmlelement> element can be used to tag a
+        message that is returned by the server:</p>
       <codeblock>&lt;p&gt;A server log entry of &lt;msgnum&gt;I:0&lt;/msgnum&gt; is equivalent to the
 text message, <b>&lt;msgph&gt;informational: successful&lt;/msgph&gt;</b>.&lt;/p&gt;</codeblock></example>
   </refbody>

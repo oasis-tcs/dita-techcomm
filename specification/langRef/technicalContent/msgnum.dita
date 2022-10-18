@@ -25,8 +25,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>msgnum</xmlelement> element identifies the
-        number of the message returned by an application.</p>
+      <p>The following code sample shows a <xmlelement>msgnum</xmlelement>
+        element that identifies the number of the message that is returned
+        by an application:</p>
       <codeblock>&lt;p&gt;A server log entry of <b>&lt;msgnum&gt;I:0&lt;/msgnum&gt;</b> is equivalent to the
 text message &lt;msgph&gt;informational: successful&lt;/msgph&gt;.&lt;/p&gt;</codeblock></example>
   </refbody>
