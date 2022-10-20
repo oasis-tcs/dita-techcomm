@@ -12,6 +12,10 @@
     <indexterm><xmlelement>steps-informal</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p conkeyref="reuse-tc-file/task-label-rendering"/>
+    </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>steps-informal</xmlelement> element is specialized from
