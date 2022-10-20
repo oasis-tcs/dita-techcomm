@@ -12,13 +12,10 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>Implementations might want to consider having their stylesheets
-        render a label for this section.</p>
-    </section>
+    <!--<section id="usage-information"><title>Usage information</title><p>Implementations might want to consider having their stylesheets render a label for this section.</p></section>-->
   <section id="rendering-expectations">
       <title>Rendering expectations</title>
+      <p conkeyref="reuse-tc-file/task-label-rendering" rev="review-a"/>
       <p>Processors might render prerequisite links from the related-links
         section together with the content of the
           <xmlelement>prereq</xmlelement> element.</p>

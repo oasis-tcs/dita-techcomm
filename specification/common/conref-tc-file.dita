@@ -6,6 +6,11 @@
         <shortdesc>This file contains elements used by multiple files in the DITA
                 specification.</shortdesc>
         <conbody>
+    <section>
+      <title>Task labels</title>
+      <p id="task-label-rendering">Implementations might want to consider
+        having their stylesheets render a label for this element.</p>
+    </section>
     <section id="section_g42_qbp_rpb">
       <title>Release domain reuse</title>
       <p id="release-domain-best-practices">The recommended best practice is to

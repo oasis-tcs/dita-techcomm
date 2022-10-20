@@ -2,13 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_task_topic" xml:lang="en-Us">
 	<title>Strict task</title>
-  <abstract>
-    <shortdesc>A strict task topic answers the "How do I?" question by
-      providing precise step-by-step instructions and other necessary
-      information that enables the user to complete the task
-      successfully.</shortdesc>
-    <!--<shortdesc>The strict task-document type supports the development of instructions for the completion of a procedure. The strict-task document type is built using the general-task information type combined with the strict taskbody constraint</shortdesc>-->
-  </abstract>
+  <shortdesc>A strict task topic answers the "How do I?" question by
+    providing precise step-by-step instructions and other necessary
+    information that enables the user to complete the task
+    successfully.</shortdesc>
+  <!--<shortdesc>The strict task-document type supports the development of instructions for the completion of a procedure. The strict-task document type is built using the general-task information type combined with the strict taskbody constraint</shortdesc>-->
 	<conbody>
     <section id="purpose">
       <title>Purpose</title>

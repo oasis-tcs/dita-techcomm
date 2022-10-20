@@ -13,12 +13,12 @@
 <refbody>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>I think we need to say something about what processors should do
-          with the effective value of the <xmlatt>importance</xmlatt>
-          attribute. I've seen processors not render anything -- and it
-          causes problems.</p>
-      </draft-comment>
+      <p rev="review-a">When the <xmlatt>importance</xmlatt> attribute is
+        specified on the <xmlelement>step</xmlelement> element, it
+        indicates whether the step is optional or required. Implementations
+        might want to consider having their stylesheets render a applicable
+        label when <xmlatt>importance</xmlatt> is specified on
+          <xmlelement>step</xmlelement>,</p>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
@@ -35,19 +35,19 @@
     </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-   <p>The following code sample shows almost all the elements that the
-          <xmlelement>step</xmlelement> element can contain. It does not
-        contain the <xmlelement>stepxmp</xmlelement> element.</p>
+   <p>The following code sample shows <ph rev="review-a">many of</ph> the
+        elements that the <xmlelement>step</xmlelement> element can
+        contain:</p>
 <codeblock><b>&lt;step></b>
   &lt;cmd>Specify the configuration parameters.&lt;/cmd>
   &lt;info>The configuration parameters can be specified from either the command line or
         the product GUI.&lt;/info>
   &lt;choices>
     &lt;choice>From a command prompt, type config -l parameter&lt;/choice>
-    &lt;choice>Click New Configuration Parameters.&lt;/choice>
+    &lt;choice>Click New Configuration Parameters&lt;/choice>
   &lt;/choices>
-  &lt;stepresult>You receive a 'Configuration successful message".&lt;/stepresult>
-  &lt;steptroubleshooting>If you do not receive a 'Configuration successful message,"
+  &lt;stepresult>You receive a 'Configuration successful' message.&lt;/stepresult>
+  &lt;steptroubleshooting>If you do not receive a 'Configuration successful message,'
                        retry the configuration operation.&lt;/steptroubleshooting>
 <b>&lt;/step></b></codeblock>
 </example>
