@@ -26,21 +26,21 @@
         sections:</p>
       <ol>
         <li>Prerequisites (<xref keyref="elements-prereq"
-              ><xmlelement>prereq</xmlelement></xref></li>
+              ><xmlelement>prereq</xmlelement></xref>)</li>
         <li>Contextual information (<xref keyref="elements-context"
-              ><xmlelement>context</xmlelement></xref></li>
+              ><xmlelement>context</xmlelement></xref>)</li>
         <li>Steps (<xref keyref="elements-steps"
-              ><xmlelement>steps</xmlelement></xref> or <xref
+              ><xmlelement>steps</xmlelement></xref>) or (<xref
             keyref="elements-steps-informal"
               ><xmlelement>steps-unordered</xmlelement></xref>)</li>
         <li>Result (<xref keyref="elements-result"
-              ><xmlelement>result</xmlelement></xref></li>
+              ><xmlelement>result</xmlelement></xref>)</li>
         <li>Troubleshooting information (<xref
             keyref="elements-tasktroubleshooting"
-              ><xmlelement>tasktroubleshooting</xmlelement></xref></li>
+              ><xmlelement>tasktroubleshooting</xmlelement>)</xref></li>
         <li>Example (<xmlelement>example</xmlelement>)</li>
         <li>Post-requisites (<xref keyref="elements-postreq"
-              ><xmlelement>postreq)</xmlelement></xref></li>
+              ><xmlelement>postreq</xmlelement></xref>)</li>
       </ol>
       <p>While all of the above structural components are optional, they
         must occur in the outlined order.</p>
