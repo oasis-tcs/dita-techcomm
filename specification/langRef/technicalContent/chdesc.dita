@@ -3,9 +3,11 @@
 <reference id="chdesc" xml:lang="en-us">
 <title><xmlelement>chdesc</xmlelement></title>
 <shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content
-    of the second cell in a choice table row. This content provides
-    instructions for completing the step.
-    <!--It explains why the user would choose that option and might explain the result of the choice when it is not immediately obvious.--><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of a description cell in a table row) can we describe it as the description of an option in a step, or description of an option in a choice table?</draft-comment>--></shortdesc>
+    of the second cell in a choice table row. This content <ph
+      rev="review-a">describes the option that the user can take to
+      complete the step, and it explains the result of the choice, if it is
+      not immediately
+    obvious.</ph><!--It explains why the user would choose that option and might explain the result of the choice when it is not immediately obvious.--><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of a description cell in a table row) can we describe it as the description of an option in a step, or description of an option in a choice table?</draft-comment>--></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>chdesc</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>descriptions</indexterm></indexterm>

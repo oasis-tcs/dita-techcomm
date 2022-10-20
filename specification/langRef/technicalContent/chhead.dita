@@ -7,8 +7,10 @@
           expectations<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>Labels provided by the <xmlelement>chhead</xmlelement> element override any default
-        headings for the <xmlelement>choicetable</xmlelement> that are provided by stylesheets.</p>
+      <p>Labels provided by the <xmlelement>chhead</xmlelement> element
+        override any default headings for the
+          <xmlelement>choicetable</xmlelement> that <ph rev="review-a">
+          might be</ph> provided by stylesheets.</p>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

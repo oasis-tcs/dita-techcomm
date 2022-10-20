@@ -3,8 +3,7 @@
 <reference id="choicetable" xml:lang="en-us">
   <title><xmlelement>choicetable</xmlelement></title>
   <shortdesc>The <xmlelement>choicetable</xmlelement> element contains
-    information about a set of options <ph rev="2.0">for completing</ph> a
-    step.</shortdesc>
+    information about a set of options for completing a step.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,10 +23,11 @@
       <p>A choice table provides information when there is more than one
         way to complete a step. It is a simple table with two columns. The
         first cell in a row provides a name for the option, and the second
-        cell in the row provides instructions for completing the step.</p>
+        cell in the row <ph rev="review-a">describes the option that a user
+          can take to complete the step</ph>.</p>
       <p>An optional header row can provide labels for the columns, if an
-        author does not want to use the default labels that are  provided
-        by stylesheets.</p>
+        author does not want to use the default labels that <ph
+          rev="review-a">might be</ph> provided by stylesheets.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -44,14 +44,52 @@
         value of <keyword>1</keyword>.</p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <p>The following code sample contains a choice table that contains a header row:</p>
-      <codeblock>&lt;step&gt;
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>choicetable</xmlelement> element can be used.</p>
+      <fig rev="review-a">
+        <title>Simple choice table</title>
+        <p>The following code sample contains a
+            <xmlelement>choicetable</xmlelement> element that is used to
+          explain the options that a user can take to cancel a job:</p>
+        <codeblock>&lt;step>
+  &lt;cmd>Select the option that you want:&lt;/cmd>
+  <b>&lt;choicetable relcolwidth="1* 2*"></b>
+    &lt;chrow>
+      &lt;choption>Cancel job&lt;/choption>
+      &lt;chdesc>The application attempts to cancel the job gracefully.
+              The job might not be completely canceled, although the job
+              status is "Canceled".&lt;/chdesc>
+    &lt;/chrow>
+    &lt;chrow>
+      &lt;choption>Force the job to cancel&lt;/choption>
+      &lt;chdesc>The application will force the job to be canceled. This
+              might result in a mismatch between the state file and the
+              actual resource state.&lt;/chdesc>
+    &lt;/chrow>
+  <b>&lt;/choicetable></b>
+&lt;/step></codeblock>
+        <p>The choice table might be rendered in the following way. Note
+          that the labels for the columns are contributed by the
+          stylesheets that are used by the processor.</p>
+        <image placement="break"
+          href="../../images/choicetable-no-header-row.jpg" scale="80"/>
+      </fig>
+      <fig>
+        <title>Choice table with a header row</title>
+        <p>The following code sample contains a
+            <xmlelement>choicetable</xmlelement> element that contains a
+          header row. <ph rev="review-a">The choice table is used to
+            provide users with instructions for creating a filter using
+            either the command line or the graphical user interface. The
+            header row is used to specify column labels of "Option" and
+            "Action".</ph></p>
+        <codeblock>&lt;step&gt;
   &lt;cmd&gt;Create a new filter:&lt;/cmd&gt;
   <b>&lt;choicetable&gt;</b>
     &lt;chhead&gt;
       &lt;choptionhd&gt;Option&lt;/choptionhd&gt;
-      &lt;chdeschd&gt;Description&lt;/chdeschd&gt;
+      &lt;chdeschd&gt;<ph rev="review-a">Action</ph>&lt;/chdeschd&gt;
     &lt;/chhead&gt;
     &lt;chrow&gt;
       &lt;choption&gt;Command-line interface&lt;/choption&gt;
@@ -63,8 +101,10 @@
     &lt;/chrow&gt;
   <b>&lt;/choicetable&gt;</b>
 &lt;/step&gt;</codeblock>
-      <p>The choice table might be rendered in the following way:</p>
-      <image placement="break" href="../../images/choicetable.jpg"/>
+        <p>The choice table might be rendered in the following way:</p>
+        <image placement="break" href="../../images/choicetable.jpg"
+          scale="80"/>
+      </fig>
     </example>
   </refbody>
 </reference>
