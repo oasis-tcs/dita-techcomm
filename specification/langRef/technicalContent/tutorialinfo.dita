@@ -30,12 +30,12 @@
     &lt;cmd&gt;Do that&lt;/cmd&gt;
     <b>&lt;tutorialinfo&gt;</b>Move the framulator into the foobar box.<b>&lt;/tutorialinfo&gt;</b>
   &lt;/step&gt;
-&lt;/steps&gt;</codeblock> <draft-comment author="dstevens73">Clearly we need a better
-        example. I see this most often used in situations where a task topic might be reused in a
-        tutorial. so the cmd itself is generic to work in the user guide, and the tutorialinfo,
-        which renders only in the tutorial, provides detailed information about a scenario, which is
-        often presented in the &lt;context> section. So: &lt;cmd>Complete the dialog
-        box.&lt;/cmd>&lt;tutorialinfo>For the example scenario, use the following values:&lt;dl>...&lt;/dl>&lt;/tutorialinfo><div>
+&lt;/steps&gt;</codeblock> <draft-comment author="dstevens73" disposition="Accepted">Clearly
+        we need a better example. I see this most often used in situations where a task topic might
+        be reused in a tutorial. so the cmd itself is generic to work in the user guide, and the
+        tutorialinfo, which renders only in the tutorial, provides detailed information about a
+        scenario, which is often presented in the &lt;context> section. So: &lt;cmd>Complete the
+        dialog box.&lt;/cmd>&lt;tutorialinfo>For the example scenario, use the following values:&lt;dl>...&lt;/dl>&lt;/tutorialinfo><div>
           <p>Kris Eberlein, 19 October 2022</p>
           <p>I agree that a new example is needed. Can you draft one? FWIW, this example appears
             as-is since DITA 1.0. In DITA 1.0, the topic had the following short description:</p>

@@ -26,7 +26,8 @@
       <codeblock>&lt;step>
   &lt;cmd>Specify the configuration parameters.&lt;/cmd>
   &lt;info>The configuration parameters can be specified from either the command line or
-        the product GUI.&lt;/info><draft-comment author="dstevens73">if we change from my previous comment, should change here too</draft-comment>
+        the product GUI.&lt;/info><draft-comment author="dstevens73" disposition="Completed">if we change from my previous comment, should change here too<div><p>Kris Eberlein, 20 October 2022
+</p><p>Done.</p></div></draft-comment>
   &lt;choices>
     &lt;choice>From a command prompt, type config -l parameter&lt;/choice><draft-comment author="dstevens73" disposition="Completed">I would probably put &lt;userinput>config -1 parameter&lt;/userinput>. Regardless, missing the period at the end.<div><p>Kris Eberlein, 19 October 2022</p><p>But then does the reader risks thinking that they should type the period as part of the command? Regarding the markup, the question is whether adding additional inline elements (albeit certainly best semantic practice), makes it harder to read the code sample?
 </p><p>Added extra tagging: &lt;codeph> and &lt;uicontrol>.</p></div></draft-comment>
