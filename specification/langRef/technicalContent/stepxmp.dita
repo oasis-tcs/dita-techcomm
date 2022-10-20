@@ -2,9 +2,13 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
-<shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example
-    that illustrates how a step is completed. The example can be a few
-    words, an image, or a paragraph.</shortdesc>
+<shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example that illustrates how a
+step is completed. The example can be a few words, an image, or a paragraph.<draft-comment
+author="dstevens73">or a code block. Not sure the last sentence is necessary.<div>
+<p>Kris Eberlein, 19 2022</p>
+<p>A code block for tasks that are performed from the command line? (I often see people using
+&lt;info> for that purpose …) FWIW, this short description has been in place since DITA 1.0.</p>
+</div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
 </keywords>

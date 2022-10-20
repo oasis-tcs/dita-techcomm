@@ -17,6 +17,15 @@
             <p>Processors which render the content of <xmlelement>stepsection</xmlelement> elements
         among the <xmlelement>step</xmlelement> elements <term outputclass="RFC-2119">MUST
           NOT</term> number the <xmlelement>stepsection</xmlelement> elements.</p>
+      <draft-comment author="dstevens73">Is it a rendering expectation that the numbering of the
+        step elements is not interrupted – ie doesn't start over? This element is a source of
+        confusion in my clients often who see it as a way to provide more than one set of steps in a
+        single topic; ie when they have multiple ways to complete a task. they are surprised when
+        the steps don't renumber after a stepsection. The example indicates the numbering
+        expectation, but I wonder if it would help to provide more detail here.<div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>@Dawn, what additional detail would you want here?</p>
+        </div></draft-comment>
         </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -49,6 +58,13 @@
       <p>The code sample above typically would be rendered with "Get out a bowl" as step number one,
                 "Put on safety gloves" as step number two, and "The next two steps are very
                 important!" as an unnumbered item in between the first two items.</p>
+      <draft-comment author="dstevens73">probably the most common use of stepsection I see is for
+        the (unnecessary) "To do task, complete the following steps" sentence. I'm wondering if that
+        practice should be part of an example?<div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>@Dawn, are you suggesting that we include "To do task, complete the following steps" in
+            a &lt;stepsection>? I don't think we want to show BAD tagging practices ...</p>
+        </div></draft-comment>
     </example>
 </refbody>
 </reference>

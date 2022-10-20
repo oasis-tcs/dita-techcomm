@@ -2,10 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="chdesc" xml:lang="en-us">
 <title><xmlelement>chdesc</xmlelement></title>
-<shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content
-    of the second cell in a choice table row. This content provides
-    instructions for completing the step.
-    <!--It explains why the user would choose that option and might explain the result of the choice when it is not immediately obvious.--><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of a description cell in a table row) can we describe it as the description of an option in a step, or description of an option in a choice table?</draft-comment>--></shortdesc>
+<shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content of the second cell in a
+    choice table row. This content provides instructions for completing the step. <draft-comment
+      author="dstevens73">I would say the second sentence is not always true. In fact, I believe the
+      default value for this second column is Description, which is not typically action oriented,
+      instructions. I would suggest just deleting the second sentence.<div>
+        <p>Kris Eberlein, 19 October 2022</p>
+        <p>I'm glad that you bring this up. A few questions and points:</p>
+        <ul id="ul_fvb_js5_fvb">
+          <li>I think what you refer to as the default value is not a default, but what is rendered
+            by DITA-OT. @Robert?</li>
+          <li>The description here matches the (current) example for
+              <xmlelement>choicetable</xmlelement>, which is new for DITA 2.0. And the example might
+            well simply represent the way that <b>I've </b>used choice tables!</li>
+          <li>I went and looked at the choice table examples in the DITA 1.0, 1.1, 1.2, and 1.3
+            specs. They all use the same example, which you can see at <xref
+              href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/choicetable.html#choicetable"
+              format="html" scope="external"
+              >http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/choicetable.html#choicetable</xref></li>
+        </ul>
+      </div><div>
+        <p>Dawn Stevens 19 October 2022</p>
+        <p>See my comments on choicetable</p>
+      </div></draft-comment><!--It explains why the user would choose that option and might explain the result of the choice when it is not immediately obvious.--><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of a description cell in a table row) can we describe it as the description of an option in a step, or description of an option in a choice table?</draft-comment>--></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>chdesc</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>descriptions</indexterm></indexterm>

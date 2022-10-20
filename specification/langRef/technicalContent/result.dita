@@ -14,6 +14,12 @@
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>result</xmlelement> element is specialized from <xmlelement>section</xmlelement>.
         It is defined in the task module.</p>
+      <draft-comment author="dstevens73" disposition="Completed">Should also comment on generating a
+        default title as done in context, postreq, prereq.<div>
+          <p>Kris Eberlein, 20 October 2022</p>
+          <p>I have added a "rendering expectations" section, as we discussed at the TC call this
+            week.</p>
+        </div></draft-comment>
 </section>
 <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

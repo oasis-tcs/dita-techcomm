@@ -20,6 +20,17 @@
 <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph>
         inside of the <xmlelement>steptroubleshooting</xmlelement>
         element.</note>
+      <draft-comment author="dstevens73">Seems like an explanation of why not would be useful.<div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>This is content that JoAnn and Bob Thomas insisted on adding in DITA 1.3. In 13, the
+            full note read as follows:</p>
+          <p>"Do not use &lt;note type="trouble"> inside of &lt;steptroubleshooting> because its
+            meaning there would be ambiguous."</p>
+          <p>Robert questioned what "would be ambiguous" meant, so I removed that. Can you suggest
+            different wording? I think the original intent was that having such a note in the
+            &lt;steptroubleshooting> element was inherently ambiguous – that it would be unclear
+            whether the note applied to the step or the actual &lt;steptroubleshooting> element.</p>
+        </div></draft-comment>
 </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

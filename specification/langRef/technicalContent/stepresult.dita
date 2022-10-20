@@ -26,12 +26,14 @@
       <codeblock>&lt;step>
   &lt;cmd>Specify the configuration parameters.&lt;/cmd>
   &lt;info>The configuration parameters can be specified from either the command line or
-        the product GUI.&lt;/info>
+        the product GUI.&lt;/info><draft-comment author="dstevens73">if we change from my previous comment, should change here too</draft-comment>
   &lt;choices>
-    &lt;choice>From a command prompt, type config -l parameter&lt;/choice>
+    &lt;choice>From a command prompt, type config -l parameter&lt;/choice><draft-comment author="dstevens73" disposition="Completed">I would probably put &lt;userinput>config -1 parameter&lt;/userinput>. Regardless, missing the period at the end.<div><p>Kris Eberlein, 19 October 2022</p><p>But then does the reader risks thinking that they should type the period as part of the command? Regarding the markup, the question is whether adding additional inline elements (albeit certainly best semantic practice), makes it harder to read the code sample?
+</p><p>Added extra tagging: &lt;codeph> and &lt;uicontrol>.</p></div></draft-comment>
     &lt;choice>Click New Configuration Parameters.&lt;/choice>
   &lt;/choices>
-  <b>&lt;stepresult></b>You receive a 'Configuration successful message".
+  <b>&lt;stepresult></b>You receive a 'Configuration successful message".<draft-comment author="dstevens73" disposition="Completed">I would punctuate 'Configuration successful' message. regardless of the position of the quote, the second should match the first. I would actually probably do &lt;msgph> or &lt;systemoutput> around Configuration successful.<div><p>Kris Eberlein, 19 October 2022</p><p>I corrected the type and placement of the quotation marks. Regarding the markup, the question is whether adding additional inline elements (albeit certainly best semantic practice), makes it harder to read the code sample?
+</p><p>Added extra tagging: &lt;systemoutput></p></div></draft-comment>
   <b>&lt;/stepresult></b>
 &lt;/step></codeblock>
       <!--<codeblock>&lt;steps&gt;

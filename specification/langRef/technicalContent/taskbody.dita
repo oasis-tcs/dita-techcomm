@@ -63,6 +63,19 @@
         <title>General task topic</title>
         <p>The following code sample shows ...</p>
         <codeblock/>
+        <p>
+          <draft-comment author="dstevens73">what are the important things to include in the general
+            task topic example? steps-informal? different order of prereq and context (one of the
+            most common reasons my clients choose general)? section? (I don't think I have any
+            clients adding sections)<div>
+              <p>Kris Eberlein, 19 October</p>
+              <p>I think the important things is to show <b>something</b> that is different from
+                strict task. I have not had any clients using general task, although I've certainly
+                used it as a specialization base for specialized task topics, such as the one for
+                Applied Materials.</p>
+              <p>Can you contribute an example?</p>
+            </div></draft-comment>
+        </p>
       </fig>
 </example>
 </refbody>

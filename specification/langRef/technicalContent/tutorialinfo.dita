@@ -17,11 +17,9 @@
 <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
    </section>
-<example id="example" otherprops="examples"><title>Example</title><p>The
-        following code sample shows how the
-          <xmlelement>tutorialinfo</xmlelement> element might be used in a
-        task topic that is part of a
-      tutorial.</p><codeblock>&lt;steps&gt;
+<example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows
+        how the <xmlelement>tutorialinfo</xmlelement> element might be used in a task topic that is
+        part of a tutorial.</p><codeblock>&lt;steps&gt;
   &lt;step&gt;
     &lt;cmd&gt;Do this&lt;/cmd&gt;
     <b>&lt;tutorialinfo&gt;</b>In your editor, open the first element and click on 
@@ -32,7 +30,21 @@
     &lt;cmd&gt;Do that&lt;/cmd&gt;
     <b>&lt;tutorialinfo&gt;</b>Move the framulator into the foobar box.<b>&lt;/tutorialinfo&gt;</b>
   &lt;/step&gt;
-&lt;/steps&gt;</codeblock> </example>
+&lt;/steps&gt;</codeblock> <draft-comment author="dstevens73">Clearly we need a better
+        example. I see this most often used in situations where a task topic might be reused in a
+        tutorial. so the cmd itself is generic to work in the user guide, and the tutorialinfo,
+        which renders only in the tutorial, provides detailed information about a scenario, which is
+        often presented in the &lt;context> section. So: &lt;cmd>Complete the dialog
+        box.&lt;/cmd>&lt;tutorialinfo>For the example scenario, use the following values:&lt;dl>...&lt;/dl>&lt;/tutorialinfo><div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>I agree that a new example is needed. Can you draft one? FWIW, this example appears
+            as-is since DITA 1.0. In DITA 1.0, the topic had the following short description:</p>
+          <p>"The tutorial info (&lt;tutorialinfo>) element contains information that is included in
+            a step when a task is part of a tutorial. The &lt;tutorialinfo> element allows you to
+            turn a task into a learning exercise by including explanatory content about methods for
+            completing the current step. The information should be excluded when a task is processed
+            on its own."</p>
+        </div></draft-comment></example>
 </refbody>
 </reference>
 

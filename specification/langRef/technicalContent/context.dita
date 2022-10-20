@@ -25,6 +25,16 @@
                         is appropriate for a short description. Style sheets might generate a label,
                         for example, <q>About this procedure</q>, to indicate clearly that the
                         information provided is background information.</p>
+      <draft-comment author="dstevens73">postreq and prereq put this information about the
+        possibility of labels in a usage section.<div>
+          <p>Kris Eberlein, 20 October 2022</p>
+          <p>I've added a "Rendering expectations" section here that states "Implementations might
+            want to consider having their stylesheets render a label for this element.", per our TC
+            call this week.</p>
+          <p>I wonder if I should delete the 2nd sentence here – or whether we want to show a
+            possible rendering since we mention that style sheets might render a label. Any
+            thoughts?</p>
+        </div></draft-comment>
 <codeblock>&lt;task id="Generating-stub-files" xml:lang="en-us">
   &lt;title>Generating stub files&lt;/title>
   &lt;shortdesc>You can use Task Modeler to generate stub files. Stub files are 
@@ -36,6 +46,17 @@
    &lt;!-- ... -->
   &lt;/taskbody>
 &lt;/task></codeblock>
+      <draft-comment author="dstevens73">most of my clients are moving away from gerund titles
+        largely for localization reasons. Most now use imperative or infinitive. Do we care? If so,
+        we will need to look at all the examples in this section.<div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>I don't know if it matters. Our examples need to be exemplars for markup, not writing
+            style. (Although I do cringe when I see poorly-written stuff in our spec examples.)</p>
+          <p>Out of curiosity, how does using the imperative or infinitive form of a verb aid
+            localization? I'm most steeped in "IBM Style Guide" and "The Global English Style
+            Guide". "IBM Style Guide" uses gerund titles in all their examples … "The Global English
+            Style Guide" does not warn against gerund verb forms ...</p>
+        </div></draft-comment>
 </example>
 </refbody>
 </reference>

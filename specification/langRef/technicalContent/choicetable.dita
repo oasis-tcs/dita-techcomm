@@ -28,6 +28,29 @@
       <p>An optional header row can provide labels for the columns, if an
         author does not want to use the default labels that are  provided
         by stylesheets.</p>
+      <draft-comment author="dstevens73">I think I am struggling with this review because I feel
+        like the audience has changed. It has been said over and over that the spec is not for the
+        writers, people using DITA, but for implementers. But much of this content seems very
+        directed to how the content should be written. I don't necessarily disagree with the
+        direction, but in this case, I typically give the following guidance to clients: use choices
+        when there is more than one way to complete a step that leads to the same result. Use
+        choicetable when there is more than one way to complete a step that leads to different
+        results (to do x, then y; or if this, then that). Otherwise, writers are often inconsistent
+        in which they choose. <div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>Yes, implementers are the primary audience for the spec, especially the base edition,
+            which sets out core architectural principles and normative rules. But we've always known
+            that short descriptions are surfaced in a lot of authoring tools as guidance to authors,
+            and so want to keep authors in mind as we craft short descriptions and usage
+            information.</p>
+          <p>Another consideration there is that the element reference topics in the Technical
+            Content edition, especially those for task elements, have also had the most
+            guidance/tutorial focus. We've removed some (but not all) of that.</p>
+          <p>The choice table content for the 1.x versions of the spec was … not very good nor very
+            specific. I might well have erred in writing content that reflected how I've always used
+            – and seen choice tables used. I set up a call with Robert (starting quite soon!) to
+            talk this over.</p>
+        </div></draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

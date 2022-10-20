@@ -13,11 +13,16 @@
 <refbody>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>I think we need to say something about what processors should do
-          with the effective value of the <xmlatt>importance</xmlatt>
-          attribute. I've seen processors not render anything -- and it
-          causes problems.</p>
+      <draft-comment author="Kristen J Eberlein" time="07 October 2022" disposition="Completed">
+        <p>I think we need to say something about what processors should do with the effective value
+          of the <xmlatt>importance</xmlatt> attribute. I've seen processors not render anything --
+          and it causes problems.</p>
+        <div>
+          <p>I have add the following content:</p>
+          <p>When the @importance attribute is specified on the element, it indicates whether the
+            step is optional or required. Implementations might want to consider having their
+            stylesheets render a applicable label when @importance is specified on &lt;step>,</p>
+        </div>
       </draft-comment>
     </section>
 <section id="specialization-hierarchy">
@@ -35,9 +40,15 @@
     </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-   <p>The following code sample shows almost all the elements that the
-          <xmlelement>step</xmlelement> element can contain. It does not
-        contain the <xmlelement>stepxmp</xmlelement> element.</p>
+   <p>The following code sample shows almost all the elements that the <xmlelement>step</xmlelement>
+        element can contain. It does not contain the <xmlelement>stepxmp</xmlelement>
+          element.<draft-comment author="dstevens73" disposition="Completed">nor tutorialinfo nor
+          choicetable. Nor note or hazardstatement before the cmd. Question the "almost all".
+          Perhaps a different introduction to the example?<div>
+            <p>Kris Eberlein, 20 October 2022</p>
+            <p>Changed the intro paragraph to read: "The following code sample shows many of the
+              elements that the element can contain:</p>
+          </div></draft-comment></p>
 <codeblock><b>&lt;step></b>
   &lt;cmd>Specify the configuration parameters.&lt;/cmd>
   &lt;info>The configuration parameters can be specified from either the command line or

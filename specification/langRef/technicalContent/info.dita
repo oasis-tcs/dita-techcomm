@@ -29,6 +29,12 @@
         the product GUI.
   <b>&lt;/info></b>
 &lt;/step></codeblock>
+                  <draft-comment author="dstevens73" disposition="Completed">I realize I'm probably
+                        being way too down in the weeds, but the example is passive in what should
+                        be an active presentation. Better: Use either the command line or the
+                        product GUI.<div>
+                              <p>Done.</p>
+                        </div></draft-comment>
       </example>
 </refbody>
 </reference>

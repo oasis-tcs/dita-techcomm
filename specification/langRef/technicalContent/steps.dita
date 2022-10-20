@@ -17,6 +17,11 @@
    <title>Specialization hierarchy</title>
    <p>The <xmlelement>steps</xmlelement> element is specialized from <xmlelement>ol</xmlelement>. It
         is defined in the task module.</p>
+   <draft-comment author="dstevens73" disposition="Completed">Should also have Usage section to
+    comment on generating a default title as done in context, postreq, prereq.<div>
+     <p>Kris Eberlein, 20 October 2022</p>
+     <p>Added a "Rendering expectations" section, as discussed at this week's TC meeting.</p>
+    </div></draft-comment>
   </section>
   <section id="attributes">
    <title>Attributes</title>

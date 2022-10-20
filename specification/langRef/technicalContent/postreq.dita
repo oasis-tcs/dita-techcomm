@@ -28,4 +28,6 @@
 &lt;/steps>
 <b>&lt;postreq&gt;</b>Notify the proctor upon completing this self-test.<b>&lt;/postreq&gt;</b> 
 </codeblock>
+      <draft-comment author="dstevens73">context and postreq have a comment in the example about how
+        a lable might be generated.</draft-comment>
     </example></refbody></reference>

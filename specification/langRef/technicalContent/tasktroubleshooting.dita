@@ -18,15 +18,16 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>In particular, the <xmlelement>tasktroubleshooting</xmlelement>
-        element can be used to explain how users can recover when the
-        results of a task do not match those listed in the
-          <xmlelement>result</xmlelement> element. The troubleshooting
-        remedy typically contains one or more actions for solving a
-        problem. For complex remedies, link to another task.</p>
-      <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph>
-        inside of the <xmlelement>tasktroubleshooting</xmlelement>
-        element.</note>
+      <p>In particular, the <xmlelement>tasktroubleshooting</xmlelement> element can be used to
+        explain how users can recover when the results of a task do not match those listed in the
+          <xmlelement>result</xmlelement> element. The troubleshooting remedy typically contains one
+        or more actions for solving a problem. For complex remedies, link to another task.</p>
+      <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph> inside of the
+          <xmlelement>tasktroubleshooting</xmlelement> element.</note>
+      <draft-comment author="dstevens73" disposition="Closed">again, would be helpful to say why<div>
+          <p>Kris Eberlein, 19 October 2022</p>
+          <p>Duplicate comment to that in &lt;steptroubleshooting>.</p>
+        </div></draft-comment>
       <!--<draft-comment author="robander" time="21 may 2021">I don't understand how this would be ambiguous, but it does feel like it would be redundant?<p>Also, I wonder if we should restore some of the commented section here, it's the first case I've seen so far where the content seems to provide new information (correlating this with the result element), but maybe this is not correct?</p><div><p>Kris Eberlein, 07 October 2022</p><p>Re the note: This was something that JoAnn and Bob thought was important in the DITA 1.3 development cycle. Perhaps we should remove or edit it? I think the ambigiuty would be what does it mean to have such a note in a section that is about troubleshooting? Are you providing information about how to troubleshoot when troubleshooting goes awry? Or is it simply redundant info?</p><p>I restored the commented out info. The sentence "For complex remedies, link to another task.", while sound advise, sounds a bit like tutorial/author guidance/best practices. Are we more open to that in this spec than in the base spec?</p></div></draft-comment>-->
     </section>
     <section id="specialization-hierarchy">
