@@ -4,9 +4,9 @@
 <title><xmlelement>chdesc</xmlelement></title>
 <shortdesc>The <xmlelement>chdesc</xmlelement> element provides the content of the second cell in a
     choice table row. This content provides instructions for completing the step. <draft-comment
-      author="dstevens73">I would say the second sentence is not always true. In fact, I believe the
-      default value for this second column is Description, which is not typically action oriented,
-      instructions. I would suggest just deleting the second sentence.<div>
+      author="dstevens73" disposition="Completed">I would say the second sentence is not always
+      true. In fact, I believe the default value for this second column is Description, which is not
+      typically action oriented, instructions. I would suggest just deleting the second sentence.<div>
         <p>Kris Eberlein, 19 October 2022</p>
         <p>I'm glad that you bring this up. A few questions and points:</p>
         <ul id="ul_fvb_js5_fvb">
@@ -24,6 +24,13 @@
       </div><div>
         <p>Dawn Stevens 19 October 2022</p>
         <p>See my comments on choicetable</p>
+      </div><div>
+        <p>Kris Eberlein, 20 October 2022</p>
+        <p>I reworked the short description and reviewed it with Dawn today. A PDF of the updated
+          topic is attached to a TC e-mail; see <xref
+            href="https://lists.oasis-open.org/archives/dita/202210/msg00042.html" format="html"
+            scope="external"
+          >https://lists.oasis-open.org/archives/dita/202210/msg00042.html</xref></p>
       </div></draft-comment><!--It explains why the user would choose that option and might explain the result of the choice when it is not immediately obvious.--><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of a description cell in a table row) can we describe it as the description of an option in a step, or description of an option in a choice table?</draft-comment>--></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>chdesc</xmlelement></indexterm>

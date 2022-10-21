@@ -8,6 +8,11 @@ author="dstevens73">or a code block. Not sure the last sentence is necessary.<di
 <p>Kris Eberlein, 19 2022</p>
 <p>A code block for tasks that are performed from the command line? (I often see people using
 &lt;info> for that purpose …) FWIW, this short description has been in place since DITA 1.0.</p>
+</div><div>
+<p>Kris Eberlein, 20 October 2022</p>
+<p>Talked to Dawn today. We discussed the short description – not sure if the best solution here is
+to code block to the second sentence or remove the second sentence. FWIW, we both agree this element
+is inconsistently used, and that each implementation needs to nail down how they will use it.</p>
 </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
@@ -24,8 +29,15 @@ author="dstevens73">or a code block. Not sure the last sentence is necessary.<di
 </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-   <p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example
-    of what a user might type as a name for a widget:</p>
+<draft-comment author="Kristen James Eberlein">
+<div>
+<p>Kris Eberlein, 20 October 2022</p>
+<p>We need a different example here, one that better illustrates ways that the element can be
+used.</p>
+</div>
+</draft-comment>
+<p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example of
+what a user might type as a name for a widget:</p>
 <codeblock>&lt;step&gt;
  &lt;cmd&gt;Type a name for the widget.&lt;/cmd&gt;
  <b>&lt;stepxmp&gt;</b>For example, &lt;userinput&gt;mywidget&lt;/userinput&gt;<b>&lt;/stepxmp&gt;</b>

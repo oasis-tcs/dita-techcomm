@@ -25,6 +25,12 @@
         expectation, but I wonder if it would help to provide more detail here.<div>
           <p>Kris Eberlein, 19 October 2022</p>
           <p>@Dawn, what additional detail would you want here?</p>
+        </div><div>
+          <p>Kris Eberlein, 20 October 2022</p>
+          <p>Just off a call with Dawn. What she would find helpful is if the spec stated that
+            &lt;stepsection> element do not affect the numbering of steps. That is, that the
+            numbering of the steps is contiguous; it is not interrupted/restarted by the presence of
+            a &lt;stepsection> element.</p>
         </div></draft-comment>
         </section>
     <section id="specialization-hierarchy">
@@ -64,6 +70,9 @@
           <p>Kris Eberlein, 19 October 2022</p>
           <p>@Dawn, are you suggesting that we include "To do task, complete the following steps" in
             a &lt;stepsection>? I don't think we want to show BAD tagging practices ...</p>
+          <p>Talked with Dawn, she doesn't advocate including "To do task, complete the following
+            steps" in a &lt;stepsection>. But I'm wondering if an different example AND an example
+            of possible rendering might be useful here.</p>
         </div></draft-comment>
     </example>
 </refbody>
