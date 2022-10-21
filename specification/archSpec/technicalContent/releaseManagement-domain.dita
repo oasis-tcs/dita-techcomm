@@ -15,20 +15,28 @@
 		  records that are required by regulatory agencies.</p> 
 		<p>This figure shows the structure of the release management elements.</p> 
 		<fig id="rmg-elements"> 
-		  <title>Release management elements</title> 
-		  <image scale="80" href="../../images/ReleaseManagementElements.png"
-			placement="break" id="image_E774D361F9CB4263AD736922B18F9565"
-			> 
-			 <alt >Tree structure diagram showing the
-				elements available in the release management domain, their relationships to
-				each other, and where they can be used in a DITA topic. The change-historylist
-				element can appear in the prolog and can contain change-items. The following
-				elements are children of change-item: change-person, change-organization,
-				change-revisionid, change-request-reference, change-started, change-summary,
-				data. The change-request-reference element can have children
-				change-request-system and change-request-id.
-			 </alt> 
-		  </image> 
+		  <title>Release management elements</title>
+        <!--<image scale="80" placement="break" keyref="images-relmgmt-d"><alt>Tree structure diagram that shows the elements that are available in the release management domain, their relationships to each other, and where they can be used in a DITA topic. The <xmlelement>change-historylist</xmlelement> element can appear in the prolog and can contain <xmlelement>change-items</xmlelement>. The following elements are children of <xmlelement>change-item</xmlelement>: <xmlelement>change-person</xmlelement>, <xmlelement>change-organization</xmlelement>, <xmlelement>change-revisionid</xmlelement>, <xmlelement>change-request-reference</xmlelement>, <xmlelement>change-started</xmlelement>, <xmlelement>change-summary</xmlelement>, and <xmlelement>data</xmlelement>. The <xmlelement>change-request-reference</xmlelement> element can have children <xmlelement>change-request-system</xmlelement> and <xmlelement>change-request-id</xmlelement>. </alt></image>--> 
+		  <image scale="80" placement="break"
+          href="../../images/ReleaseManagementElements.png">
+          <alt>Tree structure diagram that shows the elements that are
+            available in the release management domain, their relationships
+            to each other, and where they can be used in a DITA topic. The
+              <xmlelement>change-historylist</xmlelement> element can
+            appear in the prolog and can contain
+              <xmlelement>change-items</xmlelement>. The following elements
+            are children of <xmlelement>change-item</xmlelement>:
+              <xmlelement>change-person</xmlelement>,
+              <xmlelement>change-organization</xmlelement>,
+              <xmlelement>change-revisionid</xmlelement>,
+              <xmlelement>change-request-reference</xmlelement>,
+              <xmlelement>change-started</xmlelement>,
+              <xmlelement>change-summary</xmlelement>, and
+              <xmlelement>data</xmlelement>. The
+              <xmlelement>change-request-reference</xmlelement> element can
+            have children <xmlelement>change-request-system</xmlelement>
+            and <xmlelement>change-request-id</xmlelement>. </alt>
+        </image> 
 		</fig> 
 		<p>The following list provides a brief description of the elements:</p> 
 		<dl> 

@@ -72,8 +72,9 @@
         <p>The choice table might be rendered in the following way. Note
           that the labels for the columns are contributed by the
           stylesheets that are used by the processor.</p>
-        <image placement="break"
-          href="../../images/choicetable-no-header-row.jpg" scale="80"/>
+        <!--<image placement="break" scale="80" keyref="images-choicetable2"/>-->
+        <image placement="break" scale="80"
+          href="../../images/choicetable-no-header-row.jpg"/>
       </fig>
       <fig>
         <title>Choice table with a header row</title>
@@ -102,8 +103,9 @@
   <b>&lt;/choicetable&gt;</b>
 &lt;/step&gt;</codeblock>
         <p>The choice table might be rendered in the following way:</p>
-        <image placement="break" href="../../images/choicetable.jpg"
-          scale="80"/>
+        <!--<image placement="break" scale="80" keyref="images-choicetable2"/>-->
+        <image placement="break" scale="80"
+          href="../../images/choicetable.jpg"/>
       </fig>
     </example>
   </refbody>

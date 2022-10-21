@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Key definitions: Technical content images</title>
+  <keydef keys="images-choicetable1" href="../images/choicetable.jpg"
+    format="jpg"/>
+  <keydef keys="images-choicetable2"
+    href="../images/choicetable-no-header-row.jpg" format="jpg"/>
+  <keydef keys="images-stepsection" href="../images/stepsection.jpg"
+    format="jpg"/>
+  <keydef keys="images-relmgmt-d"
+    href="../images/ReleaseManagementElements.png" format="png"/>
+</map>

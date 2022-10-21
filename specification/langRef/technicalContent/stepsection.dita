@@ -65,8 +65,9 @@
       <p>This topic might be rendered in the following way. Note that the
         numbering of the steps is not affected by the introduction of the
           <xmlelement>stepsection</xmlelement> elements.</p>
-      <image placement="break" href="../../images/stepsection.jpg"
-        scale="80"/>
+      <!--<image placement="break" scale="80" keyref="images-stepsection"/>-->
+      <image placement="break" scale="80"
+        href="../../images/stepsection.jpg"/>
       <!--<codeblock>&lt;steps>
   &lt;step>
     &lt;cmd>Get out a bowl.&lt;/cmd>
