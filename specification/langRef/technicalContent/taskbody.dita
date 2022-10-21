@@ -4,8 +4,8 @@
 <title><xmlelement>taskbody</xmlelement></title>
 <shortdesc>The <xmlelement>taskbody</xmlelement> element contains the body
     of a task topic. The task body can include prerequisites, contextual
-    information, steps, results, an example, troubleshooting information,
-    and post-requisites. General task topics can also contain generic
+    information, steps, results, examples, troubleshooting information, and
+    post-requisites. General task topics can also contain generic
     sections.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>taskbody</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>taskbody</xmlelement></indexterm></indexterm>
@@ -63,6 +63,28 @@
         <title>General task topic</title>
         <p>The following code sample shows ...</p>
         <codeblock/>
+      </fig>
+      <fig rev="review-a">
+        <title>General task topic used for reuse</title>
+        <p>The following code sample shows the content of a general task
+          topic that is used to store <xmlelement>prereq</xmlelement>
+          elements that are reused. While the implementation uses the
+          strict task topic for their product documentation, using a
+          general task topic for a reuse topic enables them to have
+          multiple <xmlelement>prereq</xmlelement> elements in a single
+          topic</p>
+        <codeblock>&lt;task id="reuse-prereq">
+  &lt;title>Reuse topic: &lt;xmlelement>prereq&lt;/xmlelement>&lt;/title>
+  &lt;shortdesc>This topic stores &lt;xmlelement>prereq&lt;/xmlelement> elements
+             that are reused in the product documentation.&lt;/shortdesc>
+  <b>&lt;taskbody></b>
+    &lt;!-- ... -->
+    &lt;prereq id="sp-10">Service Pack 10 must be installed.&lt;/prereq>
+    &lt;prereq id="admin-access">You must have administrator access in order
+      to perform this procedure.&lt;/prereq>
+    &lt;!-- ... -->
+  <b>&lt;/taskbody></b>
+&lt;/task></codeblock>
       </fig>
 </example>
 </refbody>
