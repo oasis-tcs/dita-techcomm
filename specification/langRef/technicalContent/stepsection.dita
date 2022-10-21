@@ -12,6 +12,13 @@
         <indexterm><xmlelement>stepsection</xmlelement></indexterm></keywords>
 </metadata></prolog>
 <refbody>
+    <section id="usage-information" rev="review-a">
+      <title>Usage information</title>
+      <p>The <xmlelement>stepsection</xmlelement> element can be used to
+        break up lengthy procedures by providing labels for groups of
+        steps. Note that introducing <xmlelement>stepsection</xmlelement>
+        elements will not affect the contiguous numbering of the steps.</p>
+    </section>
     <section id="rendering-expectations">
             <title>Rendering expectations</title>
             <p>Processors which render the content of <xmlelement>stepsection</xmlelement> elements
@@ -27,11 +34,40 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
     </section>
-    <example id="example" otherprops="examples">
+    <example id="example" otherprops="examples" rev="review-a">
       <title>Example</title>
-            <p>The following code sample shows how a
-          <xmlelement>stepsection</xmlelement> element might be used:</p>
+      <p>The following code sample shows how
+          <xmlelement>stepsection</xmlelement> element can be used to group
+        steps in a high-level overview topic that links to other
+        topics:</p>
       <codeblock>&lt;steps>
+<b>&lt;stepsection>Install and configure the application:&lt;/stepsection></b>
+  &lt;step>
+    &lt;cmd>&lt;xref keyref="download">Download the application&lt;/xref>.&lt;/cmd>
+  &lt;/step>
+  &lt;step>
+    &lt;cmd>&lt;xref keyref="install">Install the application&lt;/xref>.&lt;/cmd>
+  &lt;/step>
+  &lt;step>
+    &lt;cmd>&lt;xref keyref="configure">Configure the application&lt;/xref>&lt;/cmd>
+  &lt;/step>
+  <b>&lt;stepsection>Set up the development environment:&lt;/stepsection></b>
+  &lt;step>
+    &lt;cmd>&lt;xref keyref="prep">Prepare the environment&lt;/xref>.&lt;/cmd>
+  &lt;/step>
+  &lt;!-- ... -->
+  <b>&lt;stepsection>Start the tutorial:&lt;/stepsection></b>
+  &lt;step>
+    &lt;cmd>&lt;xref keyref="create-plugin">Exercise: Create a plug-in&lt;/xref>.&lt;/cmd>
+  &lt;/step>
+  &lt;!-- ... -->
+&lt;/steps></codeblock>
+      <p>This topic might be rendered in the following way. Note that the
+        numbering of the steps is not affected by the introduction of the
+          <xmlelement>stepsection</xmlelement> elements.</p>
+      <image placement="break" href="../../images/stepsection.jpg"
+        scale="80"/>
+      <!--<codeblock>&lt;steps>
   &lt;step>
     &lt;cmd>Get out a bowl.&lt;/cmd>
   &lt;/step>
@@ -45,10 +81,7 @@
   &lt;step>
     &lt;cmd>Pour milk and cereal into the bowl.&lt;/cmd>
   &lt;/step>
-&lt;/steps></codeblock>
-      <p>The code sample above typically would be rendered with "Get out a bowl" as step number one,
-                "Put on safety gloves" as step number two, and "The next two steps are very
-                important!" as an unnumbered item in between the first two items.</p>
+&lt;/steps></codeblock><p>The code sample above typically would be rendered with "Get out a bowl" as step number one, "Put on safety gloves" as step number two, and "The next two steps are very important!" as an unnumbered item in between the first two items.</p>-->
     </example>
 </refbody>
 </reference>
