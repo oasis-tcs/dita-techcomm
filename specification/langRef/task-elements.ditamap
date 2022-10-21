@@ -22,9 +22,9 @@
   <topicref keyref="elements-stepresult"/>
   <topicref keyref="elements-steps"/>
   <topicref keyref="elements-steps-informal"/>
+    <topicref keyref="elements-stepsection"/>
+    <topicref keyref="elements-steptroubleshooting"/>
   <topicref keyref="elements-steps-unordered"/>
-  <topicref keyref="elements-stepsection"/>
-  <topicref keyref="elements-steptroubleshooting"/>
   <topicref keyref="elements-stepxmp"/>
   <topicref keyref="elements-task"/>
   <topicref keyref="elements-taskbody"/>

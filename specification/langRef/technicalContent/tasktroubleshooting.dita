@@ -16,10 +16,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="rendering-expectations">
-      <title>Rendering expectations</title>
-      <p conkeyref="reuse-tc-file/task-label-rendering"/>
-    </section>
     <section id="usage-information">
       <title>Usage information</title>
       <p>In particular, the <xmlelement>tasktroubleshooting</xmlelement>
@@ -28,6 +24,10 @@
           <xmlelement>result</xmlelement> element. The troubleshooting
         remedy typically contains one or more actions for solving a
         problem. For complex remedies, link to another task.</p>
+    </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p conkeyref="reuse-tc-file/task-label-rendering"/>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

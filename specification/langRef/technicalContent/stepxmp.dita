@@ -3,8 +3,9 @@
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
 <shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example
-    that illustrates how a step is completed. The example can be a few
-    words, an image, or a paragraph.</shortdesc>
+    that illustrates how a step is completed. The example <ph
+      rev="review-a">might be text-based, an image, a code sample, a link
+      to a video, or some other representation.</ph></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
 </keywords>
@@ -18,16 +19,27 @@
 <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
 </section>
-<example id="example" otherprops="examples">
-<title>Example</title>
-   <p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example
-    of what a user might type as a name for a widget:</p>
-<codeblock>&lt;step&gt;
+<example id="example" otherprops="examples" rev="review-a">
+      <title>Example</title>
+      <p>The following code sample shows how the
+          <xmlelement>stepxmp</xmlelement> can provide an example of how a
+        user can perform a step:</p>
+      <codeblock>&lt;step>
+  &lt;cmd>Add an XML comment in the map that explains why you applied the 
+       filtering attribute.&lt;/cmd>
+  <b>&lt;stepxmp></b>&lt;p>For example:&lt;p>
+    &lt;codeblock>
+      &lt;!-- 18 Dec 2019 ML: The following topic is under review and should
+                           not be published externally. [DH-1441]. --> 
+    &lt;/codeblock>
+  <b>&lt;/stepxmp></b>
+&lt;/step></codeblock>
+      <!--<p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example of what a user might type as a name for a widget:</p><codeblock>&lt;step&gt;
  &lt;cmd&gt;Type a name for the widget.&lt;/cmd&gt;
  <b>&lt;stepxmp&gt;</b>For example, &lt;userinput&gt;mywidget&lt;/userinput&gt;<b>&lt;/stepxmp&gt;</b>
 &lt;/step&gt;
-</codeblock>
-</example>
+</codeblock>-->
+    </example>
 </refbody>
 </reference>
 
