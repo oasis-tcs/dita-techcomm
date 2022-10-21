@@ -31,6 +31,12 @@
             &lt;stepsection> element do not affect the numbering of steps. That is, that the
             numbering of the steps is contiguous; it is not interrupted/restarted by the presence of
             a &lt;stepsection> element.</p>
+        </div><div>
+          <p>Kris Eberlein, 21 October 2022</p>
+          <p>Added a "Usage information" section with the following content: "The &lt;stepsection>
+            element can be used to break up lengthy procedures by providing labels for groups of
+            steps. Note that introducing &lt;stepsection> elements will not affect the contiguous
+            numbering of the steps." @Robert?</p>
         </div></draft-comment>
         </section>
     <section id="specialization-hierarchy">
@@ -64,15 +70,19 @@
       <p>The code sample above typically would be rendered with "Get out a bowl" as step number one,
                 "Put on safety gloves" as step number two, and "The next two steps are very
                 important!" as an unnumbered item in between the first two items.</p>
-      <draft-comment author="dstevens73">probably the most common use of stepsection I see is for
-        the (unnecessary) "To do task, complete the following steps" sentence. I'm wondering if that
-        practice should be part of an example?<div>
+      <draft-comment author="dstevens73" disposition="Completed">probably the most common use of
+        stepsection I see is for the (unnecessary) "To do task, complete the following steps"
+        sentence. I'm wondering if that practice should be part of an example?<div>
           <p>Kris Eberlein, 19 October 2022</p>
           <p>@Dawn, are you suggesting that we include "To do task, complete the following steps" in
             a &lt;stepsection>? I don't think we want to show BAD tagging practices ...</p>
           <p>Talked with Dawn, she doesn't advocate including "To do task, complete the following
             steps" in a &lt;stepsection>. But I'm wondering if an different example AND an example
             of possible rendering might be useful here.</p>
+        </div><div>
+          <p>Kris Eberlein, 21 October 2022</p>
+          <p>Added a new example, which includes a possible rendering which clearly shows that step
+            numbering is not affected by the &lt;stepsection> elements.</p>
         </div></draft-comment>
     </example>
 </refbody>

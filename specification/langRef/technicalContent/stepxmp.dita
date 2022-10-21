@@ -4,7 +4,7 @@
 <title><xmlelement>stepxmp</xmlelement></title>
 <shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example that illustrates how a
 step is completed. The example can be a few words, an image, or a paragraph.<draft-comment
-author="dstevens73">or a code block. Not sure the last sentence is necessary.<div>
+author="dstevens73" disposition="Completed">or a code block. Not sure the last sentence is necessary.<div>
 <p>Kris Eberlein, 19 2022</p>
 <p>A code block for tasks that are performed from the command line? (I often see people using
 &lt;info> for that purpose …) FWIW, this short description has been in place since DITA 1.0.</p>
@@ -13,6 +13,10 @@ author="dstevens73">or a code block. Not sure the last sentence is necessary.<di
 <p>Talked to Dawn today. We discussed the short description – not sure if the best solution here is
 to code block to the second sentence or remove the second sentence. FWIW, we both agree this element
 is inconsistently used, and that each implementation needs to nail down how they will use it.</p>
+</div><div>
+<p>Kris Eberlein, 21 October 2022</p>
+<p>Changed to read "The example might be text-based, an image, a code sample, a link to a video, or
+some other representation.</p>
 </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
@@ -29,11 +33,15 @@ is inconsistently used, and that each implementation needs to nail down how they
 </section>
 <example id="example" otherprops="examples">
 <title>Example</title>
-<draft-comment author="Kristen James Eberlein">
+<draft-comment author="Kristen James Eberlein" disposition="Completed">
 <div>
 <p>Kris Eberlein, 20 October 2022</p>
 <p>We need a different example here, one that better illustrates ways that the element can be
 used.</p>
+</div>
+<div>
+<p>Kris Eberlein, 21 October 2022</p>
+<p>I've added a real life example.</p>
 </div>
 </draft-comment>
 <p>In the following code sample, the <xmlelement>stepxmp</xmlelement> element contains an example of

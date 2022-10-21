@@ -46,9 +46,9 @@
    &lt;!-- ... -->
   &lt;/taskbody>
 &lt;/task></codeblock>
-      <draft-comment author="dstevens73">most of my clients are moving away from gerund titles
-        largely for localization reasons. Most now use imperative or infinitive. Do we care? If so,
-        we will need to look at all the examples in this section.<div>
+      <draft-comment author="dstevens73" disposition="Closed">most of my clients are moving away
+        from gerund titles largely for localization reasons. Most now use imperative or infinitive.
+        Do we care? If so, we will need to look at all the examples in this section.<div>
           <p>Kris Eberlein, 19 October 2022</p>
           <p>I don't know if it matters. Our examples need to be exemplars for markup, not writing
             style. (Although I do cringe when I see poorly-written stuff in our spec examples.)</p>
@@ -56,6 +56,10 @@
             localization? I'm most steeped in "IBM Style Guide" and "The Global English Style
             Guide". "IBM Style Guide" uses gerund titles in all their examples … "The Global English
             Style Guide" does not warn against gerund verb forms ...</p>
+        </div><div>
+          <p>Kris Eberlein, 21 October 2022</p>
+          <p>Marking this one as closed. I think that writing styles for titles is a writing
+            practice that will differ across implementations.</p>
         </div></draft-comment>
 </example>
 </refbody>
