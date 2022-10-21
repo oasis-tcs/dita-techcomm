@@ -31,23 +31,21 @@
           <xmlelement>steptroubleshooting</xmlelement> element specifies
         the troubleshooting actions that a user can take if the step does
         not complete as they expected:</p>
-      <codeblock>
-  &lt;step>
-    &lt;cmd>Log in to the system&lt;/cmd>
-    &lt;stepresult>
-      &lt;p>The &lt;wintitle>Welcome&lt;/wintitle> screen appears.&lt;/p>
-    &lt;/stepresult>
-    <b>&lt;steptroubleshooting></b>
-      &lt;p>If the &lt;wintitle>Welcome&lt;/wintitle> screen does not
-        appear, try one or more of the following actions:&lt;/p>
-        &lt;ul>
-          &lt;li>Verify that the user name was entered correctly&lt;/li>
-          &lt;li>Verify that the password was entered correctly&lt;/li>
-          &lt;li>Confirm that the maintenance contract is still
-            active&lt;/li>
-        &lt;/ul>
-    <b>&lt;/steptroubleshooting></b>
-  &lt;/step>
+      <codeblock>&lt;step>
+  &lt;cmd>Log in to the system&lt;/cmd>
+  &lt;stepresult>
+    &lt;p>The &lt;wintitle>Welcome&lt;/wintitle> screen appears.&lt;/p>
+  &lt;/stepresult>
+  <b>&lt;steptroubleshooting></b>
+    &lt;p>If the &lt;wintitle>Welcome&lt;/wintitle> screen does not
+       appear, try one or more of the following actions:&lt;/p>
+    &lt;ul>
+      &lt;li>Verify that the user name was entered correctly&lt;/li>
+      &lt;li>Verify that the password was entered correctly&lt;/li>
+      &lt;li>Confirm that the maintenance contract is still active&lt;/li>
+    &lt;/ul>
+  <b>&lt;/steptroubleshooting></b>
+&lt;/step>
 </codeblock>
 </example>
   </refbody>
