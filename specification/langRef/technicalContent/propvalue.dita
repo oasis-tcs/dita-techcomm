@@ -24,30 +24,16 @@
          <p>The <xmlelement>propvalue</xmlelement> element is specialized from
                <xmlelement>stentry</xmlelement>. It is defined in the reference module.</p>
       </section>
-      <section id="attributes">
-         <title>Attributes</title>
-         <p>The following attributes are available on this element: <ph
-               conkeyref="reuse-attributes/ref-universalatts"/> and the attributes defined
-            below.</p>
-         <dl>
-            <dlentry conkeyref="reuse-attributes/stentry-rowspan">
-               <dt/>
-               <dd/>
-            </dlentry>
-            <dlentry>
-               <dt/>
-               <dd/>
-            </dlentry>
-            <dlentry conkeyref="reuse-attributes/tablescope">
-               <dt/>
-               <dd/>
-            </dlentry>
-            <dlentry conkeyref="reuse-attributes/headers-att">
-               <dt/>
-               <dd/>
-            </dlentry>
-         </dl>
-      </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <div conkeyref="reuse-attributes/stentry-attr"/>
+      <dl>
+        <dlentry conkeyref="reuse-attributes/stentry-rowspan">
+          <dt/>
+          <dd/>
+        </dlentry>
+      </dl>
+    </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
          <p>See <xref href="properties.dita"/>.</p>

@@ -3,18 +3,18 @@
 <map>
  <title>Reference elements</title>
  <topicref href="containers/reference-elements.dita">
-  <topicref keyref="elements-reference"/>
-  <topicref keyref="elements-refbody"/>
-  <topicref keyref="elements-refbodydiv"/>
-  <topicref keyref="elements-refsyn"/>
+    <topicref keyref="elements-propdesc"/>
+    <topicref keyref="elements-propdeschd"/>
   <topicref keyref="elements-properties"/>
-  <topicref keyref="elements-prophead"/>
+    <topicref keyref="elements-property"/>
+    <topicref keyref="elements-prophead"/>
+    <topicref keyref="elements-proptype"/>
   <topicref keyref="elements-proptypehd"/>
+    <topicref keyref="elements-propvalue"/>
   <topicref keyref="elements-propvaluehd"/>
-  <topicref keyref="elements-propdeschd"/>
-  <topicref keyref="elements-property"/>
-  <topicref keyref="elements-proptype"/>
-  <topicref keyref="elements-propvalue"/>
-  <topicref keyref="elements-propdesc"/>
+    <topicref keyref="elements-refbody"/>
+    <topicref keyref="elements-refbodydiv"/>
+    <topicref keyref="elements-reference"/>
+    <topicref keyref="elements-refsyn"/>
  </topicref>
 </map>
