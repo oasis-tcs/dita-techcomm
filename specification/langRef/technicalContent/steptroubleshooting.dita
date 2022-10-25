@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="steptroubleshooting" xml:lang="en-us" >
   <title><xmlelement>steptroubleshooting</xmlelement></title>
-  <shortdesc>The <xmlelement>steptroubleshooting</xmlelement> element contains information that is
-    designed to help remedy the situation when a step does not complete as expected.</shortdesc>
+  <shortdesc><ph rev="review-a">Step troubleshoooting is</ph> information
+    that is designed to help remedy the situation when a step does not
+    complete as expected.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

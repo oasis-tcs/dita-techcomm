@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="steps-informal" xml:lang="en-us">
 <title><xmlelement>steps-informal</xmlelement></title>
-<shortdesc>The <xmlelement>steps-informal</xmlelement> element contains a set of informal steps.
-        Informal steps do not follow a strict content model; a paragraph might describe more than
-        one step, or a paragraph might combine procedural information along with other
-        information.</shortdesc>
+<shortdesc><ph rev="review-a">Informal steps are steps that</ph> do not
+    follow a strict content model. A paragraph might describe more than one
+    step, or a paragraph might combine procedural information along with
+    other information.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>steps-informal</xmlelement></indexterm>
     <indexterm>task elements</indexterm>

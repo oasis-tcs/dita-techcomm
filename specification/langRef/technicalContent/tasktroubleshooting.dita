@@ -2,10 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="tasktroubleshooting" xml:lang="en-us">
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
-  <shortdesc>The <xmlelement>tasktroubleshooting</xmlelement> element
-    contains troubleshooting information that is designed to help users
-    remedy the situation when a task does not complete as
-    expected.</shortdesc>
+  <shortdesc><ph rev="review-a">Task troubleshooting information is</ph>
+    information that is designed to help users remedy the situation when a
+    task does not complete as expected.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
