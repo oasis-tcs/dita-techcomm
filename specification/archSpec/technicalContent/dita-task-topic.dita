@@ -8,17 +8,7 @@
     successfully.</shortdesc>
   <!--<shortdesc>The strict task-document type supports the development of instructions for the completion of a procedure. The strict-task document type is built using the general-task information type combined with the strict taskbody constraint</shortdesc>-->
 	<conbody>
-    <section id="purpose">
-      <title>Purpose</title>
-      <p>The purpose of the strict task topic is to provide the reader with
-        the following information:</p>
-      <ul>
-        <li>A concise statement of why, when, where, and by whom the task
-          should be performed, as well as what the benefits are</li>
-        <li>All the information that they need to perform the task
-          successfully</li>
-      </ul>
-    </section>
+    <!--<section id="purpose"><title>Purpose</title><p>The purpose of the strict task topic is to provide the reader with the following information:</p><ul><li>A concise statement of why, when, where, and by whom the task should be performed, as well as what the benefits are</li><li>All the information that they need to perform the task successfully</li></ul></section>-->
     <!--<section id="section_60F00B0ECB0B4D69AA641E9710B1AA60"><title>The purpose of the standard task information type</title><draft-comment author="robander" audience="spec-editors" time="25 may 2021">It seems wrong to refer to this as the "standard" task type when in fact it is the strict / constrained task type</draft-comment><p id="p_D5ED1C1C9BB841FDB6488701D3C86FCF">Tasks are the essential building blocks to provide procedural information. A task information type answers the "How do I?" question by providing precise step-by-step instructions detailing the requirements that must be fulfilled, the actions that must be performed, and the order in which the actions must be performed. The <xmlelement>task</xmlelement> topic includes sections for describing the context, prerequisites, expected results, and other aspects of a task.</p></section>-->
     <section id="content-model">
       <title>Content model</title>
