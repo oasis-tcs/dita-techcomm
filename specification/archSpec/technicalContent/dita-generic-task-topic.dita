@@ -8,14 +8,7 @@
     more relaxed than that of the strict
     task.<!-- The general-task document type serves as the base for the strict-task document type. It also can be used to create new document types or specializations.--></shortdesc>
 	<conbody>
-    <section id="purpose">
-      <title>Purpose</title>
-      <p>The purpose of the general task topic is to provide the user with
-        comprehensive instructions for performing a task. In addition, its
-        content model can facilitate the migration of procedural
-        information that does not follow the content model of the strict
-        task topic.</p>
-    </section>
+    <!--<section id="purpose"><title>Purpose</title><p>The purpose of the general task topic is to provide the user with comprehensive instructions for performing a task. In addition, its content model can facilitate the migration of procedural information that does not follow the content model of the strict task topic.</p></section>-->
     <!--<section id="section_4B12CAE12AF84259B9DED26BC5F9FEDE"><title>The purpose of the general task information type</title><p>Like the DITA strict task document type, the general task document and information types contain the essential building blocks to provide procedural information. Both task information types answer the "How do I?" question by providing step-by-step instructions that detail the requirements that must be fulfilled, the actions that must be performed, and the order in which the actions must be performed. Both task topics include sections for describing the context, prerequisites, expected results, and other aspects of a task.</p><p id="p_14C11461E6164EEDB93CDECE17D657C5">The general task information type is specifically designed to accommodate task specializations that differ from the DITA task information type. It might also be used for the conversion of loosely structured tasks from other sources into DITA before they are restructured to follow the more restrictive DITA task model.</p></section>-->
     <section id="content-model">
       <title>Content model</title>
