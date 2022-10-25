@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
-<shortdesc>The <xmlelement>stepxmp</xmlelement> element contains an example
-    that illustrates how a step is completed. The example <ph
-      rev="review-a">might be text-based, an image, a code sample, a link
-      to a video, or some other representation.</ph></shortdesc>
+<shortdesc><ph rev="review-a">A step example</ph> illustrates how a step is
+    completed. The example <ph rev="review-a">might be text-based, an
+      image, a code sample, a link to a video, or some other
+      representation.</ph></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>
 </keywords>

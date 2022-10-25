@@ -3,10 +3,11 @@
  "reference.dtd">
 <reference id="task2" xml:lang="en-us">
 <title>Task elements</title>
-  <shortdesc>Task elements provide the fundamental structure for task
-    topics. The task topic includes sections for describing the context,
-    prerequisites, actual steps, expected results, troubleshooting,
-    example, and expected next steps for a task.</shortdesc>
+  <shortdesc><ph rev="review-a">Task elements provide the fundamental
+      structure for task topics.</ph> The task topic includes sections for
+    describing the context, prerequisites, actual steps, expected results,
+      <ph rev="review-a">troubleshooting</ph>, example, and expected next
+    steps for a task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm>task elements</indexterm></keywords>
 </metadata></prolog>

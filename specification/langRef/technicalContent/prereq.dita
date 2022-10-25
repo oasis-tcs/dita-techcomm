@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
-<shortdesc>The <xmlelement>prereq</xmlelement> contains prerequisites. Prerequisites are things that
-    users need to know or preliminary tasks that users need to perform before starting the current
+<shortdesc>Prerequisites are things that users need to know or preliminary
+    tasks that users need to perform before starting the current
     task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
