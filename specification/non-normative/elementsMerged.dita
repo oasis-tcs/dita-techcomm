@@ -2,11 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="elements" xml:lang="en-us">
   <title>Element-by-element recommendations for translators</title>
-  <shortdesc>This topic contains a list of all OASIS DITA elements that are available in the
-    edition. It includes recommendations on how to present the element type to translators, whether
-    the element contents are likely to be suitable for translation, and whether the element has
-    attributes whose values are likely to be suitable for translation. Examples of content that is
-    not suitable for translation include code fragments and mailing addresses.</shortdesc>
+  <shortdesc>This topic contains a list of all OASIS DITA elements that are
+    available in the edition. It includes recommendations on whether the
+    element contents are likely to be suitable for translation and whether
+    the element has attributes whose values are likely to be suitable for
+    translation. Examples of content that is not suitable for translation
+    include code fragments and mailing addresses.</shortdesc>
   <refbody>
     <section id="notes">
       <title>Notes on the tables below</title>
@@ -72,13 +73,7 @@
             translatable content. This column only appears in tables for
             the domain elements.</dd>
         </dlentry>
-        <dlentry>
-          <dt>Block/inline presentation</dt>
-          <dd>Indicates whether the element is rendered in output as a
-            single block or as an inline element. Metadata typically is not
-            rendered, and so metadata elements are listed as <keyword>n/a
-              (metadata).</keyword></dd>
-        </dlentry>
+        <!--<dlentry><dt>Block/inline presentation</dt><dd>Indicates whether the element is rendered in output as a single block or as an inline element. Metadata typically is not rendered, and so metadata elements are listed as <keyword>n/a (metadata).</keyword></dd></dlentry>-->
         <dlentry>
           <dt>Block/inline translation</dt>
           <dd>Indicates whether the element represents a complete
@@ -117,7 +112,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -126,14 +120,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>amendments</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -142,14 +134,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>approved</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -158,14 +148,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bibliolist</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -174,14 +162,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookchangehistory</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -190,14 +176,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookeventtype</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -206,14 +190,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>booklibrary</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -222,14 +204,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>booklists</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -238,14 +218,12 @@
           <stentry><xmlelement>map</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookmeta</xmlelement></stentry>
           <stentry><xmlelement>topicmeta</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -254,14 +232,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookowner</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -270,14 +246,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>bookrestriction</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -286,14 +260,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>booktitle</xmlelement></stentry>
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -302,14 +274,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>chapter</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -318,14 +288,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>completed</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -334,14 +302,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>copyrlast</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -350,14 +316,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>dedication</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -366,14 +330,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>edited</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -382,14 +344,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>figurelist</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -398,14 +358,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>glossarylist</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -414,14 +372,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>isbn</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -430,14 +386,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>maintainer</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -446,14 +400,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>notices</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -462,14 +414,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>part</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -478,14 +428,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>preface</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -494,14 +442,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>published</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -510,14 +456,12 @@
           <stentry><xmlelement>publisher</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>publishtype</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -526,14 +470,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>revisionid</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -542,14 +484,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>summary</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -558,14 +498,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>tested</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -574,14 +512,12 @@
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>trademarklist</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -590,14 +526,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>year</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -612,7 +546,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -621,7 +554,6 @@
           <stentry><xmlelement>body</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
@@ -629,14 +561,12 @@
           <stentry><xmlelement>bodydiv</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>concept</xmlelement></stentry>
           <stentry><xmlelement>topic</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -651,7 +581,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
           <stentry>Notes</stentry>
@@ -661,7 +590,6 @@
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -669,7 +597,6 @@
           <stentry><xmlelement>glossAcronym</xmlelement></stentry>
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
@@ -679,7 +606,6 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -687,7 +613,6 @@
           <stentry><xmlelement>glossAlternateFor</xmlelement></stentry>
           <stentry><xmlelement>xref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>n/a (empty element)</stentry>
           <stentry>n/a (empty element)</stentry>
           <stentry/>
@@ -698,7 +623,6 @@
               <xmlelement>conbody</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -706,7 +630,6 @@
           <stentry><xmlelement>glossdef</xmlelement></stentry>
           <stentry><xmlelement>abstract</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
@@ -717,7 +640,6 @@
               <xmlelement>concept</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -725,7 +647,6 @@
           <stentry><xmlelement>glossPartOfSpeech</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
           <stentry/>
@@ -734,7 +655,6 @@
           <stentry><xmlelement>glossProperty</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
           <stentry/>
@@ -744,7 +664,6 @@
           <stentry><xmlelement>note</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry><xmlatt>othertype</xmlatt></stentry>
         </strow>
@@ -753,7 +672,6 @@
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -761,7 +679,6 @@
           <stentry><xmlelement>glossStatus</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
           <stentry/>
@@ -770,7 +687,6 @@
           <stentry><xmlelement>glossSurfaceForm</xmlelement></stentry>
           <stentry><xmlelement>p</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
@@ -781,8 +697,6 @@
           <stentry>yes</stentry>
           <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise
             inline</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise
-            inline</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -790,7 +704,6 @@
           <stentry><xmlelement>glossSynonym</xmlelement></stentry>
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
@@ -800,7 +713,6 @@
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -808,7 +720,6 @@
           <stentry><xmlelement>glossUsage</xmlelement></stentry>
           <stentry><xmlelement>note</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
           <stentry><xmlatt>othertype</xmlatt>  can specify translatable
@@ -825,7 +736,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -833,7 +743,6 @@
           <stentry><xmlelement>glossgroup</xmlelement></stentry>
           <stentry><xmlelement>topic</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -848,7 +757,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -857,14 +765,12 @@
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>propdeschd</xmlelement></stentry>
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -873,14 +779,12 @@
           <stentry><xmlelement>simpletable</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>property</xmlelement></stentry>
           <stentry><xmlelement>strow</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -889,14 +793,12 @@
           <stentry><xmlelement>sthead</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>proptype</xmlelement></stentry>
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -905,14 +807,12 @@
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>propvalue</xmlelement></stentry>
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -921,14 +821,12 @@
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>refbody</xmlelement></stentry>
           <stentry><xmlelement>body</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -937,7 +835,6 @@
           <stentry><xmlelement>bodydiv</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
@@ -945,14 +842,12 @@
           <stentry><xmlelement>topic</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>refsyn</xmlelement></stentry>
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -967,7 +862,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -976,14 +870,12 @@
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>chdeschd</xmlelement></stentry>
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -992,14 +884,12 @@
           <stentry><xmlelement>sthead</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>choice</xmlelement></stentry>
           <stentry><xmlelement>li</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1008,14 +898,12 @@
           <stentry><xmlelement>ul</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>choicetable</xmlelement></stentry>
           <stentry><xmlelement>simpletable</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1024,14 +912,12 @@
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>choptionhd</xmlelement></stentry>
           <stentry><xmlelement>stentry</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1040,14 +926,12 @@
           <stentry><xmlelement>strow</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>cmd</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1056,14 +940,12 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>info</xmlelement></stentry>
           <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1072,14 +954,12 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>prereq</xmlelement></stentry>
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1088,7 +968,6 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
@@ -1096,14 +975,12 @@
           <stentry><xmlelement>li</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>stepresult</xmlelement></stentry>
           <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1112,14 +989,12 @@
           <stentry><xmlelement>ol</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>steps-informal</xmlelement></stentry>
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1128,14 +1003,12 @@
           <stentry><xmlelement>ul</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>stepsection</xmlelement></stentry>
           <stentry><xmlelement>li</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1144,14 +1017,12 @@
           <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>stepxmp</xmlelement></stentry>
           <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1160,14 +1031,12 @@
           <stentry><xmlelement>topic</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>taskbody</xmlelement></stentry>
           <stentry><xmlelement>body</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1176,14 +1045,12 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>tutorialinfo</xmlelement></stentry>
           <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1198,7 +1065,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1207,14 +1073,12 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>condition</xmlelement></stentry>
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1223,14 +1087,12 @@
           <stentry><xmlelement>section</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>responsibleParty</xmlelement></stentry>
           <stentry><xmlelement>p</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1239,7 +1101,6 @@
           <stentry><xmlelement>body</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
@@ -1247,14 +1108,12 @@
           <stentry><xmlelement>topic</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>troubleSolution</xmlelement></stentry>
           <stentry><xmlelement>bodydiv</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1270,7 +1129,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1278,7 +1136,6 @@
           <stentry><xmlelement>abbreviated-form</xmlelement></stentry>
           <stentry><xmlelement>term</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>n/a (empty element)</stentry>
           <stentry>n/a (empty element)</stentry>
         </strow>
@@ -1293,7 +1150,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1302,14 +1158,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>equation-block</xmlelement></stentry>
           <stentry><xmlelement>div</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1318,14 +1172,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>equation-figure</xmlelement></stentry>
           <stentry><xmlelement>fig</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1341,7 +1193,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1349,7 +1200,6 @@
           <stentry><xmlelement>glossref</xmlelement></stentry>
           <stentry><xmlelement>topicref</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1364,7 +1214,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1373,14 +1222,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>partno</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1395,7 +1242,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1403,7 +1249,6 @@
           <stentry><xmlelement>markupname</xmlelement></stentry>
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1418,7 +1263,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1426,7 +1270,6 @@
           <stentry><xmlelement>mathml</xmlelement></stentry>
           <stentry><xmlelement>foreign</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>Variable: depends on math content</stentry>
           <stentry>Depends on math content</stentry>
           <stentry>Follow rules established for MathML standard</stentry>
         </strow>
@@ -1434,7 +1277,6 @@
           <stentry><xmlelement>mathmlref</xmlelement></stentry>
           <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>n/a (empty element)</stentry>
           <stentry>n/a (empty element)</stentry>
         </strow>
@@ -1449,7 +1291,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1458,14 +1299,12 @@
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>codeblock</xmlelement></stentry>
           <stentry><xmlelement>pre</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1474,14 +1313,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>coderef</xmlelement></stentry>
           <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>n/a (empty element)</stentry>
           <stentry>n/a (empty element)</stentry>
         </strow>
@@ -1490,14 +1327,12 @@
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>parml</xmlelement></stentry>
           <stentry><xmlelement>dl</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1506,14 +1341,12 @@
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>pd</xmlelement></stentry>
           <stentry><xmlelement>dd</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1522,14 +1355,12 @@
           <stentry><xmlelement>dlentry</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>pt</xmlelement></stentry>
           <stentry><xmlelement>dt</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1545,7 +1376,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1553,7 +1383,6 @@
           <stentry><xmlelement>change-historylist</xmlelement></stentry>
           <stentry><xmlelement>metadata</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1561,7 +1390,6 @@
           <stentry><xmlelement>change-completed</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1569,7 +1397,6 @@
           <stentry><xmlelement>change-item</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1577,7 +1404,6 @@
           <stentry><xmlelement>change-person</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1585,7 +1411,6 @@
           <stentry><xmlelement>change-organization</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1593,7 +1418,6 @@
           <stentry><xmlelement>change-revisionid</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1601,7 +1425,6 @@
           <stentry><xmlelement>change-request-reference</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1609,7 +1432,6 @@
           <stentry><xmlelement>change-request-system</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1617,7 +1439,6 @@
           <stentry><xmlelement>change-request-id</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1625,7 +1446,6 @@
           <stentry><xmlelement>change-started</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1633,7 +1453,6 @@
           <stentry><xmlelement>change-summary</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>n/a (metadata)</stentry>
           <stentry>n/a</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1648,7 +1467,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1657,14 +1475,12 @@
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>filepath</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1673,14 +1489,12 @@
           <stentry><xmlelement>pre</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>msgnum</xmlelement></stentry>
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1689,14 +1503,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>systemoutput</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1705,14 +1517,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>varname</xmlelement></stentry>
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1727,7 +1537,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1735,7 +1544,6 @@
           <stentry><xmlelement>svg-container</xmlelement></stentry>
           <stentry><xmlelement>foreign</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>Variable: depends on SVG content</stentry>
           <stentry>Depends on SVG content</stentry>
           <stentry>Follow rules established for SVG standard</stentry>
         </strow>
@@ -1743,7 +1551,6 @@
           <stentry><xmlelement>svgref</xmlelement></stentry>
           <stentry><xmlelement>include</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>n/a (empty element)</stentry>
           <stentry>n/a (empty element)</stentry>
         </strow>
@@ -1758,7 +1565,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1767,14 +1573,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>fragment</xmlelement></stentry>
           <stentry><xmlelement>figgroup</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1783,14 +1587,12 @@
           <stentry><xmlelement>xref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>groupchoice</xmlelement></stentry>
           <stentry><xmlelement>figgroup</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1799,14 +1601,12 @@
           <stentry><xmlelement>figgroup</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>groupseq</xmlelement></stentry>
           <stentry><xmlelement>figgroup</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1815,14 +1615,12 @@
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>oper</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1831,14 +1629,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>sep</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1847,14 +1643,12 @@
           <stentry><xmlelement>figgroup</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>synnote</xmlelement></stentry>
           <stentry><xmlelement>fn</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1863,14 +1657,12 @@
           <stentry><xmlelement>xref</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>synph</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1879,14 +1671,12 @@
           <stentry><xmlelement>fig</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>var</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1901,7 +1691,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1910,14 +1699,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>screen</xmlelement></stentry>
           <stentry><xmlelement>pre</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1926,7 +1713,6 @@
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
@@ -1934,14 +1720,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>wintitle</xmlelement></stentry>
           <stentry><xmlelement>keyword</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>yes</stentry>
         </strow>
@@ -1956,7 +1740,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -1966,7 +1749,6 @@
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
@@ -1974,7 +1756,6 @@
           <stentry><xmlelement>keyword</xmlelement>,
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -1984,7 +1765,6 @@
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
@@ -1992,7 +1772,6 @@
           <stentry><xmlelement>keyword</xmlelement>,
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2002,7 +1781,6 @@
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
@@ -2011,7 +1789,6 @@
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
-          <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
@@ -2019,7 +1796,6 @@
           <stentry><xmlelement>keyword</xmlelement>,
               <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>inline</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2039,7 +1815,6 @@
           <stentry>Element name</stentry>
           <stentry>Specialization base</stentry>
           <stentry>Same behavior as specialization base?</stentry>
-          <stentry>Block/inline (presentation)</stentry>
           <stentry>Block/inline (translation)</stentry>
           <stentry>Translatable content?</stentry>
         </sthead>
@@ -2048,14 +1823,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>administrativearea</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2064,14 +1837,12 @@
           <stentry><xmlelement>author</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>contactnumber</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2080,14 +1851,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>country</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2096,14 +1865,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>emailaddresses</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2112,14 +1879,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>generationidentifier</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2128,14 +1893,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>lastname</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2144,14 +1907,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>localityname</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2160,14 +1921,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>namedetails</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2176,14 +1935,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>organizationname</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2192,14 +1949,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>otherinfo</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2208,14 +1963,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>personname</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2224,14 +1977,12 @@
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>thoroughfare</xmlelement></stentry>
           <stentry><xmlelement>ph</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
@@ -2240,14 +1991,12 @@
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>block</stentry>
-          <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>urls</xmlelement></stentry>
           <stentry><xmlelement>data</xmlelement></stentry>
           <stentry>no</stentry>
-          <stentry>block</stentry>
           <stentry>block</stentry>
           <stentry>no</stentry>
         </strow>
