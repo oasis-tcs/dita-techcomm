@@ -25,8 +25,8 @@
                         is appropriate for a short description. Style sheets might generate a label,
                         for example, <q>About this procedure</q>, to indicate clearly that the
                         information provided is background information.</p>
-      <draft-comment author="dstevens73">postreq and prereq put this information about the
-        possibility of labels in a usage section.<div>
+      <draft-comment author="dstevens73" disposition="Completed">postreq and prereq put this
+        information about the possibility of labels in a usage section.<div>
           <p>Kris Eberlein, 20 October 2022</p>
           <p>I've added a "Rendering expectations" section here that states "Implementations might
             want to consider having their stylesheets render a label for this element.", per our TC
@@ -34,6 +34,12 @@
           <p>I wonder if I should delete the 2nd sentence here – or whether we want to show a
             possible rendering since we mention that style sheets might render a label. Any
             thoughts?</p>
+        </div><div>
+          <p>Kris Eberlein, 21 October 2022</p>
+          <p>I've deleted the info here in the example about style sheets generating an example.
+            Robert and I think that, at most, we should have one place where we mentioned task
+            labels and show a screen capture. I think that should be not here in the element
+            reference topics, but in the overview topic.</p>
         </div></draft-comment>
 <codeblock>&lt;task id="Generating-stub-files" xml:lang="en-us">
   &lt;title>Generating stub files&lt;/title>

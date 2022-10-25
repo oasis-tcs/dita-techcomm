@@ -28,6 +28,10 @@
 &lt;/steps>
 <b>&lt;postreq&gt;</b>Notify the proctor upon completing this self-test.<b>&lt;/postreq&gt;</b> 
 </codeblock>
-      <draft-comment author="dstevens73">context and postreq have a comment in the example about how
-        a lable might be generated.</draft-comment>
+      <draft-comment author="dstevens73" disposition="Closed">context and postreq have a comment in
+        the example about how a label might be generated.<div>
+          <p>Yes, that was in the review draft. I've removed that; I think the one place to really
+            mention this is in the overview topics about task. There we can explain that these
+            elements do not allow titles, and do task labels might be a good idea.</p>
+        </div></draft-comment>
     </example></refbody></reference>

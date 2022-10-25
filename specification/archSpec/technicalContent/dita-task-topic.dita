@@ -20,17 +20,24 @@
         <li>All the information that they need to perform the task
           successfully</li>
       </ul>
-      <draft-comment author="dstevens73">I don't think the purpose of general and strict tasks are
-        really any different except for the second sentence in general's purpose, so I'm wondering
-        about the emphasis here on the context section (bullet 1).<div>
-          <p>Kris Eberlein, 20 October 2022</p>
-          <p>Yeah, the purpose statement is weak here. I should have commented to folks at the last
-            TC call that these topics were very much first drafts and really need work. I hope you
-            can contribute here!</p>
+      <p>​ Draft Comment author="dstevens73" ​<b>Comment by dstevens73: </b>.​ Division ​​ Paragraph
+        ​ Paragraph ​​ ParagraphParagraph ​​ Division ​​ Draft Comment ​</p>
+      <p/>
+      <draft-comment author="Dawn Stevens" disposition="Completed">I don't think the purpose of
+        general and strict tasks are really any different except for the second sentence in
+        general's purpose, so I'm wondering about the emphasis here on the context section (bullet 1)<div>
+          <p>Kris Eberlein, 20 October 2022​</p>
+          <p> ​Yeah, the purpose statement is weak here. I should have commented to folks at the
+            last TC call that these topics were very much first drafts and really need work. I hope
+            you can contribute here!​ </p>
           <p>Personally, I'm a big strict task fan; I think it's a work of art. I've used general
             task only for specializations and for storing reusable components, when a implementation
             stores multiple reusable elements in a single file. I've kept waiting for a client who
-            needed to conditionally process &lt;preq> and &lt;context>to show up ...</p>
+            needed to conditionally process &lt;preq> and &lt;context>to show up ...​ </p>
+        </div><div>
+          <p>Kris Eberlein, 25 October 2022​</p>
+          <p> ​We need to improve the purpose section. Perhaps cover the purpose in the container
+            topic, since it does not difference between the two task types.</p>
         </div></draft-comment>
     </section>
     <!--<section id="section_60F00B0ECB0B4D69AA641E9710B1AA60"><title>The purpose of the standard task information type</title><draft-comment author="robander" audience="spec-editors" time="25 may 2021">It seems wrong to refer to this as the "standard" task type when in fact it is the strict / constrained task type</draft-comment><p id="p_D5ED1C1C9BB841FDB6488701D3C86FCF">Tasks are the essential building blocks to provide procedural information. A task information type answers the "How do I?" question by providing precise step-by-step instructions detailing the requirements that must be fulfilled, the actions that must be performed, and the order in which the actions must be performed. The <xmlelement>task</xmlelement> topic includes sections for describing the context, prerequisites, expected results, and other aspects of a task.</p></section>-->

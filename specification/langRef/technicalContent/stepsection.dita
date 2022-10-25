@@ -17,12 +17,12 @@
             <p>Processors which render the content of <xmlelement>stepsection</xmlelement> elements
         among the <xmlelement>step</xmlelement> elements <term outputclass="RFC-2119">MUST
           NOT</term> number the <xmlelement>stepsection</xmlelement> elements.</p>
-      <draft-comment author="dstevens73">Is it a rendering expectation that the numbering of the
-        step elements is not interrupted – ie doesn't start over? This element is a source of
-        confusion in my clients often who see it as a way to provide more than one set of steps in a
-        single topic; ie when they have multiple ways to complete a task. they are surprised when
-        the steps don't renumber after a stepsection. The example indicates the numbering
-        expectation, but I wonder if it would help to provide more detail here.<div>
+      <draft-comment author="dstevens73" disposition="Completed">Is it a rendering expectation that
+        the numbering of the step elements is not interrupted – ie doesn't start over? This element
+        is a source of confusion in my clients often who see it as a way to provide more than one
+        set of steps in a single topic; ie when they have multiple ways to complete a task. they are
+        surprised when the steps don't renumber after a stepsection. The example indicates the
+        numbering expectation, but I wonder if it would help to provide more detail here.<div>
           <p>Kris Eberlein, 19 October 2022</p>
           <p>@Dawn, what additional detail would you want here?</p>
         </div><div>
