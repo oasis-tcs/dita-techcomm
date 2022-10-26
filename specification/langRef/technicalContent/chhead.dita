@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains optional
-    header-row content for a choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
+<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains <ph
+      rev="review-a">elements that provide labels</ph> for <ph
+      rev="review-a">the columns in</ph> a choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>alternate header text</indexterm></indexterm>
         <indexterm>processing
           expectations<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>

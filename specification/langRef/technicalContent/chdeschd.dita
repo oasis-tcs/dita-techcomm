@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="chdeschd" xml:lang="en-us">
 <title><xmlelement>chdeschd</xmlelement></title>
-<shortdesc>The <xmlelement>choptionhd</xmlelement> element provides a label
+<shortdesc>The <xmlelement>chdeschd</xmlelement> element provides a label
     for the second column in a choice table.</shortdesc>
 <prolog><metadata>
 <keywords>
