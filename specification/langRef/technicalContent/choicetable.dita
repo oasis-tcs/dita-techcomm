@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choicetable" xml:lang="en-us">
   <title><xmlelement>choicetable</xmlelement></title>
-  <shortdesc>The <xmlelement>choicetable</xmlelement> element contains
-    information about a set of options for completing a step.</shortdesc>
+  <shortdesc><ph rev="review-a">A choice table provides</ph> information
+    about a set of options for completing a step.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

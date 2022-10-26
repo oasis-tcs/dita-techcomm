@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="proptypehd" xml:lang="en-us">
 <title><xmlelement>proptypehd</xmlelement></title>
-<shortdesc>The <xmlelement>proptypehd</xmlelement> element supports headings for the
-type column of a properties table.</shortdesc>
+<shortdesc>The <xmlelement>proptypehd</xmlelement> element provides a label
+    for the type column in a properties table.</shortdesc>
 <prolog><metadata>
 <keywords>
                         <indexterm>property tables<indexterm>headers<indexterm>type
@@ -22,9 +22,10 @@ type column of a properties table.</shortdesc>
       <title>Attributes</title>
       <div conkeyref="reuse-attributes/choicetable-attr"/>
     </section>
-            <example id="example" otherprops="examples">
-                  <title>Example</title>
-                  <p>See the example in <xref href="properties.dita"/>.</p>
-            </example>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>See <xref keyref="elements-properties"
+            ><xmlelement>properties</xmlelement></xref>.</p>
+    </example>
 </refbody>
 </reference>

@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="refbodydiv" xml:lang="en-us">
 <title><xmlelement>refbodydiv</xmlelement></title>
-<shortdesc>The <xmlelement>refbodydiv</xmlelement> element provides an informal container for
-    content that might be grouped within a reference.</shortdesc>
+<shortdesc>The <xmlelement>refbodydiv</xmlelement> element provides a
+    container for contiguous content in a reference topic. There is no
+    additional semantic meaning.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refbodydiv</xmlelement></indexterm>
         <indexterm>reference
@@ -13,16 +14,10 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Reference topics place many restrictions on their content compared to generic topics; the
-          <xmlelement>refbodydiv</xmlelement> element maintains these restrictions by only allowing
-        elements that are already available within the body of a reference. There are no additional
-        semantics attached to the <xmlelement>refbodydiv</xmlelement> element; it is purely a
-        grouping element provided to help organize content.</p>
-      <p>The <xmlelement>refbodydiv</xmlelement> element can nest itself, which means that it can be
-        specialized to create structured information within a specialized reference topic. Another
-        common use case for the <xmlelement>refbodydiv</xmlelement> element is to group a sequence
-        of related elements for reuse, so that another topic can reference the entire set with a
-        single <xmlatt>conref</xmlatt> attribute.</p>
+      <!--<p>Reference topics place many restrictions on their content compared to generic topics; the <xmlelement>refbodydiv</xmlelement> element maintains these restrictions by only allowing elements that are already available within the body of a reference. There are no additional semantics attached to the <xmlelement>refbodydiv</xmlelement> element; it is purely a grouping element provided to help organize content.</p>-->
+      <p>The <xmlelement>refbodydiv</xmlelement> element is useful
+        primarily for reuse and as a specialization base.</p>
+      <!--<p>The <xmlelement>refbodydiv</xmlelement> element can nest itself, which means that it can be specialized to create structured information within a specialized reference topic. Another common use case for the <xmlelement>refbodydiv</xmlelement> element is to group a sequence of related elements for reuse, so that another topic can reference the entire set of elements with a single <xmlatt>conkeyref</xmlatt> attribute.</p>-->
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -35,6 +30,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how a
+          <xmlelement>refbodydiv</xmlelement> element can be used to group
+        content for reuse</p>
       <codeblock>&lt;reference id="sample-refbodydiv" xml:lang="en">
  &lt;title>Sample for refbody&lt;/title>
  &lt;shortdesc>This shows how refbodydiv might be used.&lt;/shortdesc>
@@ -50,6 +48,9 @@
  &lt;/refbody>
 &lt;/reference>
 </codeblock>
+      <draft-comment author="Kristen J Eberlein" time="26 October 2022">
+        <p>Can someone come up with a more realistic example?</p>
+      </draft-comment>
     </example>
 </refbody>
 </reference>

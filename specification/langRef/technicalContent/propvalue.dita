@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="propvalue" xml:lang="en-us">
 <title><xmlelement>propvalue</xmlelement></title>
-<shortdesc>The <xmlelement>propvalue</xmlelement> element indicates one or more values for the
-      current property type.</shortdesc>
+<shortdesc>The <xmlelement>propvalue</xmlelement> element contains the
+    content of the second cell in a properties table row. This content
+    indicates a value for the property type.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>property tables<indexterm>values</indexterm></indexterm><indexterm><xmlelement>propvalue</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>propvalue</xmlelement></indexterm></indexterm>
@@ -16,8 +17,17 @@
          <p>Values can be placed in separate <xmlelement>property</xmlelement> elements if they need
             separate descriptions. The <xmlelement>proptype</xmlelement> element need not be
             repeated.</p>
-         <draft-comment author="robander" time="20 May 2021">This feels like something that should
-            be called out for processors in either formatting or processing info.</draft-comment>
+         <draft-comment author="robander" time="20 May 2021">This feels
+        like something that should be called out for processors.<div>
+          <p>Kris Eberlein, 26 October 2022</p>
+          <p>We currently also call out the following nuance in the
+              <xmlelement>properties</xmlelement> topic:</p>
+          <p>"When a single property type takes multiple values, authors
+            can create additional property elements and use only the
+              <xmlelement>propvalue</xmlelement> and
+              <xmlelement>propdesc</xmlelement> elements for each
+            successive value."</p>
+        </div></draft-comment>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
@@ -34,10 +44,11 @@
         </dlentry>
       </dl>
     </section>
-      <example id="example" otherprops="examples">
-         <title>Example</title>
-         <p>See <xref href="properties.dita"/>.</p>
-      </example>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>See <xref keyref="elements-properties"
+            ><xmlelement>properties</xmlelement></xref>.</p>
+    </example>
 </refbody>
 </reference>
 
