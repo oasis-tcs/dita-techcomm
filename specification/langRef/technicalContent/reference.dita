@@ -3,27 +3,16 @@
  "reference.dtd">
 <reference id="reference" xml:lang="en-us">
 <title><xmlelement>reference</xmlelement></title>
-<shortdesc>The <xmlelement>reference</xmlelement> element defines a top-level container for a
-    reference topic. Reference topics document programming constructs or facts about a product.
-    Examples of reference topics include (but are not limited to) product specifications,
-    environmental specifications, equipment lists, parts lists, required tools, language elements,
-    class descriptions, commands, functions, and API information. All of these topics provide quick
-    access to facts, but they do not contain a deeper explanation of related concepts or
-    tasks.</shortdesc>
+<shortdesc>The <xmlelement>reference</xmlelement> element is the top-level
+    element for a reference topic. The reference topic includes special
+    sections for programming syntax and property lists, as well as
+    sections, tables, and examples.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>reference</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>reference</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>Reference topics have the same high-level structure as any other topic type, with a title,
-        short description, and body. Within the body, reference topics are typically organized into
-        one or more sections, property lists, and tables. The reference topic type provides general
-        rules that apply to all kinds of reference information, using elements like
-          <xmlelement>refsyn</xmlelement> for syntax or signatures, and
-          <xmlelement>properties</xmlelement> for lists of properties and values</p>
-    </section>
+    <!--<section id="usage-information"><title>Usage information</title><p>Reference topics have the same high-level structure as any other topic type, with a title, short description, and body. Within the body, reference topics are typically organized into one or more sections, property lists, and tables. The reference topic type provides general rules that apply to all kinds of reference information, using elements like <xmlelement>refsyn</xmlelement> for syntax or signatures, and <xmlelement>properties</xmlelement> for lists of properties and values</p></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>reference</xmlelement> element is specialized from
@@ -34,7 +23,7 @@
       <div conkeyref="reuse-attributes/topic-attributes"/>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
+      <title>Examples</title>
       <fig id="fig_vx5_bj2_dcb">
         <title>Reference topic for software material</title>
         <codeblock>&lt;reference id="refexample"&gt;

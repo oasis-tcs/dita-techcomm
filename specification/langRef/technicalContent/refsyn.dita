@@ -3,13 +3,12 @@
  "reference.dtd">
 <reference id="refsyn" xml:lang="en-us">
 <title><xmlelement>refsyn</xmlelement></title>
-<shortdesc>The <xmlelement>refsyn</xmlelement> element is a special section inside a reference
-    topic. The section often contains syntax or signature content (for example, the calling syntax
-    for a command-line utility or an API signature). The <xmlelement>refsyn</xmlelement> contains a
-    brief, possibly diagrammatic description of the subject's interface or high-level
-      structure.<draft-comment author="robander" time="20 may 2021">This seems like all usage
-      information, and could use an edit to clarify what the element is
-    for.</draft-comment></shortdesc>
+<shortdesc>The <xmlelement>refsyn</xmlelement> element describes the syntax
+    of something, for example, a command-line utility or an API signature.
+      <!--The <xmlelement>refsyn</xmlelement> contains a brief, possibly diagrammatic description of the subject's interface or high-level structure.--><draft-comment
+      author="Kris Eberlein" time="26 October 2022">
+      <p>Can we be more specific than "something"?</p>
+    </draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refsyn</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>refsyn</xmlelement></indexterm></indexterm>
 </keywords>
@@ -26,17 +25,33 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <fig id="fig_spq_dk2_dcb">
-        <title>Reference topic for software material</title>
-        <codeblock>&lt;reference id="MyAPI">
+      <p>The following code sample shows how the
+          <xmlelement>refsyn</xmlelement> element can be used to document
+        the syntax for the Windows <cmdname>mkdir</cmdname> command:</p>
+      <codeblock><b>&lt;refsyn></b>
+  &lt;title>Syntax&lt;/title>
+  &lt;codeblock>mkdir &lt;varname>drive&lt;/varname> &lt;varname>directory&lt;/varname>&lt;/codeblock>
+  &lt;parml>
+    &lt;plentry>
+      &lt;pt>&lt;varname>drive&lt;/varname>&lt;/pt>
+      &lt;pd>Specifies the drive on which the new directory is created. This is an optional
+          parameter.&lt;/pd>
+    &lt;/plentry>
+    &lt;plentry>
+      &lt;pt>&lt;varname>path&lt;/varname>&lt;/pt>
+      &lt;pd>Specifies the fully-qualified name of the new directory. This is a required
+          parameter.&lt;/pd>
+    &lt;/plentry>
+  &lt;/parml>
+<b>&lt;/refsyn></b></codeblock>
+      <!--<codeblock>&lt;reference id="MyAPI">
   &lt;title>MyAPI&lt;/title>
   &lt;refbody>
     &lt;refsyn>Describe the MyAPI syntax here, possibly
 using syntax phrases or syntax diagrams for explicit 
 definition of syntax or prototype construction.&lt;/refsyn>
   &lt;/refbody>
-&lt;/reference></codeblock>
-      </fig>
+&lt;/reference></codeblock>-->
     </example>
 </refbody>
 </reference>

@@ -3,22 +3,13 @@
  "reference.dtd">
 <reference id="refbody" xml:lang="en-us">
 <title><xmlelement>refbody</xmlelement></title>
-<shortdesc>The <xmlelement>refbody</xmlelement> element is a container for the main content of the
-      reference topic.</shortdesc>
+<shortdesc>The <xmlelement>refbody</xmlelement> element contains the main
+    content of a reference topic.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refbody</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>refbody</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
 <refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-         <p>Reference topics limit the body structure to tables (both simple and standard), property
-            lists, syntax sections, and generic sections and examples, in any sequence or
-            number.</p>
-         <p>Reference topics represent the kind of information that users typically consult to
-            understand programming objects, configuration file options, recipes, terminological
-            descriptions, product or other specifications, equipment or parts lists, or any other
-            set of factual information.</p>
-      </section>
+    <!--<section id="usage-information"><title>Usage information</title><p>Reference topics limit the body structure to tables (both simple and standard), property lists, syntax sections, and generic sections and examples, in any sequence or number.</p><p>Reference topics represent the kind of information that users typically consult to understand programming objects, configuration file options, recipes, terminological descriptions, product or other specifications, equipment or parts lists, or any other set of factual information.</p></section>-->
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>refbody</xmlelement> element is specialized from
@@ -30,7 +21,8 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See <xref href="reference.dita"/>.</p>
+         <p>See <xref keyref="elements-reference"
+            ><xmlelement>reference</xmlelement></xref>.</p>
       </example>
 </refbody>
 </reference>

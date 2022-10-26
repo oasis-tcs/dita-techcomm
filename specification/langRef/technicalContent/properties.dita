@@ -3,9 +3,16 @@
  "reference.dtd">
 <reference id="properties" xml:lang="en-us">
 <title><xmlelement>properties</xmlelement></title>
-<shortdesc>The <xmlelement>properties</xmlelement> element gives a list of properties for the
-    subject of the current topic, for example whether a class is public or protected. Each property
-    can include the type, value, and a description.</shortdesc>
+  <abstract>
+    <shortdesc>A properties list describes the properties of something.
+      Each property can include the type, value, and a
+      description.</shortdesc>
+    <draft-comment author="Kristen J Eberlein" time="26 October 2022">
+      <p>Can we be more specific than "something"? Perhaps "an object,
+        category, or X". Thoughts?</p>
+    </draft-comment>
+    <!--<shortdesc>The <xmlelement>properties</xmlelement> element gives a list of properties for the subject of the current topic, for example whether a class is public or protected. Each property can include the type, value, and a description.</shortdesc>-->
+  </abstract>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>properties</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>properties</xmlelement></indexterm></indexterm>
         <indexterm>rendering
@@ -16,13 +23,29 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>To represent multiple values for a single type, create additional property elements and use
-        only the <xmlelement>propvalue</xmlelement> element (and <xmlelement>propdesc</xmlelement>
-        when needed) for each successive value.</p>
+      <p>A properties list provides information about the properties of
+        something. It typically is represented as a simple table with three
+        columns. The first cell in a row lists the property type, the
+        second cell in the row lists a value for the property, and the
+        third cell in the row lists a description,</p>
+      <p>An optional header row can provide labels for the columns, if an
+        author does not want to use the default labels that might be
+        provided by stylesheets.</p>
+      <p>When a single property type takes multiple values, authors can
+        create additional property elements and use only the
+          <xmlelement>propvalue</xmlelement> and
+          <xmlelement>propdesc</xmlelement> elements for each successive
+        value.</p>
+      <draft-comment author="Kristen J Eberlein" time="26 October 2022">
+        <p>The above paragraph seems as if it has rendering implications.
+          Also, how does this is effected by the fact that we now have
+          enabled row and column spanning for properties lists?</p>
+      </draft-comment>
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>The typical rendering is usually in a table-like format.</p>
+      <p>The <xmlelement>properties</xmlelement> element typically is
+        rendered in a tabular format.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,23 +57,69 @@
       <p conkeyref="reuse-attributes/simpletable-attributes"/>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <codeblock>&lt;properties&gt;
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>properties</xmlelement> element can be used.</p>
+      <fig>
+        <title>Simple properties list</title>
+        <p>The following code sample shows a
+            <xmlelement>properties</xmlelement> element that describes
+          information about motor oil types:</p>
+        <codeblock><b>&lt;properties&gt;</b>
   &lt;prophead&gt;
-      &lt;proptypehd&gt;Visual Element&lt;/proptypehd&gt;
-      &lt;propvaluehd&gt;Value&lt;/propvaluehd&gt;
-      &lt;propdeschd&gt;Implication&lt;/propdeschd&gt;
+    &lt;proptypehd&gt;Oil type&lt;/proptypehd&gt;
+    &lt;propvaluehd&gt;Oil brand&lt;/propvaluehd&gt;
+    &lt;propdeschd&gt;Appropriate use&lt;/propdeschd&gt;
+  &lt;/prophead&gt;
+  &lt;property&gt;
+    &lt;proptype&gt;Primary oil&lt;/proptype&gt;
+    &lt;propvalue&gt;A1X&lt;/propvalue&gt;
+    &lt;propdesc&gt;One-cylinder engines&lt;/propdesc&gt;
+  &lt;/property&gt;
+  &lt;property&gt;
+    &lt;proptype&gt;Secondary oil&lt;/proptype&gt;
+    &lt;propvalue&gt;B2Z&lt;/propvalue&gt;
+    &lt;propdesc&gt;Two-cylinder engines&lt;/propdesc&gt;
+  &lt;/property&gt;
+<b>&lt;/properties&gt;</b></codeblock>
+        <p>The properties list might be rendered as follows:</p>
+        <image placement="break" href="../../images/properties.jpg"
+          scale="80"/>
+      </fig>
+      <fig>
+        <title>Properties list where a property takes multiple
+          values</title>
+        <p>The following code sample shows a properties list that contains
+          multiple values for a property:</p>
+        <codeblock><b>&lt;properties></b>
+  &lt;prophead>
+    &lt;proptypehd>Visual element&lt;/proptypehd>
+    &lt;propvaluehd>Value&lt;/propvaluehd>
+    &lt;propdeschd>What it does&lt;/propdeschd>
   &lt;/prophead>
-  &lt;property&gt;
-    &lt;proptype&gt;color&lt;/proptype&gt;
-    &lt;propvalue&gt;red&lt;/propvalue&gt;
-    &lt;propdesc&gt;depicts anger&lt;/propdesc&gt;
-  &lt;/property&gt;
-  &lt;property&gt;
-    &lt;propvalue&gt;green&lt;/propvalue&gt;
-    &lt;propdesc&gt;depicts permission&lt;/propdesc&gt;
-  &lt;/property&gt;
-&lt;/properties&gt;</codeblock>
+  &lt;property>
+    &lt;proptype>Color&lt;/proptype>
+    &lt;propvalue>Red&lt;/propvalue>
+    &lt;propdesc>Indicates an error&lt;/propdesc>
+  &lt;/property>
+  &lt;property>
+    &lt;propvalue>Green&lt;/propvalue>
+    &lt;propdesc>Indicates that conditions are good&lt;/propdesc>
+  &lt;/property>
+  &lt;property>
+    &lt;propvalue>Yellow&lt;/propvalue>
+    &lt;propdesc>Indicates that a problem might exist&lt;/propdesc>
+  &lt;/property>
+  &lt;property>
+    &lt;proptype>Shape&lt;/proptype>
+    &lt;propvalue>Circle, square, or triangle&lt;/propvalue>
+    &lt;propdesc>Use to add contrast and depth&lt;/propdesc>
+  &lt;/property>
+<b>&lt;/properties></b></codeblock>
+        <p>The properties list might be rendered as follows:</p>
+        <image placement="break" href="../../images/properties-2.jpg"
+          scale="80"/>
+      </fig>
     </example>
 </refbody>
 </reference>

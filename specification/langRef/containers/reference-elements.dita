@@ -3,14 +3,9 @@
  "reference.dtd">
 <reference id="reference2" xml:lang="en-us">
 <title>Reference elements</title>
-<shortdesc>Reference topics describe factual material about
-a subject, such as the commands in a programming language. This format
-is also suitable for bibliographies, catalogs, the list of ingredients
-for recipes, and similar collections of structured descriptive prose.
-For more details on when to use reference and other information types,
-please refer to the DITA architectural specification.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm>reference elements</indexterm></keywords>
-</metadata></prolog>
+  <shortdesc>Reference elements provide the fundamental structure for
+    reference topics. Reference topics include specialized sections for
+    programming language syntax and property lists, as well as standard
+    elements such as sections, tables, and examples.</shortdesc>
 </reference>
 

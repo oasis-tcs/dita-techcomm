@@ -3,20 +3,15 @@
  "reference.dtd">
 <reference id="property" xml:lang="en-us">
 <title><xmlelement>property</xmlelement></title>
-<shortdesc>The <xmlelement>property</xmlelement> element represents a single property of the current
-      topic's subject. For example, if the current reference topic describes a programming class,
-      the property might show that the class is protected rather than public.</shortdesc>
+<shortdesc>The <xmlelement>property</xmlelement> element represents a
+    single property in a properties list.
+    <!--of the current topic's subject. For example, if the current reference topic describes a programming class, the property might show that the class is protected rather than public.--></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>property</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>property</xmlelement></indexterm></indexterm>
 </keywords>
 </metadata></prolog>
 <refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-         <p>The <xmlelement>property</xmlelement> element generally appears together with a series
-            of other properties; it contains three optional elements to provide a type, value, or
-            description of the property.</p>
-      </section>
+    <!--<section id="usage-information"><title>Usage information</title><p>The <xmlelement>property</xmlelement> element generally appears together with a series of other properties; it contains three optional elements to provide a type, value, or description of the property.</p></section>-->
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>property</xmlelement> element is specialized from
@@ -26,9 +21,10 @@
          <title>Attributes</title>
          <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
       </section>
-      <example id="example" otherprops="examples">
-         <title>Example</title>
-         <p>See <xref href="properties.dita"/>.</p>
-      </example>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>See <xref keyref="elements-properties"
+            ><xmlelement>properties</xmlelement></xref>.</p>
+    </example>
 </refbody>
 </reference>

@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="prophead" xml:lang="en-us">
 <title><xmlelement>prophead</xmlelement></title>
-<shortdesc>The <xmlelement>prophead</xmlelement> element supports headings for the
-<xmlelement>properties</xmlelement> element.</shortdesc>
+<shortdesc>The <xmlelement>prophead</xmlelement> element contains elements
+    that provide labels for the columns in a properties table.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prophead</xmlelement></indexterm>
             <indexterm>reference
@@ -12,6 +12,15 @@
 </keywords>
 </metadata></prolog>
 <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <draft-comment author="Kristen J Eberlein" time="26 October 2022">
+        <p>What are our expectations if a properties list does not contain
+          a header row? Do we expect stylesheets might generate
+          headings/labels? Do we expect that author-supplied headings
+          always override those provided by stylesheets?</p>
+      </draft-comment>
+    </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>prophead</xmlelement> element is specialized from
@@ -23,7 +32,8 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See the example in <xref href="properties.dita"/>.</p>
+         <p>See <xref keyref="elements-properties"
+            ><xmlelement>properties</xmlelement></xref>.</p>
       </example>
 </refbody>
 </reference>

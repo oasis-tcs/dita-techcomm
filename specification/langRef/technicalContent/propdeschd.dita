@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="propdeschd" xml:lang="en-us">
   <title><xmlelement>propdeschd</xmlelement></title>
-  <shortdesc>The <xmlelement>propdeschd</xmlelement> element supports headings for the description
-    column of a properties table.</shortdesc>
+  <shortdesc>The <xmlelement>propdeschd</xmlelement> element provides a
+    label for the description column in a properties table.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,7 +28,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="properties.dita"/>.</p>
+      <p>See <xref keyref="elements-properties"
+            ><xmlelement>properties</xmlelement></xref>.</p>
     </example>
   </refbody>
 </reference>
