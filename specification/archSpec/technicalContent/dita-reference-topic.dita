@@ -8,7 +8,7 @@
     etc.</shortdesc>
   <conbody>
     <section id="purpose">
-      <title>Purpose</title>
+      <title>Purpose and usage</title>
       <p>Reference topics serve the following purposes:</p>
       <ul>
         <li>Provide data that supports novice users as they perform a
@@ -17,6 +17,18 @@
         <li>Contain information that advanced users look up
           infrequently</li>
       </ul>
+      <p>Reference topics are used for the following types of information
+        and more:</p>
+      <ul>
+        <li>API documentation</li>
+        <li>Bibliographies</li>
+        <li>Configuration file options</li>
+        <li>Catalogs</li>
+        <li>Element references</li>
+        <li>Lists of equipment, ingredients, parts, and tools</li>
+        <li>Specifications</li>
+        <li>Syntax diagrams and explanations</li>
+      </ul>
     </section>
     <!--<section id="purpose"><title>The purpose of the reference topic</title><p>Reference topics provide data that supports users as they perform a task. Reference topics might provide lists and tables that include product specifications, parts lists, and other data that is often <q>looked up</q> rather than memorized. A reference topic also can describe commands in a programming language or required tools for a series of maintenance tasks.</p><p>Reference topics provide quick access to fact-based information. In technical information, reference topics are used to list product specifications and parameters, provide essential data, and provide detailed information on subjects such as the commands in a programming language. Reference topics can contain any subject matter that has regular content, such as ingredients for food in recipes, bibliographic lists, catalog items, and so on.</p></section>-->
     <section id="content-model">
@@ -24,13 +36,14 @@
       <p>The body of a reference topic can contain the following document
         structures:</p>
       <ul>
-        <li>Examples</li>
-        <li>Property lists</li>
-        <li>Sections</li>
-        <li>Syntax sections</li>
-        <li>Tables (both complex and simple)</li>
-        <li>Reference body divisions (which can group the structures in the
-          reference body)</li>
+        <li>Examples: <xmlelement>example</xmlelement></li>
+        <li>Property lists: <xref keyref="elements-properties"><xmlelement>properties</xmlelement></xref></li>
+        <li>Reference body divisions: <xref keyref="elements-refbodydiv"><xmlelement>refbodydiv</xmlelement></xref>
+          </li>
+        <li>Sections: <xmlelement>section</xmlelement></li>
+        <li>Syntax sections: <xref keyref="elements-refsyn"><xmlelement>refsyn</xmlelement></xref></li>
+        <li>Tables: <xmlelement>simpletable</xmlelement> and
+            <xmlelement>table</xmlelement></li>
       </ul>
       <p>These structures can appear in any order or combination. However,
         basic document structure such as paragraphs, lists, and figures
@@ -65,6 +78,11 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample contains a simple reference topic:</p>
+      <draft-comment author="Kristen J Eberlein" time="26 October 2022">
+        <p>While the following code sample is a perfectly reasonable
+          example of a properties list, I think we could provide a better
+          example of a reference topic.</p>
+      </draft-comment>
       <codeblock>&lt;reference id="oil-types"&gt;
   &lt;title&gt;Oil types&lt;/title&gt;
   &lt;shortdesc&gt;The tables provide the recommended oil types.&lt;/shortdesc&gt;

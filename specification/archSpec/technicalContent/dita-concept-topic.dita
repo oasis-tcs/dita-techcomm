@@ -27,10 +27,10 @@
       <ul>
         <li>Basic document structures: divisions, paragraphs, lists,
           tables, figures, etc.</li>
-        <li>Sections</li>
+        <li>Concept body divisions: <xref keyref="elements-conbodydiv"
+              ><xmlelement>conbodydiv</xmlelement></xref></li>
         <li>Examples</li>
-        <li>Concept body divisions (which can group sections and
-          examples)</li>
+        <li>Sections</li>
       </ul>
       <p>However, after a section or example is introduced into the topic
         structure, it can be followed only by a section, example, or

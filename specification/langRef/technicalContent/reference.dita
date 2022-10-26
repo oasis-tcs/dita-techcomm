@@ -12,7 +12,6 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-    <!--<section id="usage-information"><title>Usage information</title><p>Reference topics have the same high-level structure as any other topic type, with a title, short description, and body. Within the body, reference topics are typically organized into one or more sections, property lists, and tables. The reference topic type provides general rules that apply to all kinds of reference information, using elements like <xmlelement>refsyn</xmlelement> for syntax or signatures, and <xmlelement>properties</xmlelement> for lists of properties and values</p></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>reference</xmlelement> element is specialized from
