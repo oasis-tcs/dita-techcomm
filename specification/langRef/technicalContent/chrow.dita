@@ -7,8 +7,9 @@
         <indexterm>choice tables<indexterm>rows</indexterm></indexterm><indexterm><xmlelement>chrow</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>chrow</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>strow</xmlelement> element is specialized from
-          <xmlelement>strow</xmlelement>. It is defined in the task module.</p>
+      <p>The <xmlelement>chrow</xmlelement> element is specialized from
+          <xmlelement>strow</xmlelement>. It is defined in the task
+        module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
