@@ -31,12 +31,8 @@
     <topicref href="archSpec/technicalContent/dita-concept-topic.dita"/>
     <topicref href="archSpec/technicalContent/dita-reference-topic.dita"/>
   </chapter>
-  <chapter href="langRef/containers/concept-elements.dita">
-    <mapref href="langRef/concept-elements.ditamap"/>
-  </chapter>
-  <chapter href="langRef/containers/reference-elements.dita">
-    <mapref href="langRef/reference-elements.ditamap"/>
-  </chapter>
+  <chapter href="langRef/concept-elements.ditamap" format="ditamap"/>
+  <chapter href="langRef/reference-elements.ditamap" format="ditamap"/>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
