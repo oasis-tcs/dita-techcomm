@@ -3,15 +3,15 @@
 <map>
  <title>Troubleshooting elements</title>
  <topicref href="containers/troubleshooting-elements.dita">
-  <topicref keyref="elements-troubleshooting"/>
-  <topicref keyref="elements-troublebody"/>
+    <topicref keyref="elements-cause"/>
   <topicref keyref="elements-condition"/>
+    <topicref keyref="elements-diagnostics"/>
+    <topicref keyref="elements-diagnostics-general"/>
+    <topicref keyref="elements-diagnostics-steps"/>
+    <topicref keyref="elements-remedy"/>
+    <topicref keyref="elements-responsibleParty"/>
+    <topicref keyref="elements-troublebody"/>
+    <topicref keyref="elements-troubleshooting"/>
   <topicref keyref="elements-troubleSolution"/>
-  <topicref keyref="elements-cause"/>
-  <topicref keyref="elements-diagnostics"/>
-  <topicref keyref="elements-diagnostics-general"/>
-  <topicref keyref="elements-diagnostics-steps"/>
-  <topicref keyref="elements-remedy"/>
-  <topicref keyref="elements-responsibleParty"/>
  </topicref>
 </map>
