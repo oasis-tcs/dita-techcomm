@@ -2,11 +2,15 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="taskbody" xml:lang="en-us">
 <title><xmlelement>taskbody</xmlelement></title>
-<shortdesc>The <xmlelement>taskbody</xmlelement> element contains the body
-    of a task topic. The task body can include prerequisites, contextual
-    information, steps, results, an example, troubleshooting information,
-    and post-requisites. General task topics can also contain generic
-    sections.</shortdesc>
+<shortdesc>The <xmlelement>taskbody</xmlelement> element contains the body of a task topic. The task
+    body can include prerequisites, contextual information, steps, results, an example,
+    troubleshooting information, and post-requisites. General task topics can also contain generic
+      sections.<draft-comment author="Bill Burns" disposition="Rejected">Suggestion: "The
+        <xmlelement>taskbody</xmlelement> element contains the content of a task topic."<div>
+        <p>Kris Eberlein, 26 October 2022</p>
+        <p>We want to keep this parallel with how we describes the &lt;body> element in the base.
+          Also, the content model of &lt;taskbody> is quite significant.</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>taskbody</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>taskbody</xmlelement></indexterm></indexterm>
 </keywords>

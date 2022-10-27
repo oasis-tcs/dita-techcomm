@@ -4,7 +4,13 @@
 <title><xmlelement>prereq</xmlelement></title>
 <shortdesc>The <xmlelement>prereq</xmlelement> contains prerequisites. Prerequisites are things that
     users need to know or preliminary tasks that users need to perform before starting the current
-    task.</shortdesc>
+      task.<draft-comment author="Bill Burns" disposition="Closed">Suggested change: "The
+        <xmlelement>prereq</xmlelement> contains prerequisites—things that users need to know or
+      preliminary tasks that users need to perform before starting the current task."<div>
+        <p>Kris Eberlein, 26 October 2022</p>
+        <p>Already changed to "Prerequisites are things that users need to know or preliminary tasks
+          that users need to perform before starting the current task."</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
         <indexterm>rendering

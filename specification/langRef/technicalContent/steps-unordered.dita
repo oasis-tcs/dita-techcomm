@@ -2,10 +2,15 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="steps-unordered" xml:lang="en-us">
 <title><xmlelement>steps-unordered</xmlelement></title>
-  <shortdesc>The <xmlelement>steps-unordered</xmlelement> element contains
-    a set of unordered steps. Unordered steps are steps in which the order
-    of the steps to be performed might vary from one situation to
-    another.</shortdesc>
+  <shortdesc>The <xmlelement>steps-unordered</xmlelement> element contains a set of unordered steps.
+    Unordered steps are steps in which the order of the steps to be performed might vary from one
+    situation to another.<draft-comment author="Bill Burns" disposition="Closed">Suggeston: "The
+        <xmlelement>steps-unordered</xmlelement> element contains a set of steps in which the order
+      of the steps to be performed might vary from one situation to another."<div>
+        <p>Kris Eberlein, 26 October 2022</p>
+        <p>Already changed to "Unordered steps are steps in which the order of the steps to be
+          performed might vary from one situation to another."</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>steps-unordered</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>steps-unordered</xmlelement></indexterm></indexterm>
 </keywords>

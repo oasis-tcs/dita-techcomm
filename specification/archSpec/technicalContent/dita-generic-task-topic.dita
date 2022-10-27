@@ -59,17 +59,14 @@
         <dlentry>
           <dt>Post-instructions</dt>
           <dd>The section of the topic can contain the following structural sections:<ol>
-              <li>Result (<xref keyref="elements-result"
-                    ><xmlelement>result</xmlelement></xref></li>
-              <li>Troubleshooting information (<xref
-                  keyref="elements-tasktroubleshooting"
+              <li>Result (<xref keyref="elements-result"><xmlelement>result</xmlelement></xref></li>
+              <li>Troubleshooting information (<xref keyref="elements-tasktroubleshooting"
                     ><xmlelement>tasktroubleshooting</xmlelement></xref></li>
               <li>Example (<xmlelement>example</xmlelement>)</li>
               <li>Post-requisites (<xref keyref="elements-postreq"
-                    ><xmlelement>postreq)</xmlelement></xref></li>
-            </ol><p>While all of the above structural components are
-              optional, they must occur in the outlined order. Examples and
-              post-requisites can occur multiple times.</p></dd>
+                  ><xmlelement>postreq)</xmlelement></xref></li>
+            </ol><p>While all of the above structural components are optional, they must occur in
+              the outlined order. Examples and post-requisites can occur multiple times.</p></dd>
         </dlentry>
       </dl>
     </section>

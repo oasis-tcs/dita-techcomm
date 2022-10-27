@@ -2,10 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="tasktroubleshooting" xml:lang="en-us">
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
-  <shortdesc>The <xmlelement>tasktroubleshooting</xmlelement> element
-    contains troubleshooting information that is designed to help users
-    remedy the situation when a task does not complete as
-    expected.<!--<draft-comment author="robander" time="21 may 2021">Can we delete the word "users" here but otherwise leave this unchanged?<div><p>Kris Eberlein, 07 October 2022</p><p>I know that you do not like the term "users," but I suspect that it is used 30 times in this spec. Can you offer a replacement term? "Readers" is the only thing that comes quickly to mind. Is this a point that we should bring to the TC and see where the discussion goes?</p></div></draft-comment>--></shortdesc>
+  <shortdesc>The <xmlelement>tasktroubleshooting</xmlelement> element contains troubleshooting
+    information that is designed to help users remedy the situation when a task does not complete as
+      expected.<draft-comment author="Bill Burns" disposition="Completed">Remove "troubleshooting"
+      before information.<div>
+        <p>Kris Eberlein, 26 October 2022</p>
+        <p>Changed to "Task troubleshooting information is information that is designed to help
+          users remedy the situation when a task does not complete as expected."</p>
+      </div></draft-comment><!--<draft-comment author="robander" time="21 may 2021">Can we delete the word "users" here but otherwise leave this unchanged?<div><p>Kris Eberlein, 07 October 2022</p><p>I know that you do not like the term "users," but I suspect that it is used 30 times in this spec. Can you offer a replacement term? "Readers" is the only thing that comes quickly to mind. Is this a point that we should bring to the TC and see where the discussion goes?</p></div></draft-comment>--></shortdesc>
   <prolog>
     <metadata>
       <keywords>

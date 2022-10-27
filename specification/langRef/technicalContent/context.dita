@@ -4,8 +4,17 @@
 <reference id="context" xml:lang="en-us">
 <title><xmlelement>context</xmlelement></title>
 <shortdesc>The <xmlelement>context</xmlelement> element contains contextual information. Contextual
-            information is background information that helps users understand the purpose of the
-            task and what they will gain by completing it.</shortdesc>
+    information is background information that helps users understand the purpose of the task and
+    what they will gain by completing it.<draft-comment author="Bill Burns" disposition="Closed"
+      >This could be a single sentence: The <xmlelement>context</xmlelement> element contains
+      background information that helps users understand the purpose of the task and what they will
+      gain by completing it.<div>
+        <p>Kris Eberlein, 26 October 2022</p>
+        <p>Even simpler – It's already been rewritten as "Contextual information is background
+          information that helps users understand the purpose of the task and what they will gain by
+          completing it." Part of our commitment to using natural language in short descriptions
+          when appropriate.</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>context</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>context</xmlelement></indexterm></indexterm>
 </keywords>

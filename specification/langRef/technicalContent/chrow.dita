@@ -8,7 +8,12 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>strow</xmlelement> element is specialized from
-          <xmlelement>strow</xmlelement>. It is defined in the task module.</p>
+          <xmlelement>strow</xmlelement>. It is defined in the task module.<draft-comment
+          author="Bill Burns" disposition="Completed">Correct element name to
+            <xmlelement>chrow</xmlelement>.<div>
+            <p>Kris Eberlein, 26 October 2022</p>
+            <p>Done.</p>
+          </div></draft-comment></p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains optional
-    header-row content for a choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
+<reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains optional header-row content for a
+        choice table.<draft-comment author="Bill Burns" disposition="Completed">For the sake of
+            clarity, would this be better stated header-row <i>elements</i>? The term <i>content</i>
+            suggests PCDATA, at least to me.<div>
+                <p>Kris Eberlein, 26 October 2022</p>
+                <p>Changed to read "The <xmlelement>chhead</xmlelement> element contains elements
+                    that provide labels for the columns in a choice table."</p>
+            </div></draft-comment></shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>
         <indexterm>choice tables<indexterm>alternate header text</indexterm></indexterm>
         <indexterm>processing
           expectations<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm><indexterm>task elements<indexterm><xmlelement>chhead</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
