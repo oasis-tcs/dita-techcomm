@@ -3,14 +3,101 @@
 <concept id="dita-troubleshooting-topic" xml:lang="en-us"
  > 
   <title>Troubleshooting</title> 
-  <shortdesc>The troubleshooting topic type provides markup for corrective action information such
-		as troubleshooting and alarm clearing.</shortdesc> 
-  <conbody> 
+  <shortdesc>Troubleshooting topics are designed to provide markup for
+    documenting corrective action, such as troubleshooting and alarm
+    clearing.</shortdesc> 
+  <conbody>
+    <section id="purpose">
+      <title>Purpose</title>
+      <p>Troubleshooting topics serve the following purposes:</p>
+      <ul>
+        <li>Define the condition or symptom. Usually the condition or
+          symptom is an undesirable state in a system, a product, or a
+          service that a reader wants to correct.</li>
+        <li>Provide information that helps the reader diagnose which cause
+          and remedy pairs apply.</li>
+        <li>Explains the cause of the condition or symptom, if it is
+          known.</li>
+        <li>Describe how to remedy the condition or symptom.</li>
+      </ul>
+    </section>
+    <section id="content-model">
+      <title>Content model</title>
+      <p>The troubleshooting topic is divided into three parts:</p>
+      <dl>
+        <dlentry>
+          <dt>Condition</dt>
+          <dd>This portion of the topic can contain a <xref
+              keyref="elements-condition"
+                ><xmlelement>condition</xmlelement></xref> element. This
+            element is optional, as often the problematic condition can be
+            adequately described in the title and short description.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Diagnosis</dt>
+          <dd>This portion of the topic provides information that helps
+            determine which cause and remedy pair applies to a given
+            situation. It can contain the following elements: <xref
+              keyref="elements-diagnostics-general"
+                ><xmlelement>diagnostics-general</xmlelement></xref> and
+              <xref keyref="elements-diagnostics-steps"
+                ><xmlelement>diagnostics-steps</xmlelement></xref>.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Trouble solution</dt>
+          <dd>This portion of the topic provides information about how to
+            remedy the problematic solution. It can contain multiple <xref
+              keyref="elements-cause"><xmlelement>cause</xmlelement></xref>
+            and <xref keyref="elements-remedy"
+                ><xmlelement>remedy</xmlelement></xref> pairs.</dd>
+          <dd>
+            <p>Cause and remedy might occur in combinations other than
+              pairs. It is possible to have:</p>
+            <ul>
+              <li>Multiple causes with the same remedy </li>
+              <li>A single cause with more than one remedy </li>
+              <li>A remedy with no known cause </li>
+              <li>A cause with no known remedy </li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Examples</title>
+      <fig>
+        <title>Simple troubleshooting topic</title>
+        <p>The following code sample shows a simple troubleshooting topic.
+          The title and short description describe the problem, and the
+          single <xmlelement>troublesolution</xmlelement> element contains
+          explanations of the cause of the problem and how to remedy
+          it.</p>
+        <codeblock>&lt;troubleshooting id="oasis-spec-not-rendered-correctly">
+  &lt;title>Specification PDF is not rendered correctly&lt;/title>
+  &lt;shortdesc>The specification URIs and notices appear in the TOC; they also appear 
+             twice in the body of the document.&lt;/shortdesc>
+  &lt;troublebody>
+    &lt;troubleSolution>
+      &lt;cause>
+        &lt;p>This problem occurs when the &lt;xmlelement>notices&lt;/xmlelement> element 
+           for externalpublishing is not excluded.&lt;/p>
+      &lt;/cause>
+      &lt;remedy>
+        &lt;steps>
+          &lt;step>
+            &lt;cmd>Use a DITAVAL file that excludes the &lt;xmlelement>notices
+                 platform="external-publishing-engine"&lt;/xmlelement> element
+                 when you generate the PDF.&lt;/cmd>
+          &lt;/step>
+        &lt;/steps>
+      &lt;/remedy>
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting></codeblock>
+      </fig>
+    </example> 
 	 <section id="infotype">
 			<title>The troubleshooting information type</title>
-            <draft-comment author="robander" time="25 may 2021" audience="spec-editors">I think all
-                the other topic types use the section title "The purpose of the xyz information
-                type", followed by "The structure of the xyz information type"</draft-comment>
 			<p>In its simplest form, troubleshooting information follows this pattern:</p>
 			<ol>
 				<li>A condition or symptom. Usually the condition or symptom is an undesirable state
@@ -128,13 +215,8 @@
 							<xmlelement>remedy</xmlelement> element.</dd>
 				</dlentry>
 			</dl>
-		</section> 
-	 <example id="example" otherprops="examples">
-			<p>Here is an example of a troubleshooting topic:</p>
-            <draft-comment author="robander" time="25 may 2021" audience="spec-editors">This is so
-                much longer than examples for other specializations, I wonder if we should
-                abbreviate some of it with &lt;!– comments --></draft-comment>
-			<codeblock>&lt;troubleshooting id="blinking_lights">
+		</section>
+    <!--<example id="example" otherprops="examples"><p>Here is an example of a troubleshooting topic:</p><draft-comment author="robander" time="25 may 2021" audience="spec-editors">This is so much longer than examples for other specializations, I wonder if we should abbreviate some of it with &lt;!– comments -\-></draft-comment><codeblock>&lt;troubleshooting id="blinking_lights">
     &lt;title>Blinking lights&lt;/title>
     &lt;shortdesc>Printer indicator lights are blinking, indicating an error of some kind.&lt;/shortdesc>
     &lt;troublebody>
@@ -393,7 +475,6 @@
         &lt;/troubleSolution>
     &lt;/troublebody>
 &lt;/troubleshooting>
-</codeblock>
-		</example> 
+</codeblock></example>--> 
   </conbody> 
 </concept>
