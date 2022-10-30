@@ -3,8 +3,9 @@
 <reference id="tasktroubleshooting" xml:lang="en-us">
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
   <shortdesc><ph rev="review-a">Task troubleshooting information is</ph>
-    information that is designed to help users remedy the situation when a
-    task does not complete as expected.</shortdesc>
+    information that is <ph rev="review-a">intended</ph> to help users <ph
+      rev="review-a">respond to</ph> the situation <ph rev="review-a"
+      >if</ph> a task does not complete as expected.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
