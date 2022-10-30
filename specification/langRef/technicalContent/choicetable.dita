@@ -22,9 +22,9 @@
       <title>Usage information</title>
       <p>A choice table provides information when there is more than one
         way to complete a step. It is a simple table with two columns. The
-        first cell in a row provides a name for the option, and the second
-        cell in the row <ph rev="review-a">describes the option that a user
-          can take to complete the step</ph>.</p>
+        first cell in a row <ph rev="review-a">names the option</ph>, and
+        the second cell in the row <ph rev="review-a">describes the option
+          that a user can take to complete the step</ph>.</p>
       <p>An optional header row can provide labels for the columns, if an
         author does not want to use the default labels that <ph
           rev="review-a">might be</ph> provided by stylesheets.</p>
