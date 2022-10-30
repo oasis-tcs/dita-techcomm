@@ -44,6 +44,23 @@
             turn a task into a learning exercise by including explanatory content about methods for
             completing the current step. The information should be excluded when a task is processed
             on its own."</p>
+        </div><div>
+          <p>Eliot Kimber, 29 Oct 2022</p>
+          <p>The second and third sentences seem like they would be appropriate in Usage and
+            Rendering Expectations respectively.</p>
+        </div><div>
+          <p>Kris Eberlein, 29 Oct 2022</p>
+          <p>I agree that some of the DITA 1.0 content would be useful to have in a "Usage
+            information" section. However, I don't think that the info about excluding content
+            should go in a "Rendering expectations" section – it's just about basic conditional
+            processing. (We tend to use "Rendering expectations" for information about what we
+            expect processors to do vis-a-vis rendering the content, for example, that short
+            descriptions should be rendered as the initial paragraphs.) It would be good if the
+            example clearly had a value applied for a filtering attribute, however.</p>
+          <p>I added a "Usage information" section with the following content: "The
+            &lt;tutorialinfo> element enables task topics to be rendered as learning exercises. The
+            element can contain explanatory information about a scenario, such as the data to use
+            when completing a particular step in the exercise."</p>
         </div></draft-comment></example>
 </refbody>
 </reference>

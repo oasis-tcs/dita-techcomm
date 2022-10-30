@@ -36,7 +36,13 @@
           <dd>This portion of the topic can contain the following
             structural sections:<ul>
               <li>Prerequisites (<xref keyref="elements-prereq"
-                    ><xmlelement>prerequisites</xmlelement></xref>)</li>
+                    ><xmlelement>prerequisites</xmlelement></xref>)<draft-comment
+                  author="Eliot Kimber" disposition="Closed">Markup question: why use a separate
+                  cross reference when <xmlelement>xmlelement</xmlelement> can make a keyref directly?<div>
+                    <p>Kris Eberlein, 29 October 2022</p>
+                    <p>Because we are not using DITA 2.0 markup in this topic. DITA-OT and our
+                      stylesheets don't provide the necessary support.</p>
+                  </div></draft-comment></li>
               <li>Contextual information (<xref keyref="elements-context"
                     ><xmlelement>context</xmlelement></xref>)</li>
               <li>Sections (<xmlelement>sections</xmlelement>)</li>
@@ -58,7 +64,11 @@
         </dlentry>
         <dlentry>
           <dt>Post-instructions</dt>
-          <dd>The section of the topic can contain the following structural sections:<ol>
+          <dd>The section of the topic can contain the following structural sections:<draft-comment
+              author="Eliot Kimber" disposition="Completed">c/The section/This portion/<div>
+                <p>Kris Eberlein, 29 October 2022</p>
+                <p>Done.</p>
+              </div></draft-comment><ol>
               <li>Result (<xref keyref="elements-result"><xmlelement>result</xmlelement></xref></li>
               <li>Troubleshooting information (<xref keyref="elements-tasktroubleshooting"
                     ><xmlelement>tasktroubleshooting</xmlelement></xref></li>

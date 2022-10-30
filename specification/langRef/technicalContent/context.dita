@@ -49,6 +49,9 @@
             Robert and I think that, at most, we should have one place where we mentioned task
             labels and show a screen capture. I think that should be not here in the element
             reference topics, but in the overview topic.</p>
+        </div><div>
+          <p>WEK: 29 Oct 2022</p>
+          <p>I agree with removing the mention of label rendering in this example.</p>
         </div></draft-comment>
 <codeblock>&lt;task id="Generating-stub-files" xml:lang="en-us">
   &lt;title>Generating stub files&lt;/title>
@@ -75,6 +78,17 @@
           <p>Kris Eberlein, 21 October 2022</p>
           <p>Marking this one as closed. I think that writing styles for titles is a writing
             practice that will differ across implementations.</p>
+        </div><div>
+          <p>Eliot Kimber, 29 Oct 2022</p>
+          <p>For what it's worth, I think I would write "Generate stub files". I might have a
+            separate concept topic "About generating stub files" or "Understanding stub file
+            generation".</p>
+          <p>But looking at current ServiceNow documentation, I find a mix: <xref
+              href="https://docs.servicenow.com/bundle/tokyo-employee-service-management/page/product/employee-center/concept/setup-emp-center.html"
+              format="html" scope="external"
+              >https://docs.servicenow.com/bundle/tokyo-employee-service-management/page/product/employee-center/concept/setup-emp-center.html</xref>.
+            The top-level task is "Setting up Employee Center" but the individual tasks do not use
+            gerunds. Hmm.</p>
         </div></draft-comment>
 </example>
 </refbody>

@@ -3,10 +3,13 @@
 <concept id="dita_task_topic" xml:lang="en-Us">
 	<title>Strict task</title>
   <abstract>
-    <shortdesc>A strict task topic answers the "How do I?" question by
-      providing precise step-by-step instructions and other necessary
-      information that enables the user to complete the task
-      successfully.</shortdesc>
+    <shortdesc>A strict task topic answers the "How do I?" question by providing precise
+      step-by-step instructions and other necessary information that enables the user to complete
+      the task successfully.<draft-comment author="Eliot Kimber" disposition="Completed">Add: It has
+        a content model that is more restrictive than general task.<div>
+          <p>Kris Eberlein, 29 October 2022</p>
+          <p>Done.</p>
+        </div></draft-comment></shortdesc>
     <!--<shortdesc>The strict task-document type supports the development of instructions for the completion of a procedure. The strict-task document type is built using the general-task information type combined with the strict taskbody constraint</shortdesc>-->
   </abstract>
 	<conbody>
@@ -35,6 +38,17 @@
           <p>Kris Eberlein, 25 October 2022​</p>
           <p> ​We need to improve the purpose section. Perhaps cover the purpose in the container
             topic, since it does not difference between the two task types.</p>
+        </div><div>
+          <p>Eliot Kimber, 29 Oct 2022</p>
+          <p>Having differently conditional prereq or postreq elements doesn't seem like a
+            compelling use case because the contents within a single prereq or postreq can be made
+            conditional (and usefully grouped using &lt;div>). I suppose the requirement must go
+            back to pre-div days?</p>
+        </div><div>
+          <p>Kris Eberlein, 29 October 2022</p>
+          <p>I don't think that having multiple &lt;prereq> and &lt;context> elements in general
+            task was a requirement because of reuse. But, it certainly is useful for that
+            purpose.</p>
         </div></draft-comment>
     </section>
     <!--<section id="section_60F00B0ECB0B4D69AA641E9710B1AA60"><title>The purpose of the standard task information type</title><draft-comment author="robander" audience="spec-editors" time="25 may 2021">It seems wrong to refer to this as the "standard" task type when in fact it is the strict / constrained task type</draft-comment><p id="p_D5ED1C1C9BB841FDB6488701D3C86FCF">Tasks are the essential building blocks to provide procedural information. A task information type answers the "How do I?" question by providing precise step-by-step instructions detailing the requirements that must be fulfilled, the actions that must be performed, and the order in which the actions must be performed. The <xmlelement>task</xmlelement> topic includes sections for describing the context, prerequisites, expected results, and other aspects of a task.</p></section>-->

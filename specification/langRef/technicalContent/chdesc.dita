@@ -48,6 +48,13 @@
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/> and the attributes defined below.</p>
+      <draft-comment author="Eliot Kimber" disposition="Closed">Re the discussion of putting the
+        scope and headers attributes into an attribute group. Looking at this topic now I agree that
+        that would help demphasize these attributes in this (and similar) contexts.<div>
+          <p>Kris Eberlein, 29 October 2022</p>
+          <p>Already done – I completed that work after the TC meeting this week. You'll see the
+            results in the next review</p>
+        </div></draft-comment>
       <dl>
         <dlentry conkeyref="reuse-attributes/tablescope">
           <dt/>

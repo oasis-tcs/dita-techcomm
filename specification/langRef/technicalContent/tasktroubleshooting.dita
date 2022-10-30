@@ -4,11 +4,19 @@
   <title><xmlelement>tasktroubleshooting</xmlelement></title>
   <shortdesc>The <xmlelement>tasktroubleshooting</xmlelement> element contains troubleshooting
     information that is designed to help users remedy the situation when a task does not complete as
-      expected.<draft-comment author="Bill Burns" disposition="Completed">Remove "troubleshooting"
+      expected.<draft-comment author="Bill Burns" disposition="Referred">Remove "troubleshooting"
       before information.<div>
         <p>Kris Eberlein, 26 October 2022</p>
         <p>Changed to "Task troubleshooting information is information that is designed to help
           users remedy the situation when a task does not complete as expected."</p>
+      </div><div>
+        <p>Eliot Kimber, 29 Oct 2022</p>
+        <p>Same comment as for <xmlelement>steptroubleshooting</xmlelement>:</p>
+        <p>Remove "that is designed ". Or perhaps completely replace with "contains information for
+          responding when a task does not complete as expected."</p>
+        <p>"remedy the situation" presumes that remediation is within the reader's power, which it
+          may not be. For example, the troubleshooting may consist entirely of gather logs and
+          messages and reporting it to support.</p>
       </div></draft-comment><!--<draft-comment author="robander" time="21 may 2021">Can we delete the word "users" here but otherwise leave this unchanged?<div><p>Kris Eberlein, 07 October 2022</p><p>I know that you do not like the term "users," but I suspect that it is used 30 times in this spec. Can you offer a replacement term? "Readers" is the only thing that comes quickly to mind. Is this a point that we should bring to the TC and see where the discussion goes?</p></div></draft-comment>--></shortdesc>
   <prolog>
     <metadata>
@@ -25,7 +33,12 @@
       <p>In particular, the <xmlelement>tasktroubleshooting</xmlelement> element can be used to
         explain how users can recover when the results of a task do not match those listed in the
           <xmlelement>result</xmlelement> element. The troubleshooting remedy typically contains one
-        or more actions for solving a problem. For complex remedies, link to another task.</p>
+        or more actions for solving a problem. For complex remedies, link to another
+          task.<draft-comment author="Eliot Kimber" disposition="Completed">Remove "In particular,
+          ". Doesn't add anything and there's no obvious antecedent.<div>
+            <p>Kris Eberlein, 29 October 2022</p>
+            <p>Done.</p>
+          </div></draft-comment></p>
       <note type="tip">Do not use <codeph>&lt;note type="trouble"></codeph> inside of the
           <xmlelement>tasktroubleshooting</xmlelement> element.</note>
       <draft-comment author="dstevens73" disposition="Completed">again, would be helpful to say why<div>
@@ -75,6 +88,13 @@
     <b>&lt;/tasktroubleshooting></b>
   &lt;/taskbody>
       </codeblock>
+      <draft-comment author="Eliot Kimber" disposition="Closed">I know it's simply the history of
+        how DITA evolved but this example really highlights the lack of any kind of general decision
+        tree element that could go here.<div>
+          <p>Kris Eberlein, 29 October 2022</p>
+          <p>If my memory is correct, this is one of the examples for the DITA 1.3 proposal that Bob
+            Thomas and Joann championed.</p>
+        </div></draft-comment>
     </example>
   </refbody>
 </reference>

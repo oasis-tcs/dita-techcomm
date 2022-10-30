@@ -59,6 +59,17 @@
              your DITA map.&lt;/postreq>
   <b>&lt;/taskbody></b>
 &lt;/task></codeblock>
+        <p>
+          <draft-comment author="Eliot Kimber" disposition="Closed">The example has awkward line
+            breaks that could be resolves to make the example code easier to read. <div>
+              <p>Kris Eberlein, 29 October 2022</p>
+              <p>@Eliot, this looks fine in the review PDF and in Jarno's online version: <xref
+                  href="https://dita-lang.org/dita-techcomm/langRef/technicalContent/taskbody.html"
+                  format="html" scope="external"
+                  >https://dita-lang.org/dita-techcomm/langRef/technicalContent/taskbody.html</xref>.
+                I think Content Fusion's rendering is the problem here.</p>
+            </div></draft-comment>
+        </p>
         <p>In a strict task topic, while the child elements of
             <xmlelement>taskbody</xmlelement> are all optional, they can
           only occur once and must appear in a specific order.</p>
@@ -78,6 +89,10 @@
                 used it as a specialization base for specialized task topics, such as the one for
                 Applied Materials.</p>
               <p>Can you contribute an example?</p>
+              <p>Eliot Kimber, 29 Oct 2022</p>
+              <p>One easy example might be a task that has a "Safety Considerations" section before
+                  <xmlelement>prereq</xmlelement>, which seems like an obvious and compelling reason
+                to not use strict task.</p>
             </div></draft-comment>
         </p>
       </fig>

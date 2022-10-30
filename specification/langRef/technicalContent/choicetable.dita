@@ -21,10 +21,37 @@
   <refbody>
     <section id="usage-information" rev="2.0">
       <title>Usage information</title>
-      <p>A choice table provides information when there is more than one
-        way to complete a step. It is a simple table with two columns. The
-        first cell in a row provides a name for the option, and the second
-        cell in the row provides instructions for completing the step.</p>
+      <p><draft-comment author="Eliot Kimber" disposition="Closed">Seem my comment on
+            <xmlelement>choices</xmlelement> about more clearly distinguishing
+            <xmlelement>choices</xmlelement> from <xmlelement>choicetable</xmlelement>. It seems to
+          be a matter of formality in how the choices are presented.<div>
+            <p>Kris Eberlein, 31 October 2022</p>
+            <p>Marking as "Closed," since no changes to the source are required.</p>
+          </div></draft-comment>A choice table provides information when there is more than one way
+        to complete a step. It is a simple table with two columns. <draft-comment
+          author="Eliot Kimber" disposition="Completed">I would add "Each row represents a single
+            choice."<p>I couldn't find any place that the overall content model for choice table as
+            a sequence of row is explicitly stated.</p><div>
+            <p>Kris Eberlein, 29 October 2022.</p>
+            <p>Done.</p>
+          </div></draft-comment>The first cell in a row provides a name for the option, and the
+        second cell in the row provides instructions for completing the step.<draft-comment
+          author="Eliot Kimber" disposition="Completed">I don't think "name for the option" can be
+          correct: it has to be more general, like "label or condition indicator for the option". I
+          suppose, technically, if all the first-column values are distinct (which they must be or
+          it wouldn't be a good choice table), they are "names" in the sense of distinct strings
+          associated with a thing" but they aren't "names" in the more general sense of "the way we
+          refer to a thing we know". Rather, they are information about why you would choose one
+          option or another. Compare "If you have a remote server you want to test on,"
+            (<xmlelement>choices</xmlelement>) and "remote server"
+            (<xmlelement>choicetable</xmlelement>) with column heading "Testing environment".<div>
+            <p>Kris Eberlein, 30 October 2022.</p>
+            <p>We really cannot describe the content of the &lt;choption> element as a "label for
+              the option," since that potentially will cause misunderstanding in regard to later
+              content about using the header how to "provide labels for the columns".</p>
+            <p>I altered the sentence so that it read "The first cell in a row names the
+              option".</p>
+          </div></draft-comment></p>
       <p>An optional header row can provide labels for the columns, if an
         author does not want to use the default labels that are  provided
         by stylesheets.</p>
@@ -95,6 +122,28 @@
 &lt;/step&gt;</codeblock>
       <p>The choice table might be rendered in the following way:</p>
       <image placement="break" href="../../images/choicetable.jpg"/>
+      <draft-comment author="Eliot Kimber" disposition="Closed"><p>Observation that does not require
+          action:</p>Comparing this example with the new example in the updated version Kris
+        mentions above, it shows that there are at least two semantically distinct ways that
+          <xmlelement>choicetable</xmlelement> can be usefully used:<ul id="ul_r5b_ksq_3vb">
+          <li>Alternative ways of accomplishing the same result (CLI or UI)</li>
+          <li>Options that have different material results: Attempt cancel vs. force cancel.</li>
+        </ul><p>Which in turn are distinct from making a choice where the task could fork into two
+          separate sequences of actions (which you'd normally do using substeps or subtasks) (i.e.,
+          in the context of a procedure that reflects a flow chart or decision tree rather than a
+          simple linear sequence of steps).</p><p>The <xmlelement>choices</xmlelement> and
+            <xmlelement>choicetable</xmlelement> markup doesn't make a clear distinction between
+          these different use cases. I'm not sure it needs to or even can without more specialized
+          markup, but I can see that this could cause confusion for authors who do not have clear
+          guideance from their local Information Architect about how to use these elements in their
+          tasks.</p><p>It also calls into question the general utility of these specializations
+          given you could get the same visual result from their specialization bases with no more
+          information design thought effort.</p><p>It feels like either these elements need another
+          level of specialization to reflect the more specific use cases (alternative ways to
+          perform the step vs alternative ways to respond to the state resulting from earlier steps
+          vs action options available at this point in the task.</p><p>I think for myself as a
+          technical writer I would tend to try to rewrite the tasks to avoid the need for all but
+          the "alternative ways to perform the step" use (i.e., CLI vs UI).</p></draft-comment>
     </example>
   </refbody>
 </reference>

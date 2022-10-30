@@ -36,7 +36,7 @@
             file is successfully created.
     <b>&lt;/result&gt;</b>
   &lt;/taskbody&gt;
-&lt;/task&gt;</codeblock>
+&lt;/task&gt;<draft-comment author="Eliot Kimber" disposition="Completed">Super nit picky, but I would reverse the order of the two results: SQLJ file is created and "File created" window is displayed.<div><p>Kris Eberlein, 29 October 2022</p><p>Done.</p></div></draft-comment></codeblock>
 </example>
 </refbody>
 </reference>

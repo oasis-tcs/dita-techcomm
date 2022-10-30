@@ -4,6 +4,31 @@
     represents a way that a user can complete the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
+      <draft-comment author="Eliot Kimber">Comparing this topic to
+          <xmlelement>choicetable</xmlelement>, which has a Usage section, I think this topic needs
+        a Usage section that helps distinguish <xmlelement>choices</xmlelement> from
+          <xmlelement>choicetable</xmlelement>: Both do the same thing: provide a set of options for
+        completing a step, differing only in one has a place to label each choice and the other does
+          not.<p>If I was designing this markup today I would be tempted to have a single
+            <xmlelement>choices</xmlelement> element that takes <xmlelement>choice</xmlelement>
+          children where each <xmlelement>choice</xmlelement> has an optional
+            <xmlelement>choice-condition</xmlelement> first child.</p><p>Rendering the result as a
+          table or order list or sequence of paragraphs or definition list would then be 100%
+          style.</p><p>Note suggesting we make that change (although we could since it's 2.0) but
+          just observing that the current markup design is I think too layout focused and it could
+          be different, and that difference would resolve the potential confusion between current
+            <xmlelement>choices</xmlelement> and <xmlelement>choicetable</xmlelement>.</p><p>Or one
+          could argue that the "table" in <xmlelement>choicetable</xmlelement> comes from "finite
+          state table", not "simple table", where each choice is intended to have a unique state
+          indicator as the first cell in a row. Not sure that was the original markup intent
+          though.</p><div>
+          <p>Kris Eberlein, 29 October 2022</p>
+          <p>I suspect that the original design really was slanted towards presentation:
+            &lt;choices> as a list and &lt;choicetable> as a table. Of course, at IBM, typically
+            &lt;choice> was flagged with an image and used for different operating system.</p>
+          <p>In my experience (and I think, Dawn's) implementations have developed business rules
+            for how and when authors should use &lt;choices> versus &lt;choicetable>.</p>
+        </div></draft-comment>
 <p>The <xmlelement>choices</xmlelement> element is specialized from <xmlelement>ul</xmlelement>. It
         is defined in the task module.</p>
 </section><section id="attributes"><title>Attributes</title>
@@ -21,4 +46,30 @@
     &lt;choice&gt;If you want to do local testing, type localhost.&lt;/choice&gt;
   &lt;/choices&gt;
 &lt;/step&gt;</codeblock>
+      <draft-comment author="Eliot Kimber" disposition="Referred">I don't think I ever realized this
+        element even exists. I can see the appeal but if I'm writing a task with the content shown I
+        would just use <xmlelement>info</xmlelement> with two paragraphs.<p>What presentation effect
+          is expected for choice? Other than generating a label "Choices" and rendering the choices
+          as an unordered list, I don't see any compelling motivation for the markup from a
+          rendering standpoint. </p><p>This feels like the kind of "Every semantic must be tagged"
+          markup design I was so fond of in my youth (I'm looking at you, IBM ID Doc) but that I
+          have come to understand has diminishing returns and limited ROI in the general
+          case....</p><p>Also, the content in the example is clearly a decision tree: IF (remote
+          server) THEN do .. ELSE IF (local) do ...</p><p>Which would suggest the use of a choice
+          table or some other type of decision tree, but at the very least the example is not so
+          formal as to require or even benefit from that level of markup precision.</p><p>Is there
+          are a more compelling example for <xmlelement>choices</xmlelement> as distinct from
+            <xmlelement>choicetable</xmlelement>?</p><div>
+          <p>Kris Eberlein, 29 October 2022</p>
+          <p>You raise several points: 1) Utility of the element, 2) Presentation, and 3) Quality of
+            the example.</p>
+          <p>Re utility: One good thing about having &lt;choices> and &lt;choicetable> is that it
+            gives most implementations what they need OOB without specalization or much (if any
+            stylesheet work).</p>
+          <p>Re presentation: Yes, some implementations render a label. And often, folks use
+            flagging to generate an icon (or add text) for an operating system, platform, or
+            whatever the criteria is. </p>
+          <p>Re example: Do you want to volunteer to develop one? We also could "crowd source" on
+            dita-users, and credit the person who comes up with the best example in the spec.</p>
+        </div></draft-comment>
     </example></refbody></reference>

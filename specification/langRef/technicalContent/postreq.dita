@@ -8,6 +8,13 @@
         <p>Kris Eberlein, 26 October 2022</p>
         <p>Already changed to "Post-requisites are steps or tasks that the users need to perform
           after completing the current task."</p>
+        <p>Eliot Kimber, 29 Oct 2022</p>
+        <p>Could we avoid "users" by making it passive: Post-requisites are steps or tasks that need
+          to be performed after completing the current task."?</p>
+      </div><div>
+        <p>Kris Eberlein, 29 October 2022</p>
+        <p>Users versus a passive construction – what a lovely set of choices! This is a duplicate
+          comment.</p>
       </div></draft-comment></shortdesc><prolog><metadata><keywords><indexterm><xmlelement>postreq</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>postreq</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="usage-information">
       <title>Usage information</title>

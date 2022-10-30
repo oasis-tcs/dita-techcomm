@@ -4,13 +4,21 @@
 <reference id="steps" xml:lang="en-us">
 <title><xmlelement>steps</xmlelement></title>
 <shortdesc>The <xmlelement>steps</xmlelement> element contains a set of steps. Steps are a series of
-  actions that are conducted in a specific order and manner.<draft-comment author="Bill Burns"
-   disposition="Closed">Suggestion: "The <xmlelement>steps</xmlelement> element contains a series of
-   actions that are conducted in a specific order and manner."<div>
-    <p>Kris Eberlein, 26 October 2022</p>
-    <p>Already changed to "Steps are a series of actions that are conducted in a specific order and
-     manner."</p>
-   </div></draft-comment></shortdesc>
+    actions that are conducted in a specific order and manner.<draft-comment author="Bill Burns"
+      disposition="Completed">Suggestion: "The <xmlelement>steps</xmlelement> element contains a
+      series of actions that are conducted in a specific order and manner."<div>
+        <p>Kris Eberlein, 26 October 2022</p>
+        <p>Already changed to "Steps are a series of actions that are conducted in a specific order
+          and manner."</p>
+      </div><div>
+        <p>Eliot Kimber, 29 Oct 2022</p>
+        <p>Is "performed" more appropriate than "conducted". I think this content uses "perform" or
+          "performed" throughout. "Conducted" struck me as an odd and unexpected construction in
+          this context.</p>
+      </div><div>
+        <p>Kris Eberlein, 29 Oct 2022</p>
+        <p>Changed to "performed".</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords>
     <indexterm>formatting

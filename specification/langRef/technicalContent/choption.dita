@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="choption" xml:lang="en-us"><title><xmlelement>choption</xmlelement></title><shortdesc>The <xmlelement>choption</xmlelement> element contains the
-    content of the first cell in a choice table row. This content names the
-    option that the user can take to complete the
-    step.<!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of an option cell in a table row) can we describe it as an option for completing a step, or similar?</draft-comment>--></shortdesc><prolog><metadata><keywords>
+<reference id="choption" xml:lang="en-us"><title><xmlelement>choption</xmlelement></title><shortdesc>The <xmlelement>choption</xmlelement> element contains the content of the first cell in a
+    choice table row. This content names the option that the user can take to complete the
+      step.<draft-comment author="Eliot Kimber" disposition="Referred">See my comment on
+        <xmlelement>choicetable</xmlelement>: I don't think "names the option" is correct--should be
+      "labels or describes the option" or close to. That is, you would never use the name "Option
+      1", you would use the label "Local server": both are distinct values (within the choice
+      table), but one is an arbitrary name and one is a descriptive label.<p>Having said that, I
+        suppose you might use "Option 1" if you write the command or info content such that it
+        references the option name: </p><p>Having set the framitiz to "on" you may do Option 1 or
+        Option 2 as shown in the choice table below.</p><p>So I guess it depends on whether you are
+        writing the choice table as simple lookup table of options where the option labels are
+        arbitrary or a state table where the option label reflects a specific state ("local server",
+        "remote server").</p><div>
+        <p>Kris Eberlein, 31 October 2022</p>
+        <p> I agree that "names the option" is imprecise, but I think that it's the best that we can
+          do. Shifting to "labels or describes the option" comes into conflict with 1) how we
+          describe the &lt;chdesc> element, and 2) what the &lt;chhead> row provides. We're stuck
+          with the element names – &lt;choption> and &lt;chdesc> – and also do not want to deviate
+          too far from how these elements have been defined in the four versions of the DITA 1.x
+          specifications. (I think the element names were poorly chosen, and our current rigor with
+          short descriptions is highlighting that …)</p>
+        <p>Nonetheless, I'm setting the comment disposition to "Referred," so that we can discuss it
+          at a TC meeting. Maybe someone else can come up with an acceptable way to describe what
+          the &lt;choption> element does.</p>
+      </div></draft-comment><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of an option cell in a table row) can we describe it as an option for completing a step, or similar?</draft-comment>--></shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>options</indexterm></indexterm><indexterm><xmlelement>choption</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choption</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

@@ -25,9 +25,18 @@
     </section>
   <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>Processors might render prerequisite links from the related-links
-        section together with the content of the
-          <xmlelement>prereq</xmlelement> element.</p>
+      <p>Processors might render prerequisite links from the related-links section together with the
+        content of the <xmlelement>prereq</xmlelement> element.<draft-comment author="Eliot Kimber"
+          disposition="Referred">I'm not sure I would ever recommend this as there's no way,
+          a-priori, to know if a given related link is for a prereq or postreq step or just a
+          related task for whatever reason.<div>
+            <p>Kris Eberlein, 29 October 2022</p>
+            <p>I've never recommended or done this, either. This is verbiage (modified slightly over
+              time) that has been present since early, pre-OASIS days. You can, of course, use @role
+              and @otherrole to indicate that a link is a prerequisite link.</p>
+            <p>DITA-OT implements some support for this, if my memory is correct. Let's ask the TC
+              whether we should keep or remove this statement.</p>
+          </div></draft-comment></p>
     </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
@@ -52,9 +61,18 @@
     &lt;!-- ... -->
   &lt;/taskbody&gt;
 &lt;/task&gt;</codeblock>
-      <p>Style sheets might generate a label, for example, <q>Before you
-          begin</q>, to indicate clearly that the prerequisite task needs
-        to be performed before embarking on the procedure.</p>
+      <p>Style sheets might generate a label, for example, <q>Before you begin</q>, to indicate
+        clearly that the prerequisite task needs to be performed before embarking on the
+          procedure.<draft-comment author="Eliot Kimber" disposition="Closed">Would it be
+          appropriate to make the "log in to the SQLJ server" an explicit hyperlink? I.e.: <codeblock id="codeblock_jvr_2yq_3vb">&lt;xref keyref="task.login-sqlj">log in to the SQLJ server&lt;/xref></codeblock><div>
+            <p>Kris Eberlein, 29 October 2022</p>
+            <p>Whether or not that would be appropriate would depend on the guidelines for any
+              particular implementation. Some implementation might allow (or maybe encourage that),
+              others might not permit that (especially if the topic for "Logging into the SQLJ
+              server" was nearby – or such a simple task that it does not need documentation). Still
+              other implementation would want to use reltable links.</p>
+            <p>In any case, I don't think that additional markup improves the example.</p>
+          </div></draft-comment></p>
   </example>
 </refbody>
 </reference>

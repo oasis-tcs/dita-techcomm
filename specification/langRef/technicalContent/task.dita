@@ -4,9 +4,13 @@
 <title><xmlelement>task</xmlelement></title>
   <abstract>
     <!--<shortdesc>The <xmlelement>task</xmlelement> element is the top-level element for a task topic. Task topics provide step-by-step instructions that enable a user to perform a task; they tell the user precisely what to do and the order in which to do it.</shortdesc>-->
-    <shortdesc>The <xmlelement>task</xmlelement> element is the top-level
-      element for a task topic. Task topics provide instructions that
-      enable a user to perform a task.</shortdesc>
+    <shortdesc>The <xmlelement>task</xmlelement> element is the top-level element for a task topic.
+      Task topics provide instructions that enable a user to perform a task.<draft-comment
+        author="Eliot Kimber">In addition to using passive voice per my general comment on short
+        descriptions, I would say "Task topics provide instructions that guide the performance of a
+          task.".<p>The task, by itself, is not an enabler, in that it does not grant the authority,
+          ability, or power to perform the task--it only defines the procedure by which the task
+          should be performed.</p></draft-comment></shortdesc>
   </abstract>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>task</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>task</xmlelement></indexterm></indexterm>

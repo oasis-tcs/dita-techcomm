@@ -17,6 +17,10 @@ is inconsistently used, and that each implementation needs to nail down how they
 <p>Kris Eberlein, 21 October 2022</p>
 <p>Changed to read "The example might be text-based, an image, a code sample, a link to a video, or
 some other representation.</p>
+</div><div>
+<p>Eliot Kimber, 29 Oct 2022</p>
+<p>I often use code blocks in <xmlelement>stepxmp</xmlelement> when documenting tasks that involve
+command-line actions.</p>
 </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepxmp</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>stepxmp</xmlelement></indexterm></indexterm>

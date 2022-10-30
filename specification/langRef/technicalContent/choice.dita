@@ -2,7 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choice" xml:lang="en-us"><title><xmlelement>choice</xmlelement></title>
   <shortdesc>A <xmlelement>choice</xmlelement> element describes a way that a user can complete the
-    current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+    current step.<draft-comment author="Eliot Kimber" disposition="Completed">I'm not sure the
+      current short description needs to be changed, in that it's accurate as written, but I would
+      have used something like:<p>The <xmlelement>choice</xmlelement> element specifies one option
+        for completing the current step</p><div>
+        <p>Kris Eberlein, 29 October 2022</p>
+        <p>Good idea – I've changed the short description to read "A &lt;choice> element specifies
+          an option for completing the current step."</p>
+      </div></draft-comment></shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choice</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choice</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>choice</xmlelement> element is specialized from

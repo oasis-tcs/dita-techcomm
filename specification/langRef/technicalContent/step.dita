@@ -5,13 +5,19 @@
 <shortdesc>The <xmlelement>step</xmlelement> element contains a step. A step represents an action
     that a user can take to complete a task. It can also contain additional information about the
     step, such as an example, result, or troubleshooting guidance.<draft-comment author="Bill Burns"
-      disposition="Closed">Suggested change: "The <xmlelement>step</xmlelement> element represents
-      an action that a user can take to complete a task."<div>
+      disposition="Completed">Suggested change: "The <xmlelement>step</xmlelement> element
+      represents an action that a user can take to complete a task."<div>
         <p>Kris Eberlein, 26 October 2022</p>
         <p>Already changed to "A step is an action that a user can take to complete a task. It can
           also contain additional information about the step, such as an example, result, or
           troubleshooting guidance."</p>
-        <p>"</p>
+      </div><div>
+        <p>Eliot Kimber, 29 Oct 2022</p>
+        <p>I would remove " also" as the step contains everything. The command is the thing for
+          which "can also" would be appropriate.</p>
+      </div><div>
+        <p>Kris Eberlein, 29 October 2022</p>
+        <p>Done.</p>
       </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>step</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>step</xmlelement></indexterm></indexterm>
