@@ -2,12 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="task" xml:lang="en-us">
 <title><xmlelement>task</xmlelement></title>
-  <abstract>
-    <!--<shortdesc>The <xmlelement>task</xmlelement> element is the top-level element for a task topic. Task topics provide step-by-step instructions that enable a user to perform a task; they tell the user precisely what to do and the order in which to do it.</shortdesc>-->
-    <shortdesc>The <xmlelement>task</xmlelement> element is the top-level
-      element for a task topic. Task topics provide instructions that
-      enable a user to perform a task.</shortdesc>
-  </abstract>
+  <shortdesc>The <xmlelement>task</xmlelement> element is the top-level
+    element for a task topic. Task topics provide <ph rev="review-a"
+      >the</ph> instructions that <ph rev="review-a"> guide</ph> a user to
+    perform a task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>task</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>task</xmlelement></indexterm></indexterm>
 </keywords>
@@ -48,10 +46,10 @@
    <title>Example</title>
       <p>The following code sample shows that <xmlelement>task</xmlelement>
         is the topic-level element for a task topic:</p>
-   <codeblock>&lt;task id="learn-dita">
+   <codeblock><b>&lt;task id="learn-dita"></b>
   &lt;title>Learning DITA&lt;/title>
   &lt;!-- ... -->
-&lt;/task></codeblock>
+<b>&lt;/tas k></b></codeblock>
   </example>
 </refbody>
 </reference>

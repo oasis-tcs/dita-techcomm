@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="cmd" xml:lang="en-us">
 <title><xmlelement>cmd</xmlelement></title>
-<shortdesc>A command provides instruction on how to complete a
-    step.</shortdesc>
+<shortdesc>A command <ph rev="review-a">specifies the action to take</ph>
+    to complete a step.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>cmd</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>cmd</xmlelement></indexterm></indexterm></keywords>
 </metadata></prolog>
