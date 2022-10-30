@@ -30,7 +30,7 @@
   &lt;title&gt;Creating an SQLJ file&lt;/title&gt;
   &lt;taskbody&gt;
     &lt;!-- ... -->
-    <b>&lt;result&gt;</b>The "File Created" window is displayed, and the SQLJ
+    <b>&lt;result&gt;</b>The &lt;wintitle>File Created&lt;wintle> window is displayed, and the SQLJ
             file is successfully created.
     <b>&lt;/result&gt;</b>
   &lt;/taskbody&gt;
