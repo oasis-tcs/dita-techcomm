@@ -30,11 +30,22 @@
     <section id="content-model">
       <title>Content model</title>
       <p>The general task topic is divided into three parts:</p>
-      <draft-comment author="Zoë Lawson" time="30 Oct 2022">I'm not quite sure why general task gets
-        the three parts/sections (Introduction, procedure, post), and the strict task doesn't. I
-        think that concept crosses over between the two. <p>I think I would highlight that you can
-          use multiple instances of the sub-sections, and the steps-informal. Everything else I want
-          to highlight is probably user guide information, not spec information.</p></draft-comment>
+      <draft-comment author="Zoë Lawson" time="30 Oct 2022" disposition="Referred">I'm not quite
+        sure why general task gets the three parts/sections (Introduction, procedure, post), and the
+        strict task doesn't. I think that concept crosses over between the two. <p>I think I would
+          highlight that you can use multiple instances of the sub-sections, and the steps-informal.
+          Everything else I want to highlight is probably user guide information, not spec
+          information.</p><div>
+          <p>Kris Eberlein, 30 October 2022</p>
+          <p>I agree that the basic structure of "Before the procedure," "Procedure," and "After the
+            procedure" applies to both general and strict task. However, the strict task does impose
+            a strict ordinality, which I tried to emphasize by using an ordered list to present the
+            structural component of strict task.</p>
+          <p>The "Content model" section for strict task COULD use the same organizational structure
+            as general task (a three-part definition list), where each &lt;dd> element would contain
+            an ordered list. I could prototype that, and we could which version of the strict task
+            topic TC members liked best.</p>
+        </div></draft-comment>
       <dl>
         <dlentry>
           <dt>Introduction</dt>
@@ -77,17 +88,22 @@
               <li>Example (<xmlelement>example</xmlelement>)</li>
               <li>Post-requisites (<xref keyref="elements-postreq"
                   ><xmlelement>postreq)</xmlelement></xref><draft-comment author="Zoë Lawson"
-                  time="30 Oct 2022">I think Post-requisite is a term coined by DITA and/or
-                  programming. It doesn't exist in a dictionary like Result or Example, etc. and
-                  could be confusing to non-native speakers. Should it be a phrase like
-                  "troubleshooting information" instead of just the name? <p>I'm struggling with a
-                    replacement. I think of it as "What to do next" or maybe "Following
+                  time="30 Oct 2022" disposition="Referred">I think Post-requisite is a term coined
+                  by DITA and/or programming. It doesn't exist in a dictionary like Result or
+                  Example, etc. and could be confusing to non-native speakers. Should it be a phrase
+                  like "troubleshooting information" instead of just the name? <p>I'm struggling
+                    with a replacement. I think of it as "What to do next" or maybe "Following
                     steps"</p><p>This is an interesting discussion: <xref
                       href="https://english.stackexchange.com/questions/307436/word-for-opposite-of-prerequisite-something-that-is-possible-because-of-anoth"
                       format="html" scope="external"
                       >https://english.stackexchange.com/questions/307436/word-for-opposite-of-prerequisite-something-that-is-possible-because-of-anoth</xref></p><p>Its
                     what we've used for 15 years, so we can keep it, but possibly worth
-                    discussing.</p></draft-comment></li>
+                    discussing.</p><div>
+                    <p>Kris Eberlein, 30 October 2022</p>
+                    <p>It would be easy to change "Post-requisites" in this topic (and the topic for
+                      strict task) to "What to do next" – but I have to wonder how many other places
+                      in the spec we use the term "post-requisites"? The answer is five ...</p>
+                  </div></draft-comment></li>
             </ol><p>While all of the above structural components are optional, they must occur in
               the outlined order. Examples and post-requisites can occur multiple times.</p></dd>
         </dlentry>
