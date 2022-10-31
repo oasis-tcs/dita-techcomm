@@ -36,7 +36,7 @@
             file is successfully created.
     <b>&lt;/result&gt;</b>
   &lt;/taskbody&gt;
-&lt;/task&gt;<draft-comment author="Eliot Kimber" disposition="Completed">Super nit picky, but I would reverse the order of the two results: SQLJ file is created and "File created" window is displayed.<div><p>Kris Eberlein, 29 October 2022</p><p>Done.</p></div></draft-comment></codeblock>
+&lt;/task&gt;<draft-comment author="Eliot Kimber" disposition="Completed">Super nit picky, but I would reverse the order of the two results: SQLJ file is created and "File created" window is displayed.<div><p>Kris Eberlein, 29 October 2022</p><p>Done.</p></div></draft-comment><draft-comment author="Zoë Lawson" time="30 Oct 2022" disposition="Completed">Silly nit. Should "File Created" be wrapped in &lt;wintitle> instead of using quotes? Or is that outside of the Technical Content?<div><p>Kris Eberlein, 30 October 2022</p><p>Not a nit at all. Some of these legacy examples tended to have minimal markup. Done.</p></div></draft-comment></codeblock>
 </example>
 </refbody>
 </reference>

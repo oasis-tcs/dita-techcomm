@@ -3,7 +3,20 @@
 <reference id="stepsection" xml:lang="en-us">
 <title><xmlelement>stepsection</xmlelement></title>
 <shortdesc>The <xmlelement>stepsection</xmlelement> element contains expository text that might be
-    rendered before a step.</shortdesc>
+    rendered before a step.<draft-comment author="Zoë Lawson" time="30 Oct 2022"
+      disposition="Closed">Before a step, or between steps? <p>I didn't know that this element
+        existed, and I've been confused by it. I think of it as sort of a catch-all, if you have to
+        put text between steps that doesn't fit into any of the &lt;step> options. It also feels
+        like an element outside of structured authoring practices, but it could be useful when
+        migrating not overly structured stuff, similar to comments you made earlier on General task.
+        </p><p>I agree with Dawn's emphasis about not changing the numbering. Do we care about
+        alignment or is that getting too far into the weeds/implementation choices?</p><div>
+        <p>Kris Eberlein, 30 October 2022</p>
+        <p>Re your first point: I use this occasionally. The revision example for this topic for a
+          solid use case, so please check it out when you get the revised PDF.</p>
+        <p>Re alignment – That is strictly formatting that is entirely up to the individual
+          implementation.</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>stepsection</xmlelement></indexterm>
         <indexterm>rendering

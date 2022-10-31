@@ -37,6 +37,20 @@
             stylesheets render a applicable label when @importance is specified on &lt;step>,</p>
         </div>
       </draft-comment>
+      <draft-comment author="Zoë Lawson" time="30 Oct 2022" disposition="Closed">I think this is
+        just me having a duh moment, but I'm curious about some implementation bits for all the
+        various components of elements that can be in the step. In the dark ages of DITA 1.0 or 1.1,
+        I'm not sure what the expectation was for rendering &lt;info> etc. Once upon a time, I had
+        to specifically put a &lt;p> into &lt;info> or &lt;stepresult> to have separate blocks. I
+        think that's now happening by default? Do we need to specify that this is expected to be a
+        block or inline? Are we assuming this is inferred from the specialization hierarchy?<div>
+          <p>Kris Eberlein, 30 October 2022</p>
+          <p>This really depends on the implementation and its stylesheets. IBM stylesheets rendered
+            the content of &lt;info> inline following the content of &lt;cmd>. By default, the
+            DITA-OT renders &lt;info> as a block. This sort of stuff is why so many of us wanted to
+            remove the "Block/inline (presentation)" column from the "Elements-by-elements"
+            topic.</p>
+        </div></draft-comment>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

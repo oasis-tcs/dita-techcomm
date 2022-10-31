@@ -90,6 +90,15 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>choicetable</xmlelement> element is specialized from
           <xmlelement>simpletable</xmlelement>. It is defined in the task module.</p>
+      <draft-comment author="Zoë Lawson" time="30 Oct 2022" disposition="Closed">If I am remembering
+        correctly, in DITA 2.0, we added the ability to span rows and columns to simple tables.
+        Since choicetables are specialized from simpletable, are there any interesting consequences
+        of potentially being able to span rows/columns in a choice table? <p>These questions came to
+          mind when I was reading the @scope attribute description on all the choice table elements. </p><div>
+          <p>Kris Eberlein, 30 October 2022</p>
+          <p>We did not add the @colspan and @rowspan attributes to &lt;choicetable, so no spanning
+            in choice tables.</p>
+        </div></draft-comment>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -3,7 +3,21 @@
 <reference id="tutorialinfo" xml:lang="en-us">
 <title><xmlelement>tutorialinfo</xmlelement></title>
 <shortdesc>The <xmlelement>tutorialinfo</xmlelement> element contains additional information that is
-    useful when the task topic  is part of a tutorial.</shortdesc>
+    useful when the task topic is part of a tutorial.<draft-comment author="Zoë Lawson"
+      time="30 Oct 2022" disposition="Closed">I know that we're not listing what elements go where
+      because the dtd/rng files should be validating that, and this is the spec and not a user
+      guide, but I had zero idea this element existed. <p>My brain is also bending trying to think
+        about creating different processing so that elements are inherently conditional, as opposed
+        to using attributes, and how that may (or may not) be different. </p><div>
+        <p>Kris Eberlein, 30 October 2022</p>
+        <p>I don't think there are ever "inherently conditional" attributes. The use case for
+          &lt;tutorialinfo> is that you can use a single task topic to generate both task procedures
+          AND learning exercises. (This element was part of DITA 1.0 and predates the learning and
+          training specialization.) The idea was that you would use the &lt;tutorialinfo> element
+          to, for example, contain the values that a user would need when working through a
+          tutorial, apply a conditional processing attribute to the &lt;tutorialinfo> element, and
+          exclude the &lt;tutorialinfo> element when building the standard task topic.</p>
+      </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>tutorialinfo</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>tutorialinfo</xmlelement></indexterm></indexterm>
 </keywords>

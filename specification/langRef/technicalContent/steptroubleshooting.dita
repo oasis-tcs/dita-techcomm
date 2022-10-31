@@ -5,16 +5,14 @@
   <title><xmlelement>steptroubleshooting</xmlelement></title>
   <shortdesc>The <xmlelement>steptroubleshooting</xmlelement> element contains information that is
     designed to help remedy the situation when a step does not complete as expected.<draft-comment
-      author="Eliot Kimber">Remove "that is designed ". Or perhaps completely replace with
-        <p>contains information for responding when a step does not complete as
-        expected.</p><p>"remedy the situation" presumes that remediation is within the reader's
+      author="Eliot Kimber" disposition="Completed">Remove "that is designed ". Or perhaps
+      completely replace with <p>contains information for responding when a step does not complete
+        as expected.</p><p>"remedy the situation" presumes that remediation is within the reader's
         power, which it may not be. For example, the troubleshooting may consist entirely of gather
         logs and messages and reporting it to support.</p><div>
-        <p>Kris Eberlen, 29 October 2022</p>
-        <p>We could change it to "contains information that explains what the reader should do if
-          the step does not complete as expected." But the current wording is OK, I think –
-          "designed to help remedy – seems to me to fit gathering data and reporting it to
-          support.</p>
+        <p>Kris Eberlen, 30 October 2022</p>
+        <p>I changed this to "Step troubleshoooting is information that is intended  to help users
+          respond to  the situation if  a step does not complete as expected."</p>
       </div></draft-comment></shortdesc>
   <prolog>
     <metadata>

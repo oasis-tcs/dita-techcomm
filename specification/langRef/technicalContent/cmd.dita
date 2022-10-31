@@ -3,22 +3,22 @@
 <reference id="cmd" xml:lang="en-us">
 <title><xmlelement>cmd</xmlelement></title>
 <shortdesc>The <xmlelement>cmd</xmlelement> element contains a command. A command provides
-instruction on how to complete a step.<draft-comment author="Eliot Kimber">Could collapse the two
-sentences: "… element provides instruction on how to complete a step."<p>However, I think the design
-intent for <xmlelement>cmd</xmlelement> is more limited: specifies the direct action to take to
-complete the step. Of course, that presumes a particular writing style, which may not be appropriate
-for the spec (for example, at ServiceNow we have Schematrons rule that requires
-<xmlelement>xml</xmlelement> to be exactly one sentence and meet other strict
-requirements).</p><p>The <xmlelement>step</xmlelement> element itself provides the "instruction on
-how to complete a step", because it contains the command and any additional information needed to
-support the completion of the step (<xmlelement>info</xmlelement>, <xmlelement>stepxmp</xmlelement>,
-etc.)</p><div>
+instruction on how to complete a step.<draft-comment author="Eliot Kimber" disposition="Completed"
+>Could collapse the two sentences: "… element provides instruction on how to complete a
+step."<p>However, I think the design intent for <xmlelement>cmd</xmlelement> is more limited:
+specifies the direct action to take to complete the step. Of course, that presumes a particular
+writing style, which may not be appropriate for the spec (for example, at ServiceNow we have
+Schematrons rule that requires <xmlelement>xml</xmlelement> to be exactly one sentence and meet
+other strict requirements).</p><p>The <xmlelement>step</xmlelement> element itself provides the
+"instruction on how to complete a step", because it contains the command and any additional
+information needed to support the completion of the step (<xmlelement>info</xmlelement>,
+<xmlelement>stepxmp</xmlelement>, etc.)</p><div>
 <p>Kris Eberlein, 29 October 2022</p>
 <p>The &lt;cmd> shortdesc has been revised; it now uses natural language and reads "A command
-provides instruction on how to complete a step." Should it be "primary instruction"? Maybe.</p>
+specifies the action to take to complete a step."</p>
 <p>The &lt;step> shortdesc has also been revised; it now reads "A step is an action that a user can
-take to complete a task. It can also contain additional information about the step, such as an
-example, result, or troubleshooting guidance."</p>
+take to complete a task. It can contain additional information about the step, such as an example,
+result, or troubleshooting guidance."</p>
 </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>cmd</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>cmd</xmlelement></indexterm></indexterm></keywords>

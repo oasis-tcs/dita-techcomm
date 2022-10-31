@@ -30,11 +30,15 @@
     <section id="content-model">
       <title>Content model</title>
       <p>The general task topic is divided into three parts:</p>
+      <draft-comment author="Zoë Lawson" time="30 Oct 2022">I'm not quite sure why general task gets
+        the three parts/sections (Introduction, procedure, post), and the strict task doesn't. I
+        think that concept crosses over between the two. <p>I think I would highlight that you can
+          use multiple instances of the sub-sections, and the steps-informal. Everything else I want
+          to highlight is probably user guide information, not spec information.</p></draft-comment>
       <dl>
         <dlentry>
           <dt>Introduction</dt>
-          <dd>This portion of the topic can contain the following
-            structural sections:<ul>
+          <dd>This portion of the topic can contain the following structural sections:<ul>
               <li>Prerequisites (<xref keyref="elements-prereq"
                     ><xmlelement>prerequisites</xmlelement></xref>)<draft-comment
                   author="Eliot Kimber" disposition="Closed">Markup question: why use a separate
@@ -47,15 +51,13 @@
                     ><xmlelement>context</xmlelement></xref>)</li>
               <li>Sections (<xmlelement>sections</xmlelement>)</li>
             </ul>
-            <p>These sections are all optional. They can appear in any
-              order and can occur multiple times.</p></dd>
+            <p>These sections are all optional. They can appear in any order and can occur multiple
+              times.</p></dd>
         </dlentry>
         <dlentry>
           <dt>Procedural instructions</dt>
-          <dd>This portion of the topic can contain only one of the
-            following structural sections:<ul>
-              <li>Steps (<xref keyref="elements-steps"
-                    ><xmlelement>steps</xmlelement></xref>)</li>
+          <dd>This portion of the topic can contain only one of the following structural sections:<ul>
+              <li>Steps (<xref keyref="elements-steps"><xmlelement>steps</xmlelement></xref>)</li>
               <li>Steps informal (<xref keyref="elements-steps-informal"
                     ><xmlelement>steps-informal</xmlelement></xref>)</li>
               <li>Steps unordered (<xref keyref="elements-steps-unordered"
@@ -74,7 +76,18 @@
                     ><xmlelement>tasktroubleshooting</xmlelement></xref></li>
               <li>Example (<xmlelement>example</xmlelement>)</li>
               <li>Post-requisites (<xref keyref="elements-postreq"
-                  ><xmlelement>postreq)</xmlelement></xref></li>
+                  ><xmlelement>postreq)</xmlelement></xref><draft-comment author="Zoë Lawson"
+                  time="30 Oct 2022">I think Post-requisite is a term coined by DITA and/or
+                  programming. It doesn't exist in a dictionary like Result or Example, etc. and
+                  could be confusing to non-native speakers. Should it be a phrase like
+                  "troubleshooting information" instead of just the name? <p>I'm struggling with a
+                    replacement. I think of it as "What to do next" or maybe "Following
+                    steps"</p><p>This is an interesting discussion: <xref
+                      href="https://english.stackexchange.com/questions/307436/word-for-opposite-of-prerequisite-something-that-is-possible-because-of-anoth"
+                      format="html" scope="external"
+                      >https://english.stackexchange.com/questions/307436/word-for-opposite-of-prerequisite-something-that-is-possible-because-of-anoth</xref></p><p>Its
+                    what we've used for 15 years, so we can keep it, but possibly worth
+                    discussing.</p></draft-comment></li>
             </ol><p>While all of the above structural components are optional, they must occur in
               the outlined order. Examples and post-requisites can occur multiple times.</p></dd>
         </dlentry>
@@ -91,6 +104,17 @@
             usages in a single example. For example, in the &lt;taskbody> topic, we might want to
             show a implementation using a general task topic to store reused task sections,
             especially &lt;prereq> and &lt;context>,</p>
+        </div></draft-comment>
+      <draft-comment author="Zoë Lawson" disposition="Closed">Mildly unrelated, but I was working
+        with DITA 1.3 and trying to make a large container topic with subtopics. FrameMaker and
+        Oxygen both didn't like having a general task inside of a &lt;dita> element. Was I doing
+        something wrong? or is this a bug somewhere that I'd like to see fixed in DITA 2.0? (And if
+        I need to file this in a different way, let me know.)<div>
+          <p>Kris Eberlen, 30 October 2022</p>
+          <p>The composite (ditabase) topic that we ship for people to use out-of-the-box includes
+            strict task. If you want a composite topic that uses general task, you'll need to build
+            your own document-type shell. (FYI, a composite topic cannot contain both general task
+            and strict task.)</p>
         </div></draft-comment>
     </section>
     <!--<section id="section_0C8A068CDF1D498F9FF534D3CE88CF2F"><title>The structure of the general task topic</title><p id="p_366CB29A7238470BA9070488F953FBDD">The <xmlelement>task</xmlelement> element is the top-level element for the general task topic. The general task topic contains a <xmlelement>title</xmlelement>, a short description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, <xmlelement>taskbody</xmlelement> for the main task content, and <xmlelement>related-links</xmlelement>.</p><p id="p_7262A46437C34654BD4E46DC49BC6FD4">The following elements are described here because they are introduced as part of the general task model. All other elements are described in the strict task topic.<draft-comment author="robander" audience="spec-editors" time="25 may 2021">this paragraph also makes me think we're adding to confusion by defining some elements here, and some in "strict task"</draft-comment></p><dl><dlentry><dt><xmlelement>section</xmlelement> </dt><dd>Represents an organizational division in a task topic. Sections organize subsets of information within the larger topic. Sections cannot be nested. A section can have an optional <xmlelement>title</xmlelement>. </dd></dlentry><dlentry><dt><xmlelement>steps-informal</xmlelement> </dt><dd>Describes procedural task information that would not normally be ordered as <xmlelement>steps</xmlelement>, such as a group of general procedures that might all be applied in a particular situation. Instead of <xmlelement>step</xmlelement>, the <xmlelement>steps-informal</xmlelement> element uses <xmlelement>ol</xmlelement> and <xmlelement>ul</xmlelement> elements, which are less strictly defined than the <xmlelement>step</xmlelement> element. When converting legacy content, it might be simpler to convert numbered lists to <xmlelement>ol</xmlelement> elements than to <xmlelement>step</xmlelement> elements. </dd></dlentry></dl></section>-->

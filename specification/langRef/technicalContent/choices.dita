@@ -4,7 +4,7 @@
     represents a way that a user can complete the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-      <draft-comment author="Eliot Kimber">Comparing this topic to
+      <draft-comment author="Eliot Kimber" disposition="Closed">Comparing this topic to
           <xmlelement>choicetable</xmlelement>, which has a Usage section, I think this topic needs
         a Usage section that helps distinguish <xmlelement>choices</xmlelement> from
           <xmlelement>choicetable</xmlelement>: Both do the same thing: provide a set of options for
@@ -26,8 +26,20 @@
           <p>I suspect that the original design really was slanted towards presentation:
             &lt;choices> as a list and &lt;choicetable> as a table. Of course, at IBM, typically
             &lt;choice> was flagged with an image and used for different operating system.</p>
-          <p>In my experience (and I think, Dawn's) implementations have developed business rules
-            for how and when authors should use &lt;choices> versus &lt;choicetable>.</p>
+          <p>In my experience (and Dawn's) implementations develop business rules for how and when
+            authors should use &lt;choices> versus &lt;choicetable>.</p>
+          <p>Dawn states here in the review (in the &lt;choicetable> topic that "I typically give
+            the following guidance to clients: use choices when there is more than one way to
+            complete a step that leads to the same result. Use choicetable when there is more than
+            one way to complete a step that leads to different results (to do x, then y; or if this,
+            then that). Otherwise, writers are often inconsistent in which they choose."</p>
+          <p>I've been less semantic than that. I often suggest the folks use &lt;choices> only when
+            they are using it for options that will be flagged with an image or label during output
+            processing. Or suggest that &lt;choices> be constrained out and only &lt;choicetable>
+            used.</p>
+          <p>I don't think we can really add a "Usage information" section. What would it say? We
+            don't want to get into formatting as a list, and we really cannot mandate the sort of
+            semantic distinction that Dawn uses with her clients.</p>
         </div></draft-comment>
 <p>The <xmlelement>choices</xmlelement> element is specialized from <xmlelement>ul</xmlelement>. It
         is defined in the task module.</p>
