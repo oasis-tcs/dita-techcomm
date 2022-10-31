@@ -5,7 +5,7 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Concept and reference</mainbooktitle>
+    <mainbooktitle>Revew B: Concept and reference</mainbooktitle>
   </booktitle>
   <frontmatter>
     <mapref href="baseSpec/specification/dita-2.0-specification-subjectScheme.ditamap"/>
@@ -37,6 +37,8 @@
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
     format="ditamap"/>
+  <appendix
+    href="../../dita/specification/non-normative/formatting-expectations.dita"/>
   <backmatter>
     <booklists>
       <indexlist/>
