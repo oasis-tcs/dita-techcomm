@@ -3,8 +3,8 @@
 <concept id="dita_generic_task_topic" xml:lang="en-US">
 	<title>General task</title>
   <shortdesc>A general task topic answers the "How do I?" question by
-    providing instructions and other necessary information that enables the
-    user to complete the task successfully. It has a content model that is
+    providing instructions and other necessary information that enables
+    users to complete the task successfully. It has a content model that is
     more relaxed than that of the strict
     task.<!-- The general-task document type serves as the base for the strict-task document type. It also can be used to create new document types or specializations.--></shortdesc>
 	<conbody>

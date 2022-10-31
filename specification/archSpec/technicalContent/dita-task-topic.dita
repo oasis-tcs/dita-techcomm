@@ -4,8 +4,8 @@
 	<title>Strict task</title>
   <shortdesc>A strict task topic answers the "How do I?" question by
     providing precise step-by-step instructions and other necessary
-    information that enables the user to complete the task
-    successfully.</shortdesc>
+    information that enables <ph rev="review-a">users</ph> to complete the
+    task successfully.</shortdesc>
   <!--<shortdesc>The strict task-document type supports the development of instructions for the completion of a procedure. The strict-task document type is built using the general-task information type combined with the strict taskbody constraint</shortdesc>-->
 	<conbody>
     <!--<section id="purpose"><title>Purpose</title><p>The purpose of the strict task topic is to provide the reader with the following information:</p><ul><li>A concise statement of why, when, where, and by whom the task should be performed, as well as what the benefits are</li><li>All the information that they need to perform the task successfully</li></ul></section>-->
