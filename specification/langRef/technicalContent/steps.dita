@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="steps" xml:lang="en-us">
 <title><xmlelement>steps</xmlelement></title>
-<shortdesc>Steps are a series of actions that are conducted in a specific
-    order and manner.</shortdesc>
+<shortdesc>Steps are a series of actions that <ph rev="review-a">users
+      perform</ph> in a specific order and manner.</shortdesc>
 <prolog><metadata>
 <keywords>
     <indexterm>formatting
