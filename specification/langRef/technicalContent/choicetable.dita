@@ -29,6 +29,13 @@
         author does not want to use the default labels that <ph
           rev="review-a">might be</ph> provided by stylesheets.</p>
     </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p rev="review-a">If choice table does not contain a header row,
+        processors typically auto-generate labels for the columns in the
+        choice table. The text for the labels is specified in
+        stylesheets.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>choicetable</xmlelement> element is specialized from

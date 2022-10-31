@@ -39,8 +39,7 @@
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
     format="ditamap"/>
-  <appendix
-    href="../../dita/specification/non-normative/formatting-expectations.dita"/>
+  <appendix href="non-normative/formatting-expectations.dita"/>
   <backmatter>
     <booklists>
       <indexlist/>

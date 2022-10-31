@@ -2,16 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="formatting-expectations">
     <title>Formatting expectations</title>
-    <shortdesc>DITA is a standard that supports the creation of human-readable content. Accordingly,
-        DITA defines fundamental document components. Since there is a reasonable expectation that
-        such document components be rendered consistently, we suggest the following formatting
-        conventions.</shortdesc>
+    <shortdesc>DITA is a standard that supports the creation of
+    human-readable content. Accordingly, DITA defines fundamental document
+    components. Since there is a reasonable expectation that such document
+    components be formatted consistently, we suggest the following
+    conventions.</shortdesc>
     <refbody>
         <section>
             <p>
-                <draft-comment author="Kristen J Eberlein" time="30 April 2019">
-                    <p>This topic need to be edited for style and consistency.</p>
-                </draft-comment>
                 <draft-comment author="robander" time="25 May 2021">I can't
           remember … is this expected to include the content of every
           "Rendering expectations" section in this spec, or did we have a
@@ -53,8 +51,6 @@
                     <row>
                         <entry><xmlelement>choicetable</xmlelement></entry>
                         <entry>
-                            <p>If choice table does not contain a header row, processors typically
-                                auto-generate labels for the columns in the choice table.</p>
                             <p>Unless the <xmlatt>keycol</xmlatt> attribute is set to
                                     <keyword>0</keyword>, processors typically apply bold
                                 highlighting to the contents of the "Option" column.</p>
@@ -100,11 +96,6 @@
                     <row>
                         <entry><xmlelement>shortcut</xmlelement></entry>
                         <entry>Highlight the keyboard shortcut with underlining.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>steps</xmlelement></entry>
-                        <entry>Render steps with only a single step as a paragraph. Render two or
-                            more steps as an ordered list.</entry>
                     </row>
                     <row>
                         <entry><xmlelement>syntaxdiagram</xmlelement></entry>

@@ -14,6 +14,9 @@
 <refbody>
     <section id="rendering-expectations" rev="review-a">
       <title>Rendering expectations</title>
+      <p rev="review-a">Steps that contain only a single step should be
+        rendered as a paragraph. Steps that contain two or more steps
+        should be rendered as an ordered list.</p>
       <p conkeyref="reuse-tc-file/task-label-rendering"/>
     </section>
   <section id="specialization-hierarchy">
