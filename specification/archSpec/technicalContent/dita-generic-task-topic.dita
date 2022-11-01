@@ -48,7 +48,8 @@
                   keyref="elements-tasktroubleshooting"
                     ><xmlelement>tasktroubleshooting</xmlelement></xref></li>
               <li>Example: <xmlelement>example</xmlelement></li>
-              <li>Post-requisites: <xref keyref="elements-postreq"
+              <li><ph rev="review-a">What to do next</ph>: <xref
+                  keyref="elements-postreq"
                     ><xmlelement>postreq)</xmlelement></xref></li>
             </ol><p>While all of the above structural components are
               optional, they must occur in the outlined order. Examples and

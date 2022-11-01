@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE reference
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choices" xml:lang="en-us"><title><xmlelement>choices</xmlelement></title><shortdesc>The <xmlelement>choices</xmlelement> element contains a list of
-    choices. Each choice represents a way that <ph rev="review-a"
-      >users</ph> can complete the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+    choices. Each choice represents a way <ph rev="review-a">to</ph>
+    complete the current step.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>choices</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choices</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+    <section id="usage-information" rev="review-a">
+      <title>Usage information</title>
+      <p>The <xmlelement>choices</xmlelement> element provides information
+        when there is more than one way to complete a step. It is a
+        list.</p>
+    </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>choices</xmlelement> element is specialized from <xmlelement>ul</xmlelement>. It
