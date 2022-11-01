@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choption" xml:lang="en-us"><title><xmlelement>choption</xmlelement></title><shortdesc>The <xmlelement>choption</xmlelement> element contains the
-    content of the first cell in a choice table row. This content names the
-    option that <ph rev="review-a">users</ph> can take to complete the
+    content of the first cell in a choice table row. This content <ph
+      rev="review-a">labels</ph> the option that <ph rev="review-a"
+      >users</ph> can take to complete the
     step.<!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of an option cell in a table row) can we describe it as an option for completing a step, or similar?</draft-comment>--></shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>options</indexterm></indexterm><indexterm><xmlelement>choption</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choption</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">
