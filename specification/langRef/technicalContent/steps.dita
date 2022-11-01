@@ -18,6 +18,14 @@
       </div><div>
         <p>Kris Eberlein, 29 Oct 2022</p>
         <p>Changed to "performed".</p>
+      </div></draft-comment><draft-comment author="Stan Doherty" disposition="Closed">Would
+      &lt;steps> ever be rendered as something other than a numbered list in the real world? <div>
+        <p>Kris Eberlein, 31 Oct 2022</p>
+        <p>I don't think so; ordinality is critical to the very nature of steps.  This morning I
+          added the following content to the "Rendering expectations" section for this topic: "Steps
+          that contain only a single step should be rendered as a paragraph. Steps that contain two
+          or more steps should be rendered as an ordered list." (This content had been incorrectly
+          placed in the "Formatting expectations" appendix.</p>
       </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords>

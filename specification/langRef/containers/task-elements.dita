@@ -7,8 +7,13 @@
     describes how to complete a procedure to accomplish a specific goal. Use the task topic to
     describe the steps of a particular task, or to provide an overview of a higher-level task. The
     task topic includes sections for describing the context, prerequisites, actual steps, expected
-    results, example, and expected next steps for a task.<draft-comment author="dstevens73"
-      disposition="Completed">Add tasktroubleshooting to this list, which is otherwise complete.<div>
+    results, example, and expected next steps for a task.<draft-comment author="Stan Doherty"
+      disposition="Closed">Remove the comma between "task," and "or". <div>
+        <p>Kris Eberlein, 31October 2022</p>
+        <p>It's been removed in the rewrite of the short description, or I most certanly would have
+          made the change.</p>
+      </div></draft-comment><draft-comment author="dstevens73" disposition="Completed">Add
+      tasktroubleshooting to this list, which is otherwise complete.<div>
         <p>Kris Eberlein, 19 October 2022</p>
         <p>This short description has not been edited. I generated HTML5 output so that I could look
           at short descriptions for all the parallel container topics in this portion of the spec.

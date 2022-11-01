@@ -2,6 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="task">
     <title>Task</title>
-    <shortdesc>DITA offer two varieties of task topics: general task and
-    strict task.</shortdesc>
+    <shortdesc>DITA offer<draft-comment author="Stan Doherty" disposition="Completed">Change "offer"
+            to "offers". Note also that there are two missing spaces between words in the previous
+            "Topic and map document types" topic. <div>
+                <p>Kris Eberlein, 31 October 2022</p>
+                <p>Both are now fixed. Thanks for catchng these errors.</p>
+            </div></draft-comment> two varieties of task topics: general task and strict
+        task.</shortdesc>
 </concept>

@@ -17,7 +17,12 @@
         <p>"remedy the situation" presumes that remediation is within the reader's power, which it
           may not be. For example, the troubleshooting may consist entirely of gather logs and
           messages and reporting it to support.</p>
-      </div></draft-comment><!--<draft-comment author="robander" time="21 may 2021">Can we delete the word "users" here but otherwise leave this unchanged?<div><p>Kris Eberlein, 07 October 2022</p><p>I know that you do not like the term "users," but I suspect that it is used 30 times in this spec. Can you offer a replacement term? "Readers" is the only thing that comes quickly to mind. Is this a point that we should bring to the TC and see where the discussion goes?</p></div></draft-comment>--></shortdesc>
+      </div></draft-comment><!--<draft-comment author="robander" time="21 may 2021">Can we delete the word "users" here but otherwise leave this unchanged?<div><p>Kris Eberlein, 07 October 2022</p><p>I know that you do not like the term "users," but I suspect that it is used 30 times in this spec. Can you offer a replacement term? "Readers" is the only thing that comes quickly to mind. Is this a point that we should bring to the TC and see where the discussion goes?</p></div></draft-comment>--><draft-comment
+      author="Stan Doherty" disposition="Closed">The most annoying processes that require
+      troubleshooting are those that complete successfully but return inaccurate data or no data. <div>
+        <p>Kris Eberlein, 31 October 2022</p>
+        <p>For sure. Unfortunately, I don't think the spec or TC can do much about that ...</p>
+      </div></draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
