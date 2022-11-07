@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="prereq" xml:lang="en-us">
 <title><xmlelement>prereq</xmlelement></title>
-<shortdesc>Prerequisites are things that users need to know or preliminary
-    tasks that users need to perform before starting the current
-    task.</shortdesc>
+<shortdesc>Prerequisites are things that <ph rev="review-a">people</ph>
+    need to know or preliminary tasks that <ph rev="review-a">people</ph>
+    need to perform before starting the current task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>prereq</xmlelement></indexterm>
         <indexterm>rendering
@@ -16,9 +16,7 @@
   <section id="rendering-expectations">
       <title>Rendering expectations</title>
       <p conkeyref="reuse-tc-file/task-label-rendering" rev="review-a"/>
-      <p>Processors might render prerequisite links from the related-links
-        section together with the content of the
-          <xmlelement>prereq</xmlelement> element.</p>
+      <!--<p>Processors might render prerequisite links from the related-links section together with the content of the <xmlelement>prereq</xmlelement> element.</p>-->
     </section>
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>

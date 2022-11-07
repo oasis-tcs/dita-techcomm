@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="context" xml:lang="en-us">
 <title><xmlelement>context</xmlelement></title>
-<shortdesc>Contextual information is background information that helps
-    users understand the purpose of the task and what they will gain by
-    completing it.</shortdesc>
+<shortdesc>Contextual information is background information that helps <ph
+      rev="review-a">people</ph> understand the purpose of the task and
+    what they will gain by completing it.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>context</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>context</xmlelement></indexterm></indexterm>
 </keywords>

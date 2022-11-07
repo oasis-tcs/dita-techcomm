@@ -4,7 +4,7 @@
 <title><xmlelement>task</xmlelement></title>
   <shortdesc>The <xmlelement>task</xmlelement> element is the top-level
     element for a task topic. Task topics provide <ph rev="review-a"
-      >the</ph> instructions that <ph rev="review-a"> guide users</ph> to
+      >the</ph> instructions that <ph rev="review-a"> guide people</ph> to
     perform a task.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>task</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>task</xmlelement></indexterm></indexterm>
