@@ -4,7 +4,7 @@
 <reference id="properties" xml:lang="en-us">
 <title><xmlelement>properties</xmlelement></title>
   <abstract>
-    <shortdesc>A properties list describes the properties of something.
+    <shortdesc>A properties table describes the properties of something.
       Each property can include the type, value, and a
       description.</shortdesc>
     <draft-comment author="Kristen J Eberlein" time="26 October 2022">
@@ -23,30 +23,16 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A properties list provides information about the properties of
-        something. It typically is represented as a simple table with three
-        columns. The first cell in a row lists the property type, the
+      <p>A properties table typically is represented as a simple table with
+        three columns. The first cell in a row lists the property type, the
         second cell in the row lists a value for the property, and the
         third cell in the row lists a description,</p>
       <p>An optional header row can provide labels for the columns, if an
         author does not want to use the default labels that might be
         provided by stylesheets.</p>
-      <p>When a single property type takes multiple values, authors can
-        create additional property elements and use only the
-          <xmlelement>propvalue</xmlelement> and
-          <xmlelement>propdesc</xmlelement> elements for each successive
-        value.</p>
-      <draft-comment author="Kristen J Eberlein" time="26 October 2022">
-        <p>The above paragraph seems as if it has rendering implications.
-          Also, how does this is effected by the fact that we now have
-          enabled row and column spanning for properties lists?</p>
-      </draft-comment>
+      <!--<p>When a single property type takes multiple values, authors can create additional property elements and use only the <xmlelement>propvalue</xmlelement> and <xmlelement>propdesc</xmlelement> elements for each successive value.</p>-->
     </section>
-    <section id="rendering-expectations">
-      <title>Rendering expectations</title>
-      <p>The <xmlelement>properties</xmlelement> element typically is
-        rendered in a tabular format.</p>
-    </section>
+    <!--<section id="rendering-expectations"><title>Rendering expectations</title><p>The <xmlelement>properties</xmlelement> element typically is rendered in a tabular format.</p></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>properties</xmlelement> element is specialized from
@@ -87,10 +73,9 @@
           scale="80"/>
       </fig>
       <fig>
-        <title>Properties list where a property takes multiple
-          values</title>
-        <p>The following code sample shows a properties list that contains
-          multiple values for a property:</p>
+        <title>Properties table with spanned cells </title>
+        <p>The following code sample shows a properties table with spanned
+          cells:</p>
         <codeblock><b>&lt;properties></b>
   &lt;prophead>
     &lt;proptypehd>Visual element&lt;/proptypehd>
