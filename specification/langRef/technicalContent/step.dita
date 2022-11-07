@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="step" xml:lang="en-us">
 <title><xmlelement>step</xmlelement></title>
-<shortdesc>A step is an action that <ph rev="review-a">users</ph> take to
+<shortdesc>A step is an action that <ph rev="review-a">people</ph> take to
     complete a task. It can also contain additional information about the
     step, such as an example, result, or troubleshooting
     guidance.</shortdesc>
