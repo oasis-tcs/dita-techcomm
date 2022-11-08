@@ -22,32 +22,14 @@
       <div conkeyref="reuse-attributes/topic-attributes"/>
     </section>
     <example id="example" otherprops="examples">
-      <title>Examples</title>
-      <fig id="fig_vx5_bj2_dcb">
-        <title>Reference topic for software material</title>
-        <codeblock>&lt;reference id="refexample"&gt;
-  &lt;title&gt;A reference topic&lt;/title&gt;
-  &lt;refbody&gt;
-    &lt;refsyn&gt;Describe command or api syntax here, possibly
-using syntax phrases or syntax diagrams for explicit 
-definition of syntax or prototype construction.&lt;/refsyn&gt;
-    &lt;section&gt;&lt;title&gt;Some section title&lt;/title&gt;&lt;/section&gt;
-    &lt;properties&gt;
-      &lt;property&gt;
-        &lt;proptype&gt;type&lt;/proptype&gt;
-        &lt;propvalue&gt;value&lt;/propvalue&gt;
-        &lt;propdesc&gt;description&lt;/propdesc&gt;
-      &lt;/property&gt;
-    &lt;/properties&gt;
-  &lt;/refbody&gt;
-&lt;/reference&gt;</codeblock>
-      </fig>
-      <fig id="fig_wx5_bj2_dcb">
-        <title>Reference topic for hardware maintenance</title>
-        <p>The following information could apply to an entire set of maintenance procedures, each of
-          which would link to this topic.</p>
-        <codeblock>&lt;reference id="requiredTools">
-  &lt;title>Tools required to maintain a big machine&lt;/title>
+      <title>Example</title>
+      <draft-comment author="Kristen J Eberlein" time="08 November 2022">
+        <p>This is a pretty lousy example ...</p>
+      </draft-comment>
+      <p>The following code sample shows how a reference topic can be
+        used:</p>
+      <codeblock>&lt;reference id="requiredTools">
+  &lt;title>Tools required to maintain Acme machinery&lt;/title>
   &lt;refbody>
     &lt;section>
       &lt;title>Small tools&lt;/title>
@@ -61,11 +43,10 @@ definition of syntax or prototype construction.&lt;/refsyn&gt;
     &lt;/section>
     &lt;section>
       &lt;title>Expensive tools&lt;/title>
-      ...
+      &lt;!-- .... -->
     &lt;/section>
   &lt;/refbody>
 &lt;/reference></codeblock>
-      </fig>
     </example>
 </refbody>
 </reference>
