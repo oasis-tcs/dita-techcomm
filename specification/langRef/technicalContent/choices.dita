@@ -17,15 +17,23 @@
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
       </section>
-    <example id="example" otherprops="examples">
+    <example id="example" otherprops="examples" rev="review-a">
       <title>Example</title>
-      <p>The following code sample shows how a user can be presented with different ways to select a
-        server:</p>
-      <codeblock>&lt;step&gt;&lt;cmd&gt;Choose a server:&lt;/cmd&gt;
-  &lt;choices&gt;
-    &lt;choice&gt;If you have a remote server you want to test on, type the IP address 
-            or hostname of the server.&lt;/choice&gt;
-    &lt;choice&gt;If you want to do local testing, type localhost.&lt;/choice&gt;
-  &lt;/choices&gt;
-&lt;/step&gt;</codeblock>
+      <p>The following code sample shows how the
+          <xmlelement>choices</xmlelement> element can be used when
+        different operating systems have different keyboard shortcuts. In
+        this scenario, flagging is used to render labels for the different
+        operating systems.</p>
+      <codeblock>&lt;step>
+  &lt;cmd>To edit the attributes, select the element and press the
+       applicable keyboard shortcut for your operating system:&lt;/cmd>
+  <b>&lt;choices></b>
+    &lt;choice platform="mac-os">&lt;uicontrol>option + return&lt;/uicontrol>&lt;/choice>
+    &lt;choice platform="windows">&lt;uicontrol>Alt + Enter&lt;/uicontrol>&lt;/choice>
+  <b>&lt;/choices></b>
+  &lt;stepresult>The &lt;wintitle>Attributes&lt;/wintitle> view is displayed.&lt;/stepresult>
+&lt;/step></codeblock>
+      <p>The rendered output might look like the following:</p>
+      <image placement="break" href="../../images/choices-w-flagging.jpg"
+        scale="70"/>
     </example></refbody></reference>
