@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="concept2" xml:lang="en-us">
 <title>Concept elements</title>
-<shortdesc>Concept topics answer "What is..." questions. They are useful
-    for introducing the background or overview information for tasks or
-    reference topics.</shortdesc>
+<shortdesc>Concept elements provide the fundamental structure for concept
+    topics. Concept topics are useful for introducing the background or
+    overview information for task or reference topics.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm>concept elements</indexterm></keywords>
 </metadata></prolog>
