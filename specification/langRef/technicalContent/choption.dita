@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="choption" xml:lang="en-us"><title><xmlelement>choption</xmlelement></title><shortdesc>The <xmlelement>choption</xmlelement> element contains the content of the first cell in a
     choice table row. This content names the option that the user can take to complete the
-      step.<draft-comment author="Eliot Kimber" disposition="Referred">See my comment on
+      step.<draft-comment author="Eliot Kimber" disposition="Completed">See my comment on
         <xmlelement>choicetable</xmlelement>: I don't think "names the option" is correct--should be
       "labels or describes the option" or close to. That is, you would never use the name "Option
       1", you would use the label "Local server": both are distinct values (within the choice
@@ -24,6 +24,11 @@
         <p>Nonetheless, I'm setting the comment disposition to "Referred," so that we can discuss it
           at a TC meeting. Maybe someone else can come up with an acceptable way to describe what
           the &lt;choption> element does.</p>
+      </div><div>
+        <p>Kris Eberlein, 07 November 2022</p>
+        <p>Changed the shortdesc to read "The &lt;choption> element contains the content of the
+          first cell in a choice table row. This content labels the option that people can take to
+          complete the step."</p>
       </div></draft-comment><!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of an option cell in a table row) can we describe it as an option for completing a step, or similar?</draft-comment>--></shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>options</indexterm></indexterm><indexterm><xmlelement>choption</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choption</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
 <section id="specialization-hierarchy">

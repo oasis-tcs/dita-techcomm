@@ -27,7 +27,7 @@
       <title>Rendering expectations</title>
       <p>Processors might render prerequisite links from the related-links section together with the
         content of the <xmlelement>prereq</xmlelement> element.<draft-comment author="Eliot Kimber"
-          disposition="Referred">I'm not sure I would ever recommend this as there's no way,
+          disposition="Completed">I'm not sure I would ever recommend this as there's no way,
           a-priori, to know if a given related link is for a prereq or postreq step or just a
           related task for whatever reason.<div>
             <p>Kris Eberlein, 29 October 2022</p>
@@ -36,6 +36,9 @@
               and @otherrole to indicate that a link is a prerequisite link.</p>
             <p>DITA-OT implements some support for this, if my memory is correct. Let's ask the TC
               whether we should keep or remove this statement.</p>
+          </div><div>
+            <p>Kris Eberlein, 07 November 2022</p>
+            <p>Per TC dscussion, removed the statement.</p>
           </div></draft-comment></p>
     </section>
   <section id="specialization-hierarchy">

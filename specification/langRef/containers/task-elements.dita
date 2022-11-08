@@ -27,7 +27,7 @@
         <p>Changed to read "Task elements provide the fundamental structure for task topics. The
           task topic includes sections for describing the context, prerequisites, actual steps,
           expected results, troubleshooting, example, and expected next steps for a task."</p>
-      </div></draft-comment><draft-comment author="Eliot Kimber" disposition="Referred">General
+      </div></draft-comment><draft-comment author="Eliot Kimber" disposition="Completed">General
       comment about short descriptions and using "user"<p>The rewritten short descriptions are often
         of the form "allows users to …".</p><p>I think these could all be rewritten to passive voice
         and avoid the use of "user" entirely, i.e. from "A step is an action that a user can take to
@@ -37,6 +37,9 @@
         <p>Kris Eberlein, 30 October 2022</p>
         <p>Marking this as "Referred. Noting that Eliot made similar comments (which I've marked as
           "Closed") in &lt;steptroubleshooting>, &lt;task>, and &lt;tasktroubleshooting>.</p>
+      </div><div>
+        <p>Kris Eberlein, 07 November 2022</p>
+        <p>All instances of "users" in short descriptions have been changed to "people".</p>
       </div></draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm>task elements</indexterm></keywords>
