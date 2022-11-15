@@ -22,10 +22,7 @@
           <xmlelement>concept</xmlelement> element is specialized from
           <xmlelement>topic</xmlelement>; it is defined in the concept module.</p>
     </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <div conkeyref="reuse-attributes/topic-attributes"/>
-    </section>
+    <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;glossgroup id="things" xml:lang="en">
