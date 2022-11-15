@@ -39,6 +39,7 @@
     <mapref href="common/key-definitions-tc-library-topics.ditamap"/>
     <mapref href="common/key-definitions-tc-images.ditamap"/>
     <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref href="baseSpec/specification/common/key-definitions-reuse-w-lwdita.ditamap"/>
     <mapref href="langRef/key-definitions-tc-elements.ditamap"/>
     <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
     <keydef
