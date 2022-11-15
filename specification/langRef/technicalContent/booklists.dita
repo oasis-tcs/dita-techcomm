@@ -25,8 +25,8 @@
         </section>
         <section id="attributes"><title>Attributes</title>
             <p>The following attributes are available on this element: <ph
-                    conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-                    conkeyref="reuse-attributes/ref-commonmapatts"/>, <xref
+                conkeyref="reuse-attributes/ref-commonmapatts"/>, <ph
+                    conkeyref="reuse-attributes/ref-universalatts"/>, <xref
                     keyref="attributes-common/attr-format"><xmlatt>format</xmlatt></xref>, <xref
                     keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, <xref
                     keyref="attributes-common/attr-scope"><xmlatt>scope</xmlatt></xref>, and <xref
