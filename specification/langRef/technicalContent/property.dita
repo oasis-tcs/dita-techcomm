@@ -4,7 +4,7 @@
 <reference id="property" xml:lang="en-us">
 <title><xmlelement>property</xmlelement></title>
 <shortdesc>The <xmlelement>property</xmlelement> element represents a
-    single property in a properties list. </shortdesc>
+    single property in a properties <ph rev="review-b">table</ph>. </shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>property</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>property</xmlelement></indexterm></indexterm>
 </keywords>
