@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="proptype" xml:lang="en-us">
 <title><xmlelement>proptype</xmlelement></title>
-<shortdesc>The <xmlelement>proptype</xmlelement> element contains the
-    content of the first cell in a properties table row. The content
-    describes the type of the property.</shortdesc>
+<shortdesc>The <xmlelement>proptype</xmlelement> element <ph rev="review-b"
+      >contains content that describes the type of the
+    property.</ph></shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>property tables<indexterm>types</indexterm></indexterm><indexterm><xmlelement>proptype</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>proptype</xmlelement></indexterm></indexterm>

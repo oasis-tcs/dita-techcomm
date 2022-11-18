@@ -19,14 +19,15 @@
       <title>Usage information</title>
       <p>There are no additional semantics attached to the
           <xmlelement>conbodydiv</xmlelement> element. It is purely a
-        grouping element that provided to help organize content for
-        reuse.</p>
-      <p>The parent <xmlelement>conbody</xmlelement> element has a restriction that
-          <xmlelement>section</xmlelement> or <xmlelement>example</xmlelement> elements can only be
-        followed by other sections or examples. The <xmlelement>conbodydiv</xmlelement> element,
-        which allows groupings of sections and examples, keeps the same restriction in place; once
-        used, only sections, examples, or other <xmlelement>conbodydiv</xmlelement> groups are
-        allowed.</p>
+        grouping element that <ph rev="review-b">is</ph> provided to help
+        organize content for reuse.</p>
+      <p>The parent <xmlelement>conbody</xmlelement> element has a
+        restriction that <xmlelement>section</xmlelement> or
+          <xmlelement>example</xmlelement> elements can only be followed by
+        other sections or examples. The <xmlelement>conbodydiv</xmlelement>
+        element, which allows groupings of sections and examples, keeps the
+        same restriction in place. Once used, only sections, examples, or
+        other <xmlelement>conbodydiv</xmlelement> groups are allowed.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
