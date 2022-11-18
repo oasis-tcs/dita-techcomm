@@ -3,13 +3,10 @@
  "reference.dtd">
 <reference id="properties" xml:lang="en-us">
 <title><xmlelement>properties</xmlelement></title>
-  <abstract>
-    <shortdesc>A properties table describes the properties of <ph
-        rev="review-b">a thing, such as an object, part, or category</ph>.
-      Each property can include the type, value, and a
-      description.</shortdesc>
-    <!--<shortdesc>The <xmlelement>properties</xmlelement> element gives a list of properties for the subject of the current topic, for example whether a class is public or protected. Each property can include the type, value, and a description.</shortdesc>-->
-  </abstract>
+  <shortdesc>A properties table describes the properties of <ph
+      rev="review-b">a thing, such as an object, part, or category</ph>.
+    Each property can include the type, value, and a
+    description.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>properties</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>properties</xmlelement></indexterm></indexterm>
         <indexterm>rendering
@@ -23,13 +20,12 @@
       <p>A properties table typically is represented as a simple table with
           <ph rev="review-b">a maximum of</ph>three columns. The first <ph
           rev="review-b">column is for</ph> the property type, the second
-          <ph rev="review-b">column can contain</ph> a value for the
-        property, and the third <ph rev="review-b">column can contain</ph>
-        a description.</p>
+          <ph rev="review-b">column can contain</ph> a value <ph
+          rev="review-b">or values</ph> for the property, and the third <ph
+          rev="review-b">column can contain</ph> a description.</p>
       <p>An optional header row can provide labels for the columns, if an
         author does not want to use the default labels that might be
         provided by stylesheets.</p>
-      <!--<p>When a single property type takes multiple values, authors can create additional property elements and use only the <xmlelement>propvalue</xmlelement> and <xmlelement>propdesc</xmlelement> elements for each successive value.</p>-->
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
@@ -89,7 +85,7 @@
     &lt;propdeschd>What it does&lt;/propdeschd>
   &lt;/prophead>
   &lt;property>
-    &lt;proptype>Color&lt;/proptype>
+    &lt;proptype <b><ph rev="review-b">rowspan="3"</ph></b>>Color&lt;/proptype>
     &lt;propvalue>Red&lt;/propvalue>
     &lt;propdesc>Indicates an error&lt;/propdesc>
   &lt;/property>
