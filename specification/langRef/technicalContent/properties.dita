@@ -4,13 +4,10 @@
 <reference id="properties" xml:lang="en-us">
 <title><xmlelement>properties</xmlelement></title>
   <abstract>
-    <shortdesc>A properties table describes the properties of something.
+    <shortdesc>A properties table describes the properties of <ph
+        rev="review-b">a thing, such as an object, part, or category</ph>.
       Each property can include the type, value, and a
       description.</shortdesc>
-    <draft-comment author="Kristen J Eberlein" time="26 October 2022">
-      <p>Can we be more specific than "something"? Perhaps "an object,
-        category, or X". Thoughts?</p>
-    </draft-comment>
     <!--<shortdesc>The <xmlelement>properties</xmlelement> element gives a list of properties for the subject of the current topic, for example whether a class is public or protected. Each property can include the type, value, and a description.</shortdesc>-->
   </abstract>
 <prolog><metadata>
@@ -24,15 +21,23 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>A properties table typically is represented as a simple table with
-        three columns. The first cell in a row lists the property type, the
-        second cell in the row lists a value for the property, and the
-        third cell in the row lists a description,</p>
+          <ph rev="review-b">a maximum of</ph>three columns. The first <ph
+          rev="review-b">column is for</ph> the property type, the second
+          <ph rev="review-b">column can contain</ph> a value for the
+        property, and the third <ph rev="review-b">column can contain</ph>
+        a description.</p>
       <p>An optional header row can provide labels for the columns, if an
         author does not want to use the default labels that might be
         provided by stylesheets.</p>
       <!--<p>When a single property type takes multiple values, authors can create additional property elements and use only the <xmlelement>propvalue</xmlelement> and <xmlelement>propdesc</xmlelement> elements for each successive value.</p>-->
     </section>
-    <!--<section id="rendering-expectations"><title>Rendering expectations</title><p>The <xmlelement>properties</xmlelement> element typically is rendered in a tabular format.</p></section>-->
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p rev="review-b">If a properties table does not contain a header
+        row, processors typically auto-generate labels for the columns in
+        the properties table. The text for the labels is specified in
+        stylesheets.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>properties</xmlelement> element is specialized from
@@ -47,7 +52,7 @@
       <p>This section contains examples of how the
           <xmlelement>properties</xmlelement> element can be used.</p>
       <fig>
-        <title>Simple properties list</title>
+        <title>Simple properties <ph rev="review-b">table</ph></title>
         <p>The following code sample shows a
             <xmlelement>properties</xmlelement> element that describes
           information about motor oil types:</p>
@@ -68,7 +73,8 @@
     &lt;propdesc&gt;Two-cylinder engines&lt;/propdesc&gt;
   &lt;/property&gt;
 <b>&lt;/properties&gt;</b></codeblock>
-        <p>The properties list might be rendered as follows:</p>
+        <p>The properties <ph rev="review-b">table</ph> might be rendered
+          as follows:</p>
         <image placement="break" href="../../images/properties.jpg"
           scale="80"/>
       </fig>
@@ -101,7 +107,8 @@
     &lt;propdesc>Use to add contrast and depth&lt;/propdesc>
   &lt;/property>
 <b>&lt;/properties></b></codeblock>
-        <p>The properties list might be rendered as follows:</p>
+        <p>The properties <ph rev="review-b">table</ph> might be rendered
+          as follows:</p>
         <image placement="break" href="../../images/properties-2.jpg"
           scale="80"/>
       </fig>

@@ -17,11 +17,12 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
+      <!--<p>For information about the purpose and content model of a concept topic, see <xref href="../../archSpec/technicalContent/dita-concept-topic.dita"/></p>-->
       <p>Concepts provide background information that users must know
         before they can successfully work with a product or interface.
         Often, a concept is an extended definition of a major abstraction
-        such as a process or function. It might also have an example or a
-        graphic.</p>
+        such as a process or function. It might also <ph rev="review-b"
+          >contain an example, image, or diagram</ph>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

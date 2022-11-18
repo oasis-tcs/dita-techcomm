@@ -43,31 +43,32 @@
     <!--<section><title>The structure of the concept topic</title><p>The concept topic is specialized from the base topic information type. The top-level element for a DITA concept topic is the <xmlelement>concept</xmlelement> element. Every concept topic contains the standard topic elements, including title, short descriptions or abstract, prolog, a body, and related links.</p><p>The <xmlelement>conbody</xmlelement> element holds the main body-level elements of the concept topic. Like the <xmlelement>body</xmlelement> element of a base topic, the <xmlelement>conbody</xmlelement> allows paragraphs, lists, tables, figures and other general elements. It also provides two key elements that allow authors to subdivide the topic into parts, with or without titles. These subdivisions are called sections and examples. The <xmlelement>conbody</xmlelement> also allows <xmlelement>div</xmlelement> and <xmlelement>conbodydiv</xmlelement> to facilitate grouping elements in the <xmlelement>conbody</xmlelement>.</p></section>-->
     <!--<section><title>Limitations within <xmlelement>conbody</xmlelement></title><p>The <xmlelement>conbody</xmlelement> provides for an unlimited number of subdivisions in the form of sections and examples. However, once an author decides to incorporate a section or example in the <xmlelement>conbody</xmlelement>, only additional sections or examples are allowed. Sections and examples can not nest, meaning that only one level of subdivision is permitted in the concept topic.</p></section>-->
     <!--<section><title>Concept body primary subdivisions</title><draft-comment author="robander" audience="spec-editors" time="25 may 2021">Wondering if we really want to redefine sections and examples here? these are specific to concepts but that means they are definitions of the element that are not in sync with the definition in the base spec. I think the "same content model as section" is right now, but was not in 1.3 when section allowed sectiondiv.</draft-comment><dl><dlentry><dt><xmlelement>section</xmlelement> </dt><dd>Represents an organizational division in a concept topic. Sections organize subsets of information within a larger topic. You can only include a simple list of peer sections in a topic; sections cannot be nested. A section can have an optional title. </dd></dlentry><dlentry><dt><xmlelement>example</xmlelement> </dt><dd>Provides examples that illustrate or support the current topic. The <xmlelement>example</xmlelement> element has the same content model as <xmlelement>section</xmlelement>. </dd></dlentry></dl></section>-->
-    <example otherprops="examples" id="example">
+    <example otherprops="examples" id="example" rev="review-b">
       <title>Example</title>
-      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>I think the content of the <xmlelement>example</xmlelement>
-          section sucks. For the examples in this "Overview" section, I
-          think it's important that they be solid topics.</p>
-      </draft-comment>
       <p>The following code sample contains a simple concept topic:</p>
-      <codeblock>&lt;concept id="concept"&gt;
-  &lt;title&gt;Bird Songs&lt;/title&gt;
-  &lt;shortdesc&gt;Bird songs are complex vocalizations used to attract mates or defend 
-             territories.&lt;/shortdesc>
-  &lt;conbody&gt;
-    &lt;p&gt;Bird songs vary widely among species, from simple songs that are genetically 
-       imprinted to complex songs that are learned over a lifetime.&lt;/p&gt;
-  &lt;example&gt;
-    &lt;p&gt;Flycatchers know their songs from birth:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Flycatcher songs are simple sequences of notes.&lt;/li&gt;
-      &lt;li&gt;Flycatcher songs never vary but are unique to each member of the Flycatcher 
-         family.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;/example&gt;
-  &lt;/conbody&gt;
-&lt;/concept&gt;</codeblock>
+      <codeblock>&lt;concept id="color_triads">
+  &lt;title>Color triads&lt;/title>
+  &lt;shortdesc>A basic concept in color theory is the use of triads, colors that are three 
+             steps apart on the color wheel.&lt;/shortdesc>
+  &lt;conbody>
+    &lt;p>If you have difficulty picking colors when designing, you can use a color triad. Use 
+       one color as the main color and then the other two as accent colors.&lt;/p>
+    &lt;example>
+      &lt;p>The most simple color wheel contains 12 colors: red, red-orange, orange, 
+         yellow-orange, yellow, yellow-green, green, blue-green, blue, blue-violet, 
+         violet (purple), and red-violet.&lt;/p>
+      &lt;fig>
+        &lt;title>Basic color wheel&lt;/title>
+        &lt;image href="colorwheel.jpg" placement="break">
+          &lt;alt>Circle divided into twelve parts, each part a different color.&lt;/alt>
+        &lt;/image> 
+      &lt;/fig>
+      &lt;p>Start with the first color green. Skip the next three colors, and the second color 
+         of the triad is violet. Skip the next three colors, and the third color of the triad 
+         is orange. This gives you the triad of green, violet, and orange.&lt;/p>
+    &lt;/example>
+  &lt;/conbody>
+&lt;/concept></codeblock>
     </example>
   </conbody>
 </concept> 

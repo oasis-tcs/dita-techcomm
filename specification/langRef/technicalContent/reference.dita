@@ -12,6 +12,13 @@
 </keywords>
 </metadata></prolog>
 <refbody>
+    <section id="usage-information" rev="review-b">
+      <title>Usage information</title>
+      <p>For information about the purpose and content model of a reference
+        topic, see <xref
+          href="../../archSpec/technicalContent/dita-reference-topic.dita"
+        />.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>reference</xmlelement> element is specialized from

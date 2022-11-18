@@ -1,136 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="formatting-expectations">
-    <title>Formatting expectations</title>
-    <shortdesc>DITA is a standard that supports the creation of
-    human-readable content. Accordingly, DITA defines fundamental document
-    components. Since there is a reasonable expectation that such document
-    components be formatted consistently, we suggest the following
-    conventions.</shortdesc>
+    <title>Formatting <ph rev="review-b">conventions</ph></title>
+  <shortdesc rev="review-b">Although how DITA elements are formatted is
+    ultimately implementation-specific, certain conventions are
+    common.</shortdesc>
+  <!--<shortdesc>DITA is a standard that supports the creation of human-readable content. Accordingly, DITA defines fundamental document components. Since there is a reasonable expectation that such document components be formatted consistently, we suggest the following conventions.</shortdesc>-->
     <refbody>
         <section>
-            <p>
-                <draft-comment author="robander" time="25 May 2021">I can't
-          remember … is this expected to include the content of every
-          "Rendering expectations" section in this spec, or did we have a
-          distinction between rendering and formatting? Right now it seems
-          pretty inconsistent, for example we say chdeschd is bold here but
-          that topic doesn't have a "rendering" section, while codeblock
-          here says to use monospace but doesn't say anything about the
-          required white-space and newlines.<p>If there is a distinction,
-            I've already forgotten it, so we should probably explain here
-            what the difference is.</p><div>
-            <p>Kris Eberlein, 06 October 2022</p>
-            <p>Yes, we make a clear distinction between "rendering" and
-              "formatting". Formatting is NEVER normative. It's always
-              implementation specific. Your implementation might decide to
-              format bold elements using purple text.</p>
-            <p>"Rendering" is normative. For example, we state that
-                <xmlelement>stepsection</xmlelement> elements (if
-              rendered), must not be numbered.</p>
-          </div></draft-comment>
-            </p>
-        </section>
-        <table frame="all" rowsep="1" colsep="1">
-            <title>Formatting expectations for DITA elements</title>
-            <tgroup cols="2">
-                <colspec colname="c1" colnum="1" colwidth="1*"/>
-                <colspec colname="c2" colnum="2" colwidth="4*"/>
-                <thead>
-                    <row>
-                        <entry>Element</entry>
-                        <entry>Suggested formatting</entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry><xmlelement>chdeschd</xmlelement></entry>
-                        <entry>Apply bold highlighting to the contents of the
-                                <xmlelement>chdeschd</xmlelement> element.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>choicetable</xmlelement></entry>
-                        <entry>
+            <p><!--<draft-comment author="robander" time="25 May 2021">I can't remember … is this expected to include the content of every "Rendering expectations" section in this spec, or did we have a distinction between rendering and formatting? Right now it seems pretty inconsistent, for example we say chdeschd is bold here but that topic doesn't have a "rendering" section, while codeblock here says to use monospace but doesn't say anything about the required white-space and newlines.<p>If there is a distinction, I've already forgotten it, so we should probably explain here what the difference is.</p><div><p>Kris Eberlein, 06 October 2022</p><p>Yes, we make a clear distinction between "rendering" and "formatting". Formatting is NEVER normative. It's always implementation specific. Your implementation might decide to format bold elements using purple text.</p><p>"Rendering" is normative. For example, we state that <xmlelement>stepsection</xmlelement> elements (if rendered), must not be numbered.</p></div></draft-comment>--></p>
+        </section><simpletable frame="all" relcolwidth="1* 4*">
+            
+            
+                
+                
+                
+                    <sthead>
+                        <stentry>Element</stentry>
+                        <stentry>Suggested formatting</stentry>
+                    </sthead>
+                
+                
+                    <strow>
+                        <stentry><xmlelement>chdeschd</xmlelement></stentry>
+                        <stentry>Apply bold highlighting to the contents of the
+                                <xmlelement>chdeschd</xmlelement> element.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>choicetable</xmlelement></stentry>
+                        <stentry>
                             <p>Unless the <xmlatt>keycol</xmlatt> attribute is set to
                                     <keyword>0</keyword>, processors typically apply bold
                                 highlighting to the contents of the "Option" column.</p>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>choptionhd</xmlelement></entry>
-                        <entry>Apply bold highlighting to the contents of the
-                                <xmlelement>choptionhd</xmlelement> element.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>codeblock</xmlelement></entry>
-                        <entry>Use a monospaced font for the contents of the
-                                <xmlelement>codeblock</xmlelement> element.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>codeph</xmlelement></entry>
-                        <entry>Use a monospaced font for the contents of the
-                                <xmlelement>codeph</xmlelement> element.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>menucascade</xmlelement></entry>
-                        <entry>Separate <xmlelement>uicontrol</xmlelement> elements with a character
-                            to represent the menu cascade.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>numcharref</xmlelement></entry>
-                        <entry>Surround the contents of the <xmlelement>numcharref</xmlelement>
+                        </stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>choptionhd</xmlelement></stentry>
+                        <stentry>Apply bold highlighting to the contents of the
+                                <xmlelement>choptionhd</xmlelement> element.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>codeblock</xmlelement></stentry>
+                        <stentry>Use a monospaced font for the contents of the
+                                <xmlelement>codeblock</xmlelement> element.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>codeph</xmlelement></stentry>
+                        <stentry>Use a monospaced font for the contents of the
+                                <xmlelement>codeph</xmlelement> element.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>menucascade</xmlelement></stentry>
+                        <stentry>Separate <xmlelement>uicontrol</xmlelement> elements with a character
+                            to represent the menu cascade.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>numcharref</xmlelement></stentry>
+                        <stentry>Surround the contents of the <xmlelement>numcharref</xmlelement>
                             element with a leading ampersand (&amp;) and a trailing semi-colon
-                            (;).</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>parameterentity</xmlelement></entry>
-                        <entry>Surround the contents of the <xmlelement>numcharref</xmlelement>
+                            (;).</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>parameterentity</xmlelement></stentry>
+                        <stentry>Surround the contents of the <xmlelement>numcharref</xmlelement>
                             element with a leading percentage sign (%) and a trailing semi-colon
-                            (;).</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>screen</xmlelement></entry>
-                        <entry>Enclose the contents of the <xmlelement>screen</xmlelement> element
-                            with a box to suggest a computer display screen.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>shortcut</xmlelement></entry>
-                        <entry>Highlight the keyboard shortcut with underlining.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>syntaxdiagram</xmlelement></entry>
-                        <entry>Traditionally, the syntax diagram is formatted with "railroad tracks"
+                            (;).</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>screen</xmlelement></stentry>
+                        <stentry>Enclose the contents of the <xmlelement>screen</xmlelement> element
+                            with a box to suggest a computer display screen.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>shortcut</xmlelement></stentry>
+                        <stentry>Highlight the keyboard shortcut with underlining.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>syntaxdiagram</xmlelement></stentry>
+                        <stentry>Traditionally, the syntax diagram is formatted with "railroad tracks"
                             that connect the units of the syntax together, but the presentation
-                            might differ depending on the output media.</entry>
-                    </row>
+                            might differ depending on the output media.</stentry>
+                    </strow>
 
-                    <row>
-                        <entry><xmlelement>textentity</xmlelement></entry>
-                        <entry>Surround the contents of the <xmlelement>textentity</xmlelement>
+                    <strow>
+                        <stentry><xmlelement>textentity</xmlelement></stentry>
+                        <stentry>Surround the contents of the <xmlelement>textentity</xmlelement>
                             element with a leading ampersand (&amp;) and a trailing semi-colon
-                            (;).</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>var</xmlelement></entry>
-                        <entry>Apply italic highlighting to the contents of the
-                                <xmlelement>var</xmlelement> element.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>xmlatt</xmlelement></entry>
-                        <entry>Precede the contents of the <xmlelement>xmlatt</xmlelement> element
-                            with a commercial at symbol (@) or equals character (=) .</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement>xmlelement</xmlelement></entry>
-                        <entry>Surround the contents of the <xmlelement>xmlelement</xmlelement>
-                            element with leading (&lt;) and trailing (>) angle brackets.</entry>
-                    </row>
-                    <row>
-                        <entry><xmlelement/></entry>
-                        <entry/>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
+                            (;).</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>var</xmlelement></stentry>
+                        <stentry>Apply italic highlighting to the contents of the
+                                <xmlelement>var</xmlelement> element.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>xmlatt</xmlelement></stentry>
+                        <stentry>Precede the contents of the
+            <xmlelement>xmlatt</xmlelement> element with a commercial at
+          symbol (@).</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement>xmlelement</xmlelement></stentry>
+                        <stentry>Surround the contents of the <xmlelement>xmlelement</xmlelement>
+                            element with leading (&lt;) and trailing (>) angle brackets.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><xmlelement/></stentry>
+                        <stentry/>
+                    </strow>
+                
+            
+        </simpletable>
     </refbody>
 </reference>

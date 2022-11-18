@@ -3,12 +3,9 @@
  "reference.dtd">
 <reference id="refsyn" xml:lang="en-us">
 <title><xmlelement>refsyn</xmlelement></title>
-<shortdesc>The <xmlelement>refsyn</xmlelement> element describes the syntax
-    of something, for example, a command-line utility or an API signature.
-      <!--The <xmlelement>refsyn</xmlelement> contains a brief, possibly diagrammatic description of the subject's interface or high-level structure.--><draft-comment
-      author="Kris Eberlein" time="26 October 2022">
-      <p>Can we be more specific than "something"?</p>
-    </draft-comment></shortdesc>
+<shortdesc>The <xmlelement>refsyn</xmlelement> element <ph rev="review-b"
+      >contains content that describes the syntax of a
+    command.</ph></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>refsyn</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>refsyn</xmlelement></indexterm></indexterm>
 </keywords>
