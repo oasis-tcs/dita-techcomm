@@ -11,11 +11,10 @@
       <title>Purpose and usage</title>
       <p>Reference topics serve the following purposes:</p>
       <ul>
-        <li>Provide data that supports novice users as they perform a
-          task</li>
+        <li>Provide data that supports users as they perform a task</li>
         <li>Provide quick access to fact-based information</li>
-        <li>Contain information that advanced users look up
-          infrequently</li>
+        <li>Contain <ph rev="review-b">detailed</ph> information that users
+          look up infrequently</li>
       </ul>
       <p>Reference topics are used for the following types of information
         and more:</p>

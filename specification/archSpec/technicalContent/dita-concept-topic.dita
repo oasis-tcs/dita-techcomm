@@ -25,16 +25,27 @@
       <p>The body of a concept topic can contain the following document
         structures:</p>
       <ul>
-        <li>Basic document structures: divisions, paragraphs, lists,
-          tables, figures, etc.</li>
+        <li>Basic <ph rev="review-b">block elements</ph>: divisions,
+          paragraphs, lists, tables, figures, etc.</li>
         <li>Concept body divisions: <xref keyref="elements-conbodydiv"
               ><xmlelement>conbodydiv</xmlelement></xref></li>
         <li>Examples</li>
         <li>Sections</li>
       </ul>
-      <p>However, after a section or example is introduced into the topic
-        structure, it can be followed only by a section, example, or
-        concept body division.</p>
+      <p>However, after a <ph rev="review-b">section, example, or concept
+          body division</ph> is introduced into the topic structure, it can
+        be followed only by a section, example, or concept body
+        division.</p>
+      <div rev="review-b">
+        <p>This design supports the following best practices and use
+          cases:</p>
+        <ul>
+          <li>Ensures that there are clear boundaries between sections</li>
+          <li>Enables creation of short concept topics that only include a
+            few basic block elements, for example, a paragraph, list, and
+            image</li>
+        </ul>
+      </div>
       <draft-comment author="Kristen J Eberlein" time="07 October 2022">
         <p>What is rationale for this design choice? It would be good to
           explain it</p>

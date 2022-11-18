@@ -12,23 +12,6 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-      <section id="usage-information">
-         <title>Usage information</title>
-         <p>Values can be placed in separate <xmlelement>property</xmlelement> elements if they need
-            separate descriptions. The <xmlelement>proptype</xmlelement> element need not be
-            repeated.</p>
-         <draft-comment author="robander" time="20 May 2021">This feels
-        like something that should be called out for processors.<div>
-          <p>Kris Eberlein, 26 October 2022</p>
-          <p>We currently also call out the following nuance in the
-              <xmlelement>properties</xmlelement> topic:</p>
-          <p>"When a single property type takes multiple values, authors
-            can create additional property elements and use only the
-              <xmlelement>propvalue</xmlelement> and
-              <xmlelement>propdesc</xmlelement> elements for each
-            successive value."</p>
-        </div></draft-comment>
-      </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>propvalue</xmlelement> element is specialized from
