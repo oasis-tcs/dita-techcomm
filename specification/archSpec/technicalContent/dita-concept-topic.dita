@@ -46,10 +46,6 @@
             image</li>
         </ul>
       </div>
-      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>What is rationale for this design choice? It would be good to
-          explain it</p>
-      </draft-comment>
     </section>
     <!--<section><title>The structure of the concept topic</title><p>The concept topic is specialized from the base topic information type. The top-level element for a DITA concept topic is the <xmlelement>concept</xmlelement> element. Every concept topic contains the standard topic elements, including title, short descriptions or abstract, prolog, a body, and related links.</p><p>The <xmlelement>conbody</xmlelement> element holds the main body-level elements of the concept topic. Like the <xmlelement>body</xmlelement> element of a base topic, the <xmlelement>conbody</xmlelement> allows paragraphs, lists, tables, figures and other general elements. It also provides two key elements that allow authors to subdivide the topic into parts, with or without titles. These subdivisions are called sections and examples. The <xmlelement>conbody</xmlelement> also allows <xmlelement>div</xmlelement> and <xmlelement>conbodydiv</xmlelement> to facilitate grouping elements in the <xmlelement>conbody</xmlelement>.</p></section>-->
     <!--<section><title>Limitations within <xmlelement>conbody</xmlelement></title><p>The <xmlelement>conbody</xmlelement> provides for an unlimited number of subdivisions in the form of sections and examples. However, once an author decides to incorporate a section or example in the <xmlelement>conbody</xmlelement>, only additional sections or examples are allowed. Sections and examples can not nest, meaning that only one level of subdivision is permitted in the concept topic.</p></section>-->

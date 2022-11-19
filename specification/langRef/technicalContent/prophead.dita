@@ -12,14 +12,11 @@
 </keywords>
 </metadata></prolog>
 <refbody>
-    <section id="rendering-expectations">
+    <section id="rendering-expectations" rev="review-b">
       <title>Rendering expectations</title>
-      <draft-comment author="Kristen J Eberlein" time="26 October 2022">
-        <p>What are our expectations if a properties list does not contain
-          a header row? Do we expect stylesheets might generate
-          headings/labels? Do we expect that author-supplied headings
-          always override those provided by stylesheets?</p>
-      </draft-comment>
+      <p>If a properties table does not contain a header row, processors
+        typically auto-generate labels for the columns in the properties
+        table. The text for the labels is specified in stylesheets.</p>
     </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
