@@ -24,7 +24,7 @@
       <p rev="review-b">The content model of the
           <xmlelement>conbodydiv</xmlelement> element only permits
           <xmlelement>section</xmlelement> and
-          <xmlelement>example.</xmlelement></p>
+          <xmlelement>example</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

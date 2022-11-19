@@ -5,8 +5,10 @@
 <title><xmlelement>reference</xmlelement></title>
 <shortdesc>The <xmlelement>reference</xmlelement> element is the top-level
     element for a reference topic. <ph rev="review-b">A</ph> reference
-    topic includes special sections for programming syntax and property
-    lists, as well as sections, tables, and examples.</shortdesc>
+    topic can include <ph rev="review-b">specialized</ph> sections for
+    programming syntax and property <ph rev="review-b">tables</ph>, as well
+    as <ph rev="review-b">standard</ph> sections, tables, and
+    examples.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>reference</xmlelement></indexterm><indexterm>reference elements<indexterm><xmlelement>reference</xmlelement></indexterm></indexterm>
 </keywords>

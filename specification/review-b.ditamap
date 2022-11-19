@@ -8,20 +8,35 @@
     <mainbooktitle>Review B: Concept and reference</mainbooktitle>
   </booktitle>
   <frontmatter>
-    <mapref href="baseSpec/specification/dita-2.0-specification-subjectScheme.ditamap"/>
+    <mapref
+      href="baseSpec/specification/dita-2.0-specification-subjectScheme.ditamap"/>
     <mapref href="dita-2.0-key-definitions-cover-pages.ditamap"
       processing-role="resource-only"/>
     <mapref
       href="baseSpec/specification/common/key-definitions-oasis-boilerplate.ditamap"/>
     <mapref href="common/key-definitions-tc-library-topics.ditamap"/>
-    <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref href="common/key-definitions-tc-images.ditamap"/>
+    <mapref
+      href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref
+      href="baseSpec/specification/common/key-definitions-reuse-w-lwdita.ditamap"/>
     <mapref href="langRef/key-definitions-tc-elements.ditamap"/>
-    <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
+    <mapref
+      href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
     <keydef
       href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"
       keys="reuse-note"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <mapref href="technicalContent-relationship-tables.ditamap"/>
+    <notices platform="dita-tc-publishing">
+      <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
+      <topicref href="resources/oasis-notices.dita" linking="none" toc="no"
+      />
+    </notices>
+    <notices platform="external-publishing-engine">
+      <topicref href="resources/oasis-cover.dita"/>
+      <topicref href="resources/oasis-notices.dita"/>
+    </notices>
     <booklists>
       <toc/>
     </booklists>
