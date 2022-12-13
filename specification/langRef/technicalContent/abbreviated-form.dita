@@ -93,6 +93,9 @@
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
+      <draft-comment author="rodaande" time="13 December 2022">Similar to above -- this element has
+        a lot of associated processing, enough for an architectural topic; this section likely
+        should include a link to that topic and leave it at that?</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

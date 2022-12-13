@@ -17,48 +17,7 @@
       <p>The <xmlelement>glossSymbol</xmlelement> element is specialized from
           <xmlelement>image</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph
-          conkeyref="reuse-attributes/ref-universalatts"/>, <xref
-          keyref="attributes-common/attr-format"><xmlatt>format</xmlatt></xref>, <xref
-          keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and the attributes
-        defined below.</p>
-      <dl>
-        <dlentry conkeyref="reuse-attributes/image-href">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-scope">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-height">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-width">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-align">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-scale">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-scalefit">
-          <dt/>
-          <dd/>
-        </dlentry>
-        <dlentry conkeyref="reuse-attributes/image-placement">
-          <dt/>
-          <dd/>
-        </dlentry>
-      </dl>
-    </section>
+    <section conkeyref="reuse-image/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <codeblock>&lt;glossentry id="atlanticpuffin">
