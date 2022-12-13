@@ -804,6 +804,9 @@
                %base-attribute-extensions;
                outputclass
                           CDATA
+                                    #IMPLIED
+               rev
+                          CDATA
                                     #IMPLIED"
 >
 <!ELEMENT  booktitle %booktitle.content;>

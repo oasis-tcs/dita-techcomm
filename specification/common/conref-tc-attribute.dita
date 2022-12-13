@@ -7,14 +7,6 @@
                 DITA Technical Communications specification.</shortdesc>
                 <conbody>
                         <section>
-                                <title>Reused attribute set for glossentry</title>
-                                <p id="glossentry-specialized-title">The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-idandconrefatts"/>, 
-                                        <ph conkeyref="reuse-attributes/ref-localizationatts"/>, <xref
-                                                keyref="attributes-universal/attr-base"><xmlatt>base</xmlatt></xref>, <xref
-                                                        keyref="attributes-universal/attr-class"><xmlatt>class</xmlatt></xref>, and <xref
-                                                                keyref="attributes-universal/attr-outputclass"><xmlatt>outputclass</xmlatt></xref>.</p>
-                        </section>
-                        <section>
                                 <title>Bookmap related attribute sections</title>
                                 <div id="bookmap-booklist-attributes" platform="dita">
                                         <p>The following attributes are available on this element:

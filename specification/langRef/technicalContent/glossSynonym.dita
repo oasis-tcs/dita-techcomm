@@ -23,10 +23,7 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
          <p>The <xmlelement>glossSynonym</xmlelement> element is specialized from
                <xmlelement>title</xmlelement>. It is defined in the glossary entry module.</p>
       </section>
-      <section id="attributes">
-         <title>Attributes</title>
-         <p conkeyref="reuse-tc-attributes/glossentry-specialized-title"/>
-      </section>
+      <section conkeyref="reuse-title/attributes" id="attributes"/>
       <example id="example" otherprops="examples">
          <title>Example</title>
          <p>See the example in <xref href="glossentry.dita#glossentry/example"

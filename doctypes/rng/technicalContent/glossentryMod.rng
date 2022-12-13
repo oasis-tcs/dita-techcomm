@@ -175,6 +175,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         <optional>
           <attribute name="outputclass"/>
         </optional>
+        <optional>
+          <attribute name="rev"/>
+        </optional>
       </define>
       <define name="glossterm.element">
         <element name="glossterm" dita:longName="Glossary Term">
@@ -282,6 +285,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         <optional>
           <attribute name="outputclass"/>
         </optional>
+        <optional>
+          <attribute name="rev"/>
+        </optional>
       </define>
       <define name="glossAbbreviation.element">
         <element name="glossAbbreviation" dita:longName="Glossary Abbreviation">
@@ -318,6 +324,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         <ref name="base-attribute-extensions"/>
         <optional>
           <attribute name="outputclass"/>
+        </optional>
+        <optional>
+          <attribute name="rev"/>
         </optional>
       </define>
       <define name="glossAcronym.element">
@@ -356,6 +365,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         <optional>
           <attribute name="outputclass"/>
         </optional>
+        <optional>
+          <attribute name="rev"/>
+        </optional>
       </define>
       <define name="glossShortForm.element">
         <element name="glossShortForm" dita:longName="Glossary Short Form">
@@ -392,6 +404,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         <ref name="base-attribute-extensions"/>
         <optional>
           <attribute name="outputclass"/>
+        </optional>
+        <optional>
+          <attribute name="rev"/>
         </optional>
       </define>
       <define name="glossSynonym.element">
