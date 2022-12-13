@@ -110,6 +110,9 @@
                %base-attribute-extensions;
                outputclass
                           CDATA
+                                    #IMPLIED
+               rev
+                          CDATA
                                     #IMPLIED"
 >
 <!ELEMENT  glossterm %glossterm.content;>
@@ -164,6 +167,9 @@
                %base-attribute-extensions;
                outputclass
                           CDATA
+                                    #IMPLIED
+               rev
+                          CDATA
                                     #IMPLIED"
 >
 <!ELEMENT  glossAbbreviation %glossAbbreviation.content;>
@@ -187,6 +193,9 @@
                                     #IMPLIED
                %base-attribute-extensions;
                outputclass
+                          CDATA
+                                    #IMPLIED
+               rev
                           CDATA
                                     #IMPLIED"
 >
@@ -212,6 +221,9 @@
                %base-attribute-extensions;
                outputclass
                           CDATA
+                                    #IMPLIED
+               rev
+                          CDATA
                                     #IMPLIED"
 >
 <!ELEMENT  glossShortForm %glossShortForm.content;>
@@ -235,6 +247,9 @@
                                     #IMPLIED
                %base-attribute-extensions;
                outputclass
+                          CDATA
+                                    #IMPLIED
+               rev
                           CDATA
                                     #IMPLIED"
 >
