@@ -19,13 +19,7 @@
       </section>
     <section id="attributes">
       <title>Attributes</title>
-      <div conkeyref="reuse-attributes/stentry-attr"/>
-      <dl>
-        <dlentry conkeyref="reuse-attributes/stentry-rowspan">
-          <dt/>
-          <dd/>
-        </dlentry>
-      </dl>
+      <div conkeyref="reuse-tc-attributes/stentry-with-rowspan"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

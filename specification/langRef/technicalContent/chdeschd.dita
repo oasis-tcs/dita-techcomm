@@ -18,7 +18,7 @@
 </section>
     <section id="attributes">
       <title>Attributes</title>
-      <div conkeyref="reuse-attributes/choicetable-attr"/>
+      <div conkeyref="reuse-tc-attributes/stentry-no-spans"/>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

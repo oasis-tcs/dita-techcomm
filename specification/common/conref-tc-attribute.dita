@@ -90,5 +90,28 @@
                                                 <keyword>default</keyword>, or
                                                 <keyword>-dita-use-conref-target</keyword>.</p>
                                                 </div></section>
+                <section id="section_imv_fj3_vvb">
+                        <title>Task and reference table reuse</title>
+                        <p>This group drops <xmlatt>colspan</xmlatt> from the core stentry set, so
+                                cannot reuse that. Also changes "attributes below" to singular
+                                "attribute below".</p>
+                        <div platform="dita" id="stentry-with-rowspan">
+                                <p>The following attributes are available on this element: <ph
+                                                conkeyref="reuse-attributes/ref-table-access-attr"
+                                        />, <ph conkeyref="reuse-attributes/ref-universalatts"/>,
+                                        and the attribute defined below.</p>
+                                <dl>
+                                        <dlentry conkeyref="reuse-attributes/stentry-rowspan">
+                                                <dt/>
+                                                <dd/>
+                                        </dlentry>
+                                </dl>
+                        </div>
+                        <div platform="dita" id="stentry-no-spans">
+                                <p>The following attributes are available on this element: <ph
+                                                conkeyref="reuse-attributes/ref-table-access-attr"
+                                        /> and <ph conkeyref="reuse-attributes/ref-universalatts"/></p>
+                        </div>
+                </section>
                 </conbody>
         </concept>
