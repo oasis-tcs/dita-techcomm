@@ -30,15 +30,15 @@ and expanded versions of that acronym.</shortdesc>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
-          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
-          conkeyref="reuse-attributes/ref-linkatts"/>, <xref keyref="attributes-common/attr-chunk"
-            ><xmlatt>chunk</xmlatt></xref>, <xref keyref="attributes-common/attr-collection-type"
-            ><xmlatt>collection-type</xmlatt></xref>, <xref keyref="attributes-common/attr-keyref"
-            ><xmlatt>keyref</xmlatt></xref>, <xref keyref="attributes-common/attr-linking"
-            ><xmlatt>linking</xmlatt></xref>, <xref keyref="attributes-common/attr-processing-role"
-            ><xmlatt>processing-role</xmlatt></xref>, <xref keyref="attributes-common/attr-search"
-            ><xmlatt>search</xmlatt></xref>, and <xref keyref="attributes-common/attr-toc"
-            ><xmlatt>toc</xmlatt></xref>.</p>
+          conkeyref="reuse-attributes/ref-linkatts"/>, <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>, <xref
+          keyref="attributes-common/attr-chunk"><xmlatt>chunk</xmlatt></xref>, <xref
+          keyref="attributes-common/attr-collection-type"><xmlatt>collection-type</xmlatt></xref>,
+          <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, <xref
+          keyref="attributes-common/attr-linking"><xmlatt>linking</xmlatt></xref>, <xref
+          keyref="attributes-common/attr-processing-role"><xmlatt>processing-role</xmlatt></xref>,
+          <xref keyref="attributes-common/attr-search"><xmlatt>search</xmlatt></xref>, and <xref
+          keyref="attributes-common/attr-toc"><xmlatt>toc</xmlatt></xref>.</p>
       <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_mwn_xdh_rpb">
           <li>The <xmlatt>href</xmlatt> attribute is a reference to a glossary definigion, typically
             a <xmlelement>glossentry</xmlelement> topic.</li>
