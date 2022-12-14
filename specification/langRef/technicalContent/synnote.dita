@@ -33,9 +33,7 @@ itself.</p>
         is defined in the syntax diagram domain module, which is a specialization of the programming
         domain module.</p>
 </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <div conkeyref="reuse-attributes/fn-attributes"/></section>
+    <section conkeyref="reuse-fn/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, a syntax note reminds the reader where to find information

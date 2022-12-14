@@ -53,9 +53,9 @@
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
-          conkeyref="reuse-attributes/ref-universalatts"/>, <ph
           conkeyref="reuse-attributes/ref-inclusionatts"/>, <ph
-          conkeyref="reuse-attributes/ref-linkatts"/>, and <xref
+          conkeyref="reuse-attributes/ref-linkatts"/>, <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>, and <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
       <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_awv_nmp_rpb">
           <li>The <xmlatt>format</xmlatt> attribute has a default value of
