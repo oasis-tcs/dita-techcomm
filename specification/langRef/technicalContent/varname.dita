@@ -31,8 +31,8 @@
         variables that represent the "installation directory," "project
         directory," and "file name":</p>
       <codeblock>&lt;filepath&gt;
-  &lt;varname&gt;install-dir&lt;/varname&gt;\projects\working\&lt;varname&gt;project-dir&lt;/varname&gt;
-       \source\&lt;varname&gt;filename&lt;/varname&gt;.java
+  <b>&lt;varname&gt;install-dir&lt;/varname&gt;</b>\projects\working\<b>&lt;varname&gt;project-dir&lt;/varname&gt;</b>
+       \source\<b>&lt;varname&gt;filename&lt;/varname&gt;</b>.java
 &lt;/filepath&gt;</codeblock></example>
   </refbody>
 </reference>

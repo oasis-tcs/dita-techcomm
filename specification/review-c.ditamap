@@ -5,7 +5,8 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Review C: Troubleshooting</mainbooktitle>
+    <mainbooktitle>Review C: Programming, software, and UI
+      domains</mainbooktitle>
   </booktitle>
   <frontmatter>
     <mapref href="baseSpec/specification/dita-2.0-specification-subjectScheme.ditamap"/>
@@ -26,12 +27,10 @@
       <toc/>
     </booklists>
   </frontmatter>
-  <chapter
-    href="archSpec/technicalContent/dita-technicalContent-InformationTypes.dita">
-    <topicref
-      href="archSpec/technicalContent/dita-troubleshooting-topic.dita"/>
-  </chapter>
-  <chapter href="langRef/troubleshooting-elements.ditamap" format="ditamap"/>
+  <chapter href="langRef/programming-domain-elements.ditamap"
+    format="ditamap"/>
+  <chapter href="langRef/software-domain-elements.ditamap" format="ditamap"/>
+  <chapter href="langRef/ui-domain-elements.ditamap" format="ditamap"/>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
