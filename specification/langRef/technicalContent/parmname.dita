@@ -4,12 +4,7 @@
 <reference id="parmname" xml:lang="en-us">
   <title><xmlelement>parmname</xmlelement></title>
   <shortdesc>The <xmlelement>parmname</xmlelement> element identifies the
-    name of an API parameter.<draft-comment author="Kristen J Eberlein"
-      time="18 October 2022">
-      <p>Do we want to broaden the definition? I think this element is used
-        more broadly than just API parameters. In fact, the example in this
-        topic shows it used as a parameter to a command.</p>
-    </draft-comment></shortdesc>
+    name of a parameter.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

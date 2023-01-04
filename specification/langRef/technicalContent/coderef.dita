@@ -49,7 +49,7 @@
   &lt;title>Processing DITA&lt;/title>
   &lt;p>This code is an example of how to process DITA.&lt;/p>
   &lt;codeblock>
-    &lt;coderef href="process-dita.xsl"/>
+    <b>&lt;coderef href="process-dita.xsl"/></b>
   &lt;/codeblock>
 &lt;/example></codeblock></example>
   </refbody>

@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="parml" xml:lang="en-us">
   <title><xmlelement>parml</xmlelement></title>
-  <shortdesc>The <xmlelement>parml</xmlelement> element identifies a specialized definition list
-    that is designed for documenting API
-    parameters.<!--contains a list of terms and definitions that describes the parameters in an application programming interface.--></shortdesc>
+  <shortdesc>The <xmlelement>parml</xmlelement> element identifies a
+    specialized definition list that is designed for documenting
+    parameters.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -30,38 +30,20 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample shows how a set of sample code is
-        followed by a parameter list that defines those parameters.</p>
-      <codeblock xml:space="preserve" id="codeblock_rcl_rl4_rpb">&lt;p>This code example is a basic method signature:&lt;/p>
+        followed by a parameter list that defines those parameters:</p>
+      <codeblock>&lt;p>This code example is a basic method signature:&lt;/p>
 &lt;codeblock&gt;returnType methodName(pList1, pList2)&lt;/codeblock&gt;
 &lt;p>The method requires the following parameters:&lt;/p>
-&lt;parml&gt;
+<b>&lt;parml&gt;</b>
   &lt;plentry&gt;
     &lt;pt&gt;pList1&lt;/pt&gt;
-    &lt;pd&gt;is the first variable declaration passed to methodName&lt;/pd&gt;
+    &lt;pd&gt;The first variable declaration that is passed to methodName&lt;/pd&gt;
   &lt;/plentry&gt;
   &lt;plentry&gt;
     &lt;pt&gt;pList2&lt;/pt&gt;
-    &lt;pd&gt;is the second variable declaration passed to methodName&lt;/pd&gt;
+    &lt;pd&gt;The second variable declaration that is passed to methodName&lt;/pd&gt;
   &lt;/plentry&gt;
-&lt;/parml&gt;</codeblock>
-      <p>The rendered version of that sample might look like:</p>
-      <p>This code example is a basic method
-        signature:<codeblock xml:space="preserve" id="codeblock_vks_xl4_rpb">returnType methodName(pList1, pList2) {</codeblock></p>
-      <p>The method requires two parameters:<parml>
-          <plentry>
-            <pt>pList1</pt>
-            <pd>is the first variable declaration passed to methodName</pd>
-          </plentry>
-          <plentry>
-            <pt>pList2</pt>
-            <pd>is the second variable declaration passed to methodName</pd>
-          </plentry>
-        </parml></p>
-      <draft-comment author="robander" time="21 May 2021">I am nervous about example output that
-        simply uses the element; anyone republishing the spec with a broken tool can see broken
-        output, and assume it is valid because the spec source says "it might look like this". I'm
-        not sure the sample output is needed at all here, or it could be described in
-        prose.</draft-comment>
+<b>&lt;/parml&gt;</b></codeblock>
     </example>
   </refbody>
 </reference>

@@ -29,7 +29,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the command line options for a
+      <p>The following code sample shows how the command-line options for a
         tool are defined in a list:</p>
       <codeblock>&lt;p>The most common command line options include:&lt;/p>
 &lt;ul>
