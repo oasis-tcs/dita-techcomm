@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossAcronym" xml:lang="en-us">
   <title><xmlelement>glossAcronym</xmlelement></title>
-  <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an acronym for the term that
-    is defined in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+  <shortdesc>The glossary acronym element defines an acronym for the term that is defined in the glossary term element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

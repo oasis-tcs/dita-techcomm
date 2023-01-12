@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossProperty" xml:lang="en-us">
 <title><xmlelement>glossProperty</xmlelement></title>
-<shortdesc>The <xmlelement>glossProperty</xmlelement> element specifies additional details about the
-    preferred term or its subject, such as the gender of a noun.</shortdesc>
+<shortdesc>The glossary property element specifies additional details about the preferred term or its subject, such as the gender of a noun.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>extension points</indexterm></indexterm>
