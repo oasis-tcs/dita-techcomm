@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossUsage" xml:lang="en-us">
   <title><xmlelement>glossUsage</xmlelement></title>
-  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about the correct
-    use of a term, such as where or how it can be used.</shortdesc>
+  <shortdesc>The glossary usage element provides information about the correct use of a term, such as where or how it can be used.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
