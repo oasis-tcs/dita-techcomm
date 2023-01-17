@@ -2,8 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="xmlatt">
   <title><xmlelement>xmlatt</xmlelement></title>
-  <shortdesc>The <xmlelement>xmlatt</xmlelement> element identifies mentions of XML
-    attributes.</shortdesc>
+  <abstract>
+    <!--<shortdesc>The <xmlelement>xmlatt</xmlelement> element identifies mentions of XML attributes.</shortdesc>-->
+    <shortdesc>An XML attribute is a name and value pair that is associated
+      with an XML element. It defines properties of the XML
+      element.</shortdesc>
+  </abstract>
   <prolog>
     <metadata>
       <keywords>

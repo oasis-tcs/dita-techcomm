@@ -2,8 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="xmlelement">
   <title><xmlelement>xmlelement</xmlelement></title>
-  <shortdesc>The <xmlelement>xmlelement</xmlelement> element identifies mentions of XML element
-    types.</shortdesc>
+  <abstract>
+    <!--<shortdesc>The <xmlelement>xmlelement</xmlelement> element identifies mentions of XML element types.</shortdesc>-->
+    <shortdesc>An XML element is the basic building block of an XML
+      document. It can contain text, other elements, processing
+      instructions, and more.</shortdesc>
+  </abstract>
   <prolog>
     <metadata>
       <keywords>

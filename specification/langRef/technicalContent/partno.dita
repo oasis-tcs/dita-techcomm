@@ -2,7 +2,11 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="partno">
     <title><xmlelement>partno</xmlelement></title>
-    <shortdesc>The <xmlelement>partno</xmlelement> element represents a part number.</shortdesc>
+  <abstract>
+    <!--<shortdesc>The <xmlelement>partno</xmlelement> element represents a part number.</shortdesc>-->
+    <shortdesc>A part number is an identifier of a particular part design
+      or material.</shortdesc>
+  </abstract>
     <prolog>
         <metadata>
             <keywords>
@@ -29,7 +33,7 @@
         number:</p>
             <codeblock>&lt;p>The basic model, <b>&lt;partno>DB-123-456&lt;/partno></b>, is an entry model. Most users
 can take advantage of all features with little to no set up. The <b>&lt;partno>DB-123-456&lt;/partno></b> 
-is available with all systems.</codeblock>
+is available with all systems.&lt;/p></codeblock>
       <!--<codeblock>&lt;step>
     &lt;cmd>Place the replacement &lt;hwcontrol>Component <b>&lt;partno>DB-123-789&lt;/partno></b>&lt;/hwcontrol> 
 in the slot and secure with the 4 screws.&lt;/cmd>
