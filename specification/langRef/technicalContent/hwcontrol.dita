@@ -2,8 +2,11 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="hwcontrol" xml:lang="en-us">
     <title><xmlelement>hwcontrol</xmlelement></title>
-    <shortdesc>The <xmlelement>hwcontrol</xmlelement> element represents the name of a key, button,
-        switch, or other physical control on a device.</shortdesc>
+  <abstract>
+    <!--<shortdesc>The <xmlelement>hwcontrol</xmlelement> element represents the name of a key, button, switch, or other physical control on a device.</shortdesc>-->
+    <shortdesc>A hardware control is a key, button, switch, or other device
+      that controls a piece of hardware.</shortdesc>
+  </abstract>
     <prolog>
         <metadata>
             <keywords>
@@ -17,9 +20,9 @@
     <refbody>
         <section id="usage-information">
             <title>Usage information</title>
-            <p>Implementations that require different output for different
+            <p>Implementations that require different output for various
         types of hardware controls can use the <xmlatt>outputclass</xmlatt>
-        attribute to distinguish between different types of usage. </p>
+        attribute to distinguish between the hardware controls.</p>
         </section>
         <section id="specialization-hierarchy">
             <title>Specialization hierarchy</title>
@@ -32,15 +35,17 @@
         </section>
         <example id="example" otherprops="examples">
             <title>Example</title>
-            <p>The following code sample shows how
-          <xmlelement>hwcontrol</xmlelement> can be used within task steps
-        to identify hardware controls:</p>
-            <codeblock>&lt;step>&lt;cmd>If the command is already running, 
+            <p>The following code sample shows how the
+          <xmlelement>hwcontrol</xmlelement> element can be used to
+        identify a hardware controls:</p>
+      <!--<codeblock>&lt;step>&lt;cmd>If the command is already running, 
 select the command window and press <b>&lt;hwcontrol>CTRL+C&lt;/hwcontrol></b>
-to end processing.&lt;/cmd>&lt;/step></codeblock>
-      <!--<codeblock>&lt;step>&lt;cmd>After entering the amount you received, press <b>&lt;hwcontrol>Amt Tend&lt;/hwcontrol></b>.&lt;/cmd>
-  &lt;stepresult>This opens the cash drawer. The display shows the amount 
-  of change to give the customer.&lt;/stepresult>&lt;/step></codeblock>-->
+to end processing.&lt;/cmd>&lt;/step></codeblock>-->
+      <codeblock>&lt;step>
+  &lt;cmd>After entering the amount you received, press <b>&lt;hwcontrol>Amt Tend&lt;/hwcontrol></b>.&lt;/cmd>
+  &lt;stepresult>This opens the cash drawer. The display shows the amount of change to give the 
+      customer.&lt;/stepresult>
+&lt;/step></codeblock>
       <!--<codeblock>&lt;step>&lt;cmd>To set your machine for this type of hem, set the
 <b>&lt;hwcontrol outputclass="knob">Stitch Length&lt;/hwcontrol></b> to &lt;userinput>3&lt;/userinput>
 and the <b>&lt;hwcontrol outputclass="lever">Stitch Selector&lt;/hwcontrol></b> to

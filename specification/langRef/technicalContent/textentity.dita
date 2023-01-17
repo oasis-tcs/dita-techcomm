@@ -2,8 +2,11 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="textentity">
   <title><xmlelement>textentity</xmlelement></title>
-  <shortdesc>The <xmlelement>textentity</xmlelement> element identifies mentions of XML text
-    entities.</shortdesc>
+  <abstract>
+    <shortdesc>The <xmlelement>textentity</xmlelement> element identifies
+      mentions of XML text entities.</shortdesc>
+    <!--<shortdesc>A text entity is</shortdesc>-->
+  </abstract>
   <prolog>
     <metadata>
       <keywords>
