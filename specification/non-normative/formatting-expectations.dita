@@ -9,54 +9,6 @@
     <refbody>
         <section>
             <p><!--<draft-comment author="robander" time="25 May 2021">I can't remember … is this expected to include the content of every "Rendering expectations" section in this spec, or did we have a distinction between rendering and formatting? Right now it seems pretty inconsistent, for example we say chdeschd is bold here but that topic doesn't have a "rendering" section, while codeblock here says to use monospace but doesn't say anything about the required white-space and newlines.<p>If there is a distinction, I've already forgotten it, so we should probably explain here what the difference is.</p><div><p>Kris Eberlein, 06 October 2022</p><p>Yes, we make a clear distinction between "rendering" and "formatting". Formatting is NEVER normative. It's always implementation specific. Your implementation might decide to format bold elements using purple text.</p><p>"Rendering" is normative. For example, we state that <xmlelement>stepsection</xmlelement> elements (if rendered), must not be numbered.</p></div></draft-comment>--></p>
-        </section><simpletable frame="all" relcolwidth="1* 4*">
-            
-            
-                
-                
-                
-                    <sthead>
-                        <stentry>Element</stentry>
-                        <stentry>Suggested formatting</stentry>
-                    </sthead>
-                    <strow>
-                        <stentry><xmlelement>numcharref</xmlelement></stentry>
-                        <stentry>Surround the contents of the <xmlelement>numcharref</xmlelement>
-                            element with a leading ampersand (&amp;) and a trailing semi-colon
-                            (;).</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>parameterentity</xmlelement></stentry>
-                        <stentry>Surround the contents of the <xmlelement>numcharref</xmlelement>
-                            element with a leading percentage sign (%) and a trailing semi-colon
-                            (;).</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>syntaxdiagram</xmlelement></stentry>
-                        <stentry>Traditionally, the syntax diagram is formatted with "railroad tracks"
-                            that connect the units of the syntax together, but the presentation
-                            might differ depending on the output media.</stentry>
-                    </strow>
-
-                    <strow>
-                        <stentry><xmlelement>textentity</xmlelement></stentry>
-                        <stentry>Surround the contents of the <xmlelement>textentity</xmlelement>
-                            element with a leading ampersand (&amp;) and a trailing semi-colon
-                            (;).</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>xmlatt</xmlelement></stentry>
-                        <stentry>Precede the contents of the
-            <xmlelement>xmlatt</xmlelement> element with a commercial at
-          symbol (@).</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>xmlelement</xmlelement></stentry>
-                        <stentry>Surround the contents of the <xmlelement>xmlelement</xmlelement>
-                            element with leading (&lt;) and trailing (>) angle brackets.</stentry>
-                    </strow>
-                
-            
-        </simpletable>
+        </section>
     </refbody>
 </reference>
