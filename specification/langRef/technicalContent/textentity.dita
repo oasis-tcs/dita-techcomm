@@ -24,6 +24,12 @@
         without the ampersand and semi-colon delimiters, for example,
         <keyword>hi-d-att</keyword>.</p>
     </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>numcharref</xmlelement> element is
+        typically rendered with a leading ampersand (&amp;) and a trailing
+        semi-colon (;).</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>textentity</xmlelement> element is specialized

@@ -23,6 +23,12 @@
       <p>The content of the <xmlelement>xmlelement</xmlelement> element should be the element type
         name without leading or trailing angle brackets.</p>
     </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>xmlelement</xmlelement> element is
+        typically rendered with leading (&lt;) and trailing (>) angle
+        brackets.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>xmlelement</xmlelement> element is specialized

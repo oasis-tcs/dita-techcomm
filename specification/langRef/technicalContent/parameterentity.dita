@@ -25,6 +25,12 @@
         name without a leading percentage sign or trailing semi-colon, for example,
           <keyword>keyword.content</keyword>.</p>
     </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>parameterentity</xmlelement>
+        element is typically rendered with a leading percentage sign (%)
+        and a trailing semi-colon (;).</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>parameterentity</xmlelement> element is

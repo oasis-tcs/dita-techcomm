@@ -11,6 +11,11 @@
 </keywords>
 </metadata></prolog>
 <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>chdeschd</xmlelement> element is
+        typically rendered in a bold font.</p>
+    </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>chdeschd</xmlelement> element is specialized from

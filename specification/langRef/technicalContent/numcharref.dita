@@ -21,6 +21,12 @@
         without any leading or trailing characters, for example, <keyword>10</keyword> or
           <keyword>x0a</keyword>.</p>
     </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>numcharref</xmlelement> element is
+        typically rendered with a leading ampersand (&amp;) and a trailing
+        semi-colon (;).</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>numcharref</xmlelement> element is specialized
