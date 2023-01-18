@@ -6,6 +6,14 @@
       >people</ph> can take to complete the
     step.<!--<draft-comment author="robander" time="21 may 2021">Rather than describing this based on presentation (content of an option cell in a table row) can we describe it as an option for completing a step, or similar?</draft-comment>--></shortdesc><prolog><metadata><keywords>
         <indexterm>choice tables<indexterm>options</indexterm></indexterm><indexterm><xmlelement>choption</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>choption</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Unless the <xmlatt>keycol</xmlatt> attribute on the
+          <xmlelement>choicetable</xmlelement> element is set to
+          <keyword>0</keyword>, the contents of the
+          <xmlelement>choiceoption</xmlelement> element is typically
+        rendered in a bold font.</p>
+    </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>choption</xmlelement> element is specialized from

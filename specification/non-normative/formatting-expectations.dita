@@ -19,31 +19,6 @@
                         <stentry>Element</stentry>
                         <stentry>Suggested formatting</stentry>
                     </sthead>
-                
-                
-                    <strow>
-                        <stentry><xmlelement>chdeschd</xmlelement></stentry>
-                        <stentry>Apply bold highlighting to the contents of the
-                                <xmlelement>chdeschd</xmlelement> element.</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>choicetable</xmlelement></stentry>
-                        <stentry>
-                            <p>Unless the <xmlatt>keycol</xmlatt> attribute is set to
-                                    <keyword>0</keyword>, processors typically apply bold
-                                highlighting to the contents of the "Option" column.</p>
-                        </stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>choptionhd</xmlelement></stentry>
-                        <stentry>Apply bold highlighting to the contents of the
-                                <xmlelement>choptionhd</xmlelement> element.</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>menucascade</xmlelement></stentry>
-                        <stentry>Separate <xmlelement>uicontrol</xmlelement> elements with a character
-                            to represent the menu cascade.</stentry>
-                    </strow>
                     <strow>
                         <stentry><xmlelement>numcharref</xmlelement></stentry>
                         <stentry>Surround the contents of the <xmlelement>numcharref</xmlelement>
@@ -68,11 +43,6 @@
                         <stentry>Surround the contents of the <xmlelement>textentity</xmlelement>
                             element with a leading ampersand (&amp;) and a trailing semi-colon
                             (;).</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>var</xmlelement></stentry>
-                        <stentry>Apply italic highlighting to the contents of the
-                                <xmlelement>var</xmlelement> element.</stentry>
                     </strow>
                     <strow>
                         <stentry><xmlelement>xmlatt</xmlelement></stentry>
