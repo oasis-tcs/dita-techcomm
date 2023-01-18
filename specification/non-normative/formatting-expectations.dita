@@ -40,16 +40,6 @@
                                 <xmlelement>choptionhd</xmlelement> element.</stentry>
                     </strow>
                     <strow>
-                        <stentry><xmlelement>codeblock</xmlelement></stentry>
-                        <stentry>Use a monospaced font for the contents of the
-                                <xmlelement>codeblock</xmlelement> element.</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>codeph</xmlelement></stentry>
-                        <stentry>Use a monospaced font for the contents of the
-                                <xmlelement>codeph</xmlelement> element.</stentry>
-                    </strow>
-                    <strow>
                         <stentry><xmlelement>menucascade</xmlelement></stentry>
                         <stentry>Separate <xmlelement>uicontrol</xmlelement> elements with a character
                             to represent the menu cascade.</stentry>
@@ -65,15 +55,6 @@
                         <stentry>Surround the contents of the <xmlelement>numcharref</xmlelement>
                             element with a leading percentage sign (%) and a trailing semi-colon
                             (;).</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>screen</xmlelement></stentry>
-                        <stentry>Enclose the contents of the <xmlelement>screen</xmlelement> element
-                            with a box to suggest a computer display screen.</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement>shortcut</xmlelement></stentry>
-                        <stentry>Highlight the keyboard shortcut with underlining.</stentry>
                     </strow>
                     <strow>
                         <stentry><xmlelement>syntaxdiagram</xmlelement></stentry>
@@ -103,10 +84,6 @@
                         <stentry><xmlelement>xmlelement</xmlelement></stentry>
                         <stentry>Surround the contents of the <xmlelement>xmlelement</xmlelement>
                             element with leading (&lt;) and trailing (>) angle brackets.</stentry>
-                    </strow>
-                    <strow>
-                        <stentry><xmlelement/></stentry>
-                        <stentry/>
                     </strow>
                 
             

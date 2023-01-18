@@ -18,6 +18,12 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Processors <term outputclass="RFC-2119">SHOULD</term> separate the
+        contents of the <xmlelement>uicontrol</xmlelement> elements with a
+        character to represent the menu cascade.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>menucascade</xmlelement> element is specialized from

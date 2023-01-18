@@ -15,6 +15,11 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>shortcut</xmlelement> element is
+        typically underlined.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>shortcut</xmlelement> element is specialized from
