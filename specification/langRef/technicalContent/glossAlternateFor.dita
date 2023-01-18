@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="glossAlternateFor" xml:lang="en-us">
 <title><xmlelement>glossAlternateFor</xmlelement></title>
-<shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates when a variant term has a relationship to another variant term in addition to the preferred term.<draft-comment
+<shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates when a variant term has a relationship to another variant term as well as the preferred term.<draft-comment
       author="robander" time="20 may 2021"
       >Does it "indicate when a variant term has a relationship" or does it specify that there is a relationship with a specific other term?</draft-comment></shortdesc>
 <prolog><metadata>

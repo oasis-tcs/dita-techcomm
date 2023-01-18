@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="glossdef" xml:lang="en-us">
 <title><xmlelement>glossdef</xmlelement></title>
-<shortdesc>The gloss definition element specifies the definition of one sense of a term.</shortdesc>
+<shortdesc>The gloss definition describes one sense of a term.</shortdesc>
 <prolog><metadata>
       <keywords>
         <indexterm>glossaries<indexterm>definitions</indexterm></indexterm>
