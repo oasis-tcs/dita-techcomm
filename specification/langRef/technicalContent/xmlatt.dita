@@ -20,9 +20,14 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The content of the <xmlelement>xmlatt</xmlelement> element should be the attribute name
-        without commercial at symbol (@) or equals character (=) , for example,
-          <keyword>audience</keyword>.</p>
+      <p>The content of the <xmlelement>xmlatt</xmlelement> element should
+        be the attribute name without commercial at symbol (@) or equals
+        character (=), for example, <keyword>audience</keyword>.</p>
+    </section>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The contents of the <xmlelement>xmlatt</xmlelement> element is
+        typically rendered with a preceding commercial at symbol (@).</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
