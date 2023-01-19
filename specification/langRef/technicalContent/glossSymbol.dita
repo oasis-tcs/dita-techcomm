@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="glossSymbol" xml:lang="en-us">
 <title><xmlelement>glossSymbol</xmlelement></title>
-<shortdesc>The glossary symbol element identifies a standard image that is associated with the subject of the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+<shortdesc>The glossary symbol identifies a standard image that is associated with the subject of the <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>images</indexterm></indexterm>

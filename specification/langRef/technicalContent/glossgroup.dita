@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossgroup" xml:lang="en-us">
   <title><xmlelement>glossgroup</xmlelement></title>
-  <shortdesc>The <xmlelement>glossgroup</xmlelement> is a specialized topic that can contain
-    multiple <xmlelement>glossentry</xmlelement> topics within a single document.</shortdesc>
+  <shortdesc>Glossary group is a specialized topic that can contain multiple <xmlelement>glossentry</xmlelement> topics within a single document.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

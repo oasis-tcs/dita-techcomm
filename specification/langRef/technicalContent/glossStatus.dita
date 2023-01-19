@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="glossStatus" xml:lang="en-us">
   <title><xmlelement>glossStatus</xmlelement></title>
-  <shortdesc>The glossary status element identifies the usage status of a preferred or alternate term. If the status is not specified, the <xmlelement>glossterm</xmlelement> provides a preferred term, and an alternate term provides an allowed term.</shortdesc>
+  <shortdesc>The glossary status identifies the usage status of a preferred or alternate term. If the status is not specified, the <xmlelement>glossterm</xmlelement> provides a preferred term, and <xmlelement>glossAlt</xmlelement>provides an allowed term.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
