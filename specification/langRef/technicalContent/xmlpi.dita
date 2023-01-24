@@ -18,10 +18,12 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>xmlpi</xmlelement> element is specialized from
-          <xmlelement>markupname</xmlelement>, which is defined in the
+          <xmlelement>markupname</xmlelement>; the
+          <xmlelement>xmlpi</xmlelement> element is defined in the
         XML-mention domain module. The <xmlelement>markupname</xmlelement>
-        element is specialized from <xmlelement>keyword</xmlelement>, which
-        is defined in the markup-name domain module.</p>
+        element is specialized from <xmlelement>keyword</xmlelement>, and
+        the <xmlelement>markupname</xmlelement> element is defined in the
+        markup-name domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
