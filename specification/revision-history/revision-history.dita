@@ -61,6 +61,19 @@
         <stentry>Contains content revised as a result of review A comments,
           plus content prepped for review B</stentry>
       </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>09 January 2023</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Content prepped for review B.</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>24 January 2023</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Contains content revised as result of review C comments,
+          plus content prepped for review D.</stentry>
+      </strow>
         </simpletable>
     </refbody>
 </reference>
