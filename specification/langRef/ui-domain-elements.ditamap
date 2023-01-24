@@ -3,10 +3,10 @@
 <map>
  <title>User-interface domain elements</title>
  <topicref href="containers/ui-d.dita">
+  <topicref keyref="elements-menucascade"/>
+  <topicref keyref="elements-screen"/>
+  <topicref keyref="elements-shortcut"/>
   <topicref keyref="elements-uicontrol"/>
   <topicref keyref="elements-wintitle"/>
-  <topicref keyref="elements-menucascade"/>
-  <topicref keyref="elements-shortcut"/>
-  <topicref keyref="elements-screen"/>
  </topicref>
 </map>
