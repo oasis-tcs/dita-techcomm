@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="menucascade" xml:lang="en-us">
   <title><xmlelement>menucascade</xmlelement></title>
-  <shortdesc>The <xmlelement>menucascade</xmlelement> element identifies a sequence of menu choices
-    in a nested menu, such as <menucascade>
+  <shortdesc><ph rev="review-c">A menu cascade is</ph> a sequence of menu
+    choices in a nested menu, such as <menucascade>
       <uicontrol>File</uicontrol>
       <uicontrol>New</uicontrol>
     </menucascade>. </shortdesc>
@@ -24,10 +24,11 @@
         contents of the <xmlelement>uicontrol</xmlelement> elements with a
         character to represent the menu cascade.</p>
     </section>
-    <section id="specialization-hierarchy">
+    <section id="specialization-hierarchy" rev="review-c">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>menucascade</xmlelement> element is specialized from
-          <xmlelement>ph</xmlelement>. It is defined in the user-interface domain module.</p>
+      <p>The <xmlelement>menucascade</xmlelement> element is specialized
+        from <xmlelement>ph</xmlelement>. It is defined in the
+        user-interface domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

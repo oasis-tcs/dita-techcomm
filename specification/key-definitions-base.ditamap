@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Key definitions: Base</title>
+  <keydef keys="reuse-fn"
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-fn.dita"/>  
+  <keydef keys="reuse-image"
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-image.dita"/> 
+  <keydef keys="reuse-map"
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-map.dita"/>   
+  <keydef keys="reuse-title"
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-title.dita"/>
+  <keydef keys="reuse-topic"
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-topic.dita"/>
+</map>
