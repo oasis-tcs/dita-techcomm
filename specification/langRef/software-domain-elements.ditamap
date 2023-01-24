@@ -3,13 +3,13 @@
 <map>
  <title>Software domain elements</title>
  <topicref href="containers/sw-d.dita">
-  <topicref keyref="elements-msgph"/>
+  <topicref keyref="elements-cmdname"/>
+  <topicref keyref="elements-filepath"/>
   <topicref keyref="elements-msgblock"/>
   <topicref keyref="elements-msgnum"/>
-  <topicref keyref="elements-cmdname"/>
-  <topicref keyref="elements-varname"/>
-  <topicref keyref="elements-filepath"/>
-  <topicref keyref="elements-userinput"/>
+  <topicref keyref="elements-msgph"/>
   <topicref keyref="elements-systemoutput"/>
+  <topicref keyref="elements-userinput"/>
+  <topicref keyref="elements-varname"/>
  </topicref>
 </map>

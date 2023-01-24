@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="cmdname" xml:lang="en-us">
   <title><xmlelement>cmdname</xmlelement></title>
-  <shortdesc>The <xmlelement>cmdname</xmlelement> element identifies the name of a software
-    command.</shortdesc>
+  <shortdesc rev="review-c">A command name is the name of a software command.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

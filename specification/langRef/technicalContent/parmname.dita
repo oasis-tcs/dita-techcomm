@@ -19,8 +19,9 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>parmname</xmlelement> is specialized from <xmlelement>keyword</xmlelement>.
-        It is defined in the programming domain module.</p>
+      <p>The <xmlelement>parmname</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>keyword</xmlelement>. It is
+        defined in the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="msgblock" xml:lang="en-us">
   <title><xmlelement>msgblock</xmlelement></title>
-  <shortdesc>The <xmlelement>msgblock</xmlelement> element contains a multi-line message or set of
-    messages.</shortdesc>
+  <shortdesc rev="review-c">A message block is a multi-line message or set of messages that is
+    produced by an application or device.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

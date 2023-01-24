@@ -2,8 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="codeblock" xml:lang="en-us">
   <title><xmlelement>codeblock</xmlelement></title>
-  <shortdesc>The <xmlelement>codeblock</xmlelement> element identifies lines of program
-    code.</shortdesc>
+  <shortdesc rev="review-c">A code block is a set of  lines from a program.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,8 +23,9 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>codeblock</xmlelement> is specialized from <xmlelement>pre</xmlelement>. It
-        is defined in the programming domain module.</p>
+      <p>The <xmlelement>codeblock</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>pre</xmlelement>. It is
+        defined in the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -36,9 +36,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>codeblock</xmlelement> element can be used to tage an
-        excerpt from the code for a program:</p>
+      <p>The following code sample shows how the <xmlelement>codeblock</xmlelement> element can be
+        used to <ph rev="review-c">tag</ph> an excerpt from the code for a program:</p>
       <codeblock><b>&lt;codeblock&gt;</b>
 /* a long sample program */
 Do forever

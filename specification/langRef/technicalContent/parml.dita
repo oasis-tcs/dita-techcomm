@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="parml" xml:lang="en-us">
   <title><xmlelement>parml</xmlelement></title>
-  <shortdesc>The <xmlelement>parml</xmlelement> element identifies a
-    specialized definition list that is designed for documenting
-    parameters.</shortdesc>
+  <shortdesc rev="review-c">A parameter list is a specialized definition list that is designed for
+    documenting parameters.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,7 +19,8 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>parml</xmlelement> is specialized from <xmlelement>dl</xmlelement>. It is
+      <p>The <xmlelement>parml</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>dl</xmlelement>. It is
         defined in the programming domain module.</p>
     </section>
     <section id="attributes">

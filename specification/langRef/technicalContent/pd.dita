@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="pd" xml:lang="en-us">
   <title><xmlelement>pd</xmlelement></title>
-  <shortdesc>The <xmlelement>pd</xmlelement> element specifies a parameter definition within a
-    parameter list entry.</shortdesc>
+  <shortdesc rev="review-c">A parameter definition is a definition of a term  that is defined in a
+    parameter-list entry.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,8 +18,9 @@
   <refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>pd</xmlelement> is specialized from <xmlelement>dd</xmlelement>. It is defined in
-the programming domain module.</p>
+<p>The <xmlelement>pd</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>dd</xmlelement>. It is
+        defined in the programming domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>

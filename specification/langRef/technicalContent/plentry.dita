@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="plentry" xml:lang="en-us">
   <title><xmlelement>plentry</xmlelement></title>
-  <shortdesc>The <xmlelement>plentry</xmlelement> element contains one or
-    more parameter terms and definitions,</shortdesc>
+  <shortdesc rev="review-c">A parameter-list entry contains one or more parameter terms and
+    definitions.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,8 +19,9 @@
   <refbody>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
-<p>The <xmlelement>plentry</xmlelement> is specialized from <xmlelement>dlentry</xmlelement>. It is
-defined in the programming domain module.</p>
+<p>The <xmlelement>plentry</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>dlentry</xmlelement>. It is
+        defined in the programming domain module.</p>
 </section>
     <section id="attributes">
       <title>Attributes</title>

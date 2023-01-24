@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="coderef" xml:lang="en-us">
   <title><xmlelement>coderef</xmlelement></title>
-  <shortdesc>The <xmlelement>coderef</xmlelement> element references an external file that contains
-    literal code.</shortdesc>
+  <shortdesc rev="review-c">A code reference is the mechanism for referencing an external text file
+    that contains programming code.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -26,8 +26,9 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>coderef</xmlelement> is specialized from <xmlelement>include</xmlelement>. It
-        is defined in the programming domain module.</p>
+      <p>The <xmlelement>coderef</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>include</xmlelement>. It is
+        defined in the programming domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>

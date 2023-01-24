@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="apiname" xml:lang="en-us">
    <title><xmlelement>apiname</xmlelement></title>
-   <shortdesc>The <xmlelement>apiname</xmlelement> element identifies the name of an application
-      programming interface (API), such as a Java class name or method name.</shortdesc>
+   <shortdesc rev="review-c">An API name is the name of an application programming interface (API),
+      such as a Java class name or method name.</shortdesc>
    <prolog>
       <metadata>
          <keywords>
@@ -19,8 +19,9 @@
    <refbody>
       <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title>
-         <p>The <xmlelement>apiname</xmlelement> is specialized from
-               <xmlelement>keyword</xmlelement>. It is defined in the programming domain module.</p></section>
+         <p>The <xmlelement>apiname</xmlelement>
+            <ph rev="review-c">element</ph> is specialized from <xmlelement>keyword</xmlelement>. It
+            is defined in the programming domain module.</p></section>
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/universal-keyref"/>
       </section>

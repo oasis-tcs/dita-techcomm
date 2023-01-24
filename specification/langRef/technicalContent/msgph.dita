@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="msgph" xml:lang="en-us">
   <title><xmlelement>msgph</xmlelement></title>
-  <shortdesc>The <xmlelement>msgph</xmlelement> element identifies the text of a message that is
-    produced by an application or program.</shortdesc>
+  <shortdesc rev="review-c">A message phrase is the text of a message that is produced by an
+    application or program.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

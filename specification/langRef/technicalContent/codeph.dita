@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="codeph" xml:lang="en-us">
   <title><xmlelement>codeph</xmlelement></title>
-  <shortdesc>The <xmlelement>codeph</xmlelement> element identifies a code snippet.</shortdesc>
+  <shortdesc rev="review-c">A code phrase is a small portion of source code, machine code, or text that is displayed in-line.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +21,8 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>codeph</xmlelement> is specialized from <xmlelement>ph</xmlelement>. It is
+      <p>The <xmlelement>codeph</xmlelement>
+        <ph rev="review-c">element</ph> is specialized from <xmlelement>ph</xmlelement>. It is
         defined in the programming domain module.</p>
     </section>
     <section id="attributes">
