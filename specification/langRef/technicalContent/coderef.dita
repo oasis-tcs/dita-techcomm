@@ -3,7 +3,7 @@
 <reference id="coderef" xml:lang="en-us">
   <title><xmlelement>coderef</xmlelement></title>
   <shortdesc rev="review-c">A code reference is the mechanism for referencing an external text file
-    that contains programming code.</shortdesc>
+    that contains program code.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
