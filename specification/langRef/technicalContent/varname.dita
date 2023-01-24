@@ -15,7 +15,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="rendering-expectations">
+    <section id="rendering-expectations" rev="review-c">
       <title>Rendering expectations</title>
       <p>The contents of the <xmlelement>varname</xmlelement> element is
         typically rendered in an italic font.</p>
