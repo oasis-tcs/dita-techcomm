@@ -21,7 +21,8 @@
     <keydef
       href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"
       keys="reuse-note"/>
-    <mapref href="key-definitions-base.ditamap" format="ditamap"/>
+    <mapref href="key-definitions-base.ditamap" format="ditamap"
+      processing-role="resource-only"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <mapref href="technicalContent-relationship-tables.ditamap"/>
     <booklists>
