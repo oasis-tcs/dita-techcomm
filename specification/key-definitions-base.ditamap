@@ -7,7 +7,9 @@
   <keydef keys="reuse-image"
     href="baseSpec/specification/common/reuse-w-lwdita/reuse-image.dita"/> 
   <keydef keys="reuse-map"
-    href="baseSpec/specification/common/reuse-w-lwdita/reuse-map.dita"/>   
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-map.dita"/> 
+  <keydef keys="reuse-note"
+    href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"/>  
   <keydef keys="reuse-title"
     href="baseSpec/specification/common/reuse-w-lwdita/reuse-title.dita"/>
   <keydef keys="reuse-topic"

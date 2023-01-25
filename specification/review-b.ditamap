@@ -23,9 +23,8 @@
     <mapref href="langRef/key-definitions-tc-elements.ditamap"/>
     <mapref
       href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
-    <keydef
-      href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"
-      keys="reuse-note"/>
+    <mapref href="key-definitions-base.ditamap" format="ditamap"
+      processing-role="resource-only"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <mapref href="technicalContent-relationship-tables.ditamap"/>
     <notices platform="dita-tc-publishing">

@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="tutorialinfo" xml:lang="en-us">
 <title><xmlelement>tutorialinfo</xmlelement></title>
-<shortdesc>The <xmlelement>tutorialinfo</xmlelement> element contains additional information that is
-    useful when the task topic  is part of a tutorial.</shortdesc>
+<shortdesc rev="review-a">Tutorial information is information that is
+    useful when the task topic is rendered as a tutorial.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>tutorialinfo</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>tutorialinfo</xmlelement></indexterm></indexterm>
 </keywords>
@@ -17,11 +17,46 @@
 <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
    </section>
-<example id="example" otherprops="examples"><title>Example</title><p>The
-        following code sample shows how the
-          <xmlelement>tutorialinfo</xmlelement> element might be used in a
-        task topic that is part of a
-      tutorial.</p><codeblock>&lt;steps&gt;
+<example id="example" otherprops="examples" rev="review-a"
+        ><title>Example</title><p>The following code sample is of a task
+        topic that is used both in a product manual and in a tutorial. Note
+        that the <xmlelement>context</xmlelement> and
+          <xmlelement>tutorialinfo</xmlelement> elements are intended to be
+        rendered only when the tutorial is
+      generated.</p><codeblock>&lt;task id="task-msg-x1z-gwb">
+  &lt;title>Taking pictures in low light without a flash&lt;/title>
+  &lt;shortdesc>Taking pictures in low light situations without a flash can be a challenge if you
+      don’t know what you’re doing and can result in photos that are too dark, blurry, or 
+      grainy. Follow these suggestions to get excellent shots in low light situations without 
+      the need for your camera's flash.&lt;/shortdesc>
+  &lt;taskbody>
+    &lt;context <b>deliveryTarget="tutorial"</b>>For example, suppose you are visiting the Louvre and 
+        want to capture memories of your visit. Most museums do not allow flash photography
+        of their art masterpieces.  What settings will work best for that situation? To 
+        understand the best settings for such a situation before arriving, use this tutorial 
+        to experiment with the impact of your light-controlling settings on your camera.
+    &lt;/context>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Put your camera in manual mode.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Increase your ISO setting to adjust how sensitive your camera's image sensor is 
+            to light.&lt;/cmd>
+        <b>&lt;tutorialinfo deliveryTarget="tutorial">Take a picture at each of the following ISO 
+               settings: 100, 200, 400, and 800. Compare your results.&lt;/tutorialinfo></b>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Increase the aperture size, by reducing your f-stop, to adjust how much light is 
+            allowed in.&lt;/cmd>
+        <b>&lt;tutorialinfo deliveryTarget="tutorial">Return your camera to an ISO setting of 100.
+            Take a picture at each of the following f-stops: f/2.0, f/4, f/8, and f/16. 
+            Compare your results.&lt;/tutorialinfo></b>
+      &lt;/step>
+      &lt;!-- ... --.
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock><!--<p>The following code sample shows how the <xmlelement>tutorialinfo</xmlelement> element might be used in a task topic that is part of a tutorial.</p><codeblock>&lt;steps&gt;
   &lt;step&gt;
     &lt;cmd&gt;Do this&lt;/cmd&gt;
     <b>&lt;tutorialinfo&gt;</b>In your editor, open the first element and click on 
@@ -32,7 +67,7 @@
     &lt;cmd&gt;Do that&lt;/cmd&gt;
     <b>&lt;tutorialinfo&gt;</b>Move the framulator into the foobar box.<b>&lt;/tutorialinfo&gt;</b>
   &lt;/step&gt;
-&lt;/steps&gt;</codeblock> </example>
+&lt;/steps&gt;</codeblock>--> </example>
 </refbody>
 </reference>
 
