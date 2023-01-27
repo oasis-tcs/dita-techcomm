@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="bookowner" xml:lang="en-us">
   <title><xmlelement>bookowner</xmlelement></title>
-  <shortdesc>The <xmlelement>bookowner</xmlelement> element specifies the owner of the book's
-    copyright.</shortdesc>
+  <shortdesc>A book owner indicates who owns the copyrights to the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

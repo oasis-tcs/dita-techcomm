@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="bookrights" xml:lang="en-us">
   <title><xmlelement>bookrights</xmlelement></title>
-  <shortdesc>The <xmlelement>bookrights</xmlelement> element contains the information about the
-    legal rights associated with the book, including copyright dates and owners.</shortdesc>
+  <shortdesc>Book rights include information about the legal rights associated with the book,
+    including copyright dates and owners.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
