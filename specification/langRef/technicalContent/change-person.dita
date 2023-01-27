@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-person" xml:lang="en-us">
   <title><xmlelement>change-person</xmlelement></title>
-  <shortdesc>The <xmlelement>change-person</xmlelement> element to specifies the name of the person
-    who made a change.</shortdesc>
+  <shortdesc>The change person element specifies the name of the person who made the
+    change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-person</xmlelement> is specialized from
+      <p>The <xmlelement>change-person</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
     </section>
     <section id="attributes">

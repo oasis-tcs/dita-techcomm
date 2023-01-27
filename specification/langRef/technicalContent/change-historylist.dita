@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us">
   <title><xmlelement>change-historylist</xmlelement></title>
-  <shortdesc>The <xmlelement>change-historylist</xmlelement> element contains individual release
-    notes, as represented by the <xmlelement>change-item</xmlelement> element.</shortdesc>
+  <shortdesc>The change history list contains individual release notes, as represented by the
+      <xmlelement>change-item</xmlelement> element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,12 +16,12 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element appears in the topic <xmlelement>prolog</xmlelement> or the map
-          <xmlelement>topicmeta</xmlelement> element.</p>
+      <p>The <xmlelement>change-historylist</xmlelement> element appears in the topic
+          <xmlelement>prolog</xmlelement> or the map <xmlelement>topicmeta</xmlelement> element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-historylist</xmlelement> is specialized from
+      <p>The <xmlelement>change-historylist</xmlelement> element is specialized from
           <xmlelement>metadata</xmlelement>. It is defined in the release management domain
         module.</p>
     </section>
@@ -31,8 +31,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>This example shows three simple release notes added to a single topic. This topic is used
-        in documentation for two products, A and B.</p>
+      <p>This example shows three release notes added to a single topic. This topic is used in
+        documentation for two products, A and B.</p>
       <codeblock>&lt;prolog>
   &lt;!-- ... -->
   &lt;change-historylist>

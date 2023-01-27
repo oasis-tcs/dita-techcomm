@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-started" xml:lang="en-us">
   <title><xmlelement>change-started</xmlelement></title>
-  <shortdesc>The <xmlelement>change-started</xmlelement> element specifies the date on which the
-    change was initiated.</shortdesc>
+  <shortdesc>The change started element specifies the date on which a change was
+    initiated.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,7 +20,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-started</xmlelement> is specialized from
+      <p>The <xmlelement>change-started</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
     </section>
     <section id="attributes">

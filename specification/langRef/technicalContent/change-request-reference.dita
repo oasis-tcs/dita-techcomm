@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-request-reference" xml:lang="en-us">
   <title><xmlelement>change-request-reference</xmlelement></title>
-  <shortdesc>The <xmlelement>change-request-reference</xmlelement> element provides information that
-    links the change to an external tracking system.</shortdesc>
+  <shortdesc>A change request reference provides information that links the change to an external
+    tracking system.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-request-reference</xmlelement> is specialized from
+      <p>The <xmlelement>change-request-reference</xmlelement> element is specialized from
           <xmlelement>metadata</xmlelement>. It is defined in the release management domain
         module.</p>
     </section>

@@ -2,9 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-request-system" xml:lang="en-us">
   <title><xmlelement>change-request-system</xmlelement></title>
-  <shortdesc>The <xmlelement>change-request-system</xmlelement> element specifies the name of an
-    information system that manages or serves the referenced change request, for example, an issue
-    tracking system.</shortdesc>
+  <shortdesc>A change request system specifies the name of an information system that manages or
+    serves the referenced change request, for example, an issue tracking system.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-request-system</xmlelement> is specialized from
+      <p>The <xmlelement>change-request-system</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
     </section>
     <section id="attributes">

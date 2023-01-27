@@ -2,8 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-revisionid" xml:lang="en-us">
   <title><xmlelement>change-revisionid</xmlelement></title>
-  <shortdesc>The <xmlelement>change-revisionid</xmlelement> element specifies a revision ID string
-    that can identify the change.</shortdesc>
+  <shortdesc>Change revision ID specifies a string to identify the change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +15,7 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-revisionid</xmlelement> is specialized from
+      <p>The <xmlelement>change-revisionid</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
     </section>
     <section id="attributes">

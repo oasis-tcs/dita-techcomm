@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-organization" xml:lang="en-us">
   <title><xmlelement>change-organization</xmlelement></title>
-  <shortdesc>The <xmlelement>change-organization</xmlelement> element specifies the name of the
-    organization that required a change.</shortdesc>
+  <shortdesc>The change organization specifies the name of the organization that required the
+    change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +16,7 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-organization</xmlelement> is specialized from
+      <p>The <xmlelement>change-organization</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
     </section>
     <section id="attributes">

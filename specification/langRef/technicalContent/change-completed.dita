@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-completed" xml:lang="en-us">
   <title><xmlelement>change-completed</xmlelement></title>
-  <shortdesc>The <xmlelement>change-completed</xmlelement> element indicates the date on which a
-    change was completed.</shortdesc>
+  <shortdesc>The change completed element specifies the date on which a change was
+    completed.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,7 +20,7 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-completed</xmlelement> is specialized from
+      <p>The <xmlelement>change-completed</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
     </section>
     <section id="attributes">
