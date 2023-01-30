@@ -3,9 +3,14 @@
  "reference.dtd">
 <reference id="condition" xml:lang="en-us">
   <title><xmlelement>condition</xmlelement></title>
-  <shortdesc>The <xmlelement>condition</xmlelement> element describes a state that the
-    troubleshooting topic is intended to remedy. This information helps the user decide
-    whether a troubleshooting topic might contain an applicable remedy for a problem.</shortdesc>
+  <abstract>
+    <shortdesc>The <xmlelement>condition</xmlelement> element describes a
+      state that the troubleshooting topic is intended to remedy. This
+      information helps the user decide whether a troubleshooting topic
+      might contain an applicable remedy for a problem.</shortdesc>
+    <shortdesc>A condition is an undesirable state in a system, product,
+      service, or device that a person wants to correct.</shortdesc>
+  </abstract>
   <prolog>
     <metadata>
       <keywords>
@@ -18,8 +23,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This section should add to or clarify information that is in the tile or short description
-        of the troubleshooting topic.</p>
+      <p>This section should add to or clarify information that is in the
+        title or short description of the troubleshooting topic. If the
+        title and short description adequately describes the condition,
+        this element might be omitted.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -32,7 +39,34 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="troubleshooting.dita"/>.</p>
+      <p>In the following code sample, the
+          <xmlelement>condition</xmlelement> element contains information
+        that elaborates on the information provided by the title and short
+        description:</p>
+      <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
+  &lt;title>System will not turn on&lt;/title>
+  &lt;shortdesc>Everything looks right, but the system still does not start.&lt;/shortdesc>
+  &lt;troublebody>
+    <b>&lt;condition></b>
+      &lt;title>Condition&lt;/title>
+      &lt;p>The system is plugged in, the power switch is on, but the system does not start.&lt;/p>
+    <b>&lt;/condition></b>
+    &lt;troubleSolution>
+      &lt;!-- ... -->
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting></codeblock>
+      <p>Alternately, the short description could be enhanced and the
+          <xmlelement>condition</xmlelement> element
+        eliminated:<codeblock>&lt;troubleshooting id="system-will-not-turn-on">
+  &lt;title>System will not turn on&lt;/title>
+  <b>&lt;shortdesc>he system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc>
+  &lt;troublebody></b>
+    &lt;troubleSolution>
+      &lt;!-- ... -->
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting></codeblock></p>
     </example>
   </refbody>
 </reference>

@@ -3,22 +3,21 @@
 <concept id="dita-troubleshooting-topic" xml:lang="en-us"
  > 
   <title>Troubleshooting</title> 
-  <shortdesc>Troubleshooting topics are designed to provide markup for
-    documenting corrective action, such as troubleshooting and alarm
-    clearing.</shortdesc> 
+  <shortdesc>Troubleshooting topics are designed to document corrective
+    action, such as troubleshooting and alarm clearing.</shortdesc> 
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
       <p>Troubleshooting topics serve the following purposes:</p>
       <ul>
-        <li>Define the condition or symptom. Usually the condition or
-          symptom is an undesirable state in a system, a product, or a
-          service that a reader wants to correct.</li>
+        <li>Define the condition or symptom, which usually is an
+          undesirable state in a system, a product, or a service that a
+          reader wants to correct</li>
         <li>Provide information that helps the reader diagnose which cause
-          and remedy pairs apply.</li>
+          and remedy pairs apply</li>
         <li>Explains the cause of the condition or symptom, if it is
-          known.</li>
-        <li>Describe how to remedy the condition or symptom.</li>
+          known</li>
+        <li>Describe how to remedy the condition or symptom</li>
       </ul>
     </section>
     <section id="content-model">
