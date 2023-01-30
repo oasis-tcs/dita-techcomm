@@ -29,7 +29,7 @@
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
+      <title><draft-comment author="KayKazmi">Need a new example.</draft-comment>Example</title>
       <codeblock xml:space="preserve">&lt;abbrevlist href="abbrev.dita"/&gt;</codeblock></example>
   </refbody>
 </reference>
