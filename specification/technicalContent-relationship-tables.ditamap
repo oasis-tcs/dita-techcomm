@@ -22,11 +22,13 @@
   </relheader>
   <relrow>
    <relcell>
-    <topicref href="archSpec/technicalContent/dita-troubleshooting-topic.dita"/>
-   </relcell>
+        <topicref href="langRef/containers/troubleshooting-elements.dita"/>
+      </relcell>
    <relcell>
-    <topicref href="archSpec/technicalContent/TroubleshootingElements.dita"/>
-   </relcell>
+        <topicref
+          href="archSpec/technicalContent/dita-troubleshooting-topic.dita"
+        />
+      </relcell>
   </relrow>
   <relrow>
    <relcell/>

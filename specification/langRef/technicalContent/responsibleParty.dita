@@ -25,7 +25,18 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="troubleshooting.dita"/>.</p>
+      <p>In the following code sample, the
+          <xmlelement>responsibleParty</xmlelement> element indicates the
+        person who should perform the task:</p>
+      <codeblock>&lt;remedy>
+  &lt;title>Remedy&lt;/title>
+  <b>&lt;responsibleParty>IT technical support&lt;/responsibleParty></b>
+  &lt;steps>
+    &lt;step>&lt;cmd>Turn the system power switch to &lt;hwcontrol>Off&lt;/hwcontrol>.&lt;/cmd>&lt;/step>
+    &lt;step>&lt;cmd>Reset the circuit breaker.&lt;/cmd>&lt;/step>
+    &lt;step>&lt;cmd>Turn the system power switch to &lt;hwcontrol>On&lt;/hwcontrol>.&lt;/cmd>&lt;/step>
+  &lt;/steps>
+&lt;/remedy></codeblock>
     </example>
   </refbody>
 </reference>

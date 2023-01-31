@@ -17,8 +17,9 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Typically, a <xmlelement>remedy</xmlelement> is preceded by a
-        <xmlelement>cause</xmlelement>.</p>
+      <p>The <xmlelement>remedy</xmlelement> element is a component of a
+        cause and remedy pair. The remedy might be omitted if there is no
+        known remedy for the cause.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -31,7 +32,21 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="troubleshooting.dita"/>.</p>
+      <p>In the following code sample, the <xmlelement>remedy</xmlelement>
+        element contains instructions for how the responsible party can fix
+        the problem. Note that rather than cross-referencing to another
+        topic, the <xmlelement>steps</xmlelement> element from an existing
+        topic is reused.</p>
+      <codeblock>&lt;troubleSolution>
+  &lt;cause>A recurring memory fault indicates a possible problem with the
+         the system memory board. Reseating the board might fix the problem.
+  &lt;/cause>
+  <b>&lt;remedy></b>
+    &lt;steps conref="reseatBoard.dita#reseatBoard/steps">
+      &lt;step>&lt;cmd/>&lt;/step>
+    &lt;/steps>
+  <b>&lt;/remedy></b>
+&lt;/troubleSolution></codeblock>
     </example>
  </refbody>
 </reference>

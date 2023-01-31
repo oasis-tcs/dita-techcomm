@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="troubleSolution" xml:lang="en-us">
   <title><xmlelement>troubleSolution</xmlelement></title>
-  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element contains a possible cause and
-    remedy for the problem described in a troubleshooting topic.</shortdesc>
+  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element contains
+    a possible cause and remedy pair for the problem that is described in a
+    troubleshooting topic.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,9 +18,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The cause might be omitted if it is implicit or if the
-    remedy is not associated with a cause. The remedy might be omitted if there is no known remedy
-    for the cause.</p>
+      <p>Both the cause and remedy are optional. The cause might be omitted
+        if it is implicit or if the remedy is not associated with a cause.
+        The remedy might be omitted if there is no known remedy for the
+        cause.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -32,7 +34,22 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="troubleshooting.dita"/>.</p>
+      <p>In the following code sample, the
+          <xmlelement>troubleSolution</xmlelement> element contains a cause
+        and remedy pair:</p>
+      <codeblock><b>&lt;troubleSolution></b>
+  &lt;cause>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
+         transient memory fault.&lt;/cause>
+  &lt;remedy>
+    &lt;steps>
+      &lt;step>&lt;cmd>Reset the alarm.&lt;/cmd>&lt;/step>
+      &lt;step>&lt;cmd>Monitor the system periodically to see whether the alarm
+              recurs.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/remedy><b>
+&lt;/troubleSolution></b></codeblock>
+      <!--<p>See <xref href="troubleshooting.dita"/>.</p>-->
     </example>
   </refbody>
 </reference>

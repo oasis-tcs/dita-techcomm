@@ -8,8 +8,7 @@
       state that the troubleshooting topic is intended to remedy. This
       information helps the user decide whether a troubleshooting topic
       might contain an applicable remedy for a problem.</shortdesc>
-    <shortdesc>A condition is an undesirable state in a system, product,
-      service, or device that a person wants to correct.</shortdesc>
+    <!--<shortdesc>A condition is an undesirable state in a system, product, service, or device that a person wants to correct.</shortdesc>-->
   </abstract>
   <prolog>
     <metadata>
@@ -57,8 +56,8 @@
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
       <p>Alternately, the short description could be enhanced and the
-          <xmlelement>condition</xmlelement> element
-        eliminated:<codeblock>&lt;troubleshooting id="system-will-not-turn-on">
+          <xmlelement>condition</xmlelement> element eliminated:</p>
+      <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
   &lt;title>System will not turn on&lt;/title>
   <b>&lt;shortdesc>he system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc>
   &lt;troublebody></b>
@@ -66,7 +65,10 @@
       &lt;!-- ... -->
     &lt;/troubleSolution>
   &lt;/troublebody>
-&lt;/troubleshooting></codeblock></p>
+&lt;/troubleshooting></codeblock>
+      <p>How implementations choose what markup patterns they use might
+        depend on their stylesheets and how they deliver troubleshooting
+        information to readers.</p>
     </example>
   </refbody>
 </reference>
