@@ -2,8 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="reference_xm5_sqz_vm">
   <title>Troubleshooting elements</title>
-  <shortdesc>Troubleshooting topics document corrective action such as
-    troubleshooting or alarm clearing.</shortdesc>
+  <shortdesc>Troubleshooting elements provide the fundamental structure for
+    troubleshooting topics. Troubleshooting topics outline problem
+    conditions and aid readers in diagnosing and remedying the
+    situation.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="troublebody" xml:lang="en-us" >
  <title><xmlelement>troublebody</xmlelement></title>
- <shortdesc>The <xmlelement>troublebody</xmlelement> element contains the main content of the
-  troubleshooting topic.</shortdesc>
+ <shortdesc>The <xmlelement>troublebody</xmlelement> element contains the
+    main content of the troubleshooting topic. The troubleshooting body can
+    contain information about the condition, diagnostic information, and
+    one or more possible solutions.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
@@ -15,11 +17,7 @@
   </metadata>
  </prolog>
  <refbody>
-  <section id="usage-information">
-   <title>Usage Information</title>
-   <p>Troubleshooting topics limit the body structure to a single optional condition followed by one
-    or more solutions.</p>
-  </section>
+    <!--<section id="usage-information"><title>Usage Information</title><p>Troubleshooting topics limit the body structure to a single optional condition, followed by diagn followed by one or more solutions.</p></section>-->
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
    <p>The <xmlelement>troublebody</xmlelement> element is specialized from
@@ -31,7 +29,8 @@
   </section>
   <example id="example" otherprops="examples">
    <title>Example</title>
-   <p>See <xref href="troubleshooting.dita"/>.</p>
+   <p>See <xref keyref="elements-troubleshooting/example"
+            ><xmlelement>troubleshooting</xmlelement></xref>.</p>
   </example>
  </refbody>
 </reference>

@@ -20,6 +20,7 @@
     <keydef
       href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"
       keys="reuse-note"/>
+    <mapref href="key-definitions-base.ditamap" format="ditamap"/>
     <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
     <mapref href="technicalContent-relationship-tables.ditamap"/>
     <booklists>
@@ -36,7 +37,6 @@
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
     format="ditamap"/>
-  <appendix href="non-normative/formatting-expectations.dita"/>
   <backmatter>
     <booklists>
       <indexlist/>

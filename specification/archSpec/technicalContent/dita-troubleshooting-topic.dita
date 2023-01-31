@@ -3,23 +3,22 @@
 <concept id="dita-troubleshooting-topic" xml:lang="en-us"
  > 
   <title>Troubleshooting</title> 
-  <shortdesc>Troubleshooting topics are designed to provide markup for
-    documenting corrective action, such as troubleshooting and alarm
-    clearing.</shortdesc> 
+  <shortdesc>Troubleshooting topics are designed to document corrective
+    action, such as troubleshooting and alarm clearing.</shortdesc> 
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
       <p>Troubleshooting topics serve the following purposes:</p>
-      <ul>
-        <li>Define the condition or symptom. Usually the condition or
-          symptom is an undesirable state in a system, a product, or a
-          service that a reader wants to correct.</li>
+      <ol>
+        <li>Define the condition or symptom, which usually is an
+          undesirable state in a system, a product, or a service that a
+          reader wants to correct</li>
         <li>Provide information that helps the reader diagnose which cause
-          and remedy pairs apply.</li>
-        <li>Explains the cause of the condition or symptom, if it is
-          known.</li>
-        <li>Describe how to remedy the condition or symptom.</li>
-      </ul>
+          and remedy pairs apply</li>
+        <li>Explain the cause of the condition or symptom, if it is known,
+          and describe how to remedy the condition or symptom, if
+          possible</li>
+      </ol>
     </section>
     <section id="content-model">
       <title>Content model</title>
@@ -65,6 +64,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Examples</title>
+      <p>This section of the topics contains examples of troubleshooting
+        topics.</p>
       <fig>
         <title>Simple troubleshooting topic</title>
         <p>The following code sample shows a simple troubleshooting topic.
@@ -80,7 +81,7 @@
     &lt;troubleSolution>
       &lt;cause>
         &lt;p>This problem occurs when the &lt;xmlelement>notices&lt;/xmlelement> element 
-           for externalpublishing is not excluded.&lt;/p>
+           for external publishing is not excluded.&lt;/p>
       &lt;/cause>
       &lt;remedy>
         &lt;steps>
@@ -95,127 +96,93 @@
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
       </fig>
-    </example> 
-	 <section id="infotype">
-			<title>The troubleshooting information type</title>
-			<p>In its simplest form, troubleshooting information follows this pattern:</p>
-			<ol>
-				<li>A condition or symptom. Usually the condition or symptom is an undesirable state
-					in a system, a product, or a service that a reader wants to correct. </li>
-				<li>A cause for the condition or symptom. </li>
-				<li>A remedy for the condition or symptom. </li>
-			</ol>
-			<p>The troubleshooting topic provides sections for describing the condition, causes, and
-				remedies needed to restore a system, a product, or a service to normal.</p>
-			<p>For some conditions there could be more than one cause-remedy pair. The
-				troubleshooting topic accommodates this. Typically, a cause is immediately followed
-				by its remedy. Multiple cause-remedy pairs can provide a series of successive
-				fall-backs for resolving a condition. An optional diagnostics section can be
-				included to assist in determining which of the cause-remedy pairs applies to the
-				specific situation.</p>
-			<p>Cause and remedy might occur in combinations other than pairs. It is possible to
-				have:</p>
-			<ul>
-				<li>Multiple causes with the same remedy </li>
-				<li>A single cause with more than one remedy </li>
-				<li>A remedy with no known cause </li>
-				<li>A cause with no known remedy </li>
-			</ul>
-			<p>The troubleshooting information type also can be used to document alarm clearing
-				strategies.</p>
-		</section> 
-	 <section id="structure">
-			<title>The structure of the troubleshooting topic</title>
-			<p>The top-level element for troubleshooting topics is <xmlelement>troubleshooting</xmlelement>.
-                The <xmlelement>troubleshooting</xmlelement> element contains a
-                    <xmlelement>title</xmlelement>, a short description or
-                    <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, a
-                    <xmlelement>troublebody</xmlelement>, and
-                <xmlelement>related-links</xmlelement>.</p>
-			<p><xmlelement>troublebody</xmlelement> is the main body element in a troubleshooting
-				topic. The <xmlelement>troublebody</xmlelement> element contains the following
-				elements:</p>
-			<dl>
-				<dlentry>
-					<dt><xmlelement>condition</xmlelement>
-					</dt>
-					<dd>This optional element is the first child of <xmlelement>troublebody</xmlelement>, and it
-                        describes a condition or symptom that is associated with an undesirable
-                        state in a system, a product, or a service. Do not use this element in cases
-                        where the topic title fully explains the condition.</dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>diagnostics</xmlelement></dt>
-					<dd>This optional element precedes <xmlelement>troubleSolution</xmlelement> and
-						provides information used to determine which cause-remedy pair applies in a
-						given situation.<p>The <xmlelement>diagnostics</xmlelement> element contains
-							one of the following elements:<dl>
-								<dlentry>
-									<dt><xmlelement>diagnostics-general</xmlelement></dt>
-									<dd>This element provides non-procedural diagnostic information,
-										such as a flowchart diagram or a look-up table of symptoms.
-										Results of the diagnostic may link to the specific
-										cause-remedy section that applies to each result. </dd>
-								</dlentry>
-								<dlentry>
-									<dt><xmlelement>diagnostics-steps</xmlelement></dt>
-									<dd>This element provides step-by-step instructions for
-										diagnosing the problem. Step results may link to the
-										specific cause-remedy section that applies.</dd>
-								</dlentry>
-							</dl></p></dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>troubleSolution</xmlelement>
-					</dt>
-					<dd>One or more <xmlelement>troubleSolution</xmlelement> elements appears in the
-                            <xmlelement>troublebody</xmlelement> element.
-                            <xmlelement>troubleSolution</xmlelement> is a wrapper element for
-                            <xmlelement>cause</xmlelement> and <xmlelement>remedy</xmlelement>, each
-                        of which are a cause-remedy pair.<draft-comment author="robander"
-                            time="25 may 2021" audience="spec-editors">Not certain, but I Think
-                            "each of which are a cause-remedy pair" can be removed? I think it's not
-                            adding anything and I'm not entirely sure exactly what "each" refers
-                            to.</draft-comment></dd>
-				</dlentry>
-			</dl>
-			<p>The <xmlelement>troubleSolution</xmlelement> element contains the following elements:</p>
-			<dl>
-				<dlentry>
-					<dt><xmlelement>cause</xmlelement>
-					</dt>
-					<dd>This optional, repeatable, first-child of<xmlelement>condition</xmlelement>
-						<xmlelement>troubleSolution</xmlelement> describes a possible cause for the
-						condition. </dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>remedy</xmlelement>
-					</dt>
-					<dd>
-						<p>This optional, repeatable, last-child of
-								<xmlelement>troubleSolution</xmlelement> describes a possible remedy
-							for the condition.</p>
-						<p>The <xmlelement>remedy</xmlelement> element begins with an optional
-                                <xmlelement>title</xmlelement> element followed by an optional
-                                <xmlelement>responsibleParty</xmlelement> element followed by either
-                            a <xmlelement>steps</xmlelement> element, a
-                                <xmlelement>steps-unordered</xmlelement> element, or a
-                                <xmlelement>steps-informal</xmlelement> element. The content models
-                            for <xmlelement>steps</xmlelement>,
-                                <xmlelement>steps-unordered</xmlelement>, and
-                                <xmlelement>steps-informal</xmlelement> are borrowed from
-                                <xmlelement>task</xmlelement>. This allows
-                                <xmlelement>remedy</xmlelement> to reuse steps from tasks.</p>
-					</dd>
-				</dlentry>
-				<dlentry>
-					<dt><xmlelement>responsibleParty</xmlelement></dt>
-					<dd>This optional first child of <xmlelement>remedy</xmlelement> indicates who
-						is expected to perform the steps that are outlined in the
-							<xmlelement>remedy</xmlelement> element.</dd>
-				</dlentry>
-			</dl>
-		</section>
+      <fig>
+        <title>Complex troubleshooting topic</title>
+        <p>The following code sample shows a complex troubleshooting topic
+          about "Blinking printer lights." It contains a
+            <xmlelement>diganostics-general</xmlelement> elements that
+          contains a table that outlines  printer light conditions and the
+          associated remedies. It also includes several
+            <xmlelement>troubesolution</xmlelement> elements that reuses
+          steps from other DITA topics.</p>
+        <codeblock>troubleshooting id="blinking-lights">
+  &lt;title>Blinking printer lights&lt;/title>
+  &lt;troublebody>
+  &lt;condition>&lt;p>The indicator lights are blinking and you are unable to print.&lt;/p>&lt;/condition>
+  &lt;diagnostics>
+    &lt;diagnostics-general>&lt;p>Use the following table to diagnose the problem.&lt;/p>
+      &lt;simpletable frame="all" id="light-diagnostics" relcolwidth="1* 2*">
+        &lt;sthead>
+          &lt;stentry>Lights&lt;/stentry>
+          &lt;stentry>Issue&lt;/stentry>
+        &lt;/sthead>
+        &lt;strow>
+          &lt;stentry>The power light is flashing and the resume light is off./stentry>
+          &lt;stentry>The printer is preparing to print. No action is required. The light 
+                   will stop flashing when the printer has received all data.&lt;/stentry>
+        &lt;/strow>
+        &lt;strow>
+          &lt;stentry> The connecton and error lghts flash for five seconds.&lt;/stentry>
+          &lt;stentry>The printer has lost connection with the camera. Unplug and replug the 
+                   camera.&lt;/stentry>
+        &lt;/strow>
+        &lt;strow>
+          &lt;stentry> The power light is on, and the resume light is flashing.&lt;/stentry>
+          &lt;stentry>Printer jam. See &lt;xref href="#./jam"/>.&lt;/stentry>
+        &lt;/strow>
+        &lt;strow>
+          &lt;stentry>The power and resume lights are flashing.&lt;/stentry>
+          &lt;stentry>Printer is stalled and needs to be restarted. See
+                   &lt;xref href="#./restart"/>.&lt;/stentry>
+        &lt;/strow>
+        &lt;strow>
+          &lt;stentry>The left cartridge light is on, and right cartridge list is off.&lt;/stentry>
+          &lt;stentry>Low ink. See &lt;xref href="#./ink"/>.&lt;/stentry>
+        &lt;/strow>
+        &lt;strow>
+          &lt;stentry>The left cartridge light is on, and the right cartridge list is flashing.
+          &lt;/stentry>
+          &lt;stentry>Dirty ink cartridge. See &lt;xref href="#./clean"/>.&lt;/stentry>
+        &lt;/strow>
+        &lt;strow>
+          &lt;stentry>The connection list is on, and the error light is flashing.&lt;/stentry>
+          &lt;stentry>The camera is not set to the correct mode for transferring photos. Change 
+                   the camera mode.&lt;/stentry>
+        &lt;/strow>
+      &lt;/simpletable>
+    &lt;/diagnostics-general>
+  &lt;/diagnostics>
+  &lt;troubleSolution>
+    &lt;remedy id="jam">
+      &lt;title>Clearing a paper jam &lt;/title>
+      &lt;steps conkeyref="clear-jam/steps">
+        &lt;step>&lt;cmd/>&lt;/step>
+      &lt;/steps>
+    &lt;/remedy>
+  &lt;/troubleSolution>
+  &lt;troubleSolution>
+    &lt;remedy id="clean">
+      &lt;title>Cleaning ink cartridge&lt;/title>
+      &lt;steps>
+        &lt;step>&lt;cmd/>&lt;/step>
+      &lt;/steps>
+    &lt;/remedy>
+  &lt;/troubleSolution>
+  &lt;troubleSolution>
+    &lt;remedy id="ink">
+      &lt;title>Replacing ink cartridge&lt;/title>
+      &lt;steps>
+        &lt;step>&lt;cmd/>&lt;/step>
+      &lt;/steps>
+    &lt;/remedy>
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting>
+</codeblock>
+      </fig>
+    </example>
+    <!--<section id="infotype"><title>The troubleshooting information type</title><p>In its simplest form, troubleshooting information follows this pattern:</p><ol><li>A condition or symptom. Usually the condition or symptom is an undesirable state in a system, a product, or a service that a reader wants to correct. </li><li>A cause for the condition or symptom. </li><li>A remedy for the condition or symptom. </li></ol><p>The troubleshooting topic provides sections for describing the condition, causes, and remedies needed to restore a system, a product, or a service to normal.</p><p>For some conditions there could be more than one cause-remedy pair. The troubleshooting topic accommodates this. Typically, a cause is immediately followed by its remedy. Multiple cause-remedy pairs can provide a series of successive fall-backs for resolving a condition. An optional diagnostics section can be included to assist in determining which of the cause-remedy pairs applies to the specific situation.</p><p>Cause and remedy might occur in combinations other than pairs. It is possible to have:</p><ul><li>Multiple causes with the same remedy </li><li>A single cause with more than one remedy </li><li>A remedy with no known cause </li><li>A cause with no known remedy </li></ul><p>The troubleshooting information type also can be used to document alarm clearing strategies.</p></section>-->
+    <!--<section id="structure"><title>The structure of the troubleshooting topic</title><p>The top-level element for troubleshooting topics is <xmlelement>troubleshooting</xmlelement>. The <xmlelement>troubleshooting</xmlelement> element contains a <xmlelement>title</xmlelement>, a short description or <xmlelement>abstract</xmlelement>, a <xmlelement>prolog</xmlelement>, a <xmlelement>troublebody</xmlelement>, and <xmlelement>related-links</xmlelement>.</p><p><xmlelement>troublebody</xmlelement> is the main body element in a troubleshooting topic. The <xmlelement>troublebody</xmlelement> element contains the following elements:</p><dl><dlentry><dt><xmlelement>condition</xmlelement> </dt><dd>This optional element is the first child of <xmlelement>troublebody</xmlelement>, and it describes a condition or symptom that is associated with an undesirable state in a system, a product, or a service. Do not use this element in cases where the topic title fully explains the condition.</dd></dlentry><dlentry><dt><xmlelement>diagnostics</xmlelement></dt><dd>This optional element precedes <xmlelement>troubleSolution</xmlelement> and provides information used to determine which cause-remedy pair applies in a given situation.<p>The <xmlelement>diagnostics</xmlelement> element contains one of the following elements:<dl><dlentry><dt><xmlelement>diagnostics-general</xmlelement></dt><dd>This element provides non-procedural diagnostic information, such as a flowchart diagram or a look-up table of symptoms. Results of the diagnostic may link to the specific cause-remedy section that applies to each result. </dd></dlentry><dlentry><dt><xmlelement>diagnostics-steps</xmlelement></dt><dd>This element provides step-by-step instructions for diagnosing the problem. Step results may link to the specific cause-remedy section that applies.</dd></dlentry></dl></p></dd></dlentry><dlentry><dt><xmlelement>troubleSolution</xmlelement> </dt><dd>One or more <xmlelement>troubleSolution</xmlelement> elements appears in the <xmlelement>troublebody</xmlelement> element. <xmlelement>troubleSolution</xmlelement> is a wrapper element for <xmlelement>cause</xmlelement> and <xmlelement>remedy</xmlelement>, each of which are a cause-remedy pair.<draft-comment author="robander" time="25 may 2021" audience="spec-editors">Not certain, but I Think "each of which are a cause-remedy pair" can be removed? I think it's not adding anything and I'm not entirely sure exactly what "each" refers to.</draft-comment></dd></dlentry></dl><p>The <xmlelement>troubleSolution</xmlelement> element contains the following elements:</p><dl><dlentry><dt><xmlelement>cause</xmlelement> </dt><dd>This optional, repeatable, first-child of<xmlelement>condition</xmlelement> <xmlelement>troubleSolution</xmlelement> describes a possible cause for the condition. </dd></dlentry><dlentry><dt><xmlelement>remedy</xmlelement> </dt><dd><p>This optional, repeatable, last-child of <xmlelement>troubleSolution</xmlelement> describes a possible remedy for the condition.</p><p>The <xmlelement>remedy</xmlelement> element begins with an optional <xmlelement>title</xmlelement> element followed by an optional <xmlelement>responsibleParty</xmlelement> element followed by either a <xmlelement>steps</xmlelement> element, a <xmlelement>steps-unordered</xmlelement> element, or a <xmlelement>steps-informal</xmlelement> element. The content models for <xmlelement>steps</xmlelement>, <xmlelement>steps-unordered</xmlelement>, and <xmlelement>steps-informal</xmlelement> are borrowed from <xmlelement>task</xmlelement>. This allows <xmlelement>remedy</xmlelement> to reuse steps from tasks.</p></dd></dlentry><dlentry><dt><xmlelement>responsibleParty</xmlelement></dt><dd>This optional first child of <xmlelement>remedy</xmlelement> indicates who is expected to perform the steps that are outlined in the <xmlelement>remedy</xmlelement> element.</dd></dlentry></dl></section>-->
     <!--<example id="example" otherprops="examples"><p>Here is an example of a troubleshooting topic:</p><draft-comment author="robander" time="25 may 2021" audience="spec-editors">This is so much longer than examples for other specializations, I wonder if we should abbreviate some of it with &lt;!– comments -\-></draft-comment><codeblock>&lt;troubleshooting id="blinking_lights">
     &lt;title>Blinking lights&lt;/title>
     &lt;shortdesc>Printer indicator lights are blinking, indicating an error of some kind.&lt;/shortdesc>
