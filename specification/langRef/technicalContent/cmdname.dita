@@ -29,6 +29,6 @@
       <p>The following code sample shows a <xmlelement>cmdname</xmlelement>
         element that identifies the name of the <cmdname>rm</cmdname>
         command.</p>
-      <codeblock>&lt;p>Use the <b>&lt;cmdname>rm&lt;/cmdname></b> command to permanently delete an object.&lt;/p></codeblock></example>
+      <codeblock>&lt;p><ph rev="review-c">You can use</ph> the <b>&lt;cmdname>rm&lt;/cmdname></b> command to permanently delete an object.&lt;/p></codeblock></example>
   </refbody>
 </reference>
