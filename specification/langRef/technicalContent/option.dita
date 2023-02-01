@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="option" xml:lang="en-us">
   <title><xmlelement>option</xmlelement></title>
-  <shortdesc>The <xmlelement>option</xmlelement> element describes an option that can modify a
-    command or a configuration.</shortdesc>
+  <shortdesc>The <xmlelement>option</xmlelement> element <ph rev="review-c"
+      >specifies a permitted value for a parameter or
+    configuration.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,15 +29,29 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
-    <example id="example" otherprops="examples">
+    <example id="example" otherprops="examples" rev="review-c">
       <title>Example</title>
-      <p>The following code sample shows how the command-line options for a
-        tool are defined in a list:</p>
-      <codeblock>&lt;p>The most common command line options include:&lt;/p>
-&lt;ul>
-  &lt;li><b>&lt;option>-compress&lt;/option></b> will generate data in compressed form.&lt;/li>
-  &lt;li><b>&lt;option>-debug&lt;/option></b> will generate debug information while running.&lt;/li>
-  &lt;li><b>&lt;option>-help&lt;/option></b> will print extended help information.&lt;/li>
-&lt;/ul></codeblock></example>
+      <p>This section contains examples of how the
+          <xmlelement>option</xmlelement> element can be used.</p>
+      <fig>
+        <title>Parameter values</title>
+        <p>In the following code sample, the
+            <xmlelement>option</xmlelement> element is used to specify
+          permitted values for a parameter:</p>
+        <codeblock>&lt;p> You can use the &lt;parmname>map-order&lt;/parmname> parameter to specify 
+if the order of the frontmatter and backmatter content is retained. The allowed 
+values are <b>&lt;option>keep&lt;/option></b> and <b>&lt;option>trash&lt;/option></b>; the default value is 
+<b>&lt;option>trash&lt;/option></b>.&lt;/p></codeblock>
+      </fig>
+      <fig>
+        <title>Configuration option</title>
+        <p>In the following code sample, the
+            <xmlelement>option</xmlelement> element is used to specify an
+          option that modifies a configuration:</p>
+        <codeblock>&lt;p>You can purchase the <b>&lt;option>Sports Model&lt;/option></b> package in order
+to configure your Mini Cooper with the latest sports suspension, bonnet stripes, 
+a roof spoiler and an aero body kit.&lt;/p></codeblock>
+      </fig>
+    </example>
   </refbody>
 </reference>
