@@ -27,6 +27,22 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
+    <example id="example_d2s_5p5_lwb">
+      <title>Example</title>
+      <p>The following code sample shows how <xmlelement>change-started</xmlelement> can be used to
+        specify the first day a particular change began:</p>
+      <codeblock id="codeblock_x1k_wp5_lwb">
+  &lt;change-historylist>
+    &lt;change-item product="productA productB">
+      &lt;change-person>Tom Cihak&lt;/change-person>
+      &lt;change-organization>JEDEC&lt;/change-organization>
+      <b>&lt;change-started></b>2019-01-15<b>&lt;/change-started></b>
+      &lt;change-completed>2019-03-23&lt;/change-completed>
+      &lt;change-summary>Made change 1 to both products&lt;/change-summary>
+      &lt;data>Details of change 1&lt;/data>
+    &lt;/change-item>
+  &lt;/change-historylist>
+  </codeblock>
+    </example>
   </refbody>
 </reference>

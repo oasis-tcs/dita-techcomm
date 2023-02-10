@@ -27,6 +27,17 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
+    <example id="example_rxw_yyx_kwb">
+      <title>Example</title>
+      <p/>
+      <codeblock id="codeblock_hvl_zyx_kwb">
+  &lt;change-item product="productA productB">&lt;change-person>Tom Cihak&lt;/change-person>
+    &lt;change-organization>JEDEC&lt;/change-organization>
+    &lt;change-started>2019-01-15&lt;/change-started>
+    &lt;change-completed>2019-03-23&lt;/change-completed>
+    &lt;change-summary>Made change 1 to both products&lt;/change-summary>
+    &lt;data>Details of change 1&lt;/data>
+   &lt;/change-item></codeblock>
+    </example>
   </refbody>
 </reference>

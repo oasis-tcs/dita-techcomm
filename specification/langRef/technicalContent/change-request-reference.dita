@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-request-reference" xml:lang="en-us">
   <title><xmlelement>change-request-reference</xmlelement></title>
-  <shortdesc>A change request reference provides information that links the change to an external
-    tracking system.</shortdesc>
+  <shortdesc><xmlelement>change-request-reference</xmlelement> contains details about the change
+    request, such as an ID <xmlelement>change-request-id</xmlelement> or a reference to the system
+    used to track the request <xmlelement>change-request-system</xmlelement>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,6 +25,21 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
+    <example id="example_wvg_y35_lwb">
+      <title>Example</title>
+      <p>The following code sample shows how <xmlelement>change-request-reference</xmlelement> can
+        be used to specify the ticketing system used to manage the change request as well as the
+        applicable ticket ID:</p>
+      <codeblock id="codeblock_hbb_5h5_lwb">
+  &lt;change-historylist>
+    &lt;change-item product="productA productB">
+      <b>&lt;change-request-reference></b>
+        &lt;change-request-system>example.com/my/queue/&lt;/change-request-system>
+        &lt;change-request-id>TCKT-1313&lt;/change-request-id>
+      <b>&lt;/change-request-reference></b>
+    &lt;/change-item>
+  &lt;/change-historylist>
+  </codeblock>
+    </example>
   </refbody>
 </reference>

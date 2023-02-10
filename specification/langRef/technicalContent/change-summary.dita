@@ -17,7 +17,8 @@
       <title>Usage information</title>
       <p>The <xmlelement>change-summary</xmlelement> element contains the portion of the release
         note that might appear in a document.</p>
-      <draft-comment author="tammy">I think more information is required here.</draft-comment>
+      <draft-comment author="tammy">How/when would the change-summary appear in a
+        document?</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -28,6 +29,18 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
+    <example id="example_f34_zvx_kwb">
+      <title>Example</title>
+      <p>The following code sample shows how <xmlelement>change-summary</xmlelement> can be used to
+        provide a brief description of a change:</p>
+      <codeblock id="codeblock_xdz_zvx_kwb">
+&lt;change-item product="productA">
+    &lt;change-person>Tom Cihak&lt;/change-person>
+    &lt;change-completed>2019-06-07&lt;/change-completed>
+    <b>&lt;change-summary></b>Made change 2 to product A<b>&lt;/change-summary></b>
+    &lt;data>Details of change 2&lt;/data>
+  &lt;/change-item></codeblock>
+    </example>
     <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
   </refbody>
 </reference>

@@ -23,6 +23,28 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
+    <example id="example_e1s_mrx_kwb">
+      <title>Example</title>
+      <p>The following code sample shows how <xmlelement>change-item</xmlelement> can be used to
+        detail multiple changes. This example includes a change that is applicable to products A and
+        B and a change that is applicable to only product A.</p>
+      <codeblock id="codeblock_svz_4rx_kwb">
+&lt;change-historylist>
+  <b>&lt;change-item product="productA productB"></b>
+    &lt;change-person>Tom Cihak&lt;/change-person>
+    &lt;change-organization>JEDEC&lt;/change-organization>
+    &lt;change-started>2019-01-15&lt;/change-started>
+    &lt;change-completed>2019-03-23&lt;/change-completed>
+    &lt;change-summary>Made change 1 to both products&lt;/change-summary>
+    &lt;data>Details of change 1&lt;/data>
+  <b>&lt;/change-item></b>
+  <b>&lt;change-item product="productA"></b>
+    &lt;change-person>Tom Cihak&lt;/change-person>
+    &lt;change-completed>2019-06-07&lt;/change-completed>
+    &lt;change-summary>Made change 2 to product A&lt;/change-summary>
+    &lt;data>Details of change 2&lt;/data>
+  <b>&lt;/change-item></b>
+&lt;/change-historylist></codeblock>
+    </example>
   </refbody>
 </reference>
