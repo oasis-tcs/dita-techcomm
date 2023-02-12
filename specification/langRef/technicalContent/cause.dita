@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="cause" xml:lang="en-us">
   <title><xmlelement>cause</xmlelement></title>
-  <shortdesc>The <xmlelement>cause</xmlelement> element describes a potential source of the problem
-    that is described in the troubleshooting topic.</shortdesc>
+  <shortdesc>The <xmlelement>cause</xmlelement> element describes a
+    potential source of the problem.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,12 +17,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>cause</xmlelement> element is a component of a
-        cause and remedy pair. The cause might be omitted if it is implicit
-        or if the remedy is not associated with a cause.</p>
-      <p>This information should be brief. If it is not possible to make
-        the information brief, this might be a sign that a full
-        troubleshooting topic is needed.</p>
+      <p>The <xmlelement>cause</xmlelement> element is a component of <ph
+          rev="review-e">potential solution</ph>. The cause might be
+        omitted if it is implicit or if the remedy is not associated with a
+        cause.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -40,7 +38,7 @@
         problem:</p>
       <codeblock>&lt;troubleSolution>
   <b>&lt;cause></b>A recurring memory fault indicates a possible problem with the
-         the system memory board. Reseating the board might fix the problem.
+         system memory board. Reseating the board might fix the problem.
   <b>&lt;/cause></b>
   &lt;remedy>
     &lt;steps conref="reseatBoard.dita#reseatBoard/steps">

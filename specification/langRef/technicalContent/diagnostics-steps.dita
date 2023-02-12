@@ -3,10 +3,10 @@
 <reference id="reference_yzs_bkf_knb">
     <title><xmlelement>diagnostics-steps</xmlelement></title>
     <shortdesc>The <xmlelement>diagnostics-steps</xmlelement> element
-    includes step-by-step information that can help readers determine which
-    cause and remedy pairs apply. Results of each diagnostic step might
-    link to the specific cause and remedy pair that is
-    applicable.</shortdesc>
+    includes step-by-step information that can help readers determine <ph
+      rev="review-e">the cause of the symptom</ph>. Results of <ph
+      rev="review-e">the diagnostic steps might link to potential
+      solutions.</ph></shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -36,9 +36,10 @@
         <example otherprops="examples">
             <title>Example</title>
             <p>The following code sample shows how the
-          <xmlelement>diagnostic-steps</xmlelement> element can provide
-        step-by-step instructions to help someone determine which cause and
-        repair pair is applicable to their problem:</p>
+          <xmlelement>diagnostics-steps</xmlelement> element can provide
+        step-by-step instructions to help someone determine <ph
+          rev="review-e">the cause of a problem and the potential
+          solution</ph>:</p>
             <codeblock>&lt;diagnostics>
   <b>&lt;diagnostics-steps></b>
     &lt;steps>
