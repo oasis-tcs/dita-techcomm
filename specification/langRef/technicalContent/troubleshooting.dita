@@ -3,10 +3,18 @@
  "reference.dtd">
 <reference id="troubleshooting" xml:lang="en-us">
   <title><xmlelement>troubleshooting</xmlelement></title>
-  <shortdesc>The <xmlelement>troubleshooting</xmlelement> element is the
-    top-level element for a troubleshooting topic. Troubleshooting topics
-    provide information that enables readers to identify, diagnosis, and
-    potentially remedy a problem situation.</shortdesc>
+  <shortdesc>The <xmlelement>troubleshooting</xmlelement> element is the top-level element for a
+    troubleshooting topic. Troubleshooting topics provide information that enables readers to
+    identify, diagnosis, and potentially remedy a problem situation.<draft-comment author="nancylph"
+      disposition="Completed">
+      <p>diagnose, not diagnosis</p>
+      <div>
+        <p>Kris Eberlein, 08 February 2023</p>
+        <p> Thanks for catching this. I've corrected it. And changed the 2nd sentence to read
+          "Troubleshooting topics provide information that enables readers to identify a condition,
+          diagnose a cause, and potentially fix the problem."</p>
+      </div>
+    </draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,6 +33,28 @@
         solution to the problem that is described in the condition.
         Troubleshooting topics represent the kind of information that users
         typically consult to fix a problem.</p>
+      <draft-comment author="dstevens73" disposition="Accepted">Is everyone ok with "pairs" –
+        technically, it doesn't have to be a pair. &lt;troubleSolution> can contain one or more of
+        &lt;cause> and &lt;remedy>. maybe "combinations" would be more accurate? that said, I like
+        pairs, it's just not technically accurate.  <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>I went and looked at the DITA 1.3 topic. The current content of "Usage information" is
+            the 1.3 content plus a sentence that was in an untitled section. I think it needs to be
+            reworked to cover the DITA 2.0 changes (addition of diagnostics, making the
+            &lt;troubleSolution> element optional) and the more precise wording that reviewers think
+            is needed.</p>
+          <p>I've (tentatively) changed the content of the section to read "Troubleshooting topics
+            begin with a description of a problem that the reader might want to correct. This can be
+            followed by diagnostic information and possible solutions to the problem."</p>
+        </div></draft-comment>
+      <draft-comment author="Stan Doherty">FWIW – diagnosis precedes root cause analysis (RCA). Why
+        are we recommending that RCA precede diagnosis? The truth is that some of the more simple
+        troubleshooting issues can begin with an obvious RCA. Most do not.  <div>
+          <p>Kris Eberlein, 10 February 2023</p>
+          <p>Is there a particular place in this topic (or collection of topics) where we recommend
+            that root cause analysis (RCA) precedes diagnosis? An example would really help me
+            respond to your comment.</p>
+        </div></draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,12 +64,17 @@
     <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample contains a troubleshooting topic. The
-        troubleshooting topic contains three cause and remedy pairs that
-        direct the user to perform sequential troubleshooting tasks:
-        Resetting the alarm, reseating the system memory board, and
-        replacing the memory board. Note that some steps are reused from
-        other topics.</p>
+      <p>The following code sample contains a troubleshooting topic. The troubleshooting topic
+        contains three cause and remedy pairs that direct the user to perform sequential
+        troubleshooting tasks: Resetting the alarm, reseating the system memory board, and replacing
+        the memory board. Note that some steps are reused from other topics.<draft-comment
+          author="dstevens73" disposition="Completed">in this case, the word pair is accurate. there
+          is a one to one relationship in each troubleSolution <div>
+            <p>Kris Eberlein, 12 February 2023</p>
+            <p>I've changed the second sentence to read: "The troubleshooting topic contains three
+                <xmlelement>troubleSolution</xmlelement>elements that direct the user to perform
+              sequential troubleshooting tasks: …"</p>
+          </div></draft-comment></p>
       <codeblock><b>&lt;troubleshooting id="E247" xml:lang="en-us"></b>
   &lt;title>&lt;msgph>&lt;msgnum>E247&lt;/msgnum>: Memory fault has occurred&lt;/msgph>&lt;/title>
   &lt;shortdesc>The system has detected a memory problem.&lt;/shortdesc>
@@ -80,6 +115,24 @@
     &lt;/troubleSolution>
   &lt;/troublebody>
 <b>&lt;/troubleshooting></b></codeblock>
+      <draft-comment author="dstevens73">I know that someone asked the question last time about the
+        logic of when elements are shown in context and when they are not. My instinct on this
+        example was to suggest adding diagnostics here and making on the solutions have a
+        responsible party, so all elements refer to the one master example. Since most of the
+        elements (except troubleBody) just show a portion of this example, is it necessary here?
+        Should the extracts in the other topics be conrefs? <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>I don't think we can have one troubleshooting example that we use for all elements.
+            Reasons:</p>
+          <ul>
+            <li>We'd have to develop an entirely new topic that included both
+                <xmlelement>diagnostics-general</xmlelement> and
+                <xmlelement>diagnostics-steps</xmlelement>.</li>
+            <li>The topic would be extremely long, and it would difficult for readers to locate the
+              specific markup. It might perhaps be too long for the PDF output; if the contents of a
+              code block covers more than a full page, our style sheets don't handle it well.</li>
+          </ul>
+        </div></draft-comment>
     </example>
   </refbody>
 </reference>

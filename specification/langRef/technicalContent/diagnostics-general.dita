@@ -2,11 +2,18 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="diagnostics-general">
     <title><xmlelement>diagnostics-general</xmlelement></title>
-    <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element
-    includes non-procedural information that can help determine which of
-    multiple cause and remedy pairs apply to a specific situation. Results
-    of the diagnostics might link to the specific cause and remedy pair
-    that applies to each result. </shortdesc>
+    <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element includes non-procedural
+    information that can help determine which of multiple cause and remedy pairs apply to a specific
+    situation. Results of the diagnostics might link to the specific cause and remedy pair that
+    applies to each result. <draft-comment author="dstevens73" disposition="Completed">which of
+      multiple causes apply. [apologies if my first comment is determined to be irrelevant, but I
+      thought I should be marking every place "pair" is used.] <div>
+        <p>Kris Eberlein, 10 February 2023</p>
+        <p>Changed to "The <xmlelement>diagnostics-general</xmlelement> element includes
+          non-procedural information that can help determine the cause of the symptom. Results of
+          the diagnoses might link to a possible solution."</p>
+      </div>
+    </draft-comment></shortdesc>
     <prolog>
     <metadata>
       <keywords>
@@ -35,12 +42,18 @@
       <p conkeyref="reuse-attributes/only-universal"/>
         </section>
         <example otherprops="examples">
-            <title>Example</title>
-            <p>The following code sample shows how the
-          <xmlelement>diagnostics-general</xmlelement> element can contain
-        a table to help a user determine which cause and remedy pair is
-        applicable.</p>
-            <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
+      <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>diagnostics-general</xmlelement>
+        element can contain a table to help a user determine which cause and remedy pair is
+          applicable.<draft-comment author="dstevens73" disposition="Completed">which cause is
+          applicable. The table then points the user to the corresponding remedy. <div>
+            <p>Kris Eberlein, 12 February 2023</p>
+            <p>Changed the introductory paragraph to read as follows: "The following code sample
+              shows how  the <xmlelement>diagnostics-general</xmlelement> element can contain a
+              table to help a reader determine the cause of a problem. The table then references the
+              associated remedy."</p>
+          </div></draft-comment></p>
+      <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
   &lt;title>Car is making funny noises.&lt;/title>
   &lt;shortdesc>You probably know how your vehicle sounds when it’s running
     properly. Listening to your car can help you troubleshoot problems. If
@@ -90,12 +103,42 @@
          &lt;remedy> elements. -->
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
-      <p>The table in the <xmlelement>diagnostic-general</xmlelement>
-        element might be rendered in the following way. The hyperlinks in
-        the "Probable cause" column resolve to the
+      <p>The table in the <xmlelement>diagnostic-general</xmlelement> element might be rendered in
+        the following way. The hyperlinks in the "Probable cause" column resolve to the
           <xmlelement>remedy</xmlelement> elements in the topic.</p>
-      <image placement="break" href="../../images/diagnostics-general.jpg"
-        scale="70"/>
-        </example>
+      <draft-comment author="nancylph" disposition="Completed">
+        <p>in the above paragraph, the element is diagnostics-general, not diagnostic-general</p>
+        <div>
+          <p>Kris Eberlein, 09 February 2023</p>
+          <p>Fixed.</p>
+        </div>
+      </draft-comment>
+      <draft-comment author="Stan Doherty" disposition="Referred">Not a realistic example outside
+        dialing into "Car Talk". :-) Typically there is a very specific symptom and a range of
+        possible root causes for that symptom. Hearing strange noises in my old car, at least, is
+        not deterministic, persistent, or worthy of a troubleshooting topic. I'll bet that we could
+        do a bang-up example on why a particular conkeyref does not resolve. <div>
+          <p>Kris Eberlein, 10 February 2023</p>
+          <p>Sigh. What content we use for examples is tricky. Is this realistic for a book about
+            taking care of your old car? Probably not. Is the content someone reading this spec
+            topic can understand. Probably yes.</p>
+          <p>As we've moved to trying to have "realistic examples," I think our first directive was
+            to get rid of the "Do this … Then do that …" type of stuff. In comparison to those sort
+            of examples, this one is very "realistic", and it probably took Dawn a few hours to put
+            it together. And I know I spent at least an hour finessing the line breaks and creating
+            the screen capture.</p>
+        </div></draft-comment>
+      <image placement="break" href="../../images/diagnostics-general.jpg" scale="70"/>
+      <draft-comment author="Kristen James Eberlein" time="09 February 2023">
+        <p>I think we need to change the screen capture and the sample mark up that it is based on.
+          For me, there is a disconnect between the column header "Probable cause" and the remedy
+          titles: "Checking the struts," etc.</p>
+        <p>Perhaps the contents of the 2nd column should read more like "Struts. Go to "Checking the
+          struts"?</p>
+        <div>
+          <p>Dawn: agreed. I like your proposed solution.</p>
+        </div>
+      </draft-comment>
+    </example>
     </refbody>
 </reference>

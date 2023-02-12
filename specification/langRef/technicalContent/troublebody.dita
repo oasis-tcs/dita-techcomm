@@ -3,10 +3,13 @@
  "reference.dtd">
 <reference id="troublebody" xml:lang="en-us" >
  <title><xmlelement>troublebody</xmlelement></title>
- <shortdesc>The <xmlelement>troublebody</xmlelement> element contains the
-    main content of the troubleshooting topic. The troubleshooting body can
-    contain information about the condition, diagnostic information, and
-    one or more possible solutions.</shortdesc>
+ <shortdesc>The <xmlelement>troublebody</xmlelement> element contains the main content of the
+  troubleshooting topic. The troubleshooting body can contain information about the condition,
+  diagnostic information, and one or more possible solutions. <draft-comment
+   author="Kristen James Eberlein" time="12 February 2023" disposition="Completed">
+   <p>Changed the 2nd sentence to read "The troubleshooting body can contain information about the
+    condition, how to diagnose the cause, and one or more possible solutions."</p>
+  </draft-comment></shortdesc>
  <prolog>
   <metadata>
    <keywords>

@@ -3,9 +3,10 @@
  "reference.dtd">
 <reference id="troubleSolution" xml:lang="en-us">
   <title><xmlelement>troubleSolution</xmlelement></title>
-  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element contains
-    a possible cause and remedy pair for the problem that is described in a
-    troubleshooting topic.</shortdesc>
+  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element contains a possible cause and
+    remedy pair for the problem that is described in a troubleshooting topic.<draft-comment
+      author="dstevens73">here, more than previously, I do think pair is
+    misleading.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -34,9 +35,13 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the
-          <xmlelement>troubleSolution</xmlelement> element contains a cause
-        and remedy pair:</p>
+      <p>In the following code sample, the <xmlelement>troubleSolution</xmlelement> element contains
+        a cause and remedy pair:</p>
+      <draft-comment author="dstevens73">here "pair" is accurate.</draft-comment>
+      <draft-comment author="Stan Doherty">System alarms tend to be hardware-oriented and serious –
+        bad mojo with LED lights and mini-console reports. Error messages tend to be generated from
+        software apps and appear in logs or console alerts. Not sure what "Reset the alarm" means
+        here.  </draft-comment>
       <codeblock><b>&lt;troubleSolution></b>
   &lt;cause>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
          transient memory fault.&lt;/cause>
@@ -50,6 +55,8 @@
   &lt;/remedy><b>
 &lt;/troubleSolution></b></codeblock>
       <!--<p>See <xref href="troubleshooting.dita"/>.</p>-->
+      <draft-comment author="dstevens73">why wouldn't this just refer to the larger example in
+        troubleshooting? should this at least be a conref</draft-comment>
     </example>
   </refbody>
 </reference>

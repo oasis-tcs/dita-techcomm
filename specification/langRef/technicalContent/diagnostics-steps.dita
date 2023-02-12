@@ -2,11 +2,18 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_yzs_bkf_knb">
     <title><xmlelement>diagnostics-steps</xmlelement></title>
-    <shortdesc>The <xmlelement>diagnostics-steps</xmlelement> element
-    includes step-by-step information that can help readers determine which
-    cause and remedy pairs apply. Results of each diagnostic step might
-    link to the specific cause and remedy pair that is
-    applicable.</shortdesc>
+    <shortdesc>The <xmlelement>diagnostics-steps</xmlelement> element includes step-by-step
+        information that can help readers determine which cause and remedy pairs apply. Results of
+        each diagnostic step might link to the specific cause and remedy pair that is
+            applicable.<draft-comment author="dstevens73" disposition="Completed">which cause
+            applies. Results of each diagnostic step might link to the specific remedy that is
+            applicable. <div>
+                <p>Kris Eberlein, 12 February 2023</p>
+                <p>Changed to read "The <xmlelement>diagnostics-steps</xmlelement> element includes
+                    step-by-step information that can help readers determine the cause of the
+                    symptom . Results of the diagnostic steps might link to potential
+                    solutions."</p>
+            </div></draft-comment></shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -39,6 +46,26 @@
           <xmlelement>diagnostic-steps</xmlelement> element can provide
         step-by-step instructions to help someone determine which cause and
         repair pair is applicable to their problem:</p>
+            <draft-comment author="dstevens73" disposition="Completed">"which cause applies to their
+                problem and therefore which remedy will solve the problem." In this case, the sample
+                topic implies in the comment section that the &lt;troubleSolution> contains just the
+                remedy element, not a pair. [and yes, I'm pretty sure I wrote these in the first
+                place...] <div>
+                    <p>Kris Eberlein, 12 February 2023</p>
+                    <p>@Dawn, many thanks for your rewording suggestions! I've changed this to read
+                        "The following code sample shows how the
+                            <xmlelement>diagnostic-steps</xmlelement> element can provide
+                        step-by-step instructions to help someone determine the cause of a problem
+                        and the potential solution:"</p>
+                </div></draft-comment>
+            <draft-comment author="nancylph" disposition="Completed">
+                <p>the element in the paragraph above should be diagnostics-steps, not
+                    diagnostic-steps</p>
+                <div>
+                    <p>Kris Eberlein, 09 February 2023</p>
+                    <p>Fixed.</p>
+                </div>
+            </draft-comment>
             <codeblock>&lt;diagnostics>
   <b>&lt;diagnostics-steps></b>
     &lt;steps>

@@ -3,11 +3,38 @@
 <reference id="diagnostics" xml:lang="en-us">
     <title><xmlelement>diagnostics</xmlelement></title>
   <abstract>
-    <!--<shortdesc>The <xmlelement>diagnostics</xmlelement> element is a container element for diagnostic elements that help users determine which of several possible causes discussed within the troubleshooting topic applies to the symptoms they are experiencing. Diagnostics may be provided in text or table format within <xmlelement>diagnostics-general</xmlelement> or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.<draft-comment author="robander" time="21 may 2021">Feels like the first sentence here could be simplified. Also would be nice to delete the word "users".</draft-comment></shortdesc>-->
-    <shortdesc>The <xmlelement>diagnostics</xmlelement> element contains
-      information that helps readers determine the cause of a problem and
-      what remediation steps are applicable.</shortdesc>
-  </abstract>
+        <!--<shortdesc>The <xmlelement>diagnostics</xmlelement> element is a container element for diagnostic elements that help users determine which of several possible causes discussed within the troubleshooting topic applies to the symptoms they are experiencing. Diagnostics may be provided in text or table format within <xmlelement>diagnostics-general</xmlelement> or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.<draft-comment author="robander" time="21 may 2021">Feels like the first sentence here could be simplified. Also would be nice to delete the word "users".</draft-comment></shortdesc>-->
+        <shortdesc>The <xmlelement>diagnostics</xmlelement> element contains information that helps
+            readers determine the cause of a problem and what remediation steps are
+            applicable.</shortdesc>
+        <draft-comment author="nancylph" disposition="Completed">
+            <p>'the cause of the problem' is concise and pithy; 'what remediation steps are
+                applicable' is much less so. So putting them together strikes my eye/ear as just a
+                bit strange. It couldn't simply be 'the cause of a problem and how to fix it'? </p>
+            <div>
+                <p>Kris Eberlein, 09 February 2023</p>
+                <p>It would be nice to simply say "the cause of a problem and how to fix it," but
+                    sometimes there won't actually be a remedy :(</p>
+                <p>Dawn: technically, I think we could leave out everything after the cause of the
+                    problem. Or maybe fix nancy's observation by saying "the cause of a problem, and
+                    if available, how to fix it"</p>
+            </div>
+            <div>
+                <p>Kris Eberlein, 10 February 2023</p>
+                <p>I've changed this to "The <xmlelement>diagnostics</xmlelement> element contains
+                    information that helps readers determine the cause of a problem."</p>
+            </div>
+        </draft-comment>
+        <draft-comment author="Stan Doherty">
+            <p>Not sure how to nuance it here, but one of the main justifications for teams
+                developing troubleshooting docs is preventing calls to Support. Relative to that
+                goal, any diagnostic section of a TS topic is there to assist the customer is
+                interpreting what she or he is seeing – messages, flashing LEDs, terrible
+                performance, etc.. It's actually a teaching moment. Having this element as part of
+                the DITA troubleshooting domain is really important. Investing in formal root cause
+                analysis is interpretive and, at $400 a Support call, can save lots of money. </p>
+        </draft-comment>
+    </abstract>
     <prolog>
         <metadata>
             <keywords>
@@ -26,6 +53,14 @@
         text-based content, including tables and flowcharts, while the
           <xmlelement>diagnostics-steps</xmlelement> element allows for the
         use of the <xmlelement>steps</xmlelement> element.</p>
+            <draft-comment author="dstevens73" disposition="Completed">when more than one possible
+                cause is applicable? again, the "pairs" is not entirely true, and the diagnostics, I
+                believe, is to determine which cause applies. the remedy is then nice to also have,
+                but its not the direct thing the diagnosis is determining. <div>
+                    <p>Kris Eberlein, 10 February 2023</p>
+                    <p>Changed the first sentence to read: "Diagnostic information is useful when
+                        there is more than one potential cause associated with a symptom."</p>
+                </div></draft-comment>
         </section>
         <section id="specialization-hierarchy">
             <title>Specialization hierarchy</title>

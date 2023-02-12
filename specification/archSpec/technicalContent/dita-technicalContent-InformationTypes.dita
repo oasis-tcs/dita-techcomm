@@ -2,8 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita_technicalContent_InformationTypes" xml:lang="en-US"> 
   <title>Topic and map document types</title> 
-  <shortdesc>The Technical Content package contains various document types:
-    concept, glossary entry, glossary group, reference, general task,
-    strict task, and troubleshooting. The package also includes the bookmap
-    document type.</shortdesc> 
+  <shortdesc>The Technical Content package contains various document types: concept, glossary entry,
+    glossary group, reference, general task, strict task, and troubleshooting. The package also
+    includes the bookmap document type.</shortdesc> 
 </concept> 

@@ -1,67 +1,105 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita-troubleshooting-topic" xml:lang="en-us"
  > 
   <title>Troubleshooting</title> 
-  <shortdesc>Troubleshooting topics are designed to document corrective
-    action, such as troubleshooting and alarm clearing.</shortdesc> 
+  <shortdesc>Troubleshooting topics are designed to document corrective action, such as
+        troubleshooting and alarm clearing.<draft-comment author="Stan Doherty">Recommend
+            "Troubleshooting topics are designed to document diagnostic and corrective action" . . .
+        </draft-comment></shortdesc> 
   <conbody>
     <section id="purpose">
-      <title>Purpose</title>
-      <p>Troubleshooting topics serve the following purposes:</p>
-      <ol>
-        <li>Define the condition or symptom, which usually is an
-          undesirable state in a system, a product, or a service that a
-          reader wants to correct</li>
-        <li>Provide information that helps the reader diagnose which cause
-          and remedy pairs apply</li>
-        <li>Explain the cause of the condition or symptom, if it is known,
-          and describe how to remedy the condition or symptom, if
-          possible</li>
-      </ol>
-    </section>
+            <title>Purpose</title>
+            <p>Troubleshooting topics serve the following purposes:</p>
+            <ol>
+                <li>Define the condition or symptom, which usually is an undesirable state in a
+                    system, a product, or a service that a reader wants to correct</li>
+                <li>Provide information that helps the reader diagnose which cause and remedy pairs
+                        apply<draft-comment author="dstevens73">which cause
+                    applies</draft-comment></li>
+                <li>Explain the cause of the condition or symptom, if it is known, and describe how
+                    to remedy the condition or symptom, if possible</li>
+            </ol>
+            <draft-comment author="Stan Doherty">The third list item seems redundant to the first
+                two. </draft-comment>
+        </section>
     <section id="content-model">
-      <title>Content model</title>
-      <p>The troubleshooting topic is divided into three parts:</p>
-      <dl>
-        <dlentry>
-          <dt>Condition</dt>
-          <dd>This portion of the topic can contain a <xref
-              keyref="elements-condition"
-                ><xmlelement>condition</xmlelement></xref> element. This
-            element is optional, as often the problematic condition can be
-            adequately described in the title and short description.</dd>
-        </dlentry>
-        <dlentry>
-          <dt>Diagnosis</dt>
-          <dd>This portion of the topic provides information that helps
-            determine which cause and remedy pair applies to a given
-            situation. It can contain the following elements: <xref
-              keyref="elements-diagnostics-general"
-                ><xmlelement>diagnostics-general</xmlelement></xref> and
-              <xref keyref="elements-diagnostics-steps"
-                ><xmlelement>diagnostics-steps</xmlelement></xref>.</dd>
-        </dlentry>
-        <dlentry>
-          <dt>Trouble solution</dt>
-          <dd>This portion of the topic provides information about how to
-            remedy the problematic solution. It can contain multiple <xref
-              keyref="elements-cause"><xmlelement>cause</xmlelement></xref>
-            and <xref keyref="elements-remedy"
-                ><xmlelement>remedy</xmlelement></xref> pairs.</dd>
-          <dd>
-            <p>Cause and remedy might occur in combinations other than
-              pairs. It is possible to have:</p>
-            <ul>
-              <li>Multiple causes with the same remedy </li>
-              <li>A single cause with more than one remedy </li>
-              <li>A remedy with no known cause </li>
-              <li>A cause with no known remedy </li>
-            </ul>
-          </dd>
-        </dlentry>
-      </dl>
-    </section>
+            <title>Content model</title>
+            <p>The troubleshooting topic is divided into three parts:</p>
+            <draft-comment author="nancylph">
+                <p>the first and third items in this list mirror the names of the elements we use
+                    for them, but the middle one uses 'diagnosis' rather than diagnostics. Do we
+                    want to keep this, or not?</p>
+                <p>Dawn: I think it's fine. the connection seems clear to me.</p>
+            </draft-comment>
+            <dl>
+                <dlentry>
+                    <dt>Condition</dt>
+                    <dd>This portion of the topic can contain a <xref keyref="elements-condition"
+                                ><xmlelement>condition</xmlelement></xref> element. This element is
+                        optional, as often the problematic condition can be adequately described in
+                        the title and short description.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Diagnosis</dt>
+                    <dd>This portion of the topic provides information that helps determine which
+                        cause and remedy pair applies to a given situation. It can contain the
+                        following elements: <xref keyref="elements-diagnostics-general"
+                                ><xmlelement>diagnostics-general</xmlelement></xref> and <xref
+                            keyref="elements-diagnostics-steps"
+                                ><xmlelement>diagnostics-steps</xmlelement></xref>.<draft-comment
+                            author="dstevens73">which cause applies </draft-comment><draft-comment
+                            author="Stan Doherty">or . . . "which causes and remedies apply" . . .
+                        </draft-comment></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Trouble solution</dt>
+                    <dd>
+                        <draft-comment author="Kristen James Eberlein" time="07 February 2023">
+                            <p>The "definition" here needs to be reworded. It probably should
+                                address the following points:</p>
+                            <ul>
+                                <li>A troubleshooting topic must contain at least one
+                                        <xmlelement>troublesolution</xmlelement> element.</li>
+                                <li>A <xmlelement>troublesolution</xmlelement> must contain either a
+                                        <xmlelement>cause</xmlelement>
+                                        or<xmlelement>remedy</xmlelement> element.</li>
+                                <li>A <xmlelement>remedy</xmlelement> element must include either
+                                        <xmlelement>steps</xmlelement> or
+                                        <xmlelement>steps-unordered</xmlelement>.</li>
+                            </ul>
+                            <p>Dawn: remedy can also include &lt;steps-informal>; in all cases make
+                                sure it is &lt;troubleSolution>, with the capital S. Also, I thought
+                                we changed the model in 2.0 to not require a &lt;troubleSolution> –
+                                it's possible the topic's purpose is just diagnostics.</p>
+                        </draft-comment>This portion of the topic provides information about how to
+                        remedy the problematic solution. It can contain multiple <xref
+                            keyref="elements-cause"><xmlelement>cause</xmlelement></xref> and <xref
+                            keyref="elements-remedy"><xmlelement>remedy</xmlelement></xref>
+                            pairs.<draft-comment author="nancylph" disposition="Completed">
+                            <p>I don't think we want to remedy a 'problematic solution'. We want to
+                                remedy a problem by providing a solution.</p>
+                            <div>
+                                <p>Kris Eberlein, 08 February 2023</p>
+                                <p>Too true! Thanks for catching this. Changed "problematic
+                                    solution" to "problem".</p>
+                            </div>
+                        </draft-comment></dd>
+                    <dd>
+                        <p>Cause and remedy might occur in combinations other than pairs. It is
+                            possible to have:</p>
+                        <ul>
+                            <li>Multiple causes with the same remedy </li>
+                            <li>A single cause with more than one remedy </li>
+                            <li>A remedy with no known cause </li>
+                            <li>A cause with no known remedy </li>
+                        </ul>
+                    </dd>
+                </dlentry>
+            </dl>
+            <draft-comment author="dstevens73">Yes! This is my point throughout about why I was
+                working to eliminate the word "pairs"</draft-comment>
+        </section>
     <example id="example" otherprops="examples">
       <title>Examples</title>
       <p>This section of the topics contains examples of troubleshooting
@@ -98,13 +136,23 @@
       </fig>
       <fig>
         <title>Complex troubleshooting topic</title>
-        <p>The following code sample shows a complex troubleshooting topic
-          about "Blinking printer lights." It contains a
-            <xmlelement>diganostics-general</xmlelement> elements that
-          contains a table that outlines  printer light conditions and the
-          associated remedies. It also includes several
-            <xmlelement>troubesolution</xmlelement> elements that reuses
-          steps from other DITA topics.</p>
+        <p>The following code sample shows a complex troubleshooting topic about "Blinking printer
+                    lights." It contains a <xmlelement>diganostics-general</xmlelement> elements
+                    that contains a table that outlines printer light conditions and the associated
+                    remedies. It also includes several <xmlelement>troubesolution</xmlelement>
+                    elements that reuses steps from other DITA topics.<draft-comment
+                        author="nancylph">
+                        <p>Couple of things: 1) the diagnostics-general element is mis-spelled. 2)
+                            There is only a single instance of that element, so it should say
+                            'element' not 'elements' 3) the troublesolution element is also
+                            mis-spelled and 4) also has a disagreement between the multiple
+                            instances and the singular 'reuses' verb.</p>
+                    </draft-comment><draft-comment author="Stan Doherty">The phrase "associated
+                        remedies" assumes that we writers are fairly confident that Cause-X is
+                        closely associated with Remedy-Y. It may be prudent to go with "possible
+                        remedies".</draft-comment><draft-comment author="dstevens73">In the example,
+                        the remedies "clean" and "ink" do not have explicit conrefs to show the
+                        reuse, they just appear to be empty steps.</draft-comment></p>
         <codeblock>troubleshooting id="blinking-lights">
   &lt;title>Blinking printer lights&lt;/title>
   &lt;troublebody>

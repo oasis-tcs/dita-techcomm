@@ -38,10 +38,16 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the
-          <xmlelement>condition</xmlelement> element contains information
-        that elaborates on the information provided by the title and short
-        description:</p>
+      <p>In the following code sample, the <xmlelement>condition</xmlelement> element contains
+        information that elaborates on the information provided by the title and short
+          description:<draft-comment author="Stan Doherty">Nit - hardware documentation
+          differentiates between a system receiving power and it powering up. Just flicking the
+          power switch will "turn it on", but it may not power up across all its internal
+          components.  <div>
+            <p>Kris Eberlein, 12 February 2023</p>
+            <p>Can you suggest wording that would handle your nit?</p>
+            <p>FYI, this was an example topic in the "DITA 1.3 Troubleshooting" whitepaper.</p>
+          </div></draft-comment></p>
       <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
   &lt;title>System will not turn on&lt;/title>
   &lt;shortdesc>Everything looks right, but the system still does not start.&lt;/shortdesc>
@@ -59,16 +65,27 @@
           <xmlelement>condition</xmlelement> element eliminated:</p>
       <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
   &lt;title>System will not turn on&lt;/title>
-  <b>&lt;shortdesc>he system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc>
+  <b>&lt;shortdesc>he system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc><draft-comment author="dstevens73">Missing "T" at the beginning of shortdesc</draft-comment>
   &lt;troublebody></b>
     &lt;troubleSolution>
       &lt;!-- ... -->
     &lt;/troubleSolution>
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
-      <p>How implementations choose what markup patterns they use might
-        depend on their stylesheets and how they deliver troubleshooting
-        information to readers.</p>
+      <draft-comment author="Stan Doherty">The next paragraph seems introductory to troubleshooting
+        in general. Not particularly detailed or relevant to &lt;condition>. <div>
+          <p>Kris Eberlein, 11 February 2023</p>
+          <p>I agree that the paragraph is applicable to the troubleshooting topic in general.
+            However, I think it is germane here because the example presents two different ways of
+            describing the condition:</p>
+          <ul>
+            <li>Title and short description</li>
+            <li> Title, short description, and <xmlelement>condition</xmlelement></li>
+          </ul>
+          <p>In my experience, an implementation usually picks one of these two approaches. </p>
+        </div></draft-comment>
+      <p>How implementations choose what markup patterns they use might depend on their stylesheets
+        and how they deliver troubleshooting information to readers.</p>
     </example>
   </refbody>
 </reference>

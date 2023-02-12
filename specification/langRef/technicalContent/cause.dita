@@ -4,7 +4,9 @@
 <reference id="cause" xml:lang="en-us">
   <title><xmlelement>cause</xmlelement></title>
   <shortdesc>The <xmlelement>cause</xmlelement> element describes a potential source of the problem
-    that is described in the troubleshooting topic.</shortdesc>
+    that is described in the troubleshooting topic. <draft-comment author="Kristen James Eberlein"
+      time="12 February 2023" disposition="Completed">Changed to "The <xmlelement>cause</xmlelement>
+      element describes a potential source of the problem.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,9 +22,29 @@
       <p>The <xmlelement>cause</xmlelement> element is a component of a
         cause and remedy pair. The cause might be omitted if it is implicit
         or if the remedy is not associated with a cause.</p>
+      <draft-comment author="dstevens73" disposition="Completed">a component of &lt;troubleSolution> <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>Changed to read "The <xmlelement>cause</xmlelement> element is a component of potential
+            solution."</p>
+        </div></draft-comment>
       <p>This information should be brief. If it is not possible to make
         the information brief, this might be a sign that a full
         troubleshooting topic is needed.</p>
+      <draft-comment author="nancylph" disposition="Completed">
+        <p>I find this a bit confusing. My impression is that a cause can only appear in a
+          troubleshooting topic (I had thought it could appear elsewhere, but that doesn't seem to
+          be the case from the 1.3 spec) If it can only appear in a troubleshooting topic, then why
+          would a 'full troubleshooting topic' only be required for it sometimes?</p>
+        <div>
+          <p>Kris Eberlein, 09 February 2023</p>
+          <p>I agree. I think the paragraph should be deleted. I think that such information was
+            originally written for the embedded troubleshooting elements: <xmlelement>note
+              type="trouble</xmlelement>, <xmlelement>steptroubleshooting</xmlelement>, and
+              <xmlelement>tasktroubleshooting</xmlelement>. It does make sense for those
+            elements.</p>
+          <p>I've deleted the paragraph from the DITA source.</p>
+        </div>
+      </draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -38,6 +60,63 @@
       <p>In the following code sample, the <xmlelement>cause</xmlelement>
         element contains information that explains the origins of the
         problem:</p>
+      <draft-comment author="nancylph" disposition="Open">
+        <p>under the &lt;cause> section below, the word 'the' is repeated, once at the end of the
+          first line, and then at the beginning of the second</p>
+        <div>
+          <p>Kris Eberlein, 09 February 2023</p>
+          <p>Fixed.</p>
+          <p>Dawn: This wouldn't have needed fixing if this was either just a reference to the main
+            troubleshooting topic or a conref of the section it is repeating. </p>
+        </div>
+        <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>Yes, we could simply have a cross reference to the
+              <xmlelement>troubleshooting</xmlelement> topic. That strategy has two potential
+            disadvantages:</p>
+          <ul>
+            <li>It forces the reader to read through the XML source for an entire topic, rather than
+              seeing a smaller snippet: where the  <xmlelement>cause</xmlelement> element fits
+              within  <xmlelement>troubleSolution</xmlelement>.</li>
+            <li>It does not allow us to use the introductory paragraph to provide more context about
+              the  <xmlelement>cause</xmlelement> element.</li>
+          </ul>
+          <p>Yes, we could conref a  <xmlelement>codeblock</xmlelement> element. However, then we
+            cannot highlight the element that is being showcased.</p>
+          <p>Changing the disposition of the comment from "Completed" to "Open".</p>
+        </div>
+      </draft-comment>
+      <draft-comment author="Stan Doherty" disposition="Open">Note that the content in the
+        &lt;cause> example contains a suggested solution. Premature. If, based on what is in
+        &lt;cause>, the customer reseats the board and something gets fried – my company is on the
+        hook to replace/service the board for free. Support teams want customers to have maximum
+        context before performing a corrective action. Separating cause analysis from remedies is a
+        best practice. This example appears in multiple sections. <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>@Stan, I think you are raising several points here, so I'll list them in an ordered
+            list (in order to make talking about the points easier):</p>
+          <ol>
+            <li>
+              <p><b>Quality of examples.</b> Here in the spec, we need to straddle the line between
+                "realistic examples" and examples that are simple enough for the spec reader to
+                grasp. Obviously, this is especially difficult for troubleshooting topics, which can
+                be complex both in structure and in content. </p>
+              <p>This example appeared in the DITA 1.3 spec, however, it did use the
+                  <xmlelement>responsibleParty</xmlelement> element to indicate that reseating the
+                board is a task that should be performed by a maintenance technician. Would you be
+                more comfortable if this example added that element back? Or do you want to create
+                an alternate example?</p>
+            </li>
+            <li><b>Separating causes from remedies.</b> Is your concern with the 2nd sentence in the
+                <xmlelement>cause</xmlelement> element? We could remove it. I do want to comment
+              that the very nature of the <xmlelement>troubleSolution</xmlelement> element suggests
+              that there is a relationship between a cause and a remedy.</li>
+            <li><b>Modeling best practices for troubleshooting topic content.</b> While we don't
+              want to have any egregious content in spec examples, we really cannot expect these
+              topics to model authoring best practices. That is always going to be something that an
+              individual company needs to decide for their content authors.</li>
+          </ol>
+        </div></draft-comment>
       <codeblock>&lt;troubleSolution>
   <b>&lt;cause></b>A recurring memory fault indicates a possible problem with the
          the system memory board. Reseating the board might fix the problem.

@@ -2,10 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="reference_xm5_sqz_vm">
   <title>Troubleshooting elements</title>
-  <shortdesc>Troubleshooting elements provide the fundamental structure for
-    troubleshooting topics. Troubleshooting topics outline problem
-    conditions and aid readers in diagnosing and remedying the
-    situation.</shortdesc>
+  <shortdesc>Troubleshooting elements provide the fundamental structure for troubleshooting topics.
+    Troubleshooting topics outline problem conditions and aid readers in diagnosing and remedying
+    the situation. <draft-comment author="Kristen James Eberlein" time="10 February 2023">
+      <p>Suggest changing the 2nd sentence to "Troubleshooting topics describe problems and provide
+        information about how to fix them."</p>
+    </draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>

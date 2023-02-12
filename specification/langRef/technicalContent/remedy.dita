@@ -4,7 +4,12 @@
 <reference id="remedy" xml:lang="en-us">
   <title><xmlelement>remedy</xmlelement></title>
   <shortdesc>The <xmlelement>remedy</xmlelement> element contains steps that are a potential
-    solution for the problem described in the troubleshooting topic.</shortdesc>
+    solution for the problem described in the troubleshooting topic.<draft-comment
+      author="Kristen James Eberlein" time="12 February 2023" disposition="Completed">Changed to
+      read "The <xmlelement>remedy</xmlelement> element contains steps that are a potential solution
+      for the problem."</draft-comment><draft-comment author="Kristen James Eberlein"
+      time="12 February 2023">The short description should maybe mention that &lt;remedy> can
+      contain &lt;responsibleParty>.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,6 +25,12 @@
       <p>The <xmlelement>remedy</xmlelement> element is a component of a
         cause and remedy pair. The remedy might be omitted if there is no
         known remedy for the cause.</p>
+      <draft-comment author="dstevens73" disposition="Completed">component of a &lt;troubleSolution>
+        element. <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>Changed the first sentence to read "The <xmlelement>remedy</xmlelement> element is a
+            component of potential solution."</p>
+        </div></draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -37,6 +48,22 @@
         the problem. Note that rather than cross-referencing to another
         topic, the <xmlelement>steps</xmlelement> element from an existing
         topic is reused.</p>
+      <draft-comment author="nancylph" disposition="Open">
+        <p>under the &lt;cause> section below, the word 'the' is repeated, once at the end of the
+          first line, and then at the beginning of the second</p>
+        <div>
+          <p>Kris Eberlein, 09 February 2023</p>
+          <p>Fixed.</p>
+          <p>Dawn: should this just be a reference to the main example? or a conref of the section
+            from that example?</p>
+        </div>
+        <div>
+          <p>Kris Eberlein, 12 February 2023</p>
+          <p>Unfortunately, we cannot conref a portion of a code sample without introducing markup
+            into the code sample. We could put the code snippet into a TXT file and use
+              <xmlelement>coderef</xmlelement> to include it ...</p>
+        </div>
+      </draft-comment>
       <codeblock>&lt;troubleSolution>
   &lt;cause>A recurring memory fault indicates a possible problem with the
          the system memory board. Reseating the board might fix the problem.

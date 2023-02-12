@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="responsibleParty" xml:lang="en-us">
-  <title><xmlelement>responsibleParty</xmlelement></title>
+  <title><xmlelement> responsibleParty</xmlelement></title>
   <shortdesc>The <xmlelement>responsibleParty</xmlelement> element identifies the individual or team whose task it is to perform a remedy procedure.</shortdesc>
   <prolog>
     <metadata>
@@ -18,6 +18,40 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>responsibleParty</xmlelement> element is specialized from
           <xmlelement>p</xmlelement>. It is defined in the troubleshooting module.</p>
+      <p>
+        <draft-comment author="Kristen James Eberlein" time="07 February 2023">
+          <p>Why is this specialized from <xmlelement>p</xmlelement>? I know that we included the
+            element because it was part of the IBM troublehooting specialization, but I think it
+            should be specialized from <xmlelement>data</xmlelement>, so it is not rendered by
+            default. It's metadata that implementations might use to generate some text, but I can't
+            imagine that anyone wants it rendered by default.</p>
+          <div>
+            <p>Dawn: All my clients who use it do want it rendered, if that counts for anything.
+              They want readers of the content to understand that there are some things they should
+              not attempt on their own – they don't have the right permissions, it voids their
+              warranty, etc. We tend to implement special formatting on it – making it look like a
+              note or similar to call attention to the restriction at the beginning of the remedy
+              section.</p>
+          </div>
+          <div>
+            <p>@Dawn, I'm sure that your clients want something rendered from the
+                <xmlelement>responsibleParty</xmlelement> element. But, do they ever render just the
+              contents of the element? Or are they using the element to contain more than the name
+              of the responsible party?</p>
+            <p>Given the example in this topic, if it was rendered as-is, there would just be the
+              following preceding the steps:</p>
+            <codeblock> &lt;p>IT technical support&lt;/p></codeblock>
+            <p>Can you provide some examples of what your clients put n ths element?</p>
+          </div>
+          <div>
+            <p>Kris Eberlein, 12 February 2023</p>
+            <p>I wonder if we should redesign this element, if it is intended to be rendered. New
+              name, new definition, new examples. In particular, maybe we should broaden the element
+              to not just include the name of the "responsible party," but also any needed warnings
+              or notes ...</p>
+          </div>
+        </draft-comment>
+      </p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
