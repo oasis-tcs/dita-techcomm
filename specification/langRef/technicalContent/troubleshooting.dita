@@ -21,9 +21,10 @@
     <section id="usage-information">
       <title>Usage information</title>
       <!--<p>Troubleshooting topics begin with a description of a condition that the reader might want to correct, followed by one or more cause and remedy pairs. Each cause and remedy pair is a potential solution to the problem that is described in the condition. Troubleshooting topics represent the kind of information that users typically consult to fix a problem.</p>-->
-      <p>Troubleshooting topics begin with a description of a problem that
-        the reader might want to correct. This can be followed by
-        diagnostic information and possible solutions to the problem.</p>
+      <p rev="review-e">Troubleshooting topics begin with a description of
+        a problem that the reader might want to correct. This can be
+        followed by diagnostic information and possible solutions to the
+        problem.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
