@@ -5,8 +5,9 @@
  <title><xmlelement>troublebody</xmlelement></title>
  <shortdesc>The <xmlelement>troublebody</xmlelement> element contains the
     main content of the troubleshooting topic. The troubleshooting body can
-    contain information about the condition, diagnostic information, and
-    one or more possible solutions.</shortdesc>
+    contain information about the condition,  <ph rev="review-e">how to
+      diagnose the cause</ph>, and one or more possible
+    solutions.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
@@ -17,7 +18,6 @@
   </metadata>
  </prolog>
  <refbody>
-    <!--<section id="usage-information"><title>Usage Information</title><p>Troubleshooting topics limit the body structure to a single optional condition, followed by diagn followed by one or more solutions.</p></section>-->
   <section id="specialization-hierarchy">
    <title>Specialization hierarchy</title>
    <p>The <xmlelement>troublebody</xmlelement> element is specialized from

@@ -45,10 +45,11 @@
         <dlentry>
           <dt>Trouble solution</dt>
           <dd>This portion of the topic provides information about how to
-            remedy the problematic solution. It can contain multiple <xref
-              keyref="elements-cause"><xmlelement>cause</xmlelement></xref>
-            and <xref keyref="elements-remedy"
-                ><xmlelement>remedy</xmlelement></xref> pairs.</dd>
+            remedy the <ph rev="review-e">problem</ph>. It can contain
+            multiple <xref keyref="elements-cause"
+                ><xmlelement>cause</xmlelement></xref> and <xref
+              keyref="elements-remedy"
+              ><xmlelement>remedy</xmlelement></xref> pairs.</dd>
           <dd>
             <p>Cause and remedy might occur in combinations other than
               pairs. It is possible to have:</p>

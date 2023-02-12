@@ -2,11 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="diagnostics-general">
     <title><xmlelement>diagnostics-general</xmlelement></title>
-    <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element
-    includes non-procedural information that can help determine which of
-    multiple cause and remedy pairs apply to a specific situation. Results
-    of the diagnostics might link to the specific cause and remedy pair
-    that applies to each result. </shortdesc>
+  <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element <ph
+      rev="review-e">includes non-procedural information that can help
+      determine the cause of the symptom. Results of the diagnoses might
+      link to a possible solution.</ph></shortdesc>
     <prolog>
     <metadata>
       <keywords>
@@ -38,8 +37,9 @@
             <title>Example</title>
             <p>The following code sample shows how the
           <xmlelement>diagnostics-general</xmlelement> element can contain
-        a table to help a user determine which cause and remedy pair is
-        applicable.</p>
+        a table to help a <ph rev="review-e">reader determine the cause of
+          a problem. The table then references the associated
+        remedy.</ph></p>
             <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
   &lt;title>Car is making funny noises.&lt;/title>
   &lt;shortdesc>You probably know how your vehicle sounds when it’s running
@@ -90,7 +90,7 @@
          &lt;remedy> elements. -->
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
-      <p>The table in the <xmlelement>diagnostic-general</xmlelement>
+      <p>The table in the <xmlelement>diagnostics-general</xmlelement>
         element might be rendered in the following way. The hyperlinks in
         the "Probable cause" column resolve to the
           <xmlelement>remedy</xmlelement> elements in the topic.</p>

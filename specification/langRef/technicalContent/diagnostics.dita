@@ -2,12 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="diagnostics" xml:lang="en-us">
     <title><xmlelement>diagnostics</xmlelement></title>
-  <abstract>
-    <!--<shortdesc>The <xmlelement>diagnostics</xmlelement> element is a container element for diagnostic elements that help users determine which of several possible causes discussed within the troubleshooting topic applies to the symptoms they are experiencing. Diagnostics may be provided in text or table format within <xmlelement>diagnostics-general</xmlelement> or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.<draft-comment author="robander" time="21 may 2021">Feels like the first sentence here could be simplified. Also would be nice to delete the word "users".</draft-comment></shortdesc>-->
-    <shortdesc>The <xmlelement>diagnostics</xmlelement> element contains
-      information that helps readers determine the cause of a problem and
-      what remediation steps are applicable.</shortdesc>
-  </abstract>
+  <!--<shortdesc>The <xmlelement>diagnostics</xmlelement> element is a container element for diagnostic elements that help users determine which of several possible causes discussed within the troubleshooting topic applies to the symptoms they are experiencing. Diagnostics may be provided in text or table format within <xmlelement>diagnostics-general</xmlelement> or in step-by-step format within <xmlelement>diagnostics-steps</xmlelement>.<draft-comment author="robander" time="21 may 2021">Feels like the first sentence here could be simplified. Also would be nice to delete the word "users".</draft-comment></shortdesc>-->
+  <shortdesc>The <xmlelement>diagnostics</xmlelement> element <ph
+      rev="review-e"/>contains information that helps readers determine the
+    cause of a problem.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -20,10 +18,11 @@
     <refbody>
         <section id="usage-information">
             <title>Usage information</title>
-      <p>Diagnostic information is useful when more than one possible cause
-        and remedy pairs are applicable. The
-          <xmlelement>diagnostics-general</xmlelement> element permits
-        text-based content, including tables and flowcharts, while the
+      <p>Diagnostic information is useful when <ph rev="review-e">when
+          there is more than one potential cause associated with a
+          symptom</ph>. The <xmlelement>diagnostics-general</xmlelement>
+        element permits <ph rev="review-e">content that includes</ph>
+        tables and flowcharts, while the
           <xmlelement>diagnostics-steps</xmlelement> element allows for the
         use of the <xmlelement>steps</xmlelement> element.</p>
         </section>
