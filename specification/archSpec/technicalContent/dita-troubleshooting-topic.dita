@@ -71,7 +71,7 @@
         <title>Simple troubleshooting topic</title>
         <p>The following code sample shows a simple troubleshooting topic.
           The title and short description describe the problem, and the
-          single <xmlelement>troublesolution</xmlelement> element contains
+          single <xmlelement>troubleSolution</xmlelement> element contains
           explanations of the cause of the problem and how to remedy
           it.</p>
         <codeblock>&lt;troubleshooting id="oasis-spec-not-rendered-correctly">
@@ -100,12 +100,12 @@
       <fig>
         <title>Complex troubleshooting topic</title>
         <p>The following code sample shows a complex troubleshooting topic
-          about "Blinking printer lights." It contains a
-            <xmlelement>diganostics-general</xmlelement> elements that
-          contains a table that outlines  printer light conditions and the
-          associated remedies. It also includes several
-            <xmlelement>troubesolution</xmlelement> elements that reuses
-          steps from other DITA topics.</p>
+          about "Blinking printer lights." It contains a <ph rev="review-e"
+              ><xmlelement>diagnostics-general</xmlelement> element</ph>
+          that contains a table that outlines printer light conditions and
+            <ph rev="review-e">possible</ph> remedies. It also includes
+          several <xmlelement>troubleSolution</xmlelement> elements that
+            <ph rev="review-e">reuse</ph> steps from other DITA topics.</p>
         <codeblock>troubleshooting id="blinking-lights">
   &lt;title>Blinking printer lights&lt;/title>
   &lt;troublebody>
@@ -163,16 +163,16 @@
   &lt;/troubleSolution>
   &lt;troubleSolution>
     &lt;remedy id="clean">
-      &lt;title>Cleaning ink cartridge&lt;/title>
-      &lt;steps>
+      &lt;title>Cleaning ink cartridges&lt;/title>
+      &lt;steps <ph rev="review-e">conkeyref="clean-cartridge/steps"</ph>>
         &lt;step>&lt;cmd/>&lt;/step>
       &lt;/steps>
     &lt;/remedy>
   &lt;/troubleSolution>
   &lt;troubleSolution>
     &lt;remedy id="ink">
-      &lt;title>Replacing ink cartridge&lt;/title>
-      &lt;steps>
+      &lt;title>Replacing ink cartridges&lt;/title>
+      &lt;steps <ph rev="review-e">conkeyref="replace-ink/steps"</ph>>
         &lt;step>&lt;cmd/>&lt;/step>
       &lt;/steps>
     &lt;/remedy>
