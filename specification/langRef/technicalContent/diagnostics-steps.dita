@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="reference_yzs_bkf_knb">
-    <title><xmlelement>diagnostics-steps</xmlelement></title>
-    <shortdesc>The <xmlelement>diagnostics-steps</xmlelement> element
-    includes step-by-step information that can help readers determine <ph
-      rev="review-e">the cause of the symptom</ph>. Results of <ph
-      rev="review-e">the diagnostic steps might link to potential
+<reference id="diagnostics-steps">
+  <title><xmlelement>diagnostics-steps</xmlelement></title>
+  <shortdesc id="shortdesc">The <xmlelement>diagnostics-steps</xmlelement>
+    element includes step-by-step information that can help readers
+    determine <ph rev="review-e">the cause of the symptom</ph>. Results of
+      <ph rev="review-e">the diagnostic steps might link to potential
       solutions.</ph></shortdesc>
-    <prolog>
-        <metadata>
-            <keywords>
-                <indexterm><xmlelement>diagnostics-steps</xmlelement></indexterm>
-                <indexterm>troubleshooting
-                            elements<indexterm><xmlelement>diagnostics-steps</xmlelement></indexterm></indexterm>
-            </keywords>
-        </metadata>
-    </prolog>
-    <refbody>
-        <section id="section_tp4_2kf_knb">
-            <title>Usage information</title>
-            <p>This element is helpful for situations where the reader must
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm><xmlelement>diagnostics-steps</xmlelement></indexterm>
+        <indexterm>troubleshooting
+              elements<indexterm><xmlelement>diagnostics-steps</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>This element is helpful for situations where the reader must
         perform a series of steps to determine the cause of the
         problem.</p>
-        </section>
-        <section id="section_up4_2kf_knb">
-            <title>Specialization hierarchy</title>
-            <p>The <xmlelement>diagnostics-steps</xmlelement> element is specialized from
-                    <xmlelement>section</xmlelement>. It is defined in the troubleshooting
-                module.</p>
-        </section>
-        <section id="section_vp4_2kf_knb">
-            <title>Attributes</title>
-            <p conkeyref="reuse-attributes/only-universal"/>
-        </section>
-        <example otherprops="examples">
-            <title>Example</title>
-            <p>The following code sample shows how the
+    </section>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>diagnostics-steps</xmlelement> element is
+        specialized from <xmlelement>section</xmlelement>. It is defined in
+        the troubleshooting module.</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="reuse-attributes/only-universal"/>
+    </section>
+    <example otherprops="examples" id="example">
+      <title>Example</title>
+      <p>The following code sample shows how the
           <xmlelement>diagnostics-steps</xmlelement> element can provide
         step-by-step instructions to help someone determine <ph
           rev="review-e">the cause of a problem and the potential
           solution</ph>:</p>
-            <codeblock>&lt;diagnostics>
+      <codeblock>&lt;diagnostics>
   <b>&lt;diagnostics-steps></b>
     &lt;steps>
       &lt;step>
@@ -79,6 +79,6 @@
        a remedy. One remedy provides instructions for "Resetting your IP address" and the
        other provides instructions for "Resetting your local network". The cross references 
        in the above steps resolve to the &lt;remedy> elements. --></codeblock>
-        </example>
-    </refbody>
+    </example>
+  </refbody>
 </reference>

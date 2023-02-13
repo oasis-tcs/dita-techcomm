@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="diagnostics-general">
     <title><xmlelement>diagnostics-general</xmlelement></title>
-  <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element <ph
+  <shortdesc id="shortdesc">The
+      <xmlelement>diagnostics-general</xmlelement> element <ph
       rev="review-e">includes non-procedural information that can help
       determine the cause of the symptom. Results of the diagnoses might
       link to a possible solution.</ph></shortdesc>
@@ -16,31 +17,31 @@
     </metadata>
   </prolog>
     <refbody>
-        <section>
-            <title>Usage information</title>
-            <p>This element is useful for presenting non-procedural
-        diagnostic information, for example, a diagnostic table or a
-        flowchart. Non-procedural diagnostic information can be used when
-        the symptoms can be observed and do not require people to take
-        action.</p>
-        </section>
-        <section>
-            <title>Specialization hierarchy</title>
-            <p>The <xmlelement>diagnostics-general</xmlelement> element is specialized from
-                <xmlelement>section</xmlelement>. It is defined in the troubleshooting module.</p>
-        </section>
-        <section>
-            <title>Attributes</title>
+        <section id="usage-information">
+      <title>Usage information</title>
+      <p>This element is useful for presenting non-procedural diagnostic
+        information, for example, a diagnostic table or a flowchart.
+        Non-procedural diagnostic information can be used when the symptoms
+        can be observed and do not require people to take action.</p>
+    </section>
+        <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>diagnostics-general</xmlelement> element is
+        specialized from <xmlelement>section</xmlelement>. It is defined in
+        the troubleshooting module.</p>
+    </section>
+        <section id="attributes">
+      <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
-        </section>
-        <example otherprops="examples">
-            <title>Example</title>
-            <p>The following code sample shows how the
+    </section>
+        <example otherprops="examples" id="example">
+      <title>Example</title>
+      <p>The following code sample shows how the
           <xmlelement>diagnostics-general</xmlelement> element can contain
         a table to help a <ph rev="review-e">reader determine the cause of
           a problem. The table then references the associated
         remedy.</ph></p>
-            <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
+      <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
   &lt;title>Car is making funny noises.&lt;/title>
   &lt;shortdesc>You probably know how your vehicle sounds when it’s running
     properly. Listening to your car can help you troubleshoot problems. If
@@ -96,6 +97,6 @@
           <xmlelement>remedy</xmlelement> elements in the topic.</p>
       <image placement="break" href="../../images/diagnostics-general.jpg"
         scale="70"/>
-        </example>
+    </example>
     </refbody>
 </reference>

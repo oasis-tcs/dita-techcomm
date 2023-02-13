@@ -2,54 +2,66 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="dita-troubleshooting-topic" xml:lang="en-us"
  > 
-  <title>Troubleshooting</title> 
-  <shortdesc>Troubleshooting topics are designed to document corrective
-    action, such as troubleshooting and alarm clearing.</shortdesc> 
+  <title>Troubleshooting</title>
+  <shortdesc rev="review-e">Troubleshooting topics are designed to document
+    problems that people might encounter and provide solutions, if
+    possible. They provide a topic structure that enables content authors
+    to describe a problem, provide diagnostic information, discuss causes,
+    and outline possible solutions.</shortdesc> 
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
       <p>Troubleshooting topics serve the following purposes:</p>
-      <ol>
-        <li>Define the condition or symptom, which usually is an
-          undesirable state in a system, a product, or a service that a
-          reader wants to correct</li>
-        <li>Provide information that helps the reader diagnose which cause
-          and remedy pairs apply</li>
-        <li>Explain the cause of the condition or symptom, if it is known,
-          and describe how to remedy the condition or symptom, if
+      <ul rev="review-e">
+        <li>Describe the problem condition, which usually is a state in a
+          system, product, or service that a reader wants to correct</li>
+        <li>Provide information that helps the reader diagnose the cause of
+          the problem, if it is known</li>
+        <li>Explain the cause of the problem and how to fix it, if
           possible</li>
-      </ol>
+      </ul>
     </section>
     <section id="content-model">
       <title>Content model</title>
-      <p>The troubleshooting topic is divided into three parts:</p>
+      <p>The troubleshooting topic is <ph rev="review-e">structured in</ph>
+        three parts:</p>
       <dl>
         <dlentry>
           <dt>Condition</dt>
-          <dd>This portion of the topic can contain a <xref
-              keyref="elements-condition"
-                ><xmlelement>condition</xmlelement></xref> element. This
+          <dd><ph rev="review-e">This section of the topic provides
+              information about the problem condition, and it is specified
+              by the <xmlelement>condition</xmlelement> element. </ph> This
             element is optional, as often the problematic condition can be
             adequately described in the title and short description.</dd>
+          <!--<dd>This portion of the topic can contain a <xref keyref="elements-condition"><xmlelement>condition</xmlelement></xref> element. This element is optional, as often the problematic condition can be adequately described in the title and short description.</dd>-->
         </dlentry>
         <dlentry>
-          <dt>Diagnosis</dt>
-          <dd>This portion of the topic provides information that helps
-            determine which cause and remedy pair applies to a given
-            situation. It can contain the following elements: <xref
-              keyref="elements-diagnostics-general"
-                ><xmlelement>diagnostics-general</xmlelement></xref> and
-              <xref keyref="elements-diagnostics-steps"
-                ><xmlelement>diagnostics-steps</xmlelement></xref>.</dd>
+          <dt>Diagnostics</dt>
+          <dd rev="review-e">This optional section of the topic provides
+            information about how to determine possible causes of the
+            problem. It is specified by the
+              <xmlelement>diagnostics</xmlelement> element, which can
+            contain both general information, including tables and flow
+            charts, as well as steps.</dd>
+          <dd rev="review-e">This optional  portion of the topic is
+            specified by the <xmlelement>diagnostics</xmlelement> element.
+            It must contain one or both of the following structural elements:<ul>
+              <li>General diagnostic information (<xref
+                  keyref="elements-diagnostics-general"
+                    ><xmlelement>diagnostics-general</xmlelement></xref>)</li>
+              <li>Procedural diagnostic information (<xref
+                  keyref="elements-diagnostics-steps"
+                    ><xmlelement>diagnostics-steps</xmlelement></xref>)</li>
+            </ul></dd>
+          <!--<dd>This portion of the topic provides information that helps determine which cause and remedy pair applies to a given situation. It can contain the following elements: <xref keyref="elements-diagnostics-general"><xmlelement>diagnostics-general</xmlelement></xref> and <xref keyref="elements-diagnostics-steps"><xmlelement>diagnostics-steps</xmlelement></xref>.</dd>-->
         </dlentry>
         <dlentry>
           <dt>Trouble solution</dt>
-          <dd>This portion of the topic provides information about how to
-            remedy the <ph rev="review-e">problem</ph>. It can contain
-            multiple <xref keyref="elements-cause"
-                ><xmlelement>cause</xmlelement></xref> and <xref
-              keyref="elements-remedy"
-              ><xmlelement>remedy</xmlelement></xref> pairs.</dd>
+          <dd rev="review-e">This optional section of the topic provides
+            information about possible causes and remedies for the problem.
+            It is specified by <xmlelement>troubleSolution</xmlelement>
+            elements.</dd>
+          <!--<dd>This portion of the topic provides information about how to remedy the <ph rev="review-e">problem</ph>. It can contain multiple <xref keyref="elements-cause"><xmlelement>cause</xmlelement></xref> and <xref keyref="elements-remedy"><xmlelement>remedy</xmlelement></xref> pairs.</dd>-->
           <dd>
             <p>Cause and remedy might occur in combinations other than
               pairs. It is possible to have:</p>
