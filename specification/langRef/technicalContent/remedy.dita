@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="remedy" xml:lang="en-us">
   <title><xmlelement>remedy</xmlelement></title>
-  <shortdesc>The <xmlelement>remedy</xmlelement> element contains steps
-    that are a potential solution for the problem.</shortdesc>
+  <shortdesc>The <xmlelement>remedy</xmlelement> element <ph rev="review-e"
+      >contains steps that are a potential solution for the problem. In
+      addition, it also contains information about the person or team who
+      should perform the task.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
