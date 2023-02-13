@@ -59,7 +59,7 @@
           <xmlelement>condition</xmlelement> element eliminated:</p>
       <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
   &lt;title>System will not turn on&lt;/title>
-  <b>&lt;shortdesc>he system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc>
+  <b>&lt;shortdesc>The system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc>
   &lt;troublebody></b>
     &lt;troubleSolution>
       &lt;!-- ... -->
