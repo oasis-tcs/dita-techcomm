@@ -3,9 +3,9 @@
 <reference xml:lang="en-us" id="reference_xm5_sqz_vm">
   <title>Troubleshooting elements</title>
   <shortdesc>Troubleshooting elements provide the fundamental structure for
-    troubleshooting topics. Troubleshooting topics outline problem
-    conditions and aid readers in diagnosing and remedying the
-    situation.</shortdesc>
+    troubleshooting topics.  <ph rev="review-e">Troubleshooting topics
+      describe problems and provide information about how to fix
+    them.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
