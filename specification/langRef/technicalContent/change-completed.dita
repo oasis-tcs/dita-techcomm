@@ -29,15 +29,19 @@
     </section>
     <example id="example_rxw_yyx_kwb">
       <title>Example</title>
-      <p/>
+      <p>The following code sample shows how <xmlelement>change-completed</xmlelement> can be used
+        to note when the change was completed.</p>
       <codeblock id="codeblock_hvl_zyx_kwb">
+&lt;change-historylist>
   &lt;change-item product="productA productB">&lt;change-person>Tom Cihak&lt;/change-person>
     &lt;change-organization>JEDEC&lt;/change-organization>
     &lt;change-started>2019-01-15&lt;/change-started>
-    &lt;change-completed>2019-03-23&lt;/change-completed>
+    <b>&lt;change-completed></b>2019-03-23<b>&lt;/change-completed></b>
     &lt;change-summary>Made change 1 to both products&lt;/change-summary>
     &lt;data>Details of change 1&lt;/data>
-   &lt;/change-item></codeblock>
+  &lt;/change-item>
+&lt;change-historylist>
+</codeblock>
     </example>
   </refbody>
 </reference>

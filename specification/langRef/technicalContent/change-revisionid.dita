@@ -25,23 +25,20 @@
     </section>
     <example id="example_uy1_jg5_lwb">
       <title>Example</title>
-      <p>The following code sample shows how change revision ID can be used to identify a particular
-        change. In this example, change revision ID is used to note the release number for which the
-        first change is applicable.</p>
+      <p>The following code sample shows how the change revision ID can be used to identify a
+        particular change. In this example, change revision ID is used to note the release number
+        for which the first change is applicable.</p>
       <codeblock id="codeblock_xmw_jg5_lwb">
-  &lt;change-historylist>
-    &lt;change-item product="productA productB">
-      &lt;change-person>Tom Cihak&lt;/change-person>
-      <b>&lt;change-revisionid></b>r23.4<b>&lt;/change-revisionid></b>
-      &lt;change-completed>2019-07-20&lt;/change-completed>
-      &lt;change-summary>Made change 3 to both products&lt;/change-summary>
+&lt;change-historylist>
+  &lt;change-item product="productA productB">
+    &lt;change-person>Tom Cihak&lt;/change-person>
+    <b>&lt;change-revisionid></b>r23.4<b>&lt;/change-revisionid></b>
+    &lt;change-completed>2019-07-20&lt;/change-completed>
+    &lt;change-summary>Made change 3 to both products&lt;/change-summary>
     &lt;data>Details of change 3&lt;/data>
-    &lt;/change-item>
-    &lt;change-item product="productA">
-      ...
-    &lt;/change-item>
-  &lt;/change-historylist>
-  </codeblock>
+  &lt;/change-item>
+&lt;/change-historylist>
+</codeblock>
     </example>
   </refbody>
 </reference>

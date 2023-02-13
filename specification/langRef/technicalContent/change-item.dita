@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-item" xml:lang="en-us">
   <title><xmlelement>change-item</xmlelement></title>
-  <shortdesc>A change item represents a record of a single change to a DITA topic or
+  <shortdesc>A change item represents a record of a single change in a DITA topic or
     map.</shortdesc>
   <prolog>
     <metadata>
@@ -26,8 +26,8 @@
     <example id="example_e1s_mrx_kwb">
       <title>Example</title>
       <p>The following code sample shows how <xmlelement>change-item</xmlelement> can be used to
-        detail multiple changes. This example includes a change that is applicable to products A and
-        B and a change that is applicable to only product A.</p>
+        detail a change. This example includes two changes, one that is applicable to products A and
+        B and one that is applicable to only product A.</p>
       <codeblock id="codeblock_svz_4rx_kwb">
 &lt;change-historylist>
   <b>&lt;change-item product="productA productB"></b>
