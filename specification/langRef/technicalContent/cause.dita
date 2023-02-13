@@ -17,7 +17,7 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>cause</xmlelement> element is a component of <ph
+      <p>The <xmlelement>cause</xmlelement> element is a component of a <ph
           rev="review-e">potential solution</ph>. The cause might be
         omitted if it is implicit or if the remedy is not associated with a
         cause.</p>

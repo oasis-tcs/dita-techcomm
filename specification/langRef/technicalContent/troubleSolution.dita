@@ -3,9 +3,10 @@
  "reference.dtd">
 <reference id="troubleSolution" xml:lang="en-us">
   <title><xmlelement>troubleSolution</xmlelement></title>
-  <shortdesc>The <xmlelement>troubleSolution</xmlelement> element contains
-    a possible cause and remedy pair for the problem that is described in a
-    troubleshooting topic.</shortdesc>
+  <shortdesc rev="review-e">Each <xmlelement>troubleSolution</xmlelement>
+    element contains information about the cause of a problem and a
+    potential remedy.</shortdesc>
+  <!--<shortdesc>The <xmlelement>troubleSolution</xmlelement> element contains a possible cause and remedy pair for the problem that is described in a troubleshooting topic.</shortdesc>-->
   <prolog>
     <metadata>
       <keywords>
@@ -18,10 +19,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Both the cause and remedy are optional. The cause might be omitted
-        if it is implicit or if the remedy is not associated with a cause.
-        The remedy might be omitted if there is no known remedy for the
-        cause.</p>
+      <p><ph rev="review-e">The troubleshooting topic can contain multiple
+            <xmlelement>troubleSolution</xmlelement> elements. A
+            <xmlelement>troubleSolution</xmlelement> element can contain a
+          cause, a remedy, or a cause and remedy pair.</ph> The cause might
+        be omitted if it is implicit or if the remedy is not associated
+        with a cause. The remedy might be omitted if there is no known
+        remedy for the cause.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

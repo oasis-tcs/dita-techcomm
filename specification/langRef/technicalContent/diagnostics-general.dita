@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="diagnostics-general">
     <title><xmlelement>diagnostics-general</xmlelement></title>
-  <shortdesc>The <xmlelement>diagnostics-general</xmlelement> element <ph
+  <shortdesc id="shortdesc">The
+      <xmlelement>diagnostics-general</xmlelement> element <ph
       rev="review-e">includes non-procedural information that can help
       determine the cause of the symptom. Results of the diagnoses might
       link to a possible solution.</ph></shortdesc>
@@ -16,31 +17,31 @@
     </metadata>
   </prolog>
     <refbody>
-        <section>
-            <title>Usage information</title>
-            <p>This element is useful for presenting non-procedural
-        diagnostic information, for example, a diagnostic table or a
-        flowchart. Non-procedural diagnostic information can be used when
-        the symptoms can be observed and do not require people to take
-        action.</p>
-        </section>
-        <section>
-            <title>Specialization hierarchy</title>
-            <p>The <xmlelement>diagnostics-general</xmlelement> element is specialized from
-                <xmlelement>section</xmlelement>. It is defined in the troubleshooting module.</p>
-        </section>
-        <section>
-            <title>Attributes</title>
+        <section id="usage-information">
+      <title>Usage information</title>
+      <p>This element is useful for presenting non-procedural diagnostic
+        information, for example, a diagnostic table or a flowchart.
+        Non-procedural diagnostic information can be used when the symptoms
+        can be observed and do not require people to take action.</p>
+    </section>
+        <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>diagnostics-general</xmlelement> element is
+        specialized from <xmlelement>section</xmlelement>. It is defined in
+        the troubleshooting module.</p>
+    </section>
+        <section id="attributes">
+      <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
-        </section>
-        <example otherprops="examples">
-            <title>Example</title>
-            <p>The following code sample shows how the
+    </section>
+        <example otherprops="examples" id="example">
+      <title>Example</title>
+      <p>The following code sample shows how the
           <xmlelement>diagnostics-general</xmlelement> element can contain
         a table to help a <ph rev="review-e">reader determine the cause of
           a problem. The table then references the associated
         remedy.</ph></p>
-            <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
+      <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
   &lt;title>Car is making funny noises.&lt;/title>
   &lt;shortdesc>You probably know how your vehicle sounds when it’s running
     properly. Listening to your car can help you troubleshoot problems. If
@@ -56,31 +57,32 @@
           &lt;/sthead>
           &lt;strow>
             &lt;stentry>Clunking noise on bumps only&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkstruts"/>&lt;/stentry>
+            &lt;stentry>Struts. See &lt;xref href="#./checkstruts"/>.&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Continuous clunking noise&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkballjoints"/>&lt;/stentry>
+            &lt;stentry>Ball joints. See &lt;xref href="#./checkballjoints"/>.&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks when in neutral&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkexhaust"/>&lt;/stentry>
+            &lt;stentry>Exhaust. See &lt;xref href="#./checkexhaust"/>.&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks only in reverse&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkbrakes"/>&lt;/stentry>
+            &lt;stentry>Brakes. See &lt;xref href="#./checkbrakes"/>.&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks in turns and curves&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkcvjoint"/>&lt;/stentry>
+            &lt;stentry>CV joint. See &lt;xref href="#./checkcvjoint"/>.&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks only when cold&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkcatalyticconverter"/>&lt;/stentry>
+            &lt;stentry>Catalytic converter. See &lt;xref href="#./checkcatalyticconverter"/>.
+            &lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks only at slow speed&lt;/stentry>
-            &lt;stentry>&lt;xref href="#./checkwheels"/>&lt;/stentry>
+            &lt;stentry>Wheels. See &lt;xref href="#./checkwheels"/>.&lt;/stentry>
           &lt;/strow>
         &lt;/simpletable>
       <b>&lt;/diagnostics-general></b>
@@ -95,7 +97,7 @@
         the "Probable cause" column resolve to the
           <xmlelement>remedy</xmlelement> elements in the topic.</p>
       <image placement="break" href="../../images/diagnostics-general.jpg"
-        scale="70"/>
-        </example>
+        scale="70" rev="review-e"/>
+    </example>
     </refbody>
 </reference>
