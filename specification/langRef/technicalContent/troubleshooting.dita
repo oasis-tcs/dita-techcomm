@@ -52,8 +52,9 @@
     &lt;troubleSolution>
       &lt;cause>p>A transient memory fault has occurred.&lt;/p>&lt;/cause>
       &lt;remedy>
+        <ph rev="review-e">&lt;responsibleParty>System administrator&lt;/responsibleParty></ph>
         &lt;steps>
-          &lt;step>&lt;cmd>Reset the alarm.&lt;/cmd>&lt;/step>
+          &lt;step>&lt;cmd><ph rev="review-e">From the systems management software, reset</ph> the alarm.&lt;/cmd>&lt;/step>
           &lt;step>&lt;cmd>Monitor the system periodically to see whether the alarm
               recurs.&lt;/cmd>
           &lt;/step>
@@ -62,18 +63,18 @@
     &lt;/troubleSolution>
     &lt;troubleSolution>
       &lt;cause>&lt;p>A recurring memory fault indicates a possible problem with the
-          system memory board. Reseating the board might fix the
-          problem.&lt;/p>&lt;/cause>
+          system memory board.&lt;/p>&lt;/cause>
       &lt;remedy>
+        <ph rev="review-e">&lt;responsibleParty>Maintenance technician&lt;/responsibleParty></ph>
         &lt;steps conref="boardReseat.dita#boardReseat/steps">
           &lt;step>&lt;cmd/>&lt;/step>
         &lt;/steps>
       &lt;/remedy>
     &lt;/troubleSolution>
     &lt;troubleSolution>
-      &lt;cause>p>Reseating the system memory board did not fix the problem.
-          Replacing the board might fix the problem.&lt;/p>&lt;/cause>
+      &lt;cause>&lt;p><ph rev="review-e">The system memory board might be corrupted.</ph>&lt;/p>&lt;/cause>
       &lt;remedy>
+        <ph rev="review-e">&lt;responsibleParty>Maintenance technician&lt;/responsibleParty></ph>
         &lt;steps conref="boardReplace.dita#boardReplace.dita/steps">
           &lt;step>&lt;cmd/>&lt;/step>
         &lt;/steps>

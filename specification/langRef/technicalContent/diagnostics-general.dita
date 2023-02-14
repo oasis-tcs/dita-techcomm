@@ -57,32 +57,32 @@
           &lt;/sthead>
           &lt;strow>
             &lt;stentry>Clunking noise on bumps only&lt;/stentry>
-            &lt;stentry>Struts. See &lt;xref href="#./checkstruts"/>.&lt;/stentry>
+            &lt;stentry><ph rev="review-e">Struts. See &lt;xref href="#./checkstruts"/>.</ph>&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Continuous clunking noise&lt;/stentry>
-            &lt;stentry>Ball joints. See &lt;xref href="#./checkballjoints"/>.&lt;/stentry>
+            &lt;stentry><ph rev="review-e">Ball joints. See &lt;xref href="#./checkballjoints"/>.</ph>&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks when in neutral&lt;/stentry>
-            &lt;stentry>Exhaust. See &lt;xref href="#./checkexhaust"/>.&lt;/stentry>
+            &lt;stentry><ph rev="review-e">Exhaust. See &lt;xref href="#./checkexhaust"/>.</ph>&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks only in reverse&lt;/stentry>
-            &lt;stentry>Brakes. See &lt;xref href="#./checkbrakes"/>.&lt;/stentry>
+            &lt;stentry><ph rev="review-e">Brakes. See &lt;xref href="#./checkbrakes"/>.</ph>&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks in turns and curves&lt;/stentry>
-            &lt;stentry>CV joint. See &lt;xref href="#./checkcvjoint"/>.&lt;/stentry>
+            &lt;stentry><ph rev="review-e">CV joint. See &lt;xref href="#./checkcvjoint"/>.</ph>&lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks only when cold&lt;/stentry>
-            &lt;stentry>Catalytic converter. See &lt;xref href="#./checkcatalyticconverter"/>.
+            &lt;stentry><ph rev="review-e">Catalytic converter. See &lt;xref href="#./checkcatalyticconverter"/>.</ph>
             &lt;/stentry>
           &lt;/strow>
           &lt;strow>
             &lt;stentry>Ticks only at slow speed&lt;/stentry>
-            &lt;stentry>Wheels. See &lt;xref href="#./checkwheels"/>.&lt;/stentry>
+            &lt;stentry><ph rev="review-e">Wheels. See &lt;xref href="#./checkwheels"/>.</ph>&lt;/stentry>
           &lt;/strow>
         &lt;/simpletable>
       <b>&lt;/diagnostics-general></b>
