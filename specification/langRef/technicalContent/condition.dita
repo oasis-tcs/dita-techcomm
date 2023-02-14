@@ -40,15 +40,15 @@
       <title>Example</title>
       <p>In the following code sample, the
           <xmlelement>condition</xmlelement> element contains information
-        that elaborates on the information provided by the title and short
-        description:</p>
+        that elaborates on the information <ph rev="review-e">that is
+        </ph>provided by the title and short description:</p>
       <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
   &lt;title>System will not turn on&lt;/title>
   &lt;shortdesc>Everything looks right, but the system still does not start.&lt;/shortdesc>
   &lt;troublebody>
     <b>&lt;condition></b>
       &lt;title>Condition&lt;/title>
-      &lt;p>The system is plugged in, the power switch is on, but the system does not start.&lt;/p>
+      &lt;p>The system is plugged in <ph rev="review-e">and powered up,</ph> but the system does not start.&lt;/p>
     <b>&lt;/condition></b>
     &lt;troubleSolution>
       &lt;!-- ... -->
@@ -59,8 +59,9 @@
           <xmlelement>condition</xmlelement> element eliminated:</p>
       <codeblock>&lt;troubleshooting id="system-will-not-turn-on">
   &lt;title>System will not turn on&lt;/title>
-  <b>&lt;shortdesc>The system is plugged in, the power switch is on, but the system does not start.&lt;/shortdesc>
-  &lt;troublebody></b>
+  <b>&lt;shortdesc>The system is plugged in <ph rev="review-e">and powered up,</ph> but the system does not start.
+  &lt;/shortdesc></b>
+  &lt;troublebody>
     &lt;troubleSolution>
       &lt;!-- ... -->
     &lt;/troubleSolution>

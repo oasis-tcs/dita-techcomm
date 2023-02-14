@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="remedy" xml:lang="en-us">
   <title><xmlelement>remedy</xmlelement></title>
-  <shortdesc>The <xmlelement>remedy</xmlelement> element contains steps
-    that are a potential solution for the problem.</shortdesc>
+  <shortdesc>The <xmlelement>remedy</xmlelement> element <ph rev="review-e"
+      >contains steps that are a potential solution for the problem. In
+      addition, it also can contain information about the person or team
+      who should perform the task.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -30,16 +32,14 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
     </section>
-    <example id="example" otherprops="examples">
+    <example id="example" otherprops="examples" rev="review-e">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>remedy</xmlelement>
         element contains instructions for how the responsible party can fix
-        the problem. Note that rather than cross-referencing to another
-        topic, the <xmlelement>steps</xmlelement> element from an existing
-        topic is reused.</p>
-      <codeblock>&lt;troubleSolution>
+        the problem:</p>
+      <!--<codeblock>&lt;troubleSolution>
   &lt;cause>A recurring memory fault indicates a possible problem with the
-         system memory board. Reseating the board might fix the problem.
+         system memory board.
   &lt;/cause>
   <b>&lt;remedy></b>
     &lt;responsibleParty>Maintenance technician&lt;/responsibleParty>
@@ -47,7 +47,26 @@
       &lt;step>&lt;cmd/>&lt;/step>
     &lt;/steps>
   <b>&lt;/remedy></b>
-&lt;/troubleSolution></codeblock>
+&lt;/troubleSolution></codeblock>-->
+      <codeblock>&lt;troubleshooting id="simple-example">
+  &lt;title>System will not turn on&lt;/title>
+  &lt;troublebody>
+    &lt;!-- . . . -->
+    &lt;troubleSolution>
+      &lt;!-- . . . -->
+      <b>&lt;remedy></b>
+        &lt;title>Reset the circuit breaker&lt;/title>
+        &lt;responsibleParty>Maintenance technician&lt;/responsibleParty>
+        &lt;steps>
+          &lt;step>&lt;cmd>Power the system down.&lt;/cmd>&lt;/step>
+          &lt;step>&lt;cmd>Reset the circuit breaker.&lt;/cmd>&lt;/step>
+          &lt;step>&lt;cmd>Power the system back up.&lt;/cmd>&lt;/step>
+        &lt;/steps>
+      <b>&lt;/remedy></b>
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting>
+</codeblock>
     </example>
  </refbody>
 </reference>

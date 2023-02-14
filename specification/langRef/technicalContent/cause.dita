@@ -36,7 +36,7 @@
       <p>In the following code sample, the <xmlelement>cause</xmlelement>
         element contains information that explains the origins of the
         problem:</p>
-      <codeblock>&lt;troubleSolution>
+      <!--<codeblock>&lt;troubleSolution>
   <b>&lt;cause></b>A recurring memory fault indicates a possible problem with the
          system memory board. Reseating the board might fix the problem.
   <b>&lt;/cause></b>
@@ -45,7 +45,24 @@
       &lt;step>&lt;cmd/>&lt;/step>
     &lt;/steps>
   &lt;/remedy>
-&lt;/troubleSolution></codeblock>
+&lt;/troubleSolution></codeblock>-->
+      <codeblock rev="review-e">&lt;troubleshooting id="simple-example">
+  &lt;title>System will not turn on&lt;/title>
+  &lt;troublebody>
+    &lt;condition>The system is plugged in and powered up, but the system will not start.
+    &lt;/condition>
+    &lt;troubleSolution>
+      &lt;!-- . . . -->
+      <b>&lt;cause></b>The problem is usually due to the power not being supplied to the system through
+             the electrical outlet. Often, a circuit breaker has been tripped so that no
+             power is available at the outlet.&lt;/p>
+      <b>&lt;/cause></b>
+      &lt;!-- . . . -->
+    &lt;/troubleSolution>
+    &lt;!-- . . . -->
+  &lt;/troublebody>
+&lt;/troubleshooting>
+</codeblock>
     </example>
   </refbody>
 </reference>

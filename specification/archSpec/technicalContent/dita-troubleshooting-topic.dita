@@ -61,6 +61,13 @@
             information about possible causes and remedies for the problem.
             It is specified by <xmlelement>troubleSolution</xmlelement>
             elements.</dd>
+          <dd>
+            <draft-comment author="Kristen J Eberlein"
+              time="14 February 2023">
+              <p>I'm in the process of redrafting this part of the topic. I
+                have not finished the work yet.</p>
+            </draft-comment>
+          </dd>
           <!--<dd>This portion of the topic provides information about how to remedy the <ph rev="review-e">problem</ph>. It can contain multiple <xref keyref="elements-cause"><xmlelement>cause</xmlelement></xref> and <xref keyref="elements-remedy"><xmlelement>remedy</xmlelement></xref> pairs.</dd>-->
           <dd>
             <p>Cause and remedy might occur in combinations other than

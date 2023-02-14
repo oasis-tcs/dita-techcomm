@@ -41,7 +41,7 @@
       <p>In the following code sample, the
           <xmlelement>troubleSolution</xmlelement> element contains a cause
         and remedy pair:</p>
-      <codeblock><b>&lt;troubleSolution></b>
+      <!--<codeblock><b>&lt;troubleSolution></b>
   &lt;cause>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
          transient memory fault.&lt;/cause>
   &lt;remedy>
@@ -52,7 +52,23 @@
       &lt;/step>
     &lt;/steps>
   &lt;/remedy><b>
-&lt;/troubleSolution></b></codeblock>
+&lt;/troubleSolution></b></codeblock>-->
+      <codeblock rev="review-e">&lt;troubleshooting id="e247">
+  &lt;title>E247: Memory fault has occurred&lt;/title>
+  &lt;troublebody>
+    &lt;troubleSolution>
+      &lt;cause>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
+           transient memory fault.&lt;/cause>
+      &lt;remedy>
+        &lt;steps>
+          &lt;step>&lt;cmd>Reset the alarm.&lt;/cmd>&lt;/step>
+          &lt;step>&lt;cmd>Monitor the system periodically to see whether the alarm recurs.&lt;/cmd>&lt;/step>
+        &lt;/steps>
+      &lt;/remedy>
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting>
+</codeblock>
       <!--<p>See <xref href="troubleshooting.dita"/>.</p>-->
     </example>
   </refbody>
