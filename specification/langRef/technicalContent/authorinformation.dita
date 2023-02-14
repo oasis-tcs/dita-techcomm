@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="authorinformation" xml:lang="en-us">
   <title><xmlelement>authorinformation</xmlelement></title>
-  <shortdesc>The <xmlelement>authorinformation</xmlelement> element contains detailed information
-    about the author or authoring organization.</shortdesc>
+  <shortdesc>Use the <xmlelement>authorinformation</xmlelement> element to specify detailed
+    information about an author or an authoring organization.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,9 +22,9 @@
     <section id="attributes"><title>Attributes</title><div conkeyref="reuse-attributes/author-attributes"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title>
-      <p>In the following code sample, the <xmlelement>authorinformation</xmlelement> element is
-        used to provide detailed information about the author of a book map.</p><codeblock>&lt;bookmeta>
- &lt;authorinformation&gt;
+      <p>The following code sample shows how the <xmlelement>authorinformation</xmlelement> element
+        provides detailed information about the author of a book map.</p><codeblock>&lt;bookmeta>
+ <b>&lt;authorinformation&gt;</b>
   &lt;personinfo&gt;
    &lt;namedetails&gt;&lt;personname&gt;
      &lt;firstname&gt;Derek&lt;/firstname&gt;
@@ -42,7 +42,7 @@
    &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
    &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
   &lt;/personinfo&gt;
- &lt;/authorinformation&gt;
+ <b>&lt;/authorinformation&gt;</b>
 &lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>
