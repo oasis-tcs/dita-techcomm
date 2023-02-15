@@ -40,12 +40,8 @@
           <dd rev="review-e">This optional section of the topic provides
             information about how to determine possible causes of the
             problem. It is specified by the
-              <xmlelement>diagnostics</xmlelement> element, which can
-            contain both general information, including tables and flow
-            charts, as well as steps.</dd>
-          <dd rev="review-e">This optional  portion of the topic is
-            specified by the <xmlelement>diagnostics</xmlelement> element.
-            It must contain one or both of the following structural elements:<ul>
+              <xmlelement>diagnostics</xmlelement> element, which must
+            contain one or both of the following structural elements:<ul>
               <li>General diagnostic information (<xref
                   keyref="elements-diagnostics-general"
                     ><xmlelement>diagnostics-general</xmlelement></xref>)</li>
@@ -61,13 +57,6 @@
             information about possible causes and remedies for the problem.
             It is specified by <xmlelement>troubleSolution</xmlelement>
             elements.</dd>
-          <dd>
-            <draft-comment author="Kristen J Eberlein"
-              time="14 February 2023">
-              <p>I'm in the process of redrafting this part of the topic. I
-                have not finished the work yet.</p>
-            </draft-comment>
-          </dd>
           <!--<dd>This portion of the topic provides information about how to remedy the <ph rev="review-e">problem</ph>. It can contain multiple <xref keyref="elements-cause"><xmlelement>cause</xmlelement></xref> and <xref keyref="elements-remedy"><xmlelement>remedy</xmlelement></xref> pairs.</dd>-->
           <dd>
             <p>Cause and remedy might occur in combinations other than
