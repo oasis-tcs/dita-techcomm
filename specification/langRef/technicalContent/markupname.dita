@@ -3,9 +3,9 @@
 <reference xml:lang="en-us" id="markupname">
   <title><xmlelement>markupname</xmlelement></title>
   <shortdesc>The <xmlelement>markupname</xmlelement> element identifies
-    named markup components, for example, elements or attributes in XML and
-    SGML, named groups in XSD schemas, and named patterns in RELAX NG
-    schemas.</shortdesc>
+    named markup components, for example, elements or attributes in <ph
+      rev="review-d">HTML</ph> and SGML, named groups in XSD schemas, and
+    named patterns in RELAX NG schemas.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -38,7 +38,7 @@
       <p>The following code sample shows how the
           <xmlelement>markupname</xmlelement> element can be used to tag an
         attribute group:</p>
-      <codeblock>The <b>&lt;markupname></b>p.attributes<b>&lt;/markupname></b> attribute group defines 
+      <codeblock>The <b>&lt;markupname>p.attributes&lt;/markupname></b> attribute group defines 
 the allowed attributes for the &lt;xmlelement>p&lt;/xmlelement> element.</codeblock>
     </example>
   </refbody>

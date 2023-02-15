@@ -2,12 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id=" parameterentity">
   <title><xmlelement>parameterentity</xmlelement></title>
-  <abstract>
-    <!--<shortdesc>The <xmlelement>parameterentity</xmlelement> element identifies mentions of parameter entities.</shortdesc>-->
-    <shortdesc>A parameter entity is a syntactic construction that names a
-      collection of elements, attributes, and attribute values. This
-      enables reuse of the collection in grammar files.</shortdesc>
-  </abstract>
+  <shortdesc>A parameter entity is a syntactic construction that names a
+    collection of elements, attributes, and attribute values. This enables
+    reuse of the collection in grammar files.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -53,7 +50,7 @@
         tag the name of the <parameterentity>xml-d-dec</parameterentity>
         parameter entity:</p>
       <codeblock>&lt;p>To include the XML-mention domain in a DTD document-type shell, declare and 
-reference the <b>&lt;parameterentity></b>xml-d-dec<b>&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
+reference the <b>&lt;parameterentity>xml-d-dec&lt;/parameterentity></b> parameter entity.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>

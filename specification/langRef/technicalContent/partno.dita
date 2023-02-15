@@ -2,11 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="partno">
     <title><xmlelement>partno</xmlelement></title>
-  <abstract>
-    <!--<shortdesc>The <xmlelement>partno</xmlelement> element represents a part number.</shortdesc>-->
-    <shortdesc>A part number is an identifier of a particular part design
-      or material.</shortdesc>
-  </abstract>
+  <shortdesc>A part number is <ph rev="review-d">a unique identifier that
+      is assigned to a hardware component.</ph></shortdesc>
     <prolog>
         <metadata>
             <keywords>

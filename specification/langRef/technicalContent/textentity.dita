@@ -2,11 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="textentity">
   <title><xmlelement>textentity</xmlelement></title>
-  <abstract>
-    <shortdesc>The <xmlelement>textentity</xmlelement> element identifies
-      mentions of XML text entities.</shortdesc>
-    <!--<shortdesc>A text entity is</shortdesc>-->
-  </abstract>
+  <shortdesc rev="review-d">A text entity is an XML construction that
+    resolves to another value when the document is parsed.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -26,9 +23,9 @@
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>The contents of the <xmlelement>numcharref</xmlelement> element is
-        typically rendered with a leading ampersand (&amp;) and a trailing
-        semi-colon (;).</p>
+      <p>The contents of the <xmlelement rev="review-d"
+          >textentity</xmlelement> element is typically rendered with a
+        leading ampersand (&amp;) and a trailing semi-colon (;).</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -50,7 +47,7 @@
           <xmlelement>textentity</xmlelement> element is used to tag the
         token that the <xmlatt>deliveryTarget</xmlatt> attribute domain
         contributes to the <xmlatt>specializations</xmlatt> attribute:</p>
-      <codeblock>&lt;p>The <b>&lt;textentity></b>deliveryTargetAtt-d-att<b>&lt;/textentity></b> entity holds the contribution for the 
+      <codeblock>&lt;p>The <b>&lt;textentity>deliveryTargetAtt-d-att&lt;/textentity></b> entity holds the contribution for the 
 &lt;xmlatt>specializations&lt;/xmlatt> attribute.&lt;/p></codeblock>
     </example>
   </refbody>

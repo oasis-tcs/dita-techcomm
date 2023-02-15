@@ -2,12 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="xmlatt">
   <title><xmlelement>xmlatt</xmlelement></title>
-  <abstract>
-    <!--<shortdesc>The <xmlelement>xmlatt</xmlelement> element identifies mentions of XML attributes.</shortdesc>-->
-    <shortdesc>An XML attribute is a name and value pair that is associated
-      with an XML element. It defines properties of the XML
-      element.</shortdesc>
-  </abstract>
+  <shortdesc>An XML attribute is a name and value pair that is associated
+    with an XML element. It defines properties of the XML
+    element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,13 +18,14 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>The content of the <xmlelement>xmlatt</xmlelement> element should
-        be the attribute name without commercial at symbol (@) or equals
-        character (=), for example, <keyword>audience</keyword>.</p>
+        be the attribute name without <ph rev="review-d">the at</ph> symbol
+        (@), for example, <userinput rev="review-d"
+          >processing-role</userinput>.</p>
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
       <p>The contents of the <xmlelement>xmlatt</xmlelement> element is
-        typically rendered with a preceding commercial at symbol (@).</p>
+        typically rendered with a preceding at symbol (@).</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
