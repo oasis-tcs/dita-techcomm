@@ -59,10 +59,38 @@
             <xmlelement>taskbody</xmlelement> are all optional, they can
           only occur once and must appear in a specific order.</p>
       </fig>
-      <fig>
+      <fig rev="review-a">
         <title>General task topic</title>
-        <p>The following code sample shows ...</p>
-        <codeblock/>
+        <p>The following code sample shows how the
+            <xmlelement>taskbody</xmlelement>element contains building
+          blocks of a general task topic:</p>
+        <codeblock>&lt;task id="completing-group-project">
+  &lt;title>Completing the final project&lt;/title>
+  &lt;shortdesc>This handout contains information about completing the final project 
+      for History 275, "Exploring your community history."&lt;/shortdesc>
+  <b>&lt;taskbody></b>
+    &lt;context>The final project will account for 35% of your final grade.&lt;/context>
+    &lt;prereq>You must have an account on the college's collaboration platform.&lt;/prereq>
+    &lt;section>
+      &lt;title>Required reading&lt;/title>
+      &lt;ul>
+        &lt;li>Section 7.0 in the class course pack&lt;/li>
+        &lt;li>&lt;cite>Using Oral History in Community History Projects
+            (Practices in Oral History)&lt;/cite>&lt;/li>
+      &lt;/ul>
+    &lt;/section>
+    &lt;steps>
+      &lt;!-- ... -->
+    &lt;/steps>
+  <b>&lt;/taskbody></b>
+&lt;/task></codeblock>
+        <p>Note that there is more flexibility in the content model for
+            <xmlelement>taskbody</xmlelement> in general task than there is
+          in the strict task. In this example,
+            <xmlelement>context</xmlelement> precedes
+            <xmlelement>prereq</xmlelement>, and
+            <xmlelement>prereq</xmlelement> is following by a section
+          titled "Required reading".</p>
       </fig>
       <fig rev="review-a">
         <title>General task topic used for reuse</title>
@@ -72,7 +100,7 @@
           strict task topic for their product documentation, using a
           general task topic for a reuse topic enables them to have
           multiple <xmlelement>prereq</xmlelement> elements in a single
-          topic</p>
+          topic.</p>
         <codeblock>&lt;task id="reuse-prereq">
   &lt;title>Reuse topic: &lt;xmlelement>prereq&lt;/xmlelement>&lt;/title>
   &lt;shortdesc>This topic stores &lt;xmlelement>prereq&lt;/xmlelement> elements
