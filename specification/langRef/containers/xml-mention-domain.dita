@@ -3,10 +3,10 @@
 <reference xml:lang="en-us" id="xml-mention-domain" >
   <title>XML mention domain</title>
   <abstract>
-    <!--<shortdesc>Use the XML-mention domain elements for mentions of named XML constructs, including elements, attributes, entities, processing instructions, and document-type declaration components. These elements enable specific typographic effects for different construct types, precise search and retrieval of specific constructs, and automatic indexing of different constructs. This domain is intended to support the description and documentation of XML document types and XML applications.</shortdesc>-->
-    <shortdesc>The XML mention domain is designed to describe and document
-      XML document types and applications. It also can enable typographic
-      styling, search and retrieval, and automatic indexing for XML
+    <shortdesc>The XML-mention domain <ph rev="review-d">elements are used
+        to</ph> describe and document XML document types and applications.
+        <ph rev="review-d">They</ph> also can enable typographic styling,
+      search and retrieval, and automatic indexing for XML
       constructs.</shortdesc>
     <note>Although the original XML 1.0 Recommendation reserved element names beginning with "xml"
       or "XML" for the use of the XML standard itself, the subsequent introduction of namespaces

@@ -35,7 +35,7 @@
           <xmlelement>xmlnsname</xmlelement> element can be used to tag the
         namespace for SVG:</p>
       <codeblock>&lt;p>SVG markup is specified in an &lt;xmlelement>svg&lt;/xmlelement> element with
-the namespace <b>&lt;xmlnamespace></b>http://www.w3.org/2000/svg<b>&lt;/xmlnamespace></b>.&lt;/p></codeblock>
+the namespace <b>&lt;xmlnamespace>http://www.w3.org/2000/svg&lt;/xmlnamespace></b>.&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>
