@@ -36,12 +36,23 @@
     </section>
         <example otherprops="examples" id="example">
       <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>diagnostics-general</xmlelement> element can contain
-        a table to help a <ph rev="review-e">reader determine the cause of
-          a problem. The table then references the associated
-        remedy.</ph></p>
-      <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
+      <draft-comment author="Kristen J Eberlein" time="15 February 2023">
+        <p>We discussed the car noise example at the 14 February 2023 DITA
+          TC meeting. The consensus was to add a second example, which Stan
+          Doherty will develop.</p>
+      </draft-comment>
+      <p rev="review-e">This section contains examples of how the
+          <xmlelement>diagnostics-general</xmlelement> element can be used.
+        Implementations might well have different business rules for how to
+        document troubleshooting.</p>
+      <fig>
+        <title rev="review-e">Example: Simple diagnosis</title>
+        <p>The following code sample shows how the
+            <xmlelement>diagnostics-general</xmlelement> element can
+          contain a table to help a <ph rev="review-e">reader determine the
+            cause of a problem. The table then references the associated
+            remedy.</ph></p>
+        <codeblock>&lt;troubleshooting id="car-makes-funny-noises">
   &lt;title>Car is making funny noises.&lt;/title>
   &lt;shortdesc>You probably know how your vehicle sounds when it’s running
     properly. Listening to your car can help you troubleshoot problems. If
@@ -92,12 +103,19 @@
          &lt;remedy> elements. -->
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
-      <p>The table in the <xmlelement>diagnostics-general</xmlelement>
-        element might be rendered in the following way. The hyperlinks in
-        the "Probable cause" column resolve to the
-          <xmlelement>remedy</xmlelement> elements in the topic.</p>
-      <image placement="break" href="../../images/diagnostics-general.jpg"
-        scale="70" rev="review-e"/>
+        <p>The table in the <xmlelement>diagnostics-general</xmlelement>
+          element might be rendered in the following way. The hyperlinks in
+          the "Probable cause" column resolve to the
+            <xmlelement>remedy</xmlelement> elements in the topic.</p>
+        <image placement="break"
+          href="../../images/diagnostics-general.jpg" scale="70"
+          rev="review-e"/>
+      </fig>
+      <fig rev="review-e">
+        <title>Example: Rigorous diagnosis</title>
+        <p/>
+        <codeblock/>
+      </fig>
     </example>
     </refbody>
 </reference>
