@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="bookchangehistory" xml:lang="en-us">
   <title><xmlelement>bookchangehistory</xmlelement></title>
-  <shortdesc>The <xmlelement>bookchangehistory</xmlelement> element contains information about a
-    book's publishing lifecycle</shortdesc>
+  <shortdesc>A book change history contains events in the history of the book's creation and
+    publishing lifecycle, including who wrote, reviewed, edited, and tested the book. It also
+    specifies when these events took place</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,9 +17,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element contains information about the history of the book's creation and publishing
-        lifecycle, including who wrote, reviewed, edited, and tested the book. It also specifies
-        when these events took place.</p>
+      <p>The <xmlelement>bookchangehistory</xmlelement> element is a container that is a part of
+        the metadata in a bookmap.</p>
     </section>
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>

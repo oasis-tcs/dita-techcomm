@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="approved" xml:lang="en-us">
     <title><xmlelement>approved</xmlelement></title>
-    <shortdesc>The <xmlelement>approved</xmlelement> element contains information about when and by
+    <shortdesc>Approved contains information about when and by
         whom the book was approved during its publication history.</shortdesc>
     <prolog>
         <metadata>
