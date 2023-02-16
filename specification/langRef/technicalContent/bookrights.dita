@@ -25,7 +25,17 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="bookmeta.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>bookrights</xmlelement> element can be
+        used to identify the legal rights associated with the book:</p>
+      <codeblock id="codeblock_h41_jpq_mwb">&lt;bookmeta>
+  <b>&lt;bookrights></b>
+    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
+    &lt;bookowner>
+      &lt;organization>OASIS&lt;/organization>
+    &lt;/bookowner>
+  <b>&lt;/bookrights></b>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

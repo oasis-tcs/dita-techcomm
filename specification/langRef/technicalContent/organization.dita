@@ -3,7 +3,8 @@
  "reference.dtd">
 <reference id="organization" xml:lang="en-us">
   <title><xmlelement>organization</xmlelement></title>
-  <shortdesc>The <xmlelement>organization</xmlelement> element contains the name of an organization.</shortdesc>
+  <shortdesc>The <xmlelement>organization</xmlelement> element specifies the organization that owns
+    copyrights to the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,6 +20,8 @@
           <xmlelement>organization</xmlelement> element is not restricted to use within
           <xmlelement>authorinformation</xmlelement>; it does not have to contain the name of an
         authoring organization.</p>
+      <draft-comment author="tammy">I don't think this section is relevant/required. If considered
+        important to keep, then it needs a rewrite.</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -31,11 +34,15 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>organization</xmlelement> element can
+        be used to identify the organization that owns the copyrights to the book:</p>
       <codeblock>&lt;bookmeta>
   &lt;bookrights>
     &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
     &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
-    &lt;bookowner>&lt;organization>OASIS&lt;/organization>&lt;/bookowner>
+    &lt;bookowner>
+      <b>&lt;organization></b>OASIS<b>&lt;/organization></b>
+    &lt;/bookowner>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
   </refbody>
