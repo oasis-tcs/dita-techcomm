@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Bookmap metadata elements</title>
+  <topicref href="containers/bookmap-metadata-elements.dita">
+    <topicref keyref="elements-approved"/>
+    <topicref keyref="elements-bookchangehistory"/>
+    <topicref keyref="elements-bookevent"/>
+    <topicref keyref="elements-bookeventtype"/>
+    <topicref keyref="elements-bookid"/>
+    <topicref keyref="elements-bookmeta"/>
+    <topicref keyref="elements-booknumber"/>
+    <topicref keyref="elements-bookowner"/>
+    <topicref keyref="elements-bookpartno"/>
+    <topicref keyref="elements-bookrestriction"/>
+    <topicref keyref="elements-bookrights"/>
+    <topicref keyref="elements-completed"/>
+    <topicref keyref="elements-copyrfirst"/>
+    <topicref keyref="elements-copyrlast"/>
+    <topicref keyref="elements-day"/>
+    <topicref keyref="elements-edited"/>
+    <topicref keyref="elements-edition"/>
+    <topicref keyref="elements-isbn"/>
+    <topicref keyref="elements-maintainer"/>
+    <topicref keyref="elements-month"/>
+    <topicref keyref="elements-organization"/>
+    <topicref keyref="elements-person"/>
+    <topicref keyref="elements-printlocation"/>
+    <topicref keyref="elements-published"/>
+    <topicref keyref="elements-publisherinformation"/>
+    <topicref keyref="elements-publishtype"/>
+    <topicref keyref="elements-reviewed"/>
+    <topicref keyref="elements-revisionid"/>
+    <topicref keyref="elements-started"/>
+    <topicref keyref="elements-summary"/>
+    <topicref keyref="elements-tested"/>
+    <topicref keyref="elements-volume"/>
+    <topicref keyref="elements-year"/>
+  </topicref>
+</map>

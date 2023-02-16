@@ -28,7 +28,7 @@
     </booklists>
   </frontmatter>
   <chapter href="langRef/containers/bookmap-elements.dita">
-    <mapref href="langRef/bookmap-metadata-elements.ditamap"/>
+    <mapref href="langRef/bookmap-structural-elements.ditamap"/>
   </chapter>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
