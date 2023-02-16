@@ -6,6 +6,7 @@
         <mapref href="bookmap-elements.ditamap" format="ditamap"/>
         <mapref href="concept-elements.ditamap"/>
         <mapref href="glosssary-elements.ditamap"/>
+    <topicref keyref="elements-glossgroup"/>
         <mapref href="reference-elements.ditamap"/>
         <mapref href="task-elements.ditamap"/>
         <mapref href="troubleshooting-elements.ditamap"/>
