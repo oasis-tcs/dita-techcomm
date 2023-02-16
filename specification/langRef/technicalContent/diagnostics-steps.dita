@@ -35,6 +35,12 @@
     </section>
     <example otherprops="examples" id="example">
       <title>Example</title>
+      <draft-comment author="Kristen J Eberlein" time="16 February 2023">
+        <p>@Dawn, this is from the stage three proposal for adding
+          diagnostics. Can you offer a title, short descriptio, and
+          condition for the example? This aligns with our move to offer
+          more context in the code samples.</p>
+      </draft-comment>
       <p>The following code sample shows how the
           <xmlelement>diagnostics-steps</xmlelement> element can provide
         step-by-step instructions to help someone determine <ph
