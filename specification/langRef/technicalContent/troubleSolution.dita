@@ -12,7 +12,7 @@
       <keywords>
         <indexterm><xmlelement>troubleSolution</xmlelement></indexterm>
         <indexterm>troubleshooting
-            elements<indexterm><xmlelement>troubleSolution</xmlelement></indexterm></indexterm>
+              elements<indexterm><xmlelement>troubleSolution</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -29,8 +29,9 @@
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>troubleSolution</xmlelement> element is specialized from
-          <xmlelement>bodydiv</xmlelement>. It is defined in the troubleshooting module.</p>
+      <p>The <xmlelement>troubleSolution</xmlelement> element is
+        specialized from <xmlelement>bodydiv</xmlelement>. It is defined in
+        the troubleshooting module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -56,7 +57,7 @@
       <codeblock rev="review-e">&lt;troubleshooting id="e247">
   &lt;title>E247: Memory fault has occurred&lt;/title>
   &lt;troublebody>
-    &lt;troubleSolution>
+    <b>&lt;troubleSolution></b>
       &lt;cause>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
            transient memory fault.&lt;/cause>
       &lt;remedy>
@@ -65,10 +66,9 @@
           &lt;step>&lt;cmd>Monitor the system periodically to see whether the alarm recurs.&lt;/cmd>&lt;/step>
         &lt;/steps>
       &lt;/remedy>
-    &lt;/troubleSolution>
+    <b>&lt;/troubleSolution></b>
   &lt;/troublebody>
-&lt;/troubleshooting>
-</codeblock>
+&lt;/troubleshooting></codeblock>
       <!--<p>See <xref href="troubleshooting.dita"/>.</p>-->
     </example>
   </refbody>

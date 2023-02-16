@@ -34,6 +34,13 @@
     <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <draft-comment author="Kristen J Eberlein" time="16 February 2023">
+        <p>This was a DITA 1.3 topic. If we want another example to show
+          diagnostics, I think we'll need a completely new troubleshooting.
+          topic. But I do think that it's completely appropriate to simply
+          show an example without diagnostics. Not all troubleshooting
+          topics will have diagnostic information.</p>
+      </draft-comment>
       <p>The following code sample contains a troubleshooting topic. The
         troubleshooting topic contains three <ph rev="review-e"
             ><xmlelement>troubleSolution</xmlelement> elements</ph> that
