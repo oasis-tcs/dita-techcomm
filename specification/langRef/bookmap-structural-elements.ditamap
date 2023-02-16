@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Bookmap structural elements</title>
+  <topicref href="containers/bookmap-content-elements.dita">
+    <topicref keyref="elements-abbrevlist"/>
+    <topicref keyref="elements-amendments"/>
+    <topicref keyref="elements-appendices"/>
+    <topicref keyref="elements-appendix"/>
+    <topicref keyref="elements-bookmap"/>
+    <topicref keyref="elements-backmatter"/>
+    <topicref keyref="elements-bibliolist"/>
+    <topicref keyref="elements-bookabstract"/>
+    <topicref keyref="elements-booklibrary"/>
+    <topicref keyref="elements-booklist"/>
+    <topicref keyref="elements-booklists"/>
+    <topicref keyref="elements-booktitle"/>
+    <topicref keyref="elements-booktitlealt"/>
+    <topicref keyref="elements-chapter"/>
+    <topicref keyref="elements-colophon"/>
+    <topicref keyref="elements-dedication"/>
+    <topicref keyref="elements-draftintro"/>
+    <topicref keyref="elements-figurelist"/>
+    <topicref keyref="elements-frontmatter"/>
+    <topicref keyref="elements-glossarylist"/>
+    <topicref keyref="elements-indexlist"/>
+    <topicref keyref="elements-mainbooktitle"/>
+    <topicref keyref="elements-elements-notices"/>
+    <topicref keyref="elements-part"/>
+    <topicref keyref="elements-preface"/>
+    <topicref keyref="elements-tablelist"/>
+    <topicref keyref="elements-toc"/>
+    <topicref keyref="elements-trademarklist"/>
+  </topicref>
+</map>
