@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="honorific" xml:lang="en-us">
   <title><xmlelement>honorific</xmlelement></title>
-  <shortdesc>The <xmlelement>honorific</xmlelement> element contains the person's title, such as
-    Dr., Mr., or Ms.</shortdesc>
+  <shortdesc>The <xmlelement>honorific</xmlelement> element specifies a book map author's title,
+    such as Dr., Mr., or Ms..</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,13 +25,29 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;namedetails&gt;&lt;personname&gt;
- &lt;honorific&gt;Dr.&lt;/honorific&gt;
- &lt;firstname&gt;Derek&lt;/firstname&gt;
- &lt;middlename&gt;L.&lt;/middlename&gt;
- &lt;lastname&gt;Singleton&lt;/lastname&gt;
- &lt;generationidentifier&gt;Jr.&lt;/generationidentifier&gt;
- &lt;otherinfo&gt;noted psychologist&lt;/otherinfo&gt;
-&lt;/personname&gt;&lt;/namedetails&gt;</codeblock></example>
+      <p>The following code sample shows how the <xmlelement>honorific</xmlelement> element can be
+        used to specify a title for a book map author:</p>
+      <codeblock id="codeblock_xdt_rr2_nwb">&lt;bookmeta>
+ &lt;authorinformation&gt;
+  &lt;personinfo&gt;
+   &lt;namedetails&gt;&lt;personname&gt;
+     <b>&lt;honorific&gt;</b>Dr.<b>&lt;/honorific&gt;</b>
+     &lt;firstname&gt;Derek&lt;/firstname&gt;
+     &lt;middlename&gt;L.&lt;/middlename&gt;
+     &lt;lastname&gt;Singleton&lt;/lastname&gt;
+     &lt;generationidentifier&gt;Jr.&lt;/generationidentifier&gt;
+     &lt;otherinfo&gt;noted psychologist&lt;/otherinfo&gt;
+   &lt;/personname&gt;&lt;/namedetails&gt;
+   &lt;addressdetails&gt;
+     &lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
+     &lt;locality&gt;Emerald City&lt;/locality&gt;
+     &lt;administrativearea&gt;Kansas&lt;/administrativearea&gt;
+     &lt;country&gt;USA&lt;/country&gt;
+   &lt;/addressdetails&gt;
+   &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
+   &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
+  &lt;/personinfo&gt;
+ &lt;/authorinformation&gt;
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

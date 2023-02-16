@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="generationidentifier" xml:lang="en-us">
   <title><xmlelement>generationidentifier</xmlelement></title>
-  <shortdesc>The <xmlelement>generationidentifier</xmlelement> element contains information about
-    the person's generation, such as: Jr, III, or VIII.</shortdesc>
+  <shortdesc>The <xmlelement>generationidentifier</xmlelement> element specifies information about
+    the generation of a book map author's name, for example Jr, III, or VIII.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,13 +25,29 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;namedetails&gt;&lt;personname&gt;
-  &lt;firstname&gt;Derek&lt;/firstname&gt;
-  &lt;middlename&gt;L.&lt;/middlename&gt;
-  &lt;lastname&gt;Singleton&lt;/lastname&gt;
-  <b>&lt;generationidentifier&gt;Jr.&lt;/generationidentifier&gt;</b>
-  &lt;otherinfo&gt;noted psychologist&lt;/otherinfo&gt;
-&lt;/personname&gt;&lt;/namedetails&gt;
-</codeblock></example>
+      <p>The following code sample shows how the <xmlelement>generationidentifier</xmlelement>
+        element can be used to provide information about the generation of a book map author's
+        name:</p>
+      <codeblock id="codeblock_xdt_rr2_nwb">&lt;bookmeta>
+ &lt;authorinformation&gt;
+  &lt;personinfo&gt;
+   &lt;namedetails&gt;&lt;personname&gt;
+     &lt;firstname&gt;Derek&lt;/firstname&gt;
+     &lt;middlename&gt;L.&lt;/middlename&gt;
+     &lt;lastname&gt;Singleton&lt;/lastname&gt;
+        <b>&lt;generationidentifier&gt;</b>Jr.<b>&lt;/generationidentifier&gt;</b>
+     &lt;otherinfo&gt;noted psychologist&lt;/otherinfo&gt;
+   &lt;/personname&gt;&lt;/namedetails&gt;
+   &lt;addressdetails&gt;
+     &lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
+     &lt;locality&gt;Emerald City&lt;/locality&gt;
+     &lt;administrativearea&gt;Kansas&lt;/administrativearea&gt;
+     &lt;country&gt;USA&lt;/country&gt;
+   &lt;/addressdetails&gt;
+   &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
+   &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
+  &lt;/personinfo&gt;
+ &lt;/authorinformation&gt;
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>
