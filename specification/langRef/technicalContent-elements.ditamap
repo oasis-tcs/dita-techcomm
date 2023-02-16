@@ -8,8 +8,12 @@
   <mapref href="topic-and-map-specializations.ditamap" format="ditamap"/>
   
   <topicref href="containers/technicalContent-domain-elements.dita">
+      <!--Abbreviated form domain-->
+      <mapref href="abbreviated-form-domain.ditamap"/>
    <!--Equation domain-->
    <mapref href="equation-domain-elements.ditamap"/>
+      <!--Glossary reference domai-->
+      <mapref href="glossary-reference-domain-elements.ditamap"/>
    <!--Hardware domain-->
    <mapref href="hardware-domain-elements.ditamap"/>
    <!--Markup domain-->

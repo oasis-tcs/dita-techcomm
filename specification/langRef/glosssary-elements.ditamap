@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="glosssary-elements">
- <title>Glossary elements</title>
- <topicref href="containers/glossary-elements.dita">
-  <!-- Glossary content elements-->
-  <topicref href="containers/glossentry-elements.dita">
-   
+<map id="glosssentry-elements">
+ <title>Glossentry elements</title>
+  <topicref href="containers/glossentry-elements.dita">   
    <topicref keyref="elements-glossentry"/>
    <topicref keyref="elements-glossterm"/>
    <topicref keyref="elements-glossdef"/>
@@ -24,11 +21,4 @@
    <topicref keyref="elements-glossSynonym"/>
    <topicref keyref="elements-glossUsage"/>
   </topicref>
-  <!--Glossary related elements-->
-  <topicref href="containers/glossary-related-elements.dita">
-   <topicref keyref="elements-abbreviated-form"/>
-   <topicref keyref="elements-glossref"/>
-   <topicref keyref="elements-glossgroup"/>
-  </topicref>
- </topicref>
 </map>
