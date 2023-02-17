@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="person" xml:lang="en-us">
   <title><xmlelement>person</xmlelement></title>
-  <shortdesc>The <xmlelement>person</xmlelement> element contains information about the name of a
-    person.</shortdesc>
+  <shortdesc>The <xmlelement>person</xmlelement> element is used to specify the person that owns the
+    copyrights to the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,9 +16,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Note that unlike the <xmlelement>personname</xmlelement> element, the
-          <xmlelement>person</xmlelement> element is not restricted to describing the names of
-        authors.</p>
+      <p>Unlike the <xmlelement>personname</xmlelement> element, the <xmlelement>person</xmlelement>
+        element is not restricted to describing the names of authors.</p>
+      <draft-comment author="tammy">I don't think this section is relevant/required. If considered
+        important to keep, then it needs a rewrite.</draft-comment>
     </section>
 
     <section id="specialization-hierarchy">
@@ -32,11 +33,15 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>person</xmlelement> element can be used
+        to identify the name of the person that owns copyrights to the book:</p>
       <codeblock>&lt;bookmeta>
   &lt;bookrights>
     &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
     &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
-    &lt;bookowner>&lt;person>Jane Doe&lt;/person>&lt;/bookowner>
+    &lt;bookowner>
+      <b>&lt;person></b>Jane Doe<b>&lt;/person></b>
+    &lt;/bookowner>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
   </refbody>

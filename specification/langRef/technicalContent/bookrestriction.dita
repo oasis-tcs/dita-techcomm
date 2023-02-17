@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="bookrestriction" xml:lang="en-us">
   <title><xmlelement>bookrestriction</xmlelement></title>
-  <shortdesc>The <xmlelement>bookrestriction</xmlelement> element specifies whether the book is
+  <shortdesc>The <xmlelement>bookrestriction</xmlelement> element indicates whether the book is
     classified or restricted in some way.</shortdesc>
   <prolog>
     <metadata>
@@ -28,6 +28,9 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>bookrestriction</xmlelement> element
+        can be used to indicate whether there are any restrictions on the book. In this example, the
+        book is unclassified.</p>
       <codeblock>&lt;bookrights>
   &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
   &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>

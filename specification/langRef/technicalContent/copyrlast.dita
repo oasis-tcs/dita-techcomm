@@ -25,7 +25,19 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookmap.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>copyrlast</xmlelement> element can be
+        used to identify the last copyright year:</p>
+      <codeblock id="codeblock_h41_jpq_mwb">&lt;bookmeta>
+  &lt;bookrights>
+    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
+    <b>&lt;copyrlast></b>
+      &lt;year>2020&lt;/year>
+    <b>&lt;/copyrlast></b>
+    &lt;bookowner>
+      &lt;organization>OASIS&lt;/organization>
+    &lt;/bookowner>
+  &lt;/bookrights>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

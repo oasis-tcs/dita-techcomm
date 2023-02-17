@@ -28,7 +28,14 @@
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
       </section>
-      <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref
-               href="bookchangehistory.dita"/>.</p></example>
+      <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how <xmlelement>bookevent</xmlelement> can be used to...</p>
+         <codeblock id="codeblock_nkr_fxs_nwb">&lt;bookmeta>
+  &lt;bookchangehistory>
+    <b>&lt;bookevent></b>
+      &lt;bookeventtype name="Type of Major Event"/>
+      &lt;completed>&lt;year>2021&lt;/year>&lt;/completed>
+    <b>&lt;/bookevent></b>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock></example>
    </refbody>
 </reference>
