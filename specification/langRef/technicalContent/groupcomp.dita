@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="groupcomp" xml:lang="en-us">
   <title><xmlelement>groupcomp</xmlelement></title>
-  <shortdesc>The <xmlelement>groupcomp</xmlelement> element is a set of syntax that makes up a
-    single unit and is usually rendered as a single unit.</shortdesc>
+  <shortdesc>The <xmlelement>groupcomp</xmlelement> element groups a set of  pieces of syntax as a
+    single unit.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,6 +23,14 @@
         composite means that the items that make up the syntax diagram will be rendered close
         together rather than being separated by a horizontal or vertical line, which is the usual
         formatting method.</p>
+      <draft-comment author="Frank Wegmann" time="19 February 2023">
+        <p>The usage information mentions rendering and formatting in one and the same sentence,
+          while this is only about rendering here, if I'm not mistaken regarding our language use.
+          Please advise whether we should break it out in a section Rendering expectations.</p>
+        <p>Furthermore, I cannot observe this rendering expectation in the current DITA-OT
+          implementation: I get the same output for the code sample below, when e.g. using
+            <xmlelement>groupseq</xmlelement> instead of <xmlelement>groupcomp</xmlelement>. </p>
+      </draft-comment>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
@@ -36,19 +44,18 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, two composite groups represent two alternate ways to specify
-        an input file to a command line program: either <codeph>-i:program-name.py</codeph> or
-          <codeph>--input=program-name.ph</codeph>.</p>
+        an input file to a command line program, using either <codeph>-i:program-name.py</codeph> or
+          <codeph>--input=program-name.ph</codeph>:</p>
       <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
- &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
- &lt;groupseq&gt;
-  &lt;kwd&gt;runprogram&lt;/kwd&gt;
-  &lt;groupchoice>
-    <b>&lt;groupcomp></b>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var><b>&lt;/groupcomp></b>
-    <b>&lt;groupcomp></b>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var><b>&lt;/groupcomp></b>
-  &lt;/groupchoice&gt;
- &lt;/groupseq>
-&lt;/syntaxdiagram>
-</codeblock>
+  &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+  &lt;groupseq&gt;
+    &lt;kwd&gt;runprogram&lt;/kwd&gt;
+    &lt;groupchoice>
+      <b>&lt;groupcomp></b>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var><b>&lt;/groupcomp></b>
+      <b>&lt;groupcomp></b>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var><b>&lt;/groupcomp></b>
+    &lt;/groupchoice&gt;
+  &lt;/groupseq>
+&lt;/syntaxdiagram></codeblock>
     </example>
   </refbody>
 </reference>

@@ -41,14 +41,10 @@
   &lt;groupseq>
     <b>&lt;kwd></b>clicmd<b>&lt;/kwd></b>
     &lt;groupcomp>
-      &lt;oper>--&lt;/oper>
-      <b>&lt;kwd></b>user<b>&lt;/kwd></b>
-      &lt;sep>=&lt;/sep>
-      &lt;var>userid&lt;/var>
+      &lt;oper>--&lt;/oper><b>&lt;kwd></b>user<b>&lt;/kwd></b>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>
     &lt;/groupcomp>
     &lt;groupcomp>
-      &lt;oper>--&lt;/oper>
-      <b>&lt;kwd></b>validate<b>&lt;/kwd></b>
+      &lt;oper>--&lt;/oper><b>&lt;kwd></b>validate<b>&lt;/kwd></b>
     &lt;/groupcomp>
   &lt;/groupseq>
 &lt;/syntaxdiagram&gt;</codeblock></example>

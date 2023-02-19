@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="synblk" xml:lang="en-us">
   <title><xmlelement>synblk</xmlelement></title>
-  <shortdesc>The <xmlelement>synblk</xmlelement> (syntax block) element organizes small pieces of a
-    syntax definition into a larger piece.</shortdesc>
+  <shortdesc>A syntax block organizes small pieces of a syntax definition into a larger
+    piece.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -29,7 +29,7 @@
       <title>Example</title>
       <p>In the following code sample, <xmlelement>synblk</xmlelement> elements are used to group
         sets of related options for user profile parameters that might be reused in many different
-        sets of syntax.</p>
+        sets of syntax:</p>
       <codeblock><b>&lt;synblk id="profileopts"&gt;</b>
   &lt;title>Required profile options&lt;/title>
   &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>user&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>&lt;/groupcomp>
@@ -42,7 +42,7 @@
   &lt;title>Request file listing&lt;/title>
   &lt;groupseq>
     &lt;kwd>clicmd&lt;/kwd>
-    &lt;synblk conkeyref="syntax-library/profileopts"/>
+    <b>&lt;synblk conkeyref="syntax-library/profileopts"/></b>
     &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>filelist&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>volumeid&lt;/var>&lt;/groupcomp>
   &lt;/groupseq>
 &lt;/syntaxdiagram></codeblock></p></example>

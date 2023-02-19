@@ -4,7 +4,7 @@
 <reference id="fragment" xml:lang="en-us">
   <title><xmlelement>fragment</xmlelement></title>
   <shortdesc>The <xmlelement>fragment</xmlelement> element contains a labeled subpart of the syntax
-    within a <xmlelement>syntaxdiagram</xmlelement>.</shortdesc>
+    within a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -37,20 +37,19 @@
         logging options to be displayed separately in a titled group, out of the flow of the primary
         diagram.</p>
       <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
- &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
- &lt;groupseq&gt;
-  &lt;kwd&gt;runprogram&lt;/kwd&gt;
-  &lt;groupchoice>
-    &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
-    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
-  &lt;/groupchoice&gt;
+  &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+  &lt;groupseq&gt;
+    &lt;kwd&gt;runprogram&lt;/kwd&gt;
+    &lt;groupchoice>
+      &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+      &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+    &lt;/groupchoice&gt;
+  &lt;/groupseq>
   <b>&lt;fragment></b>
     &lt;title>Logging options&lt;/title>
-    &lt;groupseq importance="optional">&lt;oper>-&lt;/oper>&lt;kwd>debug&lt;/kwd>&lt;/groupseq>
-    &lt;groupseq importance="optional">&lt;oper>-&lt;/oper>&lt;kwd>verbose&lt;/kwd>&lt;/groupseq>
+    &lt;groupseq importance="optional">&lt;oper>--&lt;/oper>&lt;kwd>debug&lt;/kwd>&lt;/groupseq>
+    &lt;groupseq importance="optional">&lt;oper>--&lt;/oper>&lt;kwd>verbose&lt;/kwd>&lt;/groupseq>
   <b>&lt;/fragment></b>
- &lt;/groupseq>
-&lt;/syntaxdiagram>
-</codeblock></example>
+&lt;/syntaxdiagram></codeblock></example>
   </refbody>
 </reference>
