@@ -62,7 +62,7 @@
   <chapter format="ditamap" href="introduction/introduction.ditamap"/>
   <chapter format="ditamap"
     href="archSpec/technicalContent/topic-and-map-document-types.ditamap"/>
-  <chapter format="ditamap" href="archSpec/archSpec-technicalContent.ditamap"/>
+  <!--<chapter format="ditamap" href="archSpec/archSpec-technicalContent.ditamap"/>-->
   <chapter format="ditamap" href="langRef/technicalContent-elements.ditamap"/>
   <chapter href="conformance/conformance.dita"/>
   <appendix href="acknowledgments/acknowledgments.dita"/>
@@ -71,7 +71,6 @@
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
     format="ditamap"/>
   <appendix href="non-normative/elementsMerged.dita"/>
-  <appendix href="non-normative/formatting-expectations.dita"/>
   <appendix href="revision-history/revision-history.dita"/>
   <backmatter>
     <booklists><!--<indexlist/>--></booklists>
