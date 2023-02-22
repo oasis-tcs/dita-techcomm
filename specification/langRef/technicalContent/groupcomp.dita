@@ -35,7 +35,7 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>groupcomp</xmlelement> element is specialized from
-          <xmlelement>figgroup</xmlelement>. It is defined in the syntax diagram domain module,
+          <xmlelement>figgroup</xmlelement>. It is defined in the syntax-diagram domain module,
         which is a specialization of the programming domain module.</p>
 </section>
     <section id="attributes">
@@ -43,10 +43,14 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, two composite groups represent two alternate ways to specify
-        an input file to a command line program, using either <codeph>-i:program-name.py</codeph> or
-          <codeph>--input=program-name.ph</codeph>:</p>
-      <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
+      <p>The following code sample shows how the
+          <xmlelement>groupcomp</xmlelement> element can be used to
+        indicate how pieces of syntax are grouped together. Two composite
+        groups represent two alternate ways to specify an input file to a
+        command line program, using either
+          <codeph>-i:program-name.py</codeph> or
+          <codeph>--input=program-name.ph</codeph>.</p>
+      <codeblock id="example-groupcomp">&lt;syntaxdiagram&gt;
   &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
   &lt;groupseq&gt;
     &lt;kwd&gt;runprogram&lt;/kwd&gt;

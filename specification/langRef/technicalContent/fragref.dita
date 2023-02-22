@@ -24,7 +24,7 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>fragref</xmlelement> element is specialized from <xmlelement>xref</xmlelement>.
-        It is defined in the syntax diagram domain module, which is a specialization of the
+        It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
 </section>
     <section id="attributes">
@@ -42,33 +42,37 @@
         </ul></p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title><p>In the following code sample, the <xmlelement>fragref</xmlelement>
-        element is used to break out a set of related logging options from the larger set of syntax.
-        The <xmlelement>fragref</xmlelement> element is part of the program sequence after an input
-        file, but the syntax for logging is defined outside of the main
-        diagram.</p><codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram frame="none">
+      <title>Example</title>
+      <p>The following code sample shows how the
+          <xmlelement>fragref</xmlelement> element can be used to break out
+        a set of related logging options from the larger set of syntax. The
+          <xmlelement>fragref</xmlelement> element is part of the program
+        sequence after an input file, but the syntax for logging is defined
+        outside of the main diagram.</p>
+      <codeblock id="example-fragref">&lt;syntaxdiagram frame="none">
   &lt;title>CopyFile&lt;/title>
   &lt;groupseq>&lt;kwd>COPYF&lt;/kwd>&lt;/groupseq>
   &lt;groupcomp>&lt;var>input-filename&lt;/var>&lt;kwd>*INFILE&lt;/kwd>&lt;/groupcomp>
   &lt;groupseq>&lt;var>output-filename&lt;/var>&lt;kwd>*OUTFILE&lt;/kwd>&lt;/groupseq>
-  <b>&lt;fragref href="#./overlay">&lt;/fragref></b>
+  <b>&lt;fragref href="#./overlay"/></b>
   &lt;groupchoice>&lt;var>input-filename&lt;/var>&lt;kwd>*INFILE&lt;/kwd>&lt;/groupchoice>
   &lt;groupchoice>&lt;var>output-filename&lt;/var>&lt;kwd>*OUTFILE&lt;/kwd>&lt;/groupchoice>
   &lt;fragment id="overlay">
     &lt;title>Overlay&lt;/title>
     &lt;groupchoice>&lt;kwd>*OVERLAP&lt;/kwd>&lt;kwd>*Prompt&lt;/kwd>&lt;/groupchoice>
   &lt;/fragment>
-&lt;/syntaxdiagram></codeblock><ph>might</ph> produce output like the
-      following:<pre xml:space="preserve">CopyFile
+&lt;/syntaxdiagram></codeblock>
+      <!--<ph>might</ph> produce output like the following:<pre xml:space="preserve">CopyFile
 
-&gt;&gt;-COPYF--input-filename*INFILE--output-filename--*OUTFILE------&gt;
+&gt;&gt;-COPYF-\-input-filename*INFILE-\-output-filename-\-*OUTFILE-\-\-\-\-\-&gt;
 
-&gt;--| Overlay |--+-input-filename-+--+-output-filename-+--------&gt;&lt;
-                '-*INFILE--------'  '-*OUTFILE--------'
+&gt;-\-| Overlay |-\-+-input-filename-+-\-+-output-filename-+-\-\-\-\-\-\-\-&gt;&lt;
+                '-*INFILE-\-\-\-\-\-\-\-'  '-*OUTFILE-\-\-\-\-\-\-\-'
 
 Overlay
 
-|--+-*OVERLAP-+-------------------------------------------------|
-   '-*Prompt--'</pre></example>
+|-\-+-*OVERLAP-+-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-|
+   '-*Prompt-\-'</pre>-->
+    </example>
   </refbody>
 </reference>

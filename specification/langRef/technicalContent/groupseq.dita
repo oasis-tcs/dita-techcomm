@@ -25,7 +25,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>groupseq</xmlelement> element is specialized from
-          <xmlelement>figgroup</xmlelement>. It is defined in the syntax diagram domain module,
+          <xmlelement>figgroup</xmlelement>. It is defined in the syntax-diagram domain module,
         which is a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
@@ -33,10 +33,12 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, a short set of command line syntax is specified in a
-        sequential order: the <codeph>runprogram</codeph> tool name, followed by a choice of how to
-        specify an input file:</p>
-      <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
+      <p>The following code sample shows how the
+          <xmlelement>groupseq</xmlelement> element can be used to indicate
+        that a short set of command line syntax is specified in a
+        sequential order. The <codeph>runprogram</codeph> tool name is
+        followed by a choice of how to specify an input file.</p>
+      <codeblock id="example-groupseq">&lt;syntaxdiagram&gt;
   &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
   <b>&lt;groupseq&gt;</b>
     &lt;kwd&gt;runprogram&lt;/kwd&gt;

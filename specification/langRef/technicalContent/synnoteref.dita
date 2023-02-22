@@ -22,7 +22,7 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synnoteref</xmlelement> element is specialized from
-        <xmlelement>xref</xmlelement>. It is defined in the syntax diagram domain module, which is a
+        <xmlelement>xref</xmlelement>. It is defined in the syntax-diagram domain module, which is a
         specialization of the programming domain module.</p>
 </section>
     <section id="attributes">
@@ -38,7 +38,7 @@
       <title>Example</title>
       <p>In the following code sample, a syntax note is reused twice in the sample diagram,
         instructing the reader how to request a modified user name or password:</p>
-      <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
+      <codeblock id="example-synnoteref">&lt;syntaxdiagram id="validate"&gt;
   &lt;title>Validate account setup&lt;/title>
   &lt;groupseq>
     &lt;kwd>clicmd&lt;/kwd>

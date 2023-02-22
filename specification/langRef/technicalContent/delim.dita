@@ -23,7 +23,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>delim</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
-        It is defined in the syntax diagram domain module, which is a specialization of the
+        It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
     </section>
     <section id="attributes">
@@ -31,16 +31,18 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-optreq"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>delim</xmlelement> element specifies that the
-        equal sign (=) is used to mark the end of the group sequence:</p>
-      <codeblock id="codeblock_k4s_qnj_spb">&lt;syntaxdiagram&gt;
+      <p>The following code sample shows how the
+          <xmlelement>delim</xmlelement> element can be used to specify
+        that the equal sign (=) is used to mark the end of the group
+        sequence:</p>
+      <codeblock id="example-delim">&lt;syntaxdiagram&gt;
   &lt;title&gt;Integer addition&lt;/title&gt;
   &lt;groupseq&gt;
-   &lt;var&gt;integer&lt;/var&gt;
-   &lt;oper&gt;+&lt;/oper&gt;
-   &lt;var&gt;integer&lt;/var&gt;
-   <b>&lt;delim&gt;</b>=<b>&lt;/delim&gt;</b>
-   &lt;var&gt;total&lt;/var&gt;
+    &lt;var&gt;integer&lt;/var&gt;
+    &lt;oper&gt;+&lt;/oper&gt;
+    &lt;var&gt;integer&lt;/var&gt;
+    <b>&lt;delim&gt;=&lt;/delim&gt;</b>
+    &lt;var&gt;total&lt;/var&gt;
   &lt;/groupseq&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>

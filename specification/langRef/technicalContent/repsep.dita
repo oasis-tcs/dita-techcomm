@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="repsep" xml:lang="en-us">
   <title><xmlelement>repsep</xmlelement></title>
-  <shortdesc>The <xmlelement>repsep</xmlelement> element identifies a character to indicate that a
-    group of syntax elements can (or should) be repeated in a syntax diagram.</shortdesc>
+  <shortdesc>The <xmlelement>repsep</xmlelement> element identifies a
+    character that indicates that a group of syntax elements can (or
+    should) be repeated in a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,7 +24,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>repsep</xmlelement> element is specialized from
-        <xmlelement>ph</xmlelement>. It is defined in the syntax diagram domain module, which is a
+        <xmlelement>ph</xmlelement>. It is defined in the syntax-diagram domain module, which is a
         specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
@@ -31,16 +32,18 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-optreq"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample example, a file listing can be requested for multiple volumes.
-        The <xmlelement>repsep</xmlelement> element identifies that each requested volume can be
-        separated with a commaÖ</p>
-      <codeblock id="codeblock_dkj_d3j_spb">&lt;syntaxdiagram>
+      <!--<p>The following code sample shows how the <xmlelement>repsep</xmlelement> element can be used to indicate that each requested volume can be separated with a comma (,):</p>-->
+      <p>In the following code sample, a file listing can be requested for
+        multiple volumes. The <xmlelement>repsep</xmlelement> element
+        identifies that each requested volume can be separated with a comma
+        (,):</p>
+      <codeblock id="example-repsep">&lt;syntaxdiagram>
   &lt;title>Request file listing&lt;/title>
   &lt;groupseq>
     &lt;kwd>clicmd&lt;/kwd>
     &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>user&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>&lt;/groupcomp>
     &lt;groupcomp>
-      <b>&lt;repsep></b>,<b>&lt;/repsep></b>
+      <b>&lt;repsep>,&lt;/repsep></b>
       &lt;oper>--&lt;/oper>&lt;kwd>filelist&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>volumeid&lt;/var>
     &lt;/groupcomp>
   &lt;/groupseq>

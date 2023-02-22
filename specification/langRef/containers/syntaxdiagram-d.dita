@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="syntaxdiagramdomain" xml:lang="en-us">
   <title>Syntax diagram domain</title>
-  <shortdesc>The syntax diagram domain elements are used to diagram expressions or syntax phrases
-    for programming languages or command line processors.</shortdesc>
+  <shortdesc>The syntax-diagram domain elements are used to diagram
+    expressions or syntax phrases for programming languages or command line
+    processors.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -12,9 +13,10 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section_pnc_sd3_5mb">
-      <p>The syntax diagram domain is specialized from the programming domain, and uses elements
-        from that domain within the content model of syntax phrases.</p>
+    <section id="section-1">
+      <p>The syntax diagram domain is specialized from the programming
+        domain, and uses elements from that domain within the content model
+        of syntax phrases.</p>
     </section>
   </refbody>
 </reference>

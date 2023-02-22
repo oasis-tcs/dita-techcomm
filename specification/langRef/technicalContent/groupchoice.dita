@@ -23,7 +23,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>groupchoice</xmlelement> element is specialized from
-          <xmlelement>figgroup</xmlelement>.  It is defined in the syntax diagram domain module,
+          <xmlelement>figgroup</xmlelement>.  It is defined in the syntax-diagram domain module,
         which is a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
@@ -31,9 +31,11 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the diagram presents a choice of two alternate ways to
-        specify an input file name to a command line program:</p>
-      <codeblock>&lt;syntaxdiagram&gt;
+      <p>The following code sample shows how the
+          <xmlelement>groupchoice</xmlelement> element can be used to
+        specify that there  are two ways to specify an input file name to a
+        command line program:</p>
+      <codeblock id="example-groupchoice">&lt;syntaxdiagram&gt;
   &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
   &lt;groupseq&gt;
     &lt;kwd&gt;runprogram&lt;/kwd&gt;

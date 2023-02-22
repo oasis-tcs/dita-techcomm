@@ -25,7 +25,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>kwd</xmlelement> element is specialized from
-          <xmlelement>keyword</xmlelement>. It is defined in the syntax diagram domain module, which
+          <xmlelement>keyword</xmlelement>. It is defined in the syntax-diagram domain module, which
         is a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
@@ -34,17 +34,18 @@
       /></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>kwd</xmlelement> element identifies text that
-        must be provided to the application exactly as specified:</p>
-      <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
+      <p>The following code sample shows how the
+          <xmlelement>kwd</xmlelement> element can be used to identify text
+        that must be provided to the application exactly as specified:</p>
+      <codeblock id="example-kwd">&lt;syntaxdiagram id="validate"&gt;
   &lt;title>Validate account setup&lt;/title>
   &lt;groupseq>
-    <b>&lt;kwd></b>clicmd<b>&lt;/kwd></b>
+    <b>&lt;kwd>clicmd&lt;/kwd></b>
     &lt;groupcomp>
-      &lt;oper>--&lt;/oper><b>&lt;kwd></b>user<b>&lt;/kwd></b>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>
+      &lt;oper>--&lt;/oper><b>&lt;kwd>user&lt;/kwd></b>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>
     &lt;/groupcomp>
     &lt;groupcomp>
-      &lt;oper>--&lt;/oper><b>&lt;kwd></b>validate<b>&lt;/kwd></b>
+      &lt;oper>--&lt;/oper><b>&lt;kwd>validate&lt;/kwd></b>
     &lt;/groupcomp>
   &lt;/groupseq>
 &lt;/syntaxdiagram&gt;</codeblock></example>

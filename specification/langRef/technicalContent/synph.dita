@@ -24,7 +24,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>synph</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
-        It is defined in the syntax diagram domain module, which is a specialization of the
+        It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
     </section>
     <section id="attributes">
@@ -33,9 +33,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the <xmlelement>synph</xmlelement> element is used to
-        identify a syntax phrase that must be run before a task:</p>
-      <codeblock>&lt;task id="setup-volume">
+      <p>The following code sample shows how the
+          <xmlelement>synph</xmlelement> element can be used to identify a
+        syntax phrase that must be run before a task:</p>
+      <codeblock id="example-synph">&lt;task id="setup-volume">
   &lt;title>Setting up a new volume&lt;/title>
   &lt;shortdesc>This task will help you set up a new volume for your account.&lt;/shortdesc>
   &lt;taskbody>

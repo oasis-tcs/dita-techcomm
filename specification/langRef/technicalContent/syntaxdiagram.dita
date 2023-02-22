@@ -25,7 +25,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>syntaxdiagram</xmlelement> element is specialized from
-          <xmlelement>fig</xmlelement>. It is defined in the syntax diagram domain module, which is
+          <xmlelement>fig</xmlelement>. It is defined in the syntax-diagram domain module, which is
         a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
@@ -36,11 +36,13 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, a <xmlelement>syntaxdiagram</xmlelement> is used to
-        illustrate the syntax of a basic file-copy command. The initial <codeph>COPYF</codeph>
-        command is followed by the input directory and file name. The input is followed by a choice
-        of either an output directory (and optional file name) or a file name.</p>
-      <codeblock><b>&lt;syntaxdiagram&gt;</b>
+      <p>The following code sample shows how a
+          <xmlelement>syntaxdiagram</xmlelement>can be used to illustrate
+        the syntax of a basic file-copy command. The initial
+          <codeph>COPYF</codeph> command is followed by the input directory
+        and file name. The input is followed by a choice of either an
+        output directory (and optional file name) or a file name.</p>
+      <codeblock id="example-syntaxdiagram"><b>&lt;syntaxdiagram&gt;</b>
   &lt;title&gt;CopyFile&lt;/title&gt;
   &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
   &lt;groupcomp&gt;&lt;var&gt;input-directory&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;

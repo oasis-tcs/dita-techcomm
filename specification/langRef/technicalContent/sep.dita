@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="sep" xml:lang="en-us">
   <title><xmlelement>sep</xmlelement></title>
-  <shortdesc>The <xmlelement>sep</xmlelement> element defines a character separating pieces of
-    syntax in a syntax diagram.</shortdesc>
+  <shortdesc>The <xmlelement>sep</xmlelement> element defines a character
+    that separates pieces of syntax in a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,12 +17,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The separator occurs between keywords, operators or groups in a syntax definition.</p>
+      <p>The separator occurs between keywords, operators, or groups in a
+        syntax definition.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>sep</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
-        It is defined in the syntax diagram domain module, which is a specialization of the
+        It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
     </section>
     <section id="attributes">
@@ -30,8 +31,9 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>sep</xmlelement> element is used to separate
-        a parameter name from a parameter value:</p>
+      <p>The following code sample shows how the
+          <xmlelement>sep</xmlelement> element can be used to separate a
+        parameter name from a parameter value:</p>
       <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
   &lt;title>Validate account setup&lt;/title>
   &lt;groupseq>
@@ -39,7 +41,7 @@
     &lt;groupcomp>
       &lt;oper>--&lt;/oper>
       &lt;kwd>user&lt;/kwd>
-      <b>&lt;sep></b>=<b>&lt;/sep></b>
+      <b>&lt;sep>=&lt;/sep></b>
       &lt;var>userid&lt;/var>
     &lt;/groupcomp>
     &lt;groupcomp>
