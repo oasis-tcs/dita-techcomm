@@ -18,7 +18,7 @@
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>synblk</xmlelement> element is specialized from
-        <xmlelement>figgroup</xmlelement>. It is defined in the syntax diagram domain module, which
+        <xmlelement>figgroup</xmlelement>. It is defined in the syntax-diagram domain module, which
         is a specialization of the programming domain module.</p>
 </section>
     <section id="attributes">
@@ -27,10 +27,11 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, <xmlelement>synblk</xmlelement> elements are used to group
-        sets of related options for user profile parameters that might be reused in many different
-        sets of syntax:</p>
-      <codeblock><b>&lt;synblk id="profileopts"&gt;</b>
+      <p>The following code sample shows how
+          <xmlelement>synblk</xmlelement> elements can be used to group
+        sets of related options for user profile parameters. These syntax
+        blocks might be used in many different sets of syntax.</p>
+      <codeblock id="example-synblock"><b>&lt;synblk id="profileopts"&gt;</b>
   &lt;title>Required profile options&lt;/title>
   &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>user&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>&lt;/groupcomp>
   &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>acctkey&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>keyfile&lt;/var>&lt;/groupcomp>

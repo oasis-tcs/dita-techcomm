@@ -17,13 +17,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>fragment</xmlelement> element allows breaking out logical chunks of a large
-        syntax diagram into named fragments.</p>
+      <p>The <xmlelement>fragment</xmlelement> element enables breaking out
+        logical chunks of a large syntax diagram into named fragments.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>fragment</xmlelement> element is specialized from
-          <xmlelement>figgroup</xmlelement>.  It is defined in the syntax diagram domain module,
+          <xmlelement>figgroup</xmlelement>.  It is defined in the syntax-diagram domain module,
         which is a specialization of the programming domain module.</p>
     </section>
     <section id="attributes">
@@ -32,11 +32,12 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>fragment</xmlelement> element is used to
-        break out a set of related logging options from the larger set of syntax. This allows the
-        logging options to be displayed separately in a titled group, out of the flow of the primary
-        diagram.</p>
-      <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
+      <p>The following code sample ahows how the
+          <xmlelement>fragment</xmlelement> element can be used to break
+        out a set of related logging options from the larger set of syntax.
+        This allows the logging options to be displayed separately in a
+        titled group, out of the flow of the primary diagram.</p>
+      <codeblock id="example-fragment">&lt;syntaxdiagram&gt;
   &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
   &lt;groupseq&gt;
     &lt;kwd&gt;runprogram&lt;/kwd&gt;

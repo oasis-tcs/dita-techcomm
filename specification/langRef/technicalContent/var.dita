@@ -19,7 +19,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>var</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
-        It is defined in the syntax diagram domain module, which is a specialization of the
+        It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
     </section>
     <section id="attributes">
@@ -27,13 +27,15 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>var</xmlelement> element identifies variables
-        for which the user will substitute the names of the input and output files:</p>
-      <codeblock>&lt;syntaxdiagram frame="bottom"&gt;
+      <p>The following code sample shows how the
+          <xmlelement>var</xmlelement> element can be used to identify
+        variables for which the user will substitute the names of the input
+        and output files:</p>
+      <codeblock id="example-var">&lt;syntaxdiagram frame="bottom"&gt;
  &lt;title&gt;CopyFile&lt;/title&gt;
  &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
- &lt;groupcomp&gt;<b>&lt;var&gt;</b>input-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
- &lt;groupseq&gt;<b>&lt;var&gt;</b>output-filename<b>&lt;/var&gt;</b>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
+ &lt;groupcomp&gt;<b>&lt;var&gt;input-filename&lt;/var&gt;</b>&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
+ &lt;groupseq&gt;<b>&lt;var&gt;output-filename&lt;/var&gt;</b>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupseq&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
 </reference>

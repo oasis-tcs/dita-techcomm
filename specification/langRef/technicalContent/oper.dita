@@ -17,12 +17,12 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Typical operators are equals (=), plus (+) or multiply (*). </p>
+      <p>Typical operators are equals (=), plus (+), or multiply (*). </p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>oper</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
-        It is defined in the syntax diagram domain module, which is a specialization of the
+        It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
     </section>
     <section id="attributes">
@@ -30,16 +30,17 @@
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>oper</xmlelement> element specifies that the
-        operator in a math operation is plus (+):</p>
-      <codeblock>&lt;syntaxdiagram&gt;
+      <p>The following code sample shows how the
+          <xmlelement>oper</xmlelement> element can be used to specify that
+        the operator in an operation is plus (+):</p>
+      <codeblock id="example-oper">&lt;syntaxdiagram&gt;
   &lt;title&gt;Integer addition&lt;/title&gt;
   &lt;groupseq&gt;
-   &lt;var&gt;integer&lt;/var&gt;
-   <b>&lt;oper&gt;</b>+<b>&lt;/oper&gt;</b>
-   &lt;var&gt;integer&lt;/var&gt;
-   &lt;delim&gt;=&lt;/delim&gt;
-   &lt;var&gt;total&lt;/var&gt;
+    &lt;var&gt;integer&lt;/var&gt;
+    <b>&lt;oper&gt;+&lt;/oper&gt;</b>
+    &lt;var&gt;integer&lt;/var&gt;
+    &lt;delim&gt;=&lt;/delim&gt;
+    &lt;var&gt;total&lt;/var&gt;
   &lt;/groupseq&gt;
 &lt;/syntaxdiagram&gt;</codeblock></example>
   </refbody>
