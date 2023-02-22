@@ -67,9 +67,8 @@
     &lt;/troubleSolution>
   &lt;/troublebody>
 &lt;/troubleshooting></codeblock>
-      <p>How implementations choose what markup patterns they use might
-        depend on their stylesheets and how they deliver troubleshooting
-        information to readers.</p>
+      <p rev="review-e.2">The markup pattern that implementations choose
+        might depend on how they deliver troubleshooting information.</p>
     </example>
   </refbody>
 </reference>
