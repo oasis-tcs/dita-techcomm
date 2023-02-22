@@ -4,10 +4,10 @@
  > 
   <title>Troubleshooting</title>
   <shortdesc rev="review-e">Troubleshooting topics are designed to document
-    problems that people might encounter and provide solutions, if
-    possible. They provide a topic structure that enables content authors
-    to describe a problem, provide diagnostic information, discuss causes,
-    and outline possible solutions.</shortdesc> 
+    problems that people might encounter. They provide a topic structure
+    that enables content authors to describe a <ph rev="review-e.2"
+      >condition</ph>, provide diagnostic information, discuss causes, and
+    outline possible solutions.</shortdesc> 
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
@@ -17,8 +17,7 @@
           system, product, or service that a reader wants to correct</li>
         <li>Provide information that helps the reader diagnose the cause of
           the problem, if it is known</li>
-        <li>Explain the cause of the problem and how to fix it, if
-          possible</li>
+        <li>Explain the cause of the problem and how to fix it</li>
       </ul>
     </section>
     <section id="content-model">
@@ -79,9 +78,9 @@
         <title>Simple troubleshooting topic</title>
         <p>The following code sample shows a simple troubleshooting topic.
           The title and short description describe the problem, and the
-          single <xmlelement>troubleSolution</xmlelement> element contains
-          explanations of the cause of the problem and how to remedy
-          it.</p>
+          single <xmlelement>troubleSolution</xmlelement> element <ph
+            rev="review-e.2">explains</ph> the cause of the problem and how
+          to remedy it.</p>
         <codeblock>&lt;troubleshooting id="oasis-spec-not-rendered-correctly">
   &lt;title>Specification PDF is not rendered correctly&lt;/title>
   &lt;shortdesc>The specification URIs and notices appear in the TOC; they also appear 

@@ -20,8 +20,8 @@
   <refbody>
     <section id="rendering-expectations" rev="review-e">
       <title>Rendering expectations</title>
-      <p>Implementation might want to consider having their stylesheets
-        render a label for this element.</p>
+      <p rev="review-e.2">Implementations might want to consider rendering
+        a label for this element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
