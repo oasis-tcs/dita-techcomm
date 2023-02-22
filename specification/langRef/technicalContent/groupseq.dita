@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="groupseq" xml:lang="en-us">
   <title><xmlelement>groupseq</xmlelement></title>
-  <shortdesc>The <xmlelement>groupseq</xmlelement> element is a set of command syntax that is done
-    in a specific sequence sequence.</shortdesc>
+  <shortdesc>The <xmlelement>groupseq</xmlelement> element specifies the sequence of groups with
+    pieces of syntax.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -35,17 +35,16 @@
       <title>Example</title>
       <p>In the following code sample, a short set of command line syntax is specified in a
         sequential order: the <codeph>runprogram</codeph> tool name, followed by a choice of how to
-        specify an input file.</p>
+        specify an input file:</p>
       <codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
- &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
- <b>&lt;groupseq&gt;</b>
-  &lt;kwd&gt;runprogram&lt;/kwd&gt;
-  &lt;groupchoice>
-    &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
-    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
-  &lt;/groupchoice&gt;
- <b>&lt;/groupseq></b>
-&lt;/syntaxdiagram>
-</codeblock></example>
+  &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
+  <b>&lt;groupseq&gt;</b>
+    &lt;kwd&gt;runprogram&lt;/kwd&gt;
+    &lt;groupchoice>
+      &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+      &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
+    &lt;/groupchoice&gt;
+  <b>&lt;/groupseq></b>
+&lt;/syntaxdiagram></codeblock></example>
   </refbody>
 </reference>

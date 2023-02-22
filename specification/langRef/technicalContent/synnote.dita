@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="synnote" xml:lang="en-us">
   <title><xmlelement>synnote</xmlelement></title>
-  <shortdesc>The <xmlelement>synnote</xmlelement> element contains a note (similar to a footnote)
-    within a syntax definition group or fragment.</shortdesc>
+  <shortdesc>The syntax note provides additional information within a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -37,21 +36,17 @@ itself.</p>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, a syntax note reminds the reader where to find information
-        for a required user ID parameter.</p>
+        for a required user ID parameter:</p>
       <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
   &lt;title>Validate account setup&lt;/title>
   &lt;groupseq>
     &lt;kwd>clicmd&lt;/kwd>
     &lt;groupcomp>
-      &lt;oper>--&lt;/oper>
-      &lt;kwd>user&lt;/kwd>
-      &lt;sep>=&lt;/sep>
-      &lt;var>userid&lt;/var>
+      &lt;oper>--&lt;/oper>&lt;kwd>user&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>userid&lt;/var>
       <b>&lt;synnote></b>Your user ID can be found in your account activation email.<b>&lt;/synnote></b>
     &lt;/groupcomp>
     &lt;groupcomp>
-      &lt;oper>--&lt;/oper>
-      &lt;kwd>validate&lt;/kwd>
+      &lt;oper>--&lt;/oper>&lt;kwd>validate&lt;/kwd>
     &lt;/groupcomp>
   &lt;/groupseq>
 &lt;/syntaxdiagram&gt;</codeblock></example>

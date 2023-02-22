@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="sep" xml:lang="en-us">
   <title><xmlelement>sep</xmlelement></title>
-  <shortdesc>The <xmlelement>sep</xmlelement> element defines a separator character that is inline
-    with the content of a syntax diagram.</shortdesc>
+  <shortdesc>The <xmlelement>sep</xmlelement> element defines a character separating pieces of
+    syntax in a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -31,7 +31,7 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>sep</xmlelement> element is used to separate
-        a parameter name from a parameter value.</p>
+        a parameter name from a parameter value:</p>
       <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
   &lt;title>Validate account setup&lt;/title>
   &lt;groupseq>

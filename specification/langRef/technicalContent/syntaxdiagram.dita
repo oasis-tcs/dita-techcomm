@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="syntaxdiagram" xml:lang="en-us">
   <title><xmlelement>syntaxdiagram</xmlelement></title>
-  <shortdesc>The <xmlelement>syntaxdiagram</xmlelement> element represents the syntax of a command,
-    function call, or programming language statement.</shortdesc>
+  <shortdesc>A syntax diagram represents the syntax of a command, function call, or programming
+    language statement.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -40,7 +40,7 @@
         illustrate the syntax of a basic file-copy command. The initial <codeph>COPYF</codeph>
         command is followed by the input directory and file name. The input is followed by a choice
         of either an output directory (and optional file name) or a file name.</p>
-      <codeblock>&lt;syntaxdiagram&gt;
+      <codeblock><b>&lt;syntaxdiagram&gt;</b>
   &lt;title&gt;CopyFile&lt;/title&gt;
   &lt;groupseq&gt;&lt;kwd&gt;COPYF&lt;/kwd&gt;&lt;/groupseq&gt;
   &lt;groupcomp&gt;&lt;var&gt;input-directory&lt;/var&gt;&lt;kwd&gt;*INFILE&lt;/kwd&gt;&lt;/groupcomp&gt;
@@ -48,7 +48,6 @@
     &lt;groupcomp>&lt;var&gt;output-directory&lt;/var&gt;&lt;kwd importance="optional"&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupcomp>
     &lt;groupcomp>&lt;kwd&gt;*OUTFILE&lt;/kwd&gt;&lt;/groupcomp>
   &lt;/groupchoice>
-&lt;/syntaxdiagram&gt;
-</codeblock></example>
+<b>&lt;/syntaxdiagram&gt;</b></codeblock></example>
   </refbody>
 </reference>

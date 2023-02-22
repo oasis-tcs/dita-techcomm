@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="delim" xml:lang="en-us">
   <title><xmlelement>delim</xmlelement></title>
-  <shortdesc>The <xmlelement>delim</xmlelement> element identifies a character that marks the
-    beginning or end of a section within a syntax diagram.</shortdesc>
+  <shortdesc>A delimiter is a character that marks the beginning or end of a section within a syntax
+    diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -32,7 +32,7 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>delim</xmlelement> element specifies that the
-        equal sign (=) is used to mark the end of the group sequence.</p>
+        equal sign (=) is used to mark the end of the group sequence:</p>
       <codeblock id="codeblock_k4s_qnj_spb">&lt;syntaxdiagram&gt;
   &lt;title&gt;Integer addition&lt;/title&gt;
   &lt;groupseq&gt;

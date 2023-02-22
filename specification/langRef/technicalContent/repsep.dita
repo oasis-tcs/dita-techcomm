@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="repsep" xml:lang="en-us">
   <title><xmlelement>repsep</xmlelement></title>
-  <shortdesc>The <xmlelement>repsep</xmlelement> element identifies a character used in a syntax
-    diagram to indicate that a group of syntax elements can (or should) be repeated.</shortdesc>
+  <shortdesc>The <xmlelement>repsep</xmlelement> element identifies a character to indicate that a
+    group of syntax elements can (or should) be repeated in a syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -33,7 +33,7 @@
       <title>Example</title>
       <p>In the following code sample example, a file listing can be requested for multiple volumes.
         The <xmlelement>repsep</xmlelement> element identifies that each requested volume can be
-        separated with a comma.</p>
+        separated with a commaÖ</p>
       <codeblock id="codeblock_dkj_d3j_spb">&lt;syntaxdiagram>
   &lt;title>Request file listing&lt;/title>
   &lt;groupseq>

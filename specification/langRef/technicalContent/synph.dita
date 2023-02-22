@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="synph" xml:lang="en-us">
   <title><xmlelement>synph</xmlelement></title>
-  <shortdesc>The <xmlelement>synph</xmlelement> element identifies a syntax phrase.</shortdesc>
+  <shortdesc>A syntax phrase is a small group of pieces of syntax.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -33,18 +33,17 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>synph</xmlelement> element is used to
-        identify syntax phrase that must be run before a task.</p>
+      <p>The following code sample shows how the <xmlelement>synph</xmlelement> element is used to
+        identify a syntax phrase that must be run before a task:</p>
       <codeblock>&lt;task id="setup-volume">
- &lt;title>Setting up a new volume&lt;/title>
- &lt;shortdesc>This task will help you set up a new volume for your account.&lt;/shortdesc>
- &lt;taskbody>
-  &lt;prereq>Before starting this procedure, ensure that you have requested
-    the volume using the <b>&lt;synph&gt;</b>&lt;kwd&gt;request&lt;/kwd&gt; &lt;var&gt;volumename&lt;/var&gt;<b>&lt;/synph&gt;</b>
-    command.&lt;/prereq>
-  &lt;!-- ... -->
- &lt;/taskbody>
-&lt;/task>
-</codeblock></example>
+  &lt;title>Setting up a new volume&lt;/title>
+  &lt;shortdesc>This task will help you set up a new volume for your account.&lt;/shortdesc>
+  &lt;taskbody>
+    &lt;prereq>Before starting this procedure, ensure that you have requested
+      the volume using the <b>&lt;synph&gt;&lt;kwd&gt;request&lt;/kwd&gt; &lt;var&gt;volumename&lt;/var&gt;&lt;/synph&gt;</b>
+      command.&lt;/prereq>
+    &lt;!-- ... -->
+  &lt;/taskbody>
+&lt;/task></codeblock></example>
   </refbody>
 </reference>

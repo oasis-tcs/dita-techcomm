@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="fragref" xml:lang="en-us">
   <title><xmlelement>fragref</xmlelement></title>
-  <shortdesc>The <xmlelement>fragref</xmlelement> element provides a logical reference to a
-      <xmlelement>fragment</xmlelement> element within a syntax diagram, so that you can reference a
-    syntax fragment multiple times or pull a large section of syntax out of line for easier reading.</shortdesc>
+  <shortdesc>A fragment reference is the mechanism for referencing a syntax fragment within the same
+    syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,6 +15,12 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>The <xmlelement>fragref</xmlelement> element is used to reference a syntax fragment
+        multiple times or pull a large section of syntax out of line for easier reading.</p>
+    </section>
+    
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>
 <p>The <xmlelement>fragref</xmlelement> element is specialized from <xmlelement>xref</xmlelement>.
@@ -41,23 +46,19 @@
         element is used to break out a set of related logging options from the larger set of syntax.
         The <xmlelement>fragref</xmlelement> element is part of the program sequence after an input
         file, but the syntax for logging is defined outside of the main
-        diagram.</p><codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram&gt;
- &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
- &lt;groupseq&gt;
-  &lt;kwd&gt;runprogram&lt;/kwd&gt;
-  &lt;groupchoice>
-    &lt;groupcomp>&lt;oper>-&lt;/oper>&lt;kwd>i&lt;/kwd>&lt;sep>:&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
-    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>input&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>program-name.py&lt;/var>&lt;/groupcomp>
-  &lt;/groupchoice&gt;
-  <b>&lt;fragref href="#./logging">Logging options&lt;/fragref></b>
- &lt;/groupseq>
- &lt;fragment id="logging">
-   &lt;title>Logging options&lt;/title>
-   &lt;groupseq importance="optional">&lt;oper>-&lt;/oper>&lt;kwd>debug&lt;/kwd>&lt;/groupseq>
-   &lt;groupseq importance="optional">&lt;oper>-&lt;/oper>&lt;kwd>verbose&lt;/kwd>&lt;/groupseq>
- &lt;/fragment>
-&lt;/syntaxdiagram>
-</codeblock><ph>might</ph> produce output like the
+        diagram.</p><codeblock id="codeblock_w5d_t5p_rpb">&lt;syntaxdiagram frame="none">
+  &lt;title>CopyFile&lt;/title>
+  &lt;groupseq>&lt;kwd>COPYF&lt;/kwd>&lt;/groupseq>
+  &lt;groupcomp>&lt;var>input-filename&lt;/var>&lt;kwd>*INFILE&lt;/kwd>&lt;/groupcomp>
+  &lt;groupseq>&lt;var>output-filename&lt;/var>&lt;kwd>*OUTFILE&lt;/kwd>&lt;/groupseq>
+  <b>&lt;fragref href="#./overlay">&lt;/fragref></b>
+  &lt;groupchoice>&lt;var>input-filename&lt;/var>&lt;kwd>*INFILE&lt;/kwd>&lt;/groupchoice>
+  &lt;groupchoice>&lt;var>output-filename&lt;/var>&lt;kwd>*OUTFILE&lt;/kwd>&lt;/groupchoice>
+  &lt;fragment id="overlay">
+    &lt;title>Overlay&lt;/title>
+    &lt;groupchoice>&lt;kwd>*OVERLAP&lt;/kwd>&lt;kwd>*Prompt&lt;/kwd>&lt;/groupchoice>
+  &lt;/fragment>
+&lt;/syntaxdiagram></codeblock><ph>might</ph> produce output like the
       following:<pre xml:space="preserve">CopyFile
 
 &gt;&gt;-COPYF--input-filename*INFILE--output-filename--*OUTFILE------&gt;
@@ -68,7 +69,6 @@
 Overlay
 
 |--+-*OVERLAP-+-------------------------------------------------|
-   '-*Prompt--'
-</pre></example>
+   '-*Prompt--'</pre></example>
   </refbody>
 </reference>

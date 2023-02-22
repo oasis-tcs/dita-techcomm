@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="synnoteref" xml:lang="en-us">
   <title><xmlelement>synnoteref</xmlelement></title>
-  <shortdesc>The <xmlelement>synnoteref</xmlelement> element references a syntax note element
-      (<xmlelement>synnote</xmlelement>) that has already been defined elsewhere in the syntax
-    diagram.</shortdesc>
+  <shortdesc>A syntax note reference is the mechanism for referencing a syntax note within the same
+    syntax diagram.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -38,7 +37,7 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, a syntax note is reused twice in the sample diagram,
-        instructing the reader how to request a modified user name or password.</p>
+        instructing the reader how to request a modified user name or password:</p>
       <codeblock id="codeblock_rzn_cjj_spb">&lt;syntaxdiagram id="validate"&gt;
   &lt;title>Validate account setup&lt;/title>
   &lt;groupseq>
@@ -53,8 +52,8 @@
       &lt;oper>--&lt;/oper>&lt;kwd>validate&lt;/kwd>
     &lt;/groupcomp>
   &lt;/groupseq>
-  &lt;synnote id="reset">If you have forgotten your account ID or password key,
-    please contact customer support.&lt;/synnote>
+  <b>&lt;synnote id="reset"></b>If you have forgotten your account ID or password key,
+    please contact customer support.<b>&lt;/synnote></b>
 &lt;/syntaxdiagram&gt;</codeblock>
     </example>
   </refbody>
