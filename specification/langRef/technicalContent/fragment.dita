@@ -32,11 +32,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample ahows how the
-          <xmlelement>fragment</xmlelement> element can be used to break
-        out a set of related logging options from the larger set of syntax.
-        This allows the logging options to be displayed separately in a
-        titled group, out of the flow of the primary diagram.</p>
+      <p>The following code sample shows how the <xmlelement>fragment</xmlelement> element can be
+        used to break out a set of related logging options from the larger set of syntax. This
+        allows the logging options to be displayed separately in a titled group, out of the flow of
+        the primary diagram.</p>
       <codeblock id="example-fragment">&lt;syntaxdiagram&gt;
   &lt;title&gt;Syntax for runprogram command&lt;/title&gt;
   &lt;groupseq&gt;
