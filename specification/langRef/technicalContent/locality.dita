@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="locality" xml:lang="en-us">
   <title><xmlelement>locality</xmlelement></title>
-  <shortdesc>The <xmlelement>locality</xmlelement> element contains information about the city and
-    postal or ZIP code.</shortdesc>
+  <shortdesc>The <xmlelement>locality</xmlelement> element specifies information about a city,
+    postal code, or ZIP code.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,11 +14,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>This element can contain the information directly, or by acting as a wrapper for
-          <xmlelement>localityname</xmlelement> and <xmlelement>postalcode</xmlelement>.</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>locality</xmlelement> element is specialized from
@@ -30,15 +25,28 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;addressdetails&gt;
-&lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
-&lt;locality&gt;
-&lt;localityname&gt;Emerald City&lt;/localityname&gt;
-&lt;postalcode&gt;66780&lt;/postalcode&gt;
-&lt;/locality&gt;
-&lt;administrativearea&gt;Kansas&lt;/administrativearea&gt;
-&lt;country&gt;USA&lt;/country&gt;
-&lt;/addressdetails&gt;
-</codeblock></example>
+      <p>The following code sample shows how the <xmlelement>locality</xmlelement> element can be
+        used to provide detailed information about a city, postal code, or ZIP code:</p>
+      <codeblock id="codeblock_xdt_rr2_nwb">&lt;bookmeta>
+ &lt;authorinformation&gt;
+  &lt;personinfo&gt;
+   &lt;namedetails&gt;&lt;personname&gt;
+     &lt;firstname&gt;Derek&lt;/firstname&gt;
+     &lt;middlename&gt;L.&lt;/middlename&gt;
+     &lt;lastname&gt;Singleton&lt;/lastname&gt;
+     &lt;generationidentifier&gt;Jr.&lt;/generationidentifier&gt;
+     &lt;otherinfo&gt;noted psychologist&lt;/otherinfo&gt;
+   &lt;/personname&gt;&lt;/namedetails&gt;
+   &lt;addressdetails&gt;
+     &lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
+     <b>&lt;locality&gt;</b>Emerald City<b>&lt;/locality&gt;</b>
+     &lt;administrativearea&gt;Kansas&lt;/administrativearea&gt;
+     &lt;country&gt;USA&lt;/country&gt;
+   &lt;/addressdetails&gt;
+   &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
+   &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
+  &lt;/personinfo&gt;
+ &lt;/authorinformation&gt;
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>
