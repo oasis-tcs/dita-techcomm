@@ -4,7 +4,7 @@
   <title><xmlelement>diagnostics-steps</xmlelement></title>
   <shortdesc id="shortdesc">The <xmlelement>diagnostics-steps</xmlelement>
     element includes step-by-step information that can help readers
-    determine <ph rev="review-e">the cause of the symptom</ph>. Results of
+    determine <ph rev="review-e">the causes of a symptom</ph>. Results of
       <ph rev="review-e">the diagnostic steps might link to potential
       solutions.</ph></shortdesc>
   <prolog>
@@ -46,45 +46,52 @@
         step-by-step instructions to help someone determine <ph
           rev="review-e">the cause of a problem and the potential
           solution</ph>:</p>
-      <codeblock>&lt;diagnostics>
-  <b>&lt;diagnostics-steps></b>
-    &lt;steps>
-      &lt;step>
-        &lt;cmd>Open the command prompt and type &lt;userinput>ipconfig&lt;/userinput>.&lt;/cmd>
-        &lt;info>The Default Gateway (listed last) is your router’s IP. Your computer’s IP
-              address is the number next to “IP Address.” If your computer’s IP address
-              starts with 169, the computer is not receiving a valid IP address. See
-              &lt;xref href="#./ipaddress"/>.
-        &lt;/info>
-      &lt;/step>
-      &lt;step>
-        &lt;cmd>If your address does not start with 169, type 
-             &lt;userinput>tracert8.8.8.8&lt;/userinput> to view each step between your router 
-             and the Google DNS servers.&lt;/cmd>
-        &lt;info>If the error comes up early along the pathway, see 
-              &lt;xref href="#./resetnetwork"/>&lt;/info>
-      &lt;/step>
-      &lt;step>
-        &lt;cmd>If everything is working with Google, use the &lt;cmdname>nslookup&lt;/cmdname> 
-             command to determine if there's a problem with the server you are trying 
-             to connect to.&lt;/cmd>
-        &lt;info>If you received results such as &lt;msgph>Timed Out&lt;/msgph>, 
-              &lt;msgph>Server Failure&lt;/msgph>, &lt;msgph>Refused&lt;/msgph>, 
-              &lt;msgph>No Response from Server&lt;/msgph>, or 
-              &lt;msgph>Network is unreachable&lt;msgph>, the problem originates in the DNS 
-              server for your destination.&lt;/info>
-      &lt;/step>
-      &lt;step>
-        &lt;cmd>If the previous steps turn up no problems, contact your ISP to see if they're 
-               having issues.&lt;/cmd>
-      &lt;/step>
-    &lt;/steps>
-  <b>&lt;/diagnostics-steps></b>   
-&lt;/diagnostics>
-  &lt;!-- The rest of this topic contains two &lt;troublesolution> elements, each of which contains
-       a remedy. One remedy provides instructions for "Resetting your IP address" and the
-       other provides instructions for "Resetting your local network". The cross references 
-       in the above steps resolve to the &lt;remedy> elements. --></codeblock>
+      <codeblock>&lt;troubleshooting id="my-network-isnt-working">
+  &lt;title>My network isn't working&lt;/title>
+  &lt;shortdesc>Users are unable to access network servers, the internet, or other 
+      networked devices, such as printers.&lt;/shortdesc>
+  &lt;troublebody>
+    &lt;diagnostics>
+      <b>&lt;diagnostics-steps></b>
+        &lt;steps>
+          &lt;step>
+            &lt;cmd>Open the command prompt and type &lt;userinput>ipconfig&lt;/userinput>.&lt;/cmd>
+            &lt;info>The Default Gateway (listed last) is your router’s IP. Your computer’s IP
+                address is the number next to “IP Address.” If your computer’s IP address
+                starts with 169, the computer is not receiving a valid IP address. See
+                &lt;xref href="#./ipaddress"/>.
+            &lt;/info>
+          &lt;/step>
+          &lt;step>
+            &lt;cmd>If your address does not start with 169, type 
+               &lt;userinput>tracert8.8.8.8&lt;/userinput> to view each step between your router 
+               and the Google DNS servers.&lt;/cmd>
+            &lt;info>If the error comes up early along the pathway, see 
+                &lt;xref href="#./resetnetwork"/>&lt;/info>
+          &lt;/step>
+          &lt;step>
+            &lt;cmd>If everything is working with Google, use the &lt;cmdname>nslookup&lt;/cmdname> 
+               command to determine if there's a problem with the server you are trying 
+               to connect to.&lt;/cmd>
+            &lt;info>If you received results such as &lt;msgph>Timed Out&lt;/msgph>, 
+                &lt;msgph>Server Failure&lt;/msgph>, &lt;msgph>Refused&lt;/msgph>, 
+                &lt;msgph>No Response from Server&lt;/msgph>, or 
+                &lt;msgph>Network is unreachable&lt;msgph>, the problem originates in the DNS 
+                server for your destination.&lt;/info>
+          &lt;/step>
+          &lt;step>
+            &lt;cmd>If the previous steps turn up no problems, contact your ISP to see if 
+              they're having issues.&lt;/cmd>
+          &lt;/step>
+        &lt;/steps>
+      <b>&lt;/diagnostics-steps></b>   
+    &lt;/diagnostics>
+    &lt;!-- The rest of this topic contains two &lt;troublesolution> elements, each of which 
+         contains a remedy. One remedy provides instructions for "Resetting your IP address" 
+         and the other provides instructions for "Resetting your local network". The 
+         cross references in the above steps resolve to the &lt;remedy> elements. -->
+  &lt;/troublebody>
+&lt;/troubleshooting></codeblock>
     </example>
   </refbody>
 </reference>

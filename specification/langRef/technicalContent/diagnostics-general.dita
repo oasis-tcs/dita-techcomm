@@ -5,8 +5,9 @@
   <shortdesc id="shortdesc">The
       <xmlelement>diagnostics-general</xmlelement> element <ph
       rev="review-e">includes non-procedural information that can help
-      determine the <ph rev="review-e.2">cause</ph> of the symptom. Results
-      of the diagnoses might link to a possible solution.</ph></shortdesc>
+      determine the <ph rev="review-e">causes</ph> of <ph rev="review-e"
+        >a</ph> symptom. Results of the diagnoses might link to <ph
+        rev="review-e">possible solutions</ph>.</ph></shortdesc>
     <prolog>
     <metadata>
       <keywords>

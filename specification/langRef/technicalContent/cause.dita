@@ -4,7 +4,8 @@
 <reference id="cause" xml:lang="en-us">
   <title><xmlelement>cause</xmlelement></title>
   <shortdesc>The <xmlelement>cause</xmlelement> element describes a
-    potential source of the problem.</shortdesc>
+    potential source of the problem  <ph rev="review-e">that is addressed
+      by the troubleshooting topic</ph>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
