@@ -20,8 +20,8 @@
   <refbody>
     <section id="rendering-expectations" rev="review-e">
       <title>Rendering expectations</title>
-      <p rev="review-e.2">Implementations might want to consider rendering
-        a label for this element.</p>
+      <p rev="review-e">Implementations might want to consider rendering a
+        label for this element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,20 +34,20 @@
     </section>
     <example id="examples" otherprops="examples">
       <title>Example</title>
-      <draft-comment author="Kristen J Eberlein" time="15 February 2023">
-        <p>We need a new example here. Dawn volunteered to share informaton
-          about how her clients use this element.</p>
-        <p>The other code samples that have a
-            <xmlelement>responsibleParty</xmlelement> element include the
-          following. They might need revision.</p>
-        <ul>
-          <li><xmlelement>remedy</xmlelement></li>
-          <li><xmlelement>troubleshooting</xmlelement></li>
-        </ul>
-      </draft-comment>
       <p>The following code sample shows how the
-          <xmlelement>responsbleParty</xmlelement> element can be used:</p>
-      <codeblock/>
+          <xmlelement>responsibleParty</xmlelement> element can be used <ph
+          rev="review-e">to specify the prerequisites for performing a
+          procedure</ph>:</p>
+      <codeblock rev="review-e">&lt;remedy>
+  <b>&lt;responsible-party></b>You must have administrative privileges to perform this procedure.
+  <b>&lt;/responsible-party></b>
+  &lt;steps>
+    &lt;step>&lt;cmd>Run the following command from the command line: 
+            &lt;codeph>msiexec.exe /I C:\Windows\Installer\XXXXX.msi&lt;/codeph>&lt;/cmd>
+    &lt;step>
+    &lt;!-- ... -->
+  &lt;/steps>
+&lt;/remedy></codeblock>
       <!--<p>In the following code sample, the <xmlelement>responsibleParty</xmlelement> element indicates the person who should perform the task:</p>-->
       <!--<codeblock>&lt;remedy>
   &lt;title>Remedy&lt;/title>
