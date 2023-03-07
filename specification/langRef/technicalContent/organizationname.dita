@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="organizationname" xml:lang="en-us">
   <title><xmlelement>organizationname</xmlelement></title>
-  <shortdesc>The <xmlelement>organizationname</xmlelement> element contains name information about
-    the authoring organization.</shortdesc>
+  <shortdesc>The <xmlelement>organizationname</xmlelement> element specifies information about the
+    name of an authoring organization.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,22 +25,28 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;organizationinfo&gt;
- &lt;namedetails&gt;
-  &lt;organizationnamedetails&gt;
-   <b>&lt;organizationname&gt;WizardWorks, Inc.&lt;/organizationname&gt;</b>
-   &lt;otherinfo&gt;'Best wizard in Oz'&lt;/otherinfo&gt;
-  &lt;/organizationnamedetails&gt;
- &lt;/namedetails&gt;
- &lt;addressdetails&gt;
-  &lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
-  &lt;locality&gt;Emerald City&lt;/locality&gt;
-  &lt;administrativearea&gt;Kansas&lt;/administrativearea&gt;
-  &lt;country&gt;USA&lt;/country&gt;
- &lt;/addressdetails&gt;
- &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
- &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
- &lt;urls&gt;&lt;url&gt;www.wizardworks.example.org&lt;/url&gt;&lt;/urls&gt;
-&lt;/organizationinfo&gt;</codeblock></example>
+      <p>The following code sample shows how the <xmlelement>organizationname</xmlelement> element
+        can be used to provide detailed information about the authoring organization:</p>
+      <codeblock id="codeblock_xdt_rr2_nwb">&lt;bookmeta>
+ &lt;authorinformation&gt;
+  &lt;organizationinfo&gt;
+   &lt;namedetails&gt;
+    &lt;organizationnamedetails&gt;
+     <b>&lt;organizationname&gt;</b>WizardWorks, Inc.<b>&lt;/organizationname&gt;</b>
+     &lt;otherinfo&gt;'Best wizard in Oz'&lt;/otherinfo&gt;
+    &lt;/organizationnamedetails&gt;
+   &lt;/namedetails&gt;
+   &lt;addressdetails&gt;
+    &lt;thoroughfare&gt;123 Yellow Brick Road&lt;/thoroughfare&gt;
+    &lt;locality&gt;Emerald City&lt;/locality&gt;
+    &lt;administrativearea&gt;Kansas&lt;/administrativearea&gt;
+    &lt;country&gt;USA&lt;/country&gt;
+   &lt;/addressdetails&gt;
+   &lt;contactnumbers&gt;&lt;contactnumber&gt;123-555-4678&lt;/contactnumber&gt;&lt;/contactnumbers&gt;
+   &lt;emailaddresses&gt;&lt;emailaddress&gt;wizard@example.org&lt;/emailaddress&gt;&lt;/emailaddresses&gt;
+   &lt;urls&gt;&lt;url&gt;www.wizardworks.example.org&lt;/url&gt;&lt;/urls&gt;
+  &lt;/organizationinfo&gt;
+ &lt;/authorinformation&gt;
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>
