@@ -1,58 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference xml:lang="en-us" id="mathml">
+<reference xml:lang="en-us" id="mathml" >
   <title><xmlelement>mathml</xmlelement></title>
-  <shortdesc>The <xmlelement>mathml</xmlelement> element contains MathML markup or other content
-    that contributes to a semantic equation.</shortdesc>
+  <shortdesc>Use the <xmlelement>mathml</xmlelement> element to indicate content that is part of a
+    mathematical equation, such as  elements from the MathML standard, references to MathML elements
+    held in separate, non-DITA documents, <xmlelement>data</xmlelement>, or
+      <xmlelement>data-about</xmlelement> elements. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>MathML domain<indexterm><xmlelement>mathml</xmlelement></indexterm></indexterm>
+        <indexterm>mathml</indexterm>
+        <indexterm>MathML domain<indexterm>mathml</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
-      <title>Usage information</title>
-      <p>MathML element content includes MathML elements, references to MathML elements held in separate,
-        non-DITA documents, or <xmlelement>data</xmlelement> elements.</p>
-      <p>The <xmlelement>mathml</xmlelement> element is not intended to represent a semantic
-        equation, only content that contributes to a semantic equation. Use the equation domain
-        elements or their equivalent to represent equations semantically, for example, to enable
-        numbering of equations.</p>
+      <title>Usage Information</title>
+      <p>The <xmlelement>mathml</xmlelement> element is not intended to represent acomplete semantic
+        equation, only content that is part of a semantic equation. Use the equation domain elements
+        or their equivalent to represent equations semantically, for example, to enable numbering of
+        equations. </p>
       <p>The MathML markup must have a root element of <xmlelement>math</xmlelement> within the
         MathML namespace: "http://www.w3.org/1998/Math/MathML".</p>
     </section>
-    <section id="specialization-hierarchy">
-      <title>Specialization hierarchy</title>
+    
+    
+    <section id="inheritance" otherprops="inheritance">
+      <title>Inheritance</title>
       <p>The <xmlelement>mathml</xmlelement> element is specialized from
-          <xmlelement>foreign</xmlelement>. It is defined in the MathML domain module.</p>
-    </section>
-    <section id="attributes">
-      <title>Attributes</title>
-      <p conkeyref="reuse-attributes/only-universal"/>
+          <xmlelement>foreign</xmlelement>. It is defined in the mathml-domain module. </p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, a <xmlelement>mathml</xmlelement> element contains MathML
-        content:</p>
-      <codeblock id="codeblock_mmn_xf4_rpb">&lt;equation-block>
-  &lt;mathml>
-   &lt;m:math>
-    &lt;m:semantics>
-     &lt;m:mrow>
-      &lt;m:msqrt>
-       &lt;m:mrow>
-        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>
-        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-       &lt;/m:mrow>
-      &lt;/m:msqrt>        
-     &lt;/m:mrow>
-    &lt;/m:semantics>
-   &lt;/m:math>
-  &lt;/mathml>
+      <p>The following code sample shows how to use the <xmlelement>mathml</xmlelement> element to
+        contain MathML content:</p>
+      <codeblock>&lt;equation-block>
+  <b>&lt;mathml></b>
+    &lt;m:math xmlns:m ="http://www.w3.org/1998/Math/MathML">
+      &lt;m:semantics>
+        &lt;m:mrow>
+          &lt;m:msqrt>
+            &lt;m:mrow>
+              &lt;m:msup>
+                &lt;m:mi>a&lt;/m:mi>
+                &lt;m:mn>2&lt;/m:mn>
+              &lt;/m:msup>
+              &lt;m:mo>+&lt;/m:mo>&lt;m:msup>
+                &lt;m:mi>b&lt;/m:mi>
+                &lt;m:mn>2&lt;/m:mn>
+              &lt;/m:msup>
+            &lt;/m:mrow>
+          &lt;/m:msqrt>        
+        &lt;/m:mrow>
+      &lt;/m:semantics>
+    &lt;/m:math>
+  <b>&lt;/mathml></b>
 &lt;/equation-block></codeblock>
     </example>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conkeyref="conref-attribute/universal-outputclass"/>
+      
+    </section>
   </refbody>
 </reference>
