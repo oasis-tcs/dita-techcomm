@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-revisionid" xml:lang="en-us">
   <title><xmlelement>change-revisionid</xmlelement></title>
-  <shortdesc>Change revision ID specifies a string to identify the change.</shortdesc>
+  <shortdesc>The <xmlelement>change-revisionid</xmlelement> element specifies a string to identify
+    the change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -11,13 +12,12 @@
               elements<indexterm><xmlelement>change-revisionid</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
-    <change-historylist/>
   </prolog>
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-revisionid</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -25,20 +25,18 @@
     </section>
     <example id="example_uy1_jg5_lwb">
       <title>Example</title>
-      <p>The following code sample shows how the change revision ID can be used to identify a
-        particular change. In this example, change revision ID is used to note the release number
-        for which the first change is applicable.</p>
-      <codeblock id="codeblock_xmw_jg5_lwb">
-&lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-revisionid</xmlelement> element
+        can be used to identify a particular change. In this example, change revision ID is used to
+        note the release number for which the first change is applicable.</p>
+      <codeblock>&lt;change-historylist>
   &lt;change-item product="productA productB">
     &lt;change-person>Tom Cihak&lt;/change-person>
-    <b>&lt;change-revisionid></b>r23.4<b>&lt;/change-revisionid></b>
+    <b>&lt;change-revisionid>r23.4&lt;/change-revisionid></b>
     &lt;change-completed>2019-07-20&lt;/change-completed>
     &lt;change-summary>Made change 3 to both products&lt;/change-summary>
     &lt;data>Details of change 3&lt;/data>
   &lt;/change-item>
-&lt;/change-historylist>
-</codeblock>
+&lt;/change-historylist></codeblock>
     </example>
   </refbody>
 </reference>

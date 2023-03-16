@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-started" xml:lang="en-us">
   <title><xmlelement>change-started</xmlelement></title>
-  <shortdesc>The change started element specifies the date on which a change was
-    initiated.</shortdesc>
+  <shortdesc>The <xmlelement>change-started</xmlelement> element specifies the date on which a
+    change was initiated.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,28 +21,26 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-started</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example id="example_d2s_5p5_lwb">
+    <example id="example">
       <title>Example</title>
-      <p>The following code sample shows how <xmlelement>change-started</xmlelement> can be used to
-        specify the first day a particular change began:</p>
-      <codeblock id="codeblock_x1k_wp5_lwb">
-  &lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-started</xmlelement> element can
+        be used to specify the first day a particular change began:</p>
+      <codeblock>&lt;change-historylist>
     &lt;change-item product="productA productB">
       &lt;change-person>Tom Cihak&lt;/change-person>
       &lt;change-organization>JEDEC&lt;/change-organization>
-      <b>&lt;change-started></b>2019-01-15<b>&lt;/change-started></b>
+      <b>&lt;change-started>2019-01-15&lt;/change-started></b>
       &lt;change-completed>2019-03-23&lt;/change-completed>
       &lt;change-summary>Made change 1 to both products&lt;/change-summary>
       &lt;data>Details of change 1&lt;/data>
     &lt;/change-item>
-  &lt;/change-historylist>
-  </codeblock>
+  &lt;/change-historylist></codeblock>
     </example>
   </refbody>
 </reference>

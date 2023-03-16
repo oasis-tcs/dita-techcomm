@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us">
   <title><xmlelement>change-historylist</xmlelement></title>
-  <shortdesc>A change history list contains one or more changes that are applicable to a DITA topic
-    or map.</shortdesc>
+  <shortdesc>The <xmlelement>change-historylist</xmlelement> element contains one or more changes
+    that are applicable to a DITA topic or map.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,13 +17,12 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>The <xmlelement>change-historylist</xmlelement> element appears in the topic
-          <xmlelement>prolog</xmlelement> element or the map <xmlelement>topicmeta</xmlelement>
-        element.</p>
+          <xmlelement>prolog</xmlelement> or the map <xmlelement>topicmeta</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-historylist</xmlelement> element is specialized from
-          <xmlelement>metadata</xmlelement>. It is defined in the release management domain
+          <xmlelement>metadata</xmlelement>. It is defined in the release-management domain
         module.</p>
     </section>
     <section id="attributes">
@@ -32,11 +31,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how a change history list can be used to document one or
-        more changes in a DITA topic or map.This example includes three changes. This topic is used
-        in documentation for two products, A and B.</p>
-      <codeblock>
-  <b>&lt;change-historylist></b>
+      <p>The following code sample shows how the <xmlelement>change-historylist</xmlelement> element
+        can be used to document one or more changes in a DITA topic or map.This example includes
+        three changes. This topic is used in documentation for two products, A and B.</p>
+      <codeblock><b>&lt;change-historylist></b>
     &lt;change-item product="productA productB">
       &lt;change-person>Tom Cihak&lt;/change-person>
       &lt;change-organization>JEDEC&lt;/change-organization>
@@ -62,8 +60,7 @@
       &lt;change-summary>Made change 3 to both products&lt;/change-summary>
       &lt;data>Details of change 3&lt;/data>
     &lt;/change-item>
-  <b>&lt;/change-historylist></b>
-  </codeblock>
+  <b>&lt;/change-historylist></b></codeblock>
     </example>
   </refbody>
 </reference>

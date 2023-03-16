@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-item" xml:lang="en-us">
   <title><xmlelement>change-item</xmlelement></title>
-  <shortdesc>A change item represents a record of a single change in a DITA topic or
-    map.</shortdesc>
+  <shortdesc>The <xmlelement>change-item</xmlelement> element represents a record of a single change
+    in a DITA topic or map.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +17,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-item</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -25,11 +25,10 @@
     </section>
     <example id="example_e1s_mrx_kwb">
       <title>Example</title>
-      <p>The following code sample shows how <xmlelement>change-item</xmlelement> can be used to
-        detail a change. This example includes two changes, one that is applicable to products A and
-        B and one that is applicable to only product A.</p>
-      <codeblock id="codeblock_svz_4rx_kwb">
-&lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-item</xmlelement> element can be
+        used to detail a change. This example includes two changes, one that is applicable to
+        products A and B and one that is applicable to only product A.</p>
+      <codeblock>&lt;change-historylist>
   <b>&lt;change-item product="productA productB"></b>
     &lt;change-person>Tom Cihak&lt;/change-person>
     &lt;change-organization>JEDEC&lt;/change-organization>

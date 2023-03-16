@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-summary" xml:lang="en-us">
   <title><xmlelement>change-summary</xmlelement></title>
-  <shortdesc>The change summary includes a brief description of the change.</shortdesc>
+  <shortdesc>The <xmlelement>change-summary</xmlelement> element includes a brief description of the
+    change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,7 +24,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-summary</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -31,18 +32,16 @@
     </section>
     <example id="example_f34_zvx_kwb">
       <title>Example</title>
-      <p>The following code sample shows how the change summary can be used to provide a brief
-        description of a change:</p>
-      <codeblock id="codeblock_xdz_zvx_kwb">
-&lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-summary</xmlelement> element can
+        be used to provide a brief description of a change:</p>
+      <codeblock>&lt;change-historylist>
   &lt;change-item product="productA">
     &lt;change-person>Tom Cihak&lt;/change-person>
     &lt;change-completed>2019-06-07&lt;/change-completed>
-    <b>&lt;change-summary></b>Made change 2 to product A<b>&lt;/change-summary></b>
+    <b>&lt;change-summary>Made change 2 to product A&lt;/change-summary></b>
     &lt;data>Details of change 2&lt;/data>
   &lt;/change-item>
-&lt;change-historylist>
-</codeblock>
+&lt;change-historylist></codeblock>
     </example>
   </refbody>
 </reference>

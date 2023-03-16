@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-completed" xml:lang="en-us">
   <title><xmlelement>change-completed</xmlelement></title>
-  <shortdesc>The change completed element specifies the date on which a change was
-    completed.</shortdesc>
+  <shortdesc>The <xmlelement>change-completed</xmlelement> element specifies the date on which a
+    change was completed.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,7 +21,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-completed</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -29,19 +29,17 @@
     </section>
     <example id="example_rxw_yyx_kwb">
       <title>Example</title>
-      <p>The following code sample shows how <xmlelement>change-completed</xmlelement> can be used
-        to note when the change was completed.</p>
-      <codeblock id="codeblock_hvl_zyx_kwb">
-&lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-completed</xmlelement> element
+        can be used to note when the change was completed:</p>
+      <codeblock>&lt;change-historylist>
   &lt;change-item product="productA productB">&lt;change-person>Tom Cihak&lt;/change-person>
     &lt;change-organization>JEDEC&lt;/change-organization>
     &lt;change-started>2019-01-15&lt;/change-started>
-    <b>&lt;change-completed></b>2019-03-23<b>&lt;/change-completed></b>
+    <b>&lt;change-completed>2019-03-23&lt;/change-completed></b>
     &lt;change-summary>Made change 1 to both products&lt;/change-summary>
     &lt;data>Details of change 1&lt;/data>
   &lt;/change-item>
-&lt;change-historylist>
-</codeblock>
+&lt;change-historylist></codeblock>
     </example>
   </refbody>
 </reference>

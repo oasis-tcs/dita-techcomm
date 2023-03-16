@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-organization" xml:lang="en-us">
   <title><xmlelement>change-organization</xmlelement></title>
-  <shortdesc>The change organization specifies the name of the organization that required the
-    change.</shortdesc>
+  <shortdesc>The <xmlelement>change-organization</xmlelement> element specifies the name of the
+    organization that required the change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +17,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-organization</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -25,20 +25,18 @@
     </section>
     <example id="example_d2s_5p5_lwb">
       <title>Example</title>
-      <p>The following code sample shows how <xmlelement>change-organization</xmlelement> can be
-        used to specify the company that required the change:</p>
-      <codeblock id="codeblock_x1k_wp5_lwb">
-  &lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-organization</xmlelement>
+        element can be used to specify the company that required the change:</p>
+      <codeblock>&lt;change-historylist>
     &lt;change-item product="productA productB">
       &lt;change-person>Tom Cihak&lt;/change-person>
-      <b>&lt;change-organization></b>JEDEC<b>&lt;/change-organization></b>
+      <b>&lt;change-organization>JEDEC&lt;/change-organization></b>
       &lt;change-started>2019-01-15&lt;/change-started>
       &lt;change-completed>2019-03-23&lt;/change-completed>
       &lt;change-summary>Made change 1 to both products&lt;/change-summary>
       &lt;data>Details of change 1&lt;/data>
     &lt;/change-item>
-  &lt;/change-historylist>
-  </codeblock>
+  &lt;/change-historylist></codeblock>
     </example>
   </refbody>
 </reference>

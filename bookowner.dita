@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="bookowner" xml:lang="en-us">
   <title><xmlelement>bookowner</xmlelement></title>
-  <shortdesc>The <xmlelement>bookowner</xmlelement> element specifies the owner of the book's
-    copyright.</shortdesc>
+  <shortdesc>A book owner indicates who owns the copyrights to the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +16,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>bookowner</xmlelement> element is specialized from
-        <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -25,14 +24,17 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>bookowner</xmlelement> element can be
+        used to identify who owns the copyrights to the book. In this example, the Example
+        Corporation owns the copyrights.</p>
       <codeblock>&lt;bookmeta>
-        &lt;bookrights>
-        &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
-        &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
-        &lt;bookowner>
-        &lt;organization>Example Corporation&lt;/organization>
-        &lt;/bookowner>
-        &lt;/bookrights>
-        &lt;/bookmeta></codeblock></example>
+  &lt;bookrights>
+    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
+    <b>&lt;bookowner></b>
+      &lt;organization>Example Corporation&lt;/organization>
+    <b>&lt;/bookowner></b>
+  &lt;/bookrights>
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

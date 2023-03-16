@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-request-system" xml:lang="en-us">
   <title><xmlelement>change-request-system</xmlelement></title>
-  <shortdesc>A change request system specifies the name of an information system that manages or
-    serves the referenced change request, for example, an issue tracking system.</shortdesc>
+  <shortdesc>The <xmlelement>change-request-system</xmlelement> element specifies the name of an
+    information system that manages or serves the referenced change request, for example, an issue
+    tracking system.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,7 +18,7 @@
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-request-system</xmlelement> element is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -25,18 +26,16 @@
     </section>
     <example id="example_ssp_qh5_lwb">
       <title>Example</title>
-      <p>The following code sample shows how <xmlelement>change-request-system</xmlelement> can be
-        used to specify the the ticketing system that manages the change request:</p>
-      <codeblock id="codeblock_hbb_5h5_lwb">
-  &lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-request-system</xmlelement>
+        element can be used to specify the the ticketing system that manages the change request:</p>
+      <codeblock>&lt;change-historylist>
     &lt;change-item product="productA productB">
       &lt;change-request-reference>
-        <b>&lt;change-request-system></b>example.com/my/queue/<b>&lt;/change-request-system></b>
+        <b>&lt;change-request-system>example.com/my/queue/&lt;/change-request-system></b>
         &lt;change-request-id>TCKT-1313&lt;/change-request-id>
       &lt;/change-request-reference>
     &lt;/change-item>
-  &lt;/change-historylist>
-  </codeblock>
+  &lt;/change-historylist></codeblock>
     </example>
   </refbody>
 </reference>
