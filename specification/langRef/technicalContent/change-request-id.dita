@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-request-id" xml:lang="en-us">
   <title><xmlelement>change-request-id</xmlelement></title>
-  <shortdesc>The <xmlelement>change-request-id</xmlelement> element to specifies an identifier
+  <shortdesc>The <xmlelement>change-request-id</xmlelement> element specifies an identifier
     associated with the change request, such as an issue ID or ticket number.</shortdesc>
   <prolog>
     <metadata>
@@ -16,13 +16,25 @@
   <refbody>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-request-id</xmlelement> is specialized from
-          <xmlelement>data</xmlelement>. It is defined in the release management domain module.</p>
+      <p>The <xmlelement>change-request-id</xmlelement> element is specialized from
+          <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
-    <example conkeyref="reuse-tc-examples/release-management" id="example" otherprops="examples"/>
+    <example id="example_hns_nk5_lwb">
+      <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>change-request-id</xmlelement> element
+        can be used to specify a ticket ID that is applicable to the change request:</p>
+      <codeblock id="codeblock_a2h_xhk_wwb">&lt;change-historylist>
+  &lt;change-item product="productA productB">
+    &lt;change-request-reference>
+      &lt;change-request-system>example.com/my/queue/&lt;/change-request-system>
+      <b>&lt;change-request-id>TCKT-1313&lt;/change-request-id></b>
+    &lt;/change-request-reference>
+  &lt;/change-item>
+&lt;/change-historylist></codeblock>
+    </example>
   </refbody>
 </reference>
