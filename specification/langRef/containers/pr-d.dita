@@ -2,9 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="progd" xml:lang="en-us">
 <title>Programming domain</title>
-<shortdesc>The programming domain elements are used to define the syntax
-    for programming languages. They can also be used to provide
-    examples.</shortdesc>
+<shortdesc>The programming domain elements are used to <ph rev="review-c">describe</ph> the syntax
+                for programming languages.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm>domains<indexterm>programming</indexterm></indexterm></keywords>
 </metadata></prolog>

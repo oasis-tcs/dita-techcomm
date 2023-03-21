@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="msgnum" xml:lang="en-us">
   <title><xmlelement>msgnum</xmlelement></title>
-  <shortdesc>The <xmlelement>msgnum</xmlelement> element identifies the number of a message that is
+  <shortdesc><ph rev="review-c">A message number is the identifier</ph> of a message that is
     produced by an application or program.</shortdesc>
   <prolog>
     <metadata>

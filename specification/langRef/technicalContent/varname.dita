@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="varname" xml:lang="en-us">
   <title><xmlelement>varname</xmlelement></title>
-  <shortdesc>The <xmlelement>varname</xmlelement> element identifies a variable that is supplied to
-    a software application.</shortdesc>
+  <shortdesc rev="review-c">A variable name is a placeholder for content that might change based on
+    how something is used, such as a variable supplied to a software application or a user-defined
+    path in a command.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,8 +18,8 @@
   <refbody>
     <section id="rendering-expectations" rev="review-c">
       <title>Rendering expectations</title>
-      <p>The contents of the <xmlelement>varname</xmlelement> element is
-        typically rendered in an italic font.</p>
+      <p>The content of the <xmlelement>varname</xmlelement> element is typically rendered in an
+        italic font.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

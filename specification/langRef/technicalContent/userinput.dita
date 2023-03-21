@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="userinput" xml:lang="en-us">
   <title><xmlelement>userinput</xmlelement></title>
-  <shortdesc>The <xmlelement>userinput</xmlelement> element identifies text that a user types in
-    response to an application or system prompt.</shortdesc>
+  <shortdesc>User input is text that a user enters, such as a response to an application or system
+    prompt.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,7 +28,7 @@
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>userinput</xmlelement> element identifies
         text that a user should type at the command prompt:</p>
-      <codeblock>&lt;p>From a DOS command prompt, type <b>&lt;userinput></b>dir<b>&lt;/userimput></b> to view a list
+      <codeblock>&lt;p>From a DOS command prompt, type <b>&lt;userinput>dir&lt;/userimput></b> to view a list
 of files in the current directory.&lt;/p></codeblock></example>
   </refbody>
 </reference>
