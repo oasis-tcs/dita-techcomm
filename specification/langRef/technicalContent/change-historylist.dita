@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us">
   <title><xmlelement>change-historylist</xmlelement></title>
-  <shortdesc>The <xmlelement>change-historylist</xmlelement> element contains individual release
-    notes, as represented by the <xmlelement>change-item</xmlelement> element.</shortdesc>
+  <shortdesc>The <xmlelement>change-historylist</xmlelement> element contains one or more changes
+    that are applicable to a DITA topic or map.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,13 +16,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>This element appears in the topic <xmlelement>prolog</xmlelement> or the map
-          <xmlelement>topicmeta</xmlelement> element.</p>
+      <p>The <xmlelement>change-historylist</xmlelement> element appears in the topic
+          <xmlelement>prolog</xmlelement> or the map <xmlelement>topicmeta</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>change-historylist</xmlelement> is specialized from
-          <xmlelement>metadata</xmlelement>. It is defined in the release management domain
+      <p>The <xmlelement>change-historylist</xmlelement> element is specialized from
+          <xmlelement>metadata</xmlelement>. It is defined in the release-management domain
         module.</p>
     </section>
     <section id="attributes">
@@ -31,11 +31,10 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>This example shows three simple release notes added to a single topic. This topic is used
-        in documentation for two products, A and B.</p>
-      <codeblock>&lt;prolog>
-  &lt;!-- ... -->
-  &lt;change-historylist>
+      <p>The following code sample shows how the <xmlelement>change-historylist</xmlelement> element
+        can be used to document one or more changes in a DITA topic or map.This example includes
+        three changes. This topic is used in documentation for two products, A and B.</p>
+      <codeblock id="codeblock_uld_13k_wwb"><b>&lt;change-historylist></b>
     &lt;change-item product="productA productB">
       &lt;change-person>Tom Cihak&lt;/change-person>
       &lt;change-organization>JEDEC&lt;/change-organization>
@@ -61,9 +60,7 @@
       &lt;change-summary>Made change 3 to both products&lt;/change-summary>
       &lt;data>Details of change 3&lt;/data>
     &lt;/change-item>
-  &lt;/change-historylist>
-  &lt;!-- ... -->
-&lt;/prolog></codeblock>
+  <b>&lt;/change-historylist></b></codeblock>
     </example>
   </refbody>
 </reference>
