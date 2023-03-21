@@ -16,8 +16,8 @@
   <refbody>
     <section id="rendering-expectations" rev="review-c">
       <title>Rendering expectations</title>
-      <p>The contents of the <xmlelement>codeph</xmlelement> element is
-        typically rendered in a monospaced font.</p>
+      <p>The content of the <xmlelement>codeph</xmlelement> element is typically rendered in a
+        monospaced font.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

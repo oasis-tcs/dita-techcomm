@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="systemoutput" xml:lang="en-us">
   <title><xmlelement>systemoutput</xmlelement></title>
-  <shortdesc>The <xmlelement>systemoutput</xmlelement> element identifies computer output or
-    responses to a command or situation.</shortdesc>
+  <shortdesc><ph rev="review-c">System output is content that a computer or device generates in
+      response</ph> to a command or situation.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

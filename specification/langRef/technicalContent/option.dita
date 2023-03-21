@@ -49,7 +49,7 @@ values are <b>&lt;option>keep&lt;/option></b> and <b>&lt;option>trash&lt;/option
             <xmlelement>option</xmlelement> element is used to specify an
           option that modifies a configuration:</p>
         <codeblock>&lt;p>You can purchase the <b>&lt;option>Sports Model&lt;/option></b> package in order
-to configure your Mini Cooper with the latest sports suspension, bonnet stripes, 
+to configure your automobile with the latest sports suspension, bonnet stripes, 
 a roof spoiler and an aero body kit.&lt;/p></codeblock>
       </fig>
     </example>
