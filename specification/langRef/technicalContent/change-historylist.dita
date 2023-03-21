@@ -32,7 +32,7 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample shows how the <xmlelement>change-historylist</xmlelement> element
-        can be used to document one or more changes in a DITA topic or map.This example includes
+        can be used to document one or more changes in a DITA topic or map. This example includes
         three changes. This topic is used in documentation for two products, A and B.</p>
       <codeblock id="codeblock_uld_13k_wwb"><b>&lt;change-historylist></b>
     &lt;change-item product="productA productB">
