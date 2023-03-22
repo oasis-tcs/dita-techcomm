@@ -2,9 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="uicontrol" xml:lang="en-us">
   <title><xmlelement>uicontrol</xmlelement></title>
-  <shortdesc>The <xmlelement>uicontrol</xmlelement> element identifies user interface controls, such
-    as names of buttons, fields, menu items, and other objects that enable users to control an
-    interface.</shortdesc>
+  <shortdesc rev="review-c">A user interface control is a label for an item that allows a person or
+    tool to control an interface, such as a button, field, menu item, or other object.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="shortcut" xml:lang="en-us">
   <title><xmlelement>shortcut</xmlelement></title>
-  <shortdesc>The <xmlelement>shortcut</xmlelement> element identifies a keyboard shortcut for a menu
-    or window action.</shortdesc>
+  <shortdesc><ph rev="review-c">A shortcut is a keyboard shortcut that can perform</ph> a menu or
+    window action.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -32,10 +32,10 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>In the following code sample, the <xmlelement>shortcut</xmlelement> element identifies the
-        keyboard shortcut for the "Start Programs" menu action:</p>
-      <codeblock>&lt;menucascade&gt;
- &lt;uicontrol&gt;Start&lt;/uicontrol&gt;
- &lt;uicontrol&gt;<b>&lt;shortcut&gt;</b>P<b>&lt;/shortcut&gt;</b>rograms&lt;/uicontrol&gt;
+        keyboard <ph rev="review-c">shortcuts for navigating a menu to save a file:</ph></p>
+      <codeblock rev="review-c">&lt;menucascade&gt;
+ &lt;uicontrol&gt;<b>&lt;shortcut&gt;F&lt;/shortcut&gt;</b>ile&lt;/uicontrol&gt;
+ &lt;uicontrol&gt;<b>&lt;shortcut&gt;S&lt;/shortcut&gt;</b>ave&lt;/uicontrol&gt;
 &lt;/menucascade&gt;</codeblock>
     </example>
   </refbody>
