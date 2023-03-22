@@ -36,17 +36,25 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, the <xmlelement>screen</xmlelement> element is used to
-        provide a representation of a DOS window:</p>
-      <codeblock><b>&lt;screen&gt;</b>
-File  Edit  Search  View  Options  Help
-+--------------------------------- UNTITLED1 ----------------------------------+
-¦                                                                              ¦
-¦                                                                              ¦
-¦                                                                              ¦
-¦                                                                              ¦
-¦  Line:1    Col:1  F1=Help                                                    ¦
-+------------------------------------------------------------------------------+
+      <p>In the following code sample, the <xmlelement>screen</xmlelement> element is used to <ph
+          rev="review-c">illustrate the steps needed to clone a git repository and check
+          status:</ph></p>
+      <codeblock rev="review-c"><b>&lt;screen&gt;</b> 
+workspace $ git clone git@example.com:oasis-tcs/dita-techcomm.git
+Cloning into 'dita-techcomm'...
+remote: Enumerating objects: 1023, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 1023 (delta 6), reused 21 (delta 4), pack-reused 992
+Receiving objects: 100% (1023/1023), 9.87 MiB | 729.00 KiB/s, done.
+Resolving deltas: 100% (367/367), done.
+workspace $ cd dita-techcomm
+dita-techcomm $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+dita-techcomm $
 <b>&lt;/screen&gt;</b></codeblock>
     </example>
   </refbody>

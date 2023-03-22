@@ -2,8 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="wintitle" xml:lang="en-us">
   <title><xmlelement>wintitle</xmlelement></title>
-  <shortdesc>The <xmlelement>wintitle</xmlelement> element identifies named windows and
-    dialogs.</shortdesc>
+  <shortdesc rev="review-c">A window title is the name of a window or dialog.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
