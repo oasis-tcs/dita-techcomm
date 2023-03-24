@@ -74,7 +74,9 @@
     &lt;troubleSolution>
       &lt;cause>&lt;p><ph rev="review-e">The system memory board might be corrupted.</ph>&lt;/p>&lt;/cause>
       &lt;remedy>
-        <ph rev="review-e">&lt;responsibleParty>Maintenance technician&lt;/responsibleParty></ph>
+        <ph rev="review-e">&lt;responsibleParty>Certified technician. Note that work done by
+           non-qualified individuals will void the product warranty.&lt;/responsibleParty>
+</ph>
         &lt;steps conref="boardReplace.dita#boardReplace.dita/steps">
           &lt;step>&lt;cmd/>&lt;/step>
         &lt;/steps>
