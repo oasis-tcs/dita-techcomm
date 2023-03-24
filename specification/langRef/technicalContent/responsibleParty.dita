@@ -5,9 +5,9 @@
   <title><xmlelement>responsibleParty</xmlelement></title>
   <shortdesc>The <xmlelement>responsibleParty</xmlelement> element
     identifies the individual or team whose task it is to perform a remedy
-    procedure. <ph rev="review-e">It also provides important information,
-      such as the  fact that the warranty is voided if the procedure is
-      performed by the wrong person.</ph></shortdesc>
+    procedure. <ph rev="review-e">It also can provide important information
+      about the qualifications that the person or team must
+    have.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -43,7 +43,7 @@
   <b>&lt;/responsible-party></b>
   &lt;steps>
     &lt;step>&lt;cmd>Run the following command from the command line: 
-            &lt;codeph>msiexec.exe /I C:\Windows\Installer\XXXXX.msi&lt;/codeph>&lt;/cmd>
+               &lt;codeph>msiexec.exe /I C:\Windows\Installer\XXXXX.msi&lt;/codeph>&lt;/cmd>
     &lt;step>
     &lt;!-- ... -->
   &lt;/steps>
