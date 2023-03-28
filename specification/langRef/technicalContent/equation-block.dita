@@ -3,7 +3,8 @@
 <reference xml:lang="en-us" id="equation-block">
   <title><xmlelement>equation-block</xmlelement></title>
   <shortdesc>The <xmlelement>equation-block</xmlelement> element represents an equation that is
-    presented as a separate block within a text flow.</shortdesc>
+    presented as a separate block within a text flow or
+    .<xmlelement>equation-figure</xmlelement></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -41,7 +42,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following example, a block equation uses MathML as its content:</p>
+      <p>The following example shows how to use MathML within a block equation:</p>
       <codeblock>&lt;p>A block equation using MathML:&lt;/p>
 &lt;equation-block>
   &lt;mathml>
@@ -60,15 +61,16 @@
    &lt;/m:math>
   &lt;/mathml>
 &lt;/equation-block></codeblock>
-      <p>In the following example, a block equation uses an image as its content:</p>
+      <p/>
+      <p>The following example shows how to use an image within a block equation:</p>
       <codeblock>&lt;p>A block equation using an image:&lt;/p>
 &lt;equation-block>
   &lt;image keyref="equation-image-01">
    &lt;alt>a squared plus b squared.&lt;/alt>
   &lt;/image>
 &lt;/equation-block></codeblock>
-      <p>In the following example, the block equation contains two alternative forms of the same
-        equation:<codeblock>&lt;equation-block>
+      <p>The following example shows how to include two alternative forms of the same equation
+        within a single block equation:<codeblock>&lt;equation-block>
  &lt;image keyref="equation-image-01">
   &lt;alt>a squared plus b squared.&lt;/alt>
  &lt;/image>

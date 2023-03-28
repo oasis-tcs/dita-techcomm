@@ -22,22 +22,28 @@
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>When the <xmlelement>equation-number</xmlelement> element has empty or whitespace-only
-        content, the equation number <term outputclass="RFC-2119">SHOULD</term> be generated. When
-        the <xmlelement>equation-number</xmlelement> element has non-whitespace-only content the
-        content <term outputclass="RFC-2119">SHOULD</term> be used as the equation number. For
-        explicit numbers the content of the element <term outputclass="RFC-2119">SHOULD</term> be
-        the number value without any surrounding punctuation, for example, "3.2a" rather than
-        "(3.2a)". Processors <term outputclass="RFC-2119">SHOULD</term> add punctuation or
-        decoration to the number as appropriate.</p>
-      <p>The details of equation numbering and number presentation are processor-specific. However,
-        common practice is to present the equation number to the right of the equation, centered
-        vertically within the vertical extent of the block equation.</p>
+      <p>When the <xmlelement>equation-number</xmlelement> element has empty content (in this
+        context, whitespace-only content is treated as empty content), the equation number <term
+          outputclass="RFC-2119">SHOULD</term> be generated. When the
+          <xmlelement>equation-number</xmlelement> element is not empty, the content <term
+          outputclass="RFC-2119">SHOULD</term> be used as the equation number. For explicit numbers
+        the content of the element <term outputclass="RFC-2119">SHOULD</term> be the number value
+        without any surrounding punctuation, for example, "3.2a" rather than "(3.2a)". Processors
+          <term outputclass="RFC-2119">SHOULD</term> add punctuation or decoration to the number as
+        appropriate.</p>
+      <p>The details of equation numbering and number presentation are processor-specific. A common
+        practice is to present the equation number to the right of the equation, centered vertically
+        within the vertical extent of the block equation.</p>
       <draft-comment author="robander" time="21 may 2021">Can we rephrase "non-whitespace-only",
         maybe as "element is not empty"? Maybe we could start by stating that white-space only is
         equivalent to empty, and then we can only talk about empty/not empty?<p>Seems overboard to
           say processors SHOULD add puctuation "as appropriate", that sort of turns it into a MAY or
           might?</p><p>Do we really need "However" in the common practice?</p></draft-comment>
+      <draft-comment author="nancylph" time="21 may 2021">
+        <p>The thing about adding punctuation 'as appropriate' is that some renditions may not add
+          any punctuation or decoration to the actual equation number.  I'd think it should indeed
+          be a MAY or might...</p>
+      </draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

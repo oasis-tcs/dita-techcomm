@@ -3,17 +3,23 @@
 <reference xml:lang="en-us" id="mathml-d" >
   <title>MathML domain</title>
   <shortdesc>The MathML domain elements enable direct use of MathML markup within DITA documents, as
-    well as use-by-reference of MathML markup that is stored separate, non-DITA documents. MathML is
-    a W3C standard.</shortdesc>
+    well as use-by-reference of MathML markup that is stored in separate, non-DITA documents. MathML
+    is a W3C standard.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
+        <indexterm>MathML-domain</indexterm>
         <indexterm>MathML domain<indexterm>overview</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="section-1">
+      <draft-comment author="nancylph" time="21 may 2021">
+        <p>The MathML and SVG domains are unusual enough that I wonder if we might need to leave
+          this information in the language reference, or can it just be in the architecture spec?
+          And I took out the reference to XSD, since we're no longer providing it. </p>
+      </draft-comment>
       <p>For MathML markup that is stored directly in DITA documents that are validated using DTDs,
         the MathML elements must use a namespace prefix in order to avoid conflict with the
         DITA-defined elements of the same name. Documents validated using XSD or RELAX NG can
