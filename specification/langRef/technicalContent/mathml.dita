@@ -34,8 +34,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In the following code sample, a <xmlelement>mathml</xmlelement> element contains MathML
-        content:</p>
+      <p>The following code sample shows how to use a <xmlelement>mathml</xmlelement> element to
+        include MathML content:</p>
       <codeblock id="codeblock_mmn_xf4_rpb">&lt;equation-block>
   &lt;mathml>
    &lt;m:math>

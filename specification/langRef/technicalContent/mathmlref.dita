@@ -24,23 +24,17 @@
           <li>A URI that addresses an XML document and contains a fragment identifier that is the
             XML ID of a <xmlelement>math</xmlelement> element within the document </li>
         </ul></p>
-      <!--<note>To reuse MathML markup stored within a DITA topic, use a <xmlatt>conref</xmlatt> or <xmlatt>conkeyref</xmlatt> attribute on the <xmlelement>mathml</xmlelement> element.</note>-->
+      <note id="note_dw4_qg4_ywb">To reuse MathML markup stored within a DITA topic, use a
+          c<xmlatt>conref</xmlatt>  or <xmlatt>conkeyref</xmlatt> attribute on the
+          <xmlelement>mathml</xmlelement> element.</note>
+      <draft-comment author="nancylph" time="21 may 2021">
+        <p>This note was commented out; is it really so obvious that we should take it out?  I'm not
+          sure  (and if it does belong here, should a similar note go into svgref as well?.</p>
+      </draft-comment>
       <p>The reference can be direct, using the <xmlatt>href</xmlatt> attribute, or indirect, using
         the <xmlatt>keyref</xmlatt> attribute. For indirect referencing, specify only the key name.
         Specify the ID of the <xmlelement>mathml</xmlelement> element as part of the value for the
           <xmlatt>href</xmlatt> attribute on the key definition.</p>
-      <p>For example, to refer to the <xmlelement>math</xmlelement> element with the
-          <xmlatt>id</xmlatt> of "equation-02" within a larger document using a key reference, you
-        would define the key in the following
-        way:<codeblock>&lt;keydef 
-  keys="mathml-equation-02" 
-  href="math/mathml-equations.xml#equation-02"
-  format="mathml"
-/></codeblock>You
-        would refer to this key using just the key
-        name:<codeblock>&lt;mathml>
-  &lt;mathmlref keyref="mathml-equation-02"/>
-&lt;/mathml></codeblock></p>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
@@ -71,8 +65,8 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows a reference to a <xmlelement>math</xmlelement> element that
-        is the root element of its containing document:</p>
+      <p>The following code sample shows how to reference a MathML <xmlelement>math</xmlelement>
+        element that is the root element of its containing document:</p>
       <codeblock>&lt;equation-block>
  &lt;mathml>
   <b>&lt;mathmlref href="../mathml-source/mathml-root-mathml.mml"/></b>
@@ -97,7 +91,7 @@
   &lt;/mrow>
  &lt;/mstyle>
 <b>&lt;/math></b></codeblock></p>
-      <p>The following code sample shows a reference to a specific <xmlelement>math</xmlelement>
+      <p>The following code sample shows how to reference a specific <xmlelement>math</xmlelement>
         element in a containing XML file:</p>
       <codeblock>&lt;equation-block>
  &lt;mathml>
@@ -130,6 +124,20 @@
   &lt;/math>
  &lt;/part>
 &lt;/root></codeblock></p>
+      <p>To refer to the <xmlelement>math</xmlelement> element with the <xmlatt>id</xmlatt> of
+        "equation-02" within a larger document using a key reference, define the key in the
+        following way:<codeblock id="codeblock_oj3_zqn_ywb">&lt;keydef 
+  keys="mathml-equation-02" 
+  href="math/mathml-equations.xml#equation-02"
+  format="mathml"
+/></codeblock>Then refer to this key using just the key
+        name:<codeblock id="codeblock_pj3_zqn_ywb">&lt;mathml>
+  &lt;mathmlref keyref="mathml-equation-02"/>
+&lt;/mathml></codeblock></p>
+      <draft-comment author="nancylph" time="21 may 2021">
+        <p>This is a pretty standard way of defining and using keys; do we really need to include
+          this last example?</p>
+      </draft-comment>
     </example>
   </refbody>
 </reference>

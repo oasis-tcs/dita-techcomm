@@ -24,6 +24,10 @@
       <draft-comment author="robander" time="21 May 2021">Realizing that this same language appears
         in equation block / figure / inline, we should crisp it up and move it to the TC reuse
         file.</draft-comment>
+      <draft-comment author="nancylph" time="21 may 2021">
+        <p>I'm leaving that piece to you and Kris, since I don't know how you store and track
+          reusable pieces of the spec.</p>
+      </draft-comment>
       <p>Processors are free to choose the form or forms that they use in deliverables. For example,
         if there is both an image and MathML markup, an HTML-generating processor could generate
         both the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
