@@ -136,30 +136,10 @@
   &lt;!-- ... -->
 &lt;/root></codeblock>
       </fig>
-      <fig>
-        <title>Referencing a specific <xmlelement>math</xmlelement> element
-          within a document using keys</title>
-        <p>The following code sample shows how a
-            <xmlelement>mathmlref</xmlelement> element can be used to
-          reference a specific<xmlelement>math</xmlelement> element in a
-          containing document by using keys. The
-            <xmlelement>math</xmlelement> element has an
-            <xmlatt>id</xmlatt> attribute with the value of
-            <keyword>equation-02</keyword>.</p>
-        <p>The key is defined as follows:</p>
-        <codeblock>&lt;keydef keys="mathml-equation-02" href="math/mathml-equations.xml#equation-02"
-                 <b>format="mathml"</b>/></codeblock>
-        <p>Then refer to this key using just the key name:</p>
-        <codeblock>&lt;mathml>
+      <!--<fig><title>Referencing a specific <xmlelement>math</xmlelement> element within a document using keys</title><p>The following code sample shows how a <xmlelement>mathmlref</xmlelement> element can be used to reference a specific<xmlelement>math</xmlelement> element in a containing document by using keys. The <xmlelement>math</xmlelement> element has an <xmlatt>id</xmlatt> attribute with the value of <keyword>equation-02</keyword>.</p><p>The key is defined as follows:</p><codeblock>&lt;keydef keys="mathml-equation-02" href="math/mathml-equations.xml#equation-02"
+                 <b>format="mathml"</b>/></codeblock><p>Then refer to this key using just the key name:</p><codeblock>&lt;mathml>
   <b>&lt;mathmlref keyref="mathml-equation-02"/></b>
-&lt;/mathml></codeblock>
-        <p>
-          <draft-comment author="nancylph" time="21 may 2021">
-            <p>This is a pretty standard way of defining and using keys; do
-              we really need to include this last example?</p>
-          </draft-comment>
-        </p>
-      </fig>
+&lt;/mathml></codeblock><p><draft-comment author="nancylph" time="21 may 2021"><p>This is a pretty standard way of defining and using keys; do we really need to include this last example?</p></draft-comment></p></fig>-->
     </example>
   </refbody>
 </reference>
