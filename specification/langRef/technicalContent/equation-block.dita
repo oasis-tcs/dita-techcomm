@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="equation-block">
   <title><xmlelement>equation-block</xmlelement></title>
-  <shortdesc>The <xmlelement>equation-block</xmlelement> element represents an equation that is
-    presented as a separate block within a text flow or
-    .<xmlelement>equation-figure</xmlelement></shortdesc>
+  <shortdesc>The <xmlelement>equation-block</xmlelement> element represents
+    an equation that is presented as a separate block within a text flow or
+    an <xmlelement>equation-figure</xmlelement></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -41,55 +41,70 @@
         />.</p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <p>The following example shows how to use MathML within a block equation:</p>
-      <codeblock>&lt;p>A block equation using MathML:&lt;/p>
-&lt;equation-block>
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>equation-block</xmlelement> element can be used:</p>
+      <fig>
+        <title>An equation block that contains native MathML markup</title>
+        <p>The following code sample shows how an
+            <xmlelement>equation-block</xmlelement> element can contain
+          MathML markup:</p>
+        <codeblock><b>&lt;equation-block></b>
   &lt;mathml>
-   &lt;m:math>
-    &lt;m:semantics>
-     &lt;m:mrow>
-      &lt;m:msqrt>
-       &lt;m:mrow>
-        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>
-        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-       &lt;/m:mrow>
-      &lt;/m:msqrt>        
-     &lt;/m:mrow>
-    &lt;/m:semantics>
-   &lt;/m:math>
-  &lt;/mathml>
-&lt;/equation-block></codeblock>
-      <p/>
-      <p>The following example shows how to use an image within a block equation:</p>
-      <codeblock>&lt;p>A block equation using an image:&lt;/p>
-&lt;equation-block>
+    &lt;m:math>
+      &lt;m:semantics>
+        &lt;m:mrow>
+          &lt;m:msqrt>
+            &lt;m:mrow>
+              &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+              &lt;m:mo>+&lt;/m:mo>
+              &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+            &lt;/m:mrow>
+          &lt;/m:msqrt>        
+        &lt;/m:mrow>
+      &lt;/m:semantics>
+    &lt;/m:math>
+  &lt;/mathml><b>
+&lt;/equation-block></b></codeblock>
+      </fig>
+      <fig>
+        <title>An equation block that contains an image</title>
+        <p>The following code sample shows how tan
+            <xmlelement>equation-block</xmlelement> element can contain an
+          image:</p>
+        <codeblock><b>&lt;equation-block></b>
   &lt;image keyref="equation-image-01">
-   &lt;alt>a squared plus b squared.&lt;/alt>
+    &lt;alt>a squared plus b squared.&lt;/alt>
   &lt;/image>
-&lt;/equation-block></codeblock>
-      <p>The following example shows how to include two alternative forms of the same equation
-        within a single block equation:<codeblock>&lt;equation-block>
- &lt;image keyref="equation-image-01">
-  &lt;alt>a squared plus b squared.&lt;/alt>
- &lt;/image>
- &lt;mathml>
-  &lt;m:math>
-    &lt;m:semantics>
-     &lt;m:mrow>
-      &lt;m:msqrt>
-       &lt;m:mrow>
-        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>
-        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-       &lt;/m:mrow>
-      &lt;/m:msqrt>        
-     &lt;/m:mrow>
-    &lt;/m:semantics>
-   &lt;/m:math>
- &lt;/mathml>
-&lt;/equation-block></codeblock></p>
+<b>&lt;/equation-block></b></codeblock>
+      </fig>
+      <fig>
+        <title>An equation block that contains two forms of an
+          equation</title>
+      </fig>
+      <p>The following code samples shows how an
+          <xmlelement>equation-block</xmlelement> element can include two
+        alternative forms of the same equation:</p>
+      <codeblock><b>&lt;equation-block></b>
+  &lt;image keyref="equation-image-01">
+    &lt;alt>a squared plus b squared.&lt;/alt>
+  &lt;/image>
+  &lt;mathml>
+    &lt;m:math>
+      &lt;m:semantics>
+        &lt;m:mrow>
+          &lt;m:msqrt>
+            &lt;m:mrow>
+              &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+              &lt;m:mo>+&lt;/m:mo>
+              &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+            &lt;/m:mrow>
+          &lt;/m:msqrt>        
+        &lt;/m:mrow>
+      &lt;/m:semantics>
+    &lt;/m:math>
+  &lt;/mathml>
+<b>&lt;/equation-block></b></codeblock>
     </example>
   </refbody>
 </reference>

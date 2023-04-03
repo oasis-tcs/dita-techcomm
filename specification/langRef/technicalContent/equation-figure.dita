@@ -81,10 +81,16 @@
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <p>The following code sample shows how to use an <xmlelement>equation-figure</xmlelement>
-        element to combine a title with MathML content:<codeblock>&lt;equation-figure>
-  &lt;title>Display equation with a MathML container&lt;/title>
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>equation-figure</xmlelement> element can be used.</p>
+      <fig>
+        <title>Equation figure with a title and MathML content</title>
+        <p>The following code sample shows how an
+            <xmlelement>equation-figure</xmlelement> element can create a
+          titled figure that contains MathML content:</p>
+        <codeblock><b>&lt;equation-figure></b>
+  &lt;title>An equation&lt;/title>
   &lt;mathml>
     &lt;m:math display='block'>
       &lt;m:semantics>
@@ -103,13 +109,22 @@
         &lt;/m:mrow>
       &lt;/m:semantics>
     &lt;/m:math>
-  &lt;/mathml>
-&lt;/equation-figure></codeblock></p>
-      <p>The following example shows how to include both MathMl content and commentary within an
-          <xmlelement>equation-block</xmlelement> element, and then place that
-          <xmlelement>equation-block</xmlelement>, along with a title, within an
-          <xmlelement>equation-figure</xmlelement>:<codeblock>&lt;equation-figure>
- &lt;title>Display equation with a MathML container&lt;/title>
+  &lt;/mathml><b>
+&lt;/equation-figure></b></codeblock>
+      </fig>
+      <fig>
+        <title>An equation figure that contains MathMl content and
+          commentary</title>
+      </fig>
+      <p>The following code sample shows how an
+          <xmlelement>equation-figure</xmlelement> element can contain both
+        MathML content and commentary. The MathML content is contained with
+        a nested <xmlelement>equation-block</xmlelement> element, and it is
+        following by commentary that is contained in a nested
+          <xmlelement>p</xmlelement> element.</p>
+      <p>
+        <codeblock><b>&lt;equation-figure></b>
+ &lt;title>An equation with commentary&lt;/title>
  &lt;equation-block>
   &lt;mathml>
    &lt;m:math display='block'>
@@ -134,7 +149,8 @@
  &lt;p>Where 
    &lt;equation-inline>&lt;mathml>&lt;m:math>&lt;m:mi>r&lt;/m:mi>&lt;/m:math>&lt;/mathml>&lt;/equation-inline>
    is greater than 1.&lt;/p>
-&lt;/equation-figure></codeblock></p>
+&lt;/equation-figure></codeblock>
+      </p>
     </example>
   </refbody>
 </reference>

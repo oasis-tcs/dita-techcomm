@@ -15,9 +15,9 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p><xmlelement>svg-container</xmlelement> content includes SVG elements, references to SVG
-        elements that are stored in separate, non-DITA documents, or <xmlelement>data</xmlelement>
-          elements.</p>
+      <p>The <xmlelement>svg-container</xmlelement> element can contain SVG
+        elements, references to SVG elements that are stored in separate,
+        non-DITA documents, or <xmlelement>data</xmlelement> elements.</p>
       <p>The SVG markup must have a root element of <xmlelement>svg</xmlelement> with the SVG
         namespace: "http://www.w3.org/2000/svg".</p>
     </section>
@@ -32,41 +32,43 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following example shows how to use an <xmlelement>svg-container</xmlelement> element to
-        generate both  inline SVG markup and a titled figure containing SVG
-        markup:<codeblock id="codeblock_ic5_msn_ywb">&lt;topic id="svg-test-topic-01">
- &lt;title>SVG Domain Test: Namespace Prefixed SVG Elements&lt;/title>
- &lt;body>
-  &lt;p>SVG inline: &lt;svg-container>
-   &lt;svg:svg width="100" height="100">
-    &lt;svg:defs>
-     &lt;svg:filter id="f1" x="0" y="0">
-      &lt;svg:feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
-     &lt;/svg:filter>
-    &lt;/svg:defs>
-    &lt;svg:rect width="90" height="90" stroke="green"
-        stroke-width="3" fill="yellow" filter="url(#f1)"/>
-   &lt;/svg:svg>
-  &lt;/svg-container>&lt;/p>
-
-  &lt;p>SVG Directly in body:&lt;/p>
-  &lt;svg-container>
-   &lt;svg:svg width="200" height="200">
-    &lt;svg:ellipse cx="100" cy="100" rx="80" ry="80" style="fill:blue;
-                 stroke:rgb(0,0,100);stroke-width:2"/>
-   &lt;/svg:svg>
-  &lt;/svg-container>
-  &lt;fig>
-   &lt;title>Figure With SVG Container&lt;/title>
-   &lt;svg-container>
-    &lt;svg:svg width="4in" height="6in" version="1.1">
-     &lt;svg:circle cx="150" cy="200" r="100" fill="url(#grad_blue)"/>
-     &lt;svg:rect x="70" y="320" height="40" width="80" fill="aqua"/>
-     &lt;svg:text x="90" y="350" font-size="30" fill="green">Go&lt;/svg:text>
-    &lt;/svg:svg>
-   &lt;/svg-container>
-  &lt;/fig>
- &lt;/body>
+      <p>The following code sample shows how
+          <xmlelement>svg-container</xmlelement> elements can be used in a
+        DITA topic. It is used to generate both inline SVG markup and a
+        titled figure that contains SVG
+        markup:<codeblock>&lt;topic id="svg-test-topic-01">
+  &lt;title>SVG Domain Test: Namespace Prefixed SVG Elements&lt;/title>
+    &lt;body>
+      &lt;!-- SVG inline -->
+      <b>&lt;svg-container></b>
+        &lt;svg:svg width="100" height="100">
+          &lt;svg:defs>
+            &lt;svg:filter id="f1" x="0" y="0">
+              &lt;svg:feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+            &lt;/svg:filter>
+          &lt;/svg:defs>
+          &lt;svg:rect width="90" height="90" stroke="green" stroke-width="3" fill="yellow" 
+                    filter="url(#f1)"/>
+        &lt;/svg:svg> 
+      <b>&lt;/svg-container></b>
+      &lt;!-- ... -->
+      <b>&lt;svg-container></b>
+        &lt;svg:svg width="200" height="200">
+          &lt;svg:ellipse cx="100" cy="100" rx="80" ry="80" style="fill:blue; 
+                       stroke:rgb(0,0,100);stroke-width:2"/>
+        &lt;/svg:svg>
+      <b>&lt;/svg-container></b>
+      &lt;fig>
+        &lt;title>Figure with SVG container&lt;/title>
+        <b>&lt;svg-container></b>
+          &lt;svg:svg width="4in" height="6in" version="1.1">
+            &lt;svg:circle cx="150" cy="200" r="100" fill="url(#grad_blue)"/>
+            &lt;svg:rect x="70" y="320" height="40" width="80" fill="aqua"/>
+            &lt;svg:text x="90" y="350" font-size="30" fill="green">Go&lt;/svg:text>
+          &lt;/svg:svg>
+        <b>&lt;/svg-container></b>
+      &lt;/fig>
+    &lt;/body>
 &lt;/topic></codeblock></p>
     </example>
   </refbody>

@@ -14,14 +14,16 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>MathML element content includes MathML elements, references to MathML elements held in separate,
-        non-DITA documents, or <xmlelement>data</xmlelement> elements.</p>
+      <p>The <xmlelement>mathml</xmlelement> element can contain MathML
+        elements, references to MathML elements held in separate, non-DITA
+        documents, or <xmlelement>data</xmlelement> elements.</p>
       <p>The <xmlelement>mathml</xmlelement> element is not intended to represent a semantic
         equation, only content that contributes to a semantic equation. Use the equation domain
         elements or their equivalent to represent equations semantically, for example, to enable
         numbering of equations.</p>
-      <p>The MathML markup must have a root element of <xmlelement>math</xmlelement> within the
-        MathML namespace: "http://www.w3.org/1998/Math/MathML".</p>
+      <p>The MathML markup must have a root element of
+          <xmlelement>math</xmlelement> within the MathML
+          namespace:<xmlnsname>http://www.w3.org/1998/Math/MathML</xmlnsname></p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -36,22 +38,27 @@
       <title>Example</title>
       <p>The following code sample shows how to use a <xmlelement>mathml</xmlelement> element to
         include MathML content:</p>
-      <codeblock id="codeblock_mmn_xf4_rpb">&lt;equation-block>
-  &lt;mathml>
-   &lt;m:math>
-    &lt;m:semantics>
-     &lt;m:mrow>
-      &lt;m:msqrt>
-       &lt;m:mrow>
-        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>
-        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-       &lt;/m:mrow>
-      &lt;/m:msqrt>        
-     &lt;/m:mrow>
-    &lt;/m:semantics>
-   &lt;/m:math>
-  &lt;/mathml>
+      <codeblock>&lt;equation-block>
+  <b>&lt;mathml></b>
+    &lt;m:math>
+      &lt;m:semantics>
+        &lt;m:mrow>
+          &lt;m:msqrt>
+            &lt;m:mrow>
+              &lt;m:msup>
+                &lt;m:mi>a&lt;/m:mi>
+                &lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+                &lt;m:mo>+&lt;/m:mo>
+                &lt;m:msup>
+                  &lt;m:mi>b&lt;/m:mi>
+                  &lt;m:mn>2&lt;/m:mn>
+                &lt;/m:msup>
+              &lt;/m:mrow>
+            &lt;/m:msqrt>        
+          &lt;/m:mrow>
+        &lt;/m:semantics>
+      &lt;/m:math>
+    <b>&lt;/mathml></b>
 &lt;/equation-block></codeblock>
     </example>
   </refbody>

@@ -24,10 +24,6 @@
       <draft-comment author="robander" time="21 May 2021">Realizing that this same language appears
         in equation block / figure / inline, we should crisp it up and move it to the TC reuse
         file.</draft-comment>
-      <draft-comment author="nancylph" time="21 may 2021">
-        <p>I'm leaving that piece to you and Kris, since I don't know how you store and track
-          reusable pieces of the spec.</p>
-      </draft-comment>
       <p>Processors are free to choose the form or forms that they use in deliverables. For example,
         if there is both an image and MathML markup, an HTML-generating processor could generate
         both the image reference and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
@@ -43,34 +39,49 @@
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <p>The following example contains a paragraph that contains an
-          <xmlelement>equation-inline</xmlelement> element with MathML markup:</p>
-      <codeblock>&lt;p>MathML inline: <b>&lt;equation-inline></b>
-  <b>&lt;mathml></b>
-   <b>&lt;m:math display='inline'></b>
-    &lt;m:semantics>
-     &lt;m:mrow>
-      &lt;m:msqrt>
-       &lt;m:mrow>
-        &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-        &lt;m:mo>+&lt;/m:mo>
-        &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-       &lt;/m:mrow>
-      &lt;/m:msqrt>        
-     &lt;/m:mrow>
-    &lt;/m:semantics>
-   <b>&lt;/m:math></b>
-  <b>&lt;/mathml></b>
- <b>&lt;/equation-inline></b>&lt;/p></codeblock>
-      <p>The following example contains an <xmlelement>equation-inline</xmlelement> element that
-        uses an image as its content:</p>
-      <codeblock>&lt;p>An inline equation that contains an image:
-        <b>&lt;equation-inline></b>
-        &lt;image keyref="equation-image-01">
-        &lt;alt>a squared plus b squared.&lt;/alt>
-        &lt;/image>
-        <b>&lt;/equation-inline></b>&lt;/p></codeblock>
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>equation-inline</xmlelement> element can be used.</p>
+      <fig>
+        <title>An inline equation</title>
+        <p>The following code sample shows how a paragraph can contain an
+            <xmlelement>equation-inline</xmlelement> element that holds
+          MathML markup:</p>
+        <codeblock>&lt;p>Consider the following equation:
+  <b>&lt;equation-inline></b>
+    &lt;mathml>
+      &lt;m:math display='inline'>
+        &lt;m:semantics>
+          &lt;m:mrow>
+            &lt;m:msqrt>
+              &lt;m:mrow>
+                &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+                &lt;m:mo>+&lt;/m:mo>
+                &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
+              &lt;/m:mrow>
+            &lt;/m:msqrt>        
+          &lt;/m:mrow>
+        &lt;/m:semantics>
+      &lt;/m:math>
+    &lt;/mathml>
+  <b>&lt;/equation-inline></b>
+It is simple arithmetic that school children understand.&lt;/p></codeblock>
+      </fig>
+      <fig>
+        <title>An inline equation that is image-based</title>
+      </fig>
+      <p>The following code sample shows how the
+          <xmlelement>equation-inline</xmlelement> element can contain an
+        image:</p>
+      <codeblock>&lt;p>The Pythagorean Theorem describes the relationship among the three sides of a 
+   right triangle. In any right triangle, the sum of the areas of the squares formed on the 
+   legs of the triangle equals the area of the square formed on the hypotenuse:
+  <b>&lt;equation-inline></b>
+    &lt;image keyref="equation-image-01">
+      &lt;alt>a squared plus b squared.&lt;/alt>
+    &lt;/image>
+  <b>&lt;/equation-inline></b>
+&lt;/p></codeblock>
     </example>
   </refbody>
 </reference>
