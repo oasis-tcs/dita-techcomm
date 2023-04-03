@@ -2,45 +2,45 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="mathmlref">
   <title><xmlelement>mathmlref</xmlelement></title>
-  <shortdesc>The <xmlelement>mathmlref</xmlelement> element is a reference to a non-DITA XML
-    document that contains MathML markup.</shortdesc>
+  <shortdesc>The <xmlelement>mathmlref</xmlelement> element references a
+    non-DITA XML document that contains MathML markup.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>mathmlref</indexterm>
-        <indexterm>MathML domain<indexterm>mathmlref</indexterm></indexterm>
+        <indexterm><xmlelement>mathmlref</xmlelement></indexterm>
+        <indexterm>MathML
+              domain<indexterm><xmlelement>mathmlref</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>mathmlref</xmlelement> element enables you to use MathML markup by
-        reference.</p>
-      <p>The reference must be to a MathML <xmlelement>math</xmlelement> element. The reference can
-        be one of the following:<ul>
-          <li>A URI that addresses an XML document; the XML document has a MathML
-              <xmlelement>math</xmlelement> element as the root element</li>
-          <li>A URI that addresses an XML document and contains a fragment identifier that is the
-            XML ID of a <xmlelement>math</xmlelement> element within the document </li>
-        </ul></p>
-      <note id="note_dw4_qg4_ywb">To reuse MathML markup stored within a DITA topic, use a
-          c<xmlatt>conref</xmlatt>  or <xmlatt>conkeyref</xmlatt> attribute on the
-          <xmlelement>mathml</xmlelement> element.</note>
-      <draft-comment author="nancylph" time="21 may 2021">
-        <p>This note was commented out; is it really so obvious that we should take it out?  I'm not
-          sure  (and if it does belong here, should a similar note go into svgref as well?.</p>
-      </draft-comment>
-      <p>The reference can be direct, using the <xmlatt>href</xmlatt> attribute, or indirect, using
-        the <xmlatt>keyref</xmlatt> attribute. For indirect referencing, specify only the key name.
-        Specify the ID of the <xmlelement>mathml</xmlelement> element as part of the value for the
+      <p>The <xmlelement>mathmlref</xmlelement> element enables the use
+        MathML markup by reference. The reference must be to a MathML
+          <xmlelement>math</xmlelement> element. The reference can be one
+        of the following:</p>
+      <ul>
+        <li>A URI that addresses an XML document; the XML document has a
+          MathML <xmlelement>math</xmlelement> element as the root
+          element</li>
+        <li>A URI that addresses an XML document and contains a fragment
+          identifier that is the XML ID of a <xmlelement>math</xmlelement>
+          element within the document </li>
+      </ul>
+      <p>The reference can be direct, using the <xmlatt>href</xmlatt>
+        attribute, or indirect, using the <xmlatt>keyref</xmlatt>
+        attribute. For indirect referencing, only the key name should be
+        specified. The ID of the <xmlelement>mathml</xmlelement> element
+        must be specified as part of the value for the
           <xmlatt>href</xmlatt> attribute on the key definition.</p>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>Processors <term outputclass="RFC-2119">SHOULD</term> process the MathML as though the
-          <xmlelement>m:math</xmlelement> element had occurred directly in the content of the
-        containing <xmlelement>mathml</xmlelement> element.</p>
+      <p>Processors <term outputclass="RFC-2119">SHOULD</term> process the
+        MathML as though the <xmlelement>m:math</xmlelement> element occurs
+        directly in the content of the containing
+          <xmlelement>mathml</xmlelement> element.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -64,80 +64,102 @@
         </ul></p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <p>The following code sample shows how to reference a MathML <xmlelement>math</xmlelement>
-        element that is the root element of its containing document:</p>
-      <codeblock>&lt;equation-block>
- &lt;mathml>
-  <b>&lt;mathmlref href="../mathml-source/mathml-root-mathml.mml"/></b>
- &lt;/mathml>
-&lt;/equation-block></codeblock>
-      <p>The <filepath>mathml-root-mathml.mml</filepath> file contains the following content. Note
-        that the <xmlelement>math</xmlelement> element sets the MathML namespace as the default
-        namespace, so there are no namespace prefixes on the MathML
-        markup:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-<b>&lt;math</b> xmlns="http://www.w3.org/1998/Math/MathML" 
-          xmlns:xlink="http://www.w3.org/1999/xlink">
- &lt;mstyle displaystyle="false" scriptlevel="0">
-  &lt;mrow>
-   &lt;mfrac>
-    &lt;mrow>
-     &lt;mi mathcolor="gray">sin&lt;/mi>
-     &lt;mo rspace="verythinmathspace">&lt;/mo>                    
-     &lt;mi>θ&lt;/mi>
-    &lt;/mrow>
-    &lt;mi>π&lt;/mi>
-   &lt;/mfrac>
-  &lt;/mrow>
- &lt;/mstyle>
-<b>&lt;/math></b></codeblock></p>
-      <p>The following code sample shows how to reference a specific <xmlelement>math</xmlelement>
-        element in a containing XML file:</p>
-      <codeblock>&lt;equation-block>
- &lt;mathml>
-  <b>&lt;mathmlref</b>
-     <b>href="../mathml-source/mathml-equation-library.xml#mathfrag-02"</b>
-     <b>/></b>
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>mathmlref</xmlelement> element can be used.</p>
+      <fig>
+        <title>Referencing a MathML <xmlelement>math</xmlelement> root
+          element</title>
+        <p>The following code sample shows how a
+            <xmlelement>mathmlref</xmlelement> element can be used to
+          reference a MathML <xmlelement>math</xmlelement> element that is
+          the root element of its containing document:</p>
+        <codeblock>&lt;equation-block>
+  &lt;mathml>
+    <b>&lt;mathmlref href="../mathml-source/mathml-root-mathml.mml"/></b>
   &lt;/mathml>
 &lt;/equation-block></codeblock>
-      <p>The <filepath>mathml-equation-library.xml</filepath> file contains the following
-        content:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;root>
- &lt;part>
-  &lt;math id="timeinday"
-        xmlns="http://www.w3.org/1998/Math/MathML">
-   &lt;mi>x&lt;/mi>
-  &lt;/math>
-  <b>&lt;math id="mathfrag-02"</b>
-        xmlns="http://www.w3.org/1998/Math/MathML">
-   &lt;math>
+        <p>The <filepath>mathml-root-mathml.mml</filepath> file contains
+          the following content. Note that the
+            <xmlelement>math</xmlelement> element sets the MathML namespace
+          as the default namespace, so there are no namespace prefixes on
+          the MathML markup.</p>
+        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;math <b>xmlns="http://www.w3.org/1998/Math/MathML"</b> xmlns:xlink="http://www.w3.org/1999/xlink">
+  &lt;mstyle displaystyle="false" scriptlevel="0">
     &lt;mrow>
-     &lt;mi>y&lt;/mi>&lt;mo>=&lt;/mo>&lt;mn>5&lt;/mn>&lt;mi>x&lt;/mi>&lt;mo>+&lt;/mo>&lt;mn>2&lt;/mn>
+      &lt;mfrac>
+        &lt;mrow>
+          &lt;mi mathcolor="gray">sin&lt;/mi>
+          &lt;mo rspace="verythinmathspace"/>                    
+          &lt;mi>θ&lt;/mi>
+        &lt;/mrow>
+        &lt;mi>π&lt;/mi>
+      &lt;/mfrac>
     &lt;/mrow>
-   &lt;/math>
-  &lt;/math>
- &lt;/part>
- &lt;part>
-  &lt;m:math id="mathfrag-03" display="inline" overflow="scroll"
-          xmlns:m="http://www.w3.org/1998/Math/MathML">
-   &lt;m:mi>y&lt;/m:mi>&lt;m:mo>=&lt;/m:mo>&lt;m:mi>m&lt;/m:mi>&lt;m:mi>x&lt;/m:mi>&lt;m:mo>+&lt;/m:mo>&lt;m:mi>b&lt;/m:mi>
-  &lt;/math>
- &lt;/part>
-&lt;/root></codeblock></p>
-      <p>To refer to the <xmlelement>math</xmlelement> element with the <xmlatt>id</xmlatt> of
-        "equation-02" within a larger document using a key reference, define the key in the
-        following way:<codeblock id="codeblock_oj3_zqn_ywb">&lt;keydef 
-  keys="mathml-equation-02" 
-  href="math/mathml-equations.xml#equation-02"
-  format="mathml"
-/></codeblock>Then refer to this key using just the key
-        name:<codeblock id="codeblock_pj3_zqn_ywb">&lt;mathml>
-  &lt;mathmlref keyref="mathml-equation-02"/>
-&lt;/mathml></codeblock></p>
-      <draft-comment author="nancylph" time="21 may 2021">
-        <p>This is a pretty standard way of defining and using keys; do we really need to include
-          this last example?</p>
-      </draft-comment>
+  &lt;/mstyle>
+&lt;/math></codeblock>
+      </fig>
+      <fig>
+        <title>Referencing a specific <xmlelement>math</xmlelement> element
+          within a document</title>
+        <p>The following code sample shows how a
+            <xmlelement>mathmlref</xmlelement> element can reference a
+          specific <xmlelement>math</xmlelement> element in a containing
+          XML file:</p>
+        <codeblock>&lt;equation-block>
+  &lt;mathml>
+    <b>&lt;mathmlref href="../mathml-source/mathml-equation-library.xml#mathfrag-02"/></b>
+  &lt;/mathml>
+&lt;/equation-block></codeblock>
+        <p>The <filepath>mathml-equation-library.xml</filepath> file
+          contains the following content:</p>
+        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;root>
+  &lt;part>
+    &lt;math id="timeinday" xmlns="http://www.w3.org/1998/Math/MathML">
+      &lt;mi>x&lt;/mi>
+    &lt;/math>
+    &lt;math <b>id="mathfrag-02"</b> xmlns="http://www.w3.org/1998/Math/MathML">
+      &lt;math>
+        &lt;mrow>
+          &lt;mi>y&lt;/mi>
+          &lt;mo>=&lt;/mo>
+          &lt;mn>5&lt;/mn>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mn>2&lt;/mn>
+        &lt;/mrow>
+      &lt;/math>
+    &lt;/math>
+  &lt;/part>
+  &lt;!-- ... -->
+&lt;/root></codeblock>
+      </fig>
+      <fig>
+        <title>Referencing a specific <xmlelement>math</xmlelement> element
+          within a document using keys</title>
+        <p>The following code sample shows how a
+            <xmlelement>mathmlref</xmlelement> element can be used to
+          reference a specific<xmlelement>math</xmlelement> element in a
+          containing document by using keys. The
+            <xmlelement>math</xmlelement> element has an
+            <xmlatt>id</xmlatt> attribute with the value of
+            <keyword>equation-02</keyword>.</p>
+        <p>The key is defined as follows:</p>
+        <codeblock>&lt;keydef keys="mathml-equation-02" href="math/mathml-equations.xml#equation-02"
+                 <b>format="mathml"</b>/></codeblock>
+        <p>Then refer to this key using just the key name:</p>
+        <codeblock>&lt;mathml>
+  <b>&lt;mathmlref keyref="mathml-equation-02"/></b>
+&lt;/mathml></codeblock>
+        <p>
+          <draft-comment author="nancylph" time="21 may 2021">
+            <p>This is a pretty standard way of defining and using keys; do
+              we really need to include this last example?</p>
+          </draft-comment>
+        </p>
+      </fig>
     </example>
   </refbody>
 </reference>

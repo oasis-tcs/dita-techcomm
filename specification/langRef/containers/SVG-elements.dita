@@ -8,7 +8,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>SVG-domain</indexterm>
+        <indexterm>SVG domain</indexterm>
         <indexterm>domains elements<indexterm>SVG
           domain<indexterm>overview</indexterm></indexterm></indexterm>
       </keywords>
@@ -16,11 +16,7 @@
   </prolog>
   <refbody>
     <section id="section-1">
-      <draft-comment author="nancylph" time="21 may 2021">
-        <p>The MathML and SVG domains are unusual enough that I wonder if we might need to leave
-          this information in the language reference, or can it just be in the architecture spec?
-          And I took out the reference to XSD, since we're no longer providing it. </p>
-      </draft-comment>
+      <!--<draft-comment author="nancylph" time="21 may 2021"><p>The MathML and SVG domains are unusual enough that I wonder if we might need to leave this information in the language reference, or can it just be in the architecture spec? And I took out the reference to XSD, since we're no longer providing it. </p></draft-comment>-->
       <p>For SVG markup that is stored directly in DITA documents that are validated using DTDs, the
         SVG elements must use a namespace prefix in order to avoid conflict with DITA-defined
         elements of the same name. Documents validated using RELAX NG can default the SVG namespace

@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="equation-number">
   <title><xmlelement>equation-number</xmlelement></title>
-  <shortdesc>The <xmlelement>equation-number</xmlelement> element indicates that a block equation is
-    numbered and, optionally, specifies the number to use for the block equation.</shortdesc>
+  <shortdesc>The <xmlelement>equation-number</xmlelement> element indicates
+    that a block equation is numbered. It optionally specifies the number
+    to use for the block equation.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,9 +16,10 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>In normal usage a block equation will have at most one number. However,
-          <xmlelement>equation-number</xmlelement> can occur multiple times within
-          <xmlelement>equation-block</xmlelement>, for example, to allow numbers with different (and
+      <p>In normal usage, a block equation has a single number. However,
+        the <xmlelement>equation-number</xmlelement> element can occur
+        multiple times within the <xmlelement>equation-block</xmlelement>
+        element. This enables the use of numbers with different (and
         exclusive) conditional properties.</p>
     </section>
     <section id="rendering-expectations">
@@ -55,23 +57,35 @@
       <p conkeyref="reuse-attributes/only-universal"/>
     </section>
     <example id="example" otherprops="examples">
-      <title>Example</title>
-      <p>The following code sample shows an equation with a generated
-        number:<codeblock>&lt;p>A block equation using an image:&lt;/p>
-&lt;equation-block id="eq-001">
-  &lt;equation-number/>
+      <title>Examples</title>
+      <p>This section contains examples of how the
+          <xmlelement>equation-number</xmlelement> element can be used:</p>
+      <fig>
+        <title>An equation where the number will be generated</title>
+        <p>The following code sample shows how an
+            <xmlelement>equation-number</xmlelement> element can be used to
+          indicate to a processor that an equation number should be
+          auto-generated:</p>
+        <codeblock>&lt;equation-block id="eq-001">
+  <b>&lt;equation-number/></b>
   &lt;image keyref="equation-image-01">
     &lt;alt>a squared plus b squared.&lt;/alt>
   &lt;/image>
-&lt;/equation-block></codeblock></p>
-      <p>The following code sample shows an equation with an explicit
-        number:<codeblock>&lt;p>A block equation using an image:&lt;/p>
-&lt;equation-block id="eq-3.2a">
-  &lt;equation-number>3.2a&lt;/equation-number>
+&lt;/equation-block></codeblock>
+      </fig>
+      <fig>
+        <title>An equation where the equation number is explicitly
+          specified</title>
+      </fig>
+      <p>The following code sample shows how an
+          <xmlelement>equation-number</xmlelement> element can specify the
+        value for an equation number:</p>
+      <codeblock>&lt;equation-block id="eq-3.2a">
+  <b>&lt;equation-number>3.2a&lt;/equation-number></b>
   &lt;image keyref="equation-image-01">
     &lt;alt>a squared plus b squared.&lt;/alt>
   &lt;/image>
-&lt;/equation-block></codeblock></p>
+&lt;/equation-block></codeblock>
     </example>
   </refbody>
 </reference>
