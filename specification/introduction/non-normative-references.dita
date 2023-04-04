@@ -15,14 +15,6 @@
     <conbody>
         <dl>
             <dlentry>
-                <dt>[ciq-v3.0]</dt>
-                <dd>OASIS Committee Specification 02, <cite>Customer Information Quality
-                        Specifications Version 3.0. Name (xNL), Address (xAL), Name and Address
-                        (xNAL) and Party (xPIL)</cite>, <xref
-                        href="http://www.oasis-open.org/committees/download.php/29877/OASIS%20CIQ%20V3.0%20CS02.zip"
-                        format="html" scope="external"/>, 20 September 2008.</dd>
-            </dlentry>
-            <dlentry>
                 <dt>[ISO 8601]</dt>
                 <dd>ISO/TC 154, <cite>Data elements and interchange formats—Information
                         interchange—Representation of dates and times</cite>, 3rd edition, <xref

@@ -34,8 +34,6 @@
    <mapref href="ui-domain-elements.ditamap" format="ditamap"/>
    <!--XML mention domain-->
    <mapref href="xml-mention-domain-elements.ditamap" format="ditamap"/>
-   <!--xNAL structures -->
-   <mapref href="xnal-domain-elements.ditamap"/>
   </topicref>
  </topicref>
 </map>
