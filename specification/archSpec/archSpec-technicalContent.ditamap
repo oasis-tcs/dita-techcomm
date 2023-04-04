@@ -6,8 +6,5 @@
     <!--<topicref href="technicalContent/dita_technicalContent_TopicDomains.dita"/>-->
     <topicref href="technicalContent/mathML-and-equation-domains.dita"/>
     <topicref href="technicalContent/releaseManagement-domain.dita"/>
-    <topicref href="technicalContent/xNALDomain.dita">
-      <topicref href="technicalContent/xnaldetails.dita"/>
-    </topicref>
   </topicref>
 </map>
