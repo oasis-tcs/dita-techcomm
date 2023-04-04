@@ -34,7 +34,7 @@
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
-    format="ditamap"/>
+    format="ditamap" processing-role="resource-only"/>
   <backmatter>
     <booklists>
       <indexlist/>
