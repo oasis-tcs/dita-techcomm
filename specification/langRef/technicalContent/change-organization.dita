@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-organization" xml:lang="en-us">
   <title><xmlelement>change-organization</xmlelement></title>
-  <shortdesc>The <xmlelement>change-organization</xmlelement> element specifies the name of the
-    organization that required the change.</shortdesc>
+  <shortdesc>The <xmlelement>change-organization</xmlelement> element
+    specifies the name of the <ph rev="review-h">business unit</ph> that
+    required the change.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,8 +26,10 @@
     </section>
     <example id="example_d2s_5p5_lwb">
       <title>Example</title>
-      <p>The following code sample shows how the <xmlelement>change-organization</xmlelement>
-        element can be used to specify the company that required the change:</p>
+      <p>The following code sample shows how the
+          <xmlelement>change-organization</xmlelement> element can be used
+        to specify the <ph rev="review-h">business unit</ph> that required
+        the change:</p>
       <codeblock id="codeblock_phw_yhk_wwb">&lt;change-historylist>
     &lt;change-item product="productA productB">
       &lt;change-person>Tom Cihak&lt;/change-person>

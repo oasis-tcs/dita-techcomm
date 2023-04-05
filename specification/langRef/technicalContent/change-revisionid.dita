@@ -25,9 +25,11 @@
     </section>
     <example id="example_uy1_jg5_lwb">
       <title>Example</title>
-      <p>The following code sample shows how the <xmlelement>change-revisionid</xmlelement> element
-        can be used to identify a particular change. In this example, change revision ID is used to
-        note the release number for which the first change is applicable.</p>
+      <p>The following code sample shows how the
+          <xmlelement>change-revisionid</xmlelement> element can be used to
+        identify a particular change. In this example, change revision ID
+        is used to note the release number for which the change is
+        applicable.</p>
       <codeblock id="codeblock_vgt_shk_wwb">&lt;change-historylist>
   &lt;change-item product="productA productB">
     &lt;change-person>Tom Cihak&lt;/change-person>

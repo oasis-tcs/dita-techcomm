@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-item" xml:lang="en-us">
   <title><xmlelement>change-item</xmlelement></title>
-  <shortdesc>The <xmlelement>change-item</xmlelement> element represents a record of a single change
-    in a DITA topic or map.</shortdesc>
+  <shortdesc>The <xmlelement>change-item</xmlelement> element represents a
+    record of a change <ph rev="review-h">to</ph> a DITA topic or
+    map.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
