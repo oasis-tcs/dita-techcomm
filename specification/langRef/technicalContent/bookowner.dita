@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="bookowner" xml:lang="en-us">
   <title><xmlelement>bookowner</xmlelement></title>
-  <shortdesc>The <xmlelement>bookowner</xmlelement> element specifies the owner of the book's
-    copyright.</shortdesc>
+  <shortdesc>The <xmlelement>bookowner</xmlelement> element specifies the person
+      (<xmlelement>person</xmlelement>) or business unit (<xmlelement>organization</xmlelement>)
+    that owns the copyrights to the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,13 +26,16 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmeta>
+      <p>The following code sample shows how the <xmlelement>bookowner</xmlelement> element can be
+        used to specify the business unit that owns the copyrights to the book:</p>
+      <codeblock id="codeblock_ijv_jcl_zwb">&lt;bookmeta>
   &lt;bookrights>
-    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
-    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
-    &lt;bookowner>
-      &lt;organization>Example Corporation&lt;/organization>
-    &lt;/bookowner>
+    &lt;copyrfirst>&lt;year>2020&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2023&lt;/year>&lt;/copyrlast>
+    <b>&lt;bookowner></b>
+      &lt;organization>OASIS&lt;/organization>
+    <b>&lt;/bookowner></b>
+    &lt;bookrestriction value="unclassified"/>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
   </refbody>

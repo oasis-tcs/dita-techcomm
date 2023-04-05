@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="approved" xml:lang="en-us">
     <title><xmlelement>approved</xmlelement></title>
-    <shortdesc>The <xmlelement>approved</xmlelement> element contains information about when and by
-        whom the book was approved during its publication history.</shortdesc>
+    <shortdesc>The <xmlelement>approved</xmlelement> element contains detailed information about a
+        book approval, such as the revision that was approved, who approved the book, and when the
+        approval occurred.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -21,7 +22,21 @@
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
         </section>
-        <example id="example" otherprops="examples"><title>Example</title><p>See the example in
-                    <xref href="bookchangehistory.dita"/>.</p></example>
+        <example id="example" otherprops="examples"><title>Example</title>
+            <p>The following code sample shows how the <xmlelement>approved</xmlelement> element can
+                be used to show who approved the book and when it was approved:</p>
+            <codeblock id="codeblock_rzy_s24_1xb">&lt;bookmeta>
+  &lt;bookchangehistory>
+    &lt;reviewed>
+      &lt;revisionid>2&lt;/revisionid>
+      &lt;started>&lt;year>2019&lt;/year>&lt;month>10&lt;/month>&lt;/started>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
+    &lt;/reviewed>
+    <b>&lt;approved></b>
+      &lt;organization>OASIS&lt;/organization>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>05&lt;/month>&lt;/completed>
+    <b>&lt;/approved></b>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock></example>
     </refbody>
 </reference>

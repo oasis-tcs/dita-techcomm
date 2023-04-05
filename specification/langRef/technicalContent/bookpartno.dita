@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="bookpartno" xml:lang="en-us">
   <title><xmlelement>bookpartno</xmlelement></title>
-  <shortdesc>The <xmlelement>bookpartno</xmlelement> element contains the book's part number, such
-    as 99F1234.</shortdesc>
+  <shortdesc>The <xmlelement>bookpartno</xmlelement> element contains the part number of the book,
+    such as 99F1234.<draft-comment author="tammy">I don't fully understand how this element is to be
+      used. Usage information suggests that it can be used by the publisher. Does it have other
+      uses?</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,7 +18,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>A publisher might use a number like this one to identify a book for tracking purposes.</p>
+      <p>A publisher may use the <xmlelement>bookpartno</xmlelement> element to identify a book for
+        tracking purposes.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -27,6 +30,19 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>
-    <example conref="booknumber.dita#booknumber/example" id="example" otherprops="examples"/>
+    <example id="example" otherprops="examples">
+      <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>bookpartno</xmlelement> element can be
+        used to identify the part number of the book:</p>
+      <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
+  &lt;bookid>
+    <b>&lt;bookpartno>99F1234&lt;/bookpartno></b>
+    &lt;edition>Second&lt;/edition>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;booknumber>SC21-1234-00&lt;/booknumber>
+    &lt;volume>2&lt;/volume>
+  &lt;/bookid>
+&lt;/bookmeta></codeblock>
+    </example>
   </refbody>
 </reference>

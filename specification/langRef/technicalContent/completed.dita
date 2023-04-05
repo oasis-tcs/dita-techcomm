@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="completed" xml:lang="en-us">
   <title><xmlelement>completed</xmlelement></title>
-  <shortdesc>The <xmlelement>completed</xmlelement> element indicates a completion date for some
-    type of book event, such as a review, editing, or testing.</shortdesc>
+  <shortdesc>The <xmlelement>completed</xmlelement> element indicates when a book event
+    ended.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +25,30 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookchangehistory.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>completed</xmlelement> element can be
+        used to specify when publishing and editing ended:</p>
+      <codeblock id="codeblock_wbh_4lp_1xb">&lt;bookmeta>
+  &lt;publisherinformation>
+      &lt;organization>NY Publishing&lt;/organization>
+      &lt;printlocation>United States of America&lt;/printlocation>
+      &lt;published>
+        &lt;publishtype value="general"/>
+        &lt;revisionid>2&lt;/revisionid>
+        &lt;started>&lt;month>11&lt;/month>&lt;year>2022&lt;/year>&lt;/started>
+        <b>&lt;completed></b>
+          &lt;month>02&lt;/month>&lt;year>2023&lt;/year>
+        <b>&lt;/completed></b>
+      &lt;/published>
+  &lt;/publisherinformation>
+  &lt;bookchangehistory>
+    &lt;edited>
+      &lt;organization>XYZ Editing&lt;/organization>
+      &lt;started>&lt;month>08&lt;/month>&lt;year>2022&lt;/year>&lt;/started>
+      <b>&lt;completed></b>
+        &lt;month>10&lt;/month>&lt;year>2022&lt;/year>
+      <b>&lt;/completed></b>
+    &lt;/edited>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="publisherinformation" xml:lang="en-us">
   <title><xmlelement>publisherinformation</xmlelement></title>
-  <shortdesc>The <xmlelement>publisherinformation</xmlelement> contains information about what group
-    or person published the book, where it was published, and certain details about its publication
-    history.</shortdesc>
+  <shortdesc>The <xmlelement>publisherinformation</xmlelement> element contains information about
+    who published the book, where it was printed, the publication type, which revision was
+    published, and when it was published.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,8 +17,9 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Other publication history information is found in the
+      <p>Additional information about the publication history is found in the
           <xmlelement>bookchangehistory</xmlelement> element.</p>
+      <draft-comment author="tammy">I think this can be removed. Thoughts?</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -31,15 +32,20 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>publisherinformation</xmlelement>
+        element can be used to identity who published the book, where the book was printed, the
+        published revision, the publication dates, and the publication type:</p>
       <codeblock>&lt;bookmeta>
-  &lt;publisherinformation>
-    &lt;organization>Example Publishers&lt;/organization>
-    &lt;printlocation>Austin, TX&lt;/printlocation>
-    &lt;published>
-      &lt;publishtype value="general"/>
-      &lt;completed>&lt;year>1977&lt;/year>&lt;/completed>
-    &lt;/published>
-  &lt;/publisherinformation>
+  <b>&lt;publisherinformation></b>
+      &lt;organization>NY Publishing&lt;/organization>
+      &lt;printlocation>United States of America&lt;/printlocation>
+      &lt;published>
+        &lt;publishtype value="general"/>
+        &lt;revisionid>1&lt;/revisionid>
+        &lt;started>&lt;month>01&lt;/month>&lt;year>2020&lt;/year>&lt;/started>
+        &lt;completed>&lt;month>02&lt;/month>&lt;year>2023&lt;/year>&lt;/completed>
+      &lt;/published>
+  <b>&lt;/publisherinformation></b>
 &lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

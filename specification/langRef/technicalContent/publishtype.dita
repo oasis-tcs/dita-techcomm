@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="publishtype" xml:lang="en-us">
   <title><xmlelement>publishtype</xmlelement></title>
-  <shortdesc>The <xmlelement>publishtype</xmlelement> element indicates whether the book is
-    generally available from the publisher or is restricted in some way.</shortdesc>
+  <shortdesc>The <xmlelement>publishtype</xmlelement> element indicates whether there are any
+    restrictions on the availability of the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,8 +16,8 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlatt>value</xmlatt> attribute indicates the restrictions, such as beta release,
-        limited availability, or general availability.</p>
+      <p>The <xmlatt>value</xmlatt> attribute is required to specify the type of availability, for
+        example, beta release, limited availability, or general availability.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -29,10 +29,25 @@
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
       <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies any
         restrictions on the availability of the publication.</p>
+      <draft-comment author="tammy">This seems redundant since it's also captured in the Usage
+        information section.</draft-comment>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="publisherinformation.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>publishtype</xmlelement> element can be
+        used to specify any restrictions on the availability of the book. In this example, there are
+        no restrictions.</p>
+      <codeblock id="codeblock_cth_cgp_1xb">&lt;bookmeta>
+  &lt;publisherinformation>
+      &lt;organization>NY Publishing&lt;/organization>
+      &lt;printlocation>United States of America&lt;/printlocation>
+      &lt;published>
+        <b>&lt;publishtype value="general"/></b>
+        &lt;revisionid>1&lt;/revisionid>
+        &lt;completed>&lt;month>02&lt;/month>&lt;year>2023&lt;/year>&lt;/completed>
+      &lt;/published>
+  &lt;/publisherinformation>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

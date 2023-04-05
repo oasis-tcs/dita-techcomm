@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="isbn" xml:lang="en-us">
   <title><xmlelement>isbn</xmlelement></title>
-  <shortdesc>The <xmlelement>isbn</xmlelement> element contains the book's International Standard
-    Book Number (ISBN).</shortdesc>
+  <shortdesc>The <xmlelement>isbn</xmlelement> element contains the International Standard Book
+    Number (ISBN) for the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,9 +25,18 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmeta>
+      <p>The following example shows how the <xmlelement>isbn</xmlelement> element can be used to
+        show to specify the ISBN for the book:</p>
+      <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
   &lt;bookid>
-    &lt;isbn>978-0141000039&lt;/isbn>
+    &lt;bookpartno>99F1234&lt;/bookpartno>
+    &lt;edition>Second&lt;/edition>
+    <b>&lt;isbn>123-0-456-12345-1&lt;/isbn></b>
+    &lt;booknumber>SC21-1234-00&lt;/booknumber>
+    &lt;volume>2&lt;/volume>
+    &lt;maintainer>
+      &lt;person>John Smith&lt;/person>
+    &lt;/maintainer>
   &lt;/bookid>
 &lt;/bookmeta></codeblock></example>
   </refbody>

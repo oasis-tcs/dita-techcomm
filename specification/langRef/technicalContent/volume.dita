@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="volume" xml:lang="en-us">
   <title><xmlelement>volume</xmlelement></title>
-  <shortdesc>The <xmlelement>volume</xmlelement> element contains the book's volume number, such as
-    "2" to represent Volume 2.</shortdesc>
+  <shortdesc>The <xmlelement>volume</xmlelement> element contains the volume number of the
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,8 +25,16 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmeta>
-  &lt;bookid>&lt;volume>2&lt;/volume>&lt;/bookid>
+      <p>The following example shows how the <xmlelement>volume</xmlelement> element can be used to
+        indicate the volume number of the book:</p>
+      <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
+  &lt;bookid>
+    &lt;bookpartno>99F1234&lt;/bookpartno>
+    &lt;edition>Second&lt;/edition>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;booknumber>SC21-1234-00&lt;/booknumber>
+  <b>&lt;volume>2&lt;/volume></b>
+  &lt;/bookid>
 &lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

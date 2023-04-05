@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="summary" xml:lang="en-us">
   <title><xmlelement>summary</xmlelement></title>
-  <shortdesc>The <xmlelement>summary</xmlelement> element contains a text summary associated with a
-    book event (such as <xmlelement>approved</xmlelement> or <xmlelement>reviewed</xmlelement>) or
-    with the list of copyrights for the book.</shortdesc>
+  <shortdesc>The <xmlelement>summary</xmlelement> element contains a brief summary related to a book
+    event or to the copyrights of the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -26,19 +25,24 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookchangehistory>
-  &lt;edited>
-    &lt;person>Joe T. Editor&lt;/person>
-    &lt;revisionid>1&lt;/revisionid>
-    &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
-    <b>&lt;summary>Added several new topics&lt;/summary></b>
-  &lt;/edited>
-  &lt;edited>
-    &lt;person>Joe T. Editor&lt;/person>
-    &lt;revisionid>2&lt;/revisionid>
-    &lt;completed>&lt;year>2020&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
-    <b>&lt;summary>Fixed a few typos&lt;/summary></b>
-  &lt;/edited>
-&lt;/bookchangehistory></codeblock></example>
+      <p>The following code sample shows how the <xmlelement>summary</xmlelement> element can be
+        used to provide a brief summary of the edits that were completed on two different revisions
+        of the book:</p>
+      <codeblock>&lt;bookmeta>
+  &lt;bookchangehistory>
+    &lt;edited>
+      &lt;person>Joe T. Editor&lt;/person>
+      &lt;revisionid>1&lt;/revisionid>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+      <b>&lt;summary>Added several new topics&lt;/summary></b>
+    &lt;/edited>
+    &lt;edited>
+      &lt;person>Joe T. Editor&lt;/person>
+      &lt;revisionid>2&lt;/revisionid>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
+      <b>&lt;summary>Fixed a few typos&lt;/summary></b>
+    &lt;/edited>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

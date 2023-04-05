@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="edition" xml:lang="en-us">
   <title><xmlelement>edition</xmlelement></title>
-  <shortdesc>The <xmlelement>edition</xmlelement> element contains the edition number information,
-    such as First Edition or Third Edition, used by a publisher to identify a book.</shortdesc>
+  <shortdesc>The <xmlelement>edition</xmlelement> element contains information used by a publisher
+    to identify the edition of the book, such as First or Third edition.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,9 +25,18 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmeta>
+      <p>The following example shows how the <xmlelement>edition</xmlelement> element can be used to
+        specify the edition of the book:</p>
+      <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
   &lt;bookid>
-    &lt;edition>1&lt;/edition>
+    &lt;bookpartno>99F1234&lt;/bookpartno>
+    <b>&lt;edition>Second&lt;/edition></b>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;booknumber>SC21-1234-00&lt;/booknumber>
+    &lt;volume>2&lt;/volume>
+    &lt;maintainer>
+      &lt;person>John Smith&lt;/person>
+    &lt;/maintainer>
   &lt;/bookid>
 &lt;/bookmeta></codeblock></example>
   </refbody>

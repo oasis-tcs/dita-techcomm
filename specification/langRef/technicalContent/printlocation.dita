@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="printlocation" xml:lang="en-us">
   <title><xmlelement>printlocation</xmlelement></title>
-  <shortdesc>The <xmlelement>printlocation</xmlelement> element indicates the location where the
-    book was printed.</shortdesc>
+  <shortdesc>The <xmlelement>printlocation</xmlelement> element indicates where the book was
+    printed.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,10 +15,8 @@
   </prolog>
   <refbody><section id="usage-information">
          <title>Usage information</title>
-      <draft-comment author="robander" time="20 May 2021">This seems like an odd restriction / not
-        restriction, if we need it then it should be phrased like other typical-use
-        statements.</draft-comment>
-         <p>Customarily, the content is restricted to the name of the country.</p>
+         <p>Typically the print location includes only the country in which the book was
+        printed.</p>
       </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -31,7 +29,18 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="publisherinformation.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>printlocation</xmlelement> element can
+        be used to indicate where the book is printed:</p>
+      <codeblock id="codeblock_m1c_htk_zwb">&lt;bookmeta>
+  &lt;publisherinformation>
+      &lt;organization>NY Publishing&lt;/organization>
+      <b>&lt;printlocation>United States of America&lt;/printlocation></b>
+      &lt;published>
+        &lt;publishtype value="general"/>
+        &lt;completed>&lt;year>2023&lt;/year>&lt;/completed>
+      &lt;/published>
+  &lt;/publisherinformation>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

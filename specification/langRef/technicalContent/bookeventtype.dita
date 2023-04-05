@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="bookeventtype" xml:lang="en-us">
    <title><xmlelement>bookeventtype</xmlelement></title>
-   <shortdesc>The <xmlelement>bookeventtype</xmlelement> element indicates the specific nature of a
-         <xmlelement>bookevent</xmlelement>, such as updated, indexed, or deprecated.</shortdesc>
+   <shortdesc>The <xmlelement>bookeventtype</xmlelement> element indicates a custom publication
+      event, for example, updated, indexed, or deprecated.</shortdesc>
    <prolog>
       <metadata>
          <keywords>
@@ -16,7 +16,7 @@
    <refbody>
       <section id="usage-information">
          <title>Usage information</title>
-         <p>The required <xmlatt>name</xmlatt> attribute indicates the event's type.</p>
+         <p>The <xmlatt>name</xmlatt> attribute is required to indicate the event type.</p>
       </section>
       <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title>
@@ -26,8 +26,22 @@
          <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
          <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>name</xmlatt> attribute is
             required.</p>
+         <draft-comment author="tammy">This seems redundant since it's also captured in the Usage
+            information section.</draft-comment>
       </section>
-      <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref
-               href="bookchangehistory.dita"/>.</p></example>
+      <example id="example" otherprops="examples">
+         <title>Example</title>
+         <p>The following code sample shows how the <xmlelement>bookeventtype</xmlelement> element
+            can be used to specify a custom publication event:</p>
+         <codeblock id="codeblock_ryv_5sl_zwb">
+&lt;bookmeta>
+   &lt;bookchangehistory>
+      &lt;bookevent>
+         <b>&lt;bookeventtype name="indexed"/></b>
+          &lt;completed>&lt;month>09&lt;/month>&lt;year>2022&lt;/year>&lt;/completed>
+      &lt;/bookevent>
+   &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock>
+      </example>
    </refbody>
 </reference>

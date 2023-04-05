@@ -4,7 +4,7 @@
 <reference id="copyrlast" xml:lang="en-us">
   <title><xmlelement>copyrlast</xmlelement></title>
   <shortdesc>The <xmlelement>copyrlast</xmlelement> element contains the last copyright year within
-    a multiyear copyright statement.</shortdesc>
+    a multi-year copyright statement.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +25,20 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookmap.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>copyrlast</xmlelement> element can be
+        used to specify the last copyright year:</p>
+      <codeblock id="codeblock_ijv_jcl_zwb">&lt;bookmeta>
+  &lt;bookrights>
+    &lt;copyrfirst>&lt;year>2020&lt;/year>&lt;/copyrfirst>
+    <b>&lt;copyrlast></b>
+      &lt;year>2023&lt;/year>
+    <b>&lt;/copyrlast></b>
+    &lt;bookowner>
+      &lt;organization>OASIS&lt;/organization>
+    &lt;/bookowner>
+    &lt;bookrestriction value="unclassified"/>
+  &lt;/bookrights>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

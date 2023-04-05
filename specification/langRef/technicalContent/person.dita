@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="person" xml:lang="en-us">
   <title><xmlelement>person</xmlelement></title>
-  <shortdesc>The <xmlelement>person</xmlelement> element contains information about the name of a
-    person.</shortdesc>
+  <shortdesc>The <xmlelement>person</xmlelement> element contains name of a person.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,12 +13,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>Note that unlike the <xmlelement>personname</xmlelement> element, the
-          <xmlelement>person</xmlelement> element is not restricted to describing the names of
-        authors.</p>
-    </section>
 
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -32,11 +25,36 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmeta>
+      <p>The following code sample shows how the <xmlelement>person</xmlelement> element can be used
+        to specify who maintains the book and who reviewed the book:</p>
+      <codeblock id="codeblock_q2z_1cp_1xb">&lt;bookmeta>
+  &lt;publisherinformation>
+      &lt;organization>NY Publishing&lt;/organization>
+      &lt;printlocation>United States of America&lt;/printlocation>
+  &lt;/publisherinformation>
+   &lt;bookid>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;maintainer>
+      <b>&lt;person>John Smith&lt;/person></b>
+    &lt;/maintainer>
+  &lt;/bookid>
+  &lt;bookchangehistory>
+    &lt;reviewed>
+      <b>&lt;person>Jack&lt;/person></b>
+      &lt;completed>&lt;month>July&lt;/month>&lt;year>2022&lt;/year>&lt;/completed>
+    &lt;/reviewed>
+    &lt;edited>
+      &lt;organization>XYZ Editing&lt;/organization>
+      &lt;completed>&lt;month>January&lt;/month>&lt;year>2023&lt;/year>&lt;/completed>
+    &lt;/edited>
+    &lt;approved>
+      &lt;organization>OASIS&lt;/organization>
+    &lt;/approved>
+  &lt;/bookchangehistory>
   &lt;bookrights>
-    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
-    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
-    &lt;bookowner>&lt;person>Jane Doe&lt;/person>&lt;/bookowner>
+    &lt;copyrfirst>&lt;year>2020&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2023&lt;/year>&lt;/copyrlast>
+    &lt;bookowner>&lt;organization>OASIS&lt;/organization>&lt;/bookowner>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
   </refbody>

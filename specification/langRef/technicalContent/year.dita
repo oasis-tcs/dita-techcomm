@@ -24,11 +24,6 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookchangehistory>
-  &lt;edited>
-    &lt;person>Joe T. Editor&lt;/person>
-    &lt;completed><b>&lt;year>2020&lt;/year></b>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
-  &lt;/edited>
-&lt;/bookchangehistory></codeblock></example>
+      <p>See the example in <xref href="bookmeta.dita"/>.</p></example>
   </refbody>
 </reference>
