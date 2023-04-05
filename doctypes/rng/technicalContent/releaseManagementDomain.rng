@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="urn:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
+<?xml-model href="urn:pubid:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
                          schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="urn:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
+<?xml-model href="urn:pubid:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
                          schematypens="http://relaxng.org/ns/structure/1.0"?>
 <grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
   xmlns:dita="http://dita.oasis-open.org/architecture/2005/" 
@@ -33,7 +33,7 @@ PUBLIC "-//OASIS//ENTITIES DITA 2.0 Release Management Domain//EN"
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Release Management Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Release Management Domain//EN</dtdEnt>
-        <rngMod>urn:oasis:names:tc:dita:rng:releaseManagementDomain.rng<var presep=":" name="ditaver"/></rngMod>
+        <rngMod>urn:pubid:oasis:names:tc:dita:rng:releaseManagementDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
     </moduleMetadata>
   </moduleDesc>
