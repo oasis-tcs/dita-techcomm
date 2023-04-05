@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="urn:oasis:names:tc:dita:rng:checkShell.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="urn:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
+<?xml-model href="urn:pubid:oasis:names:tc:dita:rng:checkShell.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="urn:pubid:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
                          schematypens="http://relaxng.org/ns/structure/1.0"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
          xmlns:dita="http://dita.oasis-open.org/architecture/2005/"
@@ -53,7 +53,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Composite//EN"
          <moduleShortName>ditabase</moduleShortName>
          <shellPublicIds>
             <dtdShell>-//OASIS//DTD DITA<var presep=" " name="ditaver"/> Composite//EN</dtdShell>
-            <rngShell>urn:oasis:names:tc:dita:rng:ditabase.rng<var presep=":" name="ditaver"/></rngShell>
+            <rngShell>urn:pubid:oasis:names:tc:dita:rng:ditabase.rng<var presep=":" name="ditaver"/></rngShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>
@@ -82,7 +82,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Composite//EN"
       <div>
          <include href="strictTaskbodyConstraintMod.rng"/>    
       </div>
-     <include href="urn:oasis:names:tc:dita:rng:topicMod.rng:2.0">
+     <include href="urn:pubid:oasis:names:tc:dita:rng:topicMod.rng:2.0">
          <define name="info-types">
             <choice>
                <ref name="topic.element"/>
@@ -102,16 +102,16 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Composite//EN"
       <include href="troubleshootingMod.rng"/>
     
       <include href="abbreviateDomain.rng"/>
-      <include href="urn:oasis:names:tc:dita:rng:alternativeTitlesDomain.rng:2.0" dita:since="2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
-      <include href="urn:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:alternativeTitlesDomain.rng:2.0" dita:since="2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:audienceAttDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:platformAttDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:productAttDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:otherpropsAttDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0"/>
       <include href="equationDomain.rng" dita:since="1.3"/>
-      <include href="urn:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
-      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
       <include href="hwDomain.rng" dita:since="2.0"/>
       <include href="markupDomain.rng" dita:since="1.3"/>
       <include href="mathmlDomain.rng" dita:since="1.3"/>
@@ -121,7 +121,7 @@ PUBLIC "-//OASIS//DTD DITA 2.0 Composite//EN"
       <include href="svgDomain.rng" dita:since="1.3"/>
       <include href="syntaxdiagramDomain.rng" dita:since="2.0"/>
       <include href="uiDomain.rng"/>
-      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
       <include href="xmlDomain.rng" dita:since="1.3"/>
   </div>
   <div>

@@ -2,25 +2,25 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <!--DITA Book Map Shell-->
    <group><!-- System ID (URL) catalog entries -->
-      <system systemId="urn:oasis:names:tc:dita:rng:bookmap.rng:2.0"
+      <system systemId="urn:pubid:oasis:names:tc:dita:rng:bookmap.rng:2.0"
               uri="bookmap.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:rng:bookmap.rng:2.x"
+      <system systemId="urn:pubid:oasis:names:tc:dita:rng:bookmap.rng:2.x"
               uri="bookmap.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:rng:bookmapMod.rng:2.0"
+      <system systemId="urn:pubid:oasis:names:tc:dita:rng:bookmapMod.rng:2.0"
               uri="bookmapMod.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:rng:bookmapMod.rng:2.x"
+      <system systemId="urn:pubid:oasis:names:tc:dita:rng:bookmapMod.rng:2.x"
               uri="bookmapMod.rng"/>
    </group>
    <group><!-- Public ID (URN) catalog entries -->
-      <uri name="urn:oasis:names:tc:dita:rng:bookmap.rng:2.0"
+      <uri name="urn:pubid:oasis:names:tc:dita:rng:bookmap.rng:2.0"
            uri="bookmap.rng"/>
-      <uri name="urn:oasis:names:tc:dita:rng:bookmap.rng:2.x"
+      <uri name="urn:pubid:oasis:names:tc:dita:rng:bookmap.rng:2.x"
            uri="bookmap.rng"/>
-      <uri name="urn:oasis:names:tc:dita:rng:bookmapMod.rng:2.0"
+      <uri name="urn:pubid:oasis:names:tc:dita:rng:bookmapMod.rng:2.0"
            uri="bookmapMod.rng"/>
-      <uri name="urn:oasis:names:tc:dita:rng:bookmapMod.rng:2.x"
+      <uri name="urn:pubid:oasis:names:tc:dita:rng:bookmapMod.rng:2.x"
            uri="bookmapMod.rng"/>
-      <uri name="urn:oasis:names:tc:dita:rng:bookmapMod.rng"
+      <uri name="urn:pubid:oasis:names:tc:dita:rng:bookmapMod.rng"
            uri="bookmapMod.rng"/>
    </group>
 </catalog>
