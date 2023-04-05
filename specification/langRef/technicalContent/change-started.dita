@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-started" xml:lang="en-us">
   <title><xmlelement>change-started</xmlelement></title>
-  <shortdesc>The <xmlelement>change-started</xmlelement> element specifies the date on which a
-    change was initiated.</shortdesc>
+  <shortdesc>The <xmlelement>change-started</xmlelement> element specifies
+    the date on which a change<ph rev="review-h"> began</ph>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

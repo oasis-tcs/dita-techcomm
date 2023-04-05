@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us">
   <title><xmlelement>change-historylist</xmlelement></title>
-  <shortdesc>The <xmlelement>change-historylist</xmlelement> element contains one or more changes
-    that are applicable to a DITA topic or map.</shortdesc>
+  <shortdesc>The <xmlelement>change-historylist</xmlelement> element
+    contains one or more changes that are applicable to <ph rev="review-h"
+      >the</ph> DITA topic or map.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,11 +15,7 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>The <xmlelement>change-historylist</xmlelement> element appears in the topic
-          <xmlelement>prolog</xmlelement> or the map <xmlelement>topicmeta</xmlelement>.</p>
-    </section>
+    <!--<section id="usage-information"><title>Usage information</title><p>The <xmlelement>change-historylist</xmlelement> element appears in the topic <xmlelement>prolog</xmlelement> or the map <xmlelement>topicmeta</xmlelement>.</p></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>change-historylist</xmlelement> element is specialized from

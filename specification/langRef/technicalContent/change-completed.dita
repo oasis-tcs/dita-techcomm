@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="change-completed" xml:lang="en-us">
   <title><xmlelement>change-completed</xmlelement></title>
-  <shortdesc>The <xmlelement>change-completed</xmlelement> element specifies the date on which a
-    change was completed.</shortdesc>
+  <shortdesc>The <xmlelement>change-completed</xmlelement> element
+    specifies the date on which <ph rev="review-h">the</ph> change was
+    completed.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
