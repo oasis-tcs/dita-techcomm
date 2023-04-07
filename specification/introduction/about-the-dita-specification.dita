@@ -17,21 +17,19 @@
 		<title>Editions</title> 
 		<p>The DITA specification is delivered in three editions. 
 		</p> 
-		<fig id="fig_F84B86D46BD54C67ACCC03C1F31F26DD"> 
-		  <image href="../images/packages.png"
-			id="image_FBF0CDAE3DCC4D6D8F8C54C206C4F734" > 
-			 <alt >Block diagram illustrating the components
-				of the three editions of the DITA specification, and the subset relationships
-				between the three editions. The Base Edition ('Part 1') contains the Base
-				Architecture, which includes map, topic, and subject scheme. The Technical
-				Content Edition ('Part 2') contains the Base Architecture plus the Technical
-				Content specializations, which include concept, task, reference, book map,
-				glossary, classification map, machine industry, and troubleshooting. The
-				All-Inclusive Edition ('Part 3') contains the Base Architecture, the Technical
-				Content specializations, and the Learning and Training specializations. 
-			 </alt> 
-		  </image> 
-		</fig> 
+		<fig id="fig_F84B86D46BD54C67ACCC03C1F31F26DD">
+				<image href="../images/packages.png" id="image_FBF0CDAE3DCC4D6D8F8C54C206C4F734">
+					<alt>Block diagram illustrating the components of the three editions of the DITA
+						specification, and the subset relationships between the three editions. The
+						Base Edition ('Part 1') contains the Base Architecture, which includes map,
+						topic, and subject scheme. The Technical Content Edition ('Part 2') contains
+						the Base Architecture plus the Technical Content specializations, which
+						include concept, task, reference, book map, glossary, and troubleshooting.
+						The All-Inclusive Edition ('Part 3') contains the Base Architecture, the
+						Technical Content specializations, and the Learning and Training
+						specializations. </alt>
+				</image>
+			</fig> 
 		<dl
 		 conkeyref="conref-about-this-specification/editions-description">		  
 		  <dlentry> 
