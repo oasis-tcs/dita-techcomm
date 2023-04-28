@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="equation-elements" >
   <title>Equation domain</title>
-  <shortdesc>The elements in the equation domain contain information that allows authors to
-    identify,  number, and format equations within a document   This domain can be used
-    independently of the MathML domain. </shortdesc>
+  <shortdesc><ph rev="review-i">The equation domain includes elements that
+      authors can use</ph> to identify, number, and format equations within
+    a document. This domain can be used independently of the MathML domain. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -13,4 +13,9 @@
       </keywords>
     </metadata>
   </prolog>
+  <refbody>
+    <example>
+      <p/>
+    </example>
+  </refbody>
 </reference>

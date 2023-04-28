@@ -3,9 +3,19 @@
  "concept.dtd">
 <concept id="reuse_file" xml:lang="en-us">
         <title>Reuse: Technical content general</title>
-        <shortdesc>This file contains elements used by multiple files in the DITA
-                specification.</shortdesc>
+        <shortdesc>This file contains elements that are used by multiple
+    files in the DITA specification.</shortdesc>
         <conbody>
+    <section>
+      <title>Equation domain</title>
+      <p id="processing-equations">When there are multiple forms of an
+        equation, processors can choose the form or forms that they render.
+        For example, if there is both an image and MathML markup, an
+        HTML-generating processor could generate both the image reference
+        and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
+          <xmlatt>id</xmlatt> values to enable dynamic rendering <ph
+          rev="review-i">that is</ph> based on browser capability.</p>
+    </section>
     <section>
       <title>Task labels</title>
       <p id="task-label-rendering">Implementations might want to consider
