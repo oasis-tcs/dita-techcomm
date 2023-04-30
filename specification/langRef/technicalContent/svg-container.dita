@@ -52,12 +52,6 @@
         &lt;/svg:svg> 
       <b>&lt;/svg-container></b>
       &lt;!-- ... -->
-      <b>&lt;svg-container></b>
-        &lt;svg:svg width="200" height="200">
-          &lt;svg:ellipse cx="100" cy="100" rx="80" ry="80" style="fill:blue; 
-                       stroke:rgb(0,0,100);stroke-width:2"/>
-        &lt;/svg:svg>
-      <b>&lt;/svg-container></b>
       &lt;fig>
         &lt;title>Figure with SVG container&lt;/title>
         <b>&lt;svg-container></b>

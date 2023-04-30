@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="equation-figure">
   <title><xmlelement>equation-figure</xmlelement></title>
-  <shortdesc>The <xmlelement>equation-figure</xmlelement> element represents an equation that
-    functions as a form of figure or display.</shortdesc>
+  <shortdesc>The <xmlelement>equation-figure</xmlelement> element <ph
+      rev="review-i">is a container for equations and their supporting
+      information.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,39 +16,35 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>Display equations can have titles, descriptions, figure groups, and all other figure
-        components. The direct children of <xmlelement>equation-figure</xmlelement> can be the
-        equation content itself (for example, <xmlelement>mathml</xmlelement> or an image
-        reference), or it can be one or more <xmlelement>equation-block</xmlelement> elements, along
-        with other elements allowed within figures.</p>
+      <p><ph rev="review-i">Equation figures</ph> can have titles,
+        descriptions, figure groups, and all other figure components. The
+        direct children of <xmlelement>equation-figure</xmlelement> can be
+        the equation content itself (for example,
+          <xmlelement>mathml</xmlelement> or an image reference), or it can
+        be one or more <xmlelement>equation-block</xmlelement> elements,
+        along with other elements allowed within figures.</p>
       <p>When an <xmlelement>equation-figure</xmlelement> element has multiple direct child
           <xmlelement>mathml</xmlelement>, <xmlelement>equation-block</xmlelement>,
           <xmlelement>image</xmlelement>, or <xmlelement>pre</xmlelement> elements, each child
         represents an alternative form of the equation.</p>
-      <draft-comment author="nancylph" time="21 may 2021">
-        <p>I added equation-block as another direct child that could be used as a form, since that
-          seems as though it can be the case. </p>
-      </draft-comment>
-      <p>When the intent is to have equations combined with other commentary within an
-          <xmlelement>equation-figure</xmlelement>, the recommended best practice is to use child
-          <xmlelement>equation-block</xmlelement> elements to contain the equations and clearly
-        distinguish them from the commentary.</p>
+      <p>When the intent is to <ph rev="review-i">combine equations
+          and</ph> commentary within an
+          <xmlelement>equation-figure</xmlelement>, use child
+          <xmlelement>equation-block</xmlelement> elements to contain the
+        equations <ph rev="review-i">and so </ph>clearly distinguish them
+        from the commentary.</p>
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>Equation figures can be numbered, either through standard figure
-        numbering, or through use of the
-          <xmlelement>equation-number</xmlelement> element within
-          <xmlelement>equation-block</xmlelement>.</p>
+      <p>Equation figures can be numbered. <ph rev="review-i">Either</ph>
+        standard figure numbering <ph rev="review-i">can be used</ph>, or
+          <xmlelement>equation-number</xmlelement>
+        <ph rev="review-i">elements can be placed</ph> within
+          <xmlelement>equation-block</xmlelement> elements.</p>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When there are multiple forms of an equation, processors can
-        choose the form or forms that they render. For example, if there is
-        both an image and MathML markup, an HTML-generating processor could
-        generate both the image reference and the MathML with appropriate
-        HTML <xmlatt>class</xmlatt> or <xmlatt>id</xmlatt> values to enable
-        dynamic rendering based on browser capability.</p>
+      <p conkeyref="reuse-tc-file/processing-equations"/>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -61,47 +58,13 @@
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Examples</title>
-      <p>This section contains examples of how the
-          <xmlelement>equation-figure</xmlelement> element can be used.</p>
-      <fig>
-        <title>Equation figure with a title and MathML content</title>
-        <p>The following code sample shows how an
-            <xmlelement>equation-figure</xmlelement> element can create a
-          titled figure that contains MathML content:</p>
-        <codeblock><b>&lt;equation-figure></b>
-  &lt;title>An equation&lt;/title>
-  &lt;mathml>
-    &lt;m:math display='block'>
-      &lt;m:semantics>
-        &lt;m:mrow>
-          &lt;m:mfrac>
-            &lt;m:mrow>&lt;m:mi>n&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>&lt;/m:mrow>
-            &lt;m:mrow>&lt;m:mi>r&lt;/m:mi>&lt;m:mo>!&lt;/m:mo>
-              &lt;m:mrow>
-                &lt;m:mo>(&lt;/m:mo>
-                &lt;m:mrow>&lt;m:mi>n&lt;/m:mi>&lt;m:mo>&amp;#x2212;&lt;/m:mo>&lt;m:mi>r&lt;/m:mi>&lt;/m:mrow>
-                &lt;m:mo>)&lt;/m:mo>
-              &lt;/m:mrow>
-              &lt;m:mo>!&lt;/m:mo>
-            &lt;/m:mrow>
-          &lt;/m:mfrac>         
-        &lt;/m:mrow>
-      &lt;/m:semantics>
-    &lt;/m:math>
-  &lt;/mathml><b>
-&lt;/equation-figure></b></codeblock>
-      </fig>
-      <fig>
-        <title>An equation figure that contains MathMl content and
-          commentary</title>
-      </fig>
+      <title>Example</title>
       <p>The following code sample shows how an
           <xmlelement>equation-figure</xmlelement> element can contain both
         MathML content and commentary. The MathML content is contained with
         a nested <xmlelement>equation-block</xmlelement> element, and it is
-        following by commentary that is contained in a nested
-          <xmlelement>p</xmlelement> element.</p>
+          <ph rev="review-i">followed</ph> by commentary that is contained
+        in a nested <xmlelement>p</xmlelement> element.</p>
       <p>
         <codeblock><b>&lt;equation-figure></b>
  &lt;title>An equation with commentary&lt;/title>

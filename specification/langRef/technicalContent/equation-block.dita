@@ -4,7 +4,7 @@
   <title><xmlelement>equation-block</xmlelement></title>
   <shortdesc>The <xmlelement>equation-block</xmlelement> element represents
     an equation that is presented as a separate block within a text flow or
-    an <xmlelement>equation-figure</xmlelement></shortdesc>
+    an <xmlelement>equation-figure</xmlelement>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,12 +25,7 @@
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When there are multiple forms of an equation, processors can
-        choose the form or forms that they render. For example, if there is
-        both an image and MathML markup, an HTML-generating processor could
-        generate both the image reference and the MathML with appropriate
-        HTML <xmlatt>class</xmlatt> or <xmlatt>id</xmlatt> values to enable
-        dynamic rendering based on browser capability.</p>
+      <p conkeyref="reuse-tc-file/processing-equations"/>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -43,54 +38,16 @@
         />.</p>
     </section>
     <example id="example" otherprops="examples">
-      <title>Examples</title>
-      <p>This section contains examples of how the
-          <xmlelement>equation-block</xmlelement> element can be used:</p>
-      <fig>
-        <title>An equation block that contains native MathML markup</title>
-        <p>The following code sample shows how an
-            <xmlelement>equation-block</xmlelement> element can contain
-          MathML markup:</p>
-        <codeblock><b>&lt;equation-block></b>
-  &lt;mathml>
-    &lt;m:math>
-      &lt;m:semantics>
-        &lt;m:mrow>
-          &lt;m:msqrt>
-            &lt;m:mrow>
-              &lt;m:msup>&lt;m:mi>a&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-              &lt;m:mo>+&lt;/m:mo>
-              &lt;m:msup>&lt;m:mi>b&lt;/m:mi>&lt;m:mn>2&lt;/m:mn>&lt;/m:msup>
-            &lt;/m:mrow>
-          &lt;/m:msqrt>        
-        &lt;/m:mrow>
-      &lt;/m:semantics>
-    &lt;/m:math>
-  &lt;/mathml><b>
-&lt;/equation-block></b></codeblock>
-      </fig>
-      <fig>
-        <title>An equation block that contains an image</title>
-        <p>The following code sample shows how tan
-            <xmlelement>equation-block</xmlelement> element can contain an
-          image:</p>
-        <codeblock><b>&lt;equation-block></b>
-  &lt;image keyref="equation-image-01">
-    &lt;alt>a squared plus b squared.&lt;/alt>
-  &lt;/image>
-<b>&lt;/equation-block></b></codeblock>
-      </fig>
-      <fig>
-        <title>An equation block that contains two forms of an
-          equation</title>
-      </fig>
-      <p>The following code samples shows how an
+      <title>Example</title>
+      <p>The following code <ph rev="review-1">sample</ph> shows how an
           <xmlelement>equation-block</xmlelement> element can include two
         alternative forms of the same equation:</p>
       <codeblock><b>&lt;equation-block></b>
+  <ph rev="review-i">&lt;!-- Imaged-based equation --></ph>
   &lt;image keyref="equation-image-01">
     &lt;alt>a squared plus b squared.&lt;/alt>
   &lt;/image>
+  <ph rev="review-i">&lt;!-- MathML-based equation --></ph>
   &lt;mathml>
     &lt;m:math>
       &lt;m:semantics>

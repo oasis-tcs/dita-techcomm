@@ -21,12 +21,12 @@
           <xmlelement>math</xmlelement> element. The reference can be one
         of the following:</p>
       <ul>
-        <li>A URI that addresses an XML document; the XML document has a
+        <li>A URI that addresses an XML document. The XML document has a
           MathML <xmlelement>math</xmlelement> element as the root
-          element</li>
+          element.</li>
         <li>A URI that addresses an XML document and contains a fragment
           identifier that is the XML ID of a <xmlelement>math</xmlelement>
-          element within the document </li>
+          element within the document.</li>
       </ul>
       <p>The reference can be direct, using the <xmlatt>href</xmlatt>
         attribute, or indirect, using the <xmlatt>keyref</xmlatt>
@@ -34,6 +34,16 @@
         specified. The ID of the <xmlelement>mathml</xmlelement> element
         must be specified as part of the value for the
           <xmlatt>href</xmlatt> attribute on the key definition.</p>
+      <div otherprops="examples" rev="review-i">
+        <p>For example, to refer to the <xmlelement>mathm;</xmlelement>
+          element with the <xmlatt>id</xmlatt> of
+            <keyword>mathml-fragment-02</keyword> within a larger document
+          using a key reference, you would define the key in the following
+          way:</p>
+        <codeblock>&lt;keydef keys="mathml-fragment-0002" href="mathml/mathml-library.xml#mathml-fragment-02"/></codeblock>
+        <p>You reference this key by using just the key name:</p>
+        <codeblock>&lt;svgref <b>keyref="mathml-fragment-0002"</b>/></codeblock>
+      </div>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
@@ -56,11 +66,19 @@
           keyref="attributes-common/attr-href"><xmlatt>href</xmlatt></xref>, <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, and <xref
           keyref="attributes-common/attr-scope"><xmlatt>scope</xmlatt></xref>.</p>
-      <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_eyw_gg4_rpb">
+      <p id="attr-exception" outputclass="attr-exception">For this element:<ul>
           <li>The <xmlatt>format</xmlatt> attribute has a default value of
-            <keyword>mml</keyword>.</li>
+              <keyword>mml</keyword>.</li>
+          <li rev="review-i">The <xmlatt>href</xmlatt> attribute is a
+            reference to a MathML document or
+              <xmlelement>mathml</xmlelement> element. If the
+              <xmlelement>mathml</xmlelement> element is the root element
+            of the referenced resource, then no fragment identifier is
+            required. Otherwise, a fragment identifier must be specified,
+            where the fragment identifier is the XML ID of the
+              <xmlelement>mathml</xmlelement> element.</li>
           <li>The <xmlatt>parse</xmlatt> attribute has a default value of
-            <keyword>xml</keyword>.</li>
+              <keyword>xml</keyword>.</li>
         </ul></p>
     </section>
     <example id="example" otherprops="examples">

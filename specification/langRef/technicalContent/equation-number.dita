@@ -3,8 +3,9 @@
 <reference xml:lang="en-us" id="equation-number">
   <title><xmlelement>equation-number</xmlelement></title>
   <shortdesc>The <xmlelement>equation-number</xmlelement> element indicates
-    that a block equation is numbered. It optionally specifies the number
-    to use for the block equation.</shortdesc>
+    that a block equation <ph rev="revew-i">should be</ph> numbered. It
+    optionally specifies the number to use for the block
+    equation.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,8 +24,9 @@
         exclusive) conditional properties.</p>
       <p>When the <xmlelement>equation-figure</xmlelement> element contains
         content, the content of the element should be the number value
-        without any surrounding punctuation, for example,
-          <keyword>3.2a</keyword> rather than <keyword>(3.2a)</keyword>. </p>
+        without any <ph rev="review-i">rendering-specific</ph> punctuation,
+        for example, <keyword>3.2a</keyword> rather than
+          <keyword>(3.2a)</keyword>. </p>
     </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
