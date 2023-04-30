@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="SVG-elements" >
   <title>SVG domain</title>
-  <shortdesc>The SVG domain elements enable direct use of SVG markup within DITA documents, as well
-    as use-by-reference of SVG markup that is stored in separate non-DITA documents. SVG is a W3C
+  <shortdesc>The SVG domain elements enable <ph rev="review-i">the use of
+      embedded or referenced SVG markup. Referenced SVG markup must be
+      stored in separate, non-DITA XML documents</ph>.  SVG is a W3C
     standard.</shortdesc>
   <prolog>
     <metadata>

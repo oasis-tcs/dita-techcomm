@@ -2,9 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="mathml-d" >
   <title>MathML domain</title>
-  <shortdesc>The MathML domain elements enable direct use of MathML markup within DITA documents, as
-    well as use-by-reference of MathML markup that is stored in separate, non-DITA documents. MathML
-    is a W3C standard.</shortdesc>
+  <shortdesc>The MathML domain elements enable <ph rev="review-i">the use
+      of embedded or referenced MathML markup. Referenced MathML markup
+      must be stored in separate, non-DITA XML documents</ph>. MathML is a
+    W3C standard.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

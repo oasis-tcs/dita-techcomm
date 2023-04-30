@@ -2,8 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-us" id="mathml">
   <title><xmlelement>mathml</xmlelement></title>
-  <shortdesc>The <xmlelement>mathml</xmlelement> element contains MathML markup or other content
-    that contributes to a semantic equation.</shortdesc>
+  <shortdesc>The <xmlelement>mathml</xmlelement> element contains MathML
+    markup or other content that contributes to a semantic
+    equation.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,15 +16,16 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>The <xmlelement>mathml</xmlelement> element can contain MathML
-        elements, references to MathML elements held in separate, non-DITA
-        documents, or <xmlelement>data</xmlelement> elements.</p>
+        elements, references to MathML elements <ph rev="review-i"
+          >stored</ph> in separate, non-DITA documents, or
+          <xmlelement>data</xmlelement> elements.</p>
       <p>The <xmlelement>mathml</xmlelement> element is not intended to represent a semantic
         equation, only content that contributes to a semantic equation. Use the equation domain
         elements or their equivalent to represent equations semantically, for example, to enable
         numbering of equations.</p>
       <p>The MathML markup must have a root element of
-          <xmlelement>math</xmlelement> within the MathML
-          namespace:<xmlnsname>http://www.w3.org/1998/Math/MathML</xmlnsname></p>
+          <xmlelement>math</xmlelement> within the MathML namespace:
+          <xmlnsname>http://www.w3.org/1998/Math/MathML</xmlnsname>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

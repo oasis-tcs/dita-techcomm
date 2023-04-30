@@ -18,8 +18,9 @@
       <title>Usage information</title>
       <p>The <xmlelement>svgref</xmlelement> element enables the use of SVG
         markup by reference. The reference must be to a SVG
-          <xmlelement>svg</xmlelement> element. The reference can be one of
-        the following:</p>
+          <xmlelement>svg</xmlelement> element <ph rev="review-i">that is
+          stored in a separate, non-DITA XML document</ph>. The reference
+        can be one of the following:</p>
       <ul>
         <li>A URI that addresses an XML document which has a SVG
             <xmlelement>svg</xmlelement> element as the root element</li>
@@ -63,17 +64,17 @@
           conkeyref="reuse-attributes/ref-linkatts"/>, <ph
           conkeyref="reuse-attributes/ref-universalatts"/>, and <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
-      <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_awv_nmp_rpb">
+      <p id="attr-exception" outputclass="attr-exception">For this element:<ul>
           <li>The <xmlatt>format</xmlatt> attribute has a default value of
-            <keyword>svg</keyword>.</li>
+              <keyword>svg</keyword>.</li>
           <li>The <xmlatt>href</xmlatt> attribute is a reference to an SVG
             document or SVG element. If the <xmlelement>svg</xmlelement>
             element is the root element of the referenced resource, then no
             fragment identifier is required. Otherwise, a fragment
             identifier must be specified, where the fragment identifier is
-            the XML ID of the <xmlelement>svg</xmlelement> element .</li>
+            the XML ID of the <xmlelement>svg</xmlelement> element.</li>
           <li>The <xmlatt>parse</xmlatt> attribute has a default value of
-            <keyword>xml</keyword>.</li>
+              <keyword>xml</keyword>.</li>
         </ul></p>
     </section>
     <example id="example" otherprops="examples">
