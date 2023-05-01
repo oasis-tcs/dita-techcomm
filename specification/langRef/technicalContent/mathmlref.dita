@@ -31,18 +31,18 @@
       <p>The reference can be direct, using the <xmlatt>href</xmlatt>
         attribute, or indirect, using the <xmlatt>keyref</xmlatt>
         attribute. For indirect referencing, only the key name should be
-        specified. The ID of the <xmlelement>mathml</xmlelement> element
-        must be specified as part of the value for the
-          <xmlatt>href</xmlatt> attribute on the key definition.</p>
+        specified. The ID of the <xmlelement>math</xmlelement> element must
+        be specified as part of the value for the <xmlatt>href</xmlatt>
+        attribute on the key definition.</p>
       <div otherprops="examples" rev="review-i">
-        <p>For example, to refer to the <xmlelement>mathm;</xmlelement>
+        <p>For example, to refer to the <xmlelement>math</xmlelement>
           element with the <xmlatt>id</xmlatt> of
-            <keyword>mathml-fragment-02</keyword> within a larger document
+            <keyword>math-fragment-02</keyword> within a larger document
           using a key reference, you would define the key in the following
           way:</p>
-        <codeblock>&lt;keydef keys="mathml-fragment-0002" href="mathml/mathml-library.xml#mathml-fragment-02"/></codeblock>
+        <codeblock>&lt;keydef keys="math-fragment-0002" href="mathml/mathml-library.xml#math-fragment-02"/></codeblock>
         <p>You reference this key by using just the key name:</p>
-        <codeblock>&lt;svgref <b>keyref="mathml-fragment-0002"</b>/></codeblock>
+        <codeblock>&lt;mathref <b>keyref="math-fragment-0002"</b>/></codeblock>
       </div>
     </section>
     <section id="processing-expectations">
