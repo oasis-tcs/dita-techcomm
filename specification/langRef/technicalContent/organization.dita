@@ -3,7 +3,8 @@
  "reference.dtd">
 <reference id="organization" xml:lang="en-us">
   <title><xmlelement>organization</xmlelement></title>
-  <shortdesc>The <xmlelement>organization</xmlelement> element contains the name of an organization.</shortdesc>
+  <shortdesc>The <xmlelement>organization</xmlelement> element contains the name of a business
+    unit.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -13,13 +14,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>Note that unlike <xmlelement>organizationname</xmlelement>, the
-          <xmlelement>organization</xmlelement> element is not restricted to use within
-          <xmlelement>authorinformation</xmlelement>; it does not have to contain the name of an
-        authoring organization.</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>organization</xmlelement> element is specialized from
@@ -31,11 +25,39 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmeta>
+      <p>The following code sample shows how the <xmlelement>organization</xmlelement> element can
+        be used to specify the business units responsible for publishing, editing, and approving the
+        book as well as the business unit that owns the copyrights to the book:</p>
+      <codeblock id="codeblock_q2z_1cp_1xb">&lt;bookmeta>
+  &lt;publisherinformation>
+      <b>&lt;organization>NY Publishing&lt;/organization></b>
+      &lt;printlocation>United States of America&lt;/printlocation>
+  &lt;/publisherinformation>
+   &lt;bookid>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;maintainer>
+      &lt;person>John Smith&lt;/person>
+    &lt;/maintainer>
+  &lt;/bookid>
+  &lt;bookchangehistory>
+    &lt;reviewed>
+      &lt;person>Jack&lt;/person>
+      &lt;completed>&lt;month>July&lt;/month>&lt;year>2022&lt;/year>&lt;/completed>
+    &lt;/reviewed>
+    &lt;edited>
+      <b>&lt;organization>XYZ Editing&lt;/organization></b>
+      &lt;completed>&lt;month>January&lt;/month>&lt;year>2023&lt;/year>&lt;/completed>
+    &lt;/edited>
+    &lt;approved>
+      <b>&lt;organization>OASIS&lt;/organization></b>
+    &lt;/approved>
+  &lt;/bookchangehistory>
   &lt;bookrights>
-    &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
-    &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
-    &lt;bookowner>&lt;organization>OASIS&lt;/organization>&lt;/bookowner>
+    &lt;copyrfirst>&lt;year>2020&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2023&lt;/year>&lt;/copyrlast>
+    &lt;bookowner>
+      <b>&lt;organization>OASIS&lt;/organization></b>
+    &lt;/bookowner>
   &lt;/bookrights>
 &lt;/bookmeta></codeblock></example>
   </refbody>

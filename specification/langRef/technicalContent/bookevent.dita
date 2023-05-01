@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="bookevent" xml:lang="en-us">
    <title><xmlelement>bookevent</xmlelement></title>
-   <shortdesc>The <xmlelement>bookevent</xmlelement> element indicates a general event in the
-      publication history of a book.</shortdesc>
+   <shortdesc>The <xmlelement>bookevent</xmlelement> element contains detailed information about a
+      custom book event, such as the type of event, which book revision was part of the event, who
+      was responsible for the event, and when the event occurred.</shortdesc>
    <prolog>
       <metadata>
          <keywords>
@@ -16,10 +17,11 @@
    <refbody>
       <section id="usage-information">
          <title>Usage information</title>
-         <p>This element is appropriate for specialization if the current set of specific book event
-            types does not meet your needs. If an element already exists to describe a specific type
-            of event, such as <xmlelement>reviewed</xmlelement>, <xmlelement>edited</xmlelement>, or
-               <xmlelement>approved</xmlelement>, use that element instead.</p>
+         <p>This element is appropriate for specialization if the existing
+               <xmlelement>reviewed</xmlelement>, <xmlelement>edited</xmlelement>, or
+               <xmlelement>approved</xmlelement> event type elements do not meet your needs.</p>
+         <draft-comment author="tammy">Wouldn't you actually be specializing the &lt;bookeventtype>
+            element?</draft-comment>
       </section>
       <section id="specialization-hierarchy"
             ><title>Specialization hierarchy</title>
@@ -28,7 +30,16 @@
       <section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
       </section>
-      <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref
-               href="bookchangehistory.dita"/>.</p></example>
+      <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how the <xmlelement>bookevent</xmlelement> element can be used to
+            specify that the book was indexed and when indexing ended:</p>
+         <codeblock id="codeblock_ryv_5sl_zwb">
+&lt;bookmeta>
+   &lt;bookchangehistory>
+      <b>&lt;bookevent></b>
+         &lt;bookeventtype name="indexed"/>
+         &lt;completed>&lt;month>09&lt;/month>&lt;year>2022&lt;/year>&lt;/completed>
+      <b>&lt;/bookevent></b>
+   &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock></example>
    </refbody>
 </reference>

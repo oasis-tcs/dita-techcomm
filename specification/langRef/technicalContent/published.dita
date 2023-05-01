@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="published" xml:lang="en-us">
   <title><xmlelement>published</xmlelement></title>
-  <shortdesc>The <xmlelement>published</xmlelement> element contains information about the person or
-    organization publishing the book, the dates when it was started and completed, and any special
-    restrictions associated with it.</shortdesc>
+  <shortdesc>The <xmlelement>published</xmlelement> element contains information about the
+    publication, such as the published revision, the publication type, and when the book was
+    published.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -26,7 +26,20 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="publisherinformation.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>published</xmlelement> element can be
+        used to specify the publication type, the published revision, and when the book was
+        published:</p>
+      <codeblock id="codeblock_wmf_cwk_zwb">&lt;bookmeta>
+  &lt;publisherinformation>
+      &lt;organization>NY Publishing&lt;/organization>
+      &lt;printlocation>United States of America&lt;/printlocation>
+      <b>&lt;published></b>
+        &lt;publishtype value="general"/>
+        &lt;revisionid>2&lt;/revisionid>
+        &lt;completed>&lt;month>02&lt;/month>&lt;year>2023&lt;/year>&lt;/completed>
+      <b>&lt;/published></b>
+  &lt;/publisherinformation>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

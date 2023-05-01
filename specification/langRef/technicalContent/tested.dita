@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="tested" xml:lang="en-us">
   <title><xmlelement>tested</xmlelement></title>
-  <shortdesc>The <xmlelement>tested</xmlelement> element contains information about when and by whom
-    the book was tested during its publication history.</shortdesc>
+  <shortdesc>The <xmlelement>tested</xmlelement> element contains detailed information about book
+    testing, such as the revision that was tested, who tested the book, and when testing
+    occurred.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +26,25 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookchangehistory.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>tested</xmlelement> element can be used
+        to indicate who completed testing and when testing occurred:</p>
+      <codeblock id="codeblock_qsq_ch4_1xb">&lt;bookmeta>
+  &lt;bookchangehistory>
+    &lt;reviewed>
+      &lt;revisionid>2&lt;/revisionid>
+      &lt;started>&lt;year>2019&lt;/year>&lt;month>10&lt;/month>&lt;/started>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
+    &lt;/reviewed>
+    <b>&lt;tested></b>
+      &lt;organization>OASIS&lt;/organization>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>04&lt;/month>&lt;/completed>
+    <b>&lt;/tested></b>
+    &lt;approved>
+      &lt;organization>OASIS&lt;/organization>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>05&lt;/month>&lt;/completed>
+    &lt;/approved>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="bookrights" xml:lang="en-us">
   <title><xmlelement>bookrights</xmlelement></title>
-  <shortdesc>The <xmlelement>bookrights</xmlelement> element contains the information about the
-    legal rights associated with the book, including copyright dates and owners.</shortdesc>
+  <shortdesc>The <xmlelement>bookrights</xmlelement> element contains information about the legal
+    rights associated with the book, including copyright dates and owners.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +25,19 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="bookmeta.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>bookrights</xmlelement> element can be
+        used to specify copyright information, who owns the book, and whether there are restrictions
+        in place:</p>
+      <codeblock id="codeblock_ijv_jcl_zwb">&lt;bookmeta>
+  <b>&lt;bookrights></b>
+    &lt;copyrfirst>&lt;year>2020&lt;/year>&lt;/copyrfirst>
+    &lt;copyrlast>&lt;year>2023&lt;/year>&lt;/copyrlast>
+    &lt;bookowner>
+      &lt;organization>OASIS&lt;/organization>
+    &lt;/bookowner>
+    &lt;bookrestriction value="unclassified"/>
+  <b>&lt;/bookrights></b>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

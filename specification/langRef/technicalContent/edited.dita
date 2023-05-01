@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="edited" xml:lang="en-us">
   <title><xmlelement>edited</xmlelement></title>
-  <shortdesc>The <xmlelement>edited</xmlelement> element contains information about when and by whom
-    the book was edited during its publication history.</shortdesc>
+  <shortdesc>The <xmlelement>edited</xmlelement> element contains detailed information about a book
+    edit, such as the revision that was edited, who completed the edit, and when the edit
+    occurred.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +26,28 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookchangehistory.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>edited</xmlelement> element can be used
+        to show which revisions of the book were edited, who completed the edits, and when the edits
+        occurred:</p>
+      <codeblock id="codeblock_nz5_yf4_1xb">&lt;bookmeta>
+  &lt;bookchangehistory>
+    &lt;reviewed>
+      &lt;revisionid>2&lt;/revisionid>
+      &lt;started>&lt;year>2019&lt;/year>&lt;month>10&lt;/month>&lt;/started>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
+    &lt;/reviewed>
+   <b>&lt;edited></b>
+      &lt;revisionid>1&lt;/revisionid>
+      &lt;person>Joe T. Editor&lt;/person>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+    <b>&lt;/edited></b>
+    <b>&lt;edited></b>
+      &lt;revisionid>2&lt;/revisionid>
+      &lt;person>Joe T. Editor&lt;/person>
+      &lt;completed>&lt;year>2023&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
+    <b>&lt;/edited></b>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

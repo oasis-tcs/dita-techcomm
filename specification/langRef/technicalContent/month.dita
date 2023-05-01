@@ -3,7 +3,9 @@
  "reference.dtd">
 <reference id="month" xml:lang="en-us">
   <title><xmlelement>month</xmlelement></title>
-  <shortdesc>The <xmlelement>month</xmlelement> element denotes a month of the year.</shortdesc>
+  <shortdesc>The <xmlelement>month</xmlelement> element denotes a month of the year.<draft-comment
+      author="tammy">Are there any expectations to provide the month number vs. the
+      name?</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,11 +26,6 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookchangehistory>
-  &lt;edited>
-    &lt;person>Joe T. Editor&lt;/person>
-    &lt;completed>&lt;year>2020&lt;/year><b>&lt;month>10&lt;/month></b>&lt;day>13&lt;/day>&lt;/completed>
-  &lt;/edited>
-&lt;/bookchangehistory></codeblock></example>
+      <p>See the example in <xref href="bookmeta.dita"/>.</p></example>
   </refbody>
 </reference>

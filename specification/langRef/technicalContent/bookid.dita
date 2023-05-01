@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="bookid" xml:lang="en-us">
     <title><xmlelement>bookid</xmlelement></title>
-    <shortdesc>The <xmlelement>bookid</xmlelement> element contains the publisher's identification
-        information for the book, such as part number, edition number, or ISBN number.</shortdesc>
+    <shortdesc>The <xmlelement>bookid</xmlelement> element contains publishing information used to
+        identify the book, such as part number, edition number, or ISBN number.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -21,7 +21,20 @@
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
         </section>
-        <example id="example" otherprops="examples"><title>Example</title><p>See <xref
-                    href="bookmeta.dita"/>.</p></example>
+        <example id="example" otherprops="examples"><title>Example</title>
+            <p>The following code sample shows how the <xmlelement>bookid</xmlelement> element can
+                be used to define detailed information that identifies the book:</p>
+            <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
+  <b>&lt;bookid></b>
+    &lt;bookpartno>99F1234&lt;/bookpartno>
+    &lt;edition>Second&lt;/edition>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;booknumber>SC21-1234-00&lt;/booknumber>
+    &lt;volume>2&lt;/volume>
+    &lt;maintainer>
+      &lt;person>John Smith&lt;/person>
+    &lt;/maintainer>
+  <b>&lt;/bookid></b>
+&lt;/bookmeta></codeblock></example>
     </refbody>
 </reference>

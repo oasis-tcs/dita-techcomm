@@ -3,8 +3,13 @@
  "reference.dtd">
 <reference id="booknumber" xml:lang="en-us">
   <title><xmlelement>booknumber</xmlelement></title>
-  <shortdesc>The <xmlelement>booknumber</xmlelement> element contains the book's form number, such
-    as SC21-1920.</shortdesc>
+  <shortdesc>The <xmlelement>booknumber</xmlelement> element contains the number used to identify a
+    book that is part of a collection of works that belong to the same author.<draft-comment
+      author="tammy">The original description states that &lt;booknumber> is the "book's form
+      number" while the original examples states that that it "is a number that identifies this book
+      among all of the author's works". As noted in the current short description, I opted to go
+      with the latter definition. However, I don't actually know if either is accurate. It's not an
+      element I've ever had the need to use.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,13 +30,19 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>In this example, "99F1234" is a part number assigned to this book by the publisher, while
-        SC21-1234-00 is a number that identifies this book among all of the author&apos;s works.</p>
-      <codeblock>&lt;bookmeta>
- &lt;bookid>
-  &lt;bookpartno>99F1234&lt;/bookpartno>
-  &lt;booknumber>SC21-1234-00&lt;/booknumber>
- &lt;/bookid>
+      <p>The following code sample shows how the <xmlelement>booknumber</xmlelement> element can be
+        used to identify this book among the author&apos;s works:</p>
+      <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
+  &lt;bookid>
+    &lt;bookpartno>99F1234&lt;/bookpartno>
+    &lt;edition>Second&lt;/edition>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    <b>&lt;booknumber>SC21-1234-00&lt;/booknumber></b>
+    &lt;volume>2&lt;/volume>
+    &lt;maintainer>
+      &lt;person>John Smith&lt;/person>
+    &lt;/maintainer>
+  &lt;/bookid>
 &lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

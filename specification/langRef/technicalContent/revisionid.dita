@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="revisionid" xml:lang="en-us">
   <title><xmlelement>revisionid</xmlelement></title>
-  <shortdesc>The <xmlelement>revisionid</xmlelement> element indicates the revision number or
-    revision ID of the book.</shortdesc>
+  <shortdesc>The <xmlelement>revisionid</xmlelement> element specifies the revision of the
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,6 +18,8 @@
       <title>Processing expectations</title>
       <p>A processor determines how or whether the revision level is displayed. Common methods
         include using a dash, for example "-01", or a period, such as ".01".</p>
+      <draft-comment author="tammy">I don't understand these processing
+        expectations.</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -30,17 +32,29 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookchangehistory>
-  &lt;edited>
-    &lt;person>Joe T. Editor&lt;/person>
-    <b>&lt;revisionid>1&lt;/revisionid></b>
-    &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
-  &lt;/edited>
-  &lt;edited>
-    &lt;person>Joe T. Editor&lt;/person>
-    <b>&lt;revisionid>2&lt;/revisionid></b>
-    &lt;completed>&lt;year>2020&lt;/year>&lt;month>10&lt;/month>&lt;day>13&lt;/day>&lt;/completed>
-  &lt;/edited>
-&lt;/bookchangehistory></codeblock></example>
+      <p>The following code sample shows how the <xmlelement>revisionid</xmlelement> element can be
+        used to specify the book revision that was published and the revisions that were edited:</p>
+      <codeblock id="codeblock_j2v_nd4_1xb">&lt;bookmeta>
+  &lt;publisherinformation>
+    &lt;organization>NY Publishing&lt;/organization>
+    &lt;printlocation>United States of America&lt;/printlocation>
+    &lt;published>
+      <b>&lt;revisionid>2&lt;/revisionid></b>
+      &lt;completed>&lt;month>02&lt;/month>&lt;year>2023&lt;/year>&lt;/completed>
+    &lt;/published>
+  &lt;/publisherinformation>
+  &lt;bookchangehistory>
+    &lt;edited>
+      <b>&lt;revisionid>1&lt;/revisionid></b>
+      &lt;person>Joe T. Editor&lt;/person>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+    &lt;/edited>
+    &lt;edited>
+      <b>&lt;revisionid>2&lt;/revisionid></b>
+      &lt;person>Joe T. Editor&lt;/person>
+      &lt;completed>&lt;year>2023&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
+    &lt;/edited>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock></example>
   </refbody>
 </reference>

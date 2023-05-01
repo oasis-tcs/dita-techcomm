@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="maintainer" xml:lang="en-us">
   <title><xmlelement>maintainer</xmlelement></title>
-  <shortdesc>The <xmlelement>maintainer</xmlelement> element contains information about who
-    maintains the document. The maintainer might be an organization or a person.</shortdesc>
+  <shortdesc>The <xmlelement>maintainer</xmlelement> element contains the name of the person (
+      <xmlelement>person</xmlelement>) or business unit (<xmlelement>organization</xmlelement>) that
+    maintains the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +26,17 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookmeta.dita"/>.</p>
+      <p>The following example shows how the <xmlelement>maintainer</xmlelement> element can be used
+        identify the person that maintains the book:</p>
+      <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
+  &lt;bookid>
+    &lt;isbn>123-0-456-12345-1&lt;/isbn>
+    &lt;booknumber>SC21-1234-00&lt;/booknumber>
+    <b>&lt;maintainer></b>
+      &lt;person>John Smith&lt;/person>
+    <b>&lt;/maintainer></b>
+  &lt;/bookid>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>

@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="reviewed" xml:lang="en-us">
   <title><xmlelement>reviewed</xmlelement></title>
-  <shortdesc>The <xmlelement>reviewed</xmlelement> element contains information about when and by
-    whom the book was reviewed during its publication history.</shortdesc>
+  <shortdesc>The <xmlelement>reviewed</xmlelement> element contains detailed information about a
+    book review, such as the revision that was reviewed, who reviewed the book, and when the review
+    occurred.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +26,21 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="bookchangehistory.dita"/>.</p>
+      <p>The following code sample shows how the <xmlelement>reviewed</xmlelement> element can be
+        used to show which revision of the book was reviewed and when it was reviewed:</p>
+      <codeblock id="codeblock_rzy_s24_1xb">&lt;bookmeta>
+  &lt;bookchangehistory>
+    <b>&lt;reviewed></b>
+      &lt;revisionid>2&lt;/revisionid>
+      &lt;started>&lt;year>2019&lt;/year>&lt;month>10&lt;/month>&lt;/started>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
+    <b>&lt;/reviewed></b>
+    &lt;approved>
+      &lt;organization>OASIS&lt;/organization>
+      &lt;completed>&lt;year>2020&lt;/year>&lt;month>05&lt;/month>&lt;/completed>
+    &lt;/approved>
+  &lt;/bookchangehistory>
+&lt;/bookmeta></codeblock>
     </example>
   </refbody>
 </reference>
