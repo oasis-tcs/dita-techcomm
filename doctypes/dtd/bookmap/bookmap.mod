@@ -304,10 +304,11 @@
 <!ENTITY % bookid.content
                        "((%bookpartno;)*,
                          (%edition;)?,
-                         (%isbn;)?,
-                         (%booknumber;)?,
+                         (%isbn;)*,
+                         (%booknumber;)*,
                          (%volume;)*,
-                         (%maintainer;)?)"
+                         (%maintainer;)?,
+                         (%data;)*)"
 >
 <!ENTITY % bookid.attributes
               "%data-element-atts;"
@@ -597,7 +598,7 @@
 <!ENTITY % bookeventtype.attributes
               "name
                           CDATA
-                                    #REQUIRED
+                                    #IMPLIED
                datatype
                           CDATA
                                     #IMPLIED
@@ -708,7 +709,8 @@
                          (%copyrlast;)?,
                          (%bookowner;),
                          (%bookrestriction;)?,
-                         (%summary;)?)"
+                         (%summary;)?,
+                         (%data;)*)"
 >
 <!ENTITY % bookrights.attributes
               "%data-element-atts;"
