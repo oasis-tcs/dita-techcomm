@@ -614,18 +614,21 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
         <optional>
           <ref name="edition"/>
         </optional>
-        <optional>
+        <zeroOrMore>
           <ref name="isbn"/>
-        </optional>
-        <optional>
+        </zeroOrMore>
+        <zeroOrMore>
           <ref name="booknumber"/>
-        </optional>
+        </zeroOrMore>
         <zeroOrMore>
           <ref name="volume"/>
         </zeroOrMore>
         <optional>
           <ref name="maintainer"/>
         </optional>
+        <zeroOrMore>
+          <ref name="data"/>
+        </zeroOrMore>
       </define>
       <define name="bookid.attributes">
         <ref name="data-element-atts"/>
@@ -1216,7 +1219,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
         <empty/>
       </define>
       <define name="bookeventtype.attributes">
-        <attribute name="name"/>
+        <optional>
+          <attribute name="name"/>
+        </optional>
         <optional>
           <attribute name="datatype"/>
         </optional>
@@ -1428,6 +1433,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
         <optional>
           <ref name="summary"/>
         </optional>
+        <zeroOrMore>
+          <ref name="data"/>
+        </zeroOrMore>
       </define>
       <define name="bookrights.attributes">
         <ref name="data-element-atts"/>
