@@ -37,12 +37,14 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample shows how the <xmlelement>codeblock</xmlelement> element can be
-        used to <ph rev="review-c">tag</ph> an excerpt from the code for a program:</p>
-      <codeblock><b>&lt;codeblock&gt;</b>
-/* a long sample program */
-Do forever
-  Say "Hello, World"
-End
-<b>&lt;/codeblock&gt;</b></codeblock></example>
+        used to <ph rev="review-c">tag an excerpt from an XSLT stylesheet:</ph></p>
+      <codeblock rev="review-c" base="ci-xml"><b>&lt;codeblock></b>
+  &lt;xsl:template match="*[contains(@outputclass,'green')">
+    &lt;xsl:attribute name="color">#006400;&lt;/xsl:attribute>
+  &lt;/xsl:template>
+<b>&lt;/codeblock></b></codeblock>
+      <p rev="review-c">For a sample of how this element can be combined with
+          <xmlelement>coderef</xmlelement> to embed external code samples, see <xref
+          keyref="elements-coderef"/>.</p></example>
   </refbody>
 </reference>
