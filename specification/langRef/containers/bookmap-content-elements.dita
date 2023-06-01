@@ -5,10 +5,6 @@
 <title>Bookmap content elements</title>
 <shortdesc>The Bookmap specialization of <xmlelement>map</xmlelement> supports standard
 book production for collections of DITA topics.</shortdesc>
-<conbody>
-<p>The OASIS document type for the bookmap specialization also includes
-substantial book metadata for describing authors, based on the eXtensible
-Name and Address Language, or xNAL.</p>
-</conbody>
+<conbody/>
 </concept>
 
