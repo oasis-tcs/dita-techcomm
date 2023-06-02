@@ -5,7 +5,7 @@
     <title><xmlelement>approved</xmlelement></title>
     <shortdesc>The <xmlelement>approved</xmlelement> element contains detailed information about a
         book approval, such as the revision that was approved, who approved the book, and when the
-        approval occurred.</shortdesc>
+        approval occurred. </shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -15,6 +15,12 @@
         </metadata>
     </prolog>
     <refbody>
+        <section id="usage-information" rev="review-j">
+            <title>Usage information</title>
+            <p>Information within <xmlelement>approval</xmlelement> can apply to different aspects
+                of the map, such as approval of the overall content or of a specific deliverable
+                created from the map.</p>
+        </section>
         <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title>
             <p>The <xmlelement>approved</xmlelement> element is specialized from
@@ -24,7 +30,8 @@
         </section>
         <example id="example" otherprops="examples"><title>Example</title>
             <p>The following code sample shows how the <xmlelement>approved</xmlelement> element can
-                be used to show who approved the book and when it was approved:</p>
+                be used to <ph rev="review-j">specify</ph> who approved the book and when it was
+                approved:</p>
             <codeblock id="codeblock_rzy_s24_1xb">&lt;bookmeta>
   &lt;bookchangehistory>
     &lt;reviewed>

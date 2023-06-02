@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="bookchangehistory" xml:lang="en-us">
   <title><xmlelement>bookchangehistory</xmlelement></title>
-  <shortdesc>The <xmlelement>bookchangehistory</xmlelement> element contains publishing lifecycle
-    information about the book.</shortdesc>
+  <shortdesc>The <xmlelement>bookchangehistory</xmlelement> element contains publishing <ph
+      rev="review-j">life-cycle</ph> information about the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,7 +24,8 @@
     <example id="example" otherprops="examples"
       ><title>Example</title>
       <p>The following code sample shows how the <xmlelement>bookchangehistory</xmlelement> element
-        can be used to specify review, editing, testing, approval, and indexing details:</p><codeblock>&lt;bookmeta>
+        can be used to specify <ph rev="review-j">details about when the content was reviewed,
+          edited, tested, approved, and indexed</ph>:</p><codeblock>&lt;bookmeta>
   <b>&lt;bookchangehistory></b>
     &lt;reviewed>
       &lt;revisionid>2&lt;/revisionid>
@@ -34,25 +35,25 @@
     &lt;edited>
       &lt;revisionid>1&lt;/revisionid>
       &lt;person>Joe T. Editor&lt;/person>
-      &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
+      &lt;completed>&lt;year>2019&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
       &lt;summary>Corrected grammatical errors.&lt;/summary>
     &lt;/edited>
     &lt;edited>
-      &lt;revisionid>2&lt;/revisionid>
+      &lt;revisionid>3&lt;/revisionid>
       &lt;person>Joe T. Editor&lt;/person>
-      &lt;completed>&lt;year>2023&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
+      &lt;completed>&lt;year>2022&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
     &lt;/edited>
     &lt;tested>
       &lt;organization>OASIS&lt;/organization>
-      &lt;completed>&lt;year>2020&lt;/year>&lt;month>04&lt;/month>&lt;/completed>
+      &lt;completed>&lt;year>2023&lt;/year>&lt;month>04&lt;/month>&lt;/completed>
     &lt;/tested>
     &lt;approved>
       &lt;organization>OASIS&lt;/organization>
-      &lt;completed>&lt;year>2020&lt;/year>&lt;month>05&lt;/month>&lt;/completed>
+      &lt;completed>&lt;year>2023&lt;/year>&lt;month>08&lt;/month>&lt;/completed>
     &lt;/approved>
     &lt;bookevent>
       &lt;bookeventtype name="indexed"/>
-      &lt;completed>&lt;month>09&lt;/month>&lt;year>2022&lt;/year>&lt;/completed>
+      &lt;completed>&lt;year>2023&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
     &lt;/bookevent>
   <b>&lt;/bookchangehistory></b>
 &lt;/bookmeta></codeblock></example>
