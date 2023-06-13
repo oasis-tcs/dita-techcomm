@@ -39,7 +39,7 @@
       <p>The following code sample shows how the <xmlelement>codeblock</xmlelement> element can be
         used to <ph rev="review-c">tag an excerpt from an XSLT stylesheet:</ph></p>
       <codeblock rev="review-c" base="ci-xml"><b>&lt;codeblock></b>
-  &lt;xsl:template match="*[contains(@outputclass,'green')">
+  &lt;xsl:template match="*[contains(@outputclass,'green')]">
     &lt;xsl:attribute name="color">#006400;&lt;/xsl:attribute>
   &lt;/xsl:template>
 <b>&lt;/codeblock></b></codeblock>
