@@ -125,11 +125,6 @@
          "../base/utilitiesDomain.ent"
 >%ut-d-dec;
 
-<!ENTITY % xnal-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 XNAL Domain//EN"
-         "../xnal/xnalDomain.ent"
->%xnal-d-dec;
-
 <!ENTITY % xml-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 XML Domain//EN"
          "../technicalContent/xmlDomain.ent"
@@ -219,9 +214,6 @@
                         ">
 <!ENTITY % metadata     "metadata |
                          %relmgmt-d-metadata;
-                        ">
-<!ENTITY % author       "author |
-                         %xnal-d-author;
                         ">
 
 <!-- ============================================================= -->
@@ -349,11 +341,6 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Utilities Domain//EN"
          "../base/utilitiesDomain.mod"
 >%ut-d-def;
-
-<!ENTITY % xnal-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 XNAL Domain//EN"
-         "../xnal/xnalDomain.mod"
->%xnal-d-def;
 
 <!ENTITY % xml-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 XML Domain//EN"
