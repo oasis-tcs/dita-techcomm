@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossAlt" xml:lang="en-us">
   <title><xmlelement>glossAlt</xmlelement></title>
-  <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains a variant term for the preferred
-    term that is defined in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+  <shortdesc>The glossary alternative contains a variant term for the preferred term that is defined in a glossary term.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

@@ -3,9 +3,7 @@
  "reference.dtd">
 <reference id="glossentry" xml:lang="en-us">
   <title><xmlelement>glossentry</xmlelement></title>
-  <shortdesc>The <xmlelement>glossentry</xmlelement> element defines a single sense of a glossary
-    term. Glossary entries for different term senses can be reused independently of one
-    another.</shortdesc>
+  <shortdesc>The glossary entry contains information for a single sense of a glossary term. Glossary entries for different term senses can be reused independently of one another.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -19,21 +17,14 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>The recommended (but not required) book processing is to sort and group glossary entries
-        based on the localized term so a back-of-the-book glossary can contain a collated list of
-        terms with the definitions of the individual senses of each term indented under the term.
-        The glossary can have a different organization in different languages depending on the
-        translation of the terms.</p>
+      <p>The recommended book processing is to sort and group glossary entries based on the localized term. This processing makes it possible that a back-of-the-book glossary can contain a collated list of terms along with definitions of each sense of each term indented under the term. The glossary can have a different organization in different languages depending on the translation of the terms.</p>
       <p>One possible implementation of a glossary in online processing is to associate a hotspot
         for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
         on hover or click.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
-      <p>The <xmlelement>glossentry</xmlelement> element is specialized from
-          <xmlelement>concept</xmlelement>; it is defined in the glossary entry module. The
-          <xmlelement>concept</xmlelement> element is specialized from
-          <xmlelement>topic</xmlelement>; it is defined in the concept module.</p>
+      <p>The <xmlelement>glossentry</xmlelement> element is specialized from <xmlelement>concept</xmlelement>. It is defined in the glossary entry module. The <xmlelement>concept</xmlelement> element is specialized from <xmlelement>topic</xmlelement>. It is defined in the concept module.</p>
     </section>
     <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">

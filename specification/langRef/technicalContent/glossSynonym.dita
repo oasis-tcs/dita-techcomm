@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossSynonym" xml:lang="en-us">
 <title><xmlelement>glossSynonym</xmlelement></title>
-<shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a term that is a synonym of
-the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+<shortdesc>The glossary synonym provides a term that is equivalent in meaning to the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>synonyms</indexterm></indexterm>

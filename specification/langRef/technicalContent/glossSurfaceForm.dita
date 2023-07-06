@@ -3,9 +3,7 @@
  "reference.dtd">
 <reference id="glossSurfaceForm" xml:lang="en-us">
   <title><xmlelement>glossSurfaceForm</xmlelement></title>
-  <shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element specifies an unambiguous
-    presentation of the <xmlelement>glossterm</xmlelement> that might combine multiple forms. The
-    surface form is suitable to introduce the term in new contexts.</shortdesc>
+  <shortdesc>The glossary surface form provides an unambiguous presentation of the <xmlelement>glossterm</xmlelement> that might combine multiple forms. The surface form is suitable to introduce the term in new contexts.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

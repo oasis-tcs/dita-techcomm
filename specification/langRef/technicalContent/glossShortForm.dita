@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="glossShortForm" xml:lang="en-us">
 <title><xmlelement>glossShortForm</xmlelement></title>
-<shortdesc>The <xmlelement>glossShortForm</xmlelement> element provides a shorter alternative to the
-    primary term that is specified in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+<shortdesc>The glossary short form provides a shorter alternative to the primary glossary term.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>short forms of a term</indexterm></indexterm>

@@ -3,8 +3,7 @@
  "reference.dtd">
 <reference id="abbreviated-form" xml:lang="en-us">
 <title><xmlelement>abbreviated-form</xmlelement></title>
-<shortdesc>The <xmlelement>abbreviated-form</xmlelement> element represents a reference to a term
-    that might appear in an abbreviated form (often an acronym).</shortdesc>
+<shortdesc>Abbreviated form represents a shorter reference to a term (often an acronym).</shortdesc>
   <prolog>
     <metadata>
       <keywords>
