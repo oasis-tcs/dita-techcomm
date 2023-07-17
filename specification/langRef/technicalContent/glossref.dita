@@ -40,7 +40,7 @@ and expanded versions of that acronym.</shortdesc>
           <xref keyref="attributes-common/attr-search"><xmlatt>search</xmlatt></xref>, and <xref
           keyref="attributes-common/attr-toc"><xmlatt>toc</xmlatt></xref>.</p>
       <p id="attr-exception" outputclass="attr-exception">For this element:<ul id="ul_mwn_xdh_rpb">
-          <li>The <xmlatt>href</xmlatt> attribute is a reference to a glossary definigion, typically
+          <li>The <xmlatt>href</xmlatt> attribute is a reference to a glossary definition, typically
             a <xmlelement>glossentry</xmlelement> topic.</li>
           <li>The <xmlatt>keys</xmlatt> attribute is required.</li>
           <li>The <xmlatt>linking</xmlatt> attribute has a default value of
