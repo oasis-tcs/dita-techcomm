@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="rendering-of-abbreviated-form-elements">
+    <title>Rendering of <xmlelement>abbreviated-form</xmlelement>
+    elements</title>
+    <shortdesc>There are specific rules that specify how processors should
+    render <xmlelement>abbreviated-form</xmlelement> elements.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>rendering
+              expectations<indexterm><xmlelement>abbreviated-form</xmlelement></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+    <conbody>
+    <p>Note that the definition of "introductory context" will vary based
+      on the processor and output format.</p>
+    <ol>
+      <li>If the referenced topic is not a
+          <xmlelement>glossentry</xmlelement> topic or a specialization of
+          <xmlelement>glossentry</xmlelement>, the title of the topic <term
+          outputclass="RFC-2119">SHOULD</term> be rendered.</li>
+      <li>If the referenced topic is a <xmlelement>glossentry</xmlelement>
+        topic or a specialization of <xmlelement>glossentry</xmlelement>
+        and the <xmlelement>abbreviated-form</xmlelement> element is
+        located in an introductory context:<ul>
+          <li>(If the referenced topic contains a non-empty
+              <xmlelement>glossSurfaceForm</xmlelement> element) Processors
+              <term outputclass="RFC-2119">SHOULD</term> render the
+            contents of the <xmlelement>glossSurfaceForm</xmlelement>
+            element</li>
+          <li>(If the referenced topic does not contain a
+              non-empty<xmlelement>glossSurfaceForm</xmlelement> element)
+            Processors <term outputclass="RFC-2119">SHOULD</term> render
+            the contents of the <xmlelement>glossterm</xmlelement> element
+          </li>
+        </ul></li>
+      <li>If the referenced topic is a <xmlelement>glossentry</xmlelement>
+        topic or a specialization of <xmlelement>glossentry</xmlelement>
+        and the <xmlelement>abbreviated-form</xmlelement> element is
+        located in a non-introductory context:<ul>
+          <li>(If the referenced topic contains a non-empty
+              <xmlelement>glossAcronym</xmlelement> element) Processors
+              <term outputclass="RFC-2119">SHOULD</term> render the
+            abbreviated form of the term by displaying the contents of the
+              <xmlelement>glossAcronym</xmlelement> element.</li>
+          <li>(If the reference topic does not contain a non-empty
+              <xmlelement>glossAcronym</xmlelement> element) Processors
+              <term outputclass="RFC-2119">SHOULD</term> render the
+            contents of the <xmlelement>glossterm</xmlelement> element</li>
+        </ul></li>
+    </ol>
+  </conbody>
+</concept>

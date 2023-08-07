@@ -2,5 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="abbreviated-form-domain-elements">
     <title>Abbreviated-form domain elements</title>
-    <shortdesc></shortdesc>
+    <shortdesc>The abbreviated-form domain contains an element that can be
+    used, in conjunction with a glossary entry topic, for rendering
+    different versions of a term on first and later occurrences in a
+    publication. </shortdesc>
 </reference>

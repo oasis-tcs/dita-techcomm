@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="glossAcronym" xml:lang="en-us">
   <title><xmlelement>glossAcronym</xmlelement></title>
-  <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an acronym for the term that
-    is defined in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+  <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an
+    acronym for the term. An acronym typically is composed of the initial
+    letters of the components of the full form or from the syllables of the
+    full form. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -43,8 +45,22 @@
     <section conkeyref="reuse-title/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossAcronym</xmlelement> element can be used:</p>
+      <codeblock>&lt;glossentry id="united-nations">
+    &lt;glossterm>United Nations&lt;/glossterm>
+    &lt;glossdef>The United Nations, referred to informally as the UN, is an
+    intergovernmental organization whose stated purposes are to maintain
+    international peace and security, develop friendly relations among
+    nations, achieve international cooperation, and serve as a center for
+    harmonizing the actions of nations.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossSurfaceForm>United Nations (UN)&lt;/glossSurfaceForm>
+    &lt;glossAlt>
+      <b>&lt;glossAcronym>UN&lt;/glossAcronym></b>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
     </example>
   </refbody>
 </reference>

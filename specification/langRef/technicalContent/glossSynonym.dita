@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="glossSynonym" xml:lang="en-us">
 <title><xmlelement>glossSynonym</xmlelement></title>
-<shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a term that is a synonym of
-the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+<shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a
+    term that is a synonym of the term and which is not a abbreviated
+    form.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>synonyms</indexterm></indexterm>
@@ -26,8 +27,19 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
       <section conkeyref="reuse-title/attributes" id="attributes"/>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See the example in <xref href="glossentry.dita#glossentry/example"
-                  ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossSynonym</xmlelement> element can be used: to
+        identify a synonym for the primary term:</p>
+      <codeblock>&lt;glossentry id="automobile">
+    &lt;glossterm>Automobile&lt;/glossterm>
+    &lt;glossdef>A road vehicle, typically with four wheels, powered by an
+    internal combustion engine or an electric motor.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossAlt>
+      <b>&lt;glossSynonym>car&lt;/glossSynonym></b>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
       </example>
 
 </refbody>

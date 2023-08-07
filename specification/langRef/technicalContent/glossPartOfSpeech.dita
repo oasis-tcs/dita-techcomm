@@ -18,10 +18,13 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>If validation is required for parts of speech, use a subject scheme to set up controlled
-        values for the <xmlatt>value</xmlatt> attribute. Alternatively, processing rules can be used
-        to validate the values. This avoids the need to hard code values in the XML grammar files,
-        which would limit extension and would make values difficult to change for different
+      <p>When the part of speech is not specified, the default is
+        "noun."</p>
+      <p>If validation is required, use a subject scheme to configure
+        controlled values for the <xmlatt>value</xmlatt> attribute on the
+          <xmlelement>glossPartOfSpeech</xmlelement>. This avoids the need
+        to hard code values in the XML grammar files, which would limit
+        extension and would make values difficult to change for different
         languages.</p>
     </section>
     <section id="specialization-hierarchy">
@@ -39,8 +42,28 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossPartOfSpeech</xmlelement> element can be used to
+        specify the part of a speech for a term:</p>
+      <codeblock>&lt;glossentry id="refridgerator">
+    &lt;glossterm>Refrigerator&lt;/glossterm>
+    &lt;glossdef>A refrigerator is a commercial and home appliance consisting
+    of a thermally insulated compartment and a heat pump (mechanical,
+    electronic or chemical) that transfers heat from its inside to its
+    external environment so that its inside is cooled to a temperature
+    below the room temperature.&lt;/glossdef>
+  &lt;glossBody>
+    <b>&lt;glossPartOfSpeech value="noun"/></b>
+    &lt;glossAlt>
+      &lt;glossSynonym>fridge&lt;/glossSynonym>
+      &lt;glossUsage>Casual and colloquial usage only.&lt;/glossUsage>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
+      <p>Note that because the <xmlelement>glossPartOfSpeech</xmlelement>
+        applies to the entire glossary entry topic, the preferred term and
+        any variants must belong to the same syntactical category (take the
+        same part of speech).</p>
     </example>
   </refbody>
 </reference>

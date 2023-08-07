@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Glossary entry topics and terminology management</title>
+  <topicref href="glossary-entry-topics-and-terminology-management.dita">
+    <topicref
+      href="abbreviated-form-elements-and-glossary-entry-topics.dita"/>
+    <topicref href="rendering-of-abbreviated-form-elements.dita"/>
+  </topicref>
+</map>

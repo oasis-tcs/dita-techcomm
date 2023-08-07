@@ -24,8 +24,24 @@
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossUsage</xmlelement> element is used to provide
+        additional information about possible variants for the term "USB
+        flash drive":</p>
+      <codeblock>&lt;glossentry id="usbfd">
+  &lt;glossterm>USB flash drive&lt;/glossterm>
+  &lt;glossdef>A small portable drive.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossPartOfSpeech value="noun"/>
+    <b>&lt;glossUsage>Do not use upper case (as in "USB Flash Drive")
+      because that suggests a trademark.&lt;/glossUsage></b>
+    &lt;glossAlt>
+      &lt;glossAbbreviation>flash&lt;/glossAbbreviation>
+      &lt;glossStatus value="prohibited"/>
+      <b>&lt;glossUsage>This short form is ambiguous.&lt;/glossUsage></b>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
     </example>
   </refbody>
 </reference>

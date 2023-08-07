@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossBody" xml:lang="en-us">
 <title><xmlelement>glossBody</xmlelement></title>
-<shortdesc>The <xmlelement>glossBody</xmlelement> element is used to provide details about a
-      glossary term, such as part of speech or additional forms of the term.</shortdesc>
+<shortdesc>The <xmlelement>glossBody</xmlelement> element contains
+    information about a term, such as the part of speech and variants for
+    the term.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossBody</xmlelement></indexterm>
             <indexterm>glossentry
@@ -24,8 +24,22 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See the example in <xref href="glossentry.dita#glossentry/example"
-                  ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossBody</xmlelement> element contains the part of
+        speech and variant forms for the term:</p>
+      <codeblock>&lt;glossentry id="sport-drink">
+    &lt;glossterm>Sport drink&lt;/glossterm>
+    &lt;glossdef>A soft drink designed or marketed for consumption in
+    conjunction with sporting activity or strenuous exercise, and which
+    typically contains electrolytes such as sodium, potassium, and
+    chloride, and a high percentage of sugar to restore energy.&lt;/glossdef>
+  <b>&lt;glossBody></b>
+    &lt;glossPartOfSpeech value="noun"/>
+    &lt;glossAlt>
+      &lt;glossSynonym>energy drink&lt;/glossSynonym>
+    &lt;/glossAlt>
+  <b>&lt;/glossBody></b>
+&lt;/glossentry></codeblock>
       </example>
 </refbody>
 </reference>
