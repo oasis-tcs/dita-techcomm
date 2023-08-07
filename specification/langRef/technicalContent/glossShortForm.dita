@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="glossShortForm" xml:lang="en-us">
 <title><xmlelement>glossShortForm</xmlelement></title>
-<shortdesc>The <xmlelement>glossShortForm</xmlelement> element provides a shorter alternative to the
-    primary term that is specified in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+<shortdesc>The <xmlelement>glossShortForm</xmlelement> element is an
+    abbreviated form that includes fewer words than the full
+    form.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>short forms of a term</indexterm></indexterm>
@@ -27,13 +28,15 @@
     <section conkeyref="reuse-title/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows the
+          <xmlelement>glossShortForm</xmlelement> can be used.</p>
       <codeblock>&lt;glossentry id="www">
   &lt;glossterm>World Wide Web&lt;/glossterm>
-  &lt;glossdef>A collection of documents available through the Internet.&lt;/glossdef>
+  &lt;glossdef>A collection of documents that are available through the Internet.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
     &lt;glossAlt>
-      &lt;glossShortForm>the Web&lt;/glossShortForm>
+      <b>&lt;glossShortForm>the web&lt;/glossShortForm></b>
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>

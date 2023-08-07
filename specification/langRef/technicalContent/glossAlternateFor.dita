@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossAlternateFor" xml:lang="en-us">
 <title><xmlelement>glossAlternateFor</xmlelement></title>
-<shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates when a variant term has
-    a relationship to another variant term in addition to the preferred term.<draft-comment
-      author="robander" time="20 may 2021">Does it "indicate when a variant term has a relationship"
-      or does it specify that there is a relationship with a specific other
-    term?</draft-comment></shortdesc>
+<shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates
+    when a variant term has a relationship to another variant term in
+    addition to the preferred term.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossAlternateFor</xmlelement></indexterm>
     <indexterm>glossaries<indexterm>variant terms</indexterm></indexterm>
@@ -17,16 +14,14 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>glossAlternateFor</xmlelement> element is available inside the
-          <xmlelement>glossAlt</xmlelement> element, which is a container that provides a variant
-        for the primary <xmlelement>glossentry</xmlelement> term. In some cases, the variant might
-        also be an alternate for another term. In the example below, the abbreviation "stick" is a
-        variant of the primary term (USB flash drive). The
-          <xmlelement>glossAlternateFor</xmlelement> element indicates that "stick" is also a
-        variant of the synonym "memory stick".</p>
-      <draft-comment author="robander" time="20 may 2021">There is a dependency here between the
-        usage description and an example that is not actaully given in this topic; that seems risky
-        and we should probably move or reuse the example here.</draft-comment>
+      <p>The <xmlelement>glossAlternateFor</xmlelement> element is
+        available inside the <xmlelement>glossAlt</xmlelement> element,
+        which is a container that provides a variant for the primary term.
+        The <xmlelement>glossAlternateFor</xmlelement> element makes it
+        clear that there is a relationship between the primary term, the
+        variant term defined directly in the glossary entry topic, and the
+        term defined in the external glossary entry topic that is linked
+        to.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -45,11 +40,36 @@
           <xmlelement>glossAlt</xmlelement> element within the same
           <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
         alternate for both the primary term and the referenced alternate term.</p>
+      <draft-comment author="Kristen J Eberlein" time="06 August 2023">
+        <p>The above wording does not track for me, nor does it match the
+          earlier example for <xmlelement>glossentry</xmlelement>, or the
+          2009 Kara Warburton white paper. You can read my interpretation
+          in the explanation of the example belowe.</p>
+      </draft-comment>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows a glossary entry topic for the
+        term "Refrigerator". In addition to providing a definition, the
+        glossary entry topic defines a variant term ("fridge"). It also
+        links to another glossary entry topic for a variant term ("icebox")
+        which is defined in a separate glossary entry topic:</p>
+      <codeblock>&lt;glossentry id="refridgerator">
+    &lt;glossterm>Refrigerator&lt;/glossterm>
+    &lt;glossdef>A refrigerator is a commercial and home appliance consisting
+    of a thermally insulated compartment and a heat pump (mechanical,
+    electronic or chemical) that transfers heat from its inside to its
+    external environment so that its inside is cooled to a temperature
+    below the room temperature.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossPartOfSpeech value="noun"/>
+    &lt;glossAlt>
+      &lt;glossSynonym>fridge&lt;/glossSynonym>
+      &lt;glossUsage>Casual and colloquial usage only.&lt;/glossUsage>
+      <b>&lt;glossAlternateFor keyref="glossentry-icebox"/></b>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
     </example>
 
 </refbody>

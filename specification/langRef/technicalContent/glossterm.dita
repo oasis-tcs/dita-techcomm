@@ -3,11 +3,9 @@
  "reference.dtd">
 <reference id="glossterm" xml:lang="en-us">
 <title><xmlelement>glossterm</xmlelement></title>
-<shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the preferred term that is
-            associated with a definition of a sense. If the same term has multiple senses, create a
-            separate <xmlelement>glossentry</xmlelement> topic for each sense.<draft-comment
-                  author="robander" time="20 may 2021">associated with a definition of a "sense"? I
-                  think we need to clear that up.</draft-comment></shortdesc>
+<shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the
+    preferred term that is associated with a terminological
+    concept.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>terms</indexterm></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossterm</xmlelement></indexterm></indexterm>
@@ -24,8 +22,27 @@
       <section conkeyref="reuse-title/attributes" id="attributes"/>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See the example in <xref href="glossentry.dita#glossentry/example"
-                  ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossterm</xmlelement> element specifies the
+        preferred term that is associated with a terminological
+        concept:</p>
+      <codeblock>&lt;glossentry id="css">
+    <b>&lt;glossterm>cascading style sheets&lt;/glossterm></b>
+    &lt;glossdef>Cascading Style Sheets is a style sheet language that is used
+    for rendering the presentation of a document written in a markup
+    language such as HTML or XML&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossSurfaceForm>cascading style sheets (CSS)&lt;/glossSurfaceForm>
+    &lt;glossAlt>
+      &lt;glossAcronym>CSS&lt;/glossAcronym>
+    &lt;/glossAlt>
+    &lt;glossAlt>
+      &lt;glossShortForm>web style sheets&lt;/glossShortForm>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
+      <p>The <xmlelement>glossShortForm</xmlelement> also identifies a
+        variant term.</p>
       </example>
 
 </refbody>

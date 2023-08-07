@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossStatus" xml:lang="en-us">
   <title><xmlelement>glossStatus</xmlelement></title>
   <shortdesc>The <xmlelement>glossStatus</xmlelement> element identifies the usage status of a
@@ -39,8 +38,27 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the
+          <xmlelement>glossStatus</xmlelement> element identifies the usage
+        status of  alternate terms:</p>
+      <codeblock>&lt;glossentry id="usbfd">
+  &lt;glossterm>USB flash drive&lt;/glossterm>
+  &lt;glossdef>A small portable drive.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossPartOfSpeech value="noun"/>
+    &lt;glossUsage>Do not provide in upper case (as in "USB Flash Drive")
+      because that suggests a trademark.&lt;/glossUsage>
+    &lt;glossAlt>
+      &lt;glossAcronym>UFD&lt;/glossAcronym>
+      <b>&lt;glossStatus value="prohibited"/></b>
+    &lt;/glossAlt>
+    &lt;glossAlt>
+      &lt;glossAbbreviation>flash&lt;/glossAbbreviation>
+      <b>&lt;glossStatus value="prohibited"/></b>
+      &lt;glossUsage>This short form is ambiguous.&lt;/glossUsage>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
     </example>
   </refbody>
 </reference>

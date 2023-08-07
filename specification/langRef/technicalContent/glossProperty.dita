@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="glossProperty" xml:lang="en-us">
 <title><xmlelement>glossProperty</xmlelement></title>
-<shortdesc>The <xmlelement>glossProperty</xmlelement> element specifies additional details about the
-    preferred term or its subject, such as the gender of a noun.</shortdesc>
+<shortdesc>The <xmlelement>glossProperty</xmlelement> element specifies
+    additional details about the term or its subject, such as the gender of
+    a noun.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>extension points</indexterm></indexterm>
@@ -25,12 +26,15 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the
+          <xmlelement>glossProperty</xmlelement> element can be used to
+        provide information about the gender of a term:</p>
       <codeblock>&lt;glossentry id="algorithm" xml:lang="es-es">
   &lt;glossterm>El algoritmo&lt;/glossterm>
   &lt;glossdef>Un algoritmo define un método de calcular un resultado.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
-    &lt;glossProperty name="gender" value="masculine"/>
+    <b>&lt;glossProperty name="gender" value="masculine"/></b>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>
