@@ -5,7 +5,7 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Review J: Glossary</mainbooktitle>
+    <mainbooktitle>Review J: Bookmap metadata elements</mainbooktitle>
   </booktitle>
   <frontmatter>
     <mapref
@@ -30,7 +30,9 @@
       <toc/>
     </booklists>
   </frontmatter>
-  <chapter href="langRef/glosssary-elements.ditamap" format="ditamap"/>
+  <chapter href="langRef/containers/bookmap-elements.dita">
+    <mapref href="langRef/bookmap-metadata-elements.ditamap"/>
+  </chapter>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"

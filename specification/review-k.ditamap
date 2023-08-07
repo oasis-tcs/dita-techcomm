@@ -5,18 +5,21 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Review K: Bookmap elements</mainbooktitle>
+    <mainbooktitle>Review K: Glossary</mainbooktitle>
   </booktitle>
   <frontmatter>
-    <mapref href="baseSpec/specification/dita-2.0-specification-subjectScheme.ditamap"/>
+    <mapref
+      href="baseSpec/specification/dita-2.0-specification-subjectScheme.ditamap"/>
     <mapref href="dita-2.0-key-definitions-cover-pages.ditamap"
       processing-role="resource-only"/>
     <mapref
       href="baseSpec/specification/common/key-definitions-oasis-boilerplate.ditamap"/>
     <mapref href="common/key-definitions-tc-library-topics.ditamap"/>
-    <mapref href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref
+      href="baseSpec/specification/common/key-definitions-library-topics.ditamap"/>
     <mapref href="langRef/key-definitions-tc-elements.ditamap"/>
-    <mapref href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
+    <mapref
+      href="baseSpec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
     <keydef
       href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"
       keys="reuse-note"/>
@@ -27,9 +30,11 @@
       <toc/>
     </booklists>
   </frontmatter>
-  <chapter href="langRef/containers/bookmap-elements.dita">
-    <mapref href="langRef/bookmap-metadata-elements.ditamap"/>
-  </chapter>
+  <chapter
+    href="archSpec/technicalContent/glossary-entry-topics-and-terminology-management.ditamap"
+    format="ditamap"/>
+  <chapter href="langRef/glosssary-elements.ditamap" format="ditamap"/>
+  <chapter href="langRef/abbreviated-form-domain.ditamap" format="ditamap"/>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"
