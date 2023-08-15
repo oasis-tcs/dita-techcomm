@@ -14,6 +14,22 @@
     </metadata>
   </prolog>
     <conbody>
+    <draft-comment author="Kristen J Eberlein" time="15 August 2023">
+      <p>I have a LOT of problems with these normative SHOULD
+        statements:</p>
+      <ul>
+        <li>How can we have normative rules when the whole idea of
+          introductory and non-introductory context is so entirely
+          subjective?</li>
+        <li>If we compare these to the normative rules for key text
+          resolution that are specified in the base spec, we are in
+          trouble. The base rules suggest that the title of the glossary
+          entry topic is what should be used ... See <xref
+            href="https://dita-lang.org/dita/archspec/base/processing-keyref-for-text"
+            format="html" scope="external">Processing key references to
+            generate text or link text</xref>.</li>
+      </ul>
+    </draft-comment>
     <p>Note that the definition of "introductory context" will vary based
       on the processor and output format.</p>
     <ol>
@@ -51,5 +67,8 @@
             contents of the <xmlelement>glossterm</xmlelement> element</li>
         </ul></li>
     </ol>
+    <draft-comment author="Kristen J Eberlein" time="15 August 2023">
+      <p>The rendering looks dreadful in PDF format ...</p>
+    </draft-comment>
   </conbody>
 </concept>
