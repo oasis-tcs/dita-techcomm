@@ -5,7 +5,8 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Review K: Glossary</mainbooktitle>
+    <mainbooktitle>Review K: Glossary entry topics &amp;
+        <xmlelement>abbreviated-form</xmlelement></mainbooktitle>
   </booktitle>
   <frontmatter>
     <mapref
