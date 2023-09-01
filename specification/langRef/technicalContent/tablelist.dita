@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="tablelist" xml:lang="en-us">
   <title><xmlelement>tablelist</xmlelement></title>
-  <shortdesc>The <xmlelement>tablelist</xmlelement> element references a topic that contains a list
-    of tables within the book.</shortdesc>
+  <shortdesc>A <xmlelement>tablelist</xmlelement> indicates to the processing software that the
+    author wants a list of tables at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

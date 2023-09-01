@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="part" xml:lang="en-us">
   <title><xmlelement>part</xmlelement></title>
-  <shortdesc>The <xmlelement>part</xmlelement> element references topic or a map as a part within a
-    book.</shortdesc>
+  <shortdesc>A <xmlelement>part</xmlelement> is an optional wrapper for
+      <xmlelement>chapter</xmlelement> elements within a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -31,8 +31,8 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>Part topics that include chapters and
-        subtopics:<codeblock xml:space="preserve">&lt;part href="guide.dita"&gt;
+      <p>This code sample shows how to use parts with chapters and subtopics to divide a book into
+        guide and reference:<codeblock xml:space="preserve">&lt;part href="guide.dita"&gt;
  &lt;chapter href="intro.dita"&gt;
   &lt;topicref href="caring.dita"/&gt;
   &lt;topicref href="feeding.dita"/&gt;
@@ -52,7 +52,7 @@
   &lt;topicref href="afeed.dita"/&gt;
  &lt;/chapter&gt; 
 &lt;/part&gt;</codeblock></p>
-      <p>Parts that reference DITA maps of
+      <p>This code sample shows how to use parts with DITA maps of
         content:<codeblock xml:space="preserve">&lt;part href="intro.ditamap" format="ditamap"/&gt;
 &lt;part href="guide.ditamap" format="ditamap"/&gt;
 </codeblock></p>

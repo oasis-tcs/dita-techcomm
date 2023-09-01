@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="booklists" xml:lang="en-us">
     <title><xmlelement>booklists</xmlelement></title>
-    <shortdesc>The <xmlelement>booklists</xmlelement> element references lists of various kinds
-        within the book.</shortdesc>
+    <shortdesc>The <xmlelement>booklists</xmlelement> element contains lists of various kinds within
+        the book.</shortdesc>
     <prolog>
         <metadata>
             <keywords>

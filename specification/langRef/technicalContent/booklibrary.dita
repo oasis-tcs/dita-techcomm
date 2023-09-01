@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="booklibrary" xml:lang="en-us">
     <title><xmlelement>booklibrary</xmlelement></title>
-    <shortdesc>The <xmlelement>booklibrary</xmlelement> element contains the library information for
-        a book.</shortdesc>
+    <shortdesc>A <xmlelement>booklibrary</xmlelement> contains information about the library,
+        series, or collection of documents to which a book belongs.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -14,11 +14,6 @@
         </metadata>
     </prolog>
     <refbody>
-        <section id="usage-information">
-            <title>Usage information</title>
-            <p>Library entries contain information about the series, library, or collection of
-                documents to which the book belongs.</p>
-        </section>
         <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title>
             <p>The <xmlelement>booklibrary</xmlelement> element is specialized from

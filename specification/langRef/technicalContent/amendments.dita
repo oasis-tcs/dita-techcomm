@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="amendments" xml:lang="en-us">
  <title><xmlelement>amendments</xmlelement></title>
- <shortdesc>The <xmlelement>amendments</xmlelement> element references a list of amendments or
-  updates to the book.</shortdesc>
+ <shortdesc>The <xmlelement>amendments</xmlelement> element indicates to the processing software
+    that the author wants a list of amendments or updates at this location in the book.</shortdesc>
  <prolog>
   <metadata>
    <keywords>

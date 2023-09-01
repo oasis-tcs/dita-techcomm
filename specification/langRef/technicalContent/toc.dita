@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="toc" xml:lang="en-us">
   <title><xmlelement>toc</xmlelement></title>
-  <shortdesc>The <xmlelement>toc</xmlelement> element indicates to the processing software that the
-    author wants a table of contents generated at the particular location.</shortdesc>
+  <shortdesc>A <xmlelement>toc</xmlelement> indicates to the processing software that the author
+    wants a table of contents generated at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

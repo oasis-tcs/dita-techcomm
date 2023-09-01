@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="booktitlealt" xml:lang="en-us">
   <title><xmlelement>booktitlealt</xmlelement></title>
-  <shortdesc>The <xmlelement>booktitlealt</xmlelement> element contains an alternative title,
-    subtitle, or short title for a book.</shortdesc>
+  <shortdesc>A <xmlelement>booktitlealt</xmlelement> contains an alternative title, subtitle, or
+    short title for a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

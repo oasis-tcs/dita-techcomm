@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="abbrevlist" xml:lang="en-us">
   <title><xmlelement>abbrevlist</xmlelement></title>
-  <shortdesc>The <xmlelement>abbrevlist</xmlelement> element references a list of
-    abbreviations.</shortdesc>
+  <shortdesc>An <xmlelement>abbrevlist</xmlelement>  indicates to the processing software that the
+    author wants  a list of abbreviations at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

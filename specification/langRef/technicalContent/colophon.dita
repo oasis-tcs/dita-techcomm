@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="colophon" xml:lang="en-us">
   <title><xmlelement>colophon</xmlelement></title>
-  <shortdesc>The <xmlelement>colophon</xmlelement> element references a topic describing how this
-    document was created.</shortdesc>
+  <shortdesc>A <xmlelement>colophon</xmlelement> references a topic describing how this document was
+    created.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="chapter" xml:lang="en-us">
   <title><xmlelement>chapter</xmlelement></title>
-  <shortdesc>The <xmlelement>chapter</xmlelement> element references a topic or map as a chapter
-    within a book.</shortdesc>
+  <shortdesc>A <xmlelement>chapter</xmlelement> indicates a topic or map as a chapter within a
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,7 +24,7 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>Chapter topics that include
+      <p>The following code sample creates a book chapter that includes
         subtopics:<codeblock xml:space="preserve">&lt;chapter href="intro.dita"&gt;
  &lt;topicref href="caring.dita"/&gt;
  &lt;topicref href="feeding.dita"/&gt;
@@ -33,7 +33,7 @@
  &lt;topicref href="prereq.dita"/&gt;
  &lt;topicref href="download.dita"/&gt;
 &lt;/chapter&gt; </codeblock></p>
-      <p>Chapter that references a DITA map of
+      <p>The following code sample creates a chapter by referencing a DITA map of
         content:<codeblock xml:space="preserve">&lt;chapter href="intro.ditamap" format="ditamap"/&gt;
 </codeblock></p>
     </example>

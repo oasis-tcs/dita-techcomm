@@ -16,9 +16,9 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The front matter might include items such as an abstract, a preface, and various types of
-        book lists such as a <xmlelement>toc</xmlelement>, <xmlelement>tablelist</xmlelement>, or
-          <xmlelement>figurelist</xmlelement>.</p>
+      <p>The front matter might include items such as an abstract, notices, a preface, and various
+        types of book lists such as a <xmlelement>toc</xmlelement>,
+          <xmlelement>tablelist</xmlelement>, or <xmlelement>figurelist</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

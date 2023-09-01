@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="indexlist" xml:lang="en-us">
   <title><xmlelement>indexlist</xmlelement></title>
-  <shortdesc>The <xmlelement>indexlist</xmlelement> element indicates to the processing software
-    that the author wants an index at the particular location.</shortdesc>
+  <shortdesc>An <xmlelement>indexlist</xmlelement> indicates to the processing software that the
+    author wants an index at the particular location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
