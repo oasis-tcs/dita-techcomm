@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="frontmatter" xml:lang="en-us">
   <title><xmlelement>frontmatter</xmlelement></title>
-  <shortdesc>The <xmlelement>frontmatter</xmlelement> element contains the material that precedes
-    the main body of a document.</shortdesc>
+  <shortdesc>The <xmlelement>frontmatter</xmlelement> element is a container for the material that
+    precedes the main body of a document.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,9 +16,9 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The front matter might include items such as an abstract, a preface, and various types of
-        book lists such as a <xmlelement>toc</xmlelement>, <xmlelement>tablelist</xmlelement>, or
-          <xmlelement>figurelist</xmlelement>.</p>
+      <p>The front matter might include items such as an abstract, notices, a preface, and various
+        types of book lists such as a <xmlelement>toc</xmlelement>,
+          <xmlelement>tablelist</xmlelement>, or <xmlelement>figurelist</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

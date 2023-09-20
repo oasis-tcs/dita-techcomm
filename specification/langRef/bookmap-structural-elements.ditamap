@@ -7,13 +7,13 @@
     <topicref keyref="elements-amendments"/>
     <topicref keyref="elements-appendices"/>
     <topicref keyref="elements-appendix"/>
-    <topicref keyref="elements-bookmap"/>
     <topicref keyref="elements-backmatter"/>
     <topicref keyref="elements-bibliolist"/>
     <topicref keyref="elements-bookabstract"/>
     <topicref keyref="elements-booklibrary"/>
     <topicref keyref="elements-booklist"/>
     <topicref keyref="elements-booklists"/>
+    <topicref keyref="elements-bookmap"/>
     <topicref keyref="elements-booktitle"/>
     <topicref keyref="elements-booktitlealt"/>
     <topicref keyref="elements-chapter"/>

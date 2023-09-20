@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="backmatter" xml:lang="en-us">
  <title><xmlelement>backmatter</xmlelement></title>
- <shortdesc>The <xmlelement>backmatter</xmlelement> element contains the material that follows the
-  main body of a document and any appendices. Back matter might include items such as a colophon,
-  legal notices, and book lists such as a glossary or an index.</shortdesc>
+ <shortdesc>The <xmlelement>backmatter</xmlelement> element is a container for material that follows
+  the main body of a document and any appendices. Back matter might include items such as a
+  colophon, legal notices, and book lists such as a glossary or an index.</shortdesc>
  <prolog>
   <metadata>
    <keywords>

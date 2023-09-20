@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="bibliolist" xml:lang="en-us">
   <title><xmlelement>bibliolist</xmlelement></title>
-  <shortdesc>The <xmlelement>bibliolist</xmlelement> element references a topic containing a list of
-    bibliographic entries within the book.</shortdesc>
+  <shortdesc>The <xmlelement>bibliolist</xmlelement> element references a topic that contains a list
+    of bibliographic entries for the publication.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,9 +14,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="section_ynq_grf_rpb">
-      <title>Processing expectations</title>
-    </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
       <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
@@ -28,7 +25,9 @@
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples"
-      ><title>Example</title><codeblock>&lt;bookmap>
+      ><title>Example</title>
+      <p>The following code sample shows how a <xmlelement>bibliolist</xmlelement> element is used
+        to add a bibliography topic to the publication's back matter:</p><codeblock>&lt;bookmap>
   &lt;!-- ... -->
   &lt;backmatter>
     &lt;amendments href="updatesToTheBook.dita"/>

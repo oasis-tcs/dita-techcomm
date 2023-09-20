@@ -2,8 +2,9 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossarylist" xml:lang="en-us">
   <title><xmlelement>glossarylist</xmlelement></title>
-  <shortdesc>The <xmlelement>glossarylist</xmlelement> element references a list of glossary entries
-    within the book.</shortdesc>
+  <shortdesc>The <xmlelement>glossarylist</xmlelement> element either references a topic containing
+    a list of glossary entries in the book, or indicates to a processor that a list of glossary
+    entries can be generated at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -29,7 +30,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See <xref href="backmatter.dita"/>.</p>
+      <p>See the example in <xref href="bookmap.dita"/>.</p>
     </example>
   </refbody>
 </reference>

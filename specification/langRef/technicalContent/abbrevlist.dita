@@ -30,6 +30,14 @@
       <div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock xml:space="preserve">&lt;abbrevlist href="abbrev.dita"/&gt;</codeblock></example>
+      <p>The following code sample shows how to reference a list of abbreviations as part of a
+        publication's back matter:</p>
+      <codeblock xml:space="preserve">&lt;backmatter>
+  &lt;booklists>
+    &lt;abbrevlist href="abbrev.dita"/&gt;
+    &lt;indexlist/>
+  &lt;/booklists>
+&lt;/backmatter>
+</codeblock></example>
   </refbody>
 </reference>
