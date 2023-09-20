@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="colophon" xml:lang="en-us">
   <title><xmlelement>colophon</xmlelement></title>
-  <shortdesc>A <xmlelement>colophon</xmlelement> references a topic describing how this document was
-    created.</shortdesc>
+  <shortdesc>The <xmlelement>colophon</xmlelement> element references a topic that describes how
+    this document was created.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -33,15 +33,14 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>colophon</xmlelement> element is used
+        to add details about the book's production into the back matter:</p>
       <codeblock>&lt;bookmap>
   &lt;title>Sample book&lt;/title>
   &lt;!-- ... -->
   &lt;backmatter>
-    &lt;colophon href="ProdNotes.dita">
-      &lt;topicmeta>
-        &lt;navtitle>Production Notes&lt;/navtitle>
-      &lt;/topicmeta>
-    &lt;/colophon>
+    &lt;!-- ... other back matter ... -->
+    &lt;colophon href="ProductionNotes.dita" />
   &lt;/backmatter>
 &lt;/bookmap></codeblock></example>
   </refbody>

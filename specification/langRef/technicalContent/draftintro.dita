@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="draftintro" xml:lang="en-us">
   <title><xmlelement>draftintro</xmlelement></title>
-  <shortdesc>A <xmlelement>draftintro</xmlelement> references a topic used as an introduction to the
-    current draft of a book.</shortdesc>
+  <shortdesc>The <xmlelement>draftintro</xmlelement> element references a topic used as an
+    introduction to the current draft of a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,14 +24,15 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample includes an introductory draft section within the frontmatter of
-        the book.</p>
+      <p>The following code sample uses <xmlelement>draftintro</xmlelement> to provide an
+        introductory draft section within the frontmatter of the book.</p>
       <codeblock>&lt;frontmatter>
   &lt;draftintro href="introducing.dita">
     &lt;topicmeta>
       &lt;navtitle>Introduction to this draft&lt;/navtitle>
     &lt;/topicmeta>
   &lt;/draftintro>
+  &lt;!-- ... -->
 &lt;/frontmatter></codeblock></example>
   </refbody>
 </reference>

@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="figurelist" xml:lang="en-us">
   <title><xmlelement>figurelist</xmlelement></title>
-  <shortdesc>A <xmlelement>figurelist</xmlelement> indicates to the processing software that the
-    author wants a list of figures at this location in the book.</shortdesc>
+  <shortdesc>The <xmlelement>figurelist</xmlelement> element either references a topic containing a
+    list of figures in the book, or indicates to a processor that a list of figures can be generated
+    at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

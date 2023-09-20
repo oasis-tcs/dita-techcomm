@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="booktitlealt" xml:lang="en-us">
   <title><xmlelement>booktitlealt</xmlelement></title>
-  <shortdesc>A <xmlelement>booktitlealt</xmlelement> contains an alternative title, subtitle, or
-    short title for a book.</shortdesc>
+  <shortdesc>The <xmlelement>booktitlealt</xmlelement> element contains an alternative title,
+    subtitle, or short title for a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,10 +25,12 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows a <xmlelement>booktitlealt</xmlelement> element is used to
+        provide a shorter alternative to the main book title:</p>
       <codeblock>&lt;bookmap>
   &lt;booktitle>
-    &lt;mainbooktitle>This is my big and fancy book&lt;/mainbooktitle>
-    &lt;booktitlealt>Shorter title&lt;/booktitlealt>
+    &lt;mainbooktitle>This is my big and fancy book about Product Z&lt;/mainbooktitle>
+    &lt;booktitlealt>Using Product Z&lt;/booktitlealt>
   &lt;/booktitle>
   &lt;!-- ... -->
 &lt;/bookmap></codeblock></example>

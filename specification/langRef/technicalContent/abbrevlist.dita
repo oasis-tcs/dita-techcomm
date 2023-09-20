@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="abbrevlist" xml:lang="en-us">
   <title><xmlelement>abbrevlist</xmlelement></title>
-  <shortdesc>An <xmlelement>abbrevlist</xmlelement>  indicates to the processing software that the
-    author wants  a list of abbreviations at this location in the book.</shortdesc>
+  <shortdesc>The <xmlelement>abbrevlist</xmlelement> element references a list of
+    abbreviations.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -30,6 +30,14 @@
       <div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock xml:space="preserve">&lt;abbrevlist href="abbrev.dita"/&gt;</codeblock></example>
+      <p>The following code sample shows how to reference a list of abbreviations as part of a
+        publication's back matter:</p>
+      <codeblock xml:space="preserve">&lt;backmatter>
+  &lt;booklists>
+    &lt;abbrevlist href="abbrev.dita"/&gt;
+    &lt;indexlist/>
+  &lt;/booklists>
+&lt;/backmatter>
+</codeblock></example>
   </refbody>
 </reference>

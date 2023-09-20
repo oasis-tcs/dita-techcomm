@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="part" xml:lang="en-us">
   <title><xmlelement>part</xmlelement></title>
-  <shortdesc>A <xmlelement>part</xmlelement> is an optional wrapper for
-      <xmlelement>chapter</xmlelement> elements within a book.</shortdesc>
+  <shortdesc>The <xmlelement>part</xmlelement> element references a topic or a map that acts as a
+    part within a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -31,31 +31,32 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>This code sample shows how to use parts with chapters and subtopics to divide a book into
-        guide and reference:<codeblock xml:space="preserve">&lt;part href="guide.dita"&gt;
- &lt;chapter href="intro.dita"&gt;
-  &lt;topicref href="caring.dita"/&gt;
-  &lt;topicref href="feeding.dita"/&gt;
- &lt;/chapter&gt;
- &lt;chapter href="setup.dita"&gt;
-  &lt;topicref href="prereq.dita"/&gt;
-  &lt;topicref href="download.dita"/&gt;
- &lt;/chapter&gt; 
-&lt;/part&gt;
-&lt;part href="ref.dita"&gt;
- &lt;chapter href="commands.dita"&gt;
-  &lt;topicref href="care.dita"/&gt;
-  &lt;topicref href="feed.dita"/&gt;
- &lt;/chapter&gt;
- &lt;chapter href="apis.dita"&gt;
-  &lt;topicref href="acare.dita"/&gt;
-  &lt;topicref href="afeed.dita"/&gt;
- &lt;/chapter&gt; 
-&lt;/part&gt;</codeblock></p>
-      <p>This code sample shows how to use parts with DITA maps of
-        content:<codeblock xml:space="preserve">&lt;part href="intro.ditamap" format="ditamap"/&gt;
-&lt;part href="guide.ditamap" format="ditamap"/&gt;
-</codeblock></p>
+      <p>The following code sample shows how <xmlelement>part</xmlelement> elements are used to
+        group chapters in order to divide a book into two major sections for task and reference
+        material:<codeblock xml:space="preserve">&lt;bookmap>
+  &lt;title>Using and maintaining Product Zed&lt;/title>
+  &lt;!-- ... metadata and front matter ... ->
+  &lt;part href="taskguide.dita"&gt;
+    &lt;chapter href="intro.dita"&gt;
+      &lt;topicref href="caring.dita"/&gt;
+      &lt;topicref href="feeding.dita"/&gt;
+    &lt;/chapter&gt;
+    &lt;chapter href="setup.dita"&gt;
+      &lt;topicref href="prereq.dita"/&gt;
+      &lt;topicref href="download.dita"/&gt;
+    &lt;/chapter&gt; 
+  &lt;/part&gt;
+  &lt;part href="reference.dita"&gt;
+    &lt;chapter href="commands.dita"&gt;
+      &lt;topicref href="care.dita"/&gt;
+      &lt;topicref href="feed.dita"/&gt;
+    &lt;/chapter&gt;
+    &lt;chapter href="apis.dita"&gt;
+      &lt;topicref href="acare.dita"/&gt;
+      &lt;topicref href="afeed.dita"/&gt;
+    &lt;/chapter&gt; 
+  &lt;/part&gt;
+&lt;/bookmap&gt;</codeblock></p>
     </example>
   </refbody>
 </reference>

@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="notices" xml:lang="en-us">
   <title><xmlelement>notices</xmlelement></title>
-  <shortdesc>A <xmlelement>notices</xmlelement> element indicates a topic containing special notice
-    information, for example, legal notices about supplementary copyrights and trademarks associated
-    with the book.</shortdesc>
+  <shortdesc>The <xmlelement>notices</xmlelement> element references a topic containing special
+    notice information, such as legal notices about supplementary copyrights and trademarks
+    associated with the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -18,7 +18,7 @@
     <section id="usage-information">
       <title>Usage Information</title>
       <p>Use a <xmlelement>notices</xmlelement> element within either the front matter or back
-        matter of a book. </p>
+        matter of a book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -30,7 +30,7 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>This example shows how to use a notices topic to include legal content.</p>
+      <p>The following code sample shows how to use a notices topic to include legal content:</p>
       <codeblock>&lt;backmatter&gt;
   &lt;notices href="notices.dita" navtitle="Legal notices">
     &lt;topicmeta>

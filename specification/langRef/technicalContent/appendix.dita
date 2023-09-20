@@ -3,8 +3,8 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="appendix" xml:lang="en-us">
   <title><xmlelement>appendix</xmlelement></title>
-  <shortdesc>An <xmlelement>appendix</xmlelement> indicates a topic or map as an appendix within a
-    book.</shortdesc>
+  <shortdesc>An <xmlelement>appendix</xmlelement> element referencs a topic or map as an appendix
+    within a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,18 +20,18 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>appendix</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
-    <section id="attributes"><title>Attributes</title><div
-        conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
-    <example id="example" otherprops="examples"><title>Example</title><p>The following code sample creates appendix topics that include
-        subtopics:<codeblock xml:space="preserve">&lt;appendix href="intro.dita"&gt;
- &lt;topicref href="caring.dita"/&gt;
- &lt;topicref href="feeding.dita"/&gt;
-&lt;/appendix&gt;
-&lt;appendix href="setup.dita"&gt;
- &lt;topicref href="prereq.dita"/&gt;
- &lt;topicref href="download.dita"/&gt;
-&lt;/appendix&gt; </codeblock></p><p>The following code sample creates an appendix by referencing a DITA map of
-        content:<codeblock xml:space="preserve">&lt;appendix href="intro.ditamap" format="ditamap"/&gt;
-</codeblock></p></example>
+    <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
+    <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how the <xmlelement>appendix</xmlelement> element is used to
+        create two appendices for a publication:<codeblock xml:space="preserve">
+&lt;backmatter>
+  &lt;appendix href="intro.dita"&gt;
+    &lt;topicref href="caring.dita"/&gt;
+    &lt;topicref href="feeding.dita"/&gt;
+  &lt;/appendix&gt;
+  &lt;appendix href="setup.dita"&gt;
+    &lt;topicref href="prereq.dita"/&gt;
+    &lt;topicref href="download.dita"/&gt;
+  &lt;/appendix&gt;
+&lt;/backmatter></codeblock></p></example>
   </refbody>
 </reference>

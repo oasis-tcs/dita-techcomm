@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="preface" xml:lang="en-us">
   <title><xmlelement>preface</xmlelement></title>
-  <shortdesc>A <xmlelement>preface</xmlelement> indicates a topic or map containing introductory
-    information about a book, such as the purpose and structure of the document.</shortdesc>
+  <shortdesc>The <xmlelement>preface</xmlelement> elmeent references a topic or map containing
+    introductory information about a book, such as the purpose and structure of the
+    document.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

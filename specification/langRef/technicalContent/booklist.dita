@@ -27,10 +27,9 @@
                 ><title>Specialization hierarchy</title>
             <p>The <xmlelement>booklist</xmlelement> element is specialized from
                     <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
-        <section id="attributes"><title>Attributes</title><div
-                conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
+        <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
         <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how to use <xmlelement>booklist</xmlelement> to reference a topic
-                that contains a list of authors of topics in this document.</p><codeblock>&lt;booklists>
+                that contains a list of authors of topics in this document:</p><codeblock>&lt;booklists>
   &lt;toc/>
   &lt;tablelist/>
   <b>&lt;booklist href="authors.dita"></b>

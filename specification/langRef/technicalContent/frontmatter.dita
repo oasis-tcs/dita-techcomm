@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="frontmatter" xml:lang="en-us">
   <title><xmlelement>frontmatter</xmlelement></title>
-  <shortdesc>The <xmlelement>frontmatter</xmlelement> element contains the material that precedes
-    the main body of a document.</shortdesc>
+  <shortdesc>The <xmlelement>frontmatter</xmlelement> element is a container for the material that
+    precedes the main body of a document.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

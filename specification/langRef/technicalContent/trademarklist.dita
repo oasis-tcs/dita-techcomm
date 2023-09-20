@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="trademarklist" xml:lang="en-us">
   <title><xmlelement>trademarklist</xmlelement></title>
-  <shortdesc>A <xmlelement>trademarklist</xmlelement> indicates to the processing software that the
-    author wants a list of trademarks at this location in the book.</shortdesc>
+  <shortdesc>The <xmlelement>trademarklist</xmlelement> element either references a topic containing
+    a list of trademarks in the book, or indicates to a processor that a list of trademarks can be
+    generated at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

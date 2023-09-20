@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="chapter" xml:lang="en-us">
   <title><xmlelement>chapter</xmlelement></title>
-  <shortdesc>A <xmlelement>chapter</xmlelement> indicates a topic or map as a chapter within a
-    book.</shortdesc>
+  <shortdesc>The <xmlelement>chapter</xmlelement> element references a topic or map as a chapter
+    within a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -24,18 +24,22 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample creates a book chapter that includes
-        subtopics:<codeblock xml:space="preserve">&lt;chapter href="intro.dita"&gt;
- &lt;topicref href="caring.dita"/&gt;
- &lt;topicref href="feeding.dita"/&gt;
-&lt;/chapter&gt;
-&lt;chapter href="setup.dita"&gt;
- &lt;topicref href="prereq.dita"/&gt;
- &lt;topicref href="download.dita"/&gt;
-&lt;/chapter&gt; </codeblock></p>
-      <p>The following code sample creates a chapter by referencing a DITA map of
-        content:<codeblock xml:space="preserve">&lt;chapter href="intro.ditamap" format="ditamap"/&gt;
-</codeblock></p>
+      <p>The following code sample shows how the <xmlelement>chapter</xmlelement> element is used to
+        create two chapters within a publication:<codeblock xml:space="preserve">&lt;bookmap>
+  &lt;booktitle>
+    &lt;mainbooktitle>A book about one thing&lt;/mainbooktitle>
+  &lt;/booktitle>
+  &lt;!-- ... metadata and front matter ... -->
+  &lt;chapter href="intro.dita"&gt;
+    &lt;topicref href="caring.dita"/&gt;
+    &lt;topicref href="feeding.dita"/&gt;
+  &lt;/chapter&gt;
+  &lt;chapter href="setup.dita"&gt;
+    &lt;topicref href="prereq.dita"/&gt;
+    &lt;topicref href="download.dita"/&gt;
+  &lt;/chapter&gt;
+  &lt;!-- ... more chapters and back matter ... -->
+&lt;/bookmap></codeblock></p>
     </example>
   </refbody>
 </reference>

@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="booklists" xml:lang="en-us">
     <title><xmlelement>booklists</xmlelement></title>
-    <shortdesc>The <xmlelement>booklists</xmlelement> element contains lists of various kinds within
-        the book.</shortdesc>
+    <shortdesc>The <xmlelement>booklists</xmlelement> element is a container for lists of various
+        kinds within the book.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -25,7 +25,7 @@
         </section>
         <section id="attributes"><title>Attributes</title>
             <p>The following attributes are available on this element: <ph
-                conkeyref="reuse-attributes/ref-commonmapatts"/>, <ph
+                    conkeyref="reuse-attributes/ref-commonmapatts"/>, <ph
                     conkeyref="reuse-attributes/ref-universalatts"/>, <xref
                     keyref="attributes-common/attr-format"><xmlatt>format</xmlatt></xref>, <xref
                     keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, <xref

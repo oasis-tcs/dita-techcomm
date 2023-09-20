@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="appendices" xml:lang="en-us">
   <title><xmlelement>appendices</xmlelement></title>
-  <shortdesc>The <xmlelement>appendices</xmlelement> element is an optional wrapper for
+  <shortdesc>The <xmlelement>appendices</xmlelement> element is an optional container for
       <xmlelement>appendix</xmlelement> elements within a bookmap.</shortdesc>
   <prolog>
     <metadata>
@@ -20,10 +20,11 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>appendices</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
-    <section id="attributes"><title>Attributes</title><div
-        conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
+    <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples"
-      ><title>Example</title><codeblock>&lt;appendices toc="yes" deliveryTarget="html">
+      ><title>Example</title>
+      <p>The following code sample shows how the <xmlelement>appendices</xmlelement> element
+        functions as a container to hold several appendix topics for an HTML publication:</p><codeblock>&lt;appendices toc="yes" deliveryTarget="html">
   &lt;topicmeta>
     &lt;navtitle>Appendices&lt;/navtitle>
   &lt;/topicmeta>
