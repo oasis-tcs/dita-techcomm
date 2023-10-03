@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="appendices" xml:lang="en-us">
   <title><xmlelement>appendices</xmlelement></title>
-  <shortdesc>The <xmlelement>appendices</xmlelement> element is an optional container for
-      <xmlelement>appendix</xmlelement> elements within a bookmap.</shortdesc>
+  <shortdesc>The <xmlelement>appendices</xmlelement> element is an optional
+    container for <xmlelement>appendix</xmlelement> elements.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

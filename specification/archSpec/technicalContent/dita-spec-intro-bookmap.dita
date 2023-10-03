@@ -47,13 +47,10 @@
       &lt;copyrfirst>
         &lt;year>2020&lt;/year>
       &lt;/copyrfirst>
-      &lt;bookowner>
-        &lt;person href="task-preface.dita">Jane Doe&lt;/person>
-      &lt;/bookowner>
     &lt;/bookrights>
   &lt;/bookmeta>
   &lt;frontmatter>
-    &lt;preface/>
+    &lt;preface href="task-preface.dita"/>
   &lt;/frontmatter>
   &lt;chapter format="ditamap" href="installing.ditamap"/>
   &lt;chapter href="configuring.dita"/>
@@ -64,13 +61,6 @@
   &lt;/chapter>
   &lt;appendix href="task-appendix.dita"/>
 &lt;/bookmap></codeblock>
-      <p>Note that the bookmap uses several mechanisms to include chapter
-        content:</p>
-      <ul>
-        <li>Referencing a DITA map</li>
-        <li>Referencing a DITA topic</li>
-        <li>Nesting <xmlelement>topicref</xmlelement> elements</li>
-      </ul>
     </example>
   </conbody>
 </concept>

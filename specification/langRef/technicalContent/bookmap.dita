@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="bookmap" xml:lang="en-us">
   <title><xmlelement>bookmap</xmlelement></title>
-  <shortdesc>The <xmlelement>bookmap</xmlelement> element is a map specialization used to describe
-    the relationships among a set of DITA topics intended to be configured as a traditional
+  <shortdesc>The <xmlelement>bookmap</xmlelement> element is a map
+    specialization that is used to configure DITA topics as a traditional
     book.</shortdesc>
   <prolog>
     <metadata>

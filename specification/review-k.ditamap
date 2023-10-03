@@ -5,8 +5,7 @@
      OASIS notices are rendered. -->
 <bookmap xml:lang="en-us">
   <booktitle>
-    <mainbooktitle>Review K: Glossary entry topics &amp;
-        <xmlelement>abbreviated-form</xmlelement></mainbooktitle>
+    <mainbooktitle>Review K: Bookmap elements</mainbooktitle>
   </booktitle>
   <frontmatter>
     <mapref
@@ -32,10 +31,13 @@
     </booklists>
   </frontmatter>
   <chapter
-    href="archSpec/technicalContent/glossary-entry-topics-and-terminology-management.ditamap"
-    format="ditamap"/>
-  <chapter href="langRef/glosssary-elements.ditamap" format="ditamap"/>
-  <chapter href="langRef/abbreviated-form-domain.ditamap" format="ditamap"/>
+    href="archSpec/technicalContent/dita-technicalContent-InformationTypes.dita">
+    <topicref href="archSpec/technicalContent/dita-spec-intro-bookmap.dita"
+    />
+  </chapter>
+  <chapter href="langRef/containers/bookmap-elements.dita">
+    <mapref href="langRef/bookmap-structural-elements.ditamap"/>
+  </chapter>
   <appendix href="non-normative/aggregated-RFC-2119-statements.dita"/>
   <appendix
     href="baseSpec/specification/langRef/attributes/ditaref-attributes.ditamap"

@@ -3,9 +3,10 @@
  "reference.dtd">
 <reference id="notices" xml:lang="en-us">
   <title><xmlelement>notices</xmlelement></title>
-  <shortdesc>The <xmlelement>notices</xmlelement> element references a topic containing special
-    notice information, such as legal notices about supplementary copyrights and trademarks
-    associated with the book.</shortdesc>
+  <shortdesc>The <xmlelement>notices</xmlelement> element references a
+    topic that contains special notice information, such as legal notices
+    about supplementary copyrights and trademarks associated with the
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

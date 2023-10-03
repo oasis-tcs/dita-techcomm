@@ -3,9 +3,9 @@
  "concept.dtd">
 <concept id="about-bookmap-1" xml:lang="en-us">
 <title>Bookmap content elements</title>
-<shortdesc>The Bookmap specialization of <xmlelement>map</xmlelement> supports standard book
-  production for collections of DITA topics. Use the <xmlelement>bookmap</xmlelement> content
-  elements to assemble the book's structural elements. </shortdesc>
+<shortdesc>The bookmap specialization of <xmlelement>map</xmlelement>
+    supports standard book production for collections of DITA
+    topics.</shortdesc>
  <prolog>
   <metadata>
    <keywords>

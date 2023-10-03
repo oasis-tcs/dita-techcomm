@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="dedication" xml:lang="en-us">
   <title><xmlelement>dedication</xmlelement></title>
-  <shortdesc>The <xmlelement>dedication</xmlelement> element references a topic containing a
-    dedication for the book, such as to a person or group.</shortdesc>
+  <shortdesc>The <xmlelement>dedication</xmlelement> element references a
+    topic that contains a dedication for the book, such as to a person or
+    group.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
