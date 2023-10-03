@@ -3,8 +3,8 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="appendix" xml:lang="en-us">
   <title><xmlelement>appendix</xmlelement></title>
-  <shortdesc>An <xmlelement>appendix</xmlelement> element referencs a topic or map as an appendix
-    within a book.</shortdesc>
+  <shortdesc>An <xmlelement>appendix</xmlelement> element references a
+    topic or map as an appendix within a book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
