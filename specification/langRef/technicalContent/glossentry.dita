@@ -2,9 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossentry" xml:lang="en-us">
   <title><xmlelement>glossentry</xmlelement></title>
-  <shortdesc>The <xmlelement>glossentry</xmlelement> element is the
-    top-level element for a topic that defines a single sense of a glossary
-    term.</shortdesc>
+  <shortdesc>A glossary entry provides a single definition a term or phrase.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -16,6 +14,19 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>Put the term being defined in the <xmlelement>glossterm</xmlelement> element, which serves
+        as the topic's title. Put the base definition of the term in the
+        <xmlelement>glossdef</xmlelement> element, which is a specialization of
+        <xmlelement>shortdesc</xmlelement>. Use the subelements of
+        <xmlelement>glossbody</xmlelement> for additional information about the term, such as
+        abbreviated forms, synonyms, and parts of speech.<draft-comment author="eliot.kimber">My
+        instinct is to have a paragraph about using <xmlelement>glossref</xmlelement> to organize
+        glossary entries in maps so that you can then use key references on
+        <xmlelement>keyword</xmlelement>, but I suspect that level of guidance is not something we
+        normally do.</draft-comment></p>
+    </section>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
       <p>Because the glossary entry specialization is designed for the
@@ -39,6 +50,12 @@
       <p>One possible implementation of a glossary in online processing is to associate a hotspot
         for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
         on hover or click.</p>
+      <draft-comment author="eliot.kimber">There are many subtle and non-obvious ways that
+        glossaries might be processed that this language kind of hand waves, such as the implication
+        for using resource-only topicrefs to refer to glossentry topics, the use of
+        cross-deliverable keyrefs to link to glossary entries published in a separate glossary
+        publication, etc.<p>As for usage, I think this level of discussion is far beyond what we
+        normally do in reference topics.</p></draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -50,15 +67,14 @@
     <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code samples shows how a glossary entry topic
-        provides information about a term that aids in terminology
-        management:</p>
+      <p>The following code sample shows how a glossary entry topic provides information about a
+        term that aids in terminology management:</p>
       <codeblock><b>&lt;glossentry id="usbfd"></b>
   &lt;glossterm>USB flash drive&lt;/glossterm>
   &lt;glossdef>A small portable drive.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
-    &lt;glossUsage>Do not use this term in upper case (for example,  in "USB Flash Drive")
+    &lt;glossUsage>Do not use this term in upper case (for example, in "USB Flash Drive")
       because that suggests a trademark.&lt;/glossUsage>
     &lt;glossAlt>
       &lt;glossAcronym>UFD&lt;/glossAcronym>
