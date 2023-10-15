@@ -4,27 +4,68 @@
 <concept xml:lang="en-us" id="glossary-group-topic">
   <title>Glossary group</title>
   <abstract>
-    <shortdesc>Glossary group topics are designed to enable authors to
-      author and edit glossary entries in a single file, rather than
-      working with many single glossary entry topics.</shortdesc>
+    <shortdesc>Glossary group topics enable the authoring of glossary entries in a single topic
+      document, rather than working with many individual glossary entry topic documents.</shortdesc>
     <!--<shortdesc>The glossary group (<xmlelement>glossgroup</xmlelement>) topic enables authors to include one or more glossary entry (<xmlelement>glossentry</xmlelement>) topics in a single collection file, rather than authoring each glossary entry topic in a separate file. The glossary group topic is a specialization of concept.<draft-comment author="robander" audience="spec-editors" time="25 May 2021">Do we need an example here like in the other topics? Perhaps an example of a term with 2 senses, managed in one file?</draft-comment></shortdesc>-->
   </abstract>
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
-      <p>The glossary group topic has the following purposes:</p>
-      <ul>
-        <li/>
-      </ul>
+      <p>The glossary group topic type is primarily an authoring convenience where it is useful to
+        author and manage multiple glossary entries in a single file.</p>
+      <p>Note that it is possible to create separate topicrefs, such as
+        <xmlelement>glossref</xmlelement>, for individual glossary entry topics within a glossary
+        group topic, for example:<codeblock id="codeblock_dyt_3bx_czb">&lt;map>
+  ...
+  &lt;topicref keys="glossary" href="glossary/glossary-group.dita">
+    <b>&lt;glossref keys="term-01" href="glossary/glossary-group.dita#term-01"/></b>
+    &lt;glossref keys="term-02" href="glossary/glossary-group.dita#term-02"/>
+    ...
+    &lt;glossref keys="term-99" href="glossary/glossary-group.dita#term-99"/>
+  &lt;/topicref>
+&lt;/map></codeblock></p>
     </section>
     <section id="content-model">
       <title>Content model</title>
-      <p/>
+      <p>A glossary group topic has a required title, an optional prolog, and zero or more
+        <xmlelement>glossentry</xmlelement> or <xmlelement>glossgroup</xmlelement> elements.</p>
     </section>
     <example>
       <title>Example</title>
-      <p>The following code sample shows a glossary group topic:</p>
-      <codeblock/>
+      <p>The following code sample shows a glossary group topic with multiple nested glossary
+        groups, one for each English letter group.</p>
+      <codeblock><b>&lt;glossgroup id="glossgroup" xml:lang="en-US"></b>
+  &lt;title>Glossary&lt;/title>
+  <b>&lt;glossgroup id="glossgroup-a"></b>
+    &lt;title>A&lt;/title>
+    &lt;glossentry id="apple-fruit">
+      &lt;glossterm>apple&lt;/glossterm>
+      &lt;glossdef>A round, edible fruit produced by an apple tree (Malus domestica).&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="apple-corp">
+      &lt;glossterm>Apple Inc.&lt;/glossterm>
+      &lt;glossdef>An American multinational technology company headquartered in Cupertino, California.&lt;/glossdef>
+      &lt;glossBody>
+        &lt;glossAlt>
+          &lt;glossAbbreviation>APPL&lt;/glossAbbreviation>
+        &lt;/glossAlt>
+      &lt;/glossBody>
+    &lt;/glossentry>
+  <b>&lt;/glossgroup></b>
+  ... (groups B to Y here ) ...
+  <b>&lt;glossgroup id="glossgroup-z"></b>
+    &lt;title>Z&lt;/title>
+    &lt;glossentry id="ziziphus-fruit">
+      &lt;glossterm>ziziphus&lt;/glossterm>
+      &lt;glossdef>The edible drupe of ziziphus shrubs (Ziziphus jujuba).&lt;/glossdef>
+      &lt;glossBody>
+        &lt;glossAlt>
+          &lt;glossSynonym>jujube&lt;/glossSynonym>
+        &lt;/glossAlt>
+      &lt;/glossBody>
+    &lt;/glossentry>
+  <b>&lt;/glossgroup></b>
+<b>&lt;/glossgroup></b></codeblock>
     </example>
   </conbody>
 </concept>
