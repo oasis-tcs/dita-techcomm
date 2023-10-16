@@ -14,17 +14,30 @@
   </metadata>
  </prolog>
  <refbody>
-  <section id="usage-information">
-   <title>Usage information</title>
-   <p>A book abstract is generally rendered as part of the book's front matter. It is used to help
-        the reader quickly evaluate the book's purpose.</p>
-  </section>
   <section id="specialization-hierarchy"><title>Specialization
     hierarchy</title>
       <p>The <xmlelement>bookabstract</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
   <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
-  <example id="example" otherprops="examples"><title>Example</title><p>See the example in <xref
-     href="bookmap.dita"/>.</p></example>
+  <example id="example" otherprops="examples"><title>Example</title>
+   <p rev="review-k">The following code sample shows how a <xmlelement>bookabstract</xmlelement>
+    element can be added to the front matter to provide a book summary:</p>
+   <codeblock id="codeblock_x2q_y5q_dzb" rev="review-k">&lt;bookmap xml:lang="en-us">
+  &lt;booktitle>
+    &lt;booklibrary>Book library&lt;/booklibrary>
+    &lt;mainbooktitle>Book title&lt;/mainbooktitle>
+  &lt;/booktitle>
+  &lt;!-- ... Book metadata here ... -->
+  &lt;frontmatter>
+    &lt;booklists>
+      &lt;toc/>
+      &lt;figurelist/>
+      &lt;tablelist/>
+    &lt;/booklists>
+    <b>&lt;bookabstract href="book-summary.dita"/></b>
+    &lt;preface href="preface.dita">&lt;/preface>
+  &lt;/frontmatter>
+  &lt;!-- ... Book content followed by back matter ... -->
+&lt;/bookmap></codeblock></example>
  </refbody>
 </reference>

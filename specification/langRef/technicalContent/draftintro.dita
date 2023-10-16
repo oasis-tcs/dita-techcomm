@@ -26,12 +26,8 @@
       <title>Example</title>
       <p>The following code sample uses <xmlelement>draftintro</xmlelement> to provide an
         introductory draft section within the frontmatter of the book.</p>
-      <codeblock>&lt;frontmatter>
-  &lt;draftintro href="introducing.dita">
-    &lt;topicmeta>
-      &lt;navtitle>Introduction to this draft&lt;/navtitle>
-    &lt;/topicmeta>
-  &lt;/draftintro>
+      <codeblock rev="review-k">&lt;frontmatter>
+  &lt;draftintro href="introducing-this-draft.dita"/>
   &lt;!-- ... -->
 &lt;/frontmatter></codeblock></example>
   </refbody>

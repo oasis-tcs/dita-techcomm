@@ -27,12 +27,9 @@
       <title>Example</title>
       <p>The following code sample shows how a <xmlelement>dedication</xmlelement> element is used
         to supply content for the dedication within the book's frontmatter.</p>
-      <codeblock>&lt;frontmatter>
-  &lt;dedication href="dtm.dita">
-    &lt;topicmeta>
-      &lt;navtitle>Dedicated to Mother&lt;/navtitle>
-    &lt;/topicmeta>
-  &lt;/dedication>
+      <codeblock rev="review-k">&lt;frontmatter>
+  &lt;dedication href="dedication-to-mother.dita"/>
+  &lt;!-- ... -->
 &lt;/frontmatter></codeblock>
     </example>
   </refbody>

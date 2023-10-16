@@ -26,11 +26,11 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample shows a <xmlelement>booktitlealt</xmlelement> element is used to
-        provide a shorter alternative to the main book title:</p>
-      <codeblock>&lt;bookmap>
+        provide a <ph rev="review-k">subtitle for</ph> the main book title:</p>
+      <codeblock rev="review-k">&lt;bookmap>
   &lt;booktitle>
-    &lt;mainbooktitle>This is my big and fancy book about Product Z&lt;/mainbooktitle>
-    &lt;booktitlealt>Using Product Z&lt;/booktitlealt>
+    &lt;mainbooktitle>Product Z Installation, Operation, and Maintenance Manual&lt;/mainbooktitle>
+    &lt;booktitlealt>Getting to know Product Z&lt;/booktitlealt>
   &lt;/booktitle>
   &lt;!-- ... -->
 &lt;/bookmap></codeblock></example>

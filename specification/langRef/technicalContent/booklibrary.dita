@@ -21,7 +21,18 @@
         <section id="attributes"><title>Attributes</title>
             <p conkeyref="reuse-attributes/universal-keyref"/>
         </section>
-        <example id="example" otherprops="examples"><title>Example</title><p>See the example in
-                    <xref href="bookmap.dita"/>.</p></example>
+        <example id="example" otherprops="examples" rev="review-k">
+            <title>Example</title>
+            <p>The following code sample shows how to use <xmlelement>booklibrary</xmlelement> to
+                include this book as part of a larger library:</p>
+            <codeblock id="codeblock_arn_nwl_dzb">&lt;bookmap>
+  &lt;booktitle>
+    <b>&lt;booklibrary>Construction Equipment&lt;/booklibrary></b>
+    &lt;mainbooktitle>Bulldozer Service Manual&lt;/mainbooktitle>
+    &lt;booktitlealt>Models 1234-5678&lt;/booktitlealt>
+  &lt;/booktitle>
+  &lt;!-- ... metadata, front matter, and book content ... -->
+&lt;/bookmap></codeblock>
+        </example>
     </refbody>
 </reference>

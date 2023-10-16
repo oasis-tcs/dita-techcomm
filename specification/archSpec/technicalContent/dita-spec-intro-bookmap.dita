@@ -21,7 +21,7 @@
       <ul>
         <li>Titles</li>
         <li>Metadata</li>
-        <li>Front matter (including notices and a preface)</li>
+        <li rev="review-k">Front matter</li>
         <li>Parts</li>
         <li>Chapters</li>
         <li>Appendixes</li>
@@ -35,7 +35,8 @@
     <!--<section id="structure"><title>The structure of the bookmap specialization</title><p>The <xmlelement>bookmap</xmlelement> element is the top-level element for a DITA bookmap. Most of the content for a bookmap is optional, allowing for specializations that further restrict the bookmap model.</p><p>A bookmap allows the following parts:</p><ul><li>An initial title or booktitle (booktitle has more semantics)<draft-comment author="robander" audience="spec-editors" time="25 may 2021">I seem to remember a comment on previous specs that "semantics" is invalid like this, should be "semantic elements"?</draft-comment></li><li>Book metadata (publisher, author, copyright holders and dates, etc.)</li><li>A container for resources such as key definitions</li><li>Front matter (placement for Table of Contents and other preliminary information) </li><li>Any number of chapters or parts (parts can group chapters, chapters can group topics)</li><li>An appendices section (similar to a part or a chapter, can group multiple appendices)</li><li>Back matter (similar to front matter, notices, glossary, index, etc.)</li><li>Relationship tables</li></ul><p>In book-oriented XML grammars, authors typically manage content structures as external entities, separate from the body of the book and referenced as embedded elements into the overall structure. Bookmap follows the same organizational approach, using the topicref-based structure of DITA maps as the archetype for the major divisions of a book.</p></section>-->
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample contains the markup for a <ph rev="review-k">book map</ph>:</p>
+      <p>The following code sample contains <ph rev="review-k">some common</ph> markup for a <ph
+          rev="review-k">book map</ph>:</p>
       <codeblock>&lt;bookmap id="taskbook">
   &lt;booktitle>
     &lt;mainbooktitle>Product tasks&lt;/mainbooktitle>

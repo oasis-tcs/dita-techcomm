@@ -14,15 +14,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>In publishing, a colophon describes details of the production of a book. This information
-        generally includes the typefaces used, and often the names of their designers; the paper,
-        ink and details of the binding materials and methods might also receive mention. In the case
-        of technical books, a colophon might specify the software used to prepare the text and
-        diagrams for publication. The <xmlelement>colophon</xmlelement> can appear in the
-          <xmlelement>frontmatter</xmlelement> or <xmlelement>backmatter</xmlelement>.</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>colophon</xmlelement> element is specialized from

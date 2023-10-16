@@ -16,11 +16,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage Information</title>
-      <p>Use a <xmlelement>notices</xmlelement> element within either the front matter or back
-        matter of a book.</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>notices</xmlelement> element is specialized from
@@ -31,16 +26,11 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how to use a notices topic to include legal content:</p>
-      <codeblock>&lt;backmatter&gt;
-  &lt;notices href="notices.dita" navtitle="Legal notices">
-    &lt;topicmeta>
-      &lt;navtitle>Legal notices&lt;/navtitle>
-    &lt;/topicmeta>
-  &lt;/notices>
-  &lt;booklists&gt;
-    &lt;!-- Index, glossary, or other lists -->
-  &lt;/booklists>
+      <p>The following code sample shows how to use <ph rev="review-k">a
+            <xmlelement>notices</xmlelement> element to reference</ph> legal content:</p>
+      <codeblock rev="review-k">&lt;backmatter&gt;
+  &lt;notices href="legal-notices.dita"/>
+  &lt;!-- ... Other back matter ... -->
 &lt;/backmatter></codeblock></example>
   </refbody>
 </reference>

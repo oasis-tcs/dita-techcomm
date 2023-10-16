@@ -31,8 +31,8 @@
       <p>The following code sample shows how a <xmlelement>bookmap</xmlelement> can be used to
         organize content into a common book structure:</p><codeblock>&lt;bookmap xml:lang="en-us">
   &lt;booktitle>
-    &lt;booklibrary>Books about stuff&lt;/booklibrary>
-    &lt;mainbooktitle>A book about one thing&lt;/mainbooktitle>
+    &lt;booklibrary><ph rev="review-k">Book library</ph>&lt;/booklibrary>
+    &lt;mainbooktitle><ph rev="review-k">Book title</ph>&lt;/mainbooktitle>
   &lt;/booktitle>
   &lt;bookmeta>
     &lt;bookrights>
