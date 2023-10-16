@@ -7,7 +7,7 @@
                 DITA Technical Communications specification.</shortdesc>
                 <conbody>
                         <section>
-                                <title>Bookmap related attribute sections</title>
+                                <title>Book map related attribute sections</title>
                                 <div id="bookmap-booklist-attributes" platform="dita">
                                         <p>The following attributes are available on this element:
                                                 <ph conkeyref="reuse-attributes/ref-commonmapatts"

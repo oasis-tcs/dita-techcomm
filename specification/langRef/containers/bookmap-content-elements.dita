@@ -2,15 +2,15 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "concept.dtd">
 <concept id="about-bookmap-1" xml:lang="en-us">
-<title>Bookmap content elements</title>
+<title><ph rev="review-k">Book map</ph> content elements</title>
 <shortdesc>The bookmap specialization of <xmlelement>map</xmlelement>
     supports standard book production for collections of DITA
     topics.</shortdesc>
  <prolog>
   <metadata>
    <keywords>
-    <indexterm>Bookmap elements<indexterm>bookmap</indexterm></indexterm>
-    <indexterm>bookmap</indexterm>
+    <indexterm>Book map elements<indexterm>Book map elements</indexterm></indexterm>
+    <indexterm>Book map elements</indexterm>
    </keywords>
   </metadata>
  </prolog>
