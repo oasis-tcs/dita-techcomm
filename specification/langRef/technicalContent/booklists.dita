@@ -7,7 +7,7 @@
     <prolog>
         <metadata>
             <keywords>
-                <indexterm>Bookmap elements<indexterm>booklists</indexterm></indexterm>
+                <indexterm>Book map elements<indexterm>booklists</indexterm></indexterm>
                 <indexterm>booklists</indexterm>
             </keywords>
         </metadata>
@@ -40,12 +40,12 @@
     &lt;mainbooktitle>Sample publication&lt;/mainbooktitle>
   &lt;/booktitle>
   &lt;frontmatter>
-    &lt;booklists>
+    <ph rev="review-k">&lt;booklists>
       &lt;toc>
-      &lt;amendments/>
       &lt;figurelist/>
       &lt;tablelist/>
-    &lt;/booklists>
+      &lt;amendments/>
+    &lt;/booklists></ph>
   &lt;/frontmatter>
   ...
   &lt;backmatter>

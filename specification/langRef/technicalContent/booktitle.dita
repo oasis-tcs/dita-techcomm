@@ -4,11 +4,12 @@
 <reference id="booktitle" xml:lang="en-us">
   <title><xmlelement>booktitle</xmlelement></title>
   <shortdesc>The <xmlelement>booktitle</xmlelement> element contains the title information for a
-    book, including the library title, main title, subtitle, and any other titles.</shortdesc>
+    book, including the library title, <ph rev="review-k">main title, and any other alternative
+      titles.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Bookmap elements<indexterm>booktitle</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>booktitle</indexterm></indexterm>
         <indexterm>booktitle</indexterm>
       </keywords>
     </metadata>

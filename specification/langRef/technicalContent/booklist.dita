@@ -3,25 +3,37 @@
  "reference.dtd">
 <reference id="booklist" xml:lang="en-us">
     <title><xmlelement>booklist</xmlelement></title>
-    <shortdesc>A <xmlelement>booklist</xmlelement> indicates a list of items within the
-        book.</shortdesc>
+    <shortdesc><ph rev="review-k">The <xmlelement>booklist</xmlelement> element either references a
+            topic that contains a list of items in the book, or it indicates to a processor that a
+            list of items should be generated at this location in the book. This is a general
+            purpose element designed for use in specializations.</ph></shortdesc>
     <prolog>
         <metadata>
             <keywords>
                 <indexterm>booklist</indexterm>
-                <indexterm>Bookmap elements<indexterm>booklist</indexterm></indexterm>
+                <indexterm>Book map elements<indexterm>booklist</indexterm></indexterm>
             </keywords>
         </metadata>
     </prolog>
     <refbody>
         <section id="usage-information">
             <title>Usage information</title>
-            <p>The <xmlelement>booklist</xmlelement> element is a general purpose element, designed
-                for use in specializations, that references a topic or map containing a list of
-                items within the book. For example, it could be used to reference a topic that
-                contains a list of authors for the book. When a more specific element is already
-                available, such as <xmlelement>tablelist</xmlelement> for a list of tables, use that
-                element instead.</p>
+            <p rev="review-k">The <xmlelement>booklist</xmlelement> element is a general purpose
+                element that references a topic or map containing a list of items within the book.
+                For example, it could be used to reference a topic that contains a list of authors
+                for the book. When a more specific element is already available, such as
+                    <xmlelement>tablelist</xmlelement> for a list of tables, use that element
+                instead. If the element does not reference a topic or map, a processor might be able
+                to generate a list of items based on an <xmlatt>outputclass</xmlatt> or based on
+                specialization ancestry.</p>
+        </section>
+        <section id="processing-expectations" rev="review-k">
+            <title>Processing expectations</title>
+            <p>When the element does not reference a topic or map, a processor might generate a list
+                of items at the specified location in the map. Because this is a general purpose
+                element, the type of list would need to be specified for the processor; for example,
+                it could be provided using <xmlatt>outputclass</xmlatt> or by further specializing
+                the element.</p>
         </section>
         <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title>
@@ -32,11 +44,7 @@
                 that contains a list of authors of topics in this document:</p><codeblock>&lt;booklists>
   &lt;toc/>
   &lt;tablelist/>
-  <b>&lt;booklist href="authors.dita"></b>
-    &lt;topicmeta>
-      &lt;navtitle>List of authors&lt;/navtitle>
-    &lt;/topicmeta>
-  <b>&lt;/booklist></b>
+  <b>&lt;booklist href="authors.dita"/></b>
 &lt;/booklists></codeblock></example>
     </refbody>
 </reference>

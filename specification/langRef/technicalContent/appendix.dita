@@ -8,9 +8,9 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>appendix<indexterm>Bookmap
+        <indexterm>appendix<indexterm>Book map elements
           elements<indexterm>appendix</indexterm></indexterm></indexterm>
-        <indexterm>Bookmap elements<indexterm>appendix</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>appendix</indexterm></indexterm>
         <indexterm>appendix</indexterm>
       </keywords>
     </metadata>
@@ -21,9 +21,22 @@
       <p>The <xmlelement>appendix</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
     <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
-    <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how the <xmlelement>appendix</xmlelement> element is used to
-        create two appendices for a publication:<codeblock xml:space="preserve">
-&lt;backmatter>
+    <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how <ph rev="review-k">two <xmlelement>appendix</xmlelement>
+          elements are</ph> used to create two appendices for a
+        publication:<codeblock xml:space="preserve" rev="review-k">
+&lt;bookmap>
+  &lt;booktitle>
+    &lt;mainbooktitle>Developers guide to the widget&lt;/mainbooktitle>
+  &lt;/booktitle>
+  &lt;frontmatter>
+    &lt;!-- TOC, preface, and other front matter -->
+  &lt;/frontmatter>
+  &lt;chapter href="introduction.dita">
+    &lt;!-- Introductory material about the widget -->
+  &lt;/chapter>
+  &lt;chapter href="extending.dita">
+    &lt;!-- How to extend the widget widget -->
+  &lt;/chapter>
   &lt;appendix href="intro.dita"&gt;
     &lt;topicref href="caring.dita"/&gt;
     &lt;topicref href="feeding.dita"/&gt;
@@ -32,6 +45,6 @@
     &lt;topicref href="prereq.dita"/&gt;
     &lt;topicref href="download.dita"/&gt;
   &lt;/appendix&gt;
-&lt;/backmatter></codeblock></p></example>
+&lt;/bookmap></codeblock></p></example>
   </refbody>
 </reference>

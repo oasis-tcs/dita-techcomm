@@ -8,9 +8,9 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>appendices<indexterm>Bookmap
+        <indexterm>appendices<indexterm>Book map
             elements<indexterm>appendices</indexterm></indexterm></indexterm>
-        <indexterm>Bookmap elements<indexterm>appendices</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>appendices</indexterm></indexterm>
         <indexterm>appendix</indexterm>
       </keywords>
     </metadata>
@@ -24,13 +24,33 @@
     <example id="example" otherprops="examples"
       ><title>Example</title>
       <p>The following code sample shows how the <xmlelement>appendices</xmlelement> element
-        functions as a container to hold several appendix topics for an HTML publication:</p><codeblock>&lt;appendices toc="yes" deliveryTarget="html">
-  &lt;topicmeta>
-    &lt;navtitle>Appendices&lt;/navtitle>
-  &lt;/topicmeta>
-  &lt;appendix href="return-codes.dita"/>
-  &lt;appendix href="messages.dita"/>
-  &lt;appendix href="extra-info.dita"/>
-&lt;/appendices></codeblock></example>
+        functions as a container to hold several appendix topics for an HTML publication:</p><codeblock rev="review-k">&lt;bookmap>
+  &lt;booktitle>
+    &lt;mainbooktitle>About operating the widget&lt;/mainbooktitle>
+  &lt;/booktitle>
+  &lt;frontmatter>
+    &lt;!-- TOC, preface, and other front matter -->
+  &lt;/frontmatter>
+  &lt;part href="introduction.dita">
+    &lt;!-- Part with introductory material about the widget -->
+  &lt;/part>
+  &lt;part href="using.dita">
+    &lt;!-- Part about using the widget -->
+  &lt;/part>
+  &lt;part href="troubleshooting.dita">
+    &lt;!-- Troubleshooting information -->
+  &lt;/part>
+  &lt;appendices toc="yes">
+    &lt;topicmeta>
+      &lt;navtitle>Appendices&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;appendix href="return-codes.dita"/>
+    &lt;appendix href="messages.dita"/>
+    &lt;appendix href="extra-info.dita"/>
+  &lt;/appendices>
+  &lt;backmatter>
+    &lt;booklists>&lt;indexlist/>&lt;/booklists>
+  &lt;/backmatter>
+&lt;/bookmap></codeblock></example>
   </refbody>
 </reference>

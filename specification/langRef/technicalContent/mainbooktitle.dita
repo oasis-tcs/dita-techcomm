@@ -8,7 +8,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Bookmap elements<indexterm>mainbooktitle</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>mainbooktitle</indexterm></indexterm>
         <indexterm>mainbooktitle</indexterm>
       </keywords>
     </metadata>
@@ -23,9 +23,18 @@
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
-    <example id="example" otherprops="examples">
+    <example id="example" otherprops="examples" rev="review-k">
       <title>Example</title>
-      <p>See the example in <xref href="bookmap.dita"/>.</p>
+      <p>The following code sample shows how to use <xmlelement>mainbooktitle</xmlelement> to
+        provide the main title of the book:</p>
+      <codeblock id="codeblock_arn_nwl_dzb">&lt;bookmap>
+  &lt;booktitle>
+    &lt;booklibrary>Construction Equipment&lt;/booklibrary>
+    <b>&lt;mainbooktitle>Bulldozer Service Manual&lt;/mainbooktitle></b>
+    &lt;booktitlealt>Models 1234-5678&lt;/booktitlealt>
+  &lt;/booktitle>
+  &lt;!-- ... metadata, front matter, and book content ... -->
+&lt;/bookmap></codeblock>
     </example>
   </refbody>
 </reference>

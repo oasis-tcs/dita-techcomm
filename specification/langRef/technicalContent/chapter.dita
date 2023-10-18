@@ -8,7 +8,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Bookmap elements<indexterm>chapter</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>chapter</indexterm></indexterm>
         <indexterm>chapter</indexterm>
       </keywords>
     </metadata>
@@ -24,19 +24,20 @@
       <div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the <xmlelement>chapter</xmlelement> element is used to
-        create two chapters within a publication:<codeblock xml:space="preserve">&lt;bookmap>
+      <p>The following code sample shows how <ph rev="review-k">two <xmlelement>chapter</xmlelement>
+          elements are</ph> used to create two chapters within a
+        publication:<codeblock xml:space="preserve" rev="review-k">&lt;bookmap>
   &lt;booktitle>
     &lt;mainbooktitle>A book about one thing&lt;/mainbooktitle>
   &lt;/booktitle>
   &lt;!-- ... metadata and front matter ... -->
-  &lt;chapter href="intro.dita"&gt;
-    &lt;topicref href="caring.dita"/&gt;
-    &lt;topicref href="feeding.dita"/&gt;
+  &lt;chapter href="introduction.dita"&gt;
+    &lt;topicref href="getting-the-one-thing.dita"/&gt;
+    &lt;topicref href="preparing-to-use-the-thing.dita"/&gt;
   &lt;/chapter&gt;
   &lt;chapter href="setup.dita"&gt;
-    &lt;topicref href="prereq.dita"/&gt;
-    &lt;topicref href="download.dita"/&gt;
+    &lt;topicref href="before-you-use-the-thing.dita"/&gt;
+    &lt;topicref href="steps-to-start-using-the-thing.dita"/&gt;
   &lt;/chapter&gt;
   &lt;!-- ... more chapters and back matter ... -->
 &lt;/bookmap></codeblock></p>

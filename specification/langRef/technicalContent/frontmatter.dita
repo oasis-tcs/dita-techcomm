@@ -4,22 +4,18 @@
 <reference id="frontmatter" xml:lang="en-us">
   <title><xmlelement>frontmatter</xmlelement></title>
   <shortdesc>The <xmlelement>frontmatter</xmlelement> element is a container for the material that
-    precedes the main body of a document.</shortdesc>
+    precedes the main body of a document. <ph rev="review-k">Front matter might include items such
+      as an abstract, a preface, and book lists such as a figure list or table of
+    contents.</ph></shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Bookmap elements<indexterm>frontmatter</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>frontmatter</indexterm></indexterm>
         <indexterm>frontmatter</indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>The front matter might include items such as an abstract, notices, a preface, and various
-        types of book lists such as a <xmlelement>toc</xmlelement>,
-          <xmlelement>tablelist</xmlelement>, or <xmlelement>figurelist</xmlelement>.</p>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>frontmatter</xmlelement> element is specialized from

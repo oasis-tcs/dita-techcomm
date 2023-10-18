@@ -10,7 +10,8 @@
       <keywords>
         <indexterm><xmlelement>abbrevlist</xmlelement></indexterm>
         <indexterm>abbreviation list</indexterm>
-        <indexterm>Bookmap elements<indexterm><xmlelement>abbrevlist</xmlelement></indexterm></indexterm>
+        <indexterm>Book map
+          elements<indexterm><xmlelement>abbrevlist</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>

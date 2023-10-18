@@ -7,7 +7,7 @@
                 DITA Technical Communications specification.</shortdesc>
                 <conbody>
                         <section>
-                                <title>Bookmap related attribute sections</title>
+                                <title>Book map related attribute sections</title>
                                 <div id="bookmap-booklist-attributes" platform="dita">
                                         <p>The following attributes are available on this element:
                                                 <ph conkeyref="reuse-attributes/ref-commonmapatts"
@@ -15,12 +15,12 @@
                                                 conkeyref="reuse-attributes/ref-universalatts"/>,
                                         and <xref keyref="attributes-common/attr-keyref"
                                                   ><xmlatt>keyref</xmlatt></xref>.</p>
-                                <p id="attr-exception-booklist" outputclass="attr-exception">For this element, the
-                                                <xmlatt>href</xmlatt> attribute references a manual
-                                        listing for the current element. If the
-                                                <xmlatt>href</xmlatt> attribute is not specified,
-                                        processors can choose to generate an appropriate listing for
-                                        this element.
+                                <p id="attr-exception-booklist" outputclass="attr-exception"
+                                        rev="review-k">For this element, the <xmlatt>href</xmlatt>
+                                        or <xmlatt>keyref</xmlatt> attribute references a manual
+                                        listing for the current element. If the element does not
+                                        reference a topic or map, processors can choose to generate
+                                        an appropriate listing for this element.
                                         <!--All of the book listings operate in a similar manner; for example, <codeph>&lt;toc href="toc.dita"/&gt;</codeph> references a topic which contains a manual table of contents, while <codeph>&lt;toc/&gt;</codeph> indicates that a processor should generate the table of contents. --></p>
                                 </div><div id="bookmap-topicrefs" platform="dita">
                                         <p>The following attributes are available on this element:
