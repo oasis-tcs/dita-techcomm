@@ -18,6 +18,11 @@
          <note>A list of synonyms is specific to the language, so translation of a
                <xmlelement>glossentry</xmlelement> topic might result in an empty
                <xmlelement>glossSynonym</xmlelement> element.</note>
+      <draft-comment author="dawnstevens">I agree with most comments about
+        language distinctions, but I would think that synonyms would exist
+        in all languages. they might not be the same synonyms (ie
+        translations of the listed synonyms in one language), but I would
+        still think there would be synonyms. </draft-comment>
       </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>

@@ -46,6 +46,8 @@
           2009 Kara Warburton white paper. You can read my interpretation
           in the explanation of the example belowe.</p>
       </draft-comment>
+      <draft-comment author="dawnstevens">Is this paragraph confusing when
+        the example doesn't use href, but keyref?</draft-comment>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

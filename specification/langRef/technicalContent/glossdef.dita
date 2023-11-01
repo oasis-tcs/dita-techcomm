@@ -3,7 +3,9 @@
 <reference id="glossdef" xml:lang="en-us">
 <title><xmlelement>glossdef</xmlelement></title>
 <shortdesc>The <xmlelement>glossdef</xmlelement> element defines the
-    meaning of the term. </shortdesc>
+    meaning of the term. <draft-comment author="dawnstevens">My gut feeling
+      is to spell out that the definition can include images, tables,
+      lists, etc. if desired.</draft-comment></shortdesc>
 <prolog><metadata>
       <keywords>
         <indexterm>glossaries<indexterm>definitions</indexterm></indexterm>
@@ -17,6 +19,14 @@
                   <title>Usage information</title>
                   <p>If a term has multiple concepts or meaning, create a
         separate <xmlelement>glossentry</xmlelement> topic for each.</p>
+      <draft-comment author="dawnstevens">I've never understood the
+        necessity of this. Why couldn't someone number the different
+        definitions, as in a dictionary? It seems you only need the
+        separate entry if you are going to use &lt;term> to display the
+        specific meaning of a term as a rollover. Or if you had multiple
+        meanings for the same acronym and needed to use
+        &lt;abbreviated-form> to display the appropriate spelled-out
+        form.</draft-comment>
             </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>

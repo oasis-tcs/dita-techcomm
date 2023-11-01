@@ -4,7 +4,8 @@
   <title><xmlelement>glossScopeNote</xmlelement></title>
   <shortdesc>The <xmlelement>glossScopeNote</xmlelement> element provides
     information that clarifies when a term should or should not be
-    used.</shortdesc>
+      used.<draft-comment author="dawnstevens">don't think this definition
+      is distinctive enough from glossUsage.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
