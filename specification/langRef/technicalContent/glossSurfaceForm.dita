@@ -6,7 +6,10 @@
   <shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element
     specifies an unambiguous presentation of the term that might combine
     multiple forms. The surface form is suitable to introduce the term in
-    new contexts or the first occurrence in text.</shortdesc>
+    new contexts or the first occurrence in text.<draft-comment
+      author="dawnstevens">I'm not fond of this description at all. first
+      sentence is really difficult to
+    understand.</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -36,6 +39,9 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossSurfaceForm</xmlelement> element is specialized from
           <xmlelement>p</xmlelement>. It is defined in the glossary entry module.</p>
+      <draft-comment author="dawnstevens">this actually surprised me. seems
+        like it would be ph since it is used as a phrase when introducing a
+        first occurrence.</draft-comment>
     </section>
     <section id="attributes">
       <title>Attributes</title>

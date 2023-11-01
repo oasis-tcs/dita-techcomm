@@ -2,8 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossAlt" xml:lang="en-us">
   <title><xmlelement>glossAlt</xmlelement></title>
-  <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains
-    information about a variant for the preferred term.</shortdesc>
+  <abstract>
+    <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains
+      information about a variant for the preferred term.</shortdesc>
+    <draft-comment author="dawnstevens">Elsewhere we call it a primary, not
+      a preferred, term.</draft-comment>
+  </abstract>
   <prolog>
     <metadata>
       <keywords>

@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="glossUsage" xml:lang="en-us">
   <title><xmlelement>glossUsage</xmlelement></title>
-  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about the correct
-    use of a term, such as where or how it can be used.</shortdesc>
+  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides
+    information about the correct use of a term, such as where or how it
+    can be used.<draft-comment author="dawnstevens">is "correct" the right
+      word? approved? allowed? </draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -28,6 +30,10 @@
           <xmlelement>glossUsage</xmlelement> element is used to provide
         additional information about possible variants for the term "USB
         flash drive":</p>
+      <draft-comment author="dawnstevens">I wouldn't say this is usage.
+        It's justification  for why the status is prohibited. If something
+        is prohibited, does it need a usage? Isn't it implied not to use
+        it?</draft-comment>
       <codeblock>&lt;glossentry id="usbfd">
   &lt;glossterm>USB flash drive&lt;/glossterm>
   &lt;glossdef>A small portable drive.&lt;/glossdef>

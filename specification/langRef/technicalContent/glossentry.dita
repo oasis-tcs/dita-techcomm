@@ -4,7 +4,8 @@
   <title><xmlelement>glossentry</xmlelement></title>
   <shortdesc>The <xmlelement>glossentry</xmlelement> element is the
     top-level element for a topic that defines a single sense of a glossary
-    term.</shortdesc>
+      term.<draft-comment author="dawnstevens">do we all agree it must be a
+      single sense?</draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -39,6 +40,8 @@
       <p>One possible implementation of a glossary in online processing is to associate a hotspot
         for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
         on hover or click.</p>
+      <draft-comment author="dawnstevens">mention first-use occurrence,
+        abbreviated-form, as another expectation?</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -53,6 +56,8 @@
       <p>The following code samples shows how a glossary entry topic
         provides information about a term that aids in terminology
         management:</p>
+      <draft-comment author="dawnstevens">I'd like to see more of the
+        available elements in this example.</draft-comment>
       <codeblock><b>&lt;glossentry id="usbfd"></b>
   &lt;glossterm>USB flash drive&lt;/glossterm>
   &lt;glossdef>A small portable drive.&lt;/glossdef>
