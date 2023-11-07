@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="glossgroup" xml:lang="en-us">
   <title><xmlelement>glossgroup</xmlelement></title>
-  <shortdesc>The <xmlelement>glossgroup</xmlelement> is a specialized topic that can contain
-    multiple <xmlelement>glossentry</xmlelement> topics within a single document.</shortdesc>
+  <shortdesc>A glossary group topic organizes related glossary entry topics within a single topic
+    document.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -15,6 +15,11 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="usage-information">
+      <title>Usage information</title>
+      <p>Glossary groups are primarily a convenience for authoring when it is useful to author
+        multiple glossary entry topics in a single document.</p>
+    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossgroup</xmlelement> element is specialized from
