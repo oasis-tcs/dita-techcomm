@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="bookmap" xml:lang="en-us">
   <title><xmlelement>bookmap</xmlelement></title>
-  <shortdesc>The <xmlelement>bookmap</xmlelement> element is a map
-    specialization that is used to configure DITA topics as a traditional
-    book.</shortdesc>
+  <shortdesc>The <xmlelement>bookmap</xmlelement> element is a map specialization that is used to
+      <ph rev="review-k">assemble</ph> DITA topics as a traditional book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -65,7 +64,7 @@
     &lt;topicref href="insideApp2.dita">&lt;/topicref>
   &lt;/appendix>
   &lt;backmatter>
-    &lt;amendments href="updatesToTheBook.dita"/>
+    <ph rev="review-k">&lt;amendments href="RevisionHistoryTable.dita"/></ph>
     &lt;booklists>
       &lt;glossarylist href="listofterms.dita"/>
       &lt;trademarklist href="listoftrademarks.dita"/>

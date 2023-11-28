@@ -19,10 +19,9 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
-        table of contents at the specified location in the map. If the <xmlatt>href</xmlatt>
-        attribute is specified, the referenced topic or map contains a manually created table of
-        contents.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>toc</xmlelement> element, a processor typically generates a table of contents
+        based on topics used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

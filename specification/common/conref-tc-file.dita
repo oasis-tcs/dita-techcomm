@@ -30,5 +30,13 @@
           <codeph>2017-04-05T12:30-02:00</codeph>) or just a date (for
         example, <codeph>2019-03-04</codeph>).</p>
     </section>
+    <section id="section_rm1_31d_pzb">
+      <title>Bookmap list elements</title>
+      <p><ph id="booklist-processing" rev="review-k">When a list element in the bookmap module uses
+            <xmlatt>href</xmlatt> or <xmlatt>keyref</xmlatt> to reference a topic or map, the
+          referenced content provides the list content. When the list element does not reference a
+          topic or map, a processor might generate a an appropriate list at the specified location
+          in the map.</ph></p>
+    </section>
   </conbody>
 </concept>

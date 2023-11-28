@@ -18,9 +18,9 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate an
-        index at the specified location in the map. If the <xmlatt>href</xmlatt> attribute is
-        specified, the referenced topic or map contains a manually created index.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>indexlist</xmlelement> element, a processor typically generates an index based
+        on index terms used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
