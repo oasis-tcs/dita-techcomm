@@ -2,10 +2,10 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossarylist" xml:lang="en-us">
   <title><xmlelement>glossarylist</xmlelement></title>
-  <shortdesc>The <xmlelement>glossarylist</xmlelement> element either
-    references a topic that contains a list of glossary entries in the
-    book, or it indicates to a processor that a list of glossary entries
-    should be generated at this location in the book.</shortdesc>
+  <shortdesc>The <xmlelement>glossarylist</xmlelement> element either references a topic <ph
+      rev="review-k">or map</ph> that contains a list of glossary entries in the book, or it
+    indicates to a processor that a list of glossary entries should be generated at this location in
+    the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
