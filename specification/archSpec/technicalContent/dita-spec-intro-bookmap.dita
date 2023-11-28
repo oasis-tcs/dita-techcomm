@@ -21,6 +21,8 @@
       <ul>
         <li>Titles</li>
         <li>Metadata</li>
+        <li rev="review-k">DITAVAL references for filtering</li>
+        <li rev="review-k">Map resources</li>
         <li rev="review-k">Front matter</li>
         <li>Parts</li>
         <li>Chapters</li>
@@ -31,6 +33,12 @@
       <p>Other components of a book map enable authors to specify that
         artifacts such as a table of contents (TOC) or an index should be
         generated.</p>
+      <p rev="review-k">The bookmap module has a dependency on two domains from the base
+        specification. The <xmlelement>mapresources</xmlelement> element comes from the
+        mapgroup-domain module, and can be used to group resources such as key definitions near the
+        start of the map. The <xmlelement>ditavalref</xmlelement> element comes from the
+        DITAVAL-reference domain module, and can be used to support branch filtering for the entire
+        book.</p>
     </section>
     <!--<section id="structure"><title>The structure of the bookmap specialization</title><p>The <xmlelement>bookmap</xmlelement> element is the top-level element for a DITA bookmap. Most of the content for a bookmap is optional, allowing for specializations that further restrict the bookmap model.</p><p>A bookmap allows the following parts:</p><ul><li>An initial title or booktitle (booktitle has more semantics)<draft-comment author="robander" audience="spec-editors" time="25 may 2021">I seem to remember a comment on previous specs that "semantics" is invalid like this, should be "semantic elements"?</draft-comment></li><li>Book metadata (publisher, author, copyright holders and dates, etc.)</li><li>A container for resources such as key definitions</li><li>Front matter (placement for Table of Contents and other preliminary information) </li><li>Any number of chapters or parts (parts can group chapters, chapters can group topics)</li><li>An appendices section (similar to a part or a chapter, can group multiple appendices)</li><li>Back matter (similar to front matter, notices, glossary, index, etc.)</li><li>Relationship tables</li></ul><p>In book-oriented XML grammars, authors typically manage content structures as external entities, separate from the body of the book and referenced as embedded elements into the overall structure. Bookmap follows the same organizational approach, using the topicref-based structure of DITA maps as the archetype for the major divisions of a book.</p></section>-->
     <example id="example" otherprops="examples">
@@ -50,6 +58,9 @@
       &lt;/copyrfirst>
     &lt;/bookrights>
   &lt;/bookmeta>
+  <ph rev="review-k">&lt;mapresources>
+    &lt;!-- Key definitions used for the map -->
+  &lt;/mapresources></ph>
   &lt;frontmatter>
     &lt;preface href="task-preface.dita"/>
   &lt;/frontmatter>
