@@ -18,8 +18,9 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
-        list of trademarks at the specified location in the map.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>trademarklist</xmlelement> element, a processor could generate a list of
+        trademarks used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

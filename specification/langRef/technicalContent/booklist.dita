@@ -29,11 +29,10 @@
         </section>
         <section id="processing-expectations" rev="review-k">
             <title>Processing expectations</title>
-            <p>When the element does not reference a topic or map, a processor might generate a list
-                of items at the specified location in the map. Because this is a general purpose
-                element, the type of list would need to be specified for the processor; for example,
-                it could be provided using <xmlatt>outputclass</xmlatt> or by further specializing
-                the element.</p>
+            <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> Because
+                    <xmlelement>booklist</xmlelement> is a general purpose element, the type of list
+                would need to be specified for the processor; for example, it could be provided
+                using <xmlatt>outputclass</xmlatt> or by further specializing the element.</p>
         </section>
         <section id="specialization-hierarchy"
                 ><title>Specialization hierarchy</title>

@@ -20,8 +20,7 @@
                                         or <xmlatt>keyref</xmlatt> attribute references a manual
                                         listing for the current element. If the element does not
                                         reference a topic or map, processors can choose to generate
-                                        an appropriate listing for this element.
-                                        <!--All of the book listings operate in a similar manner; for example, <codeph>&lt;toc href="toc.dita"/&gt;</codeph> references a topic which contains a manual table of contents, while <codeph>&lt;toc/&gt;</codeph> indicates that a processor should generate the table of contents. --></p>
+                                        an appropriate listing for this element. </p>
                                 </div><div id="bookmap-topicrefs" platform="dita">
                                         <p>The following attributes are available on this element:
                                                 <ph conkeyref="reuse-attributes/ref-commonmapatts"

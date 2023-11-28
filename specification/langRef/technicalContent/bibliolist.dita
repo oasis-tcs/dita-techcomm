@@ -16,8 +16,9 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
-        list of bibliographic entries at the specified location in the map.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>bibliolist</xmlelement> element, a processor could generate a list of
+        bibliographic entries used in the book.</p>
     </section>
     <section id="specialization-hierarchy"
         ><title>Specialization hierarchy</title>
