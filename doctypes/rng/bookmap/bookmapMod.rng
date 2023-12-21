@@ -1722,7 +1722,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Book Abstract</a:documentation>
       <define name="bookabstract.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="bookabstract.attributes">
         <ref name="chapter-atts"/>
@@ -1743,7 +1745,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Dedication</a:documentation>
       <define name="dedication.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="dedication.attributes">
         <ref name="chapter-atts"/>
@@ -1919,7 +1923,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Amendments</a:documentation>
       <define name="amendments.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="amendments.attributes">
         <ref name="chapter-atts"/>
@@ -1940,7 +1946,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Colophon</a:documentation>
       <define name="colophon.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="colophon.attributes">
         <ref name="chapter-atts"/>
@@ -2006,7 +2014,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Table of Contents</a:documentation>
       <define name="toc.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="toc.attributes">
         <ref name="chapter-atts"/>
@@ -2027,7 +2037,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Figure List</a:documentation>
       <define name="figurelist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="figurelist.attributes">
         <ref name="chapter-atts"/>
@@ -2048,7 +2060,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Table List</a:documentation>
       <define name="tablelist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="tablelist.attributes">
         <ref name="chapter-atts"/>
@@ -2069,7 +2083,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Abbreviation List</a:documentation>
       <define name="abbrevlist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="abbrevlist.attributes">
         <ref name="chapter-atts"/>
@@ -2090,7 +2106,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Trademark List</a:documentation>
       <define name="trademarklist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="trademarklist.attributes">
         <ref name="chapter-atts"/>
@@ -2111,7 +2129,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Bibliography List</a:documentation>
       <define name="bibliolist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="bibliolist.attributes">
         <ref name="chapter-atts"/>
@@ -2158,7 +2178,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Index List</a:documentation>
       <define name="indexlist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="indexlist.attributes">
         <ref name="chapter-atts"/>
@@ -2179,7 +2201,9 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 BookMap//EN"
     <div>
       <a:documentation>LONG NAME: Book List</a:documentation>
       <define name="booklist.content">
-        <empty/>
+        <optional>
+          <ref name="topicmeta"/>
+        </optional>
       </define>
       <define name="booklist.attributes">
         <ref name="chapter-atts"/>

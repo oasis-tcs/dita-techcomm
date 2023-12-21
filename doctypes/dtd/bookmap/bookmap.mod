@@ -877,7 +877,7 @@
 
 <!--                    LONG NAME: Book Abstract                   -->
 <!ENTITY % bookabstract.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % bookabstract.attributes
               "%chapter-atts;"
@@ -888,7 +888,7 @@
 
 <!--                    LONG NAME: Dedication                      -->
 <!ENTITY % dedication.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % dedication.attributes
               "%chapter-atts;"
@@ -972,7 +972,7 @@
 
 <!--                    LONG NAME: Amendments                      -->
 <!ENTITY % amendments.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % amendments.attributes
               "%chapter-atts;"
@@ -983,7 +983,7 @@
 
 <!--                    LONG NAME: Colophon                        -->
 <!ENTITY % colophon.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % colophon.attributes
               "%chapter-atts;"
@@ -1023,7 +1023,7 @@
 
 <!--                    LONG NAME: Table of Contents               -->
 <!ENTITY % toc.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % toc.attributes
               "%chapter-atts;"
@@ -1034,7 +1034,7 @@
 
 <!--                    LONG NAME: Figure List                     -->
 <!ENTITY % figurelist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % figurelist.attributes
               "%chapter-atts;"
@@ -1045,7 +1045,7 @@
 
 <!--                    LONG NAME: Table List                      -->
 <!ENTITY % tablelist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % tablelist.attributes
               "%chapter-atts;"
@@ -1056,7 +1056,7 @@
 
 <!--                    LONG NAME: Abbreviation List               -->
 <!ENTITY % abbrevlist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % abbrevlist.attributes
               "%chapter-atts;"
@@ -1067,7 +1067,7 @@
 
 <!--                    LONG NAME: Trademark List                  -->
 <!ENTITY % trademarklist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % trademarklist.attributes
               "%chapter-atts;"
@@ -1078,7 +1078,7 @@
 
 <!--                    LONG NAME: Bibliography List               -->
 <!ENTITY % bibliolist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % bibliolist.attributes
               "%chapter-atts;"
@@ -1101,7 +1101,7 @@
 
 <!--                    LONG NAME: Index List                      -->
 <!ENTITY % indexlist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % indexlist.attributes
               "%chapter-atts;"
@@ -1112,7 +1112,7 @@
 
 <!--                    LONG NAME: Book List                       -->
 <!ENTITY % booklist.content
-                       "EMPTY"
+                       "(%topicmeta;)?"
 >
 <!ENTITY % booklist.attributes
               "%chapter-atts;"
