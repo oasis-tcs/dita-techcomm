@@ -2,9 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossAlternateFor" xml:lang="en-us">
 <title><xmlelement>glossAlternateFor</xmlelement></title>
-<shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates
-    when a variant term has a relationship to another variant term in
-    addition to the preferred term.</shortdesc>
+<shortdesc>The <xmlelement>glossAlternateFor</xmlelement> element indicates when a variant term has
+    a relationship to another variant term in addition to the term specified in the topic's
+      <xmlelement>glossterm</xmlelement> element.<draft-comment author="dawnstevens">I am still
+      struggling with this so we'll address it in the review. Couldn't &lt;glossAlternativeFor> be
+      used alone in a &lt;glossAlt> element to indicate the &lt;glossterm> of this topic is an
+      alternative for another term defined in another topic? Why are we limiting the definition to
+      indicate that a <i>variant</i> is an alternative for another term in addition to the current
+      one?</draft-comment></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossAlternateFor</xmlelement></indexterm>
     <indexterm>glossaries<indexterm>variant terms</indexterm></indexterm>
@@ -14,14 +19,13 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>glossAlternateFor</xmlelement> element is
-        available inside the <xmlelement>glossAlt</xmlelement> element,
-        which is a container that provides a variant for the primary term.
-        The <xmlelement>glossAlternateFor</xmlelement> element makes it
-        clear that there is a relationship between the primary term, the
-        variant term defined directly in the glossary entry topic, and the
-        term defined in the external glossary entry topic that is linked
-        to.</p>
+      <p>The <xmlelement>glossAlternateFor</xmlelement> element is available inside the
+          <xmlelement>glossAlt</xmlelement> element, which is a container that provides a variant
+        for the term specified in the topic's <xmlelement>glossterm</xmlelement> element. The
+          <xmlelement>glossAlternateFor</xmlelement> element makes it clear that there is a
+        relationship between the current topic's term, the variant term defined in the parent
+          <xmlelement>glossAlt</xmlelement> element, and the term defined in the external glossary
+        entry topic that it is linked to.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,29 +38,38 @@
         conkeyref="reuse-attributes/ref-linkatts"/>, <ph
           conkeyref="reuse-attributes/ref-universalatts"/>, and <xref
           keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
-      <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>href</xmlatt> attribute references a term
-        for which the current variant is an alternate (in addition to the primary term of this
-          <xmlelement>glossentry</xmlelement> topic). The reference will often be to another
-          <xmlelement>glossAlt</xmlelement> element within the same
-          <xmlelement>glossentry</xmlelement> topic, indicating that the current variant is an
-        alternate for both the primary term and the referenced alternate term.</p>
+      <p id="attr-exception" outputclass="attr-exception">For this element, the
+          <xmlatt>href</xmlatt> or <xmlatt>keyref</xmlatt> attribute references a term for which the
+        current variant is an alternate (in addition to the <xmlelement>glossterm</xmlelement> of
+        this <xmlelement>glossentry</xmlelement> topic). The reference could be to another
+          <xmlelement>glossentry</xmlelement> topic or to a <xmlelement>glossAlt</xmlelement>
+        element within the same <xmlelement>glossentry</xmlelement> topic (indicating that the
+        current variant is an alternate for both the <xmlelement>glossterm</xmlelement> and the
+        referenced alternate term).</p>
       <draft-comment author="Kristen J Eberlein" time="06 August 2023">
-        <p>The above wording does not track for me, nor does it match the
-          earlier example for <xmlelement>glossentry</xmlelement>, or the
-          2009 Kara Warburton white paper. You can read my interpretation
-          in the explanation of the example belowe.</p>
+        <p>The above wording does not track for me, nor does it match the earlier example for
+            <xmlelement>glossentry</xmlelement>, or the 2009 Kara Warburton white paper. You can
+          read my interpretation in the explanation of the example below.</p>
+        <p>DS: I don't think the phrasing precludes your interpretation. In the example, fridge is
+          an alternate for icebox and for refrigerator. But icebox could in fact be an alternate for
+          refrigerator, so there could be a glossAlt establishing that, and then the
+          glossAlternateFor from fridge could point to that glossAlt rather than another topic,
+          and/or vice versa. I would think you would do that if you didn't want to have a separate
+          topic for icebox. </p>
+        <p>DS: I did have to think through cases where all glossAlts might not be alternates for
+          each other, though, to determine why you would do this. I decided if my term was airplane,
+          plane might be an alt, as might 747 or 737, while plane might be an alternatefor 747 and
+          737, 747 would not be an alternate for 737. I don't know if I'm making sense, but this is
+          how I've justified this element at all in my own head.</p>
       </draft-comment>
-      <draft-comment author="dawnstevens">Is this paragraph confusing when
-        the example doesn't use href, but keyref?</draft-comment>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows a glossary entry topic for the
-        term "Refrigerator". In addition to providing a definition, the
-        glossary entry topic defines a variant term ("fridge"). It also
-        links to another glossary entry topic for a variant term ("icebox")
-        which is defined in a separate glossary entry topic:</p>
-      <codeblock>&lt;glossentry id="refridgerator">
+      <p>The following code sample shows a glossary entry topic for the term "Refrigerator". In
+        addition to providing a definition, the glossary entry topic defines a variant term
+        ("fridge"). It also links to another glossary entry topic for a variant term ("icebox")
+        which is defined in a separate glossary entry topic.</p>
+      <codeblock>&lt;glossentry id="refrigerator">
     &lt;glossterm>Refrigerator&lt;/glossterm>
     &lt;glossdef>A refrigerator is a commercial and home appliance consisting
     of a thermally insulated compartment and a heat pump (mechanical,

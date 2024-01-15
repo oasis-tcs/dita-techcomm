@@ -3,15 +3,10 @@
  "reference.dtd">
 <reference id="glossPartOfSpeech" xml:lang="en-us">
   <title><xmlelement>glossPartOfSpeech</xmlelement></title>
-  <shortdesc>The <xmlelement>glossPartOfSpeech</xmlelement> element
-    identifies the part of speech for the preferred and alternate terms.
-    Alternate terms must have the same part of speech as the preferred
-    term, because all terms in the <xmlelement>glossentry</xmlelement>
-    topic designate the same subject.<draft-comment author="dawnstevens">I
-      guess this is another reason for a single definition. But I don't
-      think I like this phrasing – I think the paragraph that appears after
-      the example seems less prescriptive. Elsewhere we call it a primary,
-      not a preferred, term.</draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>glossPartOfSpeech</xmlelement> element identifies the part of speech
+    for the term specified in the topic's <xmlelement>glossterm</xmlelement> element., and any
+    variant forms of the term also defined within the topic. term and any alternate or variant forms
+    of the term defined within the topic. </shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,22 +18,15 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <draft-comment author="dawnstevens">point out this is meant to be an
-        empty element – value is in the attribute, not typed as text in the
-        element itself.</draft-comment>
-      <p>When the part of speech is not specified, the default is
-        "noun."</p>
-      <draft-comment author="dawnstevens">why is there a default? could that
-        cause issues somewhere?</draft-comment>
-      <p>If validation is required, use a subject scheme to configure
-        controlled values for the <xmlatt>value</xmlatt> attribute on the
-          <xmlelement>glossPartOfSpeech</xmlelement>. This avoids the need
-        to hard code values in the XML grammar files, which would limit
-        extension and would make values difficult to change for different
-        languages.</p>
-      <draft-comment author="dawnstevens">why isn't there a defined list of
-        values? there is already a controlled vocabulary for such, isn't
-        there?</draft-comment>
+      <p>The part of speech is defined within the <xmlatt>value</xmlatt> attribute. If validation is
+        required, use a subject scheme to configure controlled values for the <xmlatt>value</xmlatt>
+        attribute on the <xmlelement>glossPartOfSpeech</xmlelement>. This approach avoids the need
+        to hard code values in the XML grammar files, which would limit extension and would make
+        values difficult to change for different languages. </p>
+      <p>When the part of speech is not specified, the default is "noun."</p>
+      <draft-comment author="dawnstevens">why is there a default? </draft-comment>
+      <draft-comment author="dawnstevens">why isn't there a defined list of values? seems like we
+        have a pre-defined list of possible values.</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -73,10 +61,6 @@
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
-      <p>Note that because the <xmlelement>glossPartOfSpeech</xmlelement>
-        applies to the entire glossary entry topic, the preferred term and
-        any variants must belong to the same syntactical category (take the
-        same part of speech).</p>
     </example>
   </refbody>
 </reference>

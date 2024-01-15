@@ -3,10 +3,10 @@
  "reference.dtd">
 <reference id="glossProperty" xml:lang="en-us">
 <title><xmlelement>glossProperty</xmlelement></title>
-<shortdesc>The <xmlelement>glossProperty</xmlelement> element specifies
-    additional details about the term or its subject, such as the gender of
-    a noun.<draft-comment author="dawnstevens">is this the only example we
-      can think of? </draft-comment></shortdesc>
+<shortdesc>The <xmlelement>glossProperty</xmlelement> element specifies additional details about the
+    term specified in the topic's <xmlelement>glossterm</xmlelement> element. For example, this
+    element might be specified to specify the gender of a term in languages that have such a
+    distinction or it might provide the term's etymological origins.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>extension points</indexterm></indexterm>
@@ -16,10 +16,11 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <draft-comment author="dawnstevens">Seems like we should add this
-        section to explain that any number of attributes can be created
-        using name attribute. might want to control it using subject
-        scheme, etc.</draft-comment>
+      <p>The specific type of detail being defined is specified in the <xmlatt>name</xmlatt>
+        attribute and its corresponding value in the <xmlatt>value</xmlatt> attribute. Because any
+        number of properties can therefore be defined, implementers may want to control these values
+        using subject scheme maps to bind values to these attributes within
+          <xmlelement>glossProperty</xmlelement>. </p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -34,15 +35,26 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossProperty</xmlelement> element can be used to
-        provide information about the gender of a term:</p>
+      <p>The following code sample shows how the <xmlelement>glossProperty</xmlelement> element can
+        be used to provide information about the gender of a term:</p>
       <codeblock>&lt;glossentry id="algorithm" xml:lang="es-es">
   &lt;glossterm>El algoritmo&lt;/glossterm>
   &lt;glossdef>Un algoritmo define un método de calcular un resultado.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
     <b>&lt;glossProperty name="gender" value="masculine"/></b>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
+      <p>The following code sample shows how the <xmlelement>glossProperty</xmlelement> element can
+        be used to capture the part number and OEM for equipment or parts defined in a glossary
+        term:</p>
+      <codeblock id="codeblock_eqv_tr5_b1c">&lt;glossentry id="anvil">
+  &lt;glossterm>anvil&lt;/glossterm>
+  &lt;glossdef>A heavy steel or iron block with a flat top, concave sides, and pointed end, on which
+     metal can be hammered and shaped. Handy for dropping on roadrunners.&lt;/glossdef>
+  &lt;glossBody>
+    <b>&lt;glossProperty name="part_number" value="123456"/></b>
+    <b>&lt;glossProperty name="eom" value="Acme Company"/></b>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>

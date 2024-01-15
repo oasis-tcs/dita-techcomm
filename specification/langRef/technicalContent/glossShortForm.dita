@@ -3,12 +3,9 @@
  "reference.dtd">
 <reference id="glossShortForm" xml:lang="en-us">
 <title><xmlelement>glossShortForm</xmlelement></title>
-<shortdesc>The <xmlelement>glossShortForm</xmlelement> element is an
-    abbreviated form that includes fewer words than the full
-      form.<draft-comment author="dawnstevens">think of different way to
-      express this that doesn't use "abbreviated form" which calls to mind
-      &lt;abbreviated-form> which is not related to this
-      element.</draft-comment></shortdesc>
+<shortdesc>The <xmlelement>glossShortForm</xmlelement> element is a form of the term specified in
+    the topic's <xmlelement>glossterm</xmlelement> element that includes fewer words than the full
+    form.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>short forms of a term</indexterm></indexterm>
@@ -31,16 +28,11 @@
     <section conkeyref="reuse-title/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows the
-          <xmlelement>glossShortForm</xmlelement> can be used.</p>
-      <draft-comment author="dawnstevens">Definition seemed too simplistic;
-        An information system on the internet that allows  content to be
-        connected to other content by hypertext links, enabling users to
-        search for information  by moving from one location to
-        another.</draft-comment>
+      <p>The following code sample shows how the <xmlelement>glossShortForm</xmlelement> can be
+        used.</p>
       <codeblock>&lt;glossentry id="www">
   &lt;glossterm>World Wide Web&lt;/glossterm>
-  &lt;glossdef>A collection of documents that are available through the Internet.&lt;/glossdef>
+  &lt;glossdef>A system of interconnected web pages accessible through the Internet.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
     &lt;glossAlt>
