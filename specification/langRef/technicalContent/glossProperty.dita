@@ -20,7 +20,7 @@
         attribute and its corresponding value in the <xmlatt>value</xmlatt> attribute. Because any
         number of properties can therefore be defined, implementers may want to control these values
         using subject scheme maps to bind values to these attributes within
-          <xmlelement>glossProperty</xmlelement>. </p>
+          <xmlelement>glossProperty</xmlelement>.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

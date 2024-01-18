@@ -3,11 +3,9 @@
  "reference.dtd">
 <reference id="glossAbbreviation" xml:lang="en-us">
   <title><xmlelement>glossAbbreviation</xmlelement></title>
-  <abstract>
-    <shortdesc>The <xmlelement>glossAbbreviation</xmlelement> element provides an abbreviation of
-      the term specified in the topic's <xmlelement>glossterm</xmlelement> element. Abbreviations
-      are typically formed by omitting some letters from a longer form. </shortdesc>
-  </abstract>
+  <shortdesc>The <xmlelement>glossAbbreviation</xmlelement> element provides an abbreviation of the
+    term specified in the topic's <xmlelement>glossterm</xmlelement> element. Abbreviations are
+    typically formed by omitting some letters from a longer form.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

@@ -4,9 +4,9 @@
 <reference id="glossPartOfSpeech" xml:lang="en-us">
   <title><xmlelement>glossPartOfSpeech</xmlelement></title>
   <shortdesc>The <xmlelement>glossPartOfSpeech</xmlelement> element identifies the part of speech
-    for the term specified in the topic's <xmlelement>glossterm</xmlelement> element., and any
+    for the term specified in the topic's <xmlelement>glossterm</xmlelement> element, and any
     variant forms of the term also defined within the topic. term and any alternate or variant forms
-    of the term defined within the topic. </shortdesc>
+    of the term defined within the topic.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

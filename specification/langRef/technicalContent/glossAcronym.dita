@@ -6,7 +6,7 @@
   <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an acronym for the term
     specified in the topic's <xmlelement>glossterm</xmlelement> element. An acronym typically is
     composed of the initial letters of the components of the full form or from the syllables of the
-    full form to create a pronounceable combination of letters. </shortdesc>
+    full form to create a pronounceable combination of letters.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

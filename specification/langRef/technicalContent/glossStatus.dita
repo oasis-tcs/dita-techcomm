@@ -4,7 +4,7 @@
   <title><xmlelement>glossStatus</xmlelement></title>
   <shortdesc>The <xmlelement>glossStatus</xmlelement> element identifies the status of the term
     specified in the topic's <xmlelement>glossterm</xmlelement> element or any of its alternative
-    forms specified within a <xmlelement>glossAlt</xmlelement> element. </shortdesc>
+    forms specified within a <xmlelement>glossAlt</xmlelement> element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
