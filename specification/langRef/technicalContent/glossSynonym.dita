@@ -3,9 +3,9 @@
  "reference.dtd">
 <reference id="glossSynonym" xml:lang="en-us">
 <title><xmlelement>glossSynonym</xmlelement></title>
-<shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a
-    term that is a synonym of the term and which is not a abbreviated
-    form.</shortdesc>
+<shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a term that is a synonym of
+    the term specified by the topic's <xmlelement>glossterm</xmlelement> element, but that is not an
+    acronym, abbreviation, or short form.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>synonyms</indexterm></indexterm>
@@ -14,16 +14,11 @@
 </metadata></prolog>
 <refbody>
       <section id="usage-information">
-         <title>Usage information</title>
-         <note>A list of synonyms is specific to the language, so translation of a
-               <xmlelement>glossentry</xmlelement> topic might result in an empty
-               <xmlelement>glossSynonym</xmlelement> element.</note>
-      <draft-comment author="dawnstevens">I agree with most comments about
-        language distinctions, but I would think that synonyms would exist
-        in all languages. they might not be the same synonyms (ie
-        translations of the listed synonyms in one language), but I would
-        still think there would be synonyms. </draft-comment>
-      </section>
+      <title>Usage information</title>
+      <note>A list of synonyms is specific to the language, so translation of a
+          <xmlelement>glossentry</xmlelement> topic might result in empty
+          <xmlelement>glossSynonym</xmlelement> elements.</note>
+    </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>glossSynonym</xmlelement> element is specialized from
@@ -32,9 +27,8 @@
       <section conkeyref="reuse-title/attributes" id="attributes"/>
       <example id="example" otherprops="examples">
          <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossSynonym</xmlelement> element can be used: to
-        identify a synonym for the primary term:</p>
+      <p>The following code sample shows how the <xmlelement>glossSynonym</xmlelement> element can
+        be used to identify a synonym for the word automobile:</p>
       <codeblock>&lt;glossentry id="automobile">
     &lt;glossterm>Automobile&lt;/glossterm>
     &lt;glossdef>A road vehicle, typically with four wheels, powered by an

@@ -1,21 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossary2" xml:lang="en-us">
-<title>Glossary entry elements</title>
+  <title>Glossary entry elements</title>
   <abstract>
-    <shortdesc>The glossary entry specialization contains markup that
-      supports terminological information. In addition to recording
-      information for glossaries, it can be used for other purposes such as
-      inclusion in a terminology database, extraction for pre-translation,
-      reuse in controlled authoring applications, and recording information
-      that may be later retrieved for other lexical resources.</shortdesc>
-    <draft-comment author="dawnstevens">In this topic set need to decide on
-      what to call things: Primary term, preferred term, variant,
-      alternative, etc. I think in particular preferred is
-      problematic.</draft-comment>
+    <shortdesc>The glossary entry specialization contains markup that supports terminological
+      information. In addition to recording information for glossaries, it can be used for other
+      purposes such as inclusion in a terminology database, extraction for pre-translation, reuse in
+      controlled authoring applications, and recording information that may be later retrieved for
+      other lexical resources.</shortdesc>
   </abstract>
-  <!--<shortdesc>Use the glossary entry topic type to define glossary terms. Each glossentry topic should define a single sense of a term.</shortdesc>-->
-<prolog><metadata>
-<keywords><indexterm>glossentry elements</indexterm></keywords>
-</metadata></prolog>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>glossentry elements</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
 </reference>
+<?oxy_options track_changes="on"?>

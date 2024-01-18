@@ -3,13 +3,20 @@
  "reference.dtd">
 <reference id="glossSurfaceForm" xml:lang="en-us">
   <title><xmlelement>glossSurfaceForm</xmlelement></title>
-  <shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element
-    specifies an unambiguous presentation of the term that might combine
-    multiple forms. The surface form is suitable to introduce the term in
-    new contexts or the first occurrence in text.<draft-comment
-      author="dawnstevens">I'm not fond of this description at all. first
-      sentence is really difficult to
-    understand.</draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element specifies how the term specified
+    by the topic's <xmlelement>glossterm</xmlelement> element should appear in the text. The surface
+    form is suitable to introduce the term in new contexts or as the first occurrence in
+      text.<draft-comment author="dawnstevens">I learned a lot more than I really wanted to about
+      the surface form in linguistics to suggest this short description, as opposed to what was
+      there: "an unambiguous presentation of the term that might combine multiple forms." Surface
+      forms are " the way a linguistic unit (such as a word, phrase, or sentence) appears when it is
+      actually spoken or written, as opposed to its underlying or abstract form." Surface forms may
+      take into account phonology (to provide stress, intonation, and accent), test and plurals (the
+      surface form of "go" is "goes" in 3rd person singular), and derivational (to change roots of
+      words in various contexts), contextual (I'm might be a surface form of I am in informal
+      speech). Ultimately, in my experience the only thing this is really used for is first-use
+      occurrence of acronyms so they are spelled out. I wonder if we should use that use case only
+      in this definition, rather than a more comprehensive scope. </draft-comment></shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -23,13 +30,16 @@
   <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>glossSurfaceForm</xmlelement> element is most
-        often used for terms that also specify the
-          <xmlelement>glossAcronym</xmlelement> element. In that context,
-        the <xmlelement>glossSurfaceForm</xmlelement> element contains the
-        term in a manner that introduces both the term and the acronym, so
-        that later references to the term can be replaced with the acronym
-        alone. </p>
+      <p>The <xmlelement>glossSurfaceForm</xmlelement> element is most often used for terms that
+        also specify the <xmlelement>glossAcronym</xmlelement> element. In that context, the
+          <xmlelement>glossSurfaceForm</xmlelement> element contains the term in a manner that
+        introduces both the term and the acronym, so that later references to the term can be
+        replaced with the acronym alone. <note id="note_nkh_yqp_c1c">In some languages, the surface
+          form that expands the acronym in its first use handles the formatting differently than in
+          English. For example, in Polish, the acronym precedes the expansion. In addition, some
+          languages may not have a corresponding acronym for a term, so the
+            <xmlelement>glossSurfaceForm</xmlelement> and <xmlelement>glossAcronym</xmlelement>
+          would be left blank in translated content.</note></p>
       <p>See the <xref href="abbreviated-form.dita"
             ><xmlelement>abbreviated-form</xmlelement></xref> element for a
         full description of how the surface form is used together with
@@ -39,9 +49,6 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossSurfaceForm</xmlelement> element is specialized from
           <xmlelement>p</xmlelement>. It is defined in the glossary entry module.</p>
-      <draft-comment author="dawnstevens">this actually surprised me. seems
-        like it would be ph since it is used as a phrase when introducing a
-        first occurrence.</draft-comment>
     </section>
     <section id="attributes">
       <title>Attributes</title>
@@ -49,14 +56,12 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following glossary entry topic defines the term "Anti-lock
-        Braking System". Within the topic, the
-          <xmlelement>glossSurfaceForm</xmlelement> element provides a
-        version of the term that combines both the primary term and the
-        acronym. The content of the
-          <xmlelement>glossSurfaceForm</xmlelement> might be rendered in
-        introductory contexts when the glossary entry topic is referenced
-        from an <xmlelement>abbreviate-form</xmlelement> element.</p>
+      <p>The following glossary entry topic defines the term "Anti-lock Braking System". Within the
+        topic, the <xmlelement>glossSurfaceForm</xmlelement> element provides a version of the term
+        that combines both the primary term and the acronym. The content of the
+          <xmlelement>glossSurfaceForm</xmlelement> might be rendered in introductory contexts when
+        the glossary entry topic is referenced from an <xmlelement>abbreviated-form</xmlelement>
+        element.</p>
       <codeblock>&lt;glossentry id="abs">
   &lt;glossterm>Anti-lock Braking System&lt;/glossterm>
   &lt;glossBody>

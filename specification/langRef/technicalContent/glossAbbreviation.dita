@@ -4,12 +4,9 @@
 <reference id="glossAbbreviation" xml:lang="en-us">
   <title><xmlelement>glossAbbreviation</xmlelement></title>
   <abstract>
-    <shortdesc>The <xmlelement>glossAbbreviation</xmlelement> element
-      provides an abbreviated form of the term. An abbreviated form is
-      typically formed by omitting some letters from a longer form. </shortdesc>
-    <draft-comment author="dawnstevens">find alternative description. use
-      of "abbreviated form" to me implies a relationship to
-      &lt;abbreviated-form></draft-comment>
+    <shortdesc>The <xmlelement>glossAbbreviation</xmlelement> element provides an abbreviation of
+      the term specified in the topic's <xmlelement>glossterm</xmlelement> element. Abbreviations
+      are typically formed by omitting some letters from a longer form. </shortdesc>
   </abstract>
   <prolog>
     <metadata>

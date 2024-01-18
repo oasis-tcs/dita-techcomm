@@ -3,15 +3,10 @@
  "reference.dtd">
 <reference id="glossSymbol" xml:lang="en-us">
 <title><xmlelement>glossSymbol</xmlelement></title>
-<shortdesc>The <xmlelement>glossSymbol</xmlelement> element identifies a
-    standard image that is associated with the subject of the
-      term.<draft-comment author="dawnstevens">when would you use a symbol
-      rather than just put the image in the glossdef? the way this is
-      written, I think we are saying it's used as a taxonomy – not an image
-      of the term but of the subject of the term. We might have different
-      symbols for terms relating to math, science, and history; or for a
-      more tech comm thing relating to specific products or components.
-    </draft-comment></shortdesc>
+<shortdesc>The <xmlelement>glossSymbol</xmlelement> element identifies a standard image that is
+    associated with the subject of the term specified by the topic's
+      <xmlelement>glossterm</xmlelement> element. For example, the image might serve to visually
+    classify the term into a specific taxonomy.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>images</indexterm></indexterm>
@@ -27,22 +22,18 @@
     <section conkeyref="reuse-image/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossSymbol</xmlelement> can be used to associate an
-        image with glossary entry topic for Atlantic penguins:</p>
-      <draft-comment author="dawnstevens">If I understand this right, the
-        better icon would be a symbol for Atlantic (ie a region) not the
-        bird itself. Or perhaps a generic symbol of a bird (in contrast
-        with a mammal or amphibian). In fact, to illustrate this
-        distinction, I think the glossdef should include a picture of the
-        bird itself and then the symbol be this classifying
-        icon.</draft-comment>
+      <p>The following code sample shows how the <xmlelement>glossSymbol</xmlelement> can be used to
+        associate a regional classification icon with the Atlantic puffin:</p>
       <codeblock>&lt;glossentry id="atlanticpuffin">
   &lt;glossterm>Atlantic Puffin&lt;/glossterm>
-  &lt;glossdef>A sea bird that lives in the Atlantic&lt;/glossdef>
+  &lt;glossdef>A sea bird that lives in the Atlantic
+    &lt;image href="puffinicon.jpg">
+      &lt;alt>Image of an atlantic puffin&lt;/alt>
+    &lt;/image>
+  &lt;/glossdef>
   &lt;glossBody>
-    <b>&lt;glossSymbol href="puffinicon.jpg" scope="local"></b>
-      &lt;alt>Atlantic puffin icon&lt;/alt>
+    <b>&lt;glossSymbol href="atlantic.jpg" scope="local"></b>
+      &lt;alt>Icon denoting the Atlantic region&lt;/alt>
     <b>&lt;/glossSymbol></b>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>

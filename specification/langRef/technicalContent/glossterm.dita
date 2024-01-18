@@ -3,13 +3,8 @@
  "reference.dtd">
 <reference id="glossterm" xml:lang="en-us">
 <title><xmlelement>glossterm</xmlelement></title>
-<shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the
-    preferred term that is associated with a terminological
-      concept.<draft-comment author="dawnstevens">As already indicated, I
-      question the "preferred" part. In my opinion, the glossterm is simply
-      identifying the word to be defined in the topic and making no
-      specific implications about its
-    importance.</draft-comment></shortdesc>
+<shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the term addressed within the
+      <xmlelement>glossentry</xmlelement> topic.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>terms</indexterm></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossterm</xmlelement></indexterm></indexterm>
@@ -25,11 +20,9 @@
       </section>
       <section conkeyref="reuse-title/attributes" id="attributes"/>
       <example id="example" otherprops="examples">
-         <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossterm</xmlelement> element specifies the
-        preferred term that is associated with a terminological
-        concept:</p>
+      <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>glossterm</xmlelement> element
+        specifies the term addressed within the <xmlelement>glossentry</xmlelement> topic:</p>
       <codeblock>&lt;glossentry id="css">
     <b>&lt;glossterm>cascading style sheets&lt;/glossterm></b>
     &lt;glossdef>Cascading Style Sheets is a style sheet language that is used
@@ -41,17 +34,11 @@
       &lt;glossAcronym>CSS&lt;/glossAcronym>
     &lt;/glossAlt>
     &lt;glossAlt>
-      &lt;glossShortForm>web style sheets&lt;/glossShortForm>
+      &lt;glossSynonym>web style sheets&lt;/glossShortForm>
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
-      <p>The <xmlelement>glossShortForm</xmlelement> also identifies a
-        variant term.</p>
-      <draft-comment author="dawnstevens">I question that web style sheet
-        is a short form of this; yes, web is shorter than cascading, but if
-        someone is wanting a shorter version they say CSS. At best it is a
-        synonym.</draft-comment>
-      </example>
+    </example>
 
 </refbody>
 </reference>

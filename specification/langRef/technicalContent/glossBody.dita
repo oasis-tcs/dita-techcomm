@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossBody" xml:lang="en-us">
 <title><xmlelement>glossBody</xmlelement></title>
-<shortdesc>The <xmlelement>glossBody</xmlelement> element contains
-    information about a term, such as the part of speech and variants for
-    the term.</shortdesc>
+<shortdesc>The <xmlelement>glossBody</xmlelement> element contains information about the term
+    specified in the topic's <xmlelement>glossterm</xmlelement> element, such as the part of speech
+    and variants for the term.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossBody</xmlelement></indexterm>
             <indexterm>glossentry

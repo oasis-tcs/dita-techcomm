@@ -3,10 +3,10 @@
 <reference id="glossAlt" xml:lang="en-us">
   <title><xmlelement>glossAlt</xmlelement></title>
   <abstract>
-    <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains
-      information about a variant for the preferred term.</shortdesc>
-    <draft-comment author="dawnstevens">Elsewhere we call it a primary, not
-      a preferred, term.</draft-comment>
+    <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains information about a variant
+      for the term specified in the topic's <xmlelement>glossterm</xmlelement> element. A variant
+      might include an acronym, abbreviation, or shortened form of the term, as well as synonyms or
+      other alternate terms.</shortdesc>
   </abstract>
   <prolog>
     <metadata>
@@ -38,12 +38,40 @@
     </section>
     <section id="attributes">
       <title>Attributes</title>
-      <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/>.</p>
+      <p>The following attributes are available on this element: <ph
+          conkeyref="reuse-attributes/ref-universalatts"/>.</p>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code samples shows how a glossary entry topic might provide alternative forms
+        of the term.</p>
+      <codeblock>&lt;glossentry id="usa">
+  &lt;glossterm>United States of America&lt;/glossterm>
+  &lt;glossdef>A federal republic in the northern Western Hemisphere comprising 48 contiguous 
+     states, the District of Columbia, Alaska in North America, and Hawaii in the North 
+     Pacific, and in some contexts considered along with its five inhabited island 
+     territories (Puerto Rico, U.S. Virgin Islands, Guam, North Mariana Islands, American 
+     Samoa).&lt;/glossdef>
+  &lt;glossBody>
+    <b>&lt;glossAlt></b>
+      &lt;glossAcronym>US&lt;/glossSynonym>
+      &lt;glossUsage>Used as an adjective.&lt;/glossUsage>
+    <b>&lt;/glossAlt>
+    &lt;glossAlt></b>
+      &lt;glossAcronym>USA&lt;/glossSynonym>
+      &lt;glossUsage>Used as a noun.&lt;/glossUsage>
+    <b>&lt;/glossAlt>
+    &lt;glossAlt></b>
+      &lt;glossSynonym>America&lt;/glossSynonym>
+      &lt;glossUsage>Do not use; the American continents include other countries.&lt;/glossUsage>
+    <b>&lt;/glossAlt>
+    &lt;glossAlt></b>
+      &lt;glossAbbreviation>the States&lt;/glossAbbreviation>
+      &lt;glossUsage>Informal. Typically used by English speakers outside of the country.&lt;/glossUsage>
+    <b>&lt;/glossAlt></b>
+  &lt;/glossBody><b>
+&lt;/glossentry>
+</b></codeblock>
     </example>
   </refbody>
 </reference>

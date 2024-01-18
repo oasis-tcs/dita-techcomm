@@ -2,10 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossScopeNote" xml:lang="en-us">
   <title><xmlelement>glossScopeNote</xmlelement></title>
-  <shortdesc>The <xmlelement>glossScopeNote</xmlelement> element provides
-    information that clarifies when a term should or should not be
-      used.<draft-comment author="dawnstevens">don't think this definition
-      is distinctive enough from glossUsage.</draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>glossScopeNote</xmlelement> element defines the extent to which or
+    context within which the term specified in the topic's <xmlelement>glossterm</xmlelement>
+    element might be used.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,26 +16,37 @@
     </metadata>
   </prolog>
   <refbody>
-    <!--<section id="usage-information"><title>Usage information</title></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossScopeNote</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
-    <section conkeyref="reuse-note/attributes" id="attributes"/>
+    <section conkeyref="reuse-note/attributes" id="attributes">
+      <p>
+        <draft-comment author="dawnstevens">Although I realize the element is specialized from Note,
+          I question the need to point out the type and othertype attributes; they don't seem to me
+          to have any meaning in the content of a scope note. A scope note is type scope note, in my
+          mind. Why would anyone specify any type or othertype?</draft-comment>
+      </p>
+      <p>
+        <draft-comment author="dawnstevens">While it is true that type and othertype are valid
+          attributes because glossScopeNote is specialized from Note, I don't think there is any
+          meaning for a glossScopeNote to be any specific "type". Its type is a scope note. Do we
+          have to document that these attributes are available? </draft-comment>
+      </p>
+    </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossScopeNote</xmlelement> element can be used to
-        clarify how the term "Linux" should be used:</p>
+      <p>The following code sample shows how the <xmlelement>glossScopeNote</xmlelement> element can
+        be used to limit the scope in which the term "Linux" should be used:</p>
       <codeblock>&lt;glossentry id="linuxOS" xml:lang="en-us">
   &lt;glossterm>Linux operating system&lt;/glossterm>
   &lt;glossdef>An operating system based on the kernel created by Linus Torvald.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
     <b>&lt;glossScopeNote>This term does not apply to the Linux Open Source Project that
-develops Linux distributions but only to the distributions themselves.  
-Examples of Linux operating systems include RedHat, SuSE, and Ubuntu. &lt;/glossScopeNote></b>
+       develops Linux distributions, but only to the distributions themselves.  Examples 
+       of Linux operating systems include RedHat, SuSE, and Ubuntu. &lt;/glossScopeNote></b>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
     </example>

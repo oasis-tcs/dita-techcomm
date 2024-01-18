@@ -3,10 +3,9 @@
  "reference.dtd">
 <reference id="glossUsage" xml:lang="en-us">
   <title><xmlelement>glossUsage</xmlelement></title>
-  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides
-    information about the correct use of a term, such as where or how it
-    can be used.<draft-comment author="dawnstevens">is "correct" the right
-      word? approved? allowed? </draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about how to use
+    the term specified in the topic's <xmlelement>glossterm</xmlelement> element or any of its
+    alternative forms specified within a <xmlelement>glossAlt</xmlelement> element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -22,29 +21,32 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
+      <draft-comment author="dawnstevens">Although I realize the element is specialized from Note, I
+        question the need to point out the type and othertype attributes; they don't seem to me to
+        have any meaning in the content of a usage note. A usage note is type usage note, in my
+        mind. Why would anyone specify any type or othertype?</draft-comment>
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossUsage</xmlelement> element is used to provide
-        additional information about possible variants for the term "USB
-        flash drive":</p>
-      <draft-comment author="dawnstevens">I wouldn't say this is usage.
-        It's justification  for why the status is prohibited. If something
-        is prohibited, does it need a usage? Isn't it implied not to use
-        it?</draft-comment>
-      <codeblock>&lt;glossentry id="usbfd">
-  &lt;glossterm>USB flash drive&lt;/glossterm>
-  &lt;glossdef>A small portable drive.&lt;/glossdef>
+      <p>The following code sample shows how the <xmlelement>glossUsage</xmlelement> element is used
+        to provide additional information about possible variants for the term "soft drink:"</p>
+      <codeblock>&lt;glossentry id="softdrink">
+  &lt;glossterm>soft drink&lt;/glossterm>
+  &lt;glossdef>A nonalcoholic drink, especially one that is carbonated.&lt;/glossdef>
   &lt;glossBody>
     &lt;glossPartOfSpeech value="noun"/>
-    <b>&lt;glossUsage>Do not use upper case (as in "USB Flash Drive")
-      because that suggests a trademark.&lt;/glossUsage></b>
     &lt;glossAlt>
-      &lt;glossAbbreviation>flash&lt;/glossAbbreviation>
-      &lt;glossStatus value="prohibited"/>
-      <b>&lt;glossUsage>This short form is ambiguous.&lt;/glossUsage></b>
+      &lt;glossSynonym>pop&lt;/glossSynonym>
+      <b>&lt;glossUsage>Used primarily in the North and Midwest&lt;/glossUsage></b>
+    &lt;/glossAlt>
+    &lt;glossAlt>
+      &lt;glossSynonym>soda&lt;/glossSynonym>  
+      <b>&lt;glossUsage>Used primarily in the West and Northeast&lt;/glossUsage></b>
+    &lt;/glossAlt>
+    &lt;glossAlt>
+      &lt;glossSynonym>Coke&lt;/glossSynonym>
+      <b>&lt;glossUsage>Used primarily in the South&lt;/glossUsage></b>
     &lt;/glossAlt>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
