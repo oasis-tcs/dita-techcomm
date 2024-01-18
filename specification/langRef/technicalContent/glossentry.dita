@@ -35,7 +35,10 @@
         have a different organization in different languages depending on the translation of the
           terms.<draft-comment author="dawnstevens">The phrasing of the first sentence suggests to
           me that we expect the processor to automatically sort the terms alphabetically. Should we
-          rephrase?</draft-comment></p>
+          rephrase?</draft-comment><draft-comment author="robander" time="Jan 18 2024">Agreed, I
+          don't know of tools that do that now and the spec should not imply that it is "expected" –
+          that said it is certainly a valid implementation, so it could be described like the next
+          paragraph, "one possible implementation</draft-comment></p>
       <p>One possible implementation of a glossary in online processing is to associate a hotspot
         for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
         on hover or click. A possible implementation in PDF processing is to define a first-use

@@ -3,7 +3,7 @@
 <reference id="glossdef" xml:lang="en-us">
 <title><xmlelement>glossdef</xmlelement></title>
 <shortdesc>The <xmlelement>glossdef</xmlelement> element defines the meaning of the term specified
-    in the topic's <xmlelement>glossterm</xmlelement> element. </shortdesc>
+        in the topic's <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
       <keywords>
         <indexterm>glossaries<indexterm>definitions</indexterm></indexterm>
