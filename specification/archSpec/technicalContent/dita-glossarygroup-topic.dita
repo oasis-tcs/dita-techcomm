@@ -45,11 +45,6 @@
     &lt;glossentry id="apple-corp">
       &lt;glossterm>Apple Inc.&lt;/glossterm>
       &lt;glossdef>An American multinational technology company headquartered in Cupertino, California.&lt;/glossdef>
-      &lt;glossBody>
-        &lt;glossAlt>
-          &lt;glossAbbreviation>APPL&lt;/glossAbbreviation>
-        &lt;/glossAlt>
-      &lt;/glossBody>
     &lt;/glossentry>
   <b>&lt;/glossgroup></b>
   ... (groups B to Y here ) ...

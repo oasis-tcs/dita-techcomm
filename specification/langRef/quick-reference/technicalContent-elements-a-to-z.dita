@@ -88,7 +88,6 @@
         <sli><xref keyref="elements-fragment"/></sli>
         <sli><xref keyref="elements-fragref"/></sli>
         <sli><xref keyref="elements-frontmatter"/></sli>
-        <sli><xref keyref="elements-glossAbbreviation"/></sli>
         <sli><xref keyref="elements-glossAcronym"/></sli>
         <sli><xref keyref="elements-glossAlt"/></sli>
         <sli><xref keyref="elements-glossAlternateFor"/></sli>

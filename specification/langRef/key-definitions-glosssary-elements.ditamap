@@ -5,7 +5,6 @@
    <keydef href="technicalContent/glossentry.dita" keys="elements-glossentry"/>
    <keydef href="technicalContent/glossterm.dita" keys="elements-glossterm"/>
    <keydef href="technicalContent/glossdef.dita" keys="elements-glossdef"/>
-   <keydef href="technicalContent/glossAbbreviation.dita" keys="elements-glossAbbreviation"/>
    <keydef href="technicalContent/glossAcronym.dita" keys="elements-glossAcronym"/>
    <keydef href="technicalContent/glossAlt.dita" keys="elements-glossAlt"/>
    <keydef href="technicalContent/glossAlternateFor.dita" keys="elements-glossAlternateFor"/>

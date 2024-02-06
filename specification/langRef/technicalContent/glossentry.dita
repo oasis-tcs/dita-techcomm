@@ -75,17 +75,6 @@
       &lt;glossSynonym>memory stick&lt;/glossSynonym>
       &lt;glossUsage>This is a colloquial term.&lt;/glossUsage>
     &lt;/glossAlt>
-    &lt;glossAlt>
-      &lt;glossAbbreviation>stick&lt;/glossAbbreviation>
-      &lt;glossStatus value="prohibited"/>
-      &lt;glossUsage>This is too colloquial.&lt;/glossUsage>
-      &lt;glossAlternateFor href="#usbfd/memoryStick"/>
-    &lt;/glossAlt>
-    &lt;glossAlt>
-      &lt;glossAbbreviation>flash&lt;/glossAbbreviation>
-      &lt;glossStatus value="prohibited"/>
-      &lt;glossUsage>This short form is ambiguous.&lt;/glossUsage>
-    &lt;/glossAlt>
   &lt;/glossBody><b>
 &lt;/glossentry>
 </b></codeblock>

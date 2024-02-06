@@ -3,7 +3,6 @@
 <map id="glosssentry-elements">
  <title>Glossentry elements</title>
   <topicref href="containers/glossentry-elements.dita">
-   <topicref keyref="elements-glossAbbreviation"/>
    <topicref keyref="elements-glossAcronym"/>
    <topicref keyref="elements-glossAlt"/>
    <topicref keyref="elements-glossAlternateFor"/>

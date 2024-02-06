@@ -586,14 +586,6 @@
           <stentry>Notes</stentry>
         </sthead>
         <strow>
-          <stentry><xmlelement>glossAbbreviation</xmlelement></stentry>
-          <stentry><xmlelement>title</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
           <stentry><xmlelement>glossAcronym</xmlelement></stentry>
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>
