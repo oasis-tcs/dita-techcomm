@@ -45,8 +45,6 @@
 <!ENTITY % glossSynonym
                        "glossSynonym"                                >
 <!ENTITY % glossStatus "glossStatus"                                 >
-<!ENTITY % glossProperty
-                       "glossProperty"                               >
 <!ENTITY % glossSurfaceForm
                        "glossSurfaceForm"                            >
 <!ENTITY % glossUsage  "glossUsage"                                  >
@@ -127,7 +125,6 @@
 <!--                    LONG NAME: Glossary Body                   -->
 <!ENTITY % glossBody.content
                        "((%glossStatus;)?,
-                         (%glossProperty;)*,
                          (%glossSurfaceForm;)?,
                          (%glossUsage;)?,
                          (%glossScopeNote;)?,
@@ -231,17 +228,6 @@
 >
 <!ELEMENT  glossStatus %glossStatus.content;>
 <!ATTLIST  glossStatus %glossStatus.attributes;>
-
-
-<!--                    LONG NAME: Glossary property               -->
-<!ENTITY % glossProperty.content
-                       "(%data.cnt;)*"
->
-<!ENTITY % glossProperty.attributes
-              "%data-element-atts;"
->
-<!ELEMENT  glossProperty %glossProperty.content;>
-<!ATTLIST  glossProperty %glossProperty.attributes;>
 
 
 <!--                    LONG NAME: Glossary Surface Form           -->
@@ -373,7 +359,6 @@
                           %glossShortForm; |
                           %glossSynonym;)?,
                          (%glossStatus;)?,
-                         (%glossProperty;)*,
                          (%glossUsage;)?,
                          (%note;)*)"
 >
@@ -396,7 +381,6 @@
 <!ATTLIST  glossAcronym class CDATA "- topic/title concept/title glossentry/glossAcronym ">
 <!ATTLIST  glossShortForm class CDATA "- topic/title concept/title glossentry/glossShortForm ">
 <!ATTLIST  glossSynonym class CDATA "- topic/title concept/title glossentry/glossSynonym ">
-<!ATTLIST  glossProperty class CDATA "- topic/data concept/data glossentry/glossProperty ">
 <!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
 <!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">
 <!ATTLIST  glossScopeNote class CDATA "- topic/note concept/note glossentry/glossScopeNote ">
