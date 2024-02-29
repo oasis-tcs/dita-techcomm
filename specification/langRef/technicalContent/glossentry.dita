@@ -64,7 +64,6 @@
   &lt;glossterm>USB flash drive&lt;/glossterm>
   &lt;glossdef>A small portable drive.&lt;/glossdef>
   &lt;glossBody>
-    &lt;glossPartOfSpeech value="noun"/>
     &lt;glossUsage>Do not use this term in upper case (for example,  in "USB Flash Drive")
       because that suggests a trademark.&lt;/glossUsage>
     &lt;glossAlt>

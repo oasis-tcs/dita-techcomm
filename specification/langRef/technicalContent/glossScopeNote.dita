@@ -51,7 +51,6 @@
   &lt;glossterm>Linux operating system&lt;/glossterm>
   &lt;glossdef>An operating system based on the kernel created by Linus Torvald.&lt;/glossdef>
   &lt;glossBody>
-    &lt;glossPartOfSpeech value="noun"/>
     <b>&lt;glossScopeNote>This term does not apply to the Linux Open Source Project that
        develops Linux distributions, but only to the distributions themselves.  Examples 
        of Linux operating systems include RedHat, SuSE, and Ubuntu. &lt;/glossScopeNote></b>

@@ -44,8 +44,6 @@
                        "glossShortForm"                              >
 <!ENTITY % glossSynonym
                        "glossSynonym"                                >
-<!ENTITY % glossPartOfSpeech
-                       "glossPartOfSpeech"                           >
 <!ENTITY % glossStatus "glossStatus"                                 >
 <!ENTITY % glossProperty
                        "glossProperty"                               >
@@ -128,8 +126,7 @@
 
 <!--                    LONG NAME: Glossary Body                   -->
 <!ENTITY % glossBody.content
-                       "((%glossPartOfSpeech;)?,
-                         (%glossStatus;)?,
+                       "((%glossStatus;)?,
                          (%glossProperty;)*,
                          (%glossSurfaceForm;)?,
                          (%glossUsage;)?,
@@ -223,17 +220,6 @@
 >
 <!ELEMENT  glossSynonym %glossSynonym.content;>
 <!ATTLIST  glossSynonym %glossSynonym.attributes;>
-
-
-<!--                    LONG NAME: Part of Speech                  -->
-<!ENTITY % glossPartOfSpeech.content
-                       "EMPTY"
->
-<!ENTITY % glossPartOfSpeech.attributes
-              "%data-element-atts;"
->
-<!ELEMENT  glossPartOfSpeech %glossPartOfSpeech.content;>
-<!ATTLIST  glossPartOfSpeech %glossPartOfSpeech.attributes;>
 
 
 <!--                    LONG NAME: Glossary Status                 -->
@@ -410,7 +396,6 @@
 <!ATTLIST  glossAcronym class CDATA "- topic/title concept/title glossentry/glossAcronym ">
 <!ATTLIST  glossShortForm class CDATA "- topic/title concept/title glossentry/glossShortForm ">
 <!ATTLIST  glossSynonym class CDATA "- topic/title concept/title glossentry/glossSynonym ">
-<!ATTLIST  glossPartOfSpeech class CDATA "- topic/data concept/data glossentry/glossPartOfSpeech ">
 <!ATTLIST  glossProperty class CDATA "- topic/data concept/data glossentry/glossProperty ">
 <!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
 <!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">

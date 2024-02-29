@@ -91,7 +91,6 @@
         <sli><xref keyref="elements-glossAcronym"/></sli>
         <sli><xref keyref="elements-glossAlt"/></sli>
         <sli><xref keyref="elements-glossBody"/></sli>
-        <sli><xref keyref="elements-glossPartOfSpeech"/></sli>
         <sli><xref keyref="elements-glossProperty"/></sli>
         <sli><xref keyref="elements-glossScopeNote"/></sli>
         <sli><xref keyref="elements-glossShortForm"/></sli>

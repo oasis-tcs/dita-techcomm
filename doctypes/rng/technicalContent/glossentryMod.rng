@@ -67,9 +67,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossdef">
       <ref name="glossdef.element"/>
     </define>
-    <define name="glossPartOfSpeech">
-      <ref name="glossPartOfSpeech.element"/>
-    </define>
     <define name="glossProperty">
       <ref name="glossProperty.element"/>
     </define>
@@ -212,9 +209,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <div>
       <a:documentation> LONG NAME: Glossary Body </a:documentation>
       <define name="glossBody.content">
-        <optional>
-          <ref name="glossPartOfSpeech"/>
-        </optional>
         <optional>
           <ref name="glossStatus"/>
         </optional>
@@ -372,27 +366,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
       </define>
       <define name="glossSynonym.attlist" combine="interleave">
         <ref name="glossSynonym.attributes"/>
-      </define>
-
-    </div>
-    <div>
-      <a:documentation> LONG NAME: Part of Speech </a:documentation>
-      <define name="glossPartOfSpeech.content">
-        <empty/>
-      </define>
-      <define name="glossPartOfSpeech.attributes">
-        <ref name="data-element-atts"/>
-      </define>
-      <define name="glossPartOfSpeech.element">
-        <element name="glossPartOfSpeech" dita:longName="Part of Speech">
-          <a:documentation>Identifies the part of speech for the preferred and alternate terms. Alternate terms must have the same part of speech as the preferred term because all terms in the
-            glossentry topic designate the same subject. If the part of speech isn't specified, the default is a noun for the standard enumeration.</a:documentation>
-          <ref name="glossPartOfSpeech.attlist"/>
-          <ref name="glossPartOfSpeech.content"/>
-        </element>
-      </define>
-      <define name="glossPartOfSpeech.attlist" combine="interleave">
-        <ref name="glossPartOfSpeech.attributes"/>
       </define>
 
     </div>
@@ -715,11 +688,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossSynonym.attlist" combine="interleave">
       <optional>
         <attribute name="class" a:defaultValue="- topic/title concept/title glossentry/glossSynonym "/>
-      </optional>
-    </define>
-    <define name="glossPartOfSpeech.attlist" combine="interleave">
-      <optional>
-        <attribute name="class" a:defaultValue="- topic/data concept/data glossentry/glossPartOfSpeech "/>
       </optional>
     </define>
     <define name="glossProperty.attlist" combine="interleave">
