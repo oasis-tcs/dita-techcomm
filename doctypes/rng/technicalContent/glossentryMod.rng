@@ -67,9 +67,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossdef">
       <ref name="glossdef.element"/>
     </define>
-    <define name="glossStatus">
-      <ref name="glossStatus.element"/>
-    </define>
     <define name="glossSurfaceForm">
       <ref name="glossSurfaceForm.element"/>
     </define>
@@ -201,9 +198,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
       <a:documentation> LONG NAME: Glossary Body </a:documentation>
       <define name="glossBody.content">
         <optional>
-          <ref name="glossStatus"/>
-        </optional>
-        <optional>
           <ref name="glossSurfaceForm"/>
         </optional>
         <optional>
@@ -311,27 +305,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
       </define>
       <define name="glossSynonym.attlist" combine="interleave">
         <ref name="glossSynonym.attributes"/>
-      </define>
-
-    </div>
-    <div>
-      <a:documentation> LONG NAME: Glossary Status </a:documentation>
-      <define name="glossStatus.content">
-        <empty/>
-      </define>
-      <define name="glossStatus.attributes">
-        <ref name="data-element-atts"/>
-      </define>
-      <define name="glossStatus.element">
-        <element name="glossStatus" dita:longName="Glossary Status">
-          <a:documentation>Identifies the usage status of a preferred or alternate term. If the status isn't specified, the &lt;glossterm> provides a preferred term and an alternate term provides an
-            allowed term.</a:documentation>
-          <ref name="glossStatus.attlist"/>
-          <ref name="glossStatus.content"/>
-        </element>
-      </define>
-      <define name="glossStatus.attlist" combine="interleave">
-        <ref name="glossStatus.attributes"/>
       </define>
 
     </div>
@@ -499,9 +472,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
           </choice>
         </optional>
         <optional>
-          <ref name="glossStatus"/>
-        </optional>
-        <optional>
           <ref name="glossUsage"/>
         </optional>
         <zeroOrMore>
@@ -556,11 +526,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossSynonym.attlist" combine="interleave">
       <optional>
         <attribute name="class" a:defaultValue="- topic/title concept/title glossentry/glossSynonym "/>
-      </optional>
-    </define>
-    <define name="glossStatus.attlist" combine="interleave">
-      <optional>
-        <attribute name="class" a:defaultValue="- topic/data concept/data glossentry/glossStatus "/>
       </optional>
     </define>
     <define name="glossAlt.attlist" combine="interleave">

@@ -42,7 +42,6 @@
                        "glossAcronym"                                >
 <!ENTITY % glossSynonym
                        "glossSynonym"                                >
-<!ENTITY % glossStatus "glossStatus"                                 >
 <!ENTITY % glossSurfaceForm
                        "glossSurfaceForm"                            >
 <!ENTITY % glossUsage  "glossUsage"                                  >
@@ -120,8 +119,7 @@
 
 <!--                    LONG NAME: Glossary Body                   -->
 <!ENTITY % glossBody.content
-                       "((%glossStatus;)?,
-                         (%glossSurfaceForm;)?,
+                       "((%glossSurfaceForm;)?,
                          (%glossUsage;)?,
                          (%glossSymbol;)*,
                          (%note;)*,
@@ -185,17 +183,6 @@
 >
 <!ELEMENT  glossSynonym %glossSynonym.content;>
 <!ATTLIST  glossSynonym %glossSynonym.attributes;>
-
-
-<!--                    LONG NAME: Glossary Status                 -->
-<!ENTITY % glossStatus.content
-                       "EMPTY"
->
-<!ENTITY % glossStatus.attributes
-              "%data-element-atts;"
->
-<!ELEMENT  glossStatus %glossStatus.content;>
-<!ATTLIST  glossStatus %glossStatus.attributes;>
 
 
 <!--                    LONG NAME: Glossary Surface Form           -->
@@ -296,7 +283,6 @@
 <!ENTITY % glossAlt.content
                        "((%glossAcronym; |
                           %glossSynonym;)?,
-                         (%glossStatus;)?,
                          (%glossUsage;)?,
                          (%note;)*)"
 >
@@ -318,7 +304,6 @@
 <!ATTLIST  glossBody    class CDATA "- topic/body concept/conbody glossentry/glossBody ">
 <!ATTLIST  glossAcronym class CDATA "- topic/title concept/title glossentry/glossAcronym ">
 <!ATTLIST  glossSynonym class CDATA "- topic/title concept/title glossentry/glossSynonym ">
-<!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
 <!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">
 <!ATTLIST  glossSurfaceForm class CDATA "- topic/p concept/p glossentry/glossSurfaceForm ">
 <!ATTLIST  glossSymbol  class CDATA "- topic/image concept/image glossentry/glossSymbol ">
