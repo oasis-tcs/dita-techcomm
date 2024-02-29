@@ -605,14 +605,6 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>glossScopeNote</xmlelement></stentry>
-          <stentry><xmlelement>note</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt></stentry>
-        </strow>
-        <strow>
           <stentry><xmlelement>glossShortForm</xmlelement></stentry>
           <stentry><xmlelement>title</xmlelement></stentry>
           <stentry>yes</stentry>

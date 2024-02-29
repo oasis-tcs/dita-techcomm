@@ -67,9 +67,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossdef">
       <ref name="glossdef.element"/>
     </define>
-    <define name="glossScopeNote">
-      <ref name="glossScopeNote.element"/>
-    </define>
     <define name="glossShortForm">
       <ref name="glossShortForm.element"/>
     </define>
@@ -214,9 +211,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         </optional>
         <optional>
           <ref name="glossUsage"/>
-        </optional>
-        <optional>
-          <ref name="glossScopeNote"/>
         </optional>
         <zeroOrMore>
           <ref name="glossSymbol"/>
@@ -459,52 +453,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
 
     </div>
     <div>
-      <a:documentation> LONG NAME: Glossary Scope Note </a:documentation>
-      <define name="glossScopeNote.content">
-        <zeroOrMore>
-          <ref name="note.cnt"/>
-        </zeroOrMore>
-      </define>
-      <define name="glossScopeNote.attributes">
-        <optional>
-          <attribute name="type">
-            <choice>
-              <value>attention</value>
-              <value>caution</value>
-              <value>danger</value>
-              <value>fastpath</value>
-              <value>important</value>
-              <value>note</value>
-              <value>notice</value>
-              <value>other</value>
-              <value>remember</value>
-              <value>restriction</value>
-              <value>tip</value>
-              <value>warning</value>
-              <value>-dita-use-conref-target</value>
-            </choice>
-          </attribute>
-        </optional>
-        <optional>
-          <attribute name="othertype"/>
-        </optional>
-        <ref name="univ-atts"/>
-      </define>
-      <define name="glossScopeNote.element">
-        <element name="glossScopeNote" dita:longName="Glossary Scope Note">
-          <a:documentation>A clarification of the subject designated by the &lt;glossterm> such as examples of included or excluded companies or products. For instance, a scope note for
-            &#34;Linux&#34; might explain that the term doesn't apply to UNIX products and give some examples of Linux products that are included as well as UNIX products that are
-            excluded.</a:documentation>
-          <ref name="glossScopeNote.attlist"/>
-          <ref name="glossScopeNote.content"/>
-        </element>
-      </define>
-      <define name="glossScopeNote.attlist" combine="interleave">
-        <ref name="glossScopeNote.attributes"/>
-      </define>
-
-    </div>
-    <div>
       <a:documentation> LONG NAME: Glossary Symbol </a:documentation>
       <define name="glossSymbol.content">
         <optional>
@@ -667,11 +615,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossAlt.attlist" combine="interleave">
       <optional>
         <attribute name="class" a:defaultValue="- topic/section concept/section glossentry/glossAlt "/>
-      </optional>
-    </define>
-    <define name="glossScopeNote.attlist" combine="interleave">
-      <optional>
-        <attribute name="class" a:defaultValue="- topic/note concept/note glossentry/glossScopeNote "/>
       </optional>
     </define>
     <define name="glossSurfaceForm.attlist" combine="interleave">

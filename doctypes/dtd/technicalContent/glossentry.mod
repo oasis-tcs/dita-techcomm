@@ -48,8 +48,6 @@
 <!ENTITY % glossSurfaceForm
                        "glossSurfaceForm"                            >
 <!ENTITY % glossUsage  "glossUsage"                                  >
-<!ENTITY % glossScopeNote
-                       "glossScopeNote"                              >
 <!ENTITY % glossSymbol "glossSymbol"                                 >
 <!ENTITY % glossAlt    "glossAlt"                                    >
 
@@ -127,7 +125,6 @@
                        "((%glossStatus;)?,
                          (%glossSurfaceForm;)?,
                          (%glossUsage;)?,
-                         (%glossScopeNote;)?,
                          (%glossSymbol;)*,
                          (%note;)*,
                          (%glossAlt;)*)"
@@ -275,35 +272,6 @@
 <!ATTLIST  glossUsage %glossUsage.attributes;>
 
 
-<!--                    LONG NAME: Glossary Scope Note             -->
-<!ENTITY % glossScopeNote.content
-                       "(%note.cnt;)*"
->
-<!ENTITY % glossScopeNote.attributes
-              "type
-                          (attention |
-                           caution |
-                           danger |
-                           fastpath |
-                           important |
-                           note |
-                           notice |
-                           other |
-                           remember |
-                           restriction |
-                           tip |
-                           warning |
-                           -dita-use-conref-target)
-                                    #IMPLIED
-               othertype
-                          CDATA
-                                    #IMPLIED
-               %univ-atts;"
->
-<!ELEMENT  glossScopeNote %glossScopeNote.content;>
-<!ATTLIST  glossScopeNote %glossScopeNote.attributes;>
-
-
 <!--                    LONG NAME: Glossary Symbol                 -->
 <!ENTITY % glossSymbol.content
                        "((%alt;)?,
@@ -383,7 +351,6 @@
 <!ATTLIST  glossSynonym class CDATA "- topic/title concept/title glossentry/glossSynonym ">
 <!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
 <!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">
-<!ATTLIST  glossScopeNote class CDATA "- topic/note concept/note glossentry/glossScopeNote ">
 <!ATTLIST  glossSurfaceForm class CDATA "- topic/p concept/p glossentry/glossSurfaceForm ">
 <!ATTLIST  glossSymbol  class CDATA "- topic/image concept/image glossentry/glossSymbol ">
 <!ATTLIST  glossUsage   class CDATA "- topic/note concept/note glossentry/glossUsage ">
