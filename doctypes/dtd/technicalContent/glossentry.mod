@@ -56,8 +56,6 @@
                        "glossScopeNote"                              >
 <!ENTITY % glossSymbol "glossSymbol"                                 >
 <!ENTITY % glossAlt    "glossAlt"                                    >
-<!ENTITY % glossAlternateFor
-                       "glossAlternateFor"                           >
 
 <!-- ============================================================= -->
 <!--                    ELEMENT DECLARATIONS                       -->
@@ -391,43 +389,13 @@
                          (%glossStatus;)?,
                          (%glossProperty;)*,
                          (%glossUsage;)?,
-                         (%note;)*,
-                         (%glossAlternateFor;)*)"
+                         (%note;)*)"
 >
 <!ENTITY % glossAlt.attributes
               "%univ-atts;"
 >
 <!ELEMENT  glossAlt %glossAlt.content;>
 <!ATTLIST  glossAlt %glossAlt.attributes;>
-
-
-<!--                    LONG NAME: Glossary - Alternate For        -->
-<!ENTITY % glossAlternateFor.content
-                       "EMPTY"
->
-<!ENTITY % glossAlternateFor.attributes
-              "href
-                          CDATA
-                                    #IMPLIED
-               keyref
-                          CDATA
-                                    #IMPLIED
-               type
-                          CDATA
-                                    #IMPLIED
-               format
-                          CDATA
-                                    #IMPLIED
-               scope
-                          (external |
-                           local |
-                           peer |
-                           -dita-use-conref-target)
-                                    #IMPLIED
-               %univ-atts;"
->
-<!ELEMENT  glossAlternateFor %glossAlternateFor.content;>
-<!ATTLIST  glossAlternateFor %glossAlternateFor.attributes;>
 
 
 
@@ -446,7 +414,6 @@
 <!ATTLIST  glossProperty class CDATA "- topic/data concept/data glossentry/glossProperty ">
 <!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
 <!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">
-<!ATTLIST  glossAlternateFor class CDATA "- topic/xref concept/xref glossentry/glossAlternateFor ">
 <!ATTLIST  glossScopeNote class CDATA "- topic/note concept/note glossentry/glossScopeNote ">
 <!ATTLIST  glossSurfaceForm class CDATA "- topic/p concept/p glossentry/glossSurfaceForm ">
 <!ATTLIST  glossSymbol  class CDATA "- topic/image concept/image glossentry/glossSymbol ">

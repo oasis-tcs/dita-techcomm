@@ -61,9 +61,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossAlt">
       <ref name="glossAlt.element"/>
     </define>
-    <define name="glossAlternateFor">
-      <ref name="glossAlternateFor.element"/>
-    </define>
     <define name="glossBody">
       <ref name="glossBody.element"/>
     </define>
@@ -664,9 +661,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
         <zeroOrMore>
           <ref name="note"/>
         </zeroOrMore>
-        <zeroOrMore>
-          <ref name="glossAlternateFor"/>
-        </zeroOrMore>
       </define>
       <define name="glossAlt.attributes">
         <ref name="univ-atts"/>
@@ -681,48 +675,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
       </define>
       <define name="glossAlt.attlist" combine="interleave">
         <ref name="glossAlt.attributes"/>
-      </define>
-
-    </div>
-    <div>
-      <a:documentation> LONG NAME: Glossary - Alternate For </a:documentation>
-      <define name="glossAlternateFor.content">
-        <empty/>
-      </define>
-      <define name="glossAlternateFor.attributes">
-        <optional>
-          <attribute name="href"/>
-        </optional>
-        <optional>
-          <attribute name="keyref"/>
-        </optional>
-        <optional>
-          <attribute name="type"/>
-        </optional>
-        <optional>
-          <attribute name="format"/>
-        </optional>
-        <optional>
-          <attribute name="scope">
-            <choice>
-              <value>external</value>
-              <value>local</value>
-              <value>peer</value>
-              <value>-dita-use-conref-target</value>
-            </choice>
-          </attribute>
-        </optional>
-        <ref name="univ-atts"/>
-      </define>
-      <define name="glossAlternateFor.element">
-        <element name="glossAlternateFor" dita:longName="Glossary - Alternate For">
-          <a:documentation>The &lt;glossAlternateFor> element indicates when a variant term has a relationship to another variant term as well as to the preferred term.</a:documentation>
-          <ref name="glossAlternateFor.attlist"/>
-          <ref name="glossAlternateFor.content"/>
-        </element>
-      </define>
-      <define name="glossAlternateFor.attlist" combine="interleave">
-        <ref name="glossAlternateFor.attributes"/>
       </define>
 
     </div>
@@ -783,11 +735,6 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Glossary Entry//EN"
     <define name="glossAlt.attlist" combine="interleave">
       <optional>
         <attribute name="class" a:defaultValue="- topic/section concept/section glossentry/glossAlt "/>
-      </optional>
-    </define>
-    <define name="glossAlternateFor.attlist" combine="interleave">
-      <optional>
-        <attribute name="class" a:defaultValue="- topic/xref concept/xref glossentry/glossAlternateFor "/>
       </optional>
     </define>
     <define name="glossScopeNote.attlist" combine="interleave">

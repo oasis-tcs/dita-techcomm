@@ -7,7 +7,6 @@
    <keydef href="technicalContent/glossdef.dita" keys="elements-glossdef"/>
    <keydef href="technicalContent/glossAcronym.dita" keys="elements-glossAcronym"/>
    <keydef href="technicalContent/glossAlt.dita" keys="elements-glossAlt"/>
-   <keydef href="technicalContent/glossAlternateFor.dita" keys="elements-glossAlternateFor"/>
    <keydef href="technicalContent/glossBody.dita" keys="elements-glossBody"/>
    <keydef href="technicalContent/glossPartOfSpeech.dita" keys="elements-glossPartOfSpeech"/>
    <keydef href="technicalContent/glossProperty.dita" keys="elements-glossProperty"/>

@@ -5,7 +5,6 @@
   <topicref href="containers/glossentry-elements.dita">
    <topicref keyref="elements-glossAcronym"/>
    <topicref keyref="elements-glossAlt"/>
-   <topicref keyref="elements-glossAlternateFor"/>
    <topicref keyref="elements-glossBody"/>
     <topicref keyref="elements-glossdef"/>
     <topicref keyref="elements-glossentry"/>
