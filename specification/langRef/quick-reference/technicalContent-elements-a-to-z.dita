@@ -88,16 +88,9 @@
         <sli><xref keyref="elements-fragment"/></sli>
         <sli><xref keyref="elements-fragref"/></sli>
         <sli><xref keyref="elements-frontmatter"/></sli>
-        <sli><xref keyref="elements-glossAbbreviation"/></sli>
         <sli><xref keyref="elements-glossAcronym"/></sli>
         <sli><xref keyref="elements-glossAlt"/></sli>
-        <sli><xref keyref="elements-glossAlternateFor"/></sli>
         <sli><xref keyref="elements-glossBody"/></sli>
-        <sli><xref keyref="elements-glossPartOfSpeech"/></sli>
-        <sli><xref keyref="elements-glossProperty"/></sli>
-        <sli><xref keyref="elements-glossScopeNote"/></sli>
-        <sli><xref keyref="elements-glossShortForm"/></sli>
-        <sli><xref keyref="elements-glossStatus"/></sli>
         <sli><xref keyref="elements-glossSurfaceForm"/></sli>
         <sli><xref keyref="elements-glossSymbol"/></sli>
         <sli><xref keyref="elements-glossSynonym"/></sli>

@@ -64,27 +64,14 @@
   &lt;glossterm>USB flash drive&lt;/glossterm>
   &lt;glossdef>A small portable drive.&lt;/glossdef>
   &lt;glossBody>
-    &lt;glossPartOfSpeech value="noun"/>
     &lt;glossUsage>Do not use this term in upper case (for example,  in "USB Flash Drive")
       because that suggests a trademark.&lt;/glossUsage>
     &lt;glossAlt>
       &lt;glossAcronym>UFD&lt;/glossAcronym>
-      &lt;glossStatus value="prohibited"/>
     &lt;/glossAlt>
     &lt;glossAlt id="memoryStick">
       &lt;glossSynonym>memory stick&lt;/glossSynonym>
       &lt;glossUsage>This is a colloquial term.&lt;/glossUsage>
-    &lt;/glossAlt>
-    &lt;glossAlt>
-      &lt;glossAbbreviation>stick&lt;/glossAbbreviation>
-      &lt;glossStatus value="prohibited"/>
-      &lt;glossUsage>This is too colloquial.&lt;/glossUsage>
-      &lt;glossAlternateFor href="#usbfd/memoryStick"/>
-    &lt;/glossAlt>
-    &lt;glossAlt>
-      &lt;glossAbbreviation>flash&lt;/glossAbbreviation>
-      &lt;glossStatus value="prohibited"/>
-      &lt;glossUsage>This short form is ambiguous.&lt;/glossUsage>
     &lt;/glossAlt>
   &lt;/glossBody><b>
 &lt;/glossentry>

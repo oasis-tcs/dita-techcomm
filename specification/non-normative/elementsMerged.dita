@@ -2,50 +2,38 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="elements" xml:lang="en-us">
   <title>Element-by-element recommendations for translators</title>
-  <shortdesc>This topic contains a list of all OASIS DITA elements that are
-    available in the edition. It includes recommendations on whether the
-    element contents are likely to be suitable for translation and whether
-    the element has attributes whose values are likely to be suitable for
-    translation. Examples of content that is not suitable for translation
-    include code fragments and mailing addresses.</shortdesc>
+  <shortdesc>This topic contains a list of all OASIS DITA elements that are available in the
+    edition. It includes recommendations on whether the element contents are likely to be suitable
+    for translation and whether the element has attributes whose values are likely to be suitable
+    for translation. Examples of content that is not suitable for translation include code fragments
+    and mailing addresses.</shortdesc>
   <refbody>
     <section id="notes">
       <title>Notes on the tables below</title>
       <ul>
-        <li>Note that an element might be a block element in one context
-          and an inline element in another. In addition, specialized
-          element types might be rendered in a way that varies from their
-          specialization base. Accordingly, the distinctions presented in
-          the tables are provided only as a guide to known behavior with
-          the base DITA. For element specializations that are not
-          distributed by OASIS, the suggested default is to fall back to
-          the closest ancestor element that is part of the OASIS
-          distribution.</li>
-        <li>For all elements, the <xmlatt>translate</xmlatt> attribute
-          overrides the suggested defaults specified in the tables
-          below.</li>
-        <li id="subflow">Certain block-level elements might appear in the
-          middle of a translation segment. They are considered
-            <term>subflow</term> elements in regard to translation. When
-          located in the middle of a translation segment, these element
-          should not be translated as part of that segment. Whenever
-          possible, such elements should be placed only at sentence
-          boundaries in order to aid translation. The subflow elements in
-          base DITA are <xmlelement>draft-comment</xmlelement>,
-            <xmlelement>fn</xmlelement>, <xmlelement>idex-see</xmlelement>,
-            <xmlelement>index-see-also</xmlelement>,
-            <xmlelement>indexterm</xmlelement>, and
-            <xmlelement>required-cleanup</xmlelement></li>
-        <li>The <xmlelement>keyword</xmlelement> element (as well as
-          specializations of <xmlelement>keyword</xmlelement>) is an
-          inline, phrase-like element when it appears in the body of a
-          document. It can also appear in the
-            <xmlelement>keywords</xmlelement> element in
-            <xmlelement>topicmeta</xmlelement> (for maps) or in the
-            <xmlelement>prolog</xmlelement> (for topic). When it appears in
-          the <xmlelement>keywords</xmlelement> element, each
-            <xmlelement>keyword</xmlelement> represents an individual
-          segment. In that location, <xmlelement>keyword</xmlelement> is
+        <li>Note that an element might be a block element in one context and an inline element in
+          another. In addition, specialized element types might be rendered in a way that varies
+          from their specialization base. Accordingly, the distinctions presented in the tables are
+          provided only as a guide to known behavior with the base DITA. For element specializations
+          that are not distributed by OASIS, the suggested default is to fall back to the closest
+          ancestor element that is part of the OASIS distribution.</li>
+        <li>For all elements, the <xmlatt>translate</xmlatt> attribute overrides the suggested
+          defaults specified in the tables below.</li>
+        <li id="subflow">Certain block-level elements might appear in the middle of a translation
+          segment. They are considered <term>subflow</term> elements in regard to translation. When
+          located in the middle of a translation segment, these element should not be translated as
+          part of that segment. Whenever possible, such elements should be placed only at sentence
+          boundaries in order to aid translation. The subflow elements in base DITA are
+            <xmlelement>draft-comment</xmlelement>, <xmlelement>fn</xmlelement>,
+            <xmlelement>idex-see</xmlelement>, <xmlelement>index-see-also</xmlelement>,
+            <xmlelement>indexterm</xmlelement>, and <xmlelement>required-cleanup</xmlelement></li>
+        <li>The <xmlelement>keyword</xmlelement> element (as well as specializations of
+            <xmlelement>keyword</xmlelement>) is an inline, phrase-like element when it appears in
+          the body of a document. It can also appear in the <xmlelement>keywords</xmlelement>
+          element in <xmlelement>topicmeta</xmlelement> (for maps) or in the
+            <xmlelement>prolog</xmlelement> (for topic). When it appears in the
+            <xmlelement>keywords</xmlelement> element, each <xmlelement>keyword</xmlelement>
+          represents an individual segment. In that location, <xmlelement>keyword</xmlelement> is
           considered a subflow element.</li>
       </ul>
     </section>
@@ -59,54 +47,46 @@
         </dlentry>
         <dlentry>
           <dt>Specialization base</dt>
-          <dd>The element from which the current element is specialized.
-            This column only appears in tables for the domain
-            elements.</dd>
+          <dd>The element from which the current element is specialized. This column only appears in
+            tables for the domain elements.</dd>
         </dlentry>
         <dlentry>
           <dt>Same behavior as specialization base?</dt>
-          <dd>Indicates whether the element has the same behaviors in
-            regard to translation as its specialization base. The behaviors
-            are whether the element is formatted as a single block or as an
-            inline element, whether the element represents a complete
-            translatable segment, and whether the element contains
-            translatable content. This column only appears in tables for
-            the domain elements.</dd>
+          <dd>Indicates whether the element has the same behaviors in regard to translation as its
+            specialization base. The behaviors are whether the element is formatted as a single
+            block or as an inline element, whether the element represents a complete translatable
+            segment, and whether the element contains translatable content. This column only appears
+            in tables for the domain elements.</dd>
         </dlentry>
         <!--<dlentry><dt>Block/inline presentation</dt><dd>Indicates whether the element is rendered in output as a single block or as an inline element. Metadata typically is not rendered, and so metadata elements are listed as <keyword>n/a (metadata).</keyword></dd></dlentry>-->
         <dlentry>
           <dt>Block/inline translation</dt>
-          <dd>Indicates whether the element represents a complete
-            translatable
+          <dd>Indicates whether the element represents a complete translatable
             segment.<!-- For example, the element <xmlelement>cmd</xmlelement> is presented inline with other elements, but it represents a complete translation segment.--></dd>
         </dlentry>
         <dlentry>
           <dt>Translatable content?</dt>
           <dd>Whether the element contains one or both of the following:<ul>
               <li>Text content that can be translated</li>
-              <li>Child elements that contain content that can be
-                translated</li>
+              <li>Child elements that contain content that can be translated</li>
             </ul></dd>
         </dlentry>
         <dlentry>
           <dt>Notes</dt>
-          <dd>This column contains any additional information, including
-            the following items.This column only appears in tables when it
-            is needed.<ul>
-              <li>Whether the element has any attributes with values that
-                might need translation</li>
-              <li>If specializations of the element might need
-                translation,</li>
-              <li>If the element is a "subflow" element for the purposes of
+          <dd>This column contains any additional information, including the following items.This
+            column only appears in tables when it is needed.<ul>
+              <li>Whether the element has any attributes with values that might need
                 translation</li>
+              <li>If specializations of the element might need translation,</li>
+              <li>If the element is a "subflow" element for the purposes of translation</li>
             </ul></dd>
         </dlentry>
       </dl>
     </section>
     <section id="bookmap">
       <title>Bookmap elements</title>
-      <p>The following table contains information about the bookmap
-        specialization. There are no translatable attributes.</p>
+      <p>The following table contains information about the bookmap specialization. There are no
+        translatable attributes.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -539,8 +519,8 @@
     </section>
     <section id="concept">
       <title>Concept elements</title>
-      <p>The following table contains information about the concept
-        specialization. There are no translatable attributes.</p>
+      <p>The following table contains information about the concept specialization. There are no
+        translatable attributes.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -574,8 +554,7 @@
     </section>
     <section id="glossentry">
       <title>Glossary entry elements</title>
-      <p>The following table contains information about the glossary entry
-        specialization.</p>
+      <p>The following table contains information about the glossary entry specialization.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -585,14 +564,6 @@
           <stentry>Translatable content?</stentry>
           <stentry>Notes</stentry>
         </sthead>
-        <strow>
-          <stentry><xmlelement>glossAbbreviation</xmlelement></stentry>
-          <stentry><xmlelement>title</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
         <strow>
           <stentry><xmlelement>glossAcronym</xmlelement></stentry>
           <stentry><xmlelement>title</xmlelement></stentry>
@@ -610,17 +581,8 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>glossAlternateFor</xmlelement></stentry>
-          <stentry><xmlelement>xref</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>n/a (empty element)</stentry>
-          <stentry>n/a (empty element)</stentry>
-          <stentry/>
-        </strow>
-        <strow>
           <stentry><xmlelement>glossbody</xmlelement></stentry>
-          <stentry><xmlelement>body</xmlelement>,
-              <xmlelement>conbody</xmlelement></stentry>
+          <stentry><xmlelement>body</xmlelement>, <xmlelement>conbody</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
@@ -636,51 +598,10 @@
         </strow>
         <strow>
           <stentry><xmlelement>glossentry</xmlelement></stentry>
-          <stentry><xmlelement>topic</xmlelement>,
-              <xmlelement>concept</xmlelement></stentry>
+          <stentry><xmlelement>topic</xmlelement>, <xmlelement>concept</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>glossPartOfSpeech</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>glossProperty</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>glossScopeNote</xmlelement></stentry>
-          <stentry><xmlelement>note</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt></stentry>
-        </strow>
-        <strow>
-          <stentry><xmlelement>glossShortForm</xmlelement></stentry>
-          <stentry><xmlelement>title</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>yes</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xmlelement>glossStatus</xmlelement></stentry>
-          <stentry><xmlelement>data</xmlelement></stentry>
-          <stentry>yes</stentry>
-          <stentry>block</stentry>
-          <stentry>no</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -695,8 +616,7 @@
           <stentry><xmlelement>glossSymbol</xmlelement></stentry>
           <stentry><xmlelement>image</xmlelement></stentry>
           <stentry>yes</stentry>
-          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise
-            inline</stentry>
+          <stentry>block when <xmlatt>placement</xmlatt>= break, otherwise inline</stentry>
           <stentry>yes</stentry>
           <stentry/>
         </strow>
@@ -722,15 +642,14 @@
           <stentry>yes</stentry>
           <stentry>block</stentry>
           <stentry>yes</stentry>
-          <stentry><xmlatt>othertype</xmlatt>  can specify translatable
-            content.</stentry>
+          <stentry><xmlatt>othertype</xmlatt> can specify translatable content.</stentry>
         </strow>
       </simpletable>
     </section>
     <section id="glossgroup">
       <title>Glossary group elements</title>
-      <p>The following table contains information about the glossary group
-        specialization. There are no translatable attributes.</p>
+      <p>The following table contains information about the glossary group specialization. There are
+        no translatable attributes.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -750,8 +669,8 @@
     </section>
     <section id="reference">
       <title>Reference elements</title>
-      <p>The following table contains information about the reference
-        specialization. There are no translatable attributes.</p>
+      <p>The following table contains information about the reference specialization. There are no
+        translatable attributes.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -855,8 +774,8 @@
     </section>
     <section id="task">
       <title>Task elements</title>
-      <p>The following table contains information about the task
-        specialization. There are no translatable attributes.</p>
+      <p>The following table contains information about the task specialization. There are no
+        translatable attributes.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1058,8 +977,8 @@
     </section>
     <section id="troubleshooting">
       <title>Troubleshooting elements</title>
-      <p>The following table contains information about the troubleshooting
-        specialization. There are no translatable attributes.</p>
+      <p>The following table contains information about the troubleshooting specialization. There
+        are no translatable attributes.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1121,9 +1040,8 @@
     </section>
     <section id="abbrev-d">
       <title>Abbreviated form domain (abbrev-d)</title>
-      <p>The following table contains information about the abbreviated
-        form domain. There are no translatable attributes in this
-        domain.</p>
+      <p>The following table contains information about the abbreviated form domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1143,8 +1061,8 @@
     </section>
     <section id="equation-d">
       <title>Equation domain (equation-d)</title>
-      <p>The following table contains information about the equation
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the equation domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1185,9 +1103,8 @@
     </section>
     <section id="glossref-d">
       <title>Glossary reference domain (glossref-d)</title>
-      <p>The following table contains information about the glossary
-        reference domain. There are no translatable attributes in this
-        domain.</p>
+      <p>The following table contains information about the glossary reference domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1207,8 +1124,8 @@
     </section>
     <section id="hw-d">
       <title>Hardware domain (hw-d )</title>
-      <p>The following table contains information about the hardware
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the hardware domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1235,8 +1152,8 @@
     </section>
     <section id="markup-d">
       <title>Markup domain (markup-d)</title>
-      <p>The following table contains information about the markup domain.
-        There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the markup domain. There are no translatable
+        attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1256,8 +1173,8 @@
     </section>
     <section id="mathml-d">
       <title>MathML domain (mathml-d)</title>
-      <p>The following table contains information about the MathML domain.
-        There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the MathML domain. There are no translatable
+        attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1284,8 +1201,8 @@
     </section>
     <section id="pr-d">
       <title>Programming domain (pr-d)</title>
-      <p>The following table contains information about the programming
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the programming domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1368,9 +1285,8 @@
     </section>
     <section id="relmgmt-d">
       <title>Release management domain (relmgmt-d)</title>
-      <p>The following table contains information about the release
-        management domain. There are no translatable attributes in this
-        domain.</p>
+      <p>The following table contains information about the release management domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable id="simpletable_relmgmt">
         <sthead>
           <stentry>Element name</stentry>
@@ -1460,8 +1376,8 @@
     </section>
     <section id="sw-d">
       <title>Software domain (sw-d)</title>
-      <p>The following table contains information about the software
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the software domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable id="simpletable_2DF27494E20F4CA8A90E184026A397B4">
         <sthead>
           <stentry>Element name</stentry>
@@ -1530,8 +1446,8 @@
     </section>
     <section id="svg-d">
       <title>SVG domain (svg-d)</title>
-      <p>The following table contains information about the SVG domain.
-        There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the SVG domain. There are no translatable
+        attributes in this domain.</p>
       <simpletable id="simpletable_svg">
         <sthead>
           <stentry>Element name</stentry>
@@ -1558,8 +1474,8 @@
     </section>
     <section id="syntaxdiagram-d">
       <title>Syntax diagram domain (syntaxdiagram-d)</title>
-      <p>The following table contains information about the syntax diagram
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the syntax diagram domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1684,8 +1600,8 @@
     </section>
     <section id="ui-d">
       <title>User interface domain (ui-d)</title>
-      <p>The following table contains information about the user interface
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the user interface domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1733,8 +1649,8 @@
     </section>
     <section id="xml-d">
       <title>XML mention domain (xml-d)</title>
-      <p>The following table contains information about the XML mention
-        domain. There are no translatable attributes in this domain.</p>
+      <p>The following table contains information about the XML mention domain. There are no
+        translatable attributes in this domain.</p>
       <simpletable>
         <sthead>
           <stentry>Element name</stentry>
@@ -1745,56 +1661,49 @@
         </sthead>
         <strow>
           <stentry><xmlelement>numcharref</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>parameterentity</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>textentity</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>xmlatt</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>xmlelement</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>xmlnsname</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>xmlpi</xmlelement></stentry>
-          <stentry><xmlelement>keyword</xmlelement>,
-              <xmlelement>markupname</xmlelement></stentry>
+          <stentry><xmlelement>keyword</xmlelement>, <xmlelement>markupname</xmlelement></stentry>
           <stentry>no</stentry>
           <stentry>inline</stentry>
           <stentry>no</stentry>

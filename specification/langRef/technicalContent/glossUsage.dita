@@ -41,7 +41,6 @@
   &lt;glossterm>soft drink&lt;/glossterm>
   &lt;glossdef>A nonalcoholic drink, especially one that is carbonated.&lt;/glossdef>
   &lt;glossBody>
-    &lt;glossPartOfSpeech value="noun"/>
     &lt;glossAlt>
       &lt;glossSynonym>pop&lt;/glossSynonym>
       <b>&lt;glossUsage>Used primarily in the North and Midwest&lt;/glossUsage></b>
