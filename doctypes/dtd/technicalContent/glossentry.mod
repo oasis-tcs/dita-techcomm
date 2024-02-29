@@ -40,8 +40,6 @@
 <!ENTITY % glossBody   "glossBody"                                   >
 <!ENTITY % glossAcronym
                        "glossAcronym"                                >
-<!ENTITY % glossShortForm
-                       "glossShortForm"                              >
 <!ENTITY % glossSynonym
                        "glossSynonym"                                >
 <!ENTITY % glossStatus "glossStatus"                                 >
@@ -160,33 +158,6 @@
 >
 <!ELEMENT  glossAcronym %glossAcronym.content;>
 <!ATTLIST  glossAcronym %glossAcronym.attributes;>
-
-
-<!--                    LONG NAME: Glossary Short Form             -->
-<!ENTITY % glossShortForm.content
-                       "(#PCDATA |
-                         %keyword; |
-                         %term; |
-                         %text; |
-                         %tm; |
-                         %ph;)*"
->
-<!ENTITY % glossShortForm.attributes
-              "%id-atts;
-               %localization-atts;
-               base
-                          CDATA
-                                    #IMPLIED
-               %base-attribute-extensions;
-               outputclass
-                          CDATA
-                                    #IMPLIED
-               rev
-                          CDATA
-                                    #IMPLIED"
->
-<!ELEMENT  glossShortForm %glossShortForm.content;>
-<!ATTLIST  glossShortForm %glossShortForm.attributes;>
 
 
 <!--                    LONG NAME: Glossary Synonym                -->
@@ -324,7 +295,6 @@
 <!--                    LONG NAME: Glossary Alternate Form         -->
 <!ENTITY % glossAlt.content
                        "((%glossAcronym; |
-                          %glossShortForm; |
                           %glossSynonym;)?,
                          (%glossStatus;)?,
                          (%glossUsage;)?,
@@ -347,7 +317,6 @@
 <!ATTLIST  glossdef     class CDATA "- topic/abstract concept/abstract glossentry/glossdef ">
 <!ATTLIST  glossBody    class CDATA "- topic/body concept/conbody glossentry/glossBody ">
 <!ATTLIST  glossAcronym class CDATA "- topic/title concept/title glossentry/glossAcronym ">
-<!ATTLIST  glossShortForm class CDATA "- topic/title concept/title glossentry/glossShortForm ">
 <!ATTLIST  glossSynonym class CDATA "- topic/title concept/title glossentry/glossSynonym ">
 <!ATTLIST  glossStatus  class CDATA "- topic/data concept/data glossentry/glossStatus ">
 <!ATTLIST  glossAlt     class CDATA "- topic/section concept/section glossentry/glossAlt ">
