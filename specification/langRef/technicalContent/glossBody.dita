@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossBody" xml:lang="en-us">
 <title><xmlelement>glossBody</xmlelement></title>
-<shortdesc>The <xmlelement>glossBody</xmlelement> element contains information about the term
-    specified in the topic's <xmlelement>glossterm</xmlelement> element, such as the part of speech
-    and variants for the term.</shortdesc>
+<shortdesc>The <xmlelement>glossBody</xmlelement> element contains information about the term <ph
+      rev="review-a-2024">that is</ph> specified in the <xmlelement>glossterm</xmlelement> element,
+      <ph rev="review-a-2024">such as a acronym,  synonyms, or usage notes.</ph></shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossBody</xmlelement></indexterm>
             <indexterm>glossentry
@@ -24,9 +24,8 @@
       </section>
       <example id="example" otherprops="examples">
          <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossBody</xmlelement> element contains the part of
-        speech and variant forms for the term:</p>
+      <p>The following code sample shows how the <xmlelement>glossBody</xmlelement> element <ph
+          rev="review-a-2024">containss a synonym</ph>  for the term:</p>
       <codeblock>&lt;glossentry id="sport-drink">
     &lt;glossterm>Sport drink&lt;/glossterm>
     &lt;glossdef>A soft drink designed or marketed for consumption in

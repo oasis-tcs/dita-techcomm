@@ -4,8 +4,9 @@
 <reference id="glossUsage" xml:lang="en-us">
   <title><xmlelement>glossUsage</xmlelement></title>
   <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about how to use
-    the term specified in the topic's <xmlelement>glossterm</xmlelement> element or any of its
-    alternative forms specified within a <xmlelement>glossAlt</xmlelement> element.</shortdesc>
+    the term <ph rev="review-a-2024">that is</ph> specified in the
+      <xmlelement>glossterm</xmlelement> element. It also can be used to provide usage information
+    for acronyms or synonyms.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,16 +22,8 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
-      <draft-comment author="dawnstevens">Although I realize the element is specialized from Note, I
-        question the need to point out the type and othertype attributes; they don't seem to me to
-        have any meaning in the content of a usage note. A usage note is type usage note, in my
-        mind. Why would anyone specify any type or othertype?</draft-comment>
-      <draft-comment author="robander" time="Jan 18, 2024">For every attribute that is defined, we
-        need to include it in the attribute list, whether we expect it to be used or not. If we want
-        to modify this (but not remove the attributes), then we need to modify the conref to "note"
-        so that we pull in the attribute list, but then add an exception saying that these
-        attributes will not typically be used, that the type is expected to be a scope usage
-        note.</draft-comment>
+      <!--<draft-comment author="dawnstevens">Although I realize the element is specialized from Note, I question the need to point out the type and othertype attributes; they don't seem to me to have any meaning in the content of a usage note. A usage note is type usage note, in my mind. Why would anyone specify any type or othertype?</draft-comment>-->
+      <!--<draft-comment author="robander" time="Jan 18, 2024">For every attribute that is defined, we need to include it in the attribute list, whether we expect it to be used or not. If we want to modify this (but not remove the attributes), then we need to modify the conref to "note" so that we pull in the attribute list, but then add an exception saying that these attributes will not typically be used, that the type is expected to be a scope usage note.</draft-comment>-->
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">

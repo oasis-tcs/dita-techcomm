@@ -17,16 +17,14 @@
 <refbody>
     <section id="usage-information">
       <title>Usage information</title>
-      <p>The <xmlelement>abbreviated-form</xmlelement> element typically is
-        used in conjunction with a glossary entry topic that defines a term
-        and an abbreviated form of that term. The glossary entry topic
-        might also provide a surface form that specifies both the term and
-        the abbreviation. The surface form is intended to be rendered on
-        first use or in introductory contexts where the term might be
-        unfamiliar to a reader. In other contexts, processors typically
-        render the abbreviated form of the term. Note that the definition
-        of an introductory context will differ for every deliverable format
-        and is highly processor-specific.</p>
+      <p>The <xmlelement>abbreviated-form</xmlelement> element typically is used in conjunction with
+        a glossary entry topic that defines a term and an <ph rev="review-a-2024">acronym</ph>. The
+        glossary entry topic might also provide a surface form that specifies both the term and the
+          <ph rev="review-a-2024">acronym</ph>. The surface form is intended to be rendered on first
+        use or in introductory contexts where the term might be unfamiliar to a reader. In other
+        contexts, processors typically render the abbreviated form of the term. Note that the
+        definition of an introductory context will differ for every deliverable format and is highly
+        processor-specific.</p>
       <p>For instance, a process composing a book deliverable might render
         the surface form of a term on the first reference to the
           <xmlelement>glossentry</xmlelement> topic within the book or for
@@ -39,9 +37,7 @@
       <p>See <xref
           href="../../archSpec/technicalContent/rendering-of-abbreviated-form-elements.dita"
         />.</p>
-      <!--<p>For instance, if an <xmlelement>abbreviated-form</xmlelement> element with the attribute <codeph>keyref="abs"</codeph> provided the first occurrence of the ABS term within a book, the sentence could be rendered as follows:</p><lq>"The Anti-lock Brake System (ABS) will prevent the car from skidding in adverse weather conditions."</lq><p>If the ABS term had appeared previously within the book, the same sentence could instead be rendered as follows:</p><lq>"The ABS will prevent the car from skidding in adverse weather conditions."</lq>-->
     </section>
-    <!--<section id="processing-expectations"><title>Processing expectations</title><draft-comment author="rodaande" time="13 December 2022">Similar to above -\- this element has a lot of associated processing, enough for an architectural topic; this section likely should include a link to that topic and leave it at that?</draft-comment></section>-->
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>abbreviated-form</xmlelement> element is specialized from
@@ -75,17 +71,15 @@
         <dl>
           <dlentry>
             <dt><xmlelement>glossSurfaceform</xmlelement></dt>
-            <dd>Defines the term as it should be rendered in an
-              introductory context. Typically this is the long form of a
-              term, followed by an abbreviation or acronym. Note that other
-              languages often do not follow the same conventions as
-              English.</dd>
+            <dd>Defines the term as it should be rendered <ph rev="review-a-2024">on first use</ph>.
+              Typically this is the long form of a term, followed by an abbreviation or acronym.
+              Note that other languages often do not follow the same conventions as English.</dd>
           </dlentry>
           <dlentry>
             <dt><xmlelement>glossAcronym</xmlelement></dt>
-            <dd>Defines the terms as it should be rendered in a
-              non-introductory context. Typically this is the acronym or
-              abbreviation that is associated with the term.</dd>
+            <dd>Defines the terms as it should be rendered <ph rev="review-a-2024">on second or
+                later us</ph>. Typically this is the acronym or abbreviation that is associated with
+              the term.</dd>
           </dlentry>
           <dlentry>
             <dt><xmlelement>glossterm</xmlelement></dt>

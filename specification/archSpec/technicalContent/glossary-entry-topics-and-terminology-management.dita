@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="glossary-entry-topics-and-terminology-management">
-    <title>Glossary entry topics and terminology management</title>
-    <shortdesc></shortdesc>
-    <conbody>
-        <p></p>
-    </conbody>
+<concept id="glossary-entry-topics-and-terminology-management" rev="review-a-2024">
+    <title>Usage of glossary entry topics</title>
+    <shortdesc>Glossary entry topics are designed for several purposes. In addition to providing the
+        basis for glossaries, they also can be used in conjunction with the abbreviated-form domain
+        to provide different renderings of terms on first and later usage.</shortdesc>
 </concept>

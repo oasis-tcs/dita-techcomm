@@ -2,12 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossAlt" xml:lang="en-us">
   <title><xmlelement>glossAlt</xmlelement></title>
-  <abstract>
-    <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains information about a variant
-      for the term specified in the topic's <xmlelement>glossterm</xmlelement> element. A variant
-      might include an acronym, abbreviation, or shortened form of the term, as well as synonyms or
-      other alternate terms.</shortdesc>
-  </abstract>
+  <shortdesc>The <xmlelement>glossAlt</xmlelement> element contains information about a variant for
+    the term<ph rev="review-a-2024"> that is</ph> specified in the
+      <xmlelement>glossterm</xmlelement> element. A variant might include an acronym<ph
+      rev="review-a-2024"> or a synonym</ph>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -27,9 +25,6 @@
         own <xmlelement>glossAlt</xmlelement> element. The <xmlelement>glossUsage</xmlelement>
         element can be used within <xmlelement>glossAlt</xmlelement> to indicate when use of the
         alternate term is appropriate.</p>
-      <note id="translation">A list of alternative terms is specific to the language, so the
-        translation of a <xmlelement>glossentry</xmlelement> topic might result in empty elements
-        within a <xmlelement>glossAlt</xmlelement> container.</note>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -43,7 +38,7 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>The following code samples shows how a glossary entry topic might provide alternative forms
+      <p>The following code sample shows how a glossary entry topic might provide alternative forms
         of the term.</p>
       <codeblock>&lt;glossentry id="usa">
   &lt;glossterm>United States of America&lt;/glossterm>
