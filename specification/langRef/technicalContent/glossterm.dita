@@ -3,8 +3,8 @@
  "reference.dtd">
 <reference id="glossterm" xml:lang="en-us">
 <title><xmlelement>glossterm</xmlelement></title>
-<shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the term addressed within the
-      <xmlelement>glossentry</xmlelement> topic.</shortdesc>
+<shortdesc>The <xmlelement>glossterm</xmlelement> element specifies the term <ph rev="review-a-2024"
+      >that is defined by the glossary entry</ph> topic.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>terms</indexterm></indexterm><indexterm>glossentry elements<indexterm><xmlelement>glossterm</xmlelement></indexterm></indexterm>
@@ -22,7 +22,8 @@
       <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample shows how the <xmlelement>glossterm</xmlelement> element
-        specifies the term addressed within the <xmlelement>glossentry</xmlelement> topic:</p>
+        specifies the term <ph rev="review-a-2024">that is defined in the</ph>
+        <xmlelement>glossentry</xmlelement> topic:</p>
       <codeblock>&lt;glossentry id="css">
     <b>&lt;glossterm>cascading style sheets&lt;/glossterm></b>
     &lt;glossdef>Cascading Style Sheets is a style sheet language that is used

@@ -17,35 +17,25 @@
   <refbody>
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
-      <p>Because the glossary entry specialization is designed for the
-        larger task of terminology management, it contains many elements
-        that are not intended to be rendered when a glossary is generated.
-        In addition, when a collections of glossary entry topics are
-        rendered as a guidance for terminology management, generated text
-        might be required for ease of reading. Specialized style sheets and
+      <p>Because the glossary entry specialization is designed for <ph rev="review-a-2024">multiple
+          purposes</ph>, it contains elements that are not intended to be rendered when a glossary
+        is generated. In addition, when a collection of glossary entry topics <ph
+          rev="review-a-2024">is</ph> rendered as <ph rev="review-a-2024">authoring guidance</ph>,
+        generated text might be required for ease of reading. Specialized style sheets and
         processing are needed to ensure useful output.</p>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
       <p>Processing expectations for glossary entry topics are highly implementation-specific and
         will depend on the output format.</p>
-      <p>The typical processing for books is to sort and group glossary entries based on the
-        localized term, so a back-of-the-book glossary can contain a collated list of terms with the
-        definitions of the individual senses of each term indented under the term. The glossary can
-        have a different organization in different languages depending on the translation of the
-          terms.<draft-comment author="dawnstevens">The phrasing of the first sentence suggests to
-          me that we expect the processor to automatically sort the terms alphabetically. Should we
-          rephrase?</draft-comment><draft-comment author="robander" time="Jan 18 2024">Agreed, I
-          don't know of tools that do that now and the spec should not imply that it is "expected" –
-          that said it is certainly a valid implementation, so it could be described like the next
-          paragraph, "one possible implementation</draft-comment></p>
-      <p>One possible implementation of a glossary in online processing is to associate a hotspot
-        for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
-        on hover or click. A possible implementation in PDF processing is to define a first-use
-        occurrence form of the term with its acronym and use it in conjunction with
-          <xmlelement>abbreviated-form</xmlelement> to render a spell-out version of the term with
-        its acronym on first use within an output, while rendering the acronym in all subsequent
-        locations.</p>
+      <p rev="review-a-2024">For HTML-based output formats, one possible implementation of glossary
+        entry topics is to generate hyperlinks for <xmlelement>term</xmlelement> element that are
+        associated by key reference with the glossary entry topic. The term definition is displayed
+        when someone hovers over or clicks on the hyperlink.</p>
+      <p rev="review-a-2024">For PDF output, one possible implementation of glossary entry topics is
+        to render acronyms or expanded acronyms for <xmlelement>abbreviated-form</xmlelement>
+        elements that are associated by key reference with the glossary entry topics. The surface
+        form is rendered on first usage, and the acronym is rendered on 2nd or later usage.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

@@ -3,10 +3,9 @@
  "reference.dtd">
 <reference id="glossAcronym" xml:lang="en-us">
   <title><xmlelement>glossAcronym</xmlelement></title>
-  <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an acronym for the term
-    specified in the topic's <xmlelement>glossterm</xmlelement> element. An acronym typically is
-    composed of the initial letters of the components of the full form or from the syllables of the
-    full form to create a pronounceable combination of letters.</shortdesc>
+  <shortdesc>The <xmlelement>glossAcronym</xmlelement> element defines an acronym for the term <ph
+      rev="review-a-2024">that is</ph> specified in the <xmlelement>glossterm</xmlelement>
+    element.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,16 +24,6 @@
         text. See <xref href="abbreviated-form.dita"
           ><xmlelement>abbreviated-form</xmlelement></xref> for information on how the two elements
         interact.</p>
-      <note>An acronym in one language might not have an equivalent in another language. When
-        acronyms are first displayed, some languages will display the expanded form first followed
-        by the acronym in parenthesis, while other languages do the reverse. For some acronyms, a
-        translation might need to render both the original and the translated version of the
-        acronym. For all of these reasons, DITA allows an author or translator to control what is
-        presented to a reader by using the <xmlelement>glossSurfaceForm</xmlelement> element, which
-        will often accompany the <xmlelement>glossAcronym</xmlelement>. The <xref
-          href="abbreviated-form.dita"><xmlelement>abbreviated-form</xmlelement></xref> topic
-        contains information on how the <xmlelement>glossSurfaceForm</xmlelement> and
-          <xmlelement>glossAcronym</xmlelement> elements affect references to the term.</note>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

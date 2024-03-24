@@ -3,32 +3,18 @@
  "concept.dtd">
 <concept xml:lang="en-us" id="glossary-group-topic">
   <title>Glossary group</title>
-  <abstract>
-    <shortdesc>Glossary group topics enable the authoring of glossary entries in a single topic
-      document, rather than working with many individual glossary entry topic documents.</shortdesc>
-    <!--<shortdesc>The glossary group (<xmlelement>glossgroup</xmlelement>) topic enables authors to include one or more glossary entry (<xmlelement>glossentry</xmlelement>) topics in a single collection file, rather than authoring each glossary entry topic in a separate file. The glossary group topic is a specialization of concept.<draft-comment author="robander" audience="spec-editors" time="25 May 2021">Do we need an example here like in the other topics? Perhaps an example of a term with 2 senses, managed in one file?</draft-comment></shortdesc>-->
-  </abstract>
+  <shortdesc>Glossary group topics enable the authoring of glossary entries in a single topic
+    document, rather than working with many individual glossary entry topic documents.</shortdesc>
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
       <p>The glossary group topic type is primarily an authoring convenience where it is useful to
-        author and manage multiple glossary entries in a single file.</p>
-      <p>Note that it is possible to create separate topicrefs, such as
-        <xmlelement>glossref</xmlelement>, for individual glossary entry topics within a glossary
-        group topic, for example:<codeblock id="codeblock_dyt_3bx_czb">&lt;map>
-  ...
-  &lt;topicref keys="glossary" href="glossary/glossary-group.dita">
-    <b>&lt;glossref keys="term-01" href="glossary/glossary-group.dita#term-01"/></b>
-    &lt;glossref keys="term-02" href="glossary/glossary-group.dita#term-02"/>
-    ...
-    &lt;glossref keys="term-99" href="glossary/glossary-group.dita#term-99"/>
-  &lt;/topicref>
-&lt;/map></codeblock></p>
+        author and manage multiple glossary entries in a single <ph rev="review-a-2024"
+          >document</ph>.</p>
     </section>
     <section id="content-model">
       <title>Content model</title>
-      <p>A glossary group topic has a required title, an optional prolog, and zero or more
-        <xmlelement>glossentry</xmlelement> or <xmlelement>glossgroup</xmlelement> elements.</p>
+      <p rev="review-a-2024">A glossary group topic can contain glossary entry topics.</p>
     </section>
     <example>
       <title>Example</title>

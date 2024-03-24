@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="localization-and-the-abbreviated-form-element">
+    <title>Localization and the<xmlelement>abbreviated-form</xmlelement> element</title>
+    <shortdesc>Implementations that choose to use the <xmlelement>abbreviated-form</xmlelement> need
+        to consider the effect on translation.</shortdesc>
+    <conbody>
+        <section>
+            <title>Design of the specialization</title>
+            <p>The <xmlelement>glossAcronym</xmlelement> and
+                    <xmlelement>glossSurfaceForm</xmlelement> elements were designed to accommodate
+                the following realities:</p>
+            <dl>
+                <dlentry>
+                    <dt>Acronyms do not exist in all languages</dt>
+                    <dd>
+                        <p>An acronym in one language might not have an equivalent in another
+                            language. In addition, languages have varying conventions for how an
+                            expanded form of a term is displayed. When acronyms are first displayed,
+                            some languages will display the expanded form followed by the acronym in
+                            parenthesis, while other languages do the reverse. For some acronyms, a
+                            translation might need to render both the original and the translated
+                            version of the acronym. The <xmlelement>glossSurfaceForm</xmlelement>
+                            enables authors and translators to present a locale-appropriate expanded
+                            form to the reader.</p>
+                        <p>If a language does not have a acronym for a term, the translation of a
+                            glossary entry topic might result in an empty
+                                <xmlelement>glossAcronym</xmlelement> element.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Synonyms</dt>
+                    <dd>Synonyms are specific to languages, so translation of a glossary entry topic
+                        might result in empty <xmlelement>glossSynonym</xmlelement> elements.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section>
+            <title>Translation quality issues</title>
+            <p>The use of <xmlelement>abbreviated-form</xmlelement> elements might have a negative
+                effect on the quality and cost of the translation.</p>
+            <ul>
+                <li>Most translation tools do not resolve key references. Accordingly, translators
+                    might need to reference supplementary materials in order to understand the
+                    content that they are working with.</li>
+                <li>Because many non-English languages vary articles based on gender and case, a
+                    simple programmatic insertion of an expanded form or acronym might yield
+                    translations that are ungrammatical and awkward.</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

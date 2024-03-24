@@ -3,8 +3,8 @@
 <concept id="rendering-of-abbreviated-form-elements">
     <title>Rendering of <xmlelement>abbreviated-form</xmlelement>
     elements</title>
-    <shortdesc>There are specific rules that specify how processors should
-    render <xmlelement>abbreviated-form</xmlelement> elements.</shortdesc>
+    <shortdesc rev="review-a-2024">The <xmlelement>abbreviated-form</xmlelement> element is designed
+    to work with glossary entry topics in specific ways.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -14,61 +14,42 @@
     </metadata>
   </prolog>
     <conbody>
-    <draft-comment author="Kristen J Eberlein" time="15 August 2023">
-      <p>I have a LOT of problems with these normative SHOULD
-        statements:</p>
-      <ul>
-        <li>How can we have normative rules when the whole idea of
-          introductory and non-introductory context is so entirely
-          subjective?</li>
-        <li>If we compare these to the normative rules for key text
-          resolution that are specified in the base spec, we are in
-          trouble. The base rules suggest that the title of the glossary
-          entry topic is what should be used ... See <xref
-            href="https://dita-lang.org/dita/archspec/base/processing-keyref-for-text"
-            format="html" scope="external">Processing key references to
-            generate text or link text</xref>.</li>
-      </ul>
-    </draft-comment>
-    <p>Note that the definition of "introductory context" will vary based
-      on the processor and output format.</p>
+    <div rev="review-a-2024">
+      <p>Consider the following scenario:</p>
+      <p>A DITA publication contains several instances of <xmlelement>abbreviated-form</xmlelement>
+        elements. Each <xmlelement>abbreviated-form</xmlelement> element references the same DITA
+        topic.</p>
+      <p>The design intent is that processors use the following logic:</p>
+    </div>
     <ol>
       <li>If the referenced topic is not a
           <xmlelement>glossentry</xmlelement> topic or a specialization of
           <xmlelement>glossentry</xmlelement>, the title of the topic <term
           outputclass="RFC-2119">SHOULD</term> be rendered.</li>
-      <li>If the referenced topic is a <xmlelement>glossentry</xmlelement>
-        topic or a specialization of <xmlelement>glossentry</xmlelement>
-        and the <xmlelement>abbreviated-form</xmlelement> element is
-        located in an introductory context:<ul>
-          <li>(If the referenced topic contains a non-empty
-              <xmlelement>glossSurfaceForm</xmlelement> element) Processors
-              <term outputclass="RFC-2119">SHOULD</term> render the
-            contents of the <xmlelement>glossSurfaceForm</xmlelement>
-            element</li>
-          <li>(If the referenced topic does not contain a
-              non-empty<xmlelement>glossSurfaceForm</xmlelement> element)
-            Processors <term outputclass="RFC-2119">SHOULD</term> render
-            the contents of the <xmlelement>glossterm</xmlelement> element
-          </li>
-        </ul></li>
-      <li>If the referenced topic is a <xmlelement>glossentry</xmlelement>
-        topic or a specialization of <xmlelement>glossentry</xmlelement>
-        and the <xmlelement>abbreviated-form</xmlelement> element is
-        located in a non-introductory context:<ul>
-          <li>(If the referenced topic contains a non-empty
-              <xmlelement>glossAcronym</xmlelement> element) Processors
-              <term outputclass="RFC-2119">SHOULD</term> render the
-            abbreviated form of the term by displaying the contents of the
-              <xmlelement>glossAcronym</xmlelement> element.</li>
-          <li>(If the reference topic does not contain a non-empty
-              <xmlelement>glossAcronym</xmlelement> element) Processors
-              <term outputclass="RFC-2119">SHOULD</term> render the
-            contents of the <xmlelement>glossterm</xmlelement> element</li>
-        </ul></li>
+      <li>
+        <p>If the referenced topic is a <xmlelement>glossentry</xmlelement> topic or a
+          specialization of <xmlelement>glossentry</xmlelement>, processors <term
+            outputclass="RFC-2119">SHOULD</term> render <ph rev="review-a-2024">the
+              <xmlelement>abbreviated-form</xmlelement> element in the following ways:</ph></p>
+        <simpletable relcolwidth="1.0* 3.0*" keycol="1">
+          <strow>
+            <stentry>First usage</stentry>
+            <stentry>Render the contents of the <xmlelement>glossSurfaceForm</xmlelement> elements,
+              if it is not empty. If the <xmlelement>glossSurfaceForm</xmlelement> is empty or does
+              not exist, render the contents of the <xmlelement>glossterm</xmlelement>
+              element.</stentry>
+          </strow>
+          <strow>
+            <stentry>Second and later usage</stentry>
+            <stentry>Render the contents of the <xmlelement>glossAcronym</xmlelement> elements, if
+              it is not empty. If the <xmlelement rev="review-a-2024">glossAcronym</xmlelement> is
+              empty or does not exist, render the contents of the <xmlelement>glossterm</xmlelement>
+              element.</stentry>
+          </strow>
+        </simpletable>
+      </li>
     </ol>
-    <draft-comment author="Kristen J Eberlein" time="15 August 2023">
-      <p>The rendering looks dreadful in PDF format ...</p>
-    </draft-comment>
+    <p>For an example, see the <xref keyref="elements-abbreviated-form/example">examples</xref>in
+      the element-reference topic for the <xmlelement>abbreviated-form</xmlelement> element.</p>
   </conbody>
 </concept>

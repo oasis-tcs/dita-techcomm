@@ -4,8 +4,8 @@
 <reference id="glossSynonym" xml:lang="en-us">
 <title><xmlelement>glossSynonym</xmlelement></title>
 <shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a term that is a synonym of
-    the term specified by the topic's <xmlelement>glossterm</xmlelement> element, but that is not an
-    acronym, abbreviation, or short form.</shortdesc>
+    the term <ph rev="review-a-2024">that is</ph> specified by the
+      <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>synonyms</indexterm></indexterm>
@@ -15,9 +15,17 @@
 <refbody>
       <section id="usage-information">
       <title>Usage information</title>
-      <note>A list of synonyms is specific to the language, so translation of a
-          <xmlelement>glossentry</xmlelement> topic might result in empty
-          <xmlelement>glossSynonym</xmlelement> elements.</note>
+      <p>The <xmlelement>glossSynonym</xmlelement> element should not be used to specify an acronym;
+        use the <xmlelement>glossAcronym</xmlelement> element for that purpose.</p>
+      <draft-comment author="Kristen James Eberlein" time="24 March 2024">
+        <p>Eliot Kimber made the following comment in the (1st) Content Fusion review:</p>
+        <p>"I think this element is the answer to Dawn's question about
+            <xmlelement>glossAlternateFor</xmlelement>not applying to the entire glossary
+          definition. This element serves that role and, because it allows both
+            <xmlelement>term</xmlelement> and <xmlelement>keyword</xmlelement>, can be a link to the
+          glossary entry of the synonym term.</p>
+        <p>Do we want to provide an example of this?</p>
+      </draft-comment>
     </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>

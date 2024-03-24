@@ -2,12 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="glossaryArch" xml:lang="en-us">
   <title>Glossary entry</title>
-  <abstract>
-    <shortdesc>A glossary entry topic defines a single meaning of a term.
-      It also can provide information such as part of speech, acronyms, and
-      acronym expansions.</shortdesc>
-    <!--<shortdesc>Each glossary entry <xmlelement>glossentry</xmlelement> topic defines a single sense of one term. Besides identifying the term and providing a definition, the topic accommodates basic terminology information such as part of speech. A glossentry topic might also include acronyms and acronym expansions. Glossentry topics can be assembled by authors or processes to create glossaries for various purposes, including books, websites, or other projects.<draft-comment author="robander" audience="spec-editors" time="25 may 2021">I think I'm being picky but "including books, websites, or other projects" does not seem to add anything to this already-long shortdesc.</draft-comment></shortdesc>-->
-  </abstract>
+  <shortdesc>A glossary entry topic defines a single meaning of a term. It also can provide
+    information such as acronyms.</shortdesc>
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
@@ -15,36 +11,56 @@
       <ul>
         <li>They ensure that a team of writers can use the same
           terminology.</li>
-        <li>They make it possible to create glossaries that can be use to
-          provide readers with definitions of terms and explanations about
-          acronyms.</li>
+        <li>They <ph rev="review-a-2024">can be used to create glossaries that provide readers with
+            definitions of terms and acronyms.</ph></li>
+        <li rev="review-a-2024">They can be used, in conjunction with the
+            <xmlelement>abbreviated-form</xmlelement> element, to enable processors to specify an
+          acronym on second and later uses of a term.</li>
       </ul>
     </section>
-    <!--<section><title>The purpose of the glossary entry topic</title><p>Defining terminology in a glossary ensures that a team of writers uses the same term for the same concept. A glossary added to a book or available online in conjunction with other subject matter provides the reader with definitions of unfamiliar terms and expands acronyms.</p></section>-->
     <section id="content-model">
       <title>Content model</title>
       <p>Each glossary entry topic contains the following structures:</p>
       <ul>
-        <li>Term</li>
-        <li>Definition of term</li>
-        <li importance="optional">Glossary body (which can contain
-          acronyms and surface terms)</li>
-        <li importance="optional">Related links</li>
+        <li>Term: <xref keyref="elements-glossterm" rev="review-a-2024"
+              ><xmlelement>glossterm</xmlelement></xref></li>
+        <li>Definition of term: <xref keyref="elements-glossdef" rev="review-a-2024"
+              ><xmlelement>glossdef</xmlelement></xref></li>
+        <li importance="optional">Glossary body: <xref keyref="elements-glossBody"
+            rev="review-a-2024"><xmlelement>glossBody</xmlelement></xref></li>
       </ul>
     </section>
-    <!--<section id="structure"><title>The structure of the glossentry topic</title><p>The top-level element for a DITA glossentry topic is the <xmlelement>glossentry</xmlelement> element. Every glossentry topic contains a <xmlelement>glossterm</xmlelement> and a <xmlelement>glossdef</xmlelement> element and optional <xmlelement>related-links</xmlelement>.</p></section>-->
-    <!--<section id="acronyms"><title>Acronyms defined within glossentry topics</title><p>The glossentry topic can be used to provide expansions of acronyms in online text and assist in the proper translation of acronyms into multiple languages. The acronym elements of the glossentry topic include the following:<ul><li><xmlelement>glossterm</xmlelement> specifies the full term to which the acronym refers.</li><li><xmlelement>glossSurfaceForm</xmlelement> specifies the appropriate rendering of the full term plus the acronym.</li><li><xmlelement>glossAcronym</xmlelement> specifies the acronym for the term.</li></ul></p><draft-comment author="robander" audience="spec-editors" time="25 may 2021">As in a bookmap, should decide whether we want to start with "Here is..."<p>Also we should be able to come up with an example that is not WMDs. Maybe just use the EU example (we already have the Polish example here), and leave the "translation without acronym" example to a note or comment?</p></draft-comment></section>-->
     <example>
-      <title>Example</title>
-      <p>The following code sample contains a simple glossentry topic:</p>
-      <codeblock>&lt;glossentry id="ddl">
+      <title>Examples</title>
+      <p>This section contains examples of glossary entry topics.</p>
+      <fig>
+        <title>Simple glossary entry topic</title>
+        <p>The following code sample contains a simple glossary entry topic:</p>
+        <codeblock>&lt;glossentry id="ddl">
   &lt;glossterm>data definition language&lt;/glossterm>
   &lt;glossdef>A language used for defining database schemas&lt;/glossdef>
 &lt;/glossentry></codeblock>
-      <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>This should have a glossbody that specifies an acronym and a
-          surface term. Also related links.</p>
-      </draft-comment>
+      </fig>
+      <fig rev="review-a-2024">
+        <title>Glossary entry topic used for acronym and acronym expansion</title>
+        <p>The following code sample contains a glossary entry topic that is used, in conjunction
+          with an <xmlelement>abbreviated-form</xmlelement> element, to render the expanded form on
+          first usage and the acronym on later usages.</p>
+        <codeblock>&lt;glossentry id="glossary-aids">
+  &lt;glossterm>acquired immunodeficiency syndrome&lt;/glossterm>
+    &lt;glossBody>
+      &lt;glossSurfaceForm>acquired immunodeficiency syndrome (AIDS)&lt;/glossSurfaceForm>
+      &lt;glossAlt>
+        &lt;glossAcronym>AIDS&lt;/glossAcronym>
+      &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/hecsGlossentry></codeblock>
+        <p>Assume that a key-definition map specifies a value of <keyword>aids</keyword> for this
+          glossary entry topic. On the first usage of <codeph>&lt;abbreviated-form
+            keyref="aids"/></codeph>, the processor renders the content of the
+            <xmlelement>glossSurfaceForm</xmlelement> element. On the second and later usages, the
+          processor renders the content of the <xmlelement>glossAcronum</xmlelement> element.</p>
+      </fig>
     </example>
   </conbody>
 </concept>
