@@ -4,8 +4,8 @@
 <reference id="glossSymbol" xml:lang="en-us">
 <title><xmlelement>glossSymbol</xmlelement></title>
 <shortdesc>The <xmlelement>glossSymbol</xmlelement> element identifies a standard image that is
-    associated with the subject of the term specified by <xmlelement>glossterm</xmlelement>
-    element.</shortdesc>
+    associated with the subject of the term <ph rev="review-a-2024">that is</ph> specified by
+      <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>images</indexterm></indexterm>

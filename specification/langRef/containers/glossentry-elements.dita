@@ -2,13 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossary2" xml:lang="en-us">
   <title>Glossary entry elements</title>
-  <abstract>
-    <shortdesc>The glossary entry specialization contains markup that supports terminological
-      information. In addition to recording information for glossaries, it can be used for other
-      purposes such as inclusion in a terminology database, extraction for pre-translation, reuse in
-      controlled authoring applications, and recording information that may be later retrieved for
-      other lexical resources.</shortdesc>
-  </abstract>
+  <shortdesc rev="review-a-2024">The glossary entry specialization contains markup that supports the
+    development and delivery of glossaries. It also can be used in conjunction with the
+    abbreviated-form domain to provide a solution for rendering different forms of a term on first
+    and later usage in a publication.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,4 +14,3 @@
     </metadata>
   </prolog>
 </reference>
-<?oxy_options track_changes="on"?>
