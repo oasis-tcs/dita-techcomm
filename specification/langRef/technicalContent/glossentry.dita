@@ -18,11 +18,11 @@
     <section id="rendering-expectations">
       <title>Rendering expectations</title>
       <p>Because the glossary entry specialization is designed for <ph rev="review-a-2024">multiple
-          purposes</ph>, it contains elements that are not intended to be rendered when a glossary
-        is generated. In addition, when a collection of glossary entry topics <ph
-          rev="review-a-2024">is</ph> rendered as <ph rev="review-a-2024">authoring guidance</ph>,
-        generated text might be required for ease of reading. Specialized style sheets and
-        processing are needed to ensure useful output.</p>
+          purposes</ph>, it contains elements that <ph rev="review-a-2024">typically</ph> are not
+        intended to be rendered when a glossary is generated. In addition, when a collection of
+        glossary entry topics <ph rev="review-a-2024">is</ph> rendered as <ph rev="review-a-2024"
+          >authoring guidance</ph>, generated text might be required for ease of reading.
+        Specialized style sheets and processing are needed to ensure useful output.</p>
     </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
@@ -30,12 +30,12 @@
         will depend on the output format.</p>
       <p rev="review-a-2024">For HTML-based output formats, one possible implementation of glossary
         entry topics is to generate hyperlinks for <xmlelement>term</xmlelement> element that are
-        associated by key reference with the glossary entry topic. The term definition is displayed
-        when someone hovers over or clicks on the hyperlink.</p>
+        associated by key reference with the glossary entry topic. The term definition might be
+        displayed when someone hovers over or clicks on the hyperlink.</p>
       <p rev="review-a-2024">For PDF output, one possible implementation of glossary entry topics is
         to render acronyms or expanded acronyms for <xmlelement>abbreviated-form</xmlelement>
         elements that are associated by key reference with the glossary entry topics. The surface
-        form is rendered on first usage, and the acronym is rendered on 2nd or later usage.</p>
+        form is rendered on first usage, and the acronym is rendered on second or later usage.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

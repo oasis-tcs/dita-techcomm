@@ -4,17 +4,17 @@
 <concept xml:lang="en-us" id="glossary-group-topic">
   <title>Glossary group</title>
   <shortdesc>Glossary group topics enable the authoring of glossary entries in a single topic
-    document, rather than working with many individual glossary entry topic documents.</shortdesc>
+    document, rather than working with many individual glossary-entry topic documents.</shortdesc>
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
-      <p>The glossary group topic type is primarily an authoring convenience where it is useful to
-        author and manage multiple glossary entries in a single <ph rev="review-a-2024"
+      <p>The glossary group topic serves as an authoring convenience. It enables people to author
+        and manage multiple glossary-entry topics in a single DITA <ph rev="review-a-2024"
           >document</ph>.</p>
     </section>
     <section id="content-model">
       <title>Content model</title>
-      <p rev="review-a-2024">A glossary group topic can contain glossary entry topics.</p>
+      <p rev="review-a-2024">A glossary group topic can contain multiple glossary-entry topics.</p>
     </section>
     <example>
       <title>Example</title>

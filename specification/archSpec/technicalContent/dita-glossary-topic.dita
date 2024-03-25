@@ -3,7 +3,7 @@
 <concept id="glossaryArch" xml:lang="en-us">
   <title>Glossary entry</title>
   <shortdesc>A glossary entry topic defines a single meaning of a term. It also can provide
-    information such as acronyms.</shortdesc>
+    information <ph rev="review-a-2024">such as acronyms and synonyms.</ph></shortdesc>
   <conbody>
     <section id="purpose">
       <title>Purpose</title>
