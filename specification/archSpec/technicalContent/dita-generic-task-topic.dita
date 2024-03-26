@@ -22,7 +22,7 @@
                     ><xmlelement>prerequisites</xmlelement></xref></li>
               <li>Contextual information: <xref keyref="elements-context"
                     ><xmlelement>context</xmlelement></xref></li>
-              <li>Sections: <xmlelement>sections</xmlelement></li>
+              <li>Sections: <xmlelement>section</xmlelement></li>
             </ul>
             <p>These sections are all optional. They can appear in any
               order and can occur multiple times.</p></dd>

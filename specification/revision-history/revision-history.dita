@@ -132,6 +132,13 @@
             <li>Draft comments from Dawn Stevens in glossary content</li>
           </ul></stentry>
       </strow>
+            <strow>
+                <stentry>18</stentry>
+                <stentry>26 March 2024</stentry>
+                <stentry>Kristen James Eberlein</stentry>
+                <stentry>Contains content updated as part of review of "Glossary entry elements and
+                        <xmlelement>abbreviated-form</xmlelement></stentry>
+            </strow>
         </simpletable>
     </refbody>
 </reference>

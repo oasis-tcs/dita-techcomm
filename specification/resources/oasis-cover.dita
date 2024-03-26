@@ -16,10 +16,7 @@
     <section platform="dita-tc-publishing" id="section-3">
       <title>Latest version</title>
       <!--<sl><sli> <xref keyref="oasis-latest-version-html"/> (Authoritative version) </sli><sli><xref keyref="oasis-latest-version-pdf"/></sli></sl>-->
-      <p>You can find the latest version of the draft DITA for Technical
-        Content 2.0 specification in the OASIS document repository. Go to
-        https://www.oasis-open.org/apps/org/workgroup/dita/download.php/70904/latest
-        , and scroll down the page and check for a new revision.</p>
+      <p>N/A</p>
     </section>
     <section conkeyref="reuse-cover/technical-committee"
       ><title/><p/></section>
