@@ -21,34 +21,27 @@
         topic.</p>
       <p>The design intent is that processors use the following logic:</p>
     </div>
-    <ol>
-      <li>If the referenced topic is not a
-          <xmlelement>glossentry</xmlelement> topic or a specialization of
-          <xmlelement>glossentry</xmlelement>, the title of the topic <term
-          outputclass="RFC-2119">SHOULD</term> be rendered.</li>
-      <li>
-        <p>If the referenced topic is a <xmlelement>glossentry</xmlelement> topic or a
-          specialization of <xmlelement>glossentry</xmlelement>, processors <term
-            outputclass="RFC-2119">SHOULD</term> render <ph rev="review-a-2024">the
-              <xmlelement>abbreviated-form</xmlelement> element in the following ways:</ph></p>
-        <simpletable relcolwidth="1.0* 3.0*" keycol="1">
-          <strow>
-            <stentry>First usage</stentry>
-            <stentry>Render the contents of the <xmlelement>glossSurfaceForm</xmlelement> elements,
-              if it is not empty. If the <xmlelement>glossSurfaceForm</xmlelement> is empty or does
-              not exist, render the contents of the <xmlelement>glossterm</xmlelement>
-              element.</stentry>
-          </strow>
-          <strow>
-            <stentry>Second and later usage</stentry>
-            <stentry>Render the contents of the <xmlelement>glossAcronym</xmlelement> elements, if
-              it is not empty. If the <xmlelement rev="review-a-2024">glossAcronym</xmlelement> is
-              empty or does not exist, render the contents of the <xmlelement>glossterm</xmlelement>
-              element.</stentry>
-          </strow>
-        </simpletable>
-      </li>
-    </ol>
+    <p>If the referenced topic is not a <xmlelement>glossentry</xmlelement> topic or a
+      specialization of <xmlelement>glossentry</xmlelement>, the title of the topic <term
+        outputclass="RFC-2119">SHOULD</term> be rendered.</p>
+    <p>If the referenced topic is a <xmlelement>glossentry</xmlelement> topic or a specialization of
+        <xmlelement>glossentry</xmlelement>, processors <term outputclass="RFC-2119">SHOULD</term>
+      render <ph rev="review-a-2024">the <xmlelement>abbreviated-form</xmlelement> element in the
+        following ways:</ph></p>
+    <dl>
+      <dlentry>
+        <dt>First usage</dt>
+        <dd>Render the contents of the <xmlelement>glossSurfaceForm</xmlelement> elements, if it is
+          not empty. If the <xmlelement>glossSurfaceForm</xmlelement> is empty or does not exist,
+          render the contents of the <xmlelement>glossterm</xmlelement> element.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Second and later usage</dt>
+        <dd>Render the contents of the <xmlelement>glossAcronym</xmlelement> elements, if it is not
+          empty. If the <xmlelement rev="review-a-2024">glossAcronym</xmlelement> is empty or does
+          not exist, render the contents of the <xmlelement>glossterm</xmlelement> element.</dd>
+      </dlentry>
+    </dl>
     <p>For an example, see the <xref keyref="elements-abbreviated-form/example">examples</xref> in
       the element-reference topic for the <xmlelement>abbreviated-form</xmlelement> element.</p>
   </conbody>
