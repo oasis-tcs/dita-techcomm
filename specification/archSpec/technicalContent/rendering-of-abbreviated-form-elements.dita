@@ -15,34 +15,33 @@
   </prolog>
     <conbody>
     <div rev="review-a-2024">
-      <p>Consider the following scenario:</p>
-      <p>A DITA publication contains several instances of <xmlelement>abbreviated-form</xmlelement>
-        elements. Each <xmlelement>abbreviated-form</xmlelement> element references the same DITA
-        topic.</p>
+      <!--<p>Consider the following scenario:</p><p>A DITA publication contains several instances of <xmlelement>abbreviated-form</xmlelement> elements. Each <xmlelement>abbreviated-form</xmlelement> element references the same DITA topic.</p>-->
       <p>The design intent is that processors use the following logic:</p>
     </div>
-    <p>If the referenced topic is not a <xmlelement>glossentry</xmlelement> topic or a
-      specialization of <xmlelement>glossentry</xmlelement>, the title of the topic <term
+    <p>When a processor encounters an <xmlelement>abbreviated-form</xmlelement> element that
+      references a DITA topic, if the referenced topic is not a <xmlelement>glossentry</xmlelement>
+      topic or a specialization of <xmlelement>glossentry</xmlelement>, the title of the topic <term
         outputclass="RFC-2119">SHOULD</term> be rendered.</p>
-    <p>If the referenced topic is a <xmlelement>glossentry</xmlelement> topic or a specialization of
-        <xmlelement>glossentry</xmlelement>, processors <term outputclass="RFC-2119">SHOULD</term>
-      render <ph rev="review-a-2024">the <xmlelement>abbreviated-form</xmlelement> element in the
-        following ways:</ph></p>
-    <dl>
-      <dlentry>
-        <dt>First usage</dt>
-        <dd>Render the contents of the <xmlelement>glossSurfaceForm</xmlelement> elements, if it is
-          not empty. If the <xmlelement>glossSurfaceForm</xmlelement> is empty or does not exist,
-          render the contents of the <xmlelement>glossterm</xmlelement> element.</dd>
-      </dlentry>
-      <dlentry>
-        <dt>Second and later usage</dt>
-        <dd>Render the contents of the <xmlelement>glossAcronym</xmlelement> elements, if it is not
-          empty. If the <xmlelement rev="review-a-2024">glossAcronym</xmlelement> is empty or does
-          not exist, render the contents of the <xmlelement>glossterm</xmlelement> element.</dd>
-      </dlentry>
-    </dl>
-    <p>For an example, see the <xref keyref="elements-abbreviated-form/example">examples</xref> in
-      the element-reference topic for the <xmlelement>abbreviated-form</xmlelement> element.</p>
+    <p>When a processor encounters an <xmlelement>abbreviated-form</xmlelement> element that
+      references a DITA topic, if the referenced topic is a <xmlelement>glossentry</xmlelement>
+      topic or a specialization of <xmlelement>glossentry</xmlelement>, processors <term
+        outputclass="RFC-2119">SHOULD</term> render <ph rev="review-a-2024">the
+          <xmlelement>abbreviated-form</xmlelement> element in the following ways:</ph><dl>
+        <dlentry>
+          <dt>First usage</dt>
+          <dd>Render the contents of the <xmlelement>glossSurfaceForm</xmlelement> elements, if it
+            is not empty. If the <xmlelement>glossSurfaceForm</xmlelement> is empty or does not
+            exist, render the contents of the <xmlelement>glossterm</xmlelement> element.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Second and later usage</dt>
+          <dd>Render the contents of the <xmlelement>glossAcronym</xmlelement> elements, if it is
+            not empty. If the <xmlelement rev="review-a-2024">glossAcronym</xmlelement> is empty or
+            does not exist, render the contents of the <xmlelement>glossterm</xmlelement>
+            element.</dd>
+        </dlentry>
+      </dl></p>
+    <p>See the <xref keyref="elements-abbreviated-form/example">examples</xref> in the
+      element-reference topic for the <xmlelement>abbreviated-form</xmlelement> element.</p>
   </conbody>
 </concept>
