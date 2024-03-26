@@ -35,6 +35,14 @@
             <alt-text>◄</alt-text>
         </endflag>-->
     </revprop>
+    <revprop action="flag" color="red" val="review-a-2024">
+        <!--        <startflag>
+            <alt-text>►</alt-text>
+        </startflag>
+        <endflag>
+            <alt-text>◄</alt-text>
+        </endflag>-->
+    </revprop>
     <revprop action="flag" color="red" val="review-b">
         <!--        <startflag>
             <alt-text>►</alt-text>
