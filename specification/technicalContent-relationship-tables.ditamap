@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
 <map>
  <title>Relationship tables: Technical content specification</title>
  <reltable>
@@ -15,7 +15,7 @@
    <relcell/>
   </relrow>
  </reltable>
- <reltable title="2-way links">
+ <reltable>
   <relheader>
    <relcolspec/>
    <relcolspec/>
