@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference
-  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="appendix" xml:lang="en-us">
   <title><xmlelement>appendix</xmlelement></title>
   <shortdesc>An <xmlelement>appendix</xmlelement> element references a

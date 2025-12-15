@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="chhead" xml:lang="en-us"><title><xmlelement>chhead</xmlelement></title><shortdesc>The <xmlelement>chhead</xmlelement> element contains <ph
       rev="review-a">elements that provide labels</ph> for <ph
       rev="review-a">the columns in</ph> a choice table.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>chhead</xmlelement></indexterm>

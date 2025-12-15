@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="filepath" xml:lang="en-us">
   <title><xmlelement>filepath</xmlelement></title>
   <shortdesc rev="review-c">A file path is the location of a resource, such as the system path and

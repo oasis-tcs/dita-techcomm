@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="postreq" xml:lang="en-us"><title><xmlelement>postreq</xmlelement></title><shortdesc>Post-requisites are steps or tasks that <ph rev="review-a"
       >people might</ph> need to perform after completing the current
     task.</shortdesc><prolog><metadata><keywords><indexterm><xmlelement>postreq</xmlelement></indexterm><indexterm>task elements<indexterm><xmlelement>postreq</xmlelement></indexterm></indexterm></keywords></metadata></prolog><refbody>

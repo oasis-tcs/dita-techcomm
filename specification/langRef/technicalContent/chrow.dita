@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="chrow" xml:lang="en-us"><title><xmlelement>chrow</xmlelement></title>
   <shortdesc>The <xmlelement>chrow</xmlelement> element represents a row in a choice table. It
     contains a pair of elements: <xmlelement>choption</xmlelement> and

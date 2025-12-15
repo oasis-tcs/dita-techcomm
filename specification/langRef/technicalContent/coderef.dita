@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="coderef" xml:lang="en-us">
   <title><xmlelement>coderef</xmlelement></title>
   <shortdesc rev="review-c">A code reference is the mechanism for referencing an external text file

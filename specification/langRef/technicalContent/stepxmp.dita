@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="stepxmp" xml:lang="en-us">
 <title><xmlelement>stepxmp</xmlelement></title>
 <shortdesc><ph rev="review-a">A step example</ph> illustrates how a step is

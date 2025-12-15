@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="glossdef" xml:lang="en-us">
 <title><xmlelement>glossdef</xmlelement></title>
 <shortdesc>The <xmlelement>glossdef</xmlelement> element defines the meaning of the term <ph

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="booklists" xml:lang="en-us">
     <title><xmlelement>booklists</xmlelement></title>
     <shortdesc>The <xmlelement>booklists</xmlelement> element is a container for lists of various

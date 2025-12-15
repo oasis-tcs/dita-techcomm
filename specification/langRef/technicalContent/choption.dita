@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="choption" xml:lang="en-us"><title><xmlelement>choption</xmlelement></title><shortdesc>The <xmlelement>choption</xmlelement> element contains the
     content of the first cell in a choice table row. This content <ph
       rev="review-a">labels</ph> the option that <ph rev="review-a"

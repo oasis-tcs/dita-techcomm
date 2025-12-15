@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="wintitle" xml:lang="en-us">
   <title><xmlelement>wintitle</xmlelement></title>
   <shortdesc rev="review-c">A window title is the name of a window or dialog.</shortdesc>

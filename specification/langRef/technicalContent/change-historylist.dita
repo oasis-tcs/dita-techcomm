@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="change-historylist" xml:lang="en-us">
   <title><xmlelement>change-historylist</xmlelement></title>
   <shortdesc>The <xmlelement>change-historylist</xmlelement> element
