@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="person" xml:lang="en-us">
   <title><xmlelement>person</xmlelement></title>
-  <shortdesc>The <xmlelement>person</xmlelement> element contains name of a person.</shortdesc>
+  <shortdesc>The <xmlelement>person</xmlelement> element contains the name of a person.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

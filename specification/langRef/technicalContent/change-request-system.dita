@@ -27,7 +27,7 @@
     <example id="example_ssp_qh5_lwb">
       <title>Example</title>
       <p>The following code sample shows how the <xmlelement>change-request-system</xmlelement>
-        element can be used to specify the the ticketing system that manages the change request:</p>
+        element can be used to specify the ticketing system that manages the change request:</p>
       <codeblock id="codeblock_xmr_thk_wwb">&lt;change-historylist>
     &lt;change-item product="productA productB">
       &lt;change-request-reference>
