@@ -38,17 +38,15 @@
         </dlentry>
         <dlentry>
           <dt>Post-instructions</dt>
-          <dd>The section of the topic can contain the following structural sections:<ol>
-              <li>Result: <xref keyref="elements-result"
-                    ><xmlelement>result</xmlelement></xref></li>
-              <li>Troubleshooting information: <xref
-                  keyref="elements-tasktroubleshooting"
+          <dd>This portion of the topic can contain the following structural sections:<ol>
+              <li>Result: <xref keyref="elements-result"><xmlelement>result</xmlelement></xref></li>
+              <li>Troubleshooting information: <xref keyref="elements-tasktroubleshooting"
                     ><xmlelement>tasktroubleshooting</xmlelement></xref></li>
               <li>Example: <xmlelement>example</xmlelement></li>
               <li><ph rev="review-a">What to do next</ph>: <xref keyref="elements-postreq"
                     ><xmlelement>postreq</xmlelement></xref></li>
-            </ol><p>These sections are all optional, but they must occur in
-              the outlined order.</p></dd>
+            </ol><p>These sections are all optional, but they must occur in the outlined
+            order.</p></dd>
         </dlentry>
       </dl>
     </section>

@@ -26,7 +26,7 @@
         publication:<codeblock xml:space="preserve" rev="review-k">
 &lt;bookmap>
   &lt;booktitle>
-    &lt;mainbooktitle>Developers guide to the widget&lt;/mainbooktitle>
+    &lt;mainbooktitle>Developer's guide to the widget&lt;/mainbooktitle>
   &lt;/booktitle>
   &lt;frontmatter>
     &lt;!-- TOC, preface, and other front matter -->
@@ -35,7 +35,7 @@
     &lt;!-- Introductory material about the widget -->
   &lt;/chapter>
   &lt;chapter href="extending.dita">
-    &lt;!-- How to extend the widget widget -->
+    &lt;!-- How to extend the widget -->
   &lt;/chapter>
   &lt;appendix href="intro.dita"&gt;
     &lt;topicref href="caring.dita"/&gt;

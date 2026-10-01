@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
 <concept id="SpecIntroTechnicalContent" xml:lang="en-us">
   <title>Introduction</title>
-  <shortdesc>The techncial content part of DITA models the semantics of
-    information types for technical content.</shortdesc>
+  <shortdesc>The technical content part of DITA models the semantics of information types for
+    technical content.</shortdesc>
   <conbody>
     <p>The technical content part of DITA adds the semantics of
       technical-content information-types to base DITA. This is done

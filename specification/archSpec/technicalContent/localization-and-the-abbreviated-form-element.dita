@@ -19,7 +19,7 @@
                             language. In addition, languages have varying conventions for how an
                             expanded form of a term is displayed. When acronyms are first displayed,
                             some languages will display the expanded form followed by the acronym in
-                            parenthesis, while other languages do the reverse. For some acronyms, a
+                            parentheses, while other languages do the reverse. For some acronyms, a
                             translation might need to render both the original and the translated
                             version of the acronym. The <xmlelement>glossSurfaceForm</xmlelement>
                             enables authors and translators to present a locale-appropriate expanded
