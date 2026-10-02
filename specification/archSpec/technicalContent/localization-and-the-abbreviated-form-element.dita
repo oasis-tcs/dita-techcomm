@@ -24,7 +24,7 @@
                             version of the acronym. The <xmlelement>glossSurfaceForm</xmlelement>
                             enables authors and translators to present a locale-appropriate expanded
                             form to the reader.</p>
-                        <p>If a language does not have a acronym for a term, the translation of a
+                        <p>If a language does not have an acronym for a term, the translation of a
                             glossary entry topic might result in an empty
                                 <xmlelement>glossAcronym</xmlelement> element.</p>
                     </dd>
