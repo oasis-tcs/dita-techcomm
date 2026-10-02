@@ -35,7 +35,7 @@
       <p><ph id="booklist-processing" rev="review-k">When a list element in the bookmap module uses
             <xmlatt>href</xmlatt> or <xmlatt>keyref</xmlatt> to reference a topic or map, the
           referenced content provides the list content. When the list element does not reference a
-          topic or map, a processor might generate a an appropriate list at the specified location
+          topic or map, a processor might generate an appropriate list at the specified location
           in the map.</ph></p>
     </section>
   </conbody>

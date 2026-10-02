@@ -27,7 +27,7 @@
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following example shows how the <xmlelement>maintainer</xmlelement> element can be used
-        identify the person that maintains the book:</p>
+        to identify the person that maintains the book:</p>
       <codeblock id="codeblock_tvs_dwh_ywb">&lt;bookmeta>
   &lt;bookid>
     &lt;isbn>123-0-456-12345-1&lt;/isbn>
