@@ -17,9 +17,9 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>Use <xmlelement>part</xmlelement> to divide a document's chapters into logical groupings.
-        For example, in a document that contains both guide and reference information, you can
+        <ph otherprops="examples">For example, in a document that contains both guide and reference information, you can
         define two parts, one containing the guide information and the other containing the
-        reference information.</p>
+        reference information.</ph></p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

@@ -10,11 +10,11 @@
       <title>Equation domain</title>
       <p id="processing-equations">When there are multiple forms of an
         equation, processors can choose the form or forms that they render.
-        For example, if there is both an image and MathML markup, an
+        <ph otherprops="examples">For example, if there is both an image and MathML markup, an
         HTML-generating processor could generate both the image reference
         and the MathML with appropriate HTML <xmlatt>class</xmlatt> or
           <xmlatt>id</xmlatt> values to enable dynamic rendering <ph
-          rev="review-i">that is</ph> based on browser capability.</p>
+          rev="review-i">that is</ph> based on browser capability.</ph></p>
     </section>
     <section>
       <title>Task labels</title>
