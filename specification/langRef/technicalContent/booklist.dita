@@ -20,8 +20,8 @@
             <title>Usage information</title>
             <p rev="review-k">The <xmlelement>booklist</xmlelement> element is a general purpose
                 element that references a topic or map containing a list of items within the book.
-                For example, it could be used to reference a topic that contains a list of authors
-                for the book. When a more specific element is already available, such as
+                <ph otherprops="examples">For example, it could be used to reference a topic that contains a list of authors
+                for the book.</ph> When a more specific element is already available, such as
                     <xmlelement>tablelist</xmlelement> for a list of tables, use that element
                 instead. If the element does not reference a topic or map, a processor might be able
                 to generate a list of items based on an <xmlatt>outputclass</xmlatt> or based on
